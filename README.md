@@ -48,10 +48,11 @@ then run ```carton```.
 
 The build.sh script can build everything:
 
+```
 ./build.sh perl        will build perl and install cpanm
 ./build.sh modules     will install all the modules
 ./build.sh test        will run a sanity check loading some of the modules we installed
 
 ./build.sh outdated    will list the distributions that have newer versions on CPAN.
-
+```
 
