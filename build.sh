@@ -43,7 +43,9 @@ case $1 in
     
     which perl
     perl -v
+    perl src/cpanm --local-lib=~/dwimperl-5.20.1-1-x86_64/perl/ --mirror file://home/dev/work/dwimperl-linux/local/cache/ App::cpanminus
   ;;
+
 
   modules)
     cpanm --installdeps .
