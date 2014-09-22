@@ -61,7 +61,7 @@ case $1 in
   ;;
 
   outdate)
-    $PREFIX_PERL/bin/cpan-outdated
+    $PREFIX_PERL/bin/cpan-outdated --verbose
   ;;
 
   *)
