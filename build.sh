@@ -29,5 +29,5 @@ cd $BUILD_HOME
 export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
 which perl
 perl -v
-
+prove
 

@@ -1,0 +1,8 @@
+branches:
+  except:
+    - gh-pages
+language: perl
+perl:
+  - "5.10"
+script:
+  ./build.sh
