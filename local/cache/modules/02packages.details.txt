@@ -4,20 +4,10 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   118
-Last-Updated: Mon Sep 22 11:20:27 2014
+Line-Count:   108
+Last-Updated: Mon Sep 22 12:31:28 2014
 
-HTML::Template                         2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::COND                   2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::DEFAULT                2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::ESCAPE                 2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::FAQ                   undef  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::JSESCAPE               2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::LOOP                   2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::NOOP                   2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::PRINTSCALAR            2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::URLESCAPE              2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
-HTML::Template::VAR                    2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template                        undef  W/WO/WONKO/HTML-Template-2.95.tar.gz
 Mojo                                  undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
 Mojo::Asset                           undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
 Mojo::Asset::File                     undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz

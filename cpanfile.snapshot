@@ -1,9 +1,49 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
+  App-cpanminus-1.7011
+    pathname: M/MI/MIYAGAWA/App-cpanminus-1.7011.tar.gz
+    provides:
+      App::cpanminus 1.7011
+    requirements:
+      ExtUtils::Install 1.46
+      ExtUtils::MakeMaker 6.58
+      Module::Build 0.38
+  CPAN-Meta-2.142060
+    pathname: D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+    provides:
+      CPAN::Meta 2.142060
+      CPAN::Meta::Converter 2.142060
+      CPAN::Meta::Feature 2.142060
+      CPAN::Meta::History 2.142060
+      CPAN::Meta::Merge 2.142060
+      CPAN::Meta::Prereqs 2.142060
+      CPAN::Meta::Spec 2.142060
+      CPAN::Meta::Validator 2.142060
+    requirements:
+      CPAN::Meta::Requirements 2.121
+      CPAN::Meta::YAML 0.008
+      Carp 0
+      ExtUtils::MakeMaker 6.17
+      JSON::PP 2.27200
+      Parse::CPAN::Meta 1.4414
+      Scalar::Util 0
+      strict 0
+      version 0.88
+      warnings 0
   HTML-Template-2.95
     pathname: W/WO/WONKO/HTML-Template-2.95.tar.gz
     provides:
-      HTML::Template undef
+      HTML::Template 2.95
+      HTML::Template::COND 2.95
+      HTML::Template::DEFAULT 2.95
+      HTML::Template::ESCAPE 2.95
+      HTML::Template::FAQ undef
+      HTML::Template::JSESCAPE 2.95
+      HTML::Template::LOOP 2.95
+      HTML::Template::NOOP 2.95
+      HTML::Template::PRINTSCALAR 2.95
+      HTML::Template::URLESCAPE 2.95
+      HTML::Template::VAR 2.95
     requirements:
       Carp 0
       Digest::MD5 0
@@ -12,6 +52,58 @@ DISTRIBUTIONS
       File::Temp 0
       Scalar::Util 0
       Test::More 0
+  Module-Build-0.4210
+    pathname: L/LE/LEONT/Module-Build-0.4210.tar.gz
+    provides:
+      Module::Build 0.4210
+      Module::Build::Base 0.4210
+      Module::Build::Compat 0.4210
+      Module::Build::Config 0.4210
+      Module::Build::Cookbook 0.4210
+      Module::Build::Dumper 0.4210
+      Module::Build::Notes 0.4210
+      Module::Build::PPMMaker 0.4210
+      Module::Build::Platform::Default 0.4210
+      Module::Build::Platform::MacOS 0.4210
+      Module::Build::Platform::Unix 0.4210
+      Module::Build::Platform::VMS 0.4210
+      Module::Build::Platform::VOS 0.4210
+      Module::Build::Platform::Windows 0.4210
+      Module::Build::Platform::aix 0.4210
+      Module::Build::Platform::cygwin 0.4210
+      Module::Build::Platform::darwin 0.4210
+      Module::Build::Platform::os2 0.4210
+      Module::Build::PodParser 0.4210
+      inc::latest 0.4210
+      inc::latest::private 0.4210
+    requirements:
+      CPAN::Meta 2.142060
+      CPAN::Meta::YAML 0.003
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::CBuilder 0.27
+      ExtUtils::Install 0
+      ExtUtils::Manifest 0
+      ExtUtils::Mkbootstrap 0
+      ExtUtils::ParseXS 2.21
+      File::Basename 0
+      File::Compare 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0.82
+      File::Temp 0.15
+      Getopt::Long 0
+      Module::Metadata 1.000002
+      Parse::CPAN::Meta 1.4401
+      Perl::OSType 1
+      Pod::Man 2.17
+      Test::Harness 3.16
+      Test::More 0.49
+      Text::Abbrev 0
+      Text::ParseWords 0
+      perl 5.008000
+      version 0.87
   Mojolicious-5.17
     pathname: J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
     provides:
@@ -125,3 +217,10 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.010001
+  local-lib-2.000014
+    pathname: H/HA/HAARG/local-lib-2.000014.tar.gz
+    provides:
+      lib::core::only undef
+      local::lib 2.000014
+    requirements:
+      perl 5.006
