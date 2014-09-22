@@ -194,6 +194,13 @@ DISTRIBUTIONS
       CGI::Deurl::XS 0.07
     requirements:
       ExtUtils::MakeMaker 0
+  CPAN-DistnameInfo-0.12
+    pathname: G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
+    provides:
+      CPAN::DistnameInfo 0.12
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   CPAN-Meta-2.142060
     pathname: D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
     provides:
@@ -2094,8 +2101,20 @@ DISTRIBUTIONS
     provides:
       Module::Runtime 0.014
     requirements:
-  Mojolicious-5.17
-    pathname: J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
+  Module-Version-0.12
+    pathname: X/XS/XSAWYERX/Module-Version-0.12.tar.gz
+    provides:
+      Module::Version 0.12
+      Module::Version::App 0.05
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.56
+      Getopt::Long 0
+      Test::More 0
+      autodie 0
+  Mojolicious-5.43
+    pathname: S/SR/SRI/Mojolicious-5.43.tar.gz
     provides:
       Mojo undef
       Mojo::Asset undef
@@ -2158,7 +2177,7 @@ DISTRIBUTIONS
       Mojo::UserAgent::Server undef
       Mojo::UserAgent::Transactor undef
       Mojo::Util undef
-      Mojolicious 5.17
+      Mojolicious 5.43
       Mojolicious::Command undef
       Mojolicious::Command::cgi undef
       Mojolicious::Command::cpanify undef
@@ -2206,7 +2225,8 @@ DISTRIBUTIONS
       ojo undef
     requirements:
       ExtUtils::MakeMaker 0
-      perl 5.010001
+      Pod::Simple 3.09
+      Time::Local 1.2
   Moo-1.006000
     pathname: H/HA/HAARG/Moo-1.006000.tar.gz
     provides:
@@ -3062,6 +3082,21 @@ DISTRIBUTIONS
     provides:
       bareword::filehandles 0.003
     requirements:
+  cpan-outdated-0.28
+    pathname: T/TO/TOKUHIROM/cpan-outdated-0.28.tar.gz
+    provides:
+      App::cpanoutdated 0.28
+    requirements:
+      CPAN::DistnameInfo 0.1
+      CPAN::Meta 0
+      IO::Zlib 0
+      LWP 0
+      Module::Build 0.4
+      Module::CoreList 0
+      Module::Metadata 1.000007
+      local::lib 1.006008
+      perl 5.008001
+      version 0
   indirect-0.32
     pathname: V/VP/VPIT/indirect-0.32.tar.gz
     provides:

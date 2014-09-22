@@ -55,8 +55,13 @@ case $1 in
   modules)
     $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ .
   ;;
+
   test)
     $PREFIX_PERL/bin/prove
+  ;;
+
+  outdate)
+    $PREFIX_PERL/bin/cpan-outdated
   ;;
 
   *)

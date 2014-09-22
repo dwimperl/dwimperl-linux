@@ -1,5 +1,6 @@
 requires 'Acme::MetaSyntactic';
 requires 'App::cpanminus';
+requires 'App::cpanoutdated';
 requires 'Archive::Any';
 requires 'Archive::Zip';
 requires 'Archive::Tar';
@@ -19,7 +20,8 @@ requires 'Log::Log4perl';
 requires 'LWP::Protocol::PSGI';
 requires 'LWP::Simple';
 requires 'Math::Random::ISAAC::XS';
-requires 'Mojolicious',               '== 5.17';
+requires 'Module::Version';
+requires 'Mojolicious';
 requires 'Parse::CPAN::Meta',         '1.4414';
 requires 'Test::Memory::Cycle';
 requires 'Test::MockTime';
