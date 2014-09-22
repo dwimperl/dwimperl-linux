@@ -457,6 +457,14 @@ DISTRIBUTIONS
     provides:
       Data::OptList 0.109
     requirements:
+  Devel-Cycle-1.11
+    pathname: L/LD/LDS/Devel-Cycle-1.11.tar.gz
+    provides:
+      Devel::Cycle 1.11
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      Test::More 0
   Devel-GlobalDestruction-0.13
     pathname: H/HA/HAARG/Devel-GlobalDestruction-0.13.tar.gz
     provides:
@@ -562,6 +570,12 @@ DISTRIBUTIONS
       Getopt::Long::Descriptive::Opts 0.097
       Getopt::Long::Descriptive::Usage 0.097
     requirements:
+  Guard-1.022
+    pathname: M/ML/MLEHMANN/Guard-1.022.tar.gz
+    provides:
+      Guard 1.022
+    requirements:
+      ExtUtils::MakeMaker 0
   HTML-Parser-3.71
     pathname: G/GA/GAAS/HTML-Parser-3.71.tar.gz
     provides:
@@ -682,6 +696,14 @@ DISTRIBUTIONS
       IO::TieCombine::Handle 1.004
       IO::TieCombine::Scalar 1.004
     requirements:
+  IPC-Run3-0.048
+    pathname: R/RJ/RJBS/IPC-Run3-0.048.tar.gz
+    provides:
+      IPC::Run3 0.048
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.31
+      Time::HiRes 0
   Import-Into-1.002004
     pathname: E/ET/ETHER/Import-Into-1.002004.tar.gz
     provides:
@@ -699,6 +721,18 @@ DISTRIBUTIONS
     provides:
       LWP::MediaTypes 6.02
     requirements:
+  LWP-Protocol-PSGI-0.07
+    pathname: M/MI/MIYAGAWA/LWP-Protocol-PSGI-0.07.tar.gz
+    provides:
+      LWP::Protocol::PSGI 0.07
+    requirements:
+      Guard 0
+      HTTP::Message::PSGI 0
+      LWP 5
+      LWP::Protocol 0
+      Module::Build::Tiny 0.036
+      parent 0
+      perl 5.008001
   Lexical-SealRequireHints-0.007
     pathname: Z/ZE/ZEFRAM/Lexical-SealRequireHints-0.007.tar.gz
     provides:
@@ -1009,6 +1043,13 @@ DISTRIBUTIONS
       XSLoader 0
       strict 0
       warnings 0
+  PadWalker-1.98
+    pathname: R/RO/ROBIN/PadWalker-1.98.tar.gz
+    provides:
+      PadWalker 1.98
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
   Params-Util-1.07
     pathname: A/AD/ADAMK/Params-Util-1.07.tar.gz
     provides:
@@ -1129,6 +1170,15 @@ DISTRIBUTIONS
       Try::Tiny 0
       URI 1.59
       parent 0
+  Probe-Perl-0.03
+    pathname: K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
+    provides:
+      Probe::Perl 0.03
+    requirements:
+      Config 0
+      ExtUtils::MakeMaker 6.30
+      File::Spec 0
+      strict 0
   Return-MultiLevel-0.04
     pathname: M/MA/MAUKE/Return-MultiLevel-0.04.tar.gz
     provides:
@@ -1339,6 +1389,19 @@ DISTRIBUTIONS
       Test::LeakTrace 0.14
       Test::LeakTrace::Script undef
     requirements:
+  Test-Memory-Cycle-1.04
+    pathname: P/PE/PETDANCE/Test-Memory-Cycle-1.04.tar.gz
+    provides:
+      Test::Memory::Cycle 1.04
+    requirements:
+      Devel::Cycle 1.07
+      ExtUtils::MakeMaker 0
+      Getopt::Long 0
+      PadWalker 0
+      Test::Builder 0
+      Test::Builder::Tester 0
+      Test::More 0
+      Test::Simple 0.62
   Test-MockTime-0.13
     pathname: D/DD/DDICK/Test-MockTime-0.13.tar.gz
     provides:
@@ -1374,6 +1437,19 @@ DISTRIBUTIONS
       Test::Builder::Module 0
       Test::More 0.61
       perl 5.008_001
+  Test-Script-1.07
+    pathname: A/AD/ADAMK/Test-Script-1.07.tar.gz
+    provides:
+      Test::Script 1.07
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      File::Spec 0.80
+      IPC::Run3 0.034
+      Probe::Perl 0.01
+      Test::Builder 0.32
+      Test::Builder::Tester 1.02
+      Test::More 0.62
+      blib 0
   Test-SharedFork-0.29
     pathname: E/EX/EXODIST/Test-SharedFork-0.29.tar.gz
     provides:

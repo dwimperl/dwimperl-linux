@@ -5,6 +5,9 @@ requires 'HTML::Template';
 requires 'Mojolicious', '== 5.17';
 
 
+requires 'LWP::Protocol::PSGI';
+requires 'Test::Script';
+requires 'Test::Memory::Cycle';
 requires 'Test::MockTime';
 requires 'Parse::CPAN::Meta', '1.4414';  # forcing minimum version needed for both Dancer and Dancer2
 requires 'CGI::Deurl::XS'; # recommended module

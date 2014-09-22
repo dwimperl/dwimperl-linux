@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   798
-Last-Updated: Mon Sep 22 14:57:48 2014
+Line-Count:   802
+Last-Updated: Mon Sep 22 15:01:25 2014
 
 Algorithm::Diff                      1.1902  T/TY/TYEMQ/Algorithm-Diff-1.1902.tar.gz
 Algorithm::Diff::_impl               1.1902  T/TY/TYEMQ/Algorithm-Diff-1.1902.tar.gz
@@ -203,6 +203,7 @@ Dancer::Test                         1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Dancer::Timer                        1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Data::Munge                            0.08  M/MA/MAUKE/Data-Munge-0.08.tar.gz
 Data::OptList                         0.109  R/RJ/RJBS/Data-OptList-0.109.tar.gz
+Devel::Cycle                           1.11  L/LD/LDS/Devel-Cycle-1.11.tar.gz
 Devel::GlobalDestruction               0.13  H/HA/HAARG/Devel-GlobalDestruction-0.13.tar.gz
 Devel::Hide                          0.0009  F/FE/FERREIRA/Devel-Hide-0.0009.tar.gz
 Devel::InnerPackage                     0.4  S/SI/SIMONW/Module-Pluggable-5.1.tar.gz
@@ -478,6 +479,7 @@ POSIX::strftime::Compiler              0.40  K/KA/KAZEBURO/POSIX-strftime-Compil
 Package::Stash                         0.37  D/DO/DOY/Package-Stash-0.37.tar.gz
 Package::Stash::PP                     0.37  D/DO/DOY/Package-Stash-0.37.tar.gz
 Package::Stash::XS                     0.28  D/DO/DOY/Package-Stash-XS-0.28.tar.gz
+PadWalker                              1.98  R/RO/ROBIN/PadWalker-1.98.tar.gz
 Params::Util                           1.07  A/AD/ADAMK/Params-Util-1.07.tar.gz
 Params::Validate                       1.13  D/DR/DROLSKY/Params-Validate-1.13.tar.gz
 Params::Validate::Constants            1.13  D/DR/DROLSKY/Params-Validate-1.13.tar.gz
@@ -686,6 +688,8 @@ Test::Exception                        0.35  E/EX/EXODIST/Test-Exception-0.35.ta
 Test::Fatal                           0.013  R/RJ/RJBS/Test-Fatal-0.013.tar.gz
 Test::LeakTrace                        0.14  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::LeakTrace::Script               undef  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
+Test::Memory::Cycle                    1.04  P/PE/PETDANCE/Test-Memory-Cycle-1.04.tar.gz
+Test::MockTime                         0.13  D/DD/DDICK/Test-MockTime-0.13.tar.gz
 Test::Mojo                            undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
 Test::Most                             0.34  O/OV/OVID/Test-Most-0.34.tar.gz
 Test::Most::Exception                  0.34  O/OV/OVID/Test-Most-0.34.tar.gz
