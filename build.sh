@@ -5,14 +5,14 @@ echo set up environment variables
 PERL_VERSION=5.20.1
 SUBVERSION=1
 PLATFORM=`uname`
-echo PLATFORM='$PLATFORM'
+echo PLATFORM=$PLATFORM
 if [ "$PLATFORM" = "Darwin" ]
 then
   ARCHITECTURE=`uname -m`
 else
   ARCHITECTURE=`uname -i`
 fi
-echo ARCHITECTURE='$ARCHITECTURE'
+echo ARCHITECTURE=$ARCHITECTURE
 
 
 PERL_SOURCE_VERSION=perl-$PERL_VERSION
@@ -28,7 +28,7 @@ ORIGINAL_PATH=$PATH
 TEST_DIR=~/dwimperl_test
 BACKUP=~/dwimperl_backup
 
-echo "BUILD_HOME='$BUILD_HOME'
+echo BUILD_HOME=$BUILD_HOME
 
 
 export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
@@ -60,7 +60,7 @@ case $1 in
   ;;
 
   *)
-    echo "Missing or unrecognized parameter '$1'"
+    echo "Missing or unrecognized parameter $1"
   ;;
 esac
 
