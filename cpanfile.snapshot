@@ -3423,6 +3423,14 @@ DISTRIBUTIONS
       Text::Diff::Config 1.41
       Text::Diff::Table 1.41
     requirements:
+  Time-Piece-1.29
+    pathname: R/RJ/RJBS/Time-Piece-1.29.tar.gz
+    provides:
+      Time::Piece 1.29
+      Time::Seconds 1.29
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
   Try-Tiny-0.22
     pathname: D/DO/DOY/Try-Tiny-0.22.tar.gz
     provides:
@@ -3508,6 +3516,40 @@ DISTRIBUTIONS
       URL::Encode 0.03
       XSLoader 0
       perl 5.008001
+  Unicode-Collate-1.07
+    pathname: S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+    provides:
+      Unicode::Collate 1.07
+      Unicode::Collate::CJK::Big5 0.65
+      Unicode::Collate::CJK::GB2312 0.65
+      Unicode::Collate::CJK::JISX0208 0.64
+      Unicode::Collate::CJK::Korean 1.02
+      Unicode::Collate::CJK::Pinyin 0.85
+      Unicode::Collate::CJK::Stroke 0.94
+      Unicode::Collate::CJK::Zhuyin 0.94
+      Unicode::Collate::Locale 1.02
+    requirements:
+      Carp 0
+      DynaLoader 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      constant 0
+      strict 0
+      warnings 0
+  Unicode-Normalize-1.18
+    pathname: S/SA/SADAHIRO/Unicode-Normalize-1.18.tar.gz
+    provides:
+      Unicode::Normalize 1.18
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Copy 0
+      File::Spec 0
+      bytes 0
+      constant 0
+      strict 0
+      warnings 0
   Variable-Magic-0.53
     pathname: V/VP/VPIT/Variable-Magic-0.53.tar.gz
     provides:
@@ -3717,3 +3759,19 @@ DISTRIBUTIONS
     provides:
       strictures 1.005005
     requirements:
+  threads-1.96
+    pathname: J/JD/JDHEDDEN/threads-1.96.tar.gz
+    provides:
+      threads 1.96
+    requirements:
+      Carp 0
+      Config 0
+      ExtUtils::MakeMaker 0
+      ExtUtils::testlib 0
+      Hash::Util 0
+      IO::File 0
+      Test::More 0
+      XSLoader 0
+      overload 0
+      strict 0
+      warnings 0
