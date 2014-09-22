@@ -39,8 +39,9 @@ case $1 in
     tar xzf src/$PERL_SOURCE_ZIP_FILE
     cd $PERL_SOURCE_VERSION
     ./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL
+	# -Dusethreads
     make
-    make test
+    TEST_JOBS=3 make test
     make install
     cd $BUILD_HOME
     
