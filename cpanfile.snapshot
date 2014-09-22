@@ -95,6 +95,58 @@ DISTRIBUTIONS
       AppConfig::State 1.65
       AppConfig::Sys 1.65
     requirements:
+  Archive-Any-0.0941
+    pathname: O/OA/OALDERS/Archive-Any-0.0941.tar.gz
+    provides:
+      Archive::Any 0.0941
+      Archive::Any::Plugin 0.0941
+      Archive::Any::Plugin::Tar 0.0941
+      Archive::Any::Plugin::Zip 0.0941
+      Archive::Any::Tar 0.0941
+      Archive::Any::Zip 0.0941
+    requirements:
+      Archive::Tar 0
+      Archive::Zip 0
+      Cwd 0
+      ExtUtils::MakeMaker 6.30
+      File::MMagic 0
+      File::Spec::Functions 0
+      MIME::Types 0
+      Module::Build 0.3601
+      Module::Find 0
+      base 0
+      strict 0
+      warnings 0
+  Archive-Zip-1.38
+    pathname: P/PH/PHRED/Archive-Zip-1.38.tar.gz
+    provides:
+      Archive::Zip 1.38
+      Archive::Zip::Archive 1.38
+      Archive::Zip::BufferedFileHandle 1.38
+      Archive::Zip::DirectoryMember 1.38
+      Archive::Zip::FileMember 1.38
+      Archive::Zip::Member 1.38
+      Archive::Zip::MemberRead 1.38
+      Archive::Zip::MockFileHandle 1.38
+      Archive::Zip::NewFileMember 1.38
+      Archive::Zip::StringMember 1.38
+      Archive::Zip::Tree 1.38
+      Archive::Zip::ZipFileMember 1.38
+    requirements:
+      Compress::Raw::Zlib 2.017
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0.80
+      File::Temp 0
+      IO::File 0
+      IO::Handle 0
+      IO::Seekable 0
+      Test::More 0.88
+      Time::Local 0
+      perl 5.006
   B-Hooks-EndOfScope-0.13
     pathname: E/ET/ETHER/B-Hooks-EndOfScope-0.13.tar.gz
     provides:
@@ -1621,6 +1673,12 @@ DISTRIBUTIONS
       File::Listing::unix 6.04
       File::Listing::vms 6.04
     requirements:
+  File-MMagic-1.30
+    pathname: K/KN/KNOK/File-MMagic-1.30.tar.gz
+    provides:
+      File::MMagic 1.30
+    requirements:
+      ExtUtils::MakeMaker 0
   File-Remove-1.52
     pathname: A/AD/ADAMK/File-Remove-1.52.tar.gz
     provides:
@@ -2006,6 +2064,19 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Module-Find-0.12
+    pathname: C/CR/CRENZ/Module-Find-0.12.tar.gz
+    provides:
+      Module::Find 0.12
+      ModuleFindTest undef
+      ModuleFindTest::SubMod undef
+      ModuleFindTest::SubMod::SubSubMod undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Find 0
+      File::Spec 0
+      Test::More 0
+      perl 5.006001
   Module-Implementation-0.09
     pathname: D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
     provides:

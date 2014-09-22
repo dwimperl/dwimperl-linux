@@ -1,33 +1,34 @@
 requires 'Acme::MetaSyntactic';
 requires 'App::cpanminus';
+requires 'Archive::Any';
+requires 'Archive::Zip';
+requires 'Archive::Tar';
 requires 'Business::PayPal';
-requires 'CGI::Deurl::XS'; # recommended module
+requires 'CGI::Deurl::XS';
 requires 'Code::Explain';
-requires 'Crypt::URandom'; # recommended module
+requires 'Crypt::URandom';
 requires 'Dancer';
 requires 'Dancer2';
 requires 'DateTime';
 requires 'DBD::SQLite';
 requires 'DBI';
-requires 'ExtUtils::MakeMaker', '6.98';
+requires 'ExtUtils::MakeMaker',       '6.98';
 requires 'HTML::Template';
 requires 'local::lib';
 requires 'Log::Log4perl';
 requires 'LWP::Protocol::PSGI';
-requires 'Math::Random::ISAAC::XS'; # recommended module
-requires 'Mojolicious', '== 5.17';
-requires 'Parse::CPAN::Meta', '1.4414';  # forcing minimum version needed for both Dancer and Dancer2
+requires 'LWP::Simple';
+requires 'Math::Random::ISAAC::XS';
+requires 'Mojolicious',               '== 5.17';
+requires 'Parse::CPAN::Meta',         '1.4414';
 requires 'Test::Memory::Cycle';
 requires 'Test::MockTime';
 requires 'Test::Output';
 requires 'Test::Script';
-requires 'Scope::Upper'; # recommended module
-requires 'URL::Encode::XS'; # recommended module
+requires 'Scope::Upper';
+requires 'URL::Encode::XS';
 
 
-#requires 'Archive::Any';
-#requires 'Archive::Zip';
-#requires 'Archive::Tar';
 #requires 'Cpanel::JSON::XS';
 #requires 'Daemon::Control';
 #requires 'DBIx::RunSQL';
@@ -57,7 +58,6 @@ requires 'URL::Encode::XS'; # recommended module
 #requires 'Test::Perl::Critic';
 #requires 'Web::Feed';
 
-#requires 'LWP::Simple';
 #requires 'LWP::Protocol::https';
 #requires 'Moose';
 #requires 'MooseX::Singleton';

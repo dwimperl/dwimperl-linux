@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   1887
-Last-Updated: Mon Sep 22 15:31:30 2014
+Line-Count:   1957
+Last-Updated: Mon Sep 22 15:37:53 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -43,6 +43,24 @@ AppConfig::File                        1.65  A/AB/ABW/AppConfig-1.66.tar.gz
 AppConfig::Getopt                      1.65  A/AB/ABW/AppConfig-1.66.tar.gz
 AppConfig::State                       1.65  A/AB/ABW/AppConfig-1.66.tar.gz
 AppConfig::Sys                         1.65  A/AB/ABW/AppConfig-1.66.tar.gz
+Archive::Any                         0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
+Archive::Any::Plugin                 0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
+Archive::Any::Plugin::Tar            0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
+Archive::Any::Plugin::Zip            0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
+Archive::Any::Tar                    0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
+Archive::Any::Zip                    0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
+Archive::Zip                           1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::Archive                  1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::BufferedFileHandle       1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::DirectoryMember          1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::FileMember               1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::Member                   1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::MemberRead               1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::MockFileHandle           1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::NewFileMember            1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::StringMember             1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::Tree                     1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
+Archive::Zip::ZipFileMember            1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
 Attribute::Params::Validate            1.13  D/DR/DROLSKY/Params-Validate-1.13.tar.gz
 B::Hooks::EndOfScope                   0.13  E/ET/ETHER/B-Hooks-EndOfScope-0.13.tar.gz
 B::Hooks::EndOfScope::PP               0.13  E/ET/ETHER/B-Hooks-EndOfScope-0.13.tar.gz
@@ -1199,6 +1217,7 @@ File::Listing::dosftp                  6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::netware                 6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::unix                    6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::vms                     6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
+File::MMagic                           1.30  K/KN/KNOK/File-MMagic-1.30.tar.gz
 File::Remove                           1.52  A/AD/ADAMK/File-Remove-1.52.tar.gz
 File::ShareDir                        1.102  R/RE/REHSACK/File-ShareDir-1.102.tar.gz
 File::ShareDir::Install                0.09  G/GW/GWYN/File-ShareDir-Install-0.09.tar.gz
@@ -1268,6 +1287,7 @@ Import::Into                       1.002004  E/ET/ETHER/Import-Into-1.002004.tar
 JSON                                   2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
 JSON::Backend::PP                      2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
 JSON::Boolean                          2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
+L4pResurrectable                       0.01  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
 LWP                                    6.08  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::Authen::Basic                    undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::Authen::Digest                   undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
@@ -1299,6 +1319,52 @@ LWP::UserAgent                         6.06  M/MS/MSCHILLI/libwww-perl-6.08.tar.
 Lexical::SealRequireHints             0.007  Z/ZE/ZEFRAM/Lexical-SealRequireHints-0.007.tar.gz
 List::AllUtils                         0.08  D/DR/DROLSKY/List-AllUtils-0.08.tar.gz
 List::MoreUtils                        0.33  A/AD/ADAMK/List-MoreUtils-0.33.tar.gz
+Log::Log4perl                          1.44  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender               undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::DBI          undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::File         undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::RRDs         undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::Screen       undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::ScreenColoredLevels      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::Socket       undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::String       undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::TestArrayBuffer      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::TestBuffer      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Appender::TestFileCreeper      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Config                 undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Config::BaseConfigurator      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Config::DOMConfigurator       0.03  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Config::PropertyConfigurator      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Config::Watch          undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::DateFormat             undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Filter                 undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Filter::Boolean        undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Filter::LevelMatch      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Filter::LevelRange      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Filter::MDC            undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Filter::StringMatch      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::InternalDebug          undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::JavaMap                undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::JavaMap::ConsoleAppender      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::JavaMap::FileAppender      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::JavaMap::JDBCAppender      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::JavaMap::NTEventLogAppender      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::JavaMap::RollingFileAppender      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::JavaMap::SyslogAppender      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::JavaMap::TestBuffer      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Layout                 undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Layout::NoopLayout      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Layout::PatternLayout      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Layout::PatternLayout::Multiline      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Layout::SimpleLayout      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Level                  undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Logger                 undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::MDC                    undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::NDC                    undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Resurrector            undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Util                   undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Util::Semaphore        undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+Log::Log4perl::Util::TimeTracker      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
 MIME::Type                             2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
 MIME::Types                            2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
 Math::Random::ISAAC::XS               1.004  J/JA/JAWNSY/Math-Random-ISAAC-XS-1.004.tar.gz
@@ -1327,10 +1393,14 @@ Module::Build::Platform::darwin      0.4210  L/LE/LEONT/Module-Build-0.4210.tar.
 Module::Build::Platform::os2         0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 Module::Build::PodParser             0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 Module::Build::Tiny                   0.038  L/LE/LEONT/Module-Build-Tiny-0.038.tar.gz
+Module::Find                           0.12  C/CR/CRENZ/Module-Find-0.12.tar.gz
 Module::Implementation                 0.09  D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
 Module::Pluggable                       5.1  S/SI/SIMONW/Module-Pluggable-5.1.tar.gz
 Module::Pluggable::Object               5.1  S/SI/SIMONW/Module-Pluggable-5.1.tar.gz
 Module::Runtime                       0.014  Z/ZE/ZEFRAM/Module-Runtime-0.014.tar.gz
+ModuleFindTest                        undef  C/CR/CRENZ/Module-Find-0.12.tar.gz
+ModuleFindTest::SubMod                undef  C/CR/CRENZ/Module-Find-0.12.tar.gz
+ModuleFindTest::SubMod::SubSubMod      undef  C/CR/CRENZ/Module-Find-0.12.tar.gz
 Mojo                                  undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
 Mojo::Asset                           undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
 Mojo::Asset::File                     undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
