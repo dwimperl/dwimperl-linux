@@ -21,7 +21,7 @@ requires 'LWP::Protocol::PSGI';
 requires 'LWP::Simple';
 requires 'Math::Random::ISAAC::XS';
 requires 'Module::Version';
-requires 'Mojolicious';
+requires 'Mojolicious', '5.43';
 requires 'Parse::CPAN::Meta',         '1.4414';
 requires 'Test::Memory::Cycle';
 requires 'Test::MockTime';

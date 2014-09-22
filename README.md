@@ -40,7 +40,7 @@ Add the zip files to Git.
 
 To upgrade a module, put the new version number after the name of the module
 ```requires 'Module::Name', '3.14';```
-then run ```carton```. Then we can remove the version number from the ```cpanfile```.
+then run ```carton```.
 
 
 
