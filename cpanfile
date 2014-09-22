@@ -44,12 +44,22 @@ requires 'Module::CoreList',            '5.20140920';
 requires 'Module::Metadata',            '1.000024';
 requires 'Module::Version';
 requires 'Mojolicious', '5.43';
+requires 'Net::Config',                 '1.14';
 requires 'Parse::CPAN::Meta',           '1.4414';
+requires 'perlfaq',                     '5.0150045';
+requires 'Pod::Checker',                '1.71';
+requires 'Pod::Perldoc',                '3.24';
+requires 'Pod::Usage',                  '1.64';
+requires 'Scope::Upper';
+requires 'Socket',                      '2.015';
+requires 'Storable',                    '2.51';
+requires 'Term::ANSIColor',             '4.03';
+requires 'Term::Cap',                   '1.16';
+requires 'Test::Builder',               '1.001006';
 requires 'Test::Memory::Cycle';
 requires 'Test::MockTime';
 requires 'Test::Output';
 requires 'Test::Script';
-requires 'Scope::Upper';
 requires 'URL::Encode::XS';
 
 
