@@ -1,2 +1,5 @@
 /local/bin/
+/local/man/
 /local/lib/
+/perl-5.*
+*.swp
