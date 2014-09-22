@@ -53,6 +53,7 @@ case $1 in
 
 
   modules)
+    HARNESS_OPTIONS=j3
     $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ .
   ;;
 

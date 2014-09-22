@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2185
-Last-Updated: Mon Sep 22 17:48:32 2014
+Line-Count:   2198
+Last-Updated: Mon Sep 22 21:08:38 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -2083,6 +2083,8 @@ Text::Diff                             1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Base                       1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Config                     1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Table                      1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
+Time::Piece                            1.29  R/RJ/RJBS/Time-Piece-1.29.tar.gz
+Time::Seconds                          1.29  R/RJ/RJBS/Time-Piece-1.29.tar.gz
 Try::Tiny                              0.22  D/DO/DOY/Try-Tiny-0.22.tar.gz
 U64                                   2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 URI                                    1.64  E/ET/ETHER/URI-1.64.tar.gz
@@ -2140,6 +2142,16 @@ URI::urn::oid                         undef  E/ET/ETHER/URI-1.64.tar.gz
 URL::Encode                            0.03  C/CH/CHANSEN/URL-Encode-0.03.tar.gz
 URL::Encode::PP                        0.03  C/CH/CHANSEN/URL-Encode-0.03.tar.gz
 URL::Encode::XS                        0.03  C/CH/CHANSEN/URL-Encode-XS-0.03.tar.gz
+Unicode::Collate                       1.07  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::Collate::CJK::Big5            0.65  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::Collate::CJK::GB2312          0.65  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::Collate::CJK::JISX0208        0.64  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::Collate::CJK::Korean          1.02  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::Collate::CJK::Pinyin          0.85  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::Collate::CJK::Stroke          0.94  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::Collate::CJK::Zhuyin          0.94  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::Collate::Locale               1.02  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::Normalize                     1.18  S/SA/SADAHIRO/Unicode-Normalize-1.18.tar.gz
 Variable::Magic                        0.53  V/VP/VPIT/Variable-Magic-0.53.tar.gz
 WWW::RobotRules                        6.02  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
 WWW::RobotRules::AnyDBM_File           6.00  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
@@ -2189,6 +2201,7 @@ ojo                                   undef  S/SR/SRI/Mojolicious-5.43.tar.gz
 oo                                    undef  H/HA/HAARG/Moo-1.006000.tar.gz
 perlfaq                           5.0150045  L/LL/LLAP/perlfaq-5.0150045.tar.gz
 strictures                         1.005005  H/HA/HAARG/strictures-1.005005.tar.gz
+threads                                1.96  J/JD/JDHEDDEN/threads-1.96.tar.gz
 yaml_mapping                          undef  I/IN/INGY/YAML-1.11.tar.gz
 yaml_scalar                           undef  I/IN/INGY/YAML-1.11.tar.gz
 yaml_sequence                         undef  I/IN/INGY/YAML-1.11.tar.gz

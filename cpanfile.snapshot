@@ -365,6 +365,14 @@ DISTRIBUTIONS
       Config::Any::XML undef
       Config::Any::YAML undef
     requirements:
+  Cpanel-JSON-XS-3.0104
+    pathname: R/RU/RURBAN/Cpanel-JSON-XS-3.0104.tar.gz
+    provides:
+      Cpanel::JSON::XS 3.0104
+    requirements:
+      ExtUtils::MakeMaker 0
+      Pod::Text 2.08
+      Pod::Usage 1.33
   Crypt-URandom-0.34
     pathname: D/DD/DDICK/Crypt-URandom-0.34.tar.gz
     provides:

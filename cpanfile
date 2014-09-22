@@ -8,10 +8,12 @@ requires 'Archive::Zip';
 requires 'Archive::Tar',               '2.02';
 requires 'B::Debug',                   '1.21';
 requires 'Business::PayPal';
+requires 'Capture::Tiny',              '0.25';
 requires 'CGI::Deurl::XS';
 requires 'CGI::Fast',                  '2.03';
 requires 'Code::Explain';
 requires 'Compress::Zlib',             '2.066';
+requires 'Cpanel::JSON::XS',           '3.0104';
 requires 'CPAN::Meta::Requirements',   '2.128';
 requires 'Crypt::URandom';
 requires 'Dancer';
@@ -67,8 +69,6 @@ requires 'Unicode::Normalize',         '1.18';
 requires 'URL::Encode::XS';
 
 
-#requires 'Capture::Tiny';
-#requires 'Cpanel::JSON::XS';
 #requires 'Daemon::Control';
 #requires 'DBIx::RunSQL';
 #requires 'Digest::SHA';
