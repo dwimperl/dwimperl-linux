@@ -29,6 +29,7 @@ requires 'Scope::Upper';
 requires 'URL::Encode::XS';
 
 
+#requires 'Capture::Tiny';
 #requires 'Cpanel::JSON::XS';
 #requires 'Daemon::Control';
 #requires 'DBIx::RunSQL';
@@ -38,10 +39,15 @@ requires 'URL::Encode::XS';
 #requires 'Email::Valid';
 #requires 'File::Find::Rule';
 #requires 'Geo::IP';
+#requires 'HTTP::Request::Common';
 #requires 'JSON';
 #requires 'Hash::Merge::Simple';
+#requires 'LWP::Protocol::https';
 #requires 'MIME::Lite';
+#requires 'MongoDB';
 #requires 'Moo';
+#requires 'Moose';
+#requires 'MooseX::Singleton';
 #requires 'Parse::Functions';
 #requires 'Path::Tiny';
 #requires 'Perl::Tidy';
@@ -57,12 +63,5 @@ requires 'URL::Encode::XS';
 #requires 'Test::Code::TidyAll';
 #requires 'Test::Perl::Critic';
 #requires 'Web::Feed';
-
-#requires 'LWP::Protocol::https';
-#requires 'Moose';
-#requires 'MooseX::Singleton';
 #requires 'XML::Feed';
-#requires 'HTTP::Request::Common';
-#requires 'MongoDB';
-#requires 'Capture::Tiny';
 
