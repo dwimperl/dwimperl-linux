@@ -1757,6 +1757,33 @@ DISTRIBUTIONS
       Exception::Class 1.38
       Exception::Class::Base 1.38
     requirements:
+  ExtUtils-CBuilder-0.280219
+    pathname: A/AM/AMBS/ExtUtils-CBuilder-0.280219.tar.gz
+    provides:
+      ExtUtils::CBuilder 0.280219
+      ExtUtils::CBuilder::Base 0.280219
+      ExtUtils::CBuilder::Platform::Unix 0.280219
+      ExtUtils::CBuilder::Platform::VMS 0.280219
+      ExtUtils::CBuilder::Platform::Windows 0.280219
+      ExtUtils::CBuilder::Platform::Windows::BCC 0.280219
+      ExtUtils::CBuilder::Platform::Windows::GCC 0.280219
+      ExtUtils::CBuilder::Platform::Windows::MSVC 0.280219
+      ExtUtils::CBuilder::Platform::aix 0.280219
+      ExtUtils::CBuilder::Platform::android 0.280219
+      ExtUtils::CBuilder::Platform::cygwin 0.280219
+      ExtUtils::CBuilder::Platform::darwin 0.280219
+      ExtUtils::CBuilder::Platform::dec_osf 0.280219
+      ExtUtils::CBuilder::Platform::os2 0.280219
+    requirements:
+      Cwd 0
+      ExtUtils::MakeMaker 6.30
+      File::Basename 0
+      File::Spec 3.13
+      File::Temp 0
+      IO::File 0
+      IPC::Cmd 0
+      Perl::OSType 1
+      Text::ParseWords 0
   ExtUtils-Config-0.008
     pathname: L/LE/LEONT/ExtUtils-Config-0.008.tar.gz
     provides:
@@ -1781,11 +1808,37 @@ DISTRIBUTIONS
       ExtUtils::Helpers::VMS 0.022
       ExtUtils::Helpers::Windows 0.022
     requirements:
+  ExtUtils-Install-2.04
+    pathname: B/BI/BINGOS/ExtUtils-Install-2.04.tar.gz
+    provides:
+      ExtUtils::Install 2.04
+      ExtUtils::Install::Warn 2.04
+      ExtUtils::Installed 2.04
+      ExtUtils::Packlist 2.04
+    requirements:
+      Carp 0
+      Cwd 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Compare 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0
+      File::Temp 0
   ExtUtils-InstallPaths-0.010
     pathname: L/LE/LEONT/ExtUtils-InstallPaths-0.010.tar.gz
     provides:
       ExtUtils::InstallPaths 0.010
     requirements:
+  ExtUtils-Manifest-1.68
+    pathname: B/BI/BINGOS/ExtUtils-Manifest-1.68.tar.gz
+    provides:
+      ExtUtils::Manifest 1.68
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Spec 0.8
   FCGI-0.77
     pathname: E/ET/ETHER/FCGI-0.77.tar.gz
     provides:
@@ -1947,6 +2000,20 @@ DISTRIBUTIONS
       Plack::Handler::HTTP::Server::Simple 0.16
       Plack::Handler::HTTP::Server::Simple::PSGIServer 0.16
     requirements:
+  HTTP-Tiny-0.049
+    pathname: D/DA/DAGOLDEN/HTTP-Tiny-0.049.tar.gz
+    provides:
+      HTTP::Tiny 0.049
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.17
+      Fcntl 0
+      IO::Socket 0
+      MIME::Base64 0
+      Time::Local 0
+      bytes 0
+      strict 0
+      warnings 0
   Hash-Merge-Simple-0.051
     pathname: R/RO/ROKR/Hash-Merge-Simple-0.051.tar.gz
     provides:
@@ -2009,6 +2076,14 @@ DISTRIBUTIONS
     provides:
       IO::HTML 1.001
     requirements:
+  IO-Socket-IP-0.32
+    pathname: P/PE/PEVANS/IO-Socket-IP-0.32.tar.gz
+    provides:
+      IO::Socket::IP 0.32
+    requirements:
+      IO::Socket 0
+      Socket 1.97
+      Test::More 0.88
   IO-String-1.08
     pathname: G/GA/GAAS/IO-String-1.08.tar.gz
     provides:
@@ -2085,6 +2160,27 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.52
       Test::More 0.82
       perl 5.00503
+  Locale-Codes-3.32
+    pathname: S/SB/SBECK/Locale-Codes-3.32.tar.gz
+    provides:
+      Locale::Codes 3.32
+      Locale::Codes::Constants 3.32
+      Locale::Codes::Country 3.32
+      Locale::Codes::Currency 3.32
+      Locale::Codes::LangExt 3.32
+      Locale::Codes::LangFam 3.32
+      Locale::Codes::LangVar 3.32
+      Locale::Codes::Language 3.32
+      Locale::Codes::Script 3.32
+      Locale::Country 3.32
+      Locale::Currency 3.32
+      Locale::Language 3.32
+      Locale::Script 3.32
+    requirements:
+      Carp 0
+      Module::Build 0.21
+      perl 5.006
+      utf8 0
   Log-Log4perl-1.44
     pathname: M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
     provides:
@@ -2147,6 +2243,17 @@ DISTRIBUTIONS
       MIME::Types 2.09
       MojoX::MIME::Types 2.09
     requirements:
+  Math-BigInt-1.9993
+    pathname: P/PJ/PJACKLAM/Math-BigInt-1.9993.tar.gz
+    provides:
+      Math::BigFloat 1.9993
+      Math::BigInt 1.9993
+      Math::BigInt::Calc 1.9993
+      Math::BigInt::CalcEmu 1.9991
+    requirements:
+      ExtUtils::MakeMaker 6.59
+      Test::More 0.62
+      perl 5.006002
   Math-Random-ISAAC-XS-1.004
     pathname: J/JA/JAWNSY/Math-Random-ISAAC-XS-1.004.tar.gz
     provides:
@@ -2210,6 +2317,23 @@ DISTRIBUTIONS
       Text::ParseWords 0
       perl 5.008000
       version 0.87
+  Module-Build-Deprecated-0.4210
+    pathname: L/LE/LEONT/Module-Build-Deprecated-0.4210.tar.gz
+    provides:
+      Module::Build::Deprecated 0.4210
+      Module::Build::ModuleInfo 0.4210
+      Module::Build::Version 0.87
+      Module::Build::YAML 1.41
+    requirements:
+      CPAN::Meta::YAML 0.002
+      Module::Build 0.3601
+      Module::Metadata 0
+      base 0
+      parent 0
+      perl 5.006
+      strict 0
+      version 0.87
+      warnings 0
   Module-Build-Tiny-0.038
     pathname: L/LE/LEONT/Module-Build-Tiny-0.038.tar.gz
     provides:
@@ -2235,6 +2359,17 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Module-CoreList-5.20140920
+    pathname: B/BI/BINGOS/Module-CoreList-5.20140920.tar.gz
+    provides:
+      Module::CoreList 5.20140920
+      Module::CoreList::TieHashDelta 5.20140920
+      Module::CoreList::Utils 5.20140920
+    requirements:
+      ExtUtils::MakeMaker 0
+      List::Util 0
+      Test::More 0
+      version 0.88
   Module-Find-0.12
     pathname: C/CR/CRENZ/Module-Find-0.12.tar.gz
     provides:
@@ -2253,6 +2388,19 @@ DISTRIBUTIONS
     provides:
       Module::Implementation 0.09
     requirements:
+  Module-Metadata-1.000024
+    pathname: E/ET/ETHER/Module-Metadata-1.000024.tar.gz
+    provides:
+      Module::Metadata 1.000024
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      Fcntl 0
+      File::Find 0
+      File::Spec 0
+      strict 0
+      version 0.87
+      warnings 0
   Module-Pluggable-5.1
     pathname: S/SI/SIMONW/Module-Pluggable-5.1.tar.gz
     provides:
@@ -2748,6 +2896,16 @@ DISTRIBUTIONS
     provides:
       Safe::Isa 1.000005
     requirements:
+  Scalar-List-Utils-1.41
+    pathname: P/PE/PEVANS/Scalar-List-Utils-1.41.tar.gz
+    provides:
+      List::Util 1.41
+      List::Util::XS 1.41
+      Scalar::Util 1.41
+      Sub::Util 1.41
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   Scope-Upper-0.25
     pathname: V/VP/VPIT/Scope-Upper-0.25.tar.gz
     provides:
@@ -3342,6 +3500,18 @@ DISTRIBUTIONS
       local::lib 1.006008
       perl 5.008001
       version 0
+  experimental-0.010
+    pathname: L/LE/LEONT/experimental-0.010.tar.gz
+    provides:
+      experimental 0.010
+    requirements:
+      Carp 0
+      Module::Build::Tiny 0.037
+      feature 0
+      perl 5.010
+      strict 0
+      version 0
+      warnings 0
   indirect-0.32
     pathname: V/VP/VPIT/indirect-0.32.tar.gz
     provides:
