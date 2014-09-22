@@ -164,6 +164,14 @@ DISTRIBUTIONS
       Test::More 0.88
       Time::Local 0
       perl 5.006
+  B-Debug-1.21
+    pathname: R/RU/RURBAN/B-Debug-1.21.tar.gz
+    provides:
+      B::Debug 1.21
+    requirements:
+      B 0
+      ExtUtils::MakeMaker 0
+      Test::More 0
   B-Hooks-EndOfScope-0.13
     pathname: E/ET/ETHER/B-Hooks-EndOfScope-0.13.tar.gz
     provides:
@@ -248,6 +256,18 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.17
       JSON::PP 2.27200
       Parse::CPAN::Meta 1.4414
+      Scalar::Util 0
+      strict 0
+      version 0.88
+      warnings 0
+  CPAN-Meta-Requirements-2.128
+    pathname: D/DA/DAGOLDEN/CPAN-Meta-Requirements-2.128.tar.gz
+    provides:
+      CPAN::Meta::Requirements 2.128
+    requirements:
+      B 0
+      Carp 0
+      ExtUtils::MakeMaker 6.17
       Scalar::Util 0
       strict 0
       version 0.88
@@ -703,6 +723,13 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Data-Dumper-2.154
+    pathname: S/SM/SMUELLER/Data-Dumper-2.154.tar.gz
+    provides:
+      Data::Dumper 2.154
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.98
   Data-Munge-0.08
     pathname: M/MA/MAUKE/Data-Munge-0.08.tar.gz
     provides:
@@ -1648,6 +1675,12 @@ DISTRIBUTIONS
     provides:
       Devel::Hide 0.0009
     requirements:
+  Devel-PPPort-3.24
+    pathname: W/WO/WOLFSAGE/Devel-PPPort-3.24.tar.gz
+    provides:
+      Devel::PPPort 3.24
+    requirements:
+      ExtUtils::MakeMaker 0
   Devel-StackTrace-1.34
     pathname: D/DR/DROLSKY/Devel-StackTrace-1.34.tar.gz
     provides:
@@ -1659,6 +1692,13 @@ DISTRIBUTIONS
     provides:
       Devel::StackTrace::AsHTML 0.14
     requirements:
+  Digest-SHA-5.92
+    pathname: M/MS/MSHELOR/Digest-SHA-5.92.tar.gz
+    provides:
+      Digest::SHA 5.92
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.003
   Dist-CheckConflicts-0.11
     pathname: D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz
     provides:
@@ -1671,6 +1711,41 @@ DISTRIBUTIONS
       base 0
       strict 0
       warnings 0
+  Encode-2.62
+    pathname: D/DA/DANKOGAI/Encode-2.62.tar.gz
+    provides:
+      Encode 2.62
+      Encode::Alias 2.18
+      Encode::Byte 2.04
+      Encode::CJKConstants 2.02
+      Encode::CN 2.03
+      Encode::CN::HZ 2.07
+      Encode::Config 2.05
+      Encode::EBCDIC 2.02
+      Encode::Encoder 2.03
+      Encode::Encoding 2.07
+      Encode::GSM0338 2.05
+      Encode::Guess 2.06
+      Encode::Internal 2.62
+      Encode::JP 2.04
+      Encode::JP::H2Z 2.02
+      Encode::JP::JIS7 2.05
+      Encode::KR 2.03
+      Encode::KR::2022_KR 2.03
+      Encode::MIME::Header 2.15
+      Encode::MIME::Header::ISO_2022_JP 1.04
+      Encode::MIME::Name 1.01
+      Encode::Symbol 2.02
+      Encode::TW 2.03
+      Encode::UTF_EBCDIC 2.62
+      Encode::Unicode 2.09
+      Encode::Unicode::UTF7 2.08
+      Encode::utf8 2.62
+      encoding 2.12
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      parent 0.221
   Encode-Locale-1.03
     pathname: G/GA/GAAS/Encode-Locale-1.03.tar.gz
     provides:
@@ -3220,6 +3295,33 @@ DISTRIBUTIONS
       yaml_scalar undef
       yaml_sequence undef
     requirements:
+  autodie-2.25
+    pathname: P/PJ/PJF/autodie-2.25.tar.gz
+    provides:
+      Fatal 2.25
+      autodie 2.25
+      autodie::Scope::Guard 2.25
+      autodie::Scope::GuardStack 2.25
+      autodie::ScopeUtil 2.25
+      autodie::exception 2.25
+      autodie::exception::system 2.25
+      autodie::hints 2.25
+      autodie::skip 2.25
+    requirements:
+      B 0
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.30
+      Fcntl 0
+      POSIX 0
+      Scalar::Util 0
+      Tie::RefHash 0
+      base 0
+      constant 0
+      if 0
+      overload 0
+      strict 0
+      warnings 0
   bareword-filehandles-0.003
     pathname: I/IL/ILMARI/bareword-filehandles-0.003.tar.gz
     provides:

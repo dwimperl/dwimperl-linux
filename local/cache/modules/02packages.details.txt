@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   1961
-Last-Updated: Mon Sep 22 17:15:36 2014
+Line-Count:   2049
+Last-Updated: Mon Sep 22 17:24:11 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -35,6 +35,10 @@ App::Cmd::Tester                      0.323  R/RJ/RJBS/App-Cmd-0.323.tar.gz
 App::Cmd::Tester::CaptureExternal      0.323  R/RJ/RJBS/App-Cmd-0.323.tar.gz
 App::Cmd::Tester::Exited              0.323  R/RJ/RJBS/App-Cmd-0.323.tar.gz
 App::Cmd::Tester::Result              0.323  R/RJ/RJBS/App-Cmd-0.323.tar.gz
+App::Prove                             3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+App::Prove::State                      3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+App::Prove::State::Result              3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+App::Prove::State::Result::Test        3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 App::cpanminus                       1.7011  M/MI/MIYAGAWA/App-cpanminus-1.7011.tar.gz
 App::cpanoutdated                      0.28  T/TO/TOKUHIROM/cpan-outdated-0.28.tar.gz
 AppConfig                              1.66  A/AB/ABW/AppConfig-1.66.tar.gz
@@ -50,6 +54,9 @@ Archive::Any::Plugin::Tar            0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar
 Archive::Any::Plugin::Zip            0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
 Archive::Any::Tar                    0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
 Archive::Any::Zip                    0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
+Archive::Tar                           2.02  B/BI/BINGOS/Archive-Tar-2.02.tar.gz
+Archive::Tar::Constant                 2.02  B/BI/BINGOS/Archive-Tar-2.02.tar.gz
+Archive::Tar::File                     2.02  B/BI/BINGOS/Archive-Tar-2.02.tar.gz
 Archive::Zip                           1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
 Archive::Zip::Archive                  1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
 Archive::Zip::BufferedFileHandle       1.38  P/PH/PHRED/Archive-Zip-1.38.tar.gz
@@ -74,6 +81,7 @@ CGI                                    4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 CGI::Carp                              4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 CGI::Cookie                            4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 CGI::Deurl::XS                         0.07  A/AT/ATHOMASON/CGI-Deurl-XS-0.07.tar.gz
+CGI::Fast                              2.03  L/LE/LEEJO/CGI-Fast-2.03.tar.gz
 CGI::Pretty                            4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 CGI::Push                              4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 CGI::Util                              4.04  L/LE/LEEJO/CGI-4.04.tar.gz
@@ -97,6 +105,9 @@ Class::Method::Modifiers               2.11  E/ET/ETHER/Class-Method-Modifiers-2
 Class::Singleton                        1.4  A/AB/ABW/Class-Singleton-1.4.tar.gz
 Clone                                  0.37  G/GA/GARU/Clone-0.37.tar.gz
 Code::Explain                          0.02  S/SZ/SZABGAB/Code-Explain-0.02.tar.gz
+Compress::Raw::Bzip2                  2.066  P/PM/PMQS/Compress-Raw-Bzip2-2.066.tar.gz
+Compress::Raw::Zlib                   2.066  P/PM/PMQS/Compress-Raw-Zlib-2.066.tar.gz
+Compress::Zlib                        2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 Config::Any                            0.24  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::Base                     undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::General                  undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
@@ -1212,7 +1223,10 @@ ExtUtils::Helpers::Unix               0.022  L/LE/LEONT/ExtUtils-Helpers-0.022.t
 ExtUtils::Helpers::VMS                0.022  L/LE/LEONT/ExtUtils-Helpers-0.022.tar.gz
 ExtUtils::Helpers::Windows            0.022  L/LE/LEONT/ExtUtils-Helpers-0.022.tar.gz
 ExtUtils::InstallPaths                0.010  L/LE/LEONT/ExtUtils-InstallPaths-0.010.tar.gz
+FCGI                                   0.77  E/ET/ETHER/FCGI-0.77.tar.gz
+FCGI::Stream                           0.77  E/ET/ETHER/FCGI-0.77.tar.gz
 Fh                                     4.04  L/LE/LEEJO/CGI-4.04.tar.gz
+File::GlobMapper                      1.000  P/PM/PMQS/IO-Compress-2.066.tar.gz
 File::Listing                          6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::apache                  6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::dosftp                  6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
@@ -1275,15 +1289,42 @@ HTTP::Server::Simple                   0.44  J/JE/JESSE/HTTP-Server-Simple-0.44.
 HTTP::Server::Simple::PSGI             0.16  M/MI/MIYAGAWA/HTTP-Server-Simple-PSGI-0.16.tar.gz
 HTTP::Server::Simple::PSGI::Writer       0.16  M/MI/MIYAGAWA/HTTP-Server-Simple-PSGI-0.16.tar.gz
 HTTP::Status                           6.03  G/GA/GAAS/HTTP-Message-6.06.tar.gz
+Harness::Hook                         undef  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Hash::Merge::Simple                   0.051  R/RO/ROKR/Hash-Merge-Simple-0.051.tar.gz
 Hash::MultiValue                       0.15  M/MI/MIYAGAWA/Hash-MultiValue-0.15.tar.gz
 Hook::LexWrap                          0.24  C/CH/CHORNY/Hook-LexWrap-0.24.tar.gz
 Hook::LexWrap::Cleanup                 0.24  C/CH/CHORNY/Hook-LexWrap-0.24.tar.gz
+IO::Compress                          undef  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Adapter::Bzip2          2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Adapter::Deflate        2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Adapter::Identity       2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Base                    2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Base::Common            2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Bzip2                   2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Deflate                 2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Gzip                    2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Gzip::Constants         2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::RawDeflate              2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Zip                     2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Zip::Constants          2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Zlib::Constants         2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Compress::Zlib::Extra             2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::HTML                              1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
 IO::String                             1.08  G/GA/GAAS/IO-String-1.08.tar.gz
 IO::TieCombine                        1.004  R/RJ/RJBS/IO-TieCombine-1.004.tar.gz
 IO::TieCombine::Handle                1.004  R/RJ/RJBS/IO-TieCombine-1.004.tar.gz
 IO::TieCombine::Scalar                1.004  R/RJ/RJBS/IO-TieCombine-1.004.tar.gz
+IO::Uncompress::Adapter::Bunzip2      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::Adapter::Identity      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::Adapter::Inflate      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::AnyInflate            2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::AnyUncompress         2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::Base                  2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::Bunzip2               2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::Gunzip                2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::Inflate               2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::RawInflate            2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+IO::Uncompress::Unzip                 2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IPC::Run3                             0.048  R/RJ/RJBS/IPC-Run3-0.048.tar.gz
 Import::Into                       1.002004  E/ET/ETHER/Import-Into-1.002004.tar.gz
 JSON                                   2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
@@ -1730,6 +1771,49 @@ Sub::Exporter::Util                   0.987  R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
 Sub::Install                          0.928  R/RJ/RJBS/Sub-Install-0.928.tar.gz
 Sub::Quote                         1.006000  H/HA/HAARG/Moo-1.006000.tar.gz
 Sub::Uplevel                           0.24  D/DA/DAGOLDEN/Sub-Uplevel-0.24.tar.gz
+TAP::Base                              3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Formatter::Base                   3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Formatter::Color                  3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Formatter::Console                3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Formatter::Console::ParallelSession       3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Formatter::Console::Session       3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Formatter::File                   3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Formatter::File::Session          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Formatter::Session                3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Harness                           3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Harness::Env                      3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Object                            3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser                            3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Aggregator                3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Grammar                   3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Iterator                  3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Iterator::Array           3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Iterator::Process         3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Iterator::Stream          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::IteratorFactory           3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Multiplexer               3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Result                    3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Result::Bailout           3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Result::Comment           3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Result::Plan              3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Result::Pragma            3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Result::Test              3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Result::Unknown           3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Result::Version           3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Result::YAML              3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::ResultFactory             3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Scheduler                 3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Scheduler::Job            3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Scheduler::Spinner        3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::Source                    3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::SourceHandler             3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::SourceHandler::Executable       3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::SourceHandler::File       3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::SourceHandler::Handle       3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::SourceHandler::Perl       3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::SourceHandler::RawTAP       3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::YAMLish::Reader           3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
+TAP::Parser::YAMLish::Writer           3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Task::Weaken                           1.04  A/AD/ADAMK/Task-Weaken-1.04.tar.gz
 Template                               2.26  A/AB/ABW/Template-Toolkit-2.26.tar.gz
 Template::Base                         2.78  A/AB/ABW/Template-Toolkit-2.26.tar.gz
@@ -1838,6 +1922,7 @@ Test::Deep::SuperHashKeysOnly         undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Differences                      0.62  D/DC/DCANTRELL/Test-Differences-0.62.tar.gz
 Test::Exception                        0.35  E/EX/EXODIST/Test-Exception-0.35.tar.gz
 Test::Fatal                           0.013  R/RJ/RJBS/Test-Fatal-0.013.tar.gz
+Test::Harness                          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Test::LeakTrace                        0.14  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::LeakTrace::Script               undef  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::Memory::Cycle                    1.04  P/PE/PETDANCE/Test-Memory-Cycle-1.04.tar.gz
@@ -1874,6 +1959,7 @@ Text::Diff::Base                       1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Config                     1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Table                      1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Try::Tiny                              0.22  D/DO/DOY/Try-Tiny-0.22.tar.gz
+U64                                   2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 URI                                    1.64  E/ET/ETHER/URI-1.64.tar.gz
 URI::Escape                            3.31  E/ET/ETHER/URI-1.64.tar.gz
 URI::Heuristic                         4.20  E/ET/ETHER/URI-1.64.tar.gz
@@ -1952,6 +2038,8 @@ YAML::Type::regexp                    undef  I/IN/INGY/YAML-1.11.tar.gz
 YAML::Type::undef                     undef  I/IN/INGY/YAML-1.11.tar.gz
 YAML::Types                           undef  I/IN/INGY/YAML-1.11.tar.gz
 YAML::Warning                         undef  I/IN/INGY/YAML-1.11.tar.gz
+Zlib::OldDeflate                      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+Zlib::OldInflate                      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 bareword::filehandles                 0.003  I/IL/ILMARI/bareword-filehandles-0.003.tar.gz
 bytes                                  2.94  A/AB/ABW/Template-Toolkit-2.26.tar.gz
 eta                                   1.001  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
