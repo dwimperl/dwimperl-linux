@@ -5,7 +5,7 @@ Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
 Line-Count:   150
-Last-Updated: Mon Sep 22 12:36:57 2014
+Last-Updated: Mon Sep 22 12:43:26 2014
 
 App::cpanminus                       1.7011  M/MI/MIYAGAWA/App-cpanminus-1.7011.tar.gz
 CPAN::Meta                         2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
