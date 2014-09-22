@@ -6,7 +6,7 @@ PERL_VERSION=5.20.1
 SUBVERSION=1
 PLATFORM=`uname`
 echo $PLATFORM
-if [ "$PLATFORM" == "Darwin" ]
+if [ "$PLATFORM" = "Darwin" ]
 then
   ARCHITECTURE=`uname -m`
 else
