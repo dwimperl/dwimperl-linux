@@ -5,14 +5,14 @@ echo set up environment variables
 PERL_VERSION=5.20.1
 SUBVERSION=1
 PLATFORM=`uname`
-echo $PLATFORM
+echo PLATFORM='$PLATFORM'
 if [ "$PLATFORM" = "Darwin" ]
 then
   ARCHITECTURE=`uname -m`
 else
   ARCHITECTURE=`uname -i`
 fi
-echo $ARCHITECTURE
+echo ARCHITECTURE='$ARCHITECTURE'
 
 
 PERL_SOURCE_VERSION=perl-$PERL_VERSION
@@ -28,6 +28,9 @@ ORIGINAL_PATH=$PATH
 TEST_DIR=~/dwimperl_test
 BACKUP=~/dwimperl_backup
 
+echo "BUILD_HOME='$BUILD_HOME'
+
+
 export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
 
 case $1 in
@@ -42,16 +45,17 @@ case $1 in
     cd $BUILD_HOME
     
     which perl
-    perl -v
-    perl src/cpanm --local-lib=~/dwimperl-5.20.1-1-x86_64/perl/ --mirror file://home/dev/work/dwimperl-linux/local/cache/ App::cpanminus
+    $PREFIX_PERL/bin/perl -v
+    $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ App::cpanminus
+#    $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ local::lib
   ;;
 
 
   modules)
-    cpanm --installdeps .
+    $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ .
   ;;
   test)
-    prove
+    $PREFIX_PERL/bin/prove
   ;;
 
   *)
