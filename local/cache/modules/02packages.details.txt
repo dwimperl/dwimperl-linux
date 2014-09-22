@@ -4,10 +4,48 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   108
-Last-Updated: Mon Sep 22 12:31:28 2014
+Line-Count:   150
+Last-Updated: Mon Sep 22 12:36:57 2014
 
-HTML::Template                        undef  W/WO/WONKO/HTML-Template-2.95.tar.gz
+App::cpanminus                       1.7011  M/MI/MIYAGAWA/App-cpanminus-1.7011.tar.gz
+CPAN::Meta                         2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Meta::Converter              2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Meta::Feature                2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Meta::History                2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Meta::Merge                  2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Meta::Prereqs                2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Meta::Spec                   2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Meta::Validator              2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+HTML::Template                         2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::COND                   2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::DEFAULT                2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::ESCAPE                 2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::FAQ                   undef  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::JSESCAPE               2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::LOOP                   2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::NOOP                   2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::PRINTSCALAR            2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::URLESCAPE              2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+HTML::Template::VAR                    2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
+Module::Build                        0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Base                  0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Compat                0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Config                0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Cookbook              0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Dumper                0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Notes                 0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::PPMMaker              0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::Default     0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::MacOS       0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::Unix        0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::VMS         0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::VOS         0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::Windows     0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::aix         0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::cygwin      0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::darwin      0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::Platform::os2         0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+Module::Build::PodParser             0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 Mojo                                  undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
 Mojo::Asset                           undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
 Mojo::Asset::File                     undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
@@ -114,4 +152,8 @@ Mojolicious::Types                    undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar
 Mojolicious::Validator                undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
 Mojolicious::Validator::Validation      undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
 Test::Mojo                            undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz
+inc::latest                          0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+inc::latest::private                 0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
+lib::core::only                       undef  H/HA/HAARG/local-lib-2.000014.tar.gz
+local::lib                         2.000014  H/HA/HAARG/local-lib-2.000014.tar.gz
 ojo                                   undef  J/JH/JHTHORSEN/Mojolicious-5.17.tar.gz

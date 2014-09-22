@@ -1,3 +1,4 @@
+requires 'ExtUtils::MakeMaker';
 requires 'local::lib';
 requires 'App::cpanminus';
 requires 'HTML::Template';
