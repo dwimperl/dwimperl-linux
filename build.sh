@@ -32,6 +32,10 @@ ORIGINAL_PATH=$PATH
 
 echo BUILD_HOME=$BUILD_HOME
 
+# perpare the local metadb for cpanm
+rm -f local/cache/modules/02packages.details.txt.gz
+gzip -k local/cache/modules/02packages.details.txt
+
 
 export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
 
@@ -53,7 +57,7 @@ case $1 in
 
   cpanm)
     cd $BUILD_HOME
-    $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ App::cpanminus
+    $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ --mirror-only App::cpanminus
 #    $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ local::lib
   ;;
 
@@ -68,7 +72,7 @@ case $1 in
   modules)
       cd $BUILD_HOME
       HARNESS_OPTIONS=j3
-      $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ .
+      $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ --mirror-only .
   ;;
 
   test_perl)
@@ -87,7 +91,7 @@ case $1 in
 
   zip)
       cd $ROOT
-      tar czf $dirname.tar.gz $dirname
+      tar czf $DWIMPERL_VERSION.tar.gz $DWIMPERL_VERSION
   ;;
 
   *)

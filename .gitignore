@@ -1,6 +1,7 @@
 /local/bin/
 /local/man/
 /local/lib/
+/local/cache/modules/02packages.details.txt.gz
 /perl-5.*
 *.swp
 /dwimperl-*
