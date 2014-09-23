@@ -3,3 +3,4 @@
 /local/lib/
 /perl-5.*
 *.swp
+/dwimperl-*
