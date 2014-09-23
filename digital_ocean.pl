@@ -79,7 +79,6 @@ sub run {
     	"cd $dir",
     	"./build.sh",
     	"cd",
-    #	"tar czf $zipname $dirname",
 	);
 	$self->ssh($username, $server->ip_address, \@user_cmds);
 

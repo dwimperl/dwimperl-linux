@@ -7,7 +7,7 @@ perl:
 script:
   - ./build.sh perl
 #  - ./build.sh get_vanilla_perl
-  - ./build.sh cpan
+  - ./build.sh cpanm
   - ./build.sh modules
   - ./build.sh test_perl
 #  - ./build.sh test_all
