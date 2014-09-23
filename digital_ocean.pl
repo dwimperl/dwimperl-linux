@@ -77,12 +77,25 @@ sub run {
     	'wget ' . $self->url,
     	"unzip $zip_file",
     	"cd $dir",
-    	"./build.sh",
-    	"cd",
+
+		# build 'vanilla perl with cpanm'
+    	"./build.sh perl",
+    	"./build.sh cpanm",
+    	"./build.sh test_perl",
+    	"./build.sh zip",
+
+		# based on 'vanilla perl' add all the modules
+    	#"./build.sh get_vanilla_perl",
+    	#"./build.sh modules",
+    	#"./build.sh test_all",
+    	#"./build.sh zip",
 	);
 	$self->ssh($username, $server->ip_address, \@user_cmds);
 
-    #  dowload scp
+	# download the zip file
+	#my $cmd = sprintf 'scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s:%s %s',  $username, $ip_address, $remote_filename, $local_filename;
+	#say $cmd if $self->verbose; 
+	#system $cmd;
 
 	if ($self->create) {
 		say 'Destroying the server';
