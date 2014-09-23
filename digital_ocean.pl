@@ -43,9 +43,7 @@ sub run {
 		return;
 	}
 
-
 	die "Exactly on of --create and   --droplet ID\n" if not $self->create xor $self->droplet;
-
 	
 	if ($self->create) {
 		say 'Creating droplet. Takes about 60 secons. Please wait';
@@ -67,22 +65,23 @@ sub run {
 	printf "ID: %s  name %s IP: %s\n", $server->id, $server->name, $server->ip_address;
 
 	my $username = 'dwimperl';
-	#adduser $username 
-    #cp -r .ssh/ /home/$username/
-	#yum -y install make.x86_64
-	#yum -y install gcc.x86_64
+	my @root_cmds = (
+		"adduser $username",
+    	"cp -r .ssh/ /home/$username/",
+		'yum -y install make.x86_64',
+		'yum -y install gcc.x86_64'
+	);
+	$self->ssh('root', $server->ip_address, \@root_cmds);
 
-	my $cmd = sprintf 'ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@%s "uname -a; uptime; hostname"',  $server->ip_address;
-	say $cmd;
-	system $cmd;
-
-    #ssh as $username
-    #  wget $url
-    #  unzip $zip_file
-    #  cd $dir
-    #  ./build.sh
-    #  cd ~
-    #  tar czf $zipname $dirname
+	my @user_cmds = (
+    	'wget ' . $self->url,
+    	"unzip $zip_file",
+    	"cd $dir",
+    	"./build.sh",
+    	"cd",
+    #	"tar czf $zipname $dirname",
+	);
+	$self->ssh($username, $server->ip_address, \@user_cmds);
 
     #  dowload scp
 
@@ -91,6 +90,17 @@ sub run {
 		$server->destroy;
 	}
 }
+
+sub ssh {
+	my ($self, $username, $ip_address, $cmds) = @_;
+
+	foreach my $cmd (@$cmds) { 
+		my $full_cmd = sprintf 'ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s "%s"',  $username, $ip_address, $cmd;
+		say $full_cmd if $self->verbose; 
+		system $full_cmd;
+	}
+}
+
 
 sub usage {
 	my ($self, $msg) = @_;
