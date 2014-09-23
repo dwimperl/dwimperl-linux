@@ -5,7 +5,9 @@ language: perl
 perl:
   - "5.10"
 script:
-#  - ./build.sh perl
-  - ./build.sh get_vanilla_perl
+  - ./build.sh perl
+#  - ./build.sh get_vanilla_perl
+  - ./build.sh cpan
   - ./build.sh modules
-  - ./build.sh test
+  - ./build.sh test_perl
+#  - ./build.sh test_all

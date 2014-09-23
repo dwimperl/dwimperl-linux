@@ -47,6 +47,10 @@ case $1 in
     
     which perl
     $PREFIX_PERL/bin/perl -v
+  ;;
+
+  cpanm)
+    cd $BUILD_HOME
     $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ App::cpanminus
 #    $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ local::lib
   ;;
@@ -60,11 +64,18 @@ case $1 in
 
 
   modules)
+    cd $BUILD_HOME
     HARNESS_OPTIONS=j3
     $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ .
   ;;
 
-  test)
+  test_perl)
+    cd $BUILD_HOME
+    $PREFIX_PERL/bin/prove t/00-perl.t
+  ;;
+
+  test_all)
+    cd $BUILD_HOME
     $PREFIX_PERL/bin/prove
   ;;
 
