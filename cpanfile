@@ -102,4 +102,9 @@ requires 'URL::Encode::XS';
 #requires 'Test::Perl::Critic';
 #requires 'Web::Feed';
 #requires 'XML::Feed';
+#requires 'HTML::Entities', '3.69';
+#requires 'HTML::Parser',   '3.71';
+#requires 'Text::VimColor', '0.24';
+#requires 'XML::Parser',    '2.41';
+#requires 'PDF::Create',    '1.08';
 
