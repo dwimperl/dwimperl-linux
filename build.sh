@@ -4,6 +4,7 @@
 echo set up environment variables
 PERL_VERSION=5.20.1
 SUBVERSION=1
+BASE_SUBVERSION=1
 PLATFORM=`uname`
 PLATFORM_NAME=$(echo $PLATFORM | tr '[:upper:]' '[:lower:]')
 echo PLATFORM=$PLATFORM
@@ -20,6 +21,7 @@ PERL_SOURCE_VERSION=perl-$PERL_VERSION
 PERL_SOURCE_ZIP_FILE=$PERL_SOURCE_VERSION.tar.gz
 
 DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$SUBVERSION-$ARCHITECTURE
+BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$BASE_SUBVERSION-$ARCHITECTURE
 echo $DWIMPERL_VERSION
 ROOT=~
 PREFIX_PERL=$ROOT/$DWIMPERL_VERSION/perl
@@ -64,9 +66,9 @@ case $1 in
   ;;
 
   get_vanilla_perl)
-      wget http://dwimperl.com/download/dwimperl-linux-5.20.1-1-x86_64.tar.gz
-      tar xzf dwimperl-linux-5.20.1-1-x86_64.tar.gz
-      mv dwimperl-5.20.1-1-x86_64 $ROOT/$DWIMPERL_VERSION
+      wget http://dwimperl.com/download/$BASE_DWIMPERL_VERSION.tar.gz
+      tar xzf $BASE_DWIMPERL_VERSION.tar.gz
+      mv $BASE_DWIMPERL_VERSION $ROOT/$DWIMPERL_VERSION
       $PREFIX_PERL/bin/perl -v
   ;;
 
