@@ -51,6 +51,13 @@ case $1 in
 #    $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ local::lib
   ;;
 
+  get_vanilla_perl)
+      wget http://dwimperl.com/download/dwimperl-linux-5.20.1-1-x86_64.tar.gz
+      tar xzf dwimperl-linux-5.20.1-1-x86_64.tar.gz
+      mv dwimperl-5.20.1-1-x86_64 $ROOT
+      $PREFIX_PERL/bin/perl -v
+  ;;
+
 
   modules)
     HARNESS_OPTIONS=j3
