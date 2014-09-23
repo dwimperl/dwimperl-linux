@@ -32,7 +32,9 @@ ORIGINAL_PATH=$PATH
 
 echo BUILD_HOME=$BUILD_HOME
 
-# perpare the local metadb for cpanm
+# prepare the local metadb for cpanm
+# without this cpanm would complain that it cannot find the modules in the
+# metaDB (especially if we are off-line)
 rm -f local/cache/modules/02packages.details.txt.gz
 gzip -k local/cache/modules/02packages.details.txt
 
