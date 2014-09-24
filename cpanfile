@@ -7,7 +7,7 @@ requires 'Archive::Any';
 requires 'Archive::Zip';
 requires 'Archive::Tar',               '2.02';
 requires 'B::Debug',                   '1.21';
-requires 'Business::PayPal';
+#requires 'Business::PayPal';
 requires 'Capture::Tiny',              '0.25';
 requires 'CGI::Deurl::XS';
 requires 'CGI::Fast',                  '2.03';
