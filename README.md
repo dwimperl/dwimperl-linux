@@ -75,8 +75,8 @@ Update the OPENSSL entry in build.sh
 libxml2
 -------
 
-# libxml2 and zlib are needed for XML::LibXML
-# See http://xmlsoft.org/ and ftp://xmlsoft.org/libxml2/
+libxml2 and zlib are needed for XML::LibXML
+See http://xmlsoft.org/ and ftp://xmlsoft.org/libxml2/
 
 ```
 cd src
@@ -84,6 +84,20 @@ wget ftp://xmlsoft.org/libxml2/libxml2-2.9.1.tar.gz
 ```
 
 Update the LIBXML2 variable in build.sh
+
+
+zlib
+-----
+
+See http://www.zlib.net/
+
+```
+cd src
+wget http://zlib.net/zlib-1.2.8.tar.gz
+```
+
+Update the ZLIB variable in build.sh
+
 
 
 Upgrade cpanm used for installing cpanm
