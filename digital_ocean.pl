@@ -14,7 +14,7 @@ option droplet  => (is => 'rw', format => 's', doc => 'Droplet ID - Use this Dro
 option create   => (is => 'ro');
 
 has config_file => (is => 'rw');
-has url         => (is => 'rw');
+has tag         => (is => 'rw');
 
 main->new_with_options->run;
 exit;
@@ -23,9 +23,12 @@ sub run {
 	my ($self) = @_;
 
 	$self->config_file(File::HomeDir->my_home . '/.digitalocean');
-	$self->url('https://github.com/dwimperl/dwimperl-linux/archive/experiment-0.01.zip');
-	(my $zip_file = $self->url) =~ s{.*/}{};
-	my $dir = 'dwimperl-linux-' . substr($zip_file, 0, -4);
+	#$self->tag('experiment-0.01');
+	my $url = 'https://github.com/dwimperl/dwimperl-linux/archive';
+	$self->tag('master');
+	my $zip_file = $self->tag . '.zip';
+	my $bare_file = $self->tag;
+	my $dir = 'dwimperl-linux-' . $self->tag;
 
 	$self->usage('Missing config') if !-e $self->config_file;
 
@@ -50,12 +53,12 @@ sub run {
 		printf "Creating droplet. Can take about 60 seconds. Started at %s, Please wait. \n", scalar localtime;
 		my $t0 = time;
 		my $droplet = $do->create_droplet(
-		    name           => 'dwimperl',
-		    size_id        =>  66,        # 512Mb
-		    image_id       => '1601',     # CentOS 5.8 x64 
-		    ssh_key_ids    => $ssh_key_id,
-		    region_id      => 8,          # New York 3
-		    wait_on_event  => 1,
+			name           => 'dwimperl',
+			size_id        =>  66,        # 512Mb
+			image_id       => '1601',     # CentOS 5.8 x64 
+			ssh_key_ids    => $ssh_key_id,
+			region_id      => 8,          # New York 3
+			wait_on_event  => 1,
 		);
 		my $t1 = time;
 		say 'Elapsed time creating the Droplet: ' . ($t1-$t0) . ' seconds';
@@ -75,15 +78,18 @@ sub run {
 	$self->ssh('root', $server->ip_address, \@root_cmds);
 
 	my @user_cmds = (
-		'wget ' . $self->url,
+		"rm -f $dir $bare_file $zip_file",  # remove old files (mostly interesting when reusing the same VPS)
+		"wget $url/$zip_file",
+		# for some reason wget on the old CentOS will download a file called master even when we ask for master.zip
+		# that's what we are fixing by renaming bare_file to zip_file
+		"[ -e $bare_file ] && mv $bare_file $zip_file",
 		"unzip $zip_file",
-		"cd $dir",
 
 		# build 'vanilla perl with cpanm'
-		"./build.sh perl",
-		"./build.sh cpanm",
-		"./build.sh test_perl",
-		"./build.sh zip",
+		"cd $dir; ./build.sh perl",
+		"cd $dir; ./build.sh cpanm",
+		"cd $dir; ./build.sh test_perl",
+		"cd $dir; ./build.sh zip",
 
 		# based on 'vanilla perl' add all the modules
 		#"./build.sh get_vanilla_perl",
@@ -94,10 +100,12 @@ sub run {
 	my $results = $self->ssh($username, $server->ip_address, \@user_cmds);
 
 	my ($remote_filename) = grep { /^GENERATED_ZIP_FILE=([^ ]*)/ } @{ $results->[-1] };
+	say "remote_filename=$remote_filename" if $self->verbose; 
 	(my $local_filename = $remote_filename) =~ s{^[^/]*}{};
+	say "local_filename=$local_filename" if $self->verbose; 
 
 	# download the zip file
-	my $cmd = sprintf 'scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s:%s %s',  $username, $server->ip_address, $remote_filename, $local_filename;
+	my $cmd = sprintf 'scp -q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s:%s %s',  $username, $server->ip_address, $remote_filename, $local_filename;
 	say $cmd if $self->verbose; 
 	system $cmd;
 
@@ -112,7 +120,7 @@ sub ssh {
 
 	my @results;
 	foreach my $cmd (@$cmds) { 
-		my $full_cmd = sprintf 'ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s "%s"',  $username, $ip_address, $cmd;
+		my $full_cmd = sprintf 'ssh -q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s "%s"',  $username, $ip_address, $cmd;
 		say $full_cmd if $self->verbose; 
 		my @out = qx{$full_cmd};
 		print @out if $self->verbose;
