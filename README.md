@@ -1,58 +1,86 @@
 [![Build Status](https://travis-ci.org/dwimperl/dwimperl-linux.png)](https://travis-ci.org/dwimperl/dwimperl-linux)
 
 
-INSTALL
---------
+DWIM Perl for Linux
+====================
 
-wget https://github.com/dwimperl/dwimperl-linux/archive/master.zip
+Downloading
+-----------
+
+The released package of DWIM Perl for Linux can be found at http://dwimperl.com/linux.html
+
+Create derivative distribution
+------------------------------
+
+* Fork the repository
+* Add and upgrade modules (see below)
+* Build new version (see below)
+
+
+Building manually from source
+------------------------------
+
+If you'd like to build DWIM Perl for linux yourself you can do so by the following these instructions:
+
+Install the prerequisites which are 'make' and 'gcc'
+
+```
+wget https://github.com/dwimperl/dwimperl-linux/archive/master.zip```
+    # Note: in some cases the file downloaded by ```wget``` will have no .zip extension.
+    # You might want to rename the file before proceeding
 unzip master.zip
-cd 
-./build.sh
+cd dwimperl-linux-master
+./build.sh perl        # build perl
+./build.sh cpanm       # install cpanm
+./build.sh modules     # install all the modules
+./build.sh test_all    # run a sanity check loading some of the modules we installed
+./build.sh zip         # create the tar.gz to be distributed
+```
+
+TBD: building based on existing DWIM Perl
+TBD: building on Digital Ocean
 
 
-wget https://github.com/dwimperl/dwimperl-linux/archive/experiment-0.01.zip
-unzip experiment-0.01.zip
-cd dwimperl-linux-experiment-0.01
-./build.sh
 
 
-How it was created, how to upgrade
-----------------------------------
+Upgrade Perl
+-------------
 
+Look at http://www.cpan.org/src/README.html for the latest stable release of Perl
 
-*Perl:*
-
-Look at http://www.cpan.org/src/README.html for the latest
+```
 cd src/
 wget http://www.cpan.org/src/5.0/perl-5.20.1.tar.gz
+```
 
+Upgrade cpanm used for installing cpanm
+---------------------------------------
 
-*cpanm*
+Note: This copy of cpanm is only used to install the latest version of cpanm from CPAN.
+The rest of the modules are then installed using *that* version of cpanm.
 
+```
 cd src/
 wget wget https://raw.githubusercontent.com/miyagawa/cpanminus/master/cpanm
+```
 
+Add CPAN Modules
+----------------
 
-*CPAN Modules*
-
-Edit ```cpanfile``` add the name of the required module.
+Edit ```cpanfile``` add the names of the new modules.
 Run ```carton```. It will download the zip files and install the modules.
 Add the zip files to Git.
-(Problem: If a module is already installed, in the perl we are using, this will not download the zip file either)
+(Problem: It seems that if a prerequisite is already installed in the perl we are using,
+this will not download the zip file of that prerequisites either. I think adding the prerequisite
+explicitely to the cpanfile helped.)
 
-To upgrade a module, put the new version number after the name of the module
+Upgrade CPAN Modules
+---------------------
+
+Run ```./build.sh outdated``` to list the distributions that have newer versions on CPAN.
+Edit ```cpanfile``` and put the new version number after the name of the module:
 ```requires 'Module::Name', '3.14';```
-then run ```carton```.
+then run ```carton``` to update the ```cpanfile.snapshot```
 
 
-
-The build.sh script can build everything:
-
-```
-./build.sh perl        will build perl and install cpanm
-./build.sh modules     will install all the modules
-./build.sh test        will run a sanity check loading some of the modules we installed
-
-./build.sh outdated    will list the distributions that have newer versions on CPAN.
-```
 
