@@ -78,7 +78,7 @@ sub run {
 	$self->ssh('root', $server->ip_address, \@root_cmds);
 
 	my @user_cmds = (
-		"rm -f $dir $bare_file $zip_file",  # remove old files (mostly interesting when reusing the same VPS)
+		"rm -rf $dir $bare_file $zip_file",  # remove old files (mostly interesting when reusing the same VPS)
 		"wget $url/$zip_file",
 		# for some reason wget on the old CentOS will download a file called master even when we ask for master.zip
 		# that's what we are fixing by renaming bare_file to zip_file
