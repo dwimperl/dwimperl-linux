@@ -1,9 +1,7 @@
 branches:
   except:
     - gh-pages
-language: perl
-perl:
-  - "5.10"
+language: c
 script:
 #  - ./build.sh perl
 #  - ./build.sh cpanm
