@@ -92,10 +92,11 @@ sub run {
 	if ($self->from) {
 		# based on 'vanilla perl' add all the modules
 		push @user_cmds, (
-			"./build.sh get_vanilla_perl",
-			"./build.sh modules",
-			"./build.sh test_all",
-			"./build.sh zip",
+			"cd $dir; ./build.sh get_vanilla_perl",
+			"cd $dir; ./build.sh modules",
+			"cd $dir; ./build.sh test_cpanfile",
+			#"cd $dir; ./build.sh test_all",
+			"cd $dir; ./build.sh zip",
 		);
 	} else {
 		# build 'vanilla perl with cpanm'
