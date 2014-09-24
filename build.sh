@@ -19,6 +19,7 @@ then
     DWIMPERL_COM=http://dwimperl.com/download
 fi
 
+OPENSSL=openssl-1.0.1i
 
 # If you want to build DWIM Perl based on an earlier version
 # the script will download that version from http://dwimperl.com/download
@@ -93,6 +94,27 @@ case $1 in
       cd $BUILD_HOME
       $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ --mirror-only App::cpanminus
 #      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ local::lib
+  ;;
+
+  openssl)
+      cd $BUILD_HOME
+      tar xzf $OPENSSL.tar.gz
+      cd $OPENSSL
+      rm -rf doc
+
+      # instead of patching broken PODs that cause "make install" to fail we just remove them:
+      # (This was needed in  openssl-1.0.1e.tar.gz I have not tested it later)
+      #mkdir doc
+      #mkdir doc/apps
+      #mkdir doc/crypto
+      #mkdir doc/ssl
+      #cp $BUILD_HOME/src/empty.pod doc/apps/
+      #cp $BUILD_HOME/src/empty.pod doc/crypto/
+      #cp $BUILD_HOME/src/empty.pod doc/ssl/
+      ./config --prefix=$PREFIX_C -fPIC
+      make
+      make test
+      make install
   ;;
 
   get_vanilla_perl)

@@ -42,7 +42,6 @@ TBD: building on Digital Ocean
 
 
 
-
 Upgrade Perl
 -------------
 
@@ -52,6 +51,26 @@ Look at http://www.cpan.org/src/README.html for the latest stable release of Per
 cd src/
 wget http://www.cpan.org/src/5.0/perl-5.20.1.tar.gz
 ```
+
+Update the PERL_VERSION in build.sh
+
+OpenSSL
+-------
+
+OpenSSL is needed by Net::SSLEay which is needed by LWP::Protocol::https
+and Business::PayPal and more.
+Look at http://www.openssl.org/  and at http://www.openssl.org/news/
+11-Feb-2013:	openssl-1.0.1e.tar.gz
+...
+06-Aug-2014:    openssl-1.0.1i.tar.gz
+
+```
+cd src/
+wget http://www.openssl.org/source/openssl-1.0.1i.tar.gz
+```
+
+Update the OPENSSL entry in build.sh
+
 
 Upgrade cpanm used for installing cpanm
 ---------------------------------------
@@ -81,6 +100,5 @@ Run ```./build.sh outdated``` to list the distributions that have newer versions
 Edit ```cpanfile``` and put the new version number after the name of the module:
 ```requires 'Module::Name', '3.14';```
 then run ```carton``` to update the ```cpanfile.snapshot```
-
 
 
