@@ -99,12 +99,18 @@ case $1 in
 
   test_perl)
       cd $BUILD_HOME
-      $PREFIX_PERL/bin/prove t/00-perl.t
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/prove t/00-perl.t
   ;;
+
+  test_cpanfile)
+      cd $BUILD_HOME
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/prove t/01-cpanfile.t
+  ;;
+
 
   test_all)
       cd $BUILD_HOME
-      $PREFIX_PERL/bin/prove
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/prove
   ;;
 
   outdate)
@@ -124,6 +130,7 @@ case $1 in
     echo get_vanilla_perl    - download and unzip the vanialla perl
     echo modules             - install all the modules listed in the cpanfile
     echo test_perl           - test if perl has the expected version number t/00-perl.t
+    echo test_cpanfile       - test if modules listed in the cpanfile can be loaded 
     echo test_all            - test if we can load modules
     echo outdate             - list the modules that have newer versions on CPAN
     echo zip                 - create the final zip file
