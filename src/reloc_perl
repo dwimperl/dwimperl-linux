@@ -1,0 +1,48 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use Cwd qw(abs_path);
+
+my $dir = shift or die "Usage: $0 dir   - the directory after perl was moved\n";
+
+$dir = abs_path $dir;
+
+my %SKIP = map { $_ => 1 } qw(. .. a2p);
+# TODO better check if the file is a binary file!
+
+opendir my $dh, $dir or die "Could not open '$dir' $!";
+while (my $entry = readdir $dh) {
+	next if $SKIP{$entry};
+	next if grep { /ELF/ } qx{file $dir/$entry};
+
+	eval {
+		my $content = read_file("$dir/$entry");
+		qx{chmod u+wx $dir/$entry};
+		write_file("$dir/$entry", "#!$dir/perl\n\n$content");
+		1;
+	} or do {
+		my $err = $@ // "Unknown error with '$entry'\n";
+		print $err;
+	};
+	
+	#print "done $entry\n";
+	#<STDIN>;
+}
+
+sub read_file {
+	my ($filename) = @_;
+
+	open my $fh, '<:encoding(UTF-8)', $filename or die "Could not open '$filename' to read $!";
+	local $/ = undef;
+	my $cont = <$fh>;
+	close $fh;
+	return $cont;
+}
+
+sub write_file {
+	my ($filename, $content) = @_;
+
+	open my $fh, '>:encoding(UTF-8)', $filename or die "Could not open '$filename' to write $!";
+	print $fh $content;
+	close $fh;
+}
