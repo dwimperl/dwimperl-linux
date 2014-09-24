@@ -45,6 +45,7 @@ ORIGINAL_PATH=$PATH
 
 echo BUILD_HOME=$BUILD_HOME
 
+
 # prepare the local metadb for cpanm
 # without this cpanm would complain that it cannot find the modules in the
 # metaDB (especially if we are off-line)
@@ -111,6 +112,7 @@ case $1 in
   zip)
       cd $ROOT
       tar czf $DWIMPERL_VERSION.tar.gz $DWIMPERL_VERSION
+      echo GENERATED_ZIP_FILE=$ROOT/$DWIMPERL_VERSION.tar.gz
   ;;
 
   *)
