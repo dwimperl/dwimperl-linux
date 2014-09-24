@@ -61,24 +61,25 @@ export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
 
 case $1 in
   perl)
-    echo "Building Perl"
-    tar -xzf src/$PERL_SOURCE_ZIP_FILE
-    cd $PERL_SOURCE_VERSION
-    ./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL
-	# -Dusethreads
-    make > /dev/null
-    TEST_JOBS=3 make test
-    make install > /dev/null
-    cd $BUILD_HOME
-    
-    which perl
-    $PREFIX_PERL/bin/perl -v
+      echo "Building Perl"
+      tar -xzf src/$PERL_SOURCE_ZIP_FILE
+      cd $PERL_SOURCE_VERSION
+      ./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL
+	  # -Dusethreads
+      make > /dev/null
+      TEST_JOBS=3 make test
+      make install > /dev/null
+      cd $BUILD_HOME
+      
+      which perl
+      $PREFIX_PERL/bin/perl -v
+      cp src/reloc_perl $PREFIX_PERL/bin/
   ;;
 
   cpanm)
-    cd $BUILD_HOME
-    $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ --mirror-only App::cpanminus
-#    $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ local::lib
+      cd $BUILD_HOME
+      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ --mirror-only App::cpanminus
+#      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ local::lib
   ;;
 
   get_vanilla_perl)
@@ -119,6 +120,8 @@ case $1 in
 
   zip)
       cd $ROOT
+      cp $BUILD_HOME/src/reloc_perl $PREFIX_PERL/bin/
+      chmod u+wx $PREFIX_PERL/bin/*
       tar -czf $DWIMPERL_VERSION.tar.gz $DWIMPERL_VERSION
       echo GENERATED_ZIP_FILE=$ROOT/$DWIMPERL_VERSION.tar.gz
   ;;

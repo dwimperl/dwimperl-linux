@@ -13,6 +13,8 @@ option verbose  => (is => 'ro');
 option droplet  => (is => 'rw', format => 's', doc => 'Droplet ID - Use this Droplet instead of creating new');
 option create   => (is => 'ro');
 
+option from     => (is => 'ro', required => 1, format => 'i', doc => 'Base the build on this subversion (0, 1, 2, ...)');
+
 has config_file => (is => 'rw');
 has tag         => (is => 'rw');
 
@@ -84,19 +86,26 @@ sub run {
 		# that's what we are fixing by renaming bare_file to zip_file
 		"[ -e $bare_file ] && mv $bare_file $zip_file",
 		"unzip $zip_file",
-
-		# build 'vanilla perl with cpanm'
-		"cd $dir; ./build.sh perl",
-		"cd $dir; ./build.sh cpanm",
-		"cd $dir; ./build.sh test_perl",
-		"cd $dir; ./build.sh zip",
-
-		# based on 'vanilla perl' add all the modules
-		#"./build.sh get_vanilla_perl",
-		#"./build.sh modules",
-		#"./build.sh test_all",
-		#"./build.sh zip",
 	);
+
+
+	if ($self->from) {
+		# based on 'vanilla perl' add all the modules
+		push @user_cmds, (
+			"./build.sh get_vanilla_perl",
+			"./build.sh modules",
+			"./build.sh test_all",
+			"./build.sh zip",
+		);
+	} else {
+		# build 'vanilla perl with cpanm'
+		push @user_cmds, (
+			"cd $dir; ./build.sh perl",
+			"cd $dir; ./build.sh cpanm",
+			"cd $dir; ./build.sh test_perl",
+			"cd $dir; ./build.sh zip",
+		);
+	}
 	my $results = $self->ssh($username, $server->ip_address, \@user_cmds);
 
 	my ($remote_filename) = map { substr $_, 19 } grep { /^GENERATED_ZIP_FILE=/ } @{ $results->[-1] };
