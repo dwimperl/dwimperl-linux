@@ -98,12 +98,12 @@ case $1 in
 
   openssl)
       cd $BUILD_HOME
-      tar xzf $OPENSSL.tar.gz
+      tar xzf src/$OPENSSL.tar.gz
       cd $OPENSSL
-      rm -rf doc
 
       # instead of patching broken PODs that cause "make install" to fail we just remove them:
       # (This was needed in  openssl-1.0.1e.tar.gz I have not tested it later)
+      #rm -rf doc
       #mkdir doc
       #mkdir doc/apps
       #mkdir doc/crypto
