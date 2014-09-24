@@ -55,7 +55,7 @@ sub run {
 		my $droplet = $do->create_droplet(
 			name           => 'dwimperl',
 			size_id        =>  66,        # 512Mb
-			image_id       => '1601',     # CentOS 5.8 x64 
+			image_id       => '1601',     # CentOS 5.8 x64
 			ssh_key_ids    => $ssh_key_id,
 			region_id      => 8,          # New York 3
 			wait_on_event  => 1,
@@ -99,14 +99,15 @@ sub run {
 	);
 	my $results = $self->ssh($username, $server->ip_address, \@user_cmds);
 
-	my ($remote_filename) = grep { /^GENERATED_ZIP_FILE=([^ ]*)/ } @{ $results->[-1] };
-	say "remote_filename=$remote_filename" if $self->verbose; 
-	(my $local_filename = $remote_filename) =~ s{^[^/]*}{};
-	say "local_filename=$local_filename" if $self->verbose; 
+	my ($remote_filename) = map { substr $_, 19 } grep { /^GENERATED_ZIP_FILE=/ } @{ $results->[-1] };
+	chomp $remote_filename;
+	say "remote_filename='$remote_filename'" if $self->verbose;
+	(my $local_filename = $remote_filename) =~ s{^.*/}{};
+	say "local_filename='$local_filename'" if $self->verbose;
 
 	# download the zip file
 	my $cmd = sprintf 'scp -q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s:%s %s',  $username, $server->ip_address, $remote_filename, $local_filename;
-	say $cmd if $self->verbose; 
+	say $cmd if $self->verbose;
 	system $cmd;
 
 	if ($self->create) {
@@ -119,9 +120,9 @@ sub ssh {
 	my ($self, $username, $ip_address, $cmds) = @_;
 
 	my @results;
-	foreach my $cmd (@$cmds) { 
+	foreach my $cmd (@$cmds) {
 		my $full_cmd = sprintf 'ssh -q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s "%s"',  $username, $ip_address, $cmd;
-		say $full_cmd if $self->verbose; 
+		say $full_cmd if $self->verbose;
 		my @out = qx{$full_cmd};
 		print @out if $self->verbose;
 		push @results, \@out;
