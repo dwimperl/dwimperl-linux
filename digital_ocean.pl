@@ -47,7 +47,7 @@ sub run {
 	die "Exactly on of --create and   --droplet ID\n" if not $self->create xor $self->droplet;
 	
 	if ($self->create) {
-		say 'Creating droplet. Takes about 60 secons. Please wait';
+		printf "Creating droplet. Can take about 60 seconds. Started at %s, Please wait. \n", scalar localtime;
 		my $t0 = time;
 		my $droplet = $do->create_droplet(
 		    name           => 'dwimperl',
@@ -58,7 +58,7 @@ sub run {
 		    wait_on_event  => 1,
 		);
 		my $t1 = time;
-		say 'Elapsed time creating the Droplet: ' . $t1-$t0;
+		say 'Elapsed time creating the Droplet: ' . ($t1-$t0) . ' seconds';
 		$self->droplet( $droplet->id );
 	}
 
@@ -91,12 +91,15 @@ sub run {
 		#"./build.sh test_all",
 		#"./build.sh zip",
 	);
-	$self->ssh($username, $server->ip_address, \@user_cmds);
+	my $results = $self->ssh($username, $server->ip_address, \@user_cmds);
+
+	my ($remote_filename) = grep { /^GENERATED_ZIP_FILE=([^ ]*)/ } @{ $results->[-1] };
+	(my $local_filename = $remote_filename) =~ s{^[^/]*}{};
 
 	# download the zip file
-	#my $cmd = sprintf 'scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s:%s %s',  $username, $ip_address, $remote_filename, $local_filename;
-	#say $cmd if $self->verbose; 
-	#system $cmd;
+	my $cmd = sprintf 'scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s:%s %s',  $username, $server->ip_address, $remote_filename, $local_filename;
+	say $cmd if $self->verbose; 
+	system $cmd;
 
 	if ($self->create) {
 		say 'Destroying the server';
@@ -107,11 +110,16 @@ sub run {
 sub ssh {
 	my ($self, $username, $ip_address, $cmds) = @_;
 
+	my @results;
 	foreach my $cmd (@$cmds) { 
 		my $full_cmd = sprintf 'ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s "%s"',  $username, $ip_address, $cmd;
 		say $full_cmd if $self->verbose; 
-		system $full_cmd;
+		my @out = qx{$full_cmd};
+		print @out if $self->verbose;
+		push @results, \@out;
 	}
+
+	return \@results;
 }
 
 
