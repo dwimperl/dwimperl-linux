@@ -33,7 +33,7 @@ PERL_SOURCE_ZIP_FILE=$PERL_SOURCE_VERSION.tar.gz
 
 DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$SUBVERSION-$ARCHITECTURE
 BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$BASE_SUBVERSION-$ARCHITECTURE
-echo $DWIMPERL_VERSION
+echo DWIMPERL_VERSION=$DWIMPERL_VERSION
 ROOT=~
 PREFIX_PERL=$ROOT/$DWIMPERL_VERSION/perl
 PREFIX_C=$ROOT/$DWIMPERL_VERSION/c
@@ -52,8 +52,8 @@ echo BUILD_HOME=$BUILD_HOME
 # the gzip -k works on OSX but not on the Linux of Travis
 PACKAGES=local/cache/modules/02packages.details.txt
 PACKAGES_ZIP=$PACKAGES.gz
-#echo $PACKAGES
-#echo $PACKAGES_ZIP
+#echo PACKAGES=$PACKAGES
+#echo PACKAGES_ZIP=$PACKAGES_ZIP
 [ ! -e $PACKAGES_ZIP ] || [ $PACKAGES -nt $PACKAGES_ZIP ] && (cat $PACKAGES | gzip > $PACKAGES_ZIP)
 
 
@@ -62,7 +62,7 @@ export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
 case $1 in
   perl)
     echo "Building Perl"
-    tar xzf src/$PERL_SOURCE_ZIP_FILE
+    tar -xzf src/$PERL_SOURCE_ZIP_FILE
     cd $PERL_SOURCE_VERSION
     ./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL
 	# -Dusethreads
@@ -83,7 +83,9 @@ case $1 in
 
   get_vanilla_perl)
       wget $DWIMPERL_COM/$BASE_DWIMPERL_VERSION.tar.gz
-      tar xzf $BASE_DWIMPERL_VERSION.tar.gz
+      tar -mxzf $BASE_DWIMPERL_VERSION.tar.gz
+      echo BASE_DWIMPERL_VERSION=$BASE_DWIMPERL_VERSION
+      echo ROOT/DWIMPERL_VERSION $ROOT/$DWIMPERL_VERSION
       mv $BASE_DWIMPERL_VERSION $ROOT/$DWIMPERL_VERSION
       $PREFIX_PERL/bin/perl -v
   ;;
@@ -92,7 +94,7 @@ case $1 in
   modules)
       cd $BUILD_HOME
       HARNESS_OPTIONS=j3
-      $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ --mirror-only .
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ --mirror-only .
   ;;
 
   test_perl)
@@ -111,7 +113,7 @@ case $1 in
 
   zip)
       cd $ROOT
-      tar czf $DWIMPERL_VERSION.tar.gz $DWIMPERL_VERSION
+      tar -czf $DWIMPERL_VERSION.tar.gz $DWIMPERL_VERSION
       echo GENERATED_ZIP_FILE=$ROOT/$DWIMPERL_VERSION.tar.gz
   ;;
 
