@@ -20,6 +20,7 @@ then
 fi
 
 OPENSSL=openssl-1.0.1i
+LIBXML2=libxml2-2.9.1
 
 # If you want to build DWIM Perl based on an earlier version
 # the script will download that version from http://dwimperl.com/download
@@ -114,6 +115,15 @@ case $1 in
       ./config --prefix=$PREFIX_C -fPIC
       make
       make test
+      make install
+  ;;
+
+  libxml2)
+      cd $BUILD_HOME
+      tar xzf src/$LIBXML2.tar.gz
+      cd $LIBXML2
+      ./configure --prefix $PREFIX_C --without-python
+      make
       make install
   ;;
 

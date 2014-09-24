@@ -72,6 +72,20 @@ wget http://www.openssl.org/source/openssl-1.0.1i.tar.gz
 Update the OPENSSL entry in build.sh
 
 
+libxml2
+-------
+
+# libxml2 and zlib are needed for XML::LibXML
+# See http://xmlsoft.org/ and ftp://xmlsoft.org/libxml2/
+
+```
+cd src
+wget ftp://xmlsoft.org/libxml2/libxml2-2.9.1.tar.gz
+```
+
+Update the LIBXML2 variable in build.sh
+
+
 Upgrade cpanm used for installing cpanm
 ---------------------------------------
 
