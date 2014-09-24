@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
 
-echo set up environment variables
+echo set up environmet variables
 PERL_VERSION=5.20.1
 SUBVERSION=1
 BASE_SUBVERSION=1
@@ -48,8 +48,12 @@ echo BUILD_HOME=$BUILD_HOME
 # prepare the local metadb for cpanm
 # without this cpanm would complain that it cannot find the modules in the
 # metaDB (especially if we are off-line)
-rm -f local/cache/modules/02packages.details.txt.gz
-gzip -k local/cache/modules/02packages.details.txt
+# the gzip -k works on OSX but not on the Linux of Travis
+PACKAGES=local/cache/modules/02packages.details.txt
+PACKAGES_ZIP=$PACKAGES.gz
+#echo $PACKAGES
+#echo $PACKAGES_ZIP
+[ ! -e $PACKAGES_ZIP ] || [ $PACKAGES -nt $PACKAGES_ZIP ] && (cat $PACKAGES | gzip > $PACKAGES_ZIP)
 
 
 export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
