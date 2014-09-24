@@ -1,19 +1,32 @@
 #!/bin/sh -e
 
+# TODO: The output of some commands have been redirectd to /dev/null becaus they
+# created too much output for Travis-CI. This needs to be improved.
 
 echo set up environmet variables
 PERL_VERSION=5.20.1
-SUBVERSION=2
-BASE_SUBVERSION=1
-DWIMPERL_COM=http://dwimperl.com/download
+
+if [ "$DWIM_VERSION" == "" ]
+then
+    DWIM_VERSION=2
+fi
+if [ "$DWIM_BASE_VERSION" == "" ]
+then
+    DWIM_BASE_VERSION=1
+fi
+if [ "$DWIMPERL_COM" == "" ]
+then
+    DWIMPERL_COM=http://dwimperl.com/download
+fi
+
 
 # If you want to build DWIM Perl based on an earlier version
 # the script will download that version from http://dwimperl.com/download
 # You can avoid the repeated downloading of the file by manually downloading it
 # and the configuring the DWIMPERL_COM environment variable to point to the directory
 # where the downloaded file lives in. (untested feature)
-#DWIMPERL_COM=file:///path/to/dwimperl.com/
-
+# DWIMPERL_COM=file:///path/to/dwimperl.com/ ./build.sh ....
+echo DWIMPERL_COM=$DWIMPERL_COM
 
 PLATFORM=`uname`
 PLATFORM_NAME=$(echo $PLATFORM | tr '[:upper:]' '[:lower:]')
@@ -31,8 +44,8 @@ echo ARCHITECTURE=$ARCHITECTURE
 PERL_SOURCE_VERSION=perl-$PERL_VERSION
 PERL_SOURCE_ZIP_FILE=$PERL_SOURCE_VERSION.tar.gz
 
-DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$SUBVERSION-$ARCHITECTURE
-BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$BASE_SUBVERSION-$ARCHITECTURE
+DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_VERSION-$ARCHITECTURE
+BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_BASE_VERSION-$ARCHITECTURE
 echo DWIMPERL_VERSION=$DWIMPERL_VERSION
 ROOT=~
 PREFIX_PERL=$ROOT/$DWIMPERL_VERSION/perl
