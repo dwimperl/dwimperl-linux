@@ -1,5 +1,5 @@
 #requires 'autodie',                    '2.25';
-#requires 'Acme::MetaSyntactic';
+requires 'Acme::MetaSyntactic';
 #requires 'App::cpanminus';
 #requires 'App::cpanoutdated';
 #requires 'App::Prove',                 '3.33';

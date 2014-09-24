@@ -5,10 +5,12 @@ language: perl
 perl:
   - "5.10"
 script:
-#  - gzip --help
-  - ./build.sh perl
-#  - ./build.sh get_vanilla_perl
-  - ./build.sh cpanm
+#  - ./build.sh perl
+#  - ./build.sh cpanm
+#  - ./build.sh modules
+#  - ./build.sh test_perl
+
+  - ./build.sh get_vanilla_perl
   - ./build.sh modules
   - ./build.sh test_perl
 #  - ./build.sh test_all

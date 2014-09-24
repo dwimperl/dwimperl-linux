@@ -3,7 +3,7 @@
 
 echo set up environmet variables
 PERL_VERSION=5.20.1
-SUBVERSION=1
+SUBVERSION=2
 BASE_SUBVERSION=1
 DWIMPERL_COM=http://dwimperl.com/download
 
