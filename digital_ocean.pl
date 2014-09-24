@@ -8,12 +8,13 @@ use Data::Dumper qw(Dumper);
 use DigitalOcean;
 use File::HomeDir;
 
-option list => (is => 'ro', doc => 'List available droplets');
-option verbose => (is => 'ro');
-option droplet => (is => 'rw', format => 's', doc => 'Droplet ID - Use this Droplet instead of creating new');
-option create => (is => 'ro');
+option list     => (is => 'ro', doc => 'List available droplets');
+option verbose  => (is => 'ro');
+option droplet  => (is => 'rw', format => 's', doc => 'Droplet ID - Use this Droplet instead of creating new');
+option create   => (is => 'ro');
+
 has config_file => (is => 'rw');
-has url => (is => 'rw');
+has url         => (is => 'rw');
 
 main->new_with_options->run;
 exit;
@@ -67,28 +68,28 @@ sub run {
 	my $username = 'dwimperl';
 	my @root_cmds = (
 		"adduser $username",
-    	"cp -r .ssh/ /home/$username/",
+		"cp -r .ssh/ /home/$username/",
 		'yum -y install make.x86_64',
 		'yum -y install gcc.x86_64'
 	);
 	$self->ssh('root', $server->ip_address, \@root_cmds);
 
 	my @user_cmds = (
-    	'wget ' . $self->url,
-    	"unzip $zip_file",
-    	"cd $dir",
+		'wget ' . $self->url,
+		"unzip $zip_file",
+		"cd $dir",
 
 		# build 'vanilla perl with cpanm'
-    	"./build.sh perl",
-    	"./build.sh cpanm",
-    	"./build.sh test_perl",
-    	"./build.sh zip",
+		"./build.sh perl",
+		"./build.sh cpanm",
+		"./build.sh test_perl",
+		"./build.sh zip",
 
 		# based on 'vanilla perl' add all the modules
-    	#"./build.sh get_vanilla_perl",
-    	#"./build.sh modules",
-    	#"./build.sh test_all",
-    	#"./build.sh zip",
+		#"./build.sh get_vanilla_perl",
+		#"./build.sh modules",
+		#"./build.sh test_all",
+		#"./build.sh zip",
 	);
 	$self->ssh($username, $server->ip_address, \@user_cmds);
 
