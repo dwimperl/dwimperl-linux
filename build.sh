@@ -5,6 +5,16 @@ echo set up environment variables
 PERL_VERSION=5.20.1
 SUBVERSION=1
 BASE_SUBVERSION=1
+DWIMPERL_COM=http://dwimperl.com/download
+
+# If you want to build DWIM Perl based on an earlier version
+# the script will download that version from http://dwimperl.com/download
+# You can avoid the repeated downloading of the file by manually downloading it
+# and the configuring the DWIMPERL_COM environment variable to point to the directory
+# where the downloaded file lives in. (untested feature)
+#DWIMPERL_COM=file:///path/to/dwimperl.com/
+
+
 PLATFORM=`uname`
 PLATFORM_NAME=$(echo $PLATFORM | tr '[:upper:]' '[:lower:]')
 echo PLATFORM=$PLATFORM
@@ -16,6 +26,7 @@ else
   ARCHITECTURE=`uname -i`
 fi
 echo ARCHITECTURE=$ARCHITECTURE
+
 
 PERL_SOURCE_VERSION=perl-$PERL_VERSION
 PERL_SOURCE_ZIP_FILE=$PERL_SOURCE_VERSION.tar.gz
@@ -66,7 +77,7 @@ case $1 in
   ;;
 
   get_vanilla_perl)
-      wget http://dwimperl.com/download/$BASE_DWIMPERL_VERSION.tar.gz
+      wget $DWIMPERL_COM/$BASE_DWIMPERL_VERSION.tar.gz
       tar xzf $BASE_DWIMPERL_VERSION.tar.gz
       mv $BASE_DWIMPERL_VERSION $ROOT/$DWIMPERL_VERSION
       $PREFIX_PERL/bin/perl -v
