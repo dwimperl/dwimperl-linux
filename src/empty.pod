@@ -1,0 +1,7 @@
+=head1 empty
+
+A placeholder instead of the pod files of openssl that were broken
+and we don't really need to install them anyway.
+
+=cut
+

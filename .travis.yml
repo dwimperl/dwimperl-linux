@@ -9,6 +9,7 @@ script:
 #  - ./build.sh test_perl
 
   - ./build.sh get_vanilla_perl
+  - ./build.sh openssl
   - ./build.sh modules
   - ./build.sh test_perl
   - ./build.sh test_cpanfile
