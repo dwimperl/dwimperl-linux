@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2198
-Last-Updated: Mon Sep 22 21:08:38 2014
+Line-Count:   2199
+Last-Updated: Wed Sep 24 14:56:24 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -118,6 +118,7 @@ Config::Any::JSON                     undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::Perl                     undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::XML                      undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::YAML                     undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
+Cpanel::JSON::XS                     3.0104  R/RU/RURBAN/Cpanel-JSON-XS-3.0104.tar.gz
 Crypt::URandom                         0.34  D/DD/DDICK/Crypt-URandom-0.34.tar.gz
 DBD::DBM                               0.08  T/TI/TIMB/DBI-1.631.tar.gz
 DBD::DBM::Statement                    0.08  T/TI/TIMB/DBI-1.631.tar.gz
