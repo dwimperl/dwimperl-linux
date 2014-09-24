@@ -6,15 +6,15 @@
 echo set up environmet variables
 PERL_VERSION=5.20.1
 
-if [ "$DWIM_VERSION" == "" ]
+if [ "$DWIM_VERSION" = "" ]
 then
     DWIM_VERSION=2
 fi
-if [ "$DWIM_BASE_VERSION" == "" ]
+if [ "$DWIM_BASE_VERSION" = "" ]
 then
     DWIM_BASE_VERSION=1
 fi
-if [ "$DWIMPERL_COM" == "" ]
+if [ "$DWIMPERL_COM" = "" ]
 then
     DWIMPERL_COM=http://dwimperl.com/download
 fi
