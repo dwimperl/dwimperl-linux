@@ -149,7 +149,7 @@ case $1 in
 
   modules)
       # needed to build Net::SSLeay
-      OPENSSL_PREFIX=$PREFIX_C
+      export OPENSSL_PREFIX=$PREFIX_C
 
       cd $BUILD_HOME
       HARNESS_OPTIONS=j3
