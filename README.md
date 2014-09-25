@@ -115,11 +115,17 @@ Add CPAN Modules
 ----------------
 
 Edit ```cpanfile``` add the names of the new modules.
-Run ```carton```. It will download the zip files and install the modules.
+Run ```carton install```. It will download the zip files and install the modules.
 Add the zip files to Git.
-(Problem: It seems that if a prerequisite is already installed in the perl we are using,
+
+Some Problems:
+
+It seems that if a prerequisite is already installed in the perl we are using,
 this will not download the zip file of that prerequisites either. I think adding the prerequisite
-explicitely to the cpanfile helped.)
+explicitely to the cpanfile helped.
+Sometimes the modules is actually added to the local/cache but it is not added to the
+local/cache/modules/02packages.details.txt file
+Adding the minimum version number to cpanfile and running carton install again helped.
 
 Upgrade CPAN Modules
 ---------------------
@@ -127,6 +133,6 @@ Upgrade CPAN Modules
 Run ```./build.sh outdated``` to list the distributions that have newer versions on CPAN.
 Edit ```cpanfile``` and put the new version number after the name of the module:
 ```requires 'Module::Name', '3.14';```
-then run ```carton``` to update the ```cpanfile.snapshot```
+then run ```carton install``` to update the ```cpanfile.snapshot```
 
 
