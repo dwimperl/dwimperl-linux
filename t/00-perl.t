@@ -13,6 +13,7 @@ diag "\$^X=$^X";                              # /home/travis/dwimperl-linux-5.20
 diag "\$0=$0";                                # t/00-perl.t
 diag 'getcwd=' . getcwd();                    # /home/travis/build/dwimperl/dwimperl-linux
 #diag qx{$Config{perlpath} -V};                # Can't exec "/home/dwimperl/dwimperl-linux-5.20.1-1-x86_64/perl/bin/perl": No such file or directory
+diag explain \%Config;
 
 is $], '5.020001', 'perl version';
 
