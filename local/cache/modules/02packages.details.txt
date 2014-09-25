@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2351
-Last-Updated: Thu Sep 25 21:59:31 2014
+Line-Count:   2352
+Last-Updated: Thu Sep 25 22:05:51 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -128,6 +128,7 @@ CPAN::Testers::Fact::TestSummary   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1
 CPAN::Testers::Fact::TesterComment   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
 CPAN::Testers::Report              1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
 Capture::Tiny                          0.25  D/DA/DAGOLDEN/Capture-Tiny-0.25.tar.gz
+Carp::Always                           0.13  F/FE/FERREIRA/Carp-Always-0.13.tar.gz
 Class::Data::Inheritable               0.08  T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
 Class::Inspector                       1.28  A/AD/ADAMK/Class-Inspector-1.28.tar.gz
 Class::Inspector::Functions            1.28  A/AD/ADAMK/Class-Inspector-1.28.tar.gz
@@ -2308,25 +2309,25 @@ XML::SAX::PurePerl::Reader            undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::PurePerl::Reader::Stream      undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::PurePerl::Reader::String      undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::PurePerl::Reader::URI       undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
-YAML                                   1.11  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Any                              1.11  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Dumper                          undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Dumper::Base                    undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Error                           undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Loader                          undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Loader::Base                    undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Marshall                        undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Mo                              undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Node                            undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Tag                             undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Type::blessed                   undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Type::code                      undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Type::glob                      undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Type::ref                       undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Type::regexp                    undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Type::undef                     undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Types                           undef  I/IN/INGY/YAML-1.11.tar.gz
-YAML::Warning                         undef  I/IN/INGY/YAML-1.11.tar.gz
+YAML                                   1.12  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Any                              1.12  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Dumper                          undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Dumper::Base                    undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Error                           undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Loader                          undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Loader::Base                    undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Marshall                        undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Mo                               0.88  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Node                            undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Tag                             undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Type::blessed                   undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Type::code                      undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Type::glob                      undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Type::ref                       undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Type::regexp                    undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Type::undef                     undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Types                           undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::Warning                         undef  I/IN/INGY/YAML-1.12.tar.gz
 Zlib::OldDeflate                      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 Zlib::OldInflate                      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 ack                                   undef  P/PE/PETDANCE/ack-2.14.tar.gz
@@ -2355,6 +2356,6 @@ oo                                    undef  H/HA/HAARG/Moo-1.006000.tar.gz
 perlfaq                           5.0150045  L/LL/LLAP/perlfaq-5.0150045.tar.gz
 strictures                         1.005005  H/HA/HAARG/strictures-1.005005.tar.gz
 threads                                1.96  J/JD/JDHEDDEN/threads-1.96.tar.gz
-yaml_mapping                          undef  I/IN/INGY/YAML-1.11.tar.gz
-yaml_scalar                           undef  I/IN/INGY/YAML-1.11.tar.gz
-yaml_sequence                         undef  I/IN/INGY/YAML-1.11.tar.gz
+yaml_mapping                          undef  I/IN/INGY/YAML-1.12.tar.gz
+yaml_scalar                           undef  I/IN/INGY/YAML-1.12.tar.gz
+yaml_sequence                         undef  I/IN/INGY/YAML-1.12.tar.gz

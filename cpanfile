@@ -187,7 +187,7 @@ requires 'Test::Warn',                  '0.30';
 #requires 'XML::LibXML',                 '2.0116';
 #requires 'XML::Parser',    '2.41';
 #requires 'XML::Feed';
-#requires 'YAML';
+requires 'YAML',                       '1.12';
 
 # Net::Server 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523
 #mycpan --notest Net::Server
