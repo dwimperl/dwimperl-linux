@@ -2092,6 +2092,23 @@ DISTRIBUTIONS
       IO::Socket 0
       Socket 1.97
       Test::More 0.88
+  IO-Socket-SSL-1.998
+    pathname: S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
+    provides:
+      IO::Socket::SSL 1.998
+      IO::Socket::SSL::Intercept 1.93
+      IO::Socket::SSL::OCSP_Cache 1.998
+      IO::Socket::SSL::OCSP_Resolver 1.998
+      IO::Socket::SSL::PublicSuffix undef
+      IO::Socket::SSL::SSL_Context 1.998
+      IO::Socket::SSL::SSL_HANDLE 1.998
+      IO::Socket::SSL::Session_Cache 1.998
+      IO::Socket::SSL::Utils 0.03
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mozilla::CA 0
+      Net::SSLeay 1.46
+      Scalar::Util 0
   IO-String-1.08
     pathname: G/GA/GAAS/IO-String-1.08.tar.gz
     provides:
@@ -2141,6 +2158,18 @@ DISTRIBUTIONS
       LWP::Protocol 0
       Module::Build::Tiny 0.036
       parent 0
+      perl 5.008001
+  LWP-Protocol-https-6.06
+    pathname: M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+    provides:
+      LWP::Protocol::https 6.06
+      LWP::Protocol::https::Socket 6.06
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Socket::SSL 1.54
+      LWP::UserAgent 6.06
+      Mozilla::CA 20110101
+      Net::HTTPS 6
       perl 5.008001
   Lexical-SealRequireHints-0.007
     pathname: Z/ZE/ZEFRAM/Lexical-SealRequireHints-0.007.tar.gz
@@ -2575,6 +2604,14 @@ DISTRIBUTIONS
       MooX::Types::MooseLike 0.27
       MooX::Types::MooseLike::Base 0.27
     requirements:
+  Mozilla-CA-20130114
+    pathname: A/AB/ABH/Mozilla-CA-20130114.tar.gz
+    provides:
+      Mozilla::CA 20130114
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test 0
+      perl 5.006
   Net-HTTP-6.07
     pathname: M/MS/MSCHILLI/Net-HTTP-6.07.tar.gz
     provides:
@@ -3578,6 +3615,91 @@ DISTRIBUTIONS
       WWW::RobotRules::AnyDBM_File 6.00
       WWW::RobotRules::InCore 6.02
     requirements:
+  XML-LibXML-2.0116
+    pathname: S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+    provides:
+      XML::LibXML 2.0116
+      XML::LibXML::Attr 2.0116
+      XML::LibXML::AttributeHash 2.0116
+      XML::LibXML::Boolean 2.0116
+      XML::LibXML::CDATASection 2.0116
+      XML::LibXML::Comment 2.0116
+      XML::LibXML::Common 2.0116
+      XML::LibXML::Devel 2.0116
+      XML::LibXML::Document 2.0116
+      XML::LibXML::DocumentFragment 2.0116
+      XML::LibXML::Dtd 2.0116
+      XML::LibXML::Element 2.0116
+      XML::LibXML::ErrNo 2.0116
+      XML::LibXML::Error 2.0116
+      XML::LibXML::InputCallback 2.0116
+      XML::LibXML::Literal 2.0116
+      XML::LibXML::NamedNodeMap 2.0116
+      XML::LibXML::Namespace 2.0116
+      XML::LibXML::Node 2.0116
+      XML::LibXML::NodeList 2.0116
+      XML::LibXML::Number 2.0116
+      XML::LibXML::PI 2.0116
+      XML::LibXML::Pattern 2.0116
+      XML::LibXML::Reader 2.0116
+      XML::LibXML::RegExp 2.0116
+      XML::LibXML::RelaxNG 2.0116
+      XML::LibXML::SAX 2.0116
+      XML::LibXML::SAX::AttributeNode 2.0116
+      XML::LibXML::SAX::Builder 2.0116
+      XML::LibXML::SAX::Generator 2.0116
+      XML::LibXML::SAX::Parser 2.0116
+      XML::LibXML::Schema 2.0116
+      XML::LibXML::Text 2.0116
+      XML::LibXML::XPathContext 2.0116
+      XML::LibXML::XPathExpression 2.0116
+      XML::LibXML::_SAXParser 2.0116
+    requirements:
+      ExtUtils::MakeMaker 6.56
+      Test::More 0
+      XML::NamespaceSupport 1.07
+      XML::SAX 0.11
+      base 0
+      parent 0
+      perl 5.008
+      strict 0
+      vars 0
+      warnings 0
+  XML-NamespaceSupport-1.11
+    pathname: P/PE/PERIGRIN/XML-NamespaceSupport-1.11.tar.gz
+    provides:
+      XML::NamespaceSupport 1.11
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Test::More 0.47
+  XML-SAX-0.99
+    pathname: G/GR/GRANTM/XML-SAX-0.99.tar.gz
+    provides:
+      XML::SAX 0.99
+      XML::SAX::DocumentLocator undef
+      XML::SAX::ParserFactory 1.01
+      XML::SAX::PurePerl 0.99
+      XML::SAX::PurePerl::DebugHandler undef
+      XML::SAX::PurePerl::Exception undef
+      XML::SAX::PurePerl::Productions undef
+      XML::SAX::PurePerl::Reader undef
+      XML::SAX::PurePerl::Reader::Stream undef
+      XML::SAX::PurePerl::Reader::String undef
+      XML::SAX::PurePerl::Reader::URI undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Temp 0
+      XML::NamespaceSupport 0.03
+      XML::SAX::Base 1.05
+  XML-SAX-Base-1.08
+    pathname: G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
+    provides:
+      XML::SAX::Base 1.08
+      XML::SAX::Base::NoHandler 1.08
+      XML::SAX::Exception 1.08
+    requirements:
+      ExtUtils::MakeMaker 6.31
+      Test::More 0.88
   YAML-1.11
     pathname: I/IN/INGY/YAML-1.11.tar.gz
     provides:

@@ -69,6 +69,7 @@ requires 'Net::SSLeay',                 '1.14';
 #requires 'Unicode::Collate',           '1.07';
 #requires 'Unicode::Normalize',         '1.18';
 #requires 'URL::Encode::XS';
+#requires 'XML::LibXML',                 '2.0116';
 
 
 #requires 'Daemon::Control';
