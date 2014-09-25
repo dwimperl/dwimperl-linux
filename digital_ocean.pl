@@ -93,6 +93,9 @@ sub run {
 		# based on 'vanilla perl' add all the modules
 		push @user_cmds, (
 			"cd $dir; ./build.sh get_vanilla_perl",
+			"cd $dir; ./build.sh openssl",
+			"cd $dir; ./build.sh libxml2",
+			"cd $dir; ./build.sh zlib",
 			"cd $dir; ./build.sh modules",
 			"cd $dir; ./build.sh test_cpanfile",
 			#"cd $dir; ./build.sh test_all",
@@ -103,6 +106,9 @@ sub run {
 		push @user_cmds, (
 			"cd $dir; ./build.sh perl",
 			"cd $dir; ./build.sh cpanm",
+			"cd $dir; ./build.sh openssl",
+			"cd $dir; ./build.sh libxml2",
+			"cd $dir; ./build.sh zlib",
 			"cd $dir; ./build.sh test_perl",
 			"cd $dir; ./build.sh zip",
 		);
