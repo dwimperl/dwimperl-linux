@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2496
-Last-Updated: Thu Sep 25 23:13:29 2014
+Line-Count:   2499
+Last-Updated: Thu Sep 25 23:50:57 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1438,6 +1438,7 @@ HTTP::Headers                          6.05  G/GA/GAAS/HTTP-Message-6.06.tar.gz
 HTTP::Headers::Auth                    6.00  G/GA/GAAS/HTTP-Message-6.06.tar.gz
 HTTP::Headers::ETag                    6.00  G/GA/GAAS/HTTP-Message-6.06.tar.gz
 HTTP::Headers::Util                    6.03  G/GA/GAAS/HTTP-Message-6.06.tar.gz
+HTTP::Lite                             2.43  N/NE/NEILB/HTTP-Lite-2.43.tar.gz
 HTTP::Message                          6.06  G/GA/GAAS/HTTP-Message-6.06.tar.gz
 HTTP::Message::PSGI                   undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 HTTP::Negotiate                        6.01  G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
@@ -1449,7 +1450,7 @@ HTTP::Server::Simple                   0.44  J/JE/JESSE/HTTP-Server-Simple-0.44.
 HTTP::Server::Simple::PSGI             0.16  M/MI/MIYAGAWA/HTTP-Server-Simple-PSGI-0.16.tar.gz
 HTTP::Server::Simple::PSGI::Writer       0.16  M/MI/MIYAGAWA/HTTP-Server-Simple-PSGI-0.16.tar.gz
 HTTP::Status                           6.03  G/GA/GAAS/HTTP-Message-6.06.tar.gz
-HTTP::Tiny                            0.049  D/DA/DAGOLDEN/HTTP-Tiny-0.049.tar.gz
+HTTP::Tiny                            0.050  D/DA/DAGOLDEN/HTTP-Tiny-0.050.tar.gz
 Harness::Hook                         undef  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Hash::Merge::Simple                   0.051  R/RO/ROKR/Hash-Merge-Simple-0.051.tar.gz
 Hash::MultiValue                       0.15  M/MI/MIYAGAWA/Hash-MultiValue-0.15.tar.gz
@@ -1472,6 +1473,7 @@ IO::Compress::Zlib::Constants         2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::Compress::Zlib::Extra             2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::HTML                              1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
 IO::Prompt::Tiny                      0.002  D/DA/DAGOLDEN/IO-Prompt-Tiny-0.002.tar.gz
+IO::Socket::INET6                      2.72  S/SH/SHLOMIF/IO-Socket-INET6-2.72.tar.gz
 IO::Socket::IP                         0.32  P/PE/PEVANS/IO-Socket-IP-0.32.tar.gz
 IO::Socket::SSL                       1.998  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
 IO::Socket::SSL::Intercept             1.93  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
@@ -2110,6 +2112,7 @@ Safe::Isa                          1.000005  E/ET/ETHER/Safe-Isa-1.000005.tar.gz
 Scalar::Util                           1.41  P/PE/PEVANS/Scalar-List-Utils-1.41.tar.gz
 Scope::Upper                           0.25  V/VP/VPIT/Scope-Upper-0.25.tar.gz
 Socket                                2.015  P/PE/PEVANS/Socket-2.015.tar.gz
+Socket6                                0.25  U/UM/UMEMOTO/Socket6-0.25.tar.gz
 Spiffy                                 0.46  I/IN/INGY/Spiffy-0.46.tar.gz
 Spiffy::mixin                         undef  I/IN/INGY/Spiffy-0.46.tar.gz
 Storable                               2.51  A/AM/AMS/Storable-2.51.tar.gz

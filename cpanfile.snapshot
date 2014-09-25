@@ -2244,6 +2244,13 @@ DISTRIBUTIONS
     provides:
       HTTP::Date 6.02
     requirements:
+  HTTP-Lite-2.43
+    pathname: N/NE/NEILB/HTTP-Lite-2.43.tar.gz
+    provides:
+      HTTP::Lite 2.43
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      perl 5.005
   HTTP-Message-6.06
     pathname: G/GA/GAAS/HTTP-Message-6.06.tar.gz
     provides:
@@ -2276,10 +2283,10 @@ DISTRIBUTIONS
       Plack::Handler::HTTP::Server::Simple 0.16
       Plack::Handler::HTTP::Server::Simple::PSGIServer 0.16
     requirements:
-  HTTP-Tiny-0.049
-    pathname: D/DA/DAGOLDEN/HTTP-Tiny-0.049.tar.gz
+  HTTP-Tiny-0.050
+    pathname: D/DA/DAGOLDEN/HTTP-Tiny-0.050.tar.gz
     provides:
-      HTTP::Tiny 0.049
+      HTTP::Tiny 0.050
     requirements:
       Carp 0
       ExtUtils::MakeMaker 6.17
@@ -2366,6 +2373,22 @@ DISTRIBUTIONS
       File::Temp 0
       List::Util 0
       Test::More 0.96
+      strict 0
+      warnings 0
+  IO-Socket-INET6-2.72
+    pathname: S/SH/SHLOMIF/IO-Socket-INET6-2.72.tar.gz
+    provides:
+      IO::Socket::INET6 2.72
+    requirements:
+      Carp 0
+      Errno 0
+      Exporter 0
+      IO::Socket 0
+      Module::Build 0.36
+      Socket 0
+      Socket6 0.12
+      Test::More 0
+      perl 5.008
       strict 0
       warnings 0
   IO-Socket-IP-0.32
@@ -3523,6 +3546,12 @@ DISTRIBUTIONS
       ExtUtils::Constant 0.23
       ExtUtils::MakeMaker 0
       perl 5.006001
+  Socket6-0.25
+    pathname: U/UM/UMEMOTO/Socket6-0.25.tar.gz
+    provides:
+      Socket6 0.25
+    requirements:
+      ExtUtils::MakeMaker 0
   Spiffy-0.46
     pathname: I/IN/INGY/Spiffy-0.46.tar.gz
     provides:
