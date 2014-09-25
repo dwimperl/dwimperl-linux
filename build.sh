@@ -78,13 +78,14 @@ export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
 case $1 in
   perl)
       echo "Building Perl"
+      [ -e $PERL_SOURCE_VERSION ] && echo "Directory $PERL_SOURCE_VERSION already exists" && exit
       tar -xzf src/$PERL_SOURCE_ZIP_FILE
       cd $PERL_SOURCE_VERSION
       ./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL
 	  # -Dusethreads
-      make > /dev/null
+      make
       TEST_JOBS=3 make test
-      make install > /dev/null
+      make install
       cd $BUILD_HOME
       
       which perl
