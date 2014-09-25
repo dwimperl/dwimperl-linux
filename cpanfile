@@ -53,6 +53,7 @@ requires 'Log::Log4perl';
 #requires 'LWP::Protocol::https';
 #requires 'LWP::Protocol::PSGI';
 #requires 'LWP::Simple';
+requires 'Marpa::R2',                  '2.094000';
 #requires 'Math::BigFloat',             '1.9993';
 #requires 'Math::Random::ISAAC::XS';
 #requires 'MIME::Lite';

@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2199
-Last-Updated: Thu Sep 25 08:58:36 2014
+Line-Count:   2262
+Last-Updated: Thu Sep 25 17:59:21 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1365,6 +1365,15 @@ IO::Compress::Zlib::Constants         2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::Compress::Zlib::Extra             2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::HTML                              1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
 IO::Socket::IP                         0.32  P/PE/PEVANS/IO-Socket-IP-0.32.tar.gz
+IO::Socket::SSL                       1.998  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
+IO::Socket::SSL::Intercept             1.93  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
+IO::Socket::SSL::OCSP_Cache           1.998  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
+IO::Socket::SSL::OCSP_Resolver        1.998  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
+IO::Socket::SSL::PublicSuffix         undef  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
+IO::Socket::SSL::SSL_Context          1.998  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
+IO::Socket::SSL::SSL_HANDLE           1.998  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
+IO::Socket::SSL::Session_Cache        1.998  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
+IO::Socket::SSL::Utils                 0.03  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
 IO::String                             1.08  G/GA/GAAS/IO-String-1.08.tar.gz
 IO::TieCombine                        1.004  R/RJ/RJBS/IO-TieCombine-1.004.tar.gz
 IO::TieCombine::Handle                1.004  R/RJ/RJBS/IO-TieCombine-1.004.tar.gz
@@ -1407,6 +1416,8 @@ LWP::Protocol::gopher                 undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.
 LWP::Protocol::http                   undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::Protocol::http::Socket           undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::Protocol::http::SocketMethods      undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
+LWP::Protocol::https                   6.06  M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+LWP::Protocol::https::Socket           6.06  M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
 LWP::Protocol::loopback               undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::Protocol::mailto                 undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::Protocol::nntp                   undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
@@ -1646,6 +1657,7 @@ Moo::_mro                             undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Moo::sification                       undef  H/HA/HAARG/Moo-1.006000.tar.gz
 MooX::Types::MooseLike                 0.27  M/MA/MATEU/MooX-Types-MooseLike-0.27.tar.gz
 MooX::Types::MooseLike::Base           0.27  M/MA/MATEU/MooX-Types-MooseLike-0.27.tar.gz
+Mozilla::CA                        20130114  A/AB/ABH/Mozilla-CA-20130114.tar.gz
 MultipartBuffer                        4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 Net                                   undef  S/SH/SHAY/libnet-1.27.tar.gz
 Net::Cmd                               2.30  S/SH/SHAY/libnet-1.27.tar.gz
@@ -2157,6 +2169,57 @@ Variable::Magic                        0.53  V/VP/VPIT/Variable-Magic-0.53.tar.g
 WWW::RobotRules                        6.02  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
 WWW::RobotRules::AnyDBM_File           6.00  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
 WWW::RobotRules::InCore                6.02  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+XML::LibXML                          2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Attr                    2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::AttributeHash           2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Boolean                 2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::CDATASection            2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Comment                 2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Common                  2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Devel                   2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Document                2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::DocumentFragment        2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Dtd                     2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Element                 2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::ErrNo                   2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Error                   2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::InputCallback           2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Literal                 2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::NamedNodeMap            2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Namespace               2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Node                    2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::NodeList                2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Number                  2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::PI                      2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Pattern                 2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Reader                  2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::RegExp                  2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::RelaxNG                 2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::SAX                     2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::SAX::AttributeNode      2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::SAX::Builder            2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::SAX::Generator          2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::SAX::Parser             2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Schema                  2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::Text                    2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::XPathContext            2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::XPathExpression         2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::LibXML::_SAXParser              2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
+XML::NamespaceSupport                  1.11  P/PE/PERIGRIN/XML-NamespaceSupport-1.11.tar.gz
+XML::SAX                               0.99  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::Base                         1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
+XML::SAX::Base::NoHandler              1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
+XML::SAX::DocumentLocator             undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::Exception                    1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
+XML::SAX::ParserFactory                1.01  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::PurePerl                     0.99  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::PurePerl::DebugHandler      undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::PurePerl::Exception         undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::PurePerl::Productions       undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::PurePerl::Reader            undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::PurePerl::Reader::Stream      undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::PurePerl::Reader::String      undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::PurePerl::Reader::URI       undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 YAML                                   1.11  I/IN/INGY/YAML-1.11.tar.gz
 YAML::Any                              1.11  I/IN/INGY/YAML-1.11.tar.gz
 YAML::Dumper                          undef  I/IN/INGY/YAML-1.11.tar.gz

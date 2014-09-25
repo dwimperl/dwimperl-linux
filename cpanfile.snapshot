@@ -365,6 +365,25 @@ DISTRIBUTIONS
       Config::Any::XML undef
       Config::Any::YAML undef
     requirements:
+  Config-AutoConf-0.305
+    pathname: R/RE/REHSACK/Config-AutoConf-0.305.tar.gz
+    provides:
+      Config::AutoConf 0.305
+    requirements:
+      Capture::Tiny 0
+      Carp 0
+      Config 0
+      Cwd 0
+      Exporter 0
+      ExtUtils::CBuilder 0.23
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Spec 0
+      File::Temp 0
+      Text::ParseWords 0
+      base 0
+      strict 0
+      warnings 0
   Cpanel-JSON-XS-3.0104
     pathname: R/RU/RURBAN/Cpanel-JSON-XS-3.0104.tar.gz
     provides:
@@ -2280,6 +2299,42 @@ DISTRIBUTIONS
       MIME::Types 2.09
       MojoX::MIME::Types 2.09
     requirements:
+  Marpa-R2-2.094000
+    pathname: J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
+    provides:
+      DynaLoader 2.094000
+      Marpa::R2 2.094000
+      Marpa::R2::ASF 2.094000
+      Marpa::R2::Grammar 2.094000
+      Marpa::R2::Recognizer 2.094000
+      Marpa::R2::Scanless::G undef
+      Marpa::R2::Scanless::R undef
+    requirements:
+      CPAN::Meta::Converter 2.120921
+      Carp 1.08
+      Config::AutoConf 0.22
+      Cwd 3.2501
+      Data::Dumper 2.125
+      DynaLoader 1.08
+      English 1.04
+      Exporter 5.62
+      ExtUtils::CBuilder 0.27
+      ExtUtils::MakeMaker 6.42
+      ExtUtils::Manifest 1.51_01
+      ExtUtils::Mkbootstrap 6.42
+      Fatal 1.05
+      File::Copy 2.11
+      File::Spec 3.2501
+      HTML::Entities 3.68
+      HTML::Parser 3.69
+      IPC::Cmd 0.40_1
+      List::Util 1.21
+      Module::Build 0.4003
+      PPI 1.206
+      Scalar::Util 1.21
+      Test::More 0.94
+      Time::Piece 1.12
+      XSLoader 0.08
   Math-BigInt-1.9993
     pathname: P/PJ/PJACKLAM/Math-BigInt-1.9993.tar.gz
     provides:
