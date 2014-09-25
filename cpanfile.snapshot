@@ -1903,6 +1903,14 @@ DISTRIBUTIONS
       File::MMagic 1.30
     requirements:
       ExtUtils::MakeMaker 0
+  File-Next-1.12
+    pathname: P/PE/PETDANCE/File-Next-1.12.tar.gz
+    provides:
+      File::Next 1.12
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      Test::More 0.88
   File-Remove-1.52
     pathname: A/AD/ADAMK/File-Remove-1.52.tar.gz
     provides:
@@ -3793,6 +3801,43 @@ DISTRIBUTIONS
       yaml_scalar undef
       yaml_sequence undef
     requirements:
+  ack-2.14
+    pathname: P/PE/PETDANCE/ack-2.14.tar.gz
+    provides:
+      App::Ack 2.14
+      App::Ack::ConfigDefault undef
+      App::Ack::ConfigFinder undef
+      App::Ack::ConfigLoader undef
+      App::Ack::Filter undef
+      App::Ack::Filter::Collection undef
+      App::Ack::Filter::Default undef
+      App::Ack::Filter::Extension undef
+      App::Ack::Filter::ExtensionGroup undef
+      App::Ack::Filter::FirstLineMatch undef
+      App::Ack::Filter::Inverse undef
+      App::Ack::Filter::Is undef
+      App::Ack::Filter::IsGroup undef
+      App::Ack::Filter::Match undef
+      App::Ack::Resource undef
+      App::Ack::Resource::Basic undef
+      App::Ack::Resources undef
+      ack undef
+    requirements:
+      Carp 1.04
+      Cwd 3.00
+      ExtUtils::MakeMaker 0
+      File::Basename 1.00015
+      File::Glob 1.00015
+      File::Next 1.10
+      File::Spec 3.00
+      File::Temp 0.19
+      Getopt::Long 2.35
+      Pod::Usage 1.26
+      Term::ANSIColor 1.10
+      Test::Harness 2.50
+      Test::More 0.98
+      Text::ParseWords 3.1
+      perl 5.008008
   autodie-2.25
     pathname: P/PJ/PJF/autodie-2.25.tar.gz
     provides:

@@ -13,7 +13,7 @@ script:
 #  - ./build.sh libxml2
 #  - ./build.sh zlib
 #  - ./build.sh try
-#  - ./build.sh modules
+  - ./build.sh modules
   - ./build.sh test_perl
 #  - ./build.sh test_cpanfile
 #  - ./build.sh test_all

@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2271
-Last-Updated: Thu Sep 25 18:52:09 2014
+Line-Count:   2290
+Last-Updated: Thu Sep 25 21:30:10 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -20,6 +20,23 @@ Algorithm::Diff                      1.1902  T/TY/TYEMQ/Algorithm-Diff-1.1902.ta
 Algorithm::Diff::_impl               1.1902  T/TY/TYEMQ/Algorithm-Diff-1.1902.tar.gz
 Algorithm::DiffOld                      1.1  T/TY/TYEMQ/Algorithm-Diff-1.1902.tar.gz
 Apache::LogFormat::Compiler            0.32  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.32.tar.gz
+App::Ack                               2.14  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::ConfigDefault               undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::ConfigFinder                undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::ConfigLoader                undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter                      undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter::Collection          undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter::Default             undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter::Extension           undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter::ExtensionGroup      undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter::FirstLineMatch      undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter::Inverse             undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter::Is                  undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter::IsGroup             undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Filter::Match               undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Resource                    undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Resource::Basic             undef  P/PE/PETDANCE/ack-2.14.tar.gz
+App::Ack::Resources                   undef  P/PE/PETDANCE/ack-2.14.tar.gz
 App::Cmd                              0.323  R/RJ/RJBS/App-Cmd-0.323.tar.gz
 App::Cmd::ArgProcessor                0.323  R/RJ/RJBS/App-Cmd-0.323.tar.gz
 App::Cmd::Command                     0.323  R/RJ/RJBS/App-Cmd-0.323.tar.gz
@@ -1290,6 +1307,7 @@ File::Listing::netware                 6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::unix                    6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::vms                     6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::MMagic                           1.30  K/KN/KNOK/File-MMagic-1.30.tar.gz
+File::Next                             1.12  P/PE/PETDANCE/File-Next-1.12.tar.gz
 File::Remove                           1.52  A/AD/ADAMK/File-Remove-1.52.tar.gz
 File::ShareDir                        1.102  R/RE/REHSACK/File-ShareDir-1.102.tar.gz
 File::ShareDir::Install                0.09  G/GW/GWYN/File-ShareDir-Install-0.09.tar.gz
@@ -2250,6 +2268,7 @@ YAML::Types                           undef  I/IN/INGY/YAML-1.11.tar.gz
 YAML::Warning                         undef  I/IN/INGY/YAML-1.11.tar.gz
 Zlib::OldDeflate                      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 Zlib::OldInflate                      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+ack                                   undef  P/PE/PETDANCE/ack-2.14.tar.gz
 autodie                                2.25  P/PJ/PJF/autodie-2.25.tar.gz
 autodie::Scope::Guard                  2.25  P/PJ/PJF/autodie-2.25.tar.gz
 autodie::Scope::GuardStack             2.25  P/PJ/PJF/autodie-2.25.tar.gz

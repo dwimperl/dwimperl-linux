@@ -1,6 +1,6 @@
 requires 'autodie',                    '2.25';
-requires 'Acme::MetaSyntactic';
-#requires 'App::Ack';
+requires 'Acme::MetaSyntactic',        '1.012';
+requires 'App::Ack',                   '2.14';
 requires 'App::cpanminus';
 requires 'App::cpanoutdated';
 requires 'App::Prove',                 '3.33';
