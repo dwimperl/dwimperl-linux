@@ -114,11 +114,20 @@ requires 'Marpa::R2',                  '2.094000';
 #requires 'MooseX::LogDispatch';
 #requires 'MooseX::LazyLogDispatch';
 #requires 'MooseX::Log::Log4perl';
+#requires 'MooseX::Daemonize';
+#requires 'MooseX::Param';
+#requires 'MooseX::Iterator';
+#requires 'MooseX::Clone';
+#requires 'MooseX::Storage';
+#requires 'MooseX::ClassAttribute';
+#requires 'MooseX::SemiAffordanceAccessor';
+
 #requires 'Module::Build::ModuleInfo',  '0.4210';
 #requires 'Module::CoreList',           '5.20140920';
 #requires 'Module::Metadata',           '1.000024';
 #requires 'Module::Version';
 requires 'Mojolicious', '5.43';
+#requires 'namespace::autoclean';
 #requires 'Net::Config',                '1.14';
 #requires 'Net::DNS';
 requires 'Net::SSLeay',                 '1.14';
@@ -131,6 +140,7 @@ requires 'Net::SSLeay',                 '1.14';
 #requires 'PDF::Create',                '1.08';
 #requires 'perlfaq',                    '5.0150045';
 #requires 'Pod::Checker',               '1.71';
+#requires 'Pod::Coverage::Moose';
 #requires 'Pod::Perldoc',               '3.24';
 #requires 'Pod::Usage',                 '1.64';
 #requires 'Scope::Upper';
@@ -177,4 +187,180 @@ requires 'Test::Warn',                  '0.30';
 #requires 'XML::Parser',    '2.41';
 #requires 'XML::Feed';
 #requires 'YAML';
+
+# Net::Server 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523
+#mycpan --notest Net::Server
+#mycpan IO::Compress::Gzip
+#mycpan IO::Uncompress::Gunzip
+#
+## mycpan PAR::Packer failed
+#mycpan Plack
+#mycpan Plack::Middleware::Debug
+#mycpan Plack::Middleware::LogErrors
+#mycpan Plack::Middleware::LogWarn
+#mycpan Plack::Middleware::ReverseProxy
+
+## CGI::FormBuilder: lots of warnings like this:
+## /bin/tar: Ignoring unknown extended header keyword `SCHILY.ino'
+##### mycpan CGI::FormBuilder
+#mycpan CGI::FormBuilder::Source::Perl
+## mycpan XML::RSS needs XML::Parser
+## mycpan XML::Atom needs XML::Parser
+#mycpan MIME::Types
+#mycpan WWW::Mechanize
+#mycpan WWW::Mechanize::TreeBuilder
+#mycpan DBIx::Class::Schema::Loader
+#mycpan Dist::Zilla
+#mycpan Perl::Tidy
+#mycpan Perl::Critic
+#mycpan Modern::Perl
+#mycpan Perl::Version
+#mycpan Software::License
+#mycpan CHI
+#
+#mycpan Text::Xslate
+#
+#mycpan Starman
+#mycpan Storable
+#mycpan Spreadsheet::ParseExcel::Simple
+#mycpan Spreadsheet::WriteExcel
+#mycpan Spreadsheet::WriteExcel::Simple
+#mycpan Template
+#mycpan Term::ProgressBar::Simple
+#mycpan Text::CSV
+#mycpan Text::CSV_XS
+#mycpan Time::HiRes
+#mycpan Time::ParseDate
+#mycpan Time::Tiny
+#mycpan Try::Tiny
+#
+#mycpan Log::Contextual
+#mycpan Log::Dispatch
+#mycpan Log::Log4perl
+#
+#mycpan XML::NamespaceSupport
+#mycpan XML::SAX
+ 
+# XML::Parser need expat http://sourceforge.net/projects/expat/
+
+#if [ ! -f $PREFIX_C/lib/libexpat.a ]; then
+#    EXPAT=expat-2.1.0
+#    wget http://downloads.sourceforge.net/project/expat/expat/2.1.0/$EXPAT.tar.gz
+#    tar xzf $EXPAT.tar.gz
+#    cd $EXPAT
+#    ./configure --prefix $PREFIX_C
+#    make
+#    make install
+#fi
+## If you ever happen to want to link against installed libraries
+## in a given directory, LIBDIR, you must either use libtool, and
+## specify the full pathname of the library, or use the `-LLIBDIR'
+## flag during linking and do at least one of the following:
+##    - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+##      during execution
+##    - add LIBDIR to the `LD_RUN_PATH' environment variable
+##      during linking
+##    - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+##    - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+## 
+## See any operating system documentation about shared libraries for
+## more information, such as the ld(1) and ld.so(8) manual pages.
+#
+##mycpan XML::Parser --configre-args = "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include"
+#
+##  mycpan XML::SAX::Writer
+##  # mycpan XML::Simple needs XML::Parser
+##  # mycpan XML::XPath  needs XML::Parser
+#
+#mycpan Acme::MetaSyntactic
+#mycpan DBIx::RunSQL
+#mycpan Hash::Merge::Simple
+##mycpan Geo::IP
+##mycpan Dancer
+##mycpan MIME::Lite
+#
+#mycpan Devel::Cycle
+#
+## Most of the requirements of Padre
+#mycpan ExtUtils::MakeMaker
+#mycpan ExtUtils::Embed
+#mycpan ExtUtils::Manifest
+#mycpan Algorithm::Diff
+#mycpan Capture::Tiny
+#mycpan CGI
+#mycpan Class::Adapter
+#mycpan Class::Inspector
+#mycpan Class::XSAccessor
+## Needs Term::Readline::Gnu but that fails because:
+## Could not find neither libtermcap.a, libncurses.a, or libcurses.
+## mycpan Debug::Client
+#mycpan Devel::Dumpvar
+#mycpan Devel::Refactor
+#mycpan Encode
+#mycpan File::Copy::Recursive
+#mycpan File::Find::Rule
+#mycpan File::Path
+#mycpan File::ShareDir
+#mycpan File::Which
+#mycpan File::pushd
+#mycpan File::HomeDir
+#mycpan File::Remove
+#mycpan HTML::Parser
+#mycpan IO::Socket
+#mycpan IO::String
+#mycpan IPC::Run
+#mycpan JSON::XS
+#mycpan List::MoreUtils
+#mycpan LWP
+#mycpan Module::Build
+#mycpan Module::CoreList
+#mycpan Module::Manifest
+#mycpan Module::Starter
+#mycpan ORLite
+#mycpan ORLite::Migrate
+#mycpan Params::Util
+#mycpan Parse::ErrorString::Perl
+#mycpan Parse::ExuberantCTags
+#mycpan Pod::POM
+#mycpan Pod::Simple
+#mycpan Pod::Simple::XHTML
+#mycpan Pod::Abstract
+#mycpan Pod::Perldoc
+#mycpan POD2::Base
+#mycpan PPI
+#mycpan PPIx::EditorTools
+#mycpan PPIx::Regexp
+#mycpan Probe::Perl
+#mycpan Storable
+#mycpan Sort::Versions
+#mycpan Template::Tiny
+#mycpan Term::ReadLine
+#mycpan Text::Balanced
+#mycpan Text::Diff
+#mycpan Text::FindIndent
+#mycpan Text::Patch
+#mycpan URI
+#mycpan version
+#mycpan YAML::Tiny
+#mycpan IO::Scalar
+#mycpan Pod::Usage
+#mycpan CPAN::Perl::Releases
+#mycpan AnyEvent
+#mycpan AnyEvent::HTTP
+#mycpan AnyEvent::Ping
+#mycpan AnyEvent::Ping::TCP
+#mycpan PDF::Create
+#mycpan Regexp::Common::time
+#mycpan WebService::GData
+#mycpan Parallel::ForkManager
+#mycpan SVG
+#mycpan Net::Ping
+#mycpan Test::Ping
+#mycpan Net::Traceroute
+
+
+# Win32
+# Win32::Shortcut
+# Win32::TieRegistry
+# File::Glob::Windows
 
