@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2352
-Last-Updated: Thu Sep 25 22:05:51 2014
+Line-Count:   2356
+Last-Updated: Thu Sep 25 22:30:03 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -129,6 +129,8 @@ CPAN::Testers::Fact::TesterComment   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report
 CPAN::Testers::Report              1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
 Capture::Tiny                          0.25  D/DA/DAGOLDEN/Capture-Tiny-0.25.tar.gz
 Carp::Always                           0.13  F/FE/FERREIRA/Carp-Always-0.13.tar.gz
+Carp::Assert                           0.21  N/NE/NEILB/Carp-Assert-0.21.tar.gz
+Carp::Assert::More                     1.14  P/PE/PETDANCE/Carp-Assert-More-1.14.tar.gz
 Class::Data::Inheritable               0.08  T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
 Class::Inspector                       1.28  A/AD/ADAMK/Class-Inspector-1.28.tar.gz
 Class::Inspector::Functions            1.28  A/AD/ADAMK/Class-Inspector-1.28.tar.gz
@@ -379,6 +381,7 @@ Data::GUID                            0.048  R/RJ/RJBS/Data-GUID-0.048.tar.gz
 Data::Munge                            0.08  M/MA/MAUKE/Data-Munge-0.08.tar.gz
 Data::OptList                         0.109  R/RJ/RJBS/Data-OptList-0.109.tar.gz
 Data::UUID                            1.219  R/RJ/RJBS/Data-UUID-1.219.tar.gz
+Date::Tiny                             1.04  A/AD/ADAMK/Date-Tiny-1.04.tar.gz
 DateTime                               1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
 DateTime::Duration                     1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
 DateTime::Helpers                      1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
@@ -1263,6 +1266,7 @@ Devel::StackTrace                      1.34  D/DR/DROLSKY/Devel-StackTrace-1.34.
 Devel::StackTrace::AsHTML              0.14  M/MI/MIYAGAWA/Devel-StackTrace-AsHTML-0.14.tar.gz
 Devel::StackTrace::Frame               1.34  D/DR/DROLSKY/Devel-StackTrace-1.34.tar.gz
 Digest::SHA                            5.92  M/MS/MSHELOR/Digest-SHA-5.92.tar.gz
+Digest::SHA1                           2.13  G/GA/GAAS/Digest-SHA1-2.13.tar.gz
 Dist::CheckConflicts                   0.11  D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz
 DynaLoader                         2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
 Encode                                 2.62  D/DA/DANKOGAI/Encode-2.62.tar.gz
