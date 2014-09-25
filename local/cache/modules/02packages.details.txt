@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2270
-Last-Updated: Thu Sep 25 18:22:08 2014
+Line-Count:   2271
+Last-Updated: Thu Sep 25 18:28:10 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -213,6 +213,7 @@ DBI::SQL::Nano::Table_             1.015544  T/TI/TIMB/DBI-1.631.tar.gz
 DBI::Util::CacheMemory             0.010315  T/TI/TIMB/DBI-1.631.tar.gz
 DBI::Util::_accessor               0.009479  T/TI/TIMB/DBI-1.631.tar.gz
 DBI::common                           1.631  T/TI/TIMB/DBI-1.631.tar.gz
+Daemon::Control                    0.001006  S/SY/SYMKAT/Daemon-Control-0.001006.tar.gz
 Dancer                               1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Dancer2                            0.150000  X/XS/XSAWYERX/Dancer2-0.150000.tar.gz
 Dancer2::CLI                       0.150000  X/XS/XSAWYERX/Dancer2-0.150000.tar.gz

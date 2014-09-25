@@ -16,7 +16,7 @@ requires 'Compress::Zlib',             '2.066';
 requires 'Cpanel::JSON::XS',           '3.0104';
 requires 'CPAN::Meta::Requirements',   '2.128';
 requires 'Crypt::URandom';
-requires 'Daemon::Control';
+requires 'Daemon::Control',            '0.001006';
 requires 'Dancer';
 requires 'Dancer2';
 requires 'Data::Dumper',               '2.154';
