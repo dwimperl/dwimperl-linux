@@ -5,7 +5,7 @@ Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
 Line-Count:   2270
-Last-Updated: Thu Sep 25 18:06:54 2014
+Last-Updated: Thu Sep 25 18:22:08 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz

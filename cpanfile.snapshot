@@ -512,6 +512,18 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.48
       Test::Simple 0.90
       perl 5.008
+  Daemon-Control-0.001006
+    pathname: S/SY/SYMKAT/Daemon-Control-0.001006.tar.gz
+    provides:
+      Daemon::Control 0.001006
+    requirements:
+      Cwd 0
+      ExtUtils::MakeMaker 6.59
+      File::Path 2.08
+      File::Spec 0
+      POSIX 0
+      Test::More 0.88
+      perl 5.008001
   Dancer-1.3130
     pathname: Y/YA/YANICK/Dancer-1.3130.tar.gz
     provides:
