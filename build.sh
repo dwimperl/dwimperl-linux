@@ -146,6 +146,9 @@ case $1 in
       $PREFIX_PERL/bin/perl -v
   ;;
 
+  try)
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Test::Differences
+  ;;
 
   modules)
       # needed to build Net::SSLeay
