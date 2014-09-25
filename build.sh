@@ -130,7 +130,7 @@ case $1 in
 
   zlib)
       cd $BUILD_HOME
-      tar xzf scr/$ZLIB.tar.gz
+      tar xzf src/$ZLIB.tar.gz
       cd $ZLIB
       ./configure --prefix $PREFIX_C
       make
