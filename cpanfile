@@ -67,7 +67,7 @@ requires 'Marpa::R2',                  '2.094000';
 #requires 'Module::Version';
 requires 'Mojolicious', '5.43';
 #requires 'Net::Config',                '1.14';
-#requires 'Net::SSLeay',                 '1.14';
+requires 'Net::SSLeay',                 '1.14';
 #requires 'Parse::CPAN::Meta',          '1.4414';
 #requires 'Parse::Functions';
 #requires 'Path::Tiny';
