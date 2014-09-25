@@ -1894,6 +1894,17 @@ DISTRIBUTIONS
     provides:
       Devel::StackTrace::AsHTML 0.14
     requirements:
+  Digest-HMAC-1.03
+    pathname: G/GA/GAAS/Digest-HMAC-1.03.tar.gz
+    provides:
+      Digest::HMAC 1.03
+      Digest::HMAC_MD5 1.01
+      Digest::HMAC_SHA1 1.03
+    requirements:
+      Digest::MD5 2
+      Digest::SHA 1
+      ExtUtils::MakeMaker 0
+      perl 5.004
   Digest-SHA-5.92
     pathname: M/MS/MSHELOR/Digest-SHA-5.92.tar.gz
     provides:
@@ -1921,6 +1932,17 @@ DISTRIBUTIONS
       base 0
       strict 0
       warnings 0
+  Email-Valid-1.195
+    pathname: R/RJ/RJBS/Email-Valid-1.195.tar.gz
+    provides:
+      Email::Valid 1.195
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mail::Address 0
+      Net::DNS 0
+      Scalar::Util 0
+      Test::More 0
+      perl 5.006
   Encode-2.62
     pathname: D/DA/DANKOGAI/Encode-2.62.tar.gz
     provides:
@@ -2550,6 +2572,39 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.42
       Test::More 0.86
       perl 5.006
+  MailTools-2.13
+    pathname: M/MA/MARKOV/MailTools-2.13.tar.gz
+    provides:
+      Mail undef
+      Mail::Address 2.13
+      Mail::Cap 2.13
+      Mail::Field 2.13
+      Mail::Field::AddrList 2.13
+      Mail::Field::Date 2.13
+      Mail::Field::Generic 2.13
+      Mail::Filter 2.13
+      Mail::Header 2.13
+      Mail::Internet 2.13
+      Mail::Mailer 2.13
+      Mail::Mailer::qmail 2.13
+      Mail::Mailer::rfc822 2.13
+      Mail::Mailer::sendmail 2.13
+      Mail::Mailer::smtp 2.13
+      Mail::Mailer::smtp::pipe 2.13
+      Mail::Mailer::smtps 2.13
+      Mail::Mailer::smtps::pipe 2.13
+      Mail::Mailer::testfile 2.13
+      Mail::Mailer::testfile::pipe 2.13
+      Mail::Send 2.13
+      Mail::Util 2.13
+    requirements:
+      Date::Format 0
+      Date::Parse 0
+      ExtUtils::MakeMaker 0
+      IO::Handle 0
+      Net::Domain 1.05
+      Net::SMTP 1.03
+      Test::More 0
   Marpa-R2-2.094000
     pathname: J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
     provides:
@@ -2968,6 +3023,91 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test 0
       perl 5.006
+  Net-DNS-0.80
+    pathname: N/NL/NLNETLABS/Net-DNS-0.80.tar.gz
+    provides:
+      Net::DNS 0.80
+      Net::DNS::Domain 1222
+      Net::DNS::DomainName 1222
+      Net::DNS::DomainName1035 1222
+      Net::DNS::DomainName2535 1222
+      Net::DNS::Header 1241
+      Net::DNS::Mailbox 1155
+      Net::DNS::Mailbox1035 1155
+      Net::DNS::Mailbox2535 1155
+      Net::DNS::Nameserver 1222
+      Net::DNS::Packet 1246
+      Net::DNS::Parameters 1261
+      Net::DNS::Question 1222
+      Net::DNS::RR 1260
+      Net::DNS::RR::A 1188
+      Net::DNS::RR::AAAA 1235
+      Net::DNS::RR::AFSDB 1188
+      Net::DNS::RR::APL 1188
+      Net::DNS::RR::APL::Item 1188
+      Net::DNS::RR::CAA 1188
+      Net::DNS::RR::CERT 1188
+      Net::DNS::RR::CNAME 1188
+      Net::DNS::RR::DHCID 1188
+      Net::DNS::RR::DNAME 1188
+      Net::DNS::RR::EUI48 1188
+      Net::DNS::RR::EUI64 1188
+      Net::DNS::RR::GPOS 1188
+      Net::DNS::RR::HINFO 1188
+      Net::DNS::RR::HIP 1188
+      Net::DNS::RR::IPSECKEY 1188
+      Net::DNS::RR::ISDN 1188
+      Net::DNS::RR::KX 1188
+      Net::DNS::RR::L32 1188
+      Net::DNS::RR::L64 1188
+      Net::DNS::RR::LOC 1188
+      Net::DNS::RR::LP 1188
+      Net::DNS::RR::MB 1182
+      Net::DNS::RR::MG 1182
+      Net::DNS::RR::MINFO 1188
+      Net::DNS::RR::MR 1182
+      Net::DNS::RR::MX 1235
+      Net::DNS::RR::NAPTR 1229
+      Net::DNS::RR::NID 1188
+      Net::DNS::RR::NS 1188
+      Net::DNS::RR::NULL 1188
+      Net::DNS::RR::OPENPGPKEY 1253
+      Net::DNS::RR::OPT 1260
+      Net::DNS::RR::PTR 1188
+      Net::DNS::RR::PX 1188
+      Net::DNS::RR::RP 1229
+      Net::DNS::RR::RT 1188
+      Net::DNS::RR::SOA 1188
+      Net::DNS::RR::SPF 1188
+      Net::DNS::RR::SRV 1188
+      Net::DNS::RR::SSHFP 1188
+      Net::DNS::RR::TKEY 1188
+      Net::DNS::RR::TLSA 1188
+      Net::DNS::RR::TSIG 1188
+      Net::DNS::RR::TXT 1235
+      Net::DNS::RR::X25 1188
+      Net::DNS::Resolver 1266
+      Net::DNS::Resolver::Base 1260
+      Net::DNS::Resolver::MSWin32 1258
+      Net::DNS::Resolver::Recurse 1259
+      Net::DNS::Resolver::UNIX 1235
+      Net::DNS::Resolver::android 1255
+      Net::DNS::Resolver::cygwin 1258
+      Net::DNS::Resolver::os2 1235
+      Net::DNS::Text 1235
+      Net::DNS::Update 1171
+      Net::DNS::ZoneFile 1235
+      Net::DNS::ZoneFile::Generator 1235
+      Net::DNS::ZoneFile::Text 1235
+    requirements:
+      Digest::HMAC 1.01
+      Digest::MD5 2.13
+      Digest::SHA 5.23
+      ExtUtils::MakeMaker 0
+      IO::Socket 1.24
+      MIME::Base64 2.11
+      Test::More 0.52
+      perl 5.00404
   Net-HTTP-6.07
     pathname: M/MS/MSCHILLI/Net-HTTP-6.07.tar.gz
     provides:
@@ -3869,6 +4009,49 @@ DISTRIBUTIONS
       Time::Seconds 1.29
     requirements:
       Exporter 5.57
+      ExtUtils::MakeMaker 0
+  TimeDate-2.30
+    pathname: G/GB/GBARR/TimeDate-2.30.tar.gz
+    provides:
+      Date::Format 2.24
+      Date::Format::Generic 2.24
+      Date::Language 1.10
+      Date::Language::Afar 0.99
+      Date::Language::Amharic 1.00
+      Date::Language::Austrian 1.01
+      Date::Language::Brazilian 1.01
+      Date::Language::Bulgarian 1.01
+      Date::Language::Chinese 1.00
+      Date::Language::Chinese_GB 1.01
+      Date::Language::Czech 1.01
+      Date::Language::Danish 1.01
+      Date::Language::Dutch 1.02
+      Date::Language::English 1.01
+      Date::Language::Finnish 1.01
+      Date::Language::French 1.04
+      Date::Language::Gedeo 0.99
+      Date::Language::German 1.02
+      Date::Language::Greek 1.00
+      Date::Language::Hungarian 1.01
+      Date::Language::Icelandic 1.01
+      Date::Language::Italian 1.01
+      Date::Language::Norwegian 1.01
+      Date::Language::Oromo 0.99
+      Date::Language::Romanian 1.01
+      Date::Language::Russian 1.01
+      Date::Language::Russian_cp1251 1.01
+      Date::Language::Russian_koi8r 1.01
+      Date::Language::Sidama 0.99
+      Date::Language::Somali 0.99
+      Date::Language::Spanish 1.00
+      Date::Language::Swedish 1.01
+      Date::Language::Tigrinya 1.00
+      Date::Language::TigrinyaEritrean 1.00
+      Date::Language::TigrinyaEthiopian 1.00
+      Date::Language::Turkish 1.0
+      Date::Parse 2.30
+      Time::Zone 2.24
+    requirements:
       ExtUtils::MakeMaker 0
   Try-Tiny-0.22
     pathname: D/DO/DOY/Try-Tiny-0.22.tar.gz
