@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2290
-Last-Updated: Thu Sep 25 21:30:10 2014
+Line-Count:   2351
+Last-Updated: Thu Sep 25 21:59:31 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -57,6 +57,7 @@ App::Prove::State                      3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 App::Prove::State::Result              3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 App::Prove::State::Result::Test        3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 App::cpanminus                       1.7011  M/MI/MIYAGAWA/App-cpanminus-1.7011.tar.gz
+App::cpanminus::reporter               0.11  G/GA/GARU/App-cpanminus-reporter-0.11.tar.gz
 App::cpanoutdated                      0.28  T/TO/TOKUHIROM/cpan-outdated-0.28.tar.gz
 AppConfig                              1.66  A/AB/ABW/AppConfig-1.66.tar.gz
 AppConfig::Args                        1.65  A/AB/ABW/AppConfig-1.66.tar.gz
@@ -114,6 +115,18 @@ CPAN::Meta::Prereqs                2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.ta
 CPAN::Meta::Requirements              2.128  D/DA/DAGOLDEN/CPAN-Meta-Requirements-2.128.tar.gz
 CPAN::Meta::Spec                   2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
 CPAN::Meta::Validator              2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Testers::Common::Client          0.07  G/GA/GARU/CPAN-Testers-Common-Client-0.07.tar.gz
+CPAN::Testers::Common::Client::Config      undef  G/GA/GARU/CPAN-Testers-Common-Client-0.07.tar.gz
+CPAN::Testers::Common::Client::PrereqCheck      undef  G/GA/GARU/CPAN-Testers-Common-Client-0.07.tar.gz
+CPAN::Testers::Fact::InstalledModules   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
+CPAN::Testers::Fact::LegacyReport   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
+CPAN::Testers::Fact::PerlConfig    1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
+CPAN::Testers::Fact::Prereqs       1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
+CPAN::Testers::Fact::TestEnvironment   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
+CPAN::Testers::Fact::TestOutput    1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
+CPAN::Testers::Fact::TestSummary   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
+CPAN::Testers::Fact::TesterComment   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
+CPAN::Testers::Report              1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
 Capture::Tiny                          0.25  D/DA/DAGOLDEN/Capture-Tiny-0.25.tar.gz
 Class::Data::Inheritable               0.08  T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
 Class::Inspector                       1.28  A/AD/ADAMK/Class-Inspector-1.28.tar.gz
@@ -136,6 +149,7 @@ Config::Any::Perl                     undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::XML                      undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::YAML                     undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::AutoConf                      0.305  R/RE/REHSACK/Config-AutoConf-0.305.tar.gz
+Config::Tiny                           2.20  R/RS/RSAVAGE/Config-Tiny-2.20.tgz
 Cpanel::JSON::XS                     3.0104  R/RU/RURBAN/Cpanel-JSON-XS-3.0104.tar.gz
 Crypt::URandom                         0.34  D/DD/DDICK/Crypt-URandom-0.34.tar.gz
 DBD::DBM                               0.08  T/TI/TIMB/DBI-1.631.tar.gz
@@ -360,8 +374,10 @@ Dancer::Template::TemplateToolkit     1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Dancer::Test                         1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Dancer::Timer                        1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Data::Dumper                          2.154  S/SM/SMUELLER/Data-Dumper-2.154.tar.gz
+Data::GUID                            0.048  R/RJ/RJBS/Data-GUID-0.048.tar.gz
 Data::Munge                            0.08  M/MA/MAUKE/Data-Munge-0.08.tar.gz
 Data::OptList                         0.109  R/RJ/RJBS/Data-OptList-0.109.tar.gz
+Data::UUID                            1.219  R/RJ/RJBS/Data-UUID-1.219.tar.gz
 DateTime                               1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
 DateTime::Duration                     1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
 DateTime::Helpers                      1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
@@ -1233,6 +1249,15 @@ Devel::GlobalDestruction               0.13  H/HA/HAARG/Devel-GlobalDestruction-
 Devel::Hide                          0.0009  F/FE/FERREIRA/Devel-Hide-0.0009.tar.gz
 Devel::InnerPackage                     0.4  S/SI/SIMONW/Module-Pluggable-5.1.tar.gz
 Devel::PPPort                          3.24  W/WO/WOLFSAGE/Devel-PPPort-3.24.tar.gz
+Devel::Platform::Info                  0.14  B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
+Devel::Platform::Info::BSD             0.14  B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
+Devel::Platform::Info::BeOS            0.14  B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
+Devel::Platform::Info::Irix            0.14  B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
+Devel::Platform::Info::Linux           0.14  B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
+Devel::Platform::Info::Mac             0.14  B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
+Devel::Platform::Info::SCO             0.14  B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
+Devel::Platform::Info::Solaris         0.14  B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
+Devel::Platform::Info::Win32           0.14  B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
 Devel::StackTrace                      1.34  D/DR/DROLSKY/Devel-StackTrace-1.34.tar.gz
 Devel::StackTrace::AsHTML              0.14  M/MI/MIYAGAWA/Devel-StackTrace-AsHTML-0.14.tar.gz
 Devel::StackTrace::Frame               1.34  D/DR/DROLSKY/Devel-StackTrace-1.34.tar.gz
@@ -1300,6 +1325,17 @@ FCGI::Stream                           0.77  E/ET/ETHER/FCGI-0.77.tar.gz
 Fatal                                  2.25  P/PJ/PJF/autodie-2.25.tar.gz
 Fh                                     4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 File::GlobMapper                      1.000  P/PM/PMQS/IO-Compress-2.066.tar.gz
+File::HomeDir                          1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::Darwin                  1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::Darwin::Carbon          1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::Darwin::Cocoa           1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::Driver                  1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::FreeDesktop             1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::MacOS9                  1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::TIE                     1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::Test                    1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::Unix                    1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
+File::HomeDir::Windows                 1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
 File::Listing                          6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::apache                  6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::dosftp                  6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
@@ -1311,6 +1347,7 @@ File::Next                             1.12  P/PE/PETDANCE/File-Next-1.12.tar.gz
 File::Remove                           1.52  A/AD/ADAMK/File-Remove-1.52.tar.gz
 File::ShareDir                        1.102  R/RE/REHSACK/File-ShareDir-1.102.tar.gz
 File::ShareDir::Install                0.09  G/GW/GWYN/File-ShareDir-Install-0.09.tar.gz
+File::Which                            1.09  A/AD/ADAMK/File-Which-1.09.tar.gz
 Filesys::Notify::Simple                0.12  M/MI/MIYAGAWA/Filesys-Notify-Simple-0.12.tar.gz
 Getopt::Long::Descriptive             0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
 Getopt::Long::Descriptive::Opts       0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
@@ -1385,6 +1422,7 @@ IO::Compress::Zip::Constants          2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::Compress::Zlib::Constants         2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::Compress::Zlib::Extra             2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::HTML                              1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
+IO::Prompt::Tiny                      0.002  D/DA/DAGOLDEN/IO-Prompt-Tiny-0.002.tar.gz
 IO::Socket::IP                         0.32  P/PE/PEVANS/IO-Socket-IP-0.32.tar.gz
 IO::Socket::SSL                       1.998  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
 IO::Socket::SSL::Intercept             1.93  S/SU/SULLR/IO-Socket-SSL-1.998.tar.gz
@@ -1512,6 +1550,7 @@ Log::Log4perl::Util::Semaphore        undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar
 Log::Log4perl::Util::TimeTracker      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
 MIME::Type                             2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
 MIME::Types                            2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
+Mac::SystemDirectory                   0.06  C/CH/CHANSEN/Mac-SystemDirectory-0.06.tar.gz
 Marpa::R2                          2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
 Marpa::R2::ASF                     2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
 Marpa::R2::Grammar                 2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
@@ -1523,6 +1562,23 @@ Math::BigInt                         1.9993  P/PJ/PJACKLAM/Math-BigInt-1.9993.ta
 Math::BigInt::Calc                   1.9993  P/PJ/PJACKLAM/Math-BigInt-1.9993.tar.gz
 Math::BigInt::CalcEmu                1.9991  P/PJ/PJACKLAM/Math-BigInt-1.9993.tar.gz
 Math::Random::ISAAC::XS               1.004  J/JA/JAWNSY/Math-Random-ISAAC-XS-1.004.tar.gz
+Metabase::Client::Simple              0.009  D/DA/DAGOLDEN/Metabase-Client-Simple-0.009.tar.gz
+Metabase::Fact                        0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Fact::Hash                  0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Fact::String                0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Report                      0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Resource                    0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Resource::cpan              0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Resource::cpan::distfile      0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Resource::metabase          0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Resource::metabase::fact      0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Resource::metabase::user      0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Resource::perl              0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::Resource::perl::commit      0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::User::EmailAddress          0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::User::FullName              0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::User::Profile               0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
+Metabase::User::Secret                0.024  D/DA/DAGOLDEN/Metabase-Fact-0.024.tar.gz
 Method::Generate::Accessor            undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Method::Generate::BuildAll            undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Method::Generate::Constructor         undef  H/HA/HAARG/Moo-1.006000.tar.gz
@@ -2100,6 +2156,11 @@ Test::NoWarnings::Warning              1.04  A/AD/ADAMK/Test-NoWarnings-1.04.tar
 Test::Object                           0.07  A/AD/ADAMK/Test-Object-0.07.tar.gz
 Test::Object::Test                     0.07  A/AD/ADAMK/Test-Object-0.07.tar.gz
 Test::Output                           1.03  B/BD/BDFOY/Test-Output-1.03.tar.gz
+Test::Reporter                         1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
+Test::Reporter::Transport              1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
+Test::Reporter::Transport::File        1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
+Test::Reporter::Transport::Metabase   1.999008  D/DA/DAGOLDEN/Test-Reporter-Transport-Metabase-1.999008.tar.gz
+Test::Reporter::Transport::Null        1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
 Test::Requires                         0.08  T/TO/TOKUHIROM/Test-Requires-0.08.tar.gz
 Test::Script                           1.07  A/AD/ADAMK/Test-Script-1.07.tar.gz
 Test::SharedFork                       0.29  E/EX/EXODIST/Test-SharedFork-0.29.tar.gz
