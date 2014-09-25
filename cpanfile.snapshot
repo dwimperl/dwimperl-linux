@@ -630,6 +630,33 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.48
       Test::Simple 0.90
       perl 5.008
+  DBIx-Connector-0.53
+    pathname: D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+    provides:
+      DBIx::Connector 0.53
+      DBIx::Connector::Driver 0.53
+      DBIx::Connector::Driver::MSSQL 0.53
+      DBIx::Connector::Driver::Oracle 0.53
+      DBIx::Connector::Driver::Pg 0.53
+      DBIx::Connector::Driver::SQLite 0.53
+      DBIx::Connector::Driver::mysql 0.53
+      DBIx::Connector::RollbackError 0.53
+      DBIx::Connector::SvpRollbackError 0.53
+      DBIx::Connector::TxnRollbackError 0.53
+    requirements:
+      DBI 1.605
+      Module::Build 0.30
+      Test::MockModule 0.05
+      Test::More 0.88
+      perl 5.006002
+  DBIx-RunSQL-0.12
+    pathname: C/CO/CORION/DBIx-RunSQL-0.12.tar.gz
+    provides:
+      DBIx::RunSQL 0.12
+    requirements:
+      DBI 0
+      ExtUtils::MakeMaker 0
+      perl 5.006
   Daemon-Control-0.001006
     pathname: S/SY/SYMKAT/Daemon-Control-0.001006.tar.gz
     provides:
@@ -911,6 +938,14 @@ DISTRIBUTIONS
     provides:
       Data::OptList 0.109
     requirements:
+  Data-Record-0.02
+    pathname: O/OV/OVID/Data-Record-0.02.tar.gz
+    provides:
+      Data::Record 0.02
+    requirements:
+      Sub::Uplevel 0.09
+      Test::Exception 0.21
+      Test::More 0.6
   Data-UUID-1.219
     pathname: R/RJ/RJBS/Data-UUID-1.219.tar.gz
     provides:
@@ -2080,6 +2115,29 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       XSLoader 0
       perl 5.006
+  File-ConfigDir-0.013
+    pathname: R/RE/REHSACK/File-ConfigDir-0.013.tar.gz
+    provides:
+      File::ConfigDir 0.013
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Path 2.00
+      File::Spec 0
+      perl 5.008001
+  File-Find-Rule-0.33
+    pathname: R/RC/RCLAMP/File-Find-Rule-0.33.tar.gz
+    provides:
+      File::Find::Rule 0.33
+      File::Find::Rule::Test::ATeam undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Find 0
+      File::Spec 0
+      Number::Compare 0
+      Test::More 0
+      Text::Glob 0.07
   File-HomeDir-1.00
     pathname: A/AD/ADAMK/File-HomeDir-1.00.tar.gz
     provides:
@@ -2580,6 +2638,17 @@ DISTRIBUTIONS
       File::Path 2.0606
       File::Spec 0.82
       Test::More 0.45
+  MIME-Charset-1.011.1
+    pathname: N/NE/NEZUMI/MIME-Charset-1.011.1.tar.gz
+    provides:
+      MIME::Charset 1.011001
+      MIME::Charset::UTF undef
+      MIME::Charset::_Compat undef
+    requirements:
+      Encode 1.98
+      ExtUtils::MakeMaker 6.42
+      Test::More 0
+      perl 5.005
   MIME-Types-2.09
     pathname: M/MA/MARKOV/MIME-Types-2.09.tar.gz
     provides:
@@ -2587,6 +2656,14 @@ DISTRIBUTIONS
       MIME::Types 2.09
       MojoX::MIME::Types 2.09
     requirements:
+  MRO-Compat-0.12
+    pathname: B/BO/BOBTFISH/MRO-Compat-0.12.tar.gz
+    provides:
+      MRO::Compat 0.12
+    requirements:
+      ExtUtils::MakeMaker 6.59
+      Test::More 0.47
+      perl 5.006
   Mac-SystemDirectory-0.06
     pathname: C/CH/CHANSEN/Mac-SystemDirectory-0.06.tar.gz
     provides:
@@ -3032,6 +3109,64 @@ DISTRIBUTIONS
       Sub::Quote 1.006000
       oo undef
     requirements:
+  MooX-ConfigFromFile-0.003
+    pathname: R/RE/REHSACK/MooX-ConfigFromFile-0.003.tar.gz
+    provides:
+      MooX::ConfigFromFile 0.003
+      MooX::ConfigFromFile::Role 0.003
+    requirements:
+      Config::Any 0
+      Cwd 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Find::Rule 0.30
+      File::Spec 0
+      FindBin 0
+      JSON 0
+      Moo 1.003
+      MooX::File::ConfigDir 0.002
+      Test::More 0
+      perl 5.008001
+  MooX-File-ConfigDir-0.003
+    pathname: R/RE/REHSACK/MooX-File-ConfigDir-0.003.tar.gz
+    provides:
+      MooX::File::ConfigDir 0.003
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::ConfigDir 0.011
+      Moo::Role 1.003000
+      namespace::clean 0
+      perl 5.008001
+  MooX-Options-4.010
+    pathname: C/CE/CELOGEEK/MooX-Options-4.010.tar.gz
+    provides:
+      MooX::Options 4.010
+      MooX::Options::Descriptive 4.010
+      MooX::Options::Descriptive::Usage 4.010
+      MooX::Options::Role 4.010
+    requirements:
+      Carp 0
+      Data::Record 0
+      Getopt::Long 2.38
+      Getopt::Long::Descriptive 0.091
+      JSON 0
+      MRO::Compat 0
+      Module::Build 0.3601
+      Module::Metadata 1.000019
+      Moo 1.003001
+      MooX::ConfigFromFile 0
+      Path::Class 0.32
+      Pod::Usage 0
+      Regexp::Common 0
+      Scalar::Util 0
+      Term::Size::Any 0
+      Text::LineFold 0
+      feature 0
+      overload 0
+      parent 0
+      perl 5.010
+      strict 0
+      warnings 0
   MooX-Types-MooseLike-0.27
     pathname: M/MA/MATEU/MooX-Types-MooseLike-0.27.tar.gz
     provides:
@@ -3149,6 +3284,13 @@ DISTRIBUTIONS
       MIME::Base64 0
       Test::More 0.60_01
       perl 5.005
+  Number-Compare-0.03
+    pathname: R/RC/RCLAMP/Number-Compare-0.03.tar.gz
+    provides:
+      Number::Compare 0.03
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   POSIX-strftime-Compiler-0.40
     pathname: K/KA/KAZEBURO/POSIX-strftime-Compiler-0.40.tar.gz
     provides:
@@ -3340,6 +3482,31 @@ DISTRIBUTIONS
     provides:
       Parse::CPAN::Meta 1.4414
     requirements:
+  Path-Class-0.35
+    pathname: K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
+    provides:
+      Path::Class 0.35
+      Path::Class::Dir 0.35
+      Path::Class::Entity 0.35
+      Path::Class::File 0.35
+    requirements:
+      Carp 0
+      Cwd 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      File::Copy 0
+      File::Path 0
+      File::Spec 3.26
+      File::Temp 0
+      File::stat 0
+      IO::Dir 0
+      IO::File 0
+      Module::Build 0.3601
+      Perl::OSType 0
+      Scalar::Util 0
+      overload 0
+      parent 0
+      strict 0
   Plack-1.0031
     pathname: M/MI/MIYAGAWA/Plack-1.0031.tar.gz
     provides:
@@ -3499,6 +3666,48 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       File::Spec 0
       strict 0
+  Regexp-Common-2013031301
+    pathname: A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+    provides:
+      Regexp::Common 2013031301
+      Regexp::Common::CC 2010010201
+      Regexp::Common::Entry 2013031301
+      Regexp::Common::SEN 2010010201
+      Regexp::Common::URI 2010010201
+      Regexp::Common::URI::RFC1035 2010010201
+      Regexp::Common::URI::RFC1738 2010010201
+      Regexp::Common::URI::RFC1808 2010010201
+      Regexp::Common::URI::RFC2384 2010010201
+      Regexp::Common::URI::RFC2396 2010010201
+      Regexp::Common::URI::RFC2806 2010010201
+      Regexp::Common::URI::fax 2010010201
+      Regexp::Common::URI::file 2010010201
+      Regexp::Common::URI::ftp 2010010201
+      Regexp::Common::URI::gopher 2010010201
+      Regexp::Common::URI::http 2010010201
+      Regexp::Common::URI::news 2010010201
+      Regexp::Common::URI::pop 2010010201
+      Regexp::Common::URI::prospero 2010010201
+      Regexp::Common::URI::tel 2010010201
+      Regexp::Common::URI::telnet 2010010201
+      Regexp::Common::URI::tv 2010010201
+      Regexp::Common::URI::wais 2010010201
+      Regexp::Common::_support 2010010201
+      Regexp::Common::balanced 2013030901
+      Regexp::Common::comment 2010010201
+      Regexp::Common::delimited 2010010201
+      Regexp::Common::lingua 2010010201
+      Regexp::Common::list 2010010201
+      Regexp::Common::net 2013031301
+      Regexp::Common::number 2013031101
+      Regexp::Common::profanity 2010010201
+      Regexp::Common::whitespace 2010010201
+      Regexp::Common::zip 2010010201
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.00473
+      strict 0
+      vars 0
   Return-MultiLevel-0.04
     pathname: M/MA/MAUKE/Return-MultiLevel-0.04.tar.gz
     provides:
@@ -3683,6 +3892,25 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0.33
+  Term-Size-Any-0.002
+    pathname: F/FE/FERREIRA/Term-Size-Any-0.002.tar.gz
+    provides:
+      Term::Size::Any 0.002
+    requirements:
+      Devel::Hide 0
+      ExtUtils::MakeMaker 0
+      Module::Load::Conditional 0
+      Term::Size::Perl 0
+      Test::More 0
+  Term-Size-Perl-0.029
+    pathname: F/FE/FERREIRA/Term-Size-Perl-0.029.tar.gz
+    provides:
+      Term::Size::Perl 0.029
+    requirements:
+      Exporter 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 0
+      Test::More 0
   Test-Base-0.88
     pathname: I/IN/INGY/Test-Base-0.88.tar.gz
     provides:
@@ -3832,6 +4060,14 @@ DISTRIBUTIONS
       Test::Builder::Tester 0
       Test::More 0
       Test::Simple 0.62
+  Test-MockModule-0.05
+    pathname: S/SI/SIMONFLK/Test-MockModule-0.05.tar.gz
+    provides:
+      Test::MockModule 0.05
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      Test::More 0.45
   Test-MockTime-0.13
     pathname: D/DD/DDICK/Test-MockTime-0.13.tar.gz
     provides:
@@ -4031,6 +4267,12 @@ DISTRIBUTIONS
       Text::Diff::Config 1.41
       Text::Diff::Table 1.41
     requirements:
+  Text-Glob-0.09
+    pathname: R/RC/RCLAMP/Text-Glob-0.09.tar.gz
+    provides:
+      Text::Glob 0.09
+    requirements:
+      Test::More 0
   Time-Piece-1.29
     pathname: R/RJ/RJBS/Time-Piece-1.29.tar.gz
     provides:
@@ -4187,6 +4429,18 @@ DISTRIBUTIONS
       constant 0
       strict 0
       warnings 0
+  Unicode-LineBreak-2014.06
+    pathname: N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
+    provides:
+      Text::LineFold 2012.04
+      Unicode::GCString 2013.10
+      Unicode::LineBreak 2014.06
+    requirements:
+      Encode 1.98
+      ExtUtils::MakeMaker 6.26
+      MIME::Charset v1.6.2
+      Test::More 0.45
+      perl 5.008
   Unicode-Normalize-1.18
     pathname: S/SA/SADAHIRO/Unicode-Normalize-1.18.tar.gz
     provides:

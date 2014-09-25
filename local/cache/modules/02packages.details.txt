@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2499
-Last-Updated: Thu Sep 25 23:50:57 2014
+Line-Count:   2571
+Last-Updated: Fri Sep 26 00:12:14 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -250,6 +250,17 @@ DBI::SQL::Nano::Table_             1.015544  T/TI/TIMB/DBI-1.631.tar.gz
 DBI::Util::CacheMemory             0.010315  T/TI/TIMB/DBI-1.631.tar.gz
 DBI::Util::_accessor               0.009479  T/TI/TIMB/DBI-1.631.tar.gz
 DBI::common                           1.631  T/TI/TIMB/DBI-1.631.tar.gz
+DBIx::Connector                        0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::Connector::Driver                0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::Connector::Driver::MSSQL         0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::Connector::Driver::Oracle        0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::Connector::Driver::Pg            0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::Connector::Driver::SQLite        0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::Connector::Driver::mysql         0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::Connector::RollbackError         0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::Connector::SvpRollbackError       0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::Connector::TxnRollbackError       0.53  D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
+DBIx::RunSQL                           0.12  C/CO/CORION/DBIx-RunSQL-0.12.tar.gz
 Daemon::Control                    0.001006  S/SY/SYMKAT/Daemon-Control-0.001006.tar.gz
 Dancer                               1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Dancer2                            0.150000  X/XS/XSAWYERX/Dancer2-0.150000.tar.gz
@@ -383,6 +394,7 @@ Data::Dumper                          2.154  S/SM/SMUELLER/Data-Dumper-2.154.tar
 Data::GUID                            0.048  R/RJ/RJBS/Data-GUID-0.048.tar.gz
 Data::Munge                            0.08  M/MA/MAUKE/Data-Munge-0.08.tar.gz
 Data::OptList                         0.109  R/RJ/RJBS/Data-OptList-0.109.tar.gz
+Data::Record                           0.02  O/OV/OVID/Data-Record-0.02.tar.gz
 Data::UUID                            1.219  R/RJ/RJBS/Data-UUID-1.219.tar.gz
 Date::Format                           2.24  G/GB/GBARR/TimeDate-2.30.tar.gz
 Date::Format::Generic                  2.24  G/GB/GBARR/TimeDate-2.30.tar.gz
@@ -1373,6 +1385,9 @@ FCGI                                   0.77  E/ET/ETHER/FCGI-0.77.tar.gz
 FCGI::Stream                           0.77  E/ET/ETHER/FCGI-0.77.tar.gz
 Fatal                                  2.25  P/PJ/PJF/autodie-2.25.tar.gz
 Fh                                     4.04  L/LE/LEEJO/CGI-4.04.tar.gz
+File::ConfigDir                       0.013  R/RE/REHSACK/File-ConfigDir-0.013.tar.gz
+File::Find::Rule                       0.33  R/RC/RCLAMP/File-Find-Rule-0.33.tar.gz
+File::Find::Rule::Test::ATeam         undef  R/RC/RCLAMP/File-Find-Rule-0.33.tar.gz
 File::GlobMapper                      1.000  P/PM/PMQS/IO-Compress-2.066.tar.gz
 File::HomeDir                          1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
 File::HomeDir::Darwin                  1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
@@ -1599,8 +1614,12 @@ Log::Log4perl::Resurrector            undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar
 Log::Log4perl::Util                   undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
 Log::Log4perl::Util::Semaphore        undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
 Log::Log4perl::Util::TimeTracker      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
+MIME::Charset                      1.011001  N/NE/NEZUMI/MIME-Charset-1.011.1.tar.gz
+MIME::Charset::UTF                    undef  N/NE/NEZUMI/MIME-Charset-1.011.1.tar.gz
+MIME::Charset::_Compat                undef  N/NE/NEZUMI/MIME-Charset-1.011.1.tar.gz
 MIME::Type                             2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
 MIME::Types                            2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
+MRO::Compat                            0.12  B/BO/BOBTFISH/MRO-Compat-0.12.tar.gz
 Mac::SystemDirectory                   0.06  C/CH/CHANSEN/Mac-SystemDirectory-0.06.tar.gz
 Mail                                  undef  M/MA/MARKOV/MailTools-2.13.tar.gz
 Mail::Address                          2.13  M/MA/MARKOV/MailTools-2.13.tar.gz
@@ -1811,6 +1830,13 @@ Moo::Role                          1.006000  H/HA/HAARG/Moo-1.006000.tar.gz
 Moo::_Utils                           undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Moo::_mro                             undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Moo::sification                       undef  H/HA/HAARG/Moo-1.006000.tar.gz
+MooX::ConfigFromFile                  0.003  R/RE/REHSACK/MooX-ConfigFromFile-0.003.tar.gz
+MooX::ConfigFromFile::Role            0.003  R/RE/REHSACK/MooX-ConfigFromFile-0.003.tar.gz
+MooX::File::ConfigDir                 0.003  R/RE/REHSACK/MooX-File-ConfigDir-0.003.tar.gz
+MooX::Options                         4.010  C/CE/CELOGEEK/MooX-Options-4.010.tar.gz
+MooX::Options::Descriptive            4.010  C/CE/CELOGEEK/MooX-Options-4.010.tar.gz
+MooX::Options::Descriptive::Usage      4.010  C/CE/CELOGEEK/MooX-Options-4.010.tar.gz
+MooX::Options::Role                   4.010  C/CE/CELOGEEK/MooX-Options-4.010.tar.gz
 MooX::Types::MooseLike                 0.27  M/MA/MATEU/MooX-Types-MooseLike-0.27.tar.gz
 MooX::Types::MooseLike::Base           0.27  M/MA/MATEU/MooX-Types-MooseLike-0.27.tar.gz
 Mozilla::CA                        20130114  A/AB/ABH/Mozilla-CA-20130114.tar.gz
@@ -1910,6 +1936,7 @@ Net::SMTP                              2.34  S/SH/SHAY/libnet-1.27.tar.gz
 Net::SSLeay                            1.66  M/MI/MIKEM/Net-SSLeay-1.66.tar.gz
 Net::SSLeay::Handle                    0.61  M/MI/MIKEM/Net-SSLeay-1.66.tar.gz
 Net::Time                              2.11  S/SH/SHAY/libnet-1.27.tar.gz
+Number::Compare                        0.03  R/RC/RCLAMP/Number-Compare-0.03.tar.gz
 POSIX::strftime::Compiler              0.40  K/KA/KAZEBURO/POSIX-strftime-Compiler-0.40.tar.gz
 PPI                                   1.218  M/MI/MITHALDU/PPI-1.218.tar.gz
 PPI::Cache                            1.218  M/MI/MITHALDU/PPI-1.218.tar.gz
@@ -2015,6 +2042,10 @@ Params::Validate::Constants            1.13  D/DR/DROLSKY/Params-Validate-1.13.t
 Params::Validate::PP                   1.13  D/DR/DROLSKY/Params-Validate-1.13.tar.gz
 Params::Validate::XS                   1.13  D/DR/DROLSKY/Params-Validate-1.13.tar.gz
 Parse::CPAN::Meta                    1.4414  D/DA/DAGOLDEN/Parse-CPAN-Meta-1.4414.tar.gz
+Path::Class                            0.35  K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
+Path::Class::Dir                       0.35  K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
+Path::Class::Entity                    0.35  K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
+Path::Class::File                      0.35  K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
 Plack                                1.0031  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::App::CGIBin                    undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::App::Cascade                   undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
@@ -2105,6 +2136,40 @@ Pod::Perldoc::ToTk                     3.24  M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz
 Pod::Perldoc::ToXml                    3.24  M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz
 Pod::Usage                             1.64  M/MA/MAREKR/Pod-Usage-1.64.tar.gz
 Probe::Perl                            0.03  K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
+Regexp::Common                   2013031301  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::CC               2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::Entry            2013031301  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::SEN              2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI              2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::RFC1035     2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::RFC1738     2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::RFC1808     2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::RFC2384     2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::RFC2396     2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::RFC2806     2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::fax         2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::file        2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::ftp         2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::gopher      2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::http        2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::news        2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::pop         2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::prospero    2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::tel         2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::telnet      2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::tv          2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::URI::wais        2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::_support         2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::balanced         2013030901  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::comment          2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::delimited        2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::lingua           2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::list             2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::net              2013031301  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::number           2013031101  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::profanity        2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::whitespace       2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::zip              2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
 Return::MultiLevel                     0.04  M/MA/MAUKE/Return-MultiLevel-0.04.tar.gz
 Role::Tiny                         1.003003  H/HA/HAARG/Role-Tiny-1.003003.tar.gz
 Role::Tiny::With                   1.003003  H/HA/HAARG/Role-Tiny-1.003003.tar.gz
@@ -2226,6 +2291,8 @@ Template::VMethods                     2.16  A/AB/ABW/Template-Toolkit-2.26.tar.
 Template::View                         2.91  A/AB/ABW/Template-Toolkit-2.26.tar.gz
 Term::ANSIColor                        4.03  R/RR/RRA/Term-ANSIColor-4.03.tar.gz
 Term::Cap                              1.16  J/JS/JSTOWE/Term-Cap-1.16.tar.gz
+Term::Size::Any                       0.002  F/FE/FERREIRA/Term-Size-Any-0.002.tar.gz
+Term::Size::Perl                      0.029  F/FE/FERREIRA/Term-Size-Perl-0.029.tar.gz
 Test::Base                             0.88  I/IN/INGY/Test-Base-0.88.tar.gz
 Test::Base::Block                      0.88  I/IN/INGY/Test-Base-0.88.tar.gz
 Test::Base::Filter                    undef  I/IN/INGY/Test-Base-0.88.tar.gz
@@ -2293,6 +2360,7 @@ Test::LeakTrace                        0.14  G/GF/GFUJI/Test-LeakTrace-0.14.tar.
 Test::LeakTrace::Script               undef  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::Memory::Cycle                    1.04  P/PE/PETDANCE/Test-Memory-Cycle-1.04.tar.gz
 Test::MetaSyntactic                   1.005  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
+Test::MockModule                       0.05  S/SI/SIMONFLK/Test-MockModule-0.05.tar.gz
 Test::MockTime                         0.13  D/DD/DDICK/Test-MockTime-0.13.tar.gz
 Test::Mojo                            undef  S/SR/SRI/Mojolicious-5.43.tar.gz
 Test::More                         1.001006  E/EX/EXODIST/Test-Simple-1.001006.tar.gz
@@ -2331,6 +2399,8 @@ Text::Diff                             1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Base                       1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Config                     1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Table                      1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
+Text::Glob                             0.09  R/RC/RCLAMP/Text-Glob-0.09.tar.gz
+Text::LineFold                      2012.04  N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
 Time::Piece                            1.29  R/RJ/RJBS/Time-Piece-1.29.tar.gz
 Time::Seconds                          1.29  R/RJ/RJBS/Time-Piece-1.29.tar.gz
 Time::Zone                             2.24  G/GB/GBARR/TimeDate-2.30.tar.gz
@@ -2400,6 +2470,8 @@ Unicode::Collate::CJK::Pinyin          0.85  S/SA/SADAHIRO/Unicode-Collate-1.07.
 Unicode::Collate::CJK::Stroke          0.94  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
 Unicode::Collate::CJK::Zhuyin          0.94  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
 Unicode::Collate::Locale               1.02  S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
+Unicode::GCString                   2013.10  N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
+Unicode::LineBreak                  2014.06  N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
 Unicode::Normalize                     1.18  S/SA/SADAHIRO/Unicode-Normalize-1.18.tar.gz
 Variable::Magic                        0.53  V/VP/VPIT/Variable-Magic-0.53.tar.gz
 WWW::RobotRules                        6.02  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
