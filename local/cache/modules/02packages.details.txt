@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2262
-Last-Updated: Thu Sep 25 17:59:21 2014
+Line-Count:   2270
+Last-Updated: Thu Sep 25 18:06:54 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -118,6 +118,7 @@ Config::Any::JSON                     undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::Perl                     undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::XML                      undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
 Config::Any::YAML                     undef  B/BR/BRICAS/Config-Any-0.24.tar.gz
+Config::AutoConf                      0.305  R/RE/REHSACK/Config-AutoConf-0.305.tar.gz
 Cpanel::JSON::XS                     3.0104  R/RU/RURBAN/Cpanel-JSON-XS-3.0104.tar.gz
 Crypt::URandom                         0.34  D/DD/DDICK/Crypt-URandom-0.34.tar.gz
 DBD::DBM                               0.08  T/TI/TIMB/DBI-1.631.tar.gz
@@ -1219,6 +1220,7 @@ Devel::StackTrace::AsHTML              0.14  M/MI/MIYAGAWA/Devel-StackTrace-AsHT
 Devel::StackTrace::Frame               1.34  D/DR/DROLSKY/Devel-StackTrace-1.34.tar.gz
 Digest::SHA                            5.92  M/MS/MSHELOR/Digest-SHA-5.92.tar.gz
 Dist::CheckConflicts                   0.11  D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz
+DynaLoader                         2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
 Encode                                 2.62  D/DA/DANKOGAI/Encode-2.62.tar.gz
 Encode::Alias                          2.18  D/DA/DANKOGAI/Encode-2.62.tar.gz
 Encode::Byte                           2.04  D/DA/DANKOGAI/Encode-2.62.tar.gz
@@ -1491,6 +1493,12 @@ Log::Log4perl::Util::Semaphore        undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar
 Log::Log4perl::Util::TimeTracker      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
 MIME::Type                             2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
 MIME::Types                            2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
+Marpa::R2                          2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
+Marpa::R2::ASF                     2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
+Marpa::R2::Grammar                 2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
+Marpa::R2::Recognizer              2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
+Marpa::R2::Scanless::G                undef  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
+Marpa::R2::Scanless::R                undef  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
 Math::BigFloat                       1.9993  P/PJ/PJACKLAM/Math-BigInt-1.9993.tar.gz
 Math::BigInt                         1.9993  P/PJ/PJACKLAM/Math-BigInt-1.9993.tar.gz
 Math::BigInt::Calc                   1.9993  P/PJ/PJACKLAM/Math-BigInt-1.9993.tar.gz
