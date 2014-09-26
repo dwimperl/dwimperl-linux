@@ -177,7 +177,7 @@ case $1 in
   ;;
 
   outdate)
-      $PREFIX_PERL/bin/cpan-outdated --verbose
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpan-outdated --verbose
   ;;
 
   zip)
