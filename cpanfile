@@ -40,7 +40,7 @@ requires 'CPAN::Perl::Releases',       '1.90';
 requires 'Crypt::URandom',             '0.34';
 requires 'Cwd::Guard',                 '0.04';
 requires 'Daemon::Control',            '0.001006';
-#requires 'Dancer',                     '1.3130'; #1
+#requires 'Dancer',                     '1.3130';   #1
 #requires 'Dancer2',                    '0.150000'; #1
 requires 'Data::Dumper',               '2.154';
 requires 'Date::Tiny',                 '1.04';
@@ -61,11 +61,11 @@ requires 'Digest::SHA',                '5.92';
 requires 'Digest::SHA1',               '2.13';
 #requires 'DigitalOcean',               '0.12';
 #requires 'Dist::Zilla',                '5.020';
-#requires 'Email::MIME::Creator',       '1.926';
-#requires 'Email::MIME::Kit',           '2.102014';
-#requires 'Email::Sender',              '1.300014';
-#requires 'Email::Sender::Simple',      '1.300014';
-#requires 'Email::Simple',              '2.203';
+requires 'Email::MIME::Creator',       '1.926';
+requires 'Email::MIME::Kit',           '2.102014';
+requires 'Email::Sender',              '1.300014';
+requires 'Email::Sender::Simple',      '1.300014';
+requires 'Email::Simple',              '2.203';
 requires 'Email::Valid',               '1.195';
 requires 'Encode',                     '2.62';
 requires 'Exception::Class',           '1.38';

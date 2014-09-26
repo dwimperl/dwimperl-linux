@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3057
-Last-Updated: Fri Sep 26 10:35:41 2014
+Line-Count:   3120
+Last-Updated: Fri Sep 26 10:44:43 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1424,6 +1424,63 @@ DigitalOcean::Size                     0.02  S/SR/SRCHULO/DigitalOcean-0.12.tar.
 DigitalOcean::Types                   undef  S/SR/SRCHULO/DigitalOcean-0.12.tar.gz
 Dist::CheckConflicts                   0.11  D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz
 DynaLoader                         2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
+Email::Abstract                       3.007  R/RJ/RJBS/Email-Abstract-3.007.tar.gz
+Email::Abstract::EmailMIME            3.007  R/RJ/RJBS/Email-Abstract-3.007.tar.gz
+Email::Abstract::EmailSimple          3.007  R/RJ/RJBS/Email-Abstract-3.007.tar.gz
+Email::Abstract::MIMEEntity           3.007  R/RJ/RJBS/Email-Abstract-3.007.tar.gz
+Email::Abstract::MailInternet         3.007  R/RJ/RJBS/Email-Abstract-3.007.tar.gz
+Email::Abstract::MailMessage          3.007  R/RJ/RJBS/Email-Abstract-3.007.tar.gz
+Email::Abstract::Plugin               3.007  R/RJ/RJBS/Email-Abstract-3.007.tar.gz
+Email::Address                        1.905  R/RJ/RJBS/Email-Address-1.905.tar.gz
+Email::Date::Format                   1.004  R/RJ/RJBS/Email-Date-Format-1.004.tar.gz
+Email::MIME                           1.926  R/RJ/RJBS/Email-MIME-1.926.tar.gz
+Email::MIME::ContentType              1.017  R/RJ/RJBS/Email-MIME-ContentType-1.017.tar.gz
+Email::MIME::Creator                  1.926  R/RJ/RJBS/Email-MIME-1.926.tar.gz
+Email::MIME::Encode                   1.926  R/RJ/RJBS/Email-MIME-1.926.tar.gz
+Email::MIME::Encodings                1.315  R/RJ/RJBS/Email-MIME-Encodings-1.315.tar.gz
+Email::MIME::Header                   1.926  R/RJ/RJBS/Email-MIME-1.926.tar.gz
+Email::MIME::Kit                   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::Assembler::Standard   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::KitReader::Dir   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::ManifestReader::JSON   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::ManifestReader::YAML   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::Renderer::TestRenderer   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::Role::Assembler   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::Role::Component   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::Role::KitReader   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::Role::ManifestDesugarer   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::Role::ManifestReader   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::Role::Renderer   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Kit::Role::Validator   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
+Email::MIME::Modifier                 1.926  R/RJ/RJBS/Email-MIME-1.926.tar.gz
+Email::MessageID                      1.405  R/RJ/RJBS/Email-MessageID-1.405.tar.gz
+Email::Sender                      1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Failure             1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Failure::Multi      1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Failure::Permanent   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Failure::Temporary   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Manual              1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Manual::QuickStart   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Role::CommonSending   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Role::HasMessage    1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Simple              1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Success             1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Success::Partial    1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport           1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::DevNull   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::Failable   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::Maildir   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::Mbox     1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::Print    1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::SMTP     1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::SMTP::Persistent   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::Sendmail   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::Test     1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Transport::Wrapper   1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Sender::Util                1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
+Email::Simple                         2.203  R/RJ/RJBS/Email-Simple-2.203.tar.gz
+Email::Simple::Creator                2.203  R/RJ/RJBS/Email-Simple-2.203.tar.gz
+Email::Simple::Header                 2.203  R/RJ/RJBS/Email-Simple-2.203.tar.gz
 Email::Valid                          1.195  R/RJ/RJBS/Email-Valid-1.195.tar.gz
 Encode                                 2.62  D/DA/DANKOGAI/Encode-2.62.tar.gz
 Encode::Alias                          2.18  D/DA/DANKOGAI/Encode-2.62.tar.gz
@@ -2644,6 +2701,7 @@ Spiffy                                 0.46  I/IN/INGY/Spiffy-0.46.tar.gz
 Spiffy::mixin                         undef  I/IN/INGY/Spiffy-0.46.tar.gz
 Squirrel                              undef  G/GF/GFUJI/Mouse-2.4.1.tar.gz
 Squirrel::Role                        undef  G/GF/GFUJI/Mouse-2.4.1.tar.gz
+StackTrace::Auto                   0.200012  R/RJ/RJBS/Throwable-0.200012.tar.gz
 Storable                               2.51  A/AM/AMS/Storable-2.51.tar.gz
 Stream::Buffered                       0.03  D/DO/DOY/Stream-Buffered-0.03.tar.gz
 Stream::Buffered::Auto                undef  D/DO/DOY/Stream-Buffered-0.03.tar.gz
@@ -2878,6 +2936,8 @@ Text::Diff::Config                     1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Table                      1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Glob                             0.09  R/RC/RCLAMP/Text-Glob-0.09.tar.gz
 Text::LineFold                      2012.04  N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
+Throwable                          0.200012  R/RJ/RJBS/Throwable-0.200012.tar.gz
+Throwable::Error                   0.200012  R/RJ/RJBS/Throwable-0.200012.tar.gz
 Time::Duration                          1.1  A/AV/AVIF/Time-Duration-1.1.tar.gz
 Time::Duration::Parse                  0.11  N/NE/NEILB/Time-Duration-Parse-0.11.tar.gz
 Time::Piece                            1.29  R/RJ/RJBS/Time-Piece-1.29.tar.gz
@@ -3015,6 +3075,7 @@ YAML::Any                              1.12  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Dumper                          undef  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Dumper::Base                    undef  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Error                           undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::LibYAML                         undef  I/IN/INGY/YAML-LibYAML-0.52.tar.gz
 YAML::Loader                          undef  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Loader::Base                    undef  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Marshall                        undef  I/IN/INGY/YAML-1.12.tar.gz
@@ -3029,6 +3090,8 @@ YAML::Type::regexp                    undef  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Type::undef                     undef  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Types                           undef  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Warning                         undef  I/IN/INGY/YAML-1.12.tar.gz
+YAML::XS                               0.52  I/IN/INGY/YAML-LibYAML-0.52.tar.gz
+YAML::XS::LibYAML                     undef  I/IN/INGY/YAML-LibYAML-0.52.tar.gz
 Zlib::OldDeflate                      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 Zlib::OldInflate                      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 ack                                   undef  P/PE/PETDANCE/ack-2.14.tar.gz
