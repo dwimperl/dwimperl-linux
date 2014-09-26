@@ -97,7 +97,7 @@ requires 'HTTP::Lite',                 '2.43';
 requires 'HTTP::Request',              '6.00';
 requires 'HTTP::Request::Common',      '6.04';
 requires 'HTTP::Tiny',                 '0.050';
-requires 'Hash::Merge::Simple',        '0.051';
+# requires 'Hash::Merge::Simple',        '0.051'; # Depends on #1
 requires 'IO::Compress::Gzip',         '2.066';
 requires 'IO::Uncompress::Gunzip',     '2.066';
 requires 'IO::Scalar',                 '2.110';
@@ -112,12 +112,12 @@ requires 'JSON::XS',                   '3.01';
 requires 'List::MoreUtils',            '0.33';
 requires 'List::Util',                 '1.41';
 requires 'Locale::Codes',              '3.32';
-requires 'local::lib';
-#requires 'Log::Contextual
-#requires 'Log::Dispatch
-requires 'Log::Log4perl';
-#requires 'LWP
-requires 'LWP::Protocol::https';
+requires 'local::lib',                 '2.000014';
+requires 'Log::Contextual',            '0.006004';
+requires 'Log::Dispatch',              '2.42';
+requires 'Log::Log4perl',              '1.44';
+requires 'LWP',                        '6.08';
+requires 'LWP::Protocol::https',       '6.06';
 #requires 'LWP::Protocol::PSGI';
 #requires 'LWP::Simple';
 #requires 'LWP::UserAgent';

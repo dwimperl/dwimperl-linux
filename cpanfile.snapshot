@@ -1114,6 +1114,15 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0.98
+  Data-Dumper-Concise-2.022
+    pathname: F/FR/FREW/Data-Dumper-Concise-2.022.tar.gz
+    provides:
+      Data::Dumper::Concise 2.022
+      Data::Dumper::Concise::Sugar undef
+      Devel::Dwarn undef
+    requirements:
+      ExtUtils::MakeMaker 6.59
+      perl 5.006
   Data-GUID-0.048
     pathname: R/RJ/RJBS/Data-GUID-0.048.tar.gz
     provides:
@@ -2581,6 +2590,26 @@ DISTRIBUTIONS
       Exception::Class 1.38
       Exception::Class::Base 1.38
     requirements:
+  Exporter-Declare-0.113
+    pathname: E/EX/EXODIST/Exporter-Declare-0.113.tar.gz
+    provides:
+      Exporter::Declare 0.113
+      Exporter::Declare::Export undef
+      Exporter::Declare::Export::Alias undef
+      Exporter::Declare::Export::Generator undef
+      Exporter::Declare::Export::Sub undef
+      Exporter::Declare::Export::Variable undef
+      Exporter::Declare::Meta undef
+      Exporter::Declare::Specs undef
+    requirements:
+      Carp 0
+      Fennec::Lite 0.004
+      Meta::Builder 0.003
+      Scalar::Util 0
+      Test::Exception 0.29
+      Test::Simple 0.88
+      aliased 0
+      perl v5.8.0
   Exporter-Lite-0.06
     pathname: N/NE/NEILB/Exporter-Lite-0.06.tar.gz
     provides:
@@ -2680,6 +2709,15 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       XSLoader 0
+      perl 5.006
+  Fennec-Lite-0.004
+    pathname: E/EX/EXODIST/Fennec-Lite-0.004.tar.gz
+    provides:
+      Fennec::Lite 0.004
+    requirements:
+      List::Util 0
+      Test::Builder 0
+      Test::More 0
       perl 5.006
   File-ConfigDir-0.013
     pathname: R/RE/REHSACK/File-ConfigDir-0.013.tar.gz
@@ -3263,6 +3301,59 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.30
       Test::More 0
+  Log-Contextual-0.006004
+    pathname: F/FR/FREW/Log-Contextual-0.006004.tar.gz
+    provides:
+      Log::Contextual 0.006004
+      Log::Contextual::Easy::Default 0.006004
+      Log::Contextual::Easy::Package 0.006004
+      Log::Contextual::Role::Router 0.006004
+      Log::Contextual::Role::Router::SetLogger 0.006004
+      Log::Contextual::Role::Router::WithLogger 0.006004
+      Log::Contextual::Router 0.006004
+      Log::Contextual::SimpleLogger 0.006004
+      Log::Contextual::TeeLogger 0.006004
+      Log::Contextual::WarnLogger 0.006004
+    requirements:
+      Carp 0
+      Data::Dumper::Concise 0
+      Exporter::Declare 0.111
+      ExtUtils::MakeMaker 6.30
+      Moo 1.003
+      Scalar::Util 0
+  Log-Dispatch-2.42
+    pathname: D/DR/DROLSKY/Log-Dispatch-2.42.tar.gz
+    provides:
+      Log::Dispatch 2.42
+      Log::Dispatch::ApacheLog 2.42
+      Log::Dispatch::Base 2.42
+      Log::Dispatch::Code 2.42
+      Log::Dispatch::Email 2.42
+      Log::Dispatch::Email::MIMELite 2.42
+      Log::Dispatch::Email::MailSend 2.42
+      Log::Dispatch::Email::MailSender 2.42
+      Log::Dispatch::Email::MailSendmail 2.42
+      Log::Dispatch::File 2.42
+      Log::Dispatch::File::Locked 2.42
+      Log::Dispatch::Handle 2.42
+      Log::Dispatch::Null 2.42
+      Log::Dispatch::Output 2.42
+      Log::Dispatch::Screen 2.42
+      Log::Dispatch::Syslog 2.42
+    requirements:
+      Carp 0
+      Dist::CheckConflicts 0.02
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      Module::Runtime 0
+      Params::Validate 0.15
+      Scalar::Util 0
+      Sys::Syslog 0.28
+      base 0
+      strict 0
+      threads 0
+      threads::shared 0
+      warnings 0
   Log-Log4perl-1.44
     pathname: M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
     provides:
@@ -3443,6 +3534,17 @@ DISTRIBUTIONS
       Test::More 0.62
       Test::NoWarnings 0.084
       perl 5.006
+  Meta-Builder-0.003
+    pathname: E/EX/EXODIST/Meta-Builder-0.003.tar.gz
+    provides:
+      Meta::Builder 0.003
+      Meta::Builder::Base undef
+      Meta::Builder::Util undef
+    requirements:
+      Carp 0
+      Fennec::Lite 0
+      Test::Exception 0
+      Test::More 0
   Metabase-Client-Simple-0.009
     pathname: D/DA/DAGOLDEN/Metabase-Client-Simple-0.009.tar.gz
     provides:
@@ -5927,6 +6029,12 @@ DISTRIBUTIONS
       Test::More 0.98
       Text::ParseWords 3.1
       perl 5.008008
+  aliased-0.31
+    pathname: O/OV/OVID/aliased-0.31.tar.gz
+    provides:
+      aliased 0.31
+    requirements:
+      Test::More 0
   autodie-2.25
     pathname: P/PJ/PJF/autodie-2.25.tar.gz
     provides:
