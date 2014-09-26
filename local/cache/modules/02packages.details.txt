@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3582
-Last-Updated: Fri Sep 26 12:57:49 2014
+Line-Count:   3593
+Last-Updated: Fri Sep 26 13:20:30 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -165,6 +165,9 @@ CPAN::Meta::Prereqs                2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.ta
 CPAN::Meta::Requirements              2.128  D/DA/DAGOLDEN/CPAN-Meta-Requirements-2.128.tar.gz
 CPAN::Meta::Spec                   2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
 CPAN::Meta::Validator              2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Mini                         1.111016  R/RJ/RJBS/CPAN-Mini-1.111016.tar.gz
+CPAN::Mini::App                    1.111016  R/RJ/RJBS/CPAN-Mini-1.111016.tar.gz
+CPAN::Mini::Portable                   1.22  K/KM/KMX/Portable-1.22.tar.gz
 CPAN::Perl::Releases                   1.90  B/BI/BINGOS/CPAN-Perl-Releases-1.90.tar.gz
 CPAN::Testers::Common::Client          0.07  G/GA/GARU/CPAN-Testers-Common-Client-0.07.tar.gz
 CPAN::Testers::Common::Client::Config      undef  G/GA/GARU/CPAN-Testers-Common-Client-0.07.tar.gz
@@ -1811,6 +1814,7 @@ LWP::Debug                            undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.
 LWP::DebugFile                        undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::MediaTypes                        6.02  G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
 LWP::MemberMixin                      undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
+LWP::Online                            1.08  A/AD/ADAMK/LWP-Online-1.08.tar.gz
 LWP::Protocol                          6.06  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::Protocol::GHTTP                  undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::Protocol::MyFTP                  undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
@@ -3086,6 +3090,13 @@ Pod::Spell                             1.15  X/XE/XENO/Pod-Spell-1.15.tar.gz
 Pod::Usage                             1.64  M/MA/MAREKR/Pod-Usage-1.64.tar.gz
 Pod::Weaver::Section::SeeAlsoCodeTidyAll       0.20  J/JS/JSWARTZ/Code-TidyAll-0.20.tar.gz
 Pod::Wordlist                          1.15  X/XE/XENO/Pod-Spell-1.15.tar.gz
+Portable                               1.22  K/KM/KMX/Portable-1.22.tar.gz
+Portable::CPAN                         1.22  K/KM/KMX/Portable-1.22.tar.gz
+Portable::Config                       1.22  K/KM/KMX/Portable-1.22.tar.gz
+Portable::FileSpec                     1.22  K/KM/KMX/Portable-1.22.tar.gz
+Portable::HomeDir                      1.22  K/KM/KMX/Portable-1.22.tar.gz
+Portable::LoadYaml                     1.22  K/KM/KMX/Portable-1.22.tar.gz
+Portable::minicpan                     1.22  K/KM/KMX/Portable-1.22.tar.gz
 Probe::Perl                            0.03  K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
 Readonly                               2.00  S/SA/SANKO/Readonly-2.00.tar.gz
 Readonly::Array                        2.00  S/SA/SANKO/Readonly-2.00.tar.gz

@@ -213,6 +213,7 @@ requires 'Pod::Usage',                 '1.64';
 #requires 'Pod::Simple::XHTML
 #requires 'Pod::Perldoc
 #requires 'POD2::Base
+requires 'Portable',                    '1.22';
 #requires 'PPI
 #requires 'PPIx::EditorTools
 #requires 'PPIx::Regexp

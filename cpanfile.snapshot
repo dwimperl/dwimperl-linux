@@ -430,6 +430,28 @@ DISTRIBUTIONS
       strict 0
       version 0.88
       warnings 0
+  CPAN-Mini-1.111016
+    pathname: R/RJ/RJBS/CPAN-Mini-1.111016.tar.gz
+    provides:
+      CPAN::Mini 1.111016
+      CPAN::Mini::App 1.111016
+    requirements:
+      Carp 0
+      Compress::Zlib 1.20
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Find 0
+      File::HomeDir 0.57
+      File::Path 2.04
+      File::Spec 0
+      File::Temp 0
+      Getopt::Long 0
+      LWP::UserAgent 5
+      Pod::Usage 1.00
+      URI 1
+      strict 0
+      warnings 0
   CPAN-Perl-Releases-1.90
     pathname: B/BI/BINGOS/CPAN-Perl-Releases-1.90.tar.gz
     provides:
@@ -3393,6 +3415,16 @@ DISTRIBUTIONS
     provides:
       LWP::MediaTypes 6.02
     requirements:
+  LWP-Online-1.08
+    pathname: A/AD/ADAMK/LWP-Online-1.08.tar.gz
+    provides:
+      LWP::Online 1.08
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      LWP::Simple 5.805
+      Test::More 0.42
+      URI 1.35
+      perl 5.005
   LWP-Protocol-PSGI-0.07
     pathname: M/MI/MIYAGAWA/LWP-Protocol-PSGI-0.07.tar.gz
     provides:
@@ -5649,6 +5681,26 @@ DISTRIBUTIONS
       File::Spec 0.82
       Pod::Text 3.15
       Test::More 0.6
+  Portable-1.22
+    pathname: K/KM/KMX/Portable-1.22.tar.gz
+    provides:
+      CPAN::Mini::Portable 1.22
+      Portable 1.22
+      Portable::CPAN 1.22
+      Portable::Config 1.22
+      Portable::FileSpec 1.22
+      Portable::HomeDir 1.22
+      Portable::LoadYaml 1.22
+      Portable::minicpan 1.22
+    requirements:
+      CPAN::Mini 0.575
+      Class::Inspector 1.22
+      ExtUtils::MakeMaker 6.59
+      LWP::Online 1.07
+      Test::Exception 0.27
+      Test::More 0.42
+      Test::NoWarnings 0.084
+      perl 5.008
   Probe-Perl-0.03
     pathname: K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
     provides:
