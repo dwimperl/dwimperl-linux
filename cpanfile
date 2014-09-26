@@ -172,6 +172,7 @@ requires 'Test::Exception',             '0.35';
 #requires 'Test::MockModule';
 #requires 'Test::LongString';
 requires 'Test::Harness',               '3.33';
+requires 'Test::Trap',                  '0.2.4';
 requires 'Test::Warn',                  '0.30';
 #requires 'Test::Code::TidyAll';
 #requires 'Test::Perl::Critic';

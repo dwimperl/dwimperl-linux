@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2571
-Last-Updated: Fri Sep 26 00:12:14 2014
+Line-Count:   2582
+Last-Updated: Fri Sep 26 06:38:56 2014
 
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Acme::MetaSyntactic::Alias            1.000  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -390,6 +390,12 @@ Dancer::Template::Simple             1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Dancer::Template::TemplateToolkit     1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Dancer::Test                         1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
 Dancer::Timer                        1.3130  Y/YA/YANICK/Dancer-1.3130.tar.gz
+Data::Dump                             1.22  G/GA/GAAS/Data-Dump-1.22.tar.gz
+Data::Dump::FilterContext             undef  G/GA/GAAS/Data-Dump-1.22.tar.gz
+Data::Dump::Filtered                  undef  G/GA/GAAS/Data-Dump-1.22.tar.gz
+Data::Dump::Trace                      0.02  G/GA/GAAS/Data-Dump-1.22.tar.gz
+Data::Dump::Trace::Call                0.02  G/GA/GAAS/Data-Dump-1.22.tar.gz
+Data::Dump::Trace::Wrapper             0.02  G/GA/GAAS/Data-Dump-1.22.tar.gz
 Data::Dumper                          2.154  S/SM/SMUELLER/Data-Dumper-2.154.tar.gz
 Data::GUID                            0.048  R/RJ/RJBS/Data-GUID-0.048.tar.gz
 Data::Munge                            0.08  M/MA/MAUKE/Data-Munge-0.08.tar.gz
@@ -2390,6 +2396,11 @@ Test::Tester                          0.109  F/FD/FDALY/Test-Tester-0.109.tar.gz
 Test::Tester::Capture                 undef  F/FD/FDALY/Test-Tester-0.109.tar.gz
 Test::Tester::CaptureRunner           undef  F/FD/FDALY/Test-Tester-0.109.tar.gz
 Test::Tester::Delegate                undef  F/FD/FDALY/Test-Tester-0.109.tar.gz
+Test::Trap                         0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
+Test::Trap::Builder                0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
+Test::Trap::Builder::PerlIO        0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
+Test::Trap::Builder::SystemSafe    0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
+Test::Trap::Builder::TempFile      0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
 Test::Warn                             0.30  C/CH/CHORNY/Test-Warn-0.30.tar.gz
 Test::Warn::Categorization             0.30  C/CH/CHORNY/Test-Warn-0.30.tar.gz
 Test::Warnings                        0.016  E/ET/ETHER/Test-Warnings-0.016.tar.gz

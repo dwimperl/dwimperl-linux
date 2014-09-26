@@ -907,6 +907,20 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Data-Dump-1.22
+    pathname: G/GA/GAAS/Data-Dump-1.22.tar.gz
+    provides:
+      Data::Dump 1.22
+      Data::Dump::FilterContext undef
+      Data::Dump::Filtered undef
+      Data::Dump::Trace 0.02
+      Data::Dump::Trace::Call 0.02
+      Data::Dump::Trace::Wrapper 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      Symbol 0
+      Test 0
+      perl 5.006
   Data-Dumper-2.154
     pathname: S/SM/SMUELLER/Data-Dumper-2.154.tar.gz
     provides:
@@ -4242,6 +4256,30 @@ DISTRIBUTIONS
       Test::Tester::CaptureRunner undef
       Test::Tester::Delegate undef
     requirements:
+  Test-Trap-v0.2.4
+    pathname: E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
+    provides:
+      Test::Trap 0.002004
+      Test::Trap::Builder 0.002004
+      Test::Trap::Builder::PerlIO 0.002004
+      Test::Trap::Builder::SystemSafe 0.002004
+      Test::Trap::Builder::TempFile 0.002004
+    requirements:
+      Carp 0
+      Data::Dump 0
+      Exporter 0
+      File::Temp 0
+      IO::Handle 0
+      Test::Builder 0
+      Test::More 0
+      Test::Tester 0.107
+      base 0
+      constant 0
+      lib 0
+      perl v5.6.2
+      strict 0
+      version 0
+      warnings 0
   Test-Warn-0.30
     pathname: C/CH/CHORNY/Test-Warn-0.30.tar.gz
     provides:
