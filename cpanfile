@@ -96,6 +96,7 @@ requires 'HTTP::Tiny',                 '0.049';
 requires 'HTTP::Lite',                 '2.43';
 requires 'HTTP::Request',              '6.00';
 requires 'HTTP::Request::Common',      '6.04';
+requires 'HTTP::Server::Simple',       '0.44';
 requires 'HTTP::Tiny',                 '0.050';
 #requires 'Hash::Merge::Simple',        '0.051'; # Depends on #1
 requires 'IO::Compress::Gzip',         '2.066';
@@ -239,7 +240,7 @@ requires 'Test::Deep',                  '0.113';
 requires 'Test::Exception',             '0.35';
 requires 'Test::Fatal',                 '0.013';
 requires 'Test::Memory::Cycle',         '1.04';
-requires 'Test::MockObject',           '1.20140408';
+#requires 'Test::MockObject',           '1.20140408'; # depends on #1
 requires 'Test::MockTime',              '0.13';
 #requires 'Test::Mock::LWP';
 #requires 'Test::MockModule';
@@ -292,12 +293,12 @@ requires 'Variable::Magic',            '0.54';
 #requires 'XML::Feed';
 #requires 'XML::Parser',    '2.41';
 #requires 'XML::RSS';  # needs XML::Parser
-#requires 'XML::SAX
+requires 'XML::SAX',                        '0.99';
 #requires 'XML::SAX::Writer
 #requires 'XML::Simple # needs XML::Parser
 #requires 'XML::Twig',                  '3.48'; #1
 #requires 'XML::XPath  # needs XML::Parser
-#requires 'XML::NamespaceSupport
+requires 'XML::NamespaceSupport',           '1.11';
 requires 'YAML',                       '1.12';
 #requires 'YAML::Tiny
 
