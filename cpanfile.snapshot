@@ -4816,6 +4816,27 @@ DISTRIBUTIONS
       Test::Base::Filter undef
       Test::Base::Handle 0.88
     requirements:
+  Test-Class-0.46
+    pathname: E/ET/ETHER/Test-Class-0.46.tar.gz
+    provides:
+      Test::Class 0.46
+      Test::Class::Load 0.46
+      Test::Class::MethodInfo 0.46
+    requirements:
+      Attribute::Handlers 0.77
+      Carp 0
+      File::Find 0
+      File::Spec 0
+      MRO::Compat 0.11
+      Module::Build 0.4004
+      Storable 2.04
+      Test::Builder 0.78
+      Test::Builder::Tester 1.02
+      Test::Simple 1.001002
+      constant 0
+      perl 5.008001
+      strict 0
+      warnings 0
   Test-Deep-0.113
     pathname: R/RJ/RJBS/Test-Deep-0.113.tar.gz
     provides:

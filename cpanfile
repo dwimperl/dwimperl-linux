@@ -231,6 +231,7 @@ requires 'Storable',                   '2.51';
 requires 'Term::ANSIColor',            '4.03';
 requires 'Term::Cap',                  '1.16';
 requires 'Test::Builder',              '1.001006';
+requires 'Test::Class',                '0.46';
 requires 'Test::Deep',                  '0.113';
 #requires 'Test::Differences',           '0.62';  #1
 #requires 'Test::Memory::Cycle';
