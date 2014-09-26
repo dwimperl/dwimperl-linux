@@ -157,6 +157,8 @@ case $1 in
       # needed to build Net::SSLeay
       export OPENSSL_PREFIX=$PREFIX_C
 
+      export XMLPREFIX=$PREFIX_C
+
       cd $BUILD_HOME
       HARNESS_OPTIONS=j3
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ --mirror-only .
