@@ -110,6 +110,7 @@ requires 'IPC::Run',                   '0.92';
 requires 'IPC::Run3',                  '0.048';
 requires 'JSON',                       '2.90';
 requires 'JSON::XS',                   '3.01';
+requires 'JSON::MaybeXS',              '1.002002';
 requires 'List::MoreUtils',            '0.33';
 requires 'List::Util',                 '1.41';
 requires 'Locale::Codes',              '3.32';
@@ -259,13 +260,13 @@ requires 'Test::Pod::Coverage',         '1.10';
 requires 'Test::Harness',               '3.33';
 requires 'Test::Trap',                  '0.2.4';
 requires 'Test::Warn',                  '0.30';
-#requires 'Test::Code::TidyAll';
-#requires 'Test::Perl::Critic';
-#requires 'Term::ReadLine
-#requires 'Term::ProgressBar::Simple
-#requires 'Text::Balanced
-#requires 'Text::Diff
-#requires 'Text::FindIndent
+requires 'Test::Code::TidyAll',         '0.20';
+requires 'Test::Perl::Critic',          '1.02';
+#requires 'Term::ReadLine',              '1.14';
+#requires 'Term::ProgressBar::Simple',   '0.03';
+requires 'Text::Balanced',              '2.02';
+requires 'Text::Diff',                  '1.41';
+requires 'Text::FindIndent',            '0.10';
 #requires 'Text::Patch
 #requires 'Text::VimColor', '0.24';
 #requires 'Text::Xslate
@@ -280,27 +281,27 @@ requires 'Time::Piece',                '1.29';
 #requires 'TryCatch';
 requires 'Unicode::Collate',           '1.07';
 requires 'Unicode::Normalize',         '1.18';
-#requires 'URI
-#requires 'URL::Encode::XS';
-requires 'Variable::Magic',            '0.54';
-#requires 'version
-#requires 'Web::Feed';
-#requires 'WebService::GData
-#requires 'WWW::Mechanize
-#requires 'WWW::Mechanize::TreeBuilder
-#requires 'XML::Atom'; # needs XML::Parser
-#requires 'XML::LibXML',                 '2.0116';
-#requires 'XML::Feed';
-#requires 'XML::Parser',    '2.41';
-#requires 'XML::RSS';  # needs XML::Parser
+#requires 'URI',                            '1.64';
+#requires 'URL::Encode::XS',                '0.03';
+requires 'Variable::Magic',                 '0.54';
+#requires 'version',                         '0.9909';
+#requires 'Web::Feed',                       '0.03';
+#requires 'WebService::GData',               '0.06';
+#requires 'WWW::Mechanize',                  '1.73';
+#requires 'WWW::Mechanize::TreeBuilder',     '1.10003';
+#requires 'XML::Atom',                       '0.41'; # needs XML::Parser
+#requires 'XML::LibXML',                     '2.0116';
+#requires 'XML::Feed',                       '0.52';
+#requires 'XML::Parser',                     '2.41';
+#requires 'XML::RSS',                        '1.55';  # needs XML::Parser
 requires 'XML::SAX',                        '0.99';
-#requires 'XML::SAX::Writer
-#requires 'XML::Simple # needs XML::Parser
-#requires 'XML::Twig',                  '3.48'; #1
-#requires 'XML::XPath  # needs XML::Parser
+#requires 'XML::SAX::Writer',                '0.54';
+#requires 'XML::Simple',                     '2.20';  # needs XML::Parser
+#requires 'XML::Twig',                       '3.48'; #1
+#requires 'XML::XPath',                      '1.13';  # needs XML::Parser
 requires 'XML::NamespaceSupport',           '1.11';
-requires 'YAML',                       '1.12';
-#requires 'YAML::Tiny
+requires 'YAML',                            '1.12';
+requires 'YAML::Tiny',                      '1.63';
 
 # Net::Server 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523
 #mycpan --notest Net::Server
