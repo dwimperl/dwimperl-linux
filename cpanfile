@@ -71,8 +71,9 @@ requires 'Encode',                     '2.62';
 requires 'Exception::Class',           '1.38';
 requires 'Excel::Writer::XLSX',        '0.77';
 requires 'ExtUtils::MakeMaker',        '6.98';
-requires 'experimental',               '0.010';
-requires 'ExtUtils::CBuilder',         '0.280219';
+#requires 'experimental',               '0.010'; #1
+#requires 'ExtUtils::CBuilder',         '0.280219'; #1
+#requires 'ExtUtils::Helpers',          '0.022'; #1
 requires 'ExtUtils::Install',          '2.04';
 requires 'ExtUtils::Manifest',         '1.68';
 #requires 'ExtUtils::Embed',            '1.32'; # core
