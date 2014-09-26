@@ -71,8 +71,8 @@ requires 'Encode',                     '2.62';
 requires 'Exception::Class',           '1.38';
 requires 'Excel::Writer::XLSX',        '0.77';
 requires 'ExtUtils::MakeMaker',        '6.98';
-#requires 'experimental',               '0.010';
-#requires 'ExtUtils::CBuilder',         '0.280219';
+requires 'experimental',               '0.010';
+requires 'ExtUtils::CBuilder',         '0.280219';
 requires 'ExtUtils::Install',          '2.04';
 requires 'ExtUtils::Manifest',         '1.68';
 #requires 'ExtUtils::Embed',            '1.32'; # core
@@ -120,7 +120,7 @@ requires 'LWP::Protocol::https';
 #requires 'LWP::UserAgent';
 #requires 'LWP::UserAgent::Determined';
 requires 'Marpa::R2',                  '2.094000';
-#requires 'Math::BigFloat',             '1.9993';
+requires 'Math::BigFloat',             '1.9993';
 #requires 'Math::Random::ISAAC::XS';
 #requires 'MIME::Lite';
 #requires 'MIME::Types
@@ -167,9 +167,9 @@ requires 'MooX::Options',              '4.010';
 #requires 'MooseX::Storage';
 #requires 'MooseX::ClassAttribute';
 #requires 'MooseX::SemiAffordanceAccessor';
-#requires 'Module::Build::ModuleInfo',  '0.4210';
-#requires 'Module::CoreList',           '5.20140920';
-#requires 'Module::Metadata',           '1.000024';
+requires 'Module::Build::ModuleInfo',       '0.4210';
+requires 'Module::CoreList',                '5.20140920';
+requires 'Module::Metadata',                '1.000024';
 #requires 'Module::Version';
 requires 'Mojolicious',                '5.44';
 #requires 'namespace::autoclean';
@@ -197,7 +197,7 @@ requires 'Net::SSLeay',                 '1.14';
 #requires 'Plack::Middleware::ReverseProxy
 #requires 'PPIx::EditorTools::Outline';
 #requires 'PDF::Create',                '1.08';
-#requires 'perlfaq',                    '5.0150045';
+requires 'perlfaq',                         '5.0150045';
 #requires 'Pod::Abstract
 requires 'Pod::Checker',               '1.71';
 #requires 'Pod::Coverage::Moose';
