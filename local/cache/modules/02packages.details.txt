@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3018
-Last-Updated: Fri Sep 26 10:17:21 2014
+Line-Count:   3054
+Last-Updated: Fri Sep 26 10:19:50 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -138,6 +138,21 @@ CGI::Simple::Standard                 1.113  A/AN/ANDYA/CGI-Simple-1.113.tar.gz
 CGI::Simple::Util                     1.113  A/AN/ANDYA/CGI-Simple-1.113.tar.gz
 CGI::Util                              4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 CGITempFile                            4.04  L/LE/LEEJO/CGI-4.04.tar.gz
+CHI                                    0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::CacheObject                       0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver                            0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::Base::CacheContainer       0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::CacheCache                0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::FastMmap                  0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::File                      0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::Memory                    0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::Metacache                 0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::Null                      0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::RawMemory                 0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::Role::HasSubcaches        0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::Role::IsSizeAware         0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Driver::Role::IsSubcache          0.58  H/HA/HAARG/CHI-0.58.tar.gz
+CHI::Stats                             0.58  H/HA/HAARG/CHI-0.58.tar.gz
 CPAN::DistnameInfo                     0.12  G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
 CPAN::Meta                         2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
 CPAN::Meta::Converter              2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
@@ -148,6 +163,7 @@ CPAN::Meta::Prereqs                2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.ta
 CPAN::Meta::Requirements              2.128  D/DA/DAGOLDEN/CPAN-Meta-Requirements-2.128.tar.gz
 CPAN::Meta::Spec                   2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
 CPAN::Meta::Validator              2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Perl::Releases                   1.90  B/BI/BINGOS/CPAN-Perl-Releases-1.90.tar.gz
 CPAN::Testers::Common::Client          0.07  G/GA/GARU/CPAN-Testers-Common-Client-0.07.tar.gz
 CPAN::Testers::Common::Client::Config      undef  G/GA/GARU/CPAN-Testers-Common-Client-0.07.tar.gz
 CPAN::Testers::Common::Client::PrereqCheck      undef  G/GA/GARU/CPAN-Testers-Common-Client-0.07.tar.gz
@@ -160,6 +176,7 @@ CPAN::Testers::Fact::TestOutput    1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1
 CPAN::Testers::Fact::TestSummary   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
 CPAN::Testers::Fact::TesterComment   1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
 CPAN::Testers::Report              1.999002  D/DA/DAGOLDEN/CPAN-Testers-Report-1.999002.tar.gz
+Cache::Memcached::Fast                 0.22  K/KR/KROKI/Cache-Memcached-Fast-0.22.tar.gz
 Capture::Tiny                          0.25  D/DA/DAGOLDEN/Capture-Tiny-0.25.tar.gz
 Carp::Always                           0.13  F/FE/FERREIRA/Carp-Always-0.13.tar.gz
 Carp::Assert                           0.21  N/NE/NEILB/Carp-Assert-0.21.tar.gz
@@ -1387,9 +1404,12 @@ Devel::Refactor                        0.05  S/SS/SSOTKA/Devel-Refactor-0.05.tar
 Devel::StackTrace                      1.34  D/DR/DROLSKY/Devel-StackTrace-1.34.tar.gz
 Devel::StackTrace::AsHTML              0.14  M/MI/MIYAGAWA/Devel-StackTrace-AsHTML-0.14.tar.gz
 Devel::StackTrace::Frame               1.34  D/DR/DROLSKY/Devel-StackTrace-1.34.tar.gz
+Devel::Symdump                         2.12  A/AN/ANDK/Devel-Symdump-2.12.tar.gz
+Devel::Symdump::Export                undef  A/AN/ANDK/Devel-Symdump-2.12.tar.gz
 Digest::HMAC                           1.03  G/GA/GAAS/Digest-HMAC-1.03.tar.gz
 Digest::HMAC_MD5                       1.01  G/GA/GAAS/Digest-HMAC-1.03.tar.gz
 Digest::HMAC_SHA1                      1.03  G/GA/GAAS/Digest-HMAC-1.03.tar.gz
+Digest::JHash                          0.08  S/SH/SHLOMIF/Digest-JHash-0.08.tar.gz
 Digest::SHA                            5.92  M/MS/MSHELOR/Digest-SHA-5.92.tar.gz
 Digest::SHA1                           2.13  G/GA/GAAS/Digest-SHA1-2.13.tar.gz
 DigitalOcean                           0.12  S/SR/SRCHULO/DigitalOcean-0.12.tar.gz
@@ -1466,6 +1486,7 @@ Excel::Writer::XLSX::Workbook          0.77  J/JM/JMCNAMARA/Excel-Writer-XLSX-0.
 Excel::Writer::XLSX::Worksheet         0.77  J/JM/JMCNAMARA/Excel-Writer-XLSX-0.77.tar.gz
 Exception::Class                       1.38  D/DR/DROLSKY/Exception-Class-1.38.tar.gz
 Exception::Class::Base                 1.38  D/DR/DROLSKY/Exception-Class-1.38.tar.gz
+Exporter::Lite                         0.06  N/NE/NEILB/Exporter-Lite-0.06.tar.gz
 ExtUtils::CBuilder                 0.280219  A/AM/AMBS/ExtUtils-CBuilder-0.280219.tar.gz
 ExtUtils::CBuilder::Base           0.280219  A/AM/AMBS/ExtUtils-CBuilder-0.280219.tar.gz
 ExtUtils::CBuilder::Platform::Unix   0.280219  A/AM/AMBS/ExtUtils-CBuilder-0.280219.tar.gz
@@ -1581,6 +1602,7 @@ HTTP::Status                           6.03  G/GA/GAAS/HTTP-Message-6.06.tar.gz
 HTTP::Tiny                            0.050  D/DA/DAGOLDEN/HTTP-Tiny-0.050.tar.gz
 Harness::Hook                         undef  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Hash::Merge::Simple                   0.051  R/RO/ROKR/Hash-Merge-Simple-0.051.tar.gz
+Hash::MoreUtils                        0.05  R/RE/REHSACK/Hash-MoreUtils-0.05.tar.gz
 Hash::MultiValue                       0.15  M/MI/MIYAGAWA/Hash-MultiValue-0.15.tar.gz
 Hook::LexWrap                          0.24  C/CH/CHORNY/Hook-LexWrap-0.24.tar.gz
 Hook::LexWrap::Cleanup                 0.24  C/CH/CHORNY/Hook-LexWrap-0.24.tar.gz
@@ -1694,6 +1716,10 @@ Locale::Country                        3.32  S/SB/SBECK/Locale-Codes-3.32.tar.gz
 Locale::Currency                       3.32  S/SB/SBECK/Locale-Codes-3.32.tar.gz
 Locale::Language                       3.32  S/SB/SBECK/Locale-Codes-3.32.tar.gz
 Locale::Script                         3.32  S/SB/SBECK/Locale-Codes-3.32.tar.gz
+Log::Any                               0.15  J/JS/JSWARTZ/Log-Any-0.15.tar.gz
+Log::Any::Adapter::Null                0.15  J/JS/JSWARTZ/Log-Any-0.15.tar.gz
+Log::Any::Adapter::Test                0.15  J/JS/JSWARTZ/Log-Any-0.15.tar.gz
+Log::Any::Test                         0.15  J/JS/JSWARTZ/Log-Any-0.15.tar.gz
 Log::Log4perl                          1.44  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
 Log::Log4perl::Appender               undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
 Log::Log4perl::Appender::DBI          undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
@@ -1968,6 +1994,7 @@ MooX::Options::Descriptive::Usage      4.010  C/CE/CELOGEEK/MooX-Options-4.010.t
 MooX::Options::Role                   4.010  C/CE/CELOGEEK/MooX-Options-4.010.tar.gz
 MooX::Types::MooseLike                 0.27  M/MA/MATEU/MooX-Types-MooseLike-0.27.tar.gz
 MooX::Types::MooseLike::Base           0.27  M/MA/MATEU/MooX-Types-MooseLike-0.27.tar.gz
+MooX::Types::MooseLike::Numeric        1.02  M/MA/MATEU/MooX-Types-MooseLike-Numeric-1.02.tar.gz
 Moose                                2.1213  E/ET/ETHER/Moose-2.1213.tar.gz
 Moose::Exception                     2.1213  E/ET/ETHER/Moose-2.1213.tar.gz
 Moose::Exception::AccessorMustReadWrite     2.1213  E/ET/ETHER/Moose-2.1213.tar.gz
@@ -2551,6 +2578,11 @@ Plack::Util::Accessor                 undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Util::IOWithPath               undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Util::Prototype                undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Pod::Checker                           1.71  M/MA/MAREKR/Pod-Checker-1.71.tar.gz
+Pod::Coverage                          0.23  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::CountParents           undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::ExportOnly             undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::Extractor               0.23  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::Overloader             undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
 Pod::Perldoc                           3.24  M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz
 Pod::Perldoc::BaseTo                   3.24  M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz
 Pod::Perldoc::GetOptsOO                3.24  M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz
@@ -2806,6 +2838,8 @@ Test::NoWarnings::Warning              1.04  A/AD/ADAMK/Test-NoWarnings-1.04.tar
 Test::Object                           0.07  A/AD/ADAMK/Test-Object-0.07.tar.gz
 Test::Object::Test                     0.07  A/AD/ADAMK/Test-Object-0.07.tar.gz
 Test::Output                           1.03  B/BD/BDFOY/Test-Output-1.03.tar.gz
+Test::Pod                              1.48  D/DW/DWHEELER/Test-Pod-1.48.tar.gz
+Test::Pod::Coverage                    1.10  N/NE/NEILB/Test-Pod-Coverage-1.10.tar.gz
 Test::Reporter                         1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
 Test::Reporter::Transport              1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
 Test::Reporter::Transport::File        1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
@@ -2841,6 +2875,8 @@ Text::Diff::Config                     1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Diff::Table                      1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::Glob                             0.09  R/RC/RCLAMP/Text-Glob-0.09.tar.gz
 Text::LineFold                      2012.04  N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
+Time::Duration                          1.1  A/AV/AVIF/Time-Duration-1.1.tar.gz
+Time::Duration::Parse                  0.11  N/NE/NEILB/Time-Duration-Parse-0.11.tar.gz
 Time::Piece                            1.29  R/RJ/RJBS/Time-Piece-1.29.tar.gz
 Time::Seconds                          1.29  R/RJ/RJBS/Time-Piece-1.29.tar.gz
 Time::Zone                             2.24  G/GB/GBARR/TimeDate-2.30.tar.gz

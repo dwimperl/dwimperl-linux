@@ -330,6 +330,46 @@ DISTRIBUTIONS
     requirements:
       IO::Scalar 0
       Test::More 0
+  CHI-0.58
+    pathname: H/HA/HAARG/CHI-0.58.tar.gz
+    provides:
+      CHI 0.58
+      CHI::CacheObject 0.58
+      CHI::Driver 0.58
+      CHI::Driver::Base::CacheContainer 0.58
+      CHI::Driver::CacheCache 0.58
+      CHI::Driver::FastMmap 0.58
+      CHI::Driver::File 0.58
+      CHI::Driver::Memory 0.58
+      CHI::Driver::Metacache 0.58
+      CHI::Driver::Null 0.58
+      CHI::Driver::RawMemory 0.58
+      CHI::Driver::Role::HasSubcaches 0.58
+      CHI::Driver::Role::IsSizeAware 0.58
+      CHI::Driver::Role::IsSubcache 0.58
+      CHI::Stats 0.58
+    requirements:
+      Carp::Assert 0.20
+      Data::UUID 0
+      Digest::JHash 0
+      Digest::MD5 0
+      ExtUtils::MakeMaker 6.30
+      File::Spec 0.80
+      Hash::MoreUtils 0
+      JSON 0
+      List::MoreUtils 0.13
+      Log::Any 0.08
+      Moo 1.003
+      MooX::Types::MooseLike 0.23
+      MooX::Types::MooseLike::Base 0
+      MooX::Types::MooseLike::Numeric 0
+      Storable 0
+      String::RewritePrefix 0
+      Task::Weaken 0
+      Time::Duration 1.06
+      Time::Duration::Parse 0.03
+      Time::HiRes 1.30
+      Try::Tiny 0.05
   CPAN-DistnameInfo-0.12
     pathname: G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
     provides:
@@ -371,6 +411,13 @@ DISTRIBUTIONS
       strict 0
       version 0.88
       warnings 0
+  CPAN-Perl-Releases-1.90
+    pathname: B/BI/BINGOS/CPAN-Perl-Releases-1.90.tar.gz
+    provides:
+      CPAN::Perl::Releases 1.90
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
   CPAN-Testers-Common-Client-0.07
     pathname: G/GA/GARU/CPAN-Testers-Common-Client-0.07.tar.gz
     provides:
@@ -410,6 +457,13 @@ DISTRIBUTIONS
       Metabase::Report 0.016
       strict 0
       warnings 0
+  Cache-Memcached-Fast-0.22
+    pathname: K/KR/KROKI/Cache-Memcached-Fast-0.22.tar.gz
+    provides:
+      Cache::Memcached::Fast 0.22
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   Capture-Tiny-0.25
     pathname: D/DA/DAGOLDEN/Capture-Tiny-0.25.tar.gz
     provides:
@@ -2131,6 +2185,16 @@ DISTRIBUTIONS
     provides:
       Devel::StackTrace::AsHTML 0.14
     requirements:
+  Devel-Symdump-2.12
+    pathname: A/AN/ANDK/Devel-Symdump-2.12.tar.gz
+    provides:
+      Devel::Symdump 2.12
+      Devel::Symdump::Export undef
+    requirements:
+      Compress::Zlib 0
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      perl 5.004
   Digest-HMAC-1.03
     pathname: G/GA/GAAS/Digest-HMAC-1.03.tar.gz
     provides:
@@ -2142,6 +2206,17 @@ DISTRIBUTIONS
       Digest::SHA 1
       ExtUtils::MakeMaker 0
       perl 5.004
+  Digest-JHash-0.08
+    pathname: S/SH/SHLOMIF/Digest-JHash-0.08.tar.gz
+    provides:
+      Digest::JHash 0.08
+    requirements:
+      DynaLoader 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      perl 5.008
+      strict 0
+      warnings 0
   Digest-SHA-5.92
     pathname: M/MS/MSHELOR/Digest-SHA-5.92.tar.gz
     provides:
@@ -2303,6 +2378,15 @@ DISTRIBUTIONS
       Exception::Class 1.38
       Exception::Class::Base 1.38
     requirements:
+  Exporter-Lite-0.06
+    pathname: N/NE/NEILB/Exporter-Lite-0.06.tar.gz
+    provides:
+      Exporter::Lite 0.06
+    requirements:
+      ExtUtils::MakeMaker 6.3
+      perl 5.006
+      strict 0
+      warnings 0
   ExtUtils-CBuilder-0.280219
     pathname: A/AM/AMBS/ExtUtils-CBuilder-0.280219.tar.gz
     provides:
@@ -2662,6 +2746,12 @@ DISTRIBUTIONS
     provides:
       Hash::Merge::Simple 0.051
     requirements:
+  Hash-MoreUtils-0.05
+    pathname: R/RE/REHSACK/Hash-MoreUtils-0.05.tar.gz
+    provides:
+      Hash::MoreUtils 0.05
+    requirements:
+      Test::More 0.90
   Hash-MultiValue-0.15
     pathname: M/MI/MIYAGAWA/Hash-MultiValue-0.15.tar.gz
     provides:
@@ -2909,6 +2999,16 @@ DISTRIBUTIONS
       Module::Build 0.21
       perl 5.006
       utf8 0
+  Log-Any-0.15
+    pathname: J/JS/JSWARTZ/Log-Any-0.15.tar.gz
+    provides:
+      Log::Any 0.15
+      Log::Any::Adapter::Null 0.15
+      Log::Any::Adapter::Test 0.15
+      Log::Any::Test 0.15
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Test::More 0
   Log-Log4perl-1.44
     pathname: M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
     provides:
@@ -3533,6 +3633,15 @@ DISTRIBUTIONS
       MooX::Types::MooseLike 0.27
       MooX::Types::MooseLike::Base 0.27
     requirements:
+  MooX-Types-MooseLike-Numeric-1.02
+    pathname: M/MA/MATEU/MooX-Types-MooseLike-Numeric-1.02.tar.gz
+    provides:
+      MooX::Types::MooseLike::Numeric 1.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      MooX::Types::MooseLike 0.23
+      Test::Fatal 0.003
+      Test::More 0.96
   Moose-2.1213
     pathname: E/ET/ETHER/Moose-2.1213.tar.gz
     provides:
@@ -4376,6 +4485,20 @@ DISTRIBUTIONS
       File::Basename 0
       Pod::Simple 3.28
       Test::More 0.6
+  Pod-Coverage-0.23
+    pathname: R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+    provides:
+      Pod::Coverage 0.23
+      Pod::Coverage::CountParents undef
+      Pod::Coverage::ExportOnly undef
+      Pod::Coverage::Extractor 0.23
+      Pod::Coverage::Overloader undef
+    requirements:
+      Devel::Symdump 2.01
+      ExtUtils::MakeMaker 0
+      Pod::Find 0.21
+      Pod::Parser 1.13
+      Test::More 0
   Pod-Perldoc-3.24
     pathname: M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz
     provides:
@@ -4895,6 +5018,28 @@ DISTRIBUTIONS
       Test::More 0
       Test::Tester 0.107
       perl 5.006
+  Test-Pod-1.48
+    pathname: D/DW/DWHEELER/Test-Pod-1.48.tar.gz
+    provides:
+      Test::Pod 1.48
+    requirements:
+      File::Find 0
+      File::Spec 0
+      Module::Build 0.30
+      Pod::Simple 3.05
+      Test::Builder::Tester 1.02
+      Test::More 0.62
+  Test-Pod-Coverage-1.10
+    pathname: N/NE/NEILB/Test-Pod-Coverage-1.10.tar.gz
+    provides:
+      Test::Pod::Coverage 1.10
+    requirements:
+      ExtUtils::MakeMaker 0
+      Pod::Coverage 0
+      Test::Builder 0
+      perl 5.006
+      strict 0
+      warnings 0
   Test-Reporter-1.60
     pathname: D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
     provides:
@@ -5071,6 +5216,24 @@ DISTRIBUTIONS
       Text::Glob 0.09
     requirements:
       Test::More 0
+  Time-Duration-1.1
+    pathname: A/AV/AVIF/Time-Duration-1.1.tar.gz
+    provides:
+      Time::Duration 1.1
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::Pod 0
+      Test::Pod::Coverage 0
+  Time-Duration-Parse-0.11
+    pathname: N/NE/NEILB/Time-Duration-Parse-0.11.tar.gz
+    provides:
+      Time::Duration::Parse 0.11
+    requirements:
+      Carp 0
+      Exporter::Lite 0
+      ExtUtils::MakeMaker 6.30
+      strict 0
+      warnings 0
   Time-Piece-1.29
     pathname: R/RJ/RJBS/Time-Piece-1.29.tar.gz
     provides:
