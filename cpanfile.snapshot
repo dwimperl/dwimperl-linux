@@ -1892,6 +1892,14 @@ DISTRIBUTIONS
       strict 0
       vars 0
       warnings 0
+  DateTime-Tiny-1.04
+    pathname: A/AD/ADAMK/DateTime-Tiny-1.04.tar.gz
+    provides:
+      DateTime::Tiny 1.04
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
+      perl 5.004
   Devel-Cycle-1.11
     pathname: L/LD/LDS/Devel-Cycle-1.11.tar.gz
     provides:
