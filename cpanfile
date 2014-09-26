@@ -29,6 +29,7 @@ requires 'Config::General',            '2.56';
 requires 'Config::Tiny',               '2.20';
 requires 'Cpanel::JSON::XS',           '3.0104';
 requires 'CPAN::Meta::Requirements',   '2.128';
+#requires 'CPAN::Perl::Releases
 requires 'Crypt::URandom',             '0.34';
 requires 'Daemon::Control',            '0.001006';
 #requires 'Dancer',                     '1.3130'; #1
@@ -40,6 +41,7 @@ requires 'DateTime::Tiny',             '1.04';
 requires 'DBD::SQLite',                '1.42';
 requires 'DBI',                        '1.631';
 #requires 'DBIx::Class',                '0.082800';
+#requires 'DBIx::Class::Schema::Loader
 requires 'DBIx::Connector',            '0.53';
 requires 'DBIx::RunSQL',               '0.12';
 requires 'Devel::PPPort',              '3.24';
@@ -76,6 +78,7 @@ requires 'HTTP::Tiny',                 '0.050';
 #requires 'Hash::Merge::Simple';
 requires 'IO::Socket::IP',             '0.32';
 requires 'IO::Socket::INET6';
+#requires 'IO::Scalar
 requires 'JSON',                       '2.90';
 requires 'List::Util',                 '1.41';
 requires 'Locale::Codes',              '3.32';
@@ -90,6 +93,11 @@ requires 'Marpa::R2',                  '2.094000';
 #requires 'Math::BigFloat',             '1.9993';
 #requires 'Math::Random::ISAAC::XS';
 #requires 'MIME::Lite';
+#requires 'MIME::Types
+#requires 'Module::Build
+#requires 'Module::CoreList
+#requires 'Module::Manifest
+#requires 'Module::Starter
 #requires 'MongoDB';
 requires 'Moo',                        '1.006000';
 requires 'MooX::Options',              '4.010';
@@ -137,21 +145,47 @@ requires 'Mojolicious', '5.43';
 #requires 'Net::Config',                '1.14';
 requires 'Net::DNS',                    '0.80';
 requires 'Net::SSLeay',                 '1.14';
+#requires 'Net::Ping',                   '2.41';
+#requires 'Net::Traceroute',             '1.15';
+#requires 'ORLite
+#requires 'ORLite::Migrate
+#requires 'Params::Util
+#requires 'Parse::ErrorString::Perl
+#requires 'Parse::ExuberantCTags
+#requires 'Parallel::ForkManager
 #requires 'Parse::CPAN::Meta',          '1.4414';
 #requires 'Parse::Functions';
 #requires 'Path::Tiny';
 #requires 'Perl::Tidy';
 #requires 'Plack';
+#requires 'Plack::Middleware::Debug
+#requires 'Plack::Middleware::LogErrors
+#requires 'Plack::Middleware::LogWarn
+#requires 'Plack::Middleware::ReverseProxy
 #requires 'PPIx::EditorTools::Outline';
 #requires 'PDF::Create',                '1.08';
 #requires 'perlfaq',                    '5.0150045';
+#requires 'Pod::Abstract
 #requires 'Pod::Checker',               '1.71';
 #requires 'Pod::Coverage::Moose';
 #requires 'Pod::Perldoc',               '3.24';
 #requires 'Pod::Usage',                 '1.64';
+#requires 'Pod::POM
+#requires 'Pod::Simple
+#requires 'Pod::Simple::XHTML
+#requires 'Pod::Perldoc
+#requires 'POD2::Base
+#requires 'PPI
+#requires 'PPIx::EditorTools
+#requires 'PPIx::Regexp
+#requires 'Probe::Perl
+
+#requires 'Regexp::Common',
+#requires 'Regexp::Common::time',
 #requires 'Scope::Upper';
 requires 'Socket',                     '2.015';
 requires 'Socket6',                    '0.25';
+#requires 'Sort::Versions
 #requires 'Starman',                    '0.4010';
 #requires 'Storable',                   '2.51';
 #requires 'SVG',                        '2.59';
@@ -185,19 +219,30 @@ requires 'Test::Trap',                  '0.2.4';
 requires 'Test::Warn',                  '0.30';
 #requires 'Test::Code::TidyAll';
 #requires 'Test::Perl::Critic';
+#requires 'Term::ReadLine
+#requires 'Text::Balanced
+#requires 'Text::Diff
+#requires 'Text::FindIndent
+#requires 'Text::Patch
 #requires 'Text::VimColor', '0.24';
 #requires 'threads',                    '1.96';
 #requires 'Time::Piece',                '1.29';
 #requires 'TryCatch';
 #requires 'Unicode::Collate',           '1.07';
 #requires 'Unicode::Normalize',         '1.18';
+#requires 'URI
 #requires 'URL::Encode::XS';
+#requires 'version
 #requires 'Web::Feed';
+#requires 'WebService::GData
+#requires 'WWW::Mechanize
+#requires 'WWW::Mechanize::TreeBuilder
 #requires 'XML::LibXML',                 '2.0116';
 #requires 'XML::Parser',    '2.41';
 #requires 'XML::Feed';
 #requires 'XML::Twig',                  '3.48'; #1
 requires 'YAML',                       '1.12';
+#requires 'YAML::Tiny
 
 # Net::Server 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523
 #mycpan --notest Net::Server
@@ -205,11 +250,6 @@ requires 'YAML',                       '1.12';
 #mycpan IO::Uncompress::Gunzip
 #
 ## mycpan PAR::Packer failed
-#mycpan Plack
-#mycpan Plack::Middleware::Debug
-#mycpan Plack::Middleware::LogErrors
-#mycpan Plack::Middleware::LogWarn
-#mycpan Plack::Middleware::ReverseProxy
 
 ## CGI::FormBuilder: lots of warnings like this:
 ## /bin/tar: Ignoring unknown extended header keyword `SCHILY.ino'
@@ -217,34 +257,28 @@ requires 'YAML',                       '1.12';
 #mycpan CGI::FormBuilder::Source::Perl
 ## mycpan XML::RSS needs XML::Parser
 ## mycpan XML::Atom needs XML::Parser
-#mycpan MIME::Types
-#mycpan WWW::Mechanize
-#mycpan WWW::Mechanize::TreeBuilder
-#mycpan DBIx::Class::Schema::Loader
-#mycpan Dist::Zilla
-#mycpan Perl::Critic
-#mycpan Modern::Perl
-#mycpan Perl::Version
-#mycpan Software::License
-#mycpan CHI
-#mycpan Text::Xslate
-#mycpan Spreadsheet::ParseExcel::Simple
-#mycpan Spreadsheet::WriteExcel
-#mycpan Spreadsheet::WriteExcel::Simple
-#mycpan Term::ProgressBar::Simple
-#mycpan Text::CSV
-#mycpan Text::CSV_XS
-#mycpan Time::HiRes
-#mycpan Time::ParseDate
-#mycpan Time::Tiny
-#mycpan Try::Tiny
-#
-#mycpan Log::Contextual
-#mycpan Log::Dispatch
-#mycpan Log::Log4perl
-#
-#mycpan XML::NamespaceSupport
-#mycpan XML::SAX
+#requires 'Dist::Zilla
+#requires 'Perl::Critic
+#requires 'Modern::Perl
+#requires 'Perl::Version
+#requires 'Software::License
+#requires 'CHI
+#requires 'Text::Xslate
+#requires 'Spreadsheet::ParseExcel::Simple
+#requires 'Spreadsheet::WriteExcel
+#requires 'Spreadsheet::WriteExcel::Simple
+#requires 'Term::ProgressBar::Simple
+#requires 'Text::CSV
+#requires 'Text::CSV_XS
+#requires 'Time::HiRes
+#requires 'Time::ParseDate
+#requires 'Time::Tiny
+#requires 'Try::Tiny
+#requires 'Log::Contextual
+#requires 'Log::Dispatch
+#requires 'Log::Log4perl
+#requires 'XML::NamespaceSupport
+#requires 'XML::SAX
  
 # XML::Parser need expat http://sourceforge.net/projects/expat/
 
@@ -305,41 +339,6 @@ requires 'YAML',                       '1.12';
 #requires 'JSON::XS
 #requires 'List::MoreUtils
 #requires 'LWP
-#requires 'Module::Build
-#requires 'Module::CoreList
-#requires 'Module::Manifest
-#requires 'Module::Starter
-#requires 'ORLite
-#requires 'ORLite::Migrate
-#requires 'Params::Util
-#requires 'Parse::ErrorString::Perl
-#requires 'Parse::ExuberantCTags
-#requires 'Pod::POM
-#requires 'Pod::Simple
-#requires 'Pod::Simple::XHTML
-#requires 'Pod::Abstract
-#requires 'Pod::Perldoc
-#requires 'POD2::Base
-#requires 'PPI
-#requires 'PPIx::EditorTools
-#requires 'PPIx::Regexp
-#requires 'Probe::Perl
-#requires 'Sort::Versions
-#requires 'Term::ReadLine
-#requires 'Text::Balanced
-#requires 'Text::Diff
-#requires 'Text::FindIndent
-#requires 'Text::Patch
-#requires 'URI
-#requires 'version
-#requires 'YAML::Tiny
-#requires 'IO::Scalar
-#requires 'CPAN::Perl::Releases
-#requires 'Regexp::Common::time
-#requires 'WebService::GData
-#requires 'Parallel::ForkManager
-#requires 'Net::Ping
-#requires 'Net::Traceroute
 
 
 # Win32
