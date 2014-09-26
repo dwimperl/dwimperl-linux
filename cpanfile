@@ -15,9 +15,9 @@ requires 'Archive::Zip',               '1.38';
 requires 'Archive::Tar',               '2.02';
 requires 'B::Debug',                   '1.21';
 requires 'Business::PayPal',           '0.13';
-#requires 'Cache::Memcached::Fast';
+#requires 'Cache::Memcached::Fast',     '0.22';
 requires 'Capture::Tiny',              '0.25';
-#requries 'Catalyst';
+#requries 'Catalyst',                   '5.90073';
 requires 'Carp::Always',               '0.13';
 requires 'Carp::Assert',               '0.21';
 requires 'Carp::Assert::More',         '1.14';
@@ -25,7 +25,7 @@ requires 'CGI',                        '4.04';
 requires 'CGI::Simple',                '1.113';
 requires 'CGI::Deurl::XS',             '0.07';
 requires 'CGI::Fast',                  '2.03';
-#requires 'CHI
+#requires 'CHI',                        '0.58';
 requires 'Class::Adapter',             '1.08';
 requires 'Class::Inspector',           '1.28';
 requires 'Class::XSAccessor',          '1.19';
@@ -36,7 +36,7 @@ requires 'Config::General',            '2.56';
 requires 'Config::Tiny',               '2.20';
 requires 'Cpanel::JSON::XS',           '3.0104';
 requires 'CPAN::Meta::Requirements',   '2.128';
-#requires 'CPAN::Perl::Releases
+#requires 'CPAN::Perl::Releases',       '1.90';
 requires 'Crypt::URandom',             '0.34';
 requires 'Daemon::Control',            '0.001006';
 #requires 'Dancer',                     '1.3130'; #1
@@ -48,41 +48,41 @@ requires 'DateTime::Tiny',             '1.04';
 requires 'DBD::SQLite',                '1.42';
 requires 'DBI',                        '1.631';
 #requires 'DBIx::Class',                '0.082800';
-#requires 'DBIx::Class::Schema::Loader
+#requires 'DBIx::Class::Schema::Loader', '0.07042';
 requires 'DBIx::Connector',            '0.53';
 requires 'DBIx::RunSQL',               '0.12';
-#requires 'Devel::Cycle
+#requires 'Devel::Cycle',               '1.11';
 requires 'Devel::PPPort',              '3.24';
-#requires 'Devel::Dumpvar
-#requires 'Devel::Refactor
+#requires 'Devel::Dumpvar',             '1.06';
+#requires 'Devel::Refactor',            '0.05';
 requires 'Digest::SHA',                '5.92';
 requires 'Digest::SHA1',               '2.13';
-#requires 'DigitalOcean',
-#requires 'Dist::Zilla
-#requires 'Email::MIME::Kit';
-#requires 'Email::Sender';
-#requires 'Email::Simple';
-#requires 'Email::MIME::Creator';
-#requires 'Email::Sender::Simple';
+#requires 'DigitalOcean',               '0.12';
+#requires 'Dist::Zilla',                '5.020';
+#requires 'Email::MIME::Creator',       '1.926';
+#requires 'Email::MIME::Kit',           '2.102014';
+#requires 'Email::Sender',              '1.300014';
+#requires 'Email::Sender::Simple',      '1.300014';
+#requires 'Email::Simple',              '2.203';
 requires 'Email::Valid',               '1.195';
 requires 'Encode',                     '2.62';
 requires 'Exception::Class',           '1.38';
-#requires 'Excel::Writer::XLSX';
+#requires 'Excel::Writer::XLSX',        '0.77';
 requires 'ExtUtils::MakeMaker',        '6.98';
 #requires 'experimental',               '0.010';
 #requires 'ExtUtils::CBuilder',         '0.280219';
 requires 'ExtUtils::Install',          '2.04';
 requires 'ExtUtils::Manifest',         '1.68';
-#requires 'ExtUtils::Embed
-#requires 'File::Copy::Recursive
-#requires 'File::Find::Rule';
-#requires 'File::HomeDir
-#requires 'File::Path
-#requires 'File::pushd
-#requires 'File::Remove
-#requires 'File::ShareDir
-#requires 'File::Which
-#requires 'Flickr::API';
+#requires 'ExtUtils::Embed',            '1.32'; # core
+#requires 'File::Copy::Recursive',      '0.38';
+#requires 'File::Find::Rule',           '0.33';
+#requires 'File::HomeDir',              '1.00';
+#requires 'File::Path',                 '2.09';
+#requires 'File::pushd',                '1.009';
+#requires 'File::Remove',               '1.52';
+#requires 'File::ShareDir',             '1.102';
+#requires 'File::Which',                '1.09';
+#requires 'Flickr::API',                '1.10';
 #requires 'Geo::IP';
 requires 'HTML::Template';
 #requires 'HTML::Entities', '3.69';
