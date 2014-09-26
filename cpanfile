@@ -1,5 +1,6 @@
 requires 'autodie',                    '2.25';
 requires 'Acme::MetaSyntactic',        '1.012';
+#requires 'Algorithm::Diff
 requires 'AnyEvent',                   '7.07';
 requires 'AnyEvent::HTTP',             '2.21';
 requires 'AnyEvent::Ping',             '0.006';
@@ -20,8 +21,13 @@ requires 'Capture::Tiny',              '0.25';
 requires 'Carp::Always',               '0.13';
 requires 'Carp::Assert',               '0.21';
 requires 'Carp::Assert::More',         '1.14';
+#requires 'CGI
 requires 'CGI::Deurl::XS',             '0.07';
 requires 'CGI::Fast',                  '2.03';
+#requires 'CHI
+#requires 'Class::Adapter
+#requires 'Class::Inspector
+#requires 'Class::XSAccessor
 requires 'Code::Explain',              '0.02';
 requires 'Compress::Zlib',             '2.066';
 requires 'Config::Any',                '0.24';
@@ -44,11 +50,14 @@ requires 'DBI',                        '1.631';
 #requires 'DBIx::Class::Schema::Loader
 requires 'DBIx::Connector',            '0.53';
 requires 'DBIx::RunSQL',               '0.12';
+#requires 'Devel::Cycle
 requires 'Devel::PPPort',              '3.24';
 #requires 'Devel::Dumpvar
 #requires 'Devel::Refactor
 requires 'Digest::SHA',                '5.92';
 requires 'Digest::SHA1',               '2.13';
+#requires 'DigitalOcean',
+#requires 'Dist::Zilla
 #requires 'Email::MIME::Kit';
 #requires 'Email::Sender';
 #requires 'Email::Simple';
@@ -63,7 +72,15 @@ requires 'ExtUtils::MakeMaker',        '6.98';
 #requires 'ExtUtils::CBuilder',         '0.280219';
 requires 'ExtUtils::Install',          '2.04';
 requires 'ExtUtils::Manifest',         '1.68';
+#requires 'ExtUtils::Embed
+#requires 'File::Copy::Recursive
 #requires 'File::Find::Rule';
+#requires 'File::HomeDir
+#requires 'File::Path
+#requires 'File::pushd
+#requires 'File::Remove
+#requires 'File::ShareDir
+#requires 'File::Which
 #requires 'Flickr::API';
 #requires 'Geo::IP';
 requires 'HTML::Template';
@@ -76,14 +93,24 @@ requires 'HTTP::Request',              '6.00';
 requires 'HTTP::Request::Common',      '6.04';
 requires 'HTTP::Tiny',                 '0.050';
 #requires 'Hash::Merge::Simple';
+#requires 'IO::Compress::Gzip
+#requires 'IO::Uncompress::Gunzip
+#requires 'IO::String
+#requires 'IO::Socket
 requires 'IO::Socket::IP',             '0.32';
 requires 'IO::Socket::INET6';
 #requires 'IO::Scalar
+#requires 'IPC::Run
 requires 'JSON',                       '2.90';
+#requires 'JSON::XS
+#requires 'List::MoreUtils
 requires 'List::Util',                 '1.41';
 requires 'Locale::Codes',              '3.32';
 requires 'local::lib';
+#requires 'Log::Contextual
+#requires 'Log::Dispatch
 requires 'Log::Log4perl';
+#requires 'LWP
 requires 'LWP::Protocol::https';
 #requires 'LWP::Protocol::PSGI';
 #requires 'LWP::Simple';
@@ -94,6 +121,7 @@ requires 'Marpa::R2',                  '2.094000';
 #requires 'Math::Random::ISAAC::XS';
 #requires 'MIME::Lite';
 #requires 'MIME::Types
+#requires 'Modern::Perl
 #requires 'Module::Build
 #requires 'Module::CoreList
 #requires 'Module::Manifest
@@ -157,6 +185,8 @@ requires 'Net::SSLeay',                 '1.14';
 #requires 'Parse::Functions';
 #requires 'Path::Tiny';
 #requires 'Perl::Tidy';
+#requires 'Perl::Critic
+#requires 'Perl::Version
 #requires 'Plack';
 #requires 'Plack::Middleware::Debug
 #requires 'Plack::Middleware::LogErrors
@@ -185,7 +215,11 @@ requires 'Net::SSLeay',                 '1.14';
 #requires 'Scope::Upper';
 requires 'Socket',                     '2.015';
 requires 'Socket6',                    '0.25';
+#requires 'Software::License
 #requires 'Sort::Versions
+#requires 'Spreadsheet::ParseExcel::Simple
+#requires 'Spreadsheet::WriteExcel
+#requires 'Spreadsheet::WriteExcel::Simple
 #requires 'Starman',                    '0.4010';
 #requires 'Storable',                   '2.51';
 #requires 'SVG',                        '2.59';
@@ -220,13 +254,21 @@ requires 'Test::Warn',                  '0.30';
 #requires 'Test::Code::TidyAll';
 #requires 'Test::Perl::Critic';
 #requires 'Term::ReadLine
+#requires 'Term::ProgressBar::Simple
 #requires 'Text::Balanced
 #requires 'Text::Diff
 #requires 'Text::FindIndent
 #requires 'Text::Patch
 #requires 'Text::VimColor', '0.24';
+#requires 'Text::Xslate
+#requires 'Text::CSV
+#requires 'Text::CSV_XS
 #requires 'threads',                    '1.96';
+#requires 'Time::HiRes
+#requires 'Time::ParseDate
+#requires 'Time::Tiny
 #requires 'Time::Piece',                '1.29';
+#requires 'Try::Tiny
 #requires 'TryCatch';
 #requires 'Unicode::Collate',           '1.07';
 #requires 'Unicode::Normalize',         '1.18';
@@ -237,17 +279,22 @@ requires 'Test::Warn',                  '0.30';
 #requires 'WebService::GData
 #requires 'WWW::Mechanize
 #requires 'WWW::Mechanize::TreeBuilder
+#requires 'XML::Atom'; # needs XML::Parser
 #requires 'XML::LibXML',                 '2.0116';
-#requires 'XML::Parser',    '2.41';
 #requires 'XML::Feed';
+#requires 'XML::Parser',    '2.41';
+#requires 'XML::RSS';  # needs XML::Parser
+#requires 'XML::SAX
+#requires 'XML::SAX::Writer
+#requires 'XML::Simple # needs XML::Parser
 #requires 'XML::Twig',                  '3.48'; #1
+#requires 'XML::XPath  # needs XML::Parser
+#requires 'XML::NamespaceSupport
 requires 'YAML',                       '1.12';
 #requires 'YAML::Tiny
 
 # Net::Server 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523
 #mycpan --notest Net::Server
-#mycpan IO::Compress::Gzip
-#mycpan IO::Uncompress::Gunzip
 #
 ## mycpan PAR::Packer failed
 
@@ -255,30 +302,6 @@ requires 'YAML',                       '1.12';
 ## /bin/tar: Ignoring unknown extended header keyword `SCHILY.ino'
 ##### mycpan CGI::FormBuilder
 #mycpan CGI::FormBuilder::Source::Perl
-## mycpan XML::RSS needs XML::Parser
-## mycpan XML::Atom needs XML::Parser
-#requires 'Dist::Zilla
-#requires 'Perl::Critic
-#requires 'Modern::Perl
-#requires 'Perl::Version
-#requires 'Software::License
-#requires 'CHI
-#requires 'Text::Xslate
-#requires 'Spreadsheet::ParseExcel::Simple
-#requires 'Spreadsheet::WriteExcel
-#requires 'Spreadsheet::WriteExcel::Simple
-#requires 'Term::ProgressBar::Simple
-#requires 'Text::CSV
-#requires 'Text::CSV_XS
-#requires 'Time::HiRes
-#requires 'Time::ParseDate
-#requires 'Time::Tiny
-#requires 'Try::Tiny
-#requires 'Log::Contextual
-#requires 'Log::Dispatch
-#requires 'Log::Log4perl
-#requires 'XML::NamespaceSupport
-#requires 'XML::SAX
  
 # XML::Parser need expat http://sourceforge.net/projects/expat/
 
@@ -307,39 +330,10 @@ requires 'YAML',                       '1.12';
 #
 ##mycpan XML::Parser --configre-args = "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include"
 #
-##  mycpan XML::SAX::Writer
-##  # mycpan XML::Simple needs XML::Parser
-##  # mycpan XML::XPath  needs XML::Parser
-#
-#mycpan Devel::Cycle
-#mycpan ExtUtils::Embed
-#mycpan Algorithm::Diff
-#mycpan Capture::Tiny
-#mycpan CGI
-#mycpan Class::Adapter
-#mycpan Class::Inspector
-#mycpan Class::XSAccessor
+
 ## Needs Term::Readline::Gnu but that fails because:
 ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
-## mycpan Debug::Client
-
-#requires 'Encode
-#requires 'File::Copy::Recursive
-#requires 'File::Find::Rule
-#requires 'File::Path
-#requires 'File::ShareDir
-#requires 'File::Which
-#requires 'File::pushd
-#requires 'File::HomeDir
-#requires 'File::Remove
-#requires 'HTML::Parser
-#requires 'IO::Socket
-#requires 'IO::String
-#requires 'IPC::Run
-#requires 'JSON::XS
-#requires 'List::MoreUtils
-#requires 'LWP
-
+## requires 'Debug::Client
 
 # Win32
 # Win32::Shortcut
