@@ -97,7 +97,7 @@ requires 'HTTP::Lite',                 '2.43';
 requires 'HTTP::Request',              '6.00';
 requires 'HTTP::Request::Common',      '6.04';
 requires 'HTTP::Server::Simple',       '0.44';
-requires 'HTTP::Server::Simple::CGI';             # does not have a version number!
+#requires 'HTTP::Server::Simple::CGI';             # does not have a version number!
 requires 'HTTP::Tiny',                 '0.050';
 #requires 'Hash::Merge::Simple',        '0.051'; # Depends on #1
 requires 'IO::Compress::Gzip',         '2.066';
@@ -304,7 +304,7 @@ requires 'XML::SAX',                        '0.99';
 #requires 'XML::XPath',                      '1.13';  # needs XML::Parser
 requires 'XML::NamespaceSupport',           '1.11';
 requires 'YAML',                            '1.12';
-requires 'YAML::Tiny',                      '1.63';
+#requires 'YAML::Tiny',                      '1.63'; #1
 
 # Net::Server 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523
 #mycpan --notest Net::Server
