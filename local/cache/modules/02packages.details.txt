@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3120
-Last-Updated: Fri Sep 26 10:44:43 2014
+Line-Count:   3124
+Last-Updated: Fri Sep 26 10:58:00 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -155,6 +155,7 @@ CHI::Driver::Role::IsSubcache          0.58  H/HA/HAARG/CHI-0.58.tar.gz
 CHI::Stats                             0.58  H/HA/HAARG/CHI-0.58.tar.gz
 CPAN::DistnameInfo                     0.12  G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
 CPAN::Meta                         2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+CPAN::Meta::Check                     0.009  L/LE/LEONT/CPAN-Meta-Check-0.009.tar.gz
 CPAN::Meta::Converter              2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
 CPAN::Meta::Feature                2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
 CPAN::Meta::History                2.142060  D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
@@ -1577,6 +1578,7 @@ Fh                                     4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 File::ConfigDir                       0.013  R/RE/REHSACK/File-ConfigDir-0.013.tar.gz
 File::Copy::Recursive                  0.38  D/DM/DMUEY/File-Copy-Recursive-0.38.tar.gz
 File::Find::Rule                       0.33  R/RC/RCLAMP/File-Find-Rule-0.33.tar.gz
+File::Find::Rule::Perl                 1.13  A/AD/ADAMK/File-Find-Rule-Perl-1.13.tar.gz
 File::Find::Rule::Test::ATeam         undef  R/RC/RCLAMP/File-Find-Rule-0.33.tar.gz
 File::GlobMapper                      1.000  P/PM/PMQS/IO-Compress-2.066.tar.gz
 File::HomeDir                          1.00  A/AD/ADAMK/File-HomeDir-1.00.tar.gz
@@ -2712,6 +2714,7 @@ Sub::Defer                         1.006000  H/HA/HAARG/Moo-1.006000.tar.gz
 Sub::Exporter                         0.987  R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
 Sub::Exporter::Progressive         0.001011  F/FR/FREW/Sub-Exporter-Progressive-0.001011.tar.gz
 Sub::Exporter::Util                   0.987  R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
+Sub::Identify                          0.08  R/RG/RGARCIA/Sub-Identify-0.08.tar.gz
 Sub::Install                          0.928  R/RJ/RJBS/Sub-Install-0.928.tar.gz
 Sub::Name                              0.12  E/ET/ETHER/Sub-Name-0.12.tar.gz
 Sub::Quote                         1.006000  H/HA/HAARG/Moo-1.006000.tar.gz
@@ -2829,6 +2832,7 @@ Test::Builder::Tester::Tie             1.24  E/EX/EXODIST/Test-Simple-1.001006.t
 Test::Class                            0.46  E/ET/ETHER/Test-Class-0.46.tar.gz
 Test::Class::Load                      0.46  E/ET/ETHER/Test-Class-0.46.tar.gz
 Test::Class::MethodInfo                0.46  E/ET/ETHER/Test-Class-0.46.tar.gz
+Test::CleanNamespaces                  0.16  E/ET/ETHER/Test-CleanNamespaces-0.16.tar.gz
 Test::Deep                            0.113  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Deep::All                       undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Deep::Any                       undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz

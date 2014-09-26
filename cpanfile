@@ -35,6 +35,7 @@ requires 'Config::Any',                '0.24';
 requires 'Config::General',            '2.56';
 requires 'Config::Tiny',               '2.20';
 requires 'Cpanel::JSON::XS',           '3.0104';
+requires 'CPAN::Meta::Check',          '0.009';
 requires 'CPAN::Meta::Requirements',   '2.128';
 requires 'CPAN::Perl::Releases',       '1.90';
 requires 'Crypt::URandom',             '0.34';
@@ -62,7 +63,7 @@ requires 'Digest::SHA1',               '2.13';
 #requires 'DigitalOcean',               '0.12';
 #requires 'Dist::Zilla',                '5.020';
 requires 'Email::MIME::Creator',       '1.926';
-requires 'Email::MIME::Kit',           '2.102014';
+# requires 'Email::MIME::Kit',           '2.102014'; # Depends on Moose => #1
 requires 'Email::Sender',              '1.300014';
 requires 'Email::Sender::Simple',      '1.300014';
 requires 'Email::Simple',              '2.203';
@@ -232,6 +233,7 @@ requires 'Term::ANSIColor',            '4.03';
 requires 'Term::Cap',                  '1.16';
 requires 'Test::Builder',              '1.001006';
 requires 'Test::Class',                '0.46';
+requires 'Test::CleanNamespaces',      '0.16';
 requires 'Test::Deep',                  '0.113';
 #requires 'Test::Differences',           '0.62';  #1
 #requires 'Test::Memory::Cycle';
