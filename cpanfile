@@ -171,9 +171,9 @@ requires 'MooX::Options',              '4.010';
 #requires 'Module::CoreList',           '5.20140920';
 #requires 'Module::Metadata',           '1.000024';
 #requires 'Module::Version';
-requires 'Mojolicious', '5.43';
+requires 'Mojolicious',                '5.44';
 #requires 'namespace::autoclean';
-#requires 'Net::Config',                '1.14';
+requires 'Net::Config',                '1.14';
 requires 'Net::DNS',                    '0.80';
 requires 'Net::SSLeay',                 '1.14';
 #requires 'Net::Ping',                   '2.41';
@@ -199,10 +199,10 @@ requires 'Net::SSLeay',                 '1.14';
 #requires 'PDF::Create',                '1.08';
 #requires 'perlfaq',                    '5.0150045';
 #requires 'Pod::Abstract
-#requires 'Pod::Checker',               '1.71';
+requires 'Pod::Checker',               '1.71';
 #requires 'Pod::Coverage::Moose';
-#requires 'Pod::Perldoc',               '3.24';
-#requires 'Pod::Usage',                 '1.64';
+requires 'Pod::Perldoc',               '3.24';
+requires 'Pod::Usage',                 '1.64';
 #requires 'Pod::POM
 #requires 'Pod::Simple
 #requires 'Pod::Simple::XHTML
@@ -212,7 +212,6 @@ requires 'Net::SSLeay',                 '1.14';
 #requires 'PPIx::EditorTools
 #requires 'PPIx::Regexp
 #requires 'Probe::Perl
-
 #requires 'Regexp::Common',
 #requires 'Regexp::Common::time',
 #requires 'Scope::Upper';
@@ -224,12 +223,12 @@ requires 'Socket6',                    '0.25';
 #requires 'Spreadsheet::WriteExcel
 #requires 'Spreadsheet::WriteExcel::Simple
 #requires 'Starman',                    '0.4010';
-#requires 'Storable',                   '2.51';
+requires 'Storable',                   '2.51';
 #requires 'SVG',                        '2.59';
 #requires 'Template',                   '2.26';
 #requires 'Template::Tiny',             '1.12';
-#requires 'Term::ANSIColor',            '4.03';
-#requires 'Term::Cap',                  '1.16';
+requires 'Term::ANSIColor',            '4.03';
+requires 'Term::Cap',                  '1.16';
 requires 'Test::Builder',              '1.001006';
 requires 'Test::Deep',                  '0.113';
 #requires 'Test::Differences',           '0.62';  #1
@@ -266,17 +265,18 @@ requires 'Test::Warn',                  '0.30';
 #requires 'Text::Xslate
 #requires 'Text::CSV
 #requires 'Text::CSV_XS
-#requires 'threads',                    '1.96';
+requires 'threads',                    '1.96';
 #requires 'Time::HiRes
 #requires 'Time::ParseDate
 #requires 'Time::Tiny
-#requires 'Time::Piece',                '1.29';
+requires 'Time::Piece',                '1.29';
 #requires 'Try::Tiny
 #requires 'TryCatch';
-#requires 'Unicode::Collate',           '1.07';
-#requires 'Unicode::Normalize',         '1.18';
+requires 'Unicode::Collate',           '1.07';
+requires 'Unicode::Normalize',         '1.18';
 #requires 'URI
 #requires 'URL::Encode::XS';
+requires 'Variable::Magic',            '0.54';
 #requires 'version
 #requires 'Web::Feed';
 #requires 'WebService::GData

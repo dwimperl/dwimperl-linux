@@ -3333,8 +3333,8 @@ DISTRIBUTIONS
       Getopt::Long 0
       Test::More 0
       autodie 0
-  Mojolicious-5.43
-    pathname: S/SR/SRI/Mojolicious-5.43.tar.gz
+  Mojolicious-5.44
+    pathname: S/SR/SRI/Mojolicious-5.44.tar.gz
     provides:
       Mojo undef
       Mojo::Asset undef
@@ -3397,7 +3397,7 @@ DISTRIBUTIONS
       Mojo::UserAgent::Server undef
       Mojo::UserAgent::Transactor undef
       Mojo::Util undef
-      Mojolicious 5.43
+      Mojolicious 5.44
       Mojolicious::Command undef
       Mojolicious::Command::cgi undef
       Mojolicious::Command::cpanify undef
@@ -5263,10 +5263,10 @@ DISTRIBUTIONS
       constant 0
       strict 0
       warnings 0
-  Variable-Magic-0.53
-    pathname: V/VP/VPIT/Variable-Magic-0.53.tar.gz
+  Variable-Magic-0.54
+    pathname: V/VP/VPIT/Variable-Magic-0.54.tar.gz
     provides:
-      Variable::Magic 0.53
+      Variable::Magic 0.54
     requirements:
       Carp 0
       Config 0
