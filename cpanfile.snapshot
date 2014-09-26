@@ -310,6 +310,16 @@ DISTRIBUTIONS
       Test::Deep 0.11
       Test::More 0.98
       if 0
+  CGI-Simple-1.113
+    pathname: A/AN/ANDYA/CGI-Simple-1.113.tar.gz
+    provides:
+      CGI::Simple 1.113
+      CGI::Simple::Cookie 1.113
+      CGI::Simple::Standard 1.113
+      CGI::Simple::Util 1.113
+    requirements:
+      IO::Scalar 0
+      Test::More 0
   CPAN-DistnameInfo-0.12
     pathname: G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
     provides:
@@ -425,6 +435,17 @@ DISTRIBUTIONS
       Scalar::Util 0
       Test::Exception 0
       Test::More 0.18
+  Class-Adapter-1.08
+    pathname: A/AD/ADAMK/Class-Adapter-1.08.tar.gz
+    provides:
+      Class::Adapter 1.08
+      Class::Adapter::Builder 1.07
+      Class::Adapter::Clear 1.07
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Scalar::Util 1.10
+      Test::More 0.47
+      perl 5.005
   Class-Data-Inheritable-0.08
     pathname: T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
     provides:
@@ -472,6 +493,17 @@ DISTRIBUTIONS
       Class::Singleton 1.4
     requirements:
       ExtUtils::MakeMaker 0
+  Class-XSAccessor-1.19
+    pathname: S/SM/SMUELLER/Class-XSAccessor-1.19.tar.gz
+    provides:
+      Class::XSAccessor 1.19
+      Class::XSAccessor::Array 1.19
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      Time::HiRes 0
+      XSLoader 0
+      perl 5.008
   Clone-0.37
     pathname: G/GA/GARU/Clone-0.37.tar.gz
     provides:
@@ -2564,6 +2596,22 @@ DISTRIBUTIONS
       IO::TieCombine::Handle 1.004
       IO::TieCombine::Scalar 1.004
     requirements:
+  IO-stringy-2.110
+    pathname: D/DS/DSKOLL/IO-stringy-2.110.tar.gz
+    provides:
+      IO::AtomicFile 2.110
+      IO::Clever 1.01
+      IO::InnerFile 2.110
+      IO::Lines 2.110
+      IO::Scalar 2.110
+      IO::ScalarArray 2.110
+      IO::Stringy 2.110
+      IO::Wrap 2.110
+      IO::WrapTie 2.110
+      IO::WrapTie::Master 2.110
+      IO::WrapTie::Slave 2.110
+    requirements:
+      ExtUtils::MakeMaker 0
   IPC-Run3-0.048
     pathname: R/RJ/RJBS/IPC-Run3-0.048.tar.gz
     provides:

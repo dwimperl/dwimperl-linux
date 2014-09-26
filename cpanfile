@@ -1,13 +1,13 @@
 requires 'autodie',                    '2.25';
 requires 'Acme::MetaSyntactic',        '1.012';
-#requires 'Algorithm::Diff
+requires 'Algorithm::Diff',            '1.1902';
 requires 'AnyEvent',                   '7.07';
 requires 'AnyEvent::HTTP',             '2.21';
 requires 'AnyEvent::Ping',             '0.006';
 requires 'AnyEvent::Ping::TCP',        '1.00';
 requires 'App::Ack',                   '2.14';
 requires 'App::cpanminus',             '1.7011';
-#requires 'App::cpanminus::reporter',   '0.11';
+requires 'App::cpanminus::reporter',   '0.11';
 requires 'App::cpanoutdated',          '0.28';
 requires 'App::Prove',                 '3.33';
 requires 'Archive::Any',               '0.0941';
@@ -21,13 +21,14 @@ requires 'Capture::Tiny',              '0.25';
 requires 'Carp::Always',               '0.13';
 requires 'Carp::Assert',               '0.21';
 requires 'Carp::Assert::More',         '1.14';
-#requires 'CGI
+requires 'CGI',                        '4.04';
+requires 'CGI::Simple',                '1.113';
 requires 'CGI::Deurl::XS',             '0.07';
 requires 'CGI::Fast',                  '2.03';
 #requires 'CHI
-#requires 'Class::Adapter
-#requires 'Class::Inspector
-#requires 'Class::XSAccessor
+requires 'Class::Adapter',             '1.08';
+requires 'Class::Inspector',           '1.28';
+requires 'Class::XSAccessor',          '1.19';
 requires 'Code::Explain',              '0.02';
 requires 'Compress::Zlib',             '2.066';
 requires 'Config::Any',                '0.24';
