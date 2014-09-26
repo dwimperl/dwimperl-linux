@@ -96,7 +96,7 @@ requires 'HTTP::Tiny',                 '0.049';
 requires 'HTTP::Lite',                 '2.43';
 requires 'HTTP::Request',              '6.00';
 requires 'HTTP::Request::Common',      '6.04';
-requires 'HTTP::Server::Simple',       '0.44';
+#requires 'HTTP::Server::Simple',       '0.44';
 #requires 'HTTP::Server::Simple::CGI';             # does not have a version number!
 requires 'HTTP::Tiny',                 '0.050';
 #requires 'Hash::Merge::Simple',        '0.051'; # Depends on #1
@@ -213,7 +213,7 @@ requires 'Pod::Usage',                 '1.64';
 #requires 'Pod::Simple::XHTML
 #requires 'Pod::Perldoc
 #requires 'POD2::Base
-requires 'Portable',                    '1.22';
+#requires 'Portable',                    '1.22';
 #requires 'PPI
 #requires 'PPIx::EditorTools
 #requires 'PPIx::Regexp
@@ -254,8 +254,8 @@ requires 'Test::NoWarnings',            '1.04';
 requires 'Test::Output',                '1.03';
 requires 'Test::Script',                '1.07';
 requires 'Test::Without::Module',       '0.18';
-requires 'Test::WWW::Mechanize',        '1.44';
-requires 'Test::WWW::Mechanize::PSGI',  '0.35';
+#requires 'Test::WWW::Mechanize',        '1.44';
+#requires 'Test::WWW::Mechanize::PSGI',  '0.35';
 requires 'Test::Pod',                   '1.48';
 requires 'Test::Pod::Coverage',         '1.10';
 #requires 'Test::Requires';

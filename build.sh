@@ -148,6 +148,7 @@ case $1 in
   ;;
 
   try)
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Portable
       export PERL5OPT="-MPortable $PERL5OPT"
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Test::Differences
   ;;
