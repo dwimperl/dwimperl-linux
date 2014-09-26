@@ -43,9 +43,16 @@ sub run {
 	my $do = DigitalOcean->new(%{ $Config->{one} });
 
 	if ($self->list) {
-		for my $droplet (@{$do->droplets}) {
+        say 'Droplets';
+		for my $droplet (@{ $do->droplets }) {
 			printf "Droplet %s has id %s and IP address %s\n", $droplet->name, $droplet->id, $droplet->ip_address;
 		}
+		say '------';
+		say 'Images';
+		foreach my $img (sort { $a->distribution cmp $b->distribution or $a->name cmp $b->name } @{ $do->images }) {
+			printf "%-10s %7s  %-50s - %s\n", $img->distribution, $img->id, $img->name, ($img->slug || '');
+		}
+		say '------';
 		return;
 	}
 
@@ -57,7 +64,8 @@ sub run {
 		my $droplet = $do->create_droplet(
 			name           => 'dwimperl',
 			size_id        =>  66,        # 512Mb
-			image_id       => '1601',     # CentOS 5.8 x64
+			#image_id       => '1601',    # CentOS 5.8 x64
+			image_id       => 6344382,    # CentOS 5.10 x64
 			ssh_key_ids    => $ssh_key_id,
 			region_id      => 8,          # New York 3
 			wait_on_event  => 1,
@@ -93,9 +101,9 @@ sub run {
 		# based on 'vanilla perl' add all the modules
 		push @user_cmds, (
 			"cd $dir; ./build.sh get_vanilla_perl",
-			"cd $dir; ./build.sh openssl",
-			"cd $dir; ./build.sh libxml2",
-			"cd $dir; ./build.sh zlib",
+			#"cd $dir; ./build.sh openssl",
+			#"cd $dir; ./build.sh libxml2",
+			#"cd $dir; ./build.sh zlib",
 			"cd $dir; ./build.sh modules",
 			"cd $dir; ./build.sh test_cpanfile",
 			#"cd $dir; ./build.sh test_all",
