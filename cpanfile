@@ -1,9 +1,9 @@
 requires 'autodie',                    '2.25';
 requires 'Acme::MetaSyntactic',        '1.012';
 requires 'AnyEvent',                   '7.07';
-#requires 'AnyEvent::HTTP',             '2.21';
-#requires 'AnyEvent::Ping',             '0.006';
-#requires 'AnyEvent::Ping::TCP',        '1.00';
+requires 'AnyEvent::HTTP',             '2.21';
+requires 'AnyEvent::Ping',             '0.006';
+requires 'AnyEvent::Ping::TCP',        '1.00';
 requires 'App::Ack',                   '2.14';
 requires 'App::cpanminus',             '1.7011';
 #requires 'App::cpanminus::reporter',   '0.11';

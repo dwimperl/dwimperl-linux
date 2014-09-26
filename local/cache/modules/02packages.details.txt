@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   2608
-Last-Updated: Fri Sep 26 07:21:37 2014
+Line-Count:   2612
+Last-Updated: Fri Sep 26 07:35:21 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -29,6 +29,7 @@ AnyEvent::Debug::Backtrace            undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Debug::Wrap                 undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Debug::Wrapped              undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Debug::shell                undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
+AnyEvent::HTTP                         2.21  M/ML/MLEHMANN/AnyEvent-HTTP-2.21.tar.gz
 AnyEvent::IO                          undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Impl::Cocoa                 undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Impl::EV                    undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
@@ -43,6 +44,8 @@ AnyEvent::Impl::Qt                    undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Impl::Qt::Io                undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Impl::Qt::Timer             undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Impl::Tk                    undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
+AnyEvent::Ping                        0.006  U/UN/UNDEF/AnyEvent-Ping-0.006.tar.gz
+AnyEvent::Ping::TCP                    1.00  P/PO/PODONNELL/AnyEvent-Ping-TCP-1.00.tar.gz
 AnyEvent::Strict                      undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Apache::LogFormat::Compiler            0.32  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.32.tar.gz
 App::Ack                               2.14  P/PE/PETDANCE/ack-2.14.tar.gz
@@ -2597,6 +2600,7 @@ autodie::hints                         2.25  P/PJ/PJF/autodie-2.25.tar.gz
 autodie::skip                          2.25  P/PJ/PJF/autodie-2.25.tar.gz
 bareword::filehandles                 0.003  I/IL/ILMARI/bareword-filehandles-0.003.tar.gz
 bytes                                  2.94  A/AB/ABW/Template-Toolkit-2.26.tar.gz
+common::sense                          3.73  M/ML/MLEHMANN/common-sense-3.73.tar.gz
 encoding                               2.12  D/DA/DANKOGAI/Encode-2.62.tar.gz
 eta                                   1.001  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 experimental                          0.010  L/LE/LEONT/experimental-0.010.tar.gz

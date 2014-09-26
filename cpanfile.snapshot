@@ -55,6 +55,31 @@ DISTRIBUTIONS
       AnyEvent::Strict undef
     requirements:
       ExtUtils::MakeMaker 0
+  AnyEvent-HTTP-2.21
+    pathname: M/ML/MLEHMANN/AnyEvent-HTTP-2.21.tar.gz
+    provides:
+      AnyEvent::HTTP 2.21
+    requirements:
+      AnyEvent 5.33
+      ExtUtils::MakeMaker 0
+      common::sense 3.3
+  AnyEvent-Ping-0.006
+    pathname: U/UN/UNDEF/AnyEvent-Ping-0.006.tar.gz
+    provides:
+      AnyEvent::Ping 0.006
+    requirements:
+      AnyEvent 0
+      Carp 0
+      ExtUtils::MakeMaker 6.59
+      List::Util 0
+      Test::More 0.88
+      perl 5.008001
+  AnyEvent-Ping-TCP-1.00
+    pathname: P/PO/PODONNELL/AnyEvent-Ping-TCP-1.00.tar.gz
+    provides:
+      AnyEvent::Ping::TCP 1.00
+    requirements:
+      ExtUtils::MakeMaker 0
   Apache-LogFormat-Compiler-0.32
     pathname: K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.32.tar.gz
     provides:
@@ -4732,6 +4757,12 @@ DISTRIBUTIONS
     provides:
       bareword::filehandles 0.003
     requirements:
+  common-sense-3.73
+    pathname: M/ML/MLEHMANN/common-sense-3.73.tar.gz
+    provides:
+      common::sense 3.73
+    requirements:
+      ExtUtils::MakeMaker 0
   cpan-outdated-0.28
     pathname: T/TO/TOKUHIROM/cpan-outdated-0.28.tar.gz
     provides:
