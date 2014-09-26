@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3195
-Last-Updated: Fri Sep 26 11:45:12 2014
+Line-Count:   3220
+Last-Updated: Fri Sep 26 11:56:22 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1625,10 +1625,23 @@ Getopt::Long::Descriptive             0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0
 Getopt::Long::Descriptive::Opts       0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
 Getopt::Long::Descriptive::Usage      0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
 Guard                                 1.022  M/ML/MLEHMANN/Guard-1.022.tar.gz
+HTML::AsSubs                           5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
+HTML::Element                          5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
+HTML::Element::traverse                5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
 HTML::Entities                         3.69  G/GA/GAAS/HTML-Parser-3.71.tar.gz
 HTML::Filter                           3.57  G/GA/GAAS/HTML-Parser-3.71.tar.gz
+HTML::Form                             6.03  G/GA/GAAS/HTML-Form-6.03.tar.gz
+HTML::Form::FileInput                  6.03  G/GA/GAAS/HTML-Form-6.03.tar.gz
+HTML::Form::IgnoreInput                6.03  G/GA/GAAS/HTML-Form-6.03.tar.gz
+HTML::Form::ImageInput                 6.03  G/GA/GAAS/HTML-Form-6.03.tar.gz
+HTML::Form::Input                      6.03  G/GA/GAAS/HTML-Form-6.03.tar.gz
+HTML::Form::KeygenInput                6.03  G/GA/GAAS/HTML-Form-6.03.tar.gz
+HTML::Form::ListInput                  6.03  G/GA/GAAS/HTML-Form-6.03.tar.gz
+HTML::Form::SubmitInput                6.03  G/GA/GAAS/HTML-Form-6.03.tar.gz
+HTML::Form::TextInput                  6.03  G/GA/GAAS/HTML-Form-6.03.tar.gz
 HTML::HeadParser                       3.71  G/GA/GAAS/HTML-Parser-3.71.tar.gz
 HTML::LinkExtor                        3.69  G/GA/GAAS/HTML-Parser-3.71.tar.gz
+HTML::Parse                            5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
 HTML::Parser                           3.71  G/GA/GAAS/HTML-Parser-3.71.tar.gz
 HTML::PullParser                       3.57  G/GA/GAAS/HTML-Parser-3.71.tar.gz
 HTML::TableExtract                     2.11  M/MS/MSISK/HTML-TableExtract-2.11.tar.gz
@@ -1648,6 +1661,8 @@ HTML::Template::PRINTSCALAR            2.95  W/WO/WONKO/HTML-Template-2.95.tar.g
 HTML::Template::URLESCAPE              2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
 HTML::Template::VAR                    2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
 HTML::TokeParser                       3.69  G/GA/GAAS/HTML-Parser-3.71.tar.gz
+HTML::Tree                             5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
+HTML::TreeBuilder                      5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
 HTTP::Body                             1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
 HTTP::Body::MultiPart                  1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
 HTTP::Body::OctetStream                1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
@@ -2956,9 +2971,12 @@ Test::Fatal                           0.013  R/RJ/RJBS/Test-Fatal-0.013.tar.gz
 Test::Harness                          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Test::LeakTrace                        0.14  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::LeakTrace::Script               undef  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
+Test::LongString                       0.16  R/RG/RGARCIA/Test-LongString-0.16.tar.gz
 Test::Memory::Cycle                    1.04  P/PE/PETDANCE/Test-Memory-Cycle-1.04.tar.gz
 Test::MetaSyntactic                   1.005  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Test::MockModule                       0.05  S/SI/SIMONFLK/Test-MockModule-0.05.tar.gz
+Test::MockObject                 1.20140408  C/CH/CHROMATIC/Test-MockObject-1.20140408.tar.gz
+Test::MockObject::Extends        1.20140408  C/CH/CHROMATIC/Test-MockObject-1.20140408.tar.gz
 Test::MockTime                         0.13  D/DD/DDICK/Test-MockTime-0.13.tar.gz
 Test::Mojo                            undef  S/SR/SRI/Mojolicious-5.44.tar.gz
 Test::Moose                          2.1213  E/ET/ETHER/Moose-2.1213.tar.gz
@@ -2997,6 +3015,8 @@ Test::Trap::Builder                0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar
 Test::Trap::Builder::PerlIO        0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
 Test::Trap::Builder::SystemSafe    0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
 Test::Trap::Builder::TempFile      0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
+Test::WWW::Mechanize                   1.44  P/PE/PETDANCE/Test-WWW-Mechanize-1.44.tar.gz
+Test::WWW::Mechanize::PSGI             0.35  L/LB/LBROCARD/Test-WWW-Mechanize-PSGI-0.35.tar.gz
 Test::Warn                             0.30  C/CH/CHORNY/Test-Warn-0.30.tar.gz
 Test::Warn::Categorization             0.30  C/CH/CHORNY/Test-Warn-0.30.tar.gz
 Test::Warnings                        0.016  E/ET/ETHER/Test-Warnings-0.016.tar.gz
@@ -3020,6 +3040,8 @@ Types::Serialiser                       1.0  M/ML/MLEHMANN/Types-Serialiser-1.0.
 Types::Serialiser::BooleanBase          1.0  M/ML/MLEHMANN/Types-Serialiser-1.0.tar.gz
 Types::Serialiser::Error                1.0  M/ML/MLEHMANN/Types-Serialiser-1.0.tar.gz
 U64                                   2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
+UNIVERSAL::can                   1.20140328  C/CH/CHROMATIC/UNIVERSAL-can-1.20140328.tar.gz
+UNIVERSAL::isa                   1.20140824  E/ET/ETHER/UNIVERSAL-isa-1.20140824.tar.gz
 URI                                    1.64  E/ET/ETHER/URI-1.64.tar.gz
 URI::Escape                            3.31  E/ET/ETHER/URI-1.64.tar.gz
 URI::Heuristic                         4.20  E/ET/ETHER/URI-1.64.tar.gz
@@ -3088,6 +3110,9 @@ Unicode::GCString                   2013.10  N/NE/NEZUMI/Unicode-LineBreak-2014.
 Unicode::LineBreak                  2014.06  N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
 Unicode::Normalize                     1.18  S/SA/SADAHIRO/Unicode-Normalize-1.18.tar.gz
 Variable::Magic                        0.54  V/VP/VPIT/Variable-Magic-0.54.tar.gz
+WWW::Mechanize                         1.73  E/ET/ETHER/WWW-Mechanize-1.73.tar.gz
+WWW::Mechanize::Image                 undef  E/ET/ETHER/WWW-Mechanize-1.73.tar.gz
+WWW::Mechanize::Link                  undef  E/ET/ETHER/WWW-Mechanize-1.73.tar.gz
 WWW::RobotRules                        6.02  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
 WWW::RobotRules::AnyDBM_File           6.00  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
 WWW::RobotRules::InCore                6.02  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
