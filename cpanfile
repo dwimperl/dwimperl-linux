@@ -38,6 +38,7 @@ requires 'Cpanel::JSON::XS',           '3.0104';
 requires 'CPAN::Meta::Requirements',   '2.128';
 #requires 'CPAN::Perl::Releases',       '1.90';
 requires 'Crypt::URandom',             '0.34';
+requires 'Cwd::Guard',                 '0.04';
 requires 'Daemon::Control',            '0.001006';
 #requires 'Dancer',                     '1.3130'; #1
 #requires 'Dancer2',                    '0.150000'; #1

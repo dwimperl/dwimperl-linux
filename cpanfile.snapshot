@@ -626,6 +626,19 @@ DISTRIBUTIONS
       English 0
       FileHandle 0
       Test::More 0
+  Cwd-Guard-0.04
+    pathname: K/KA/KAZEBURO/Cwd-Guard-0.04.tar.gz
+    provides:
+      Cwd::Guard 0.04
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Cwd 0
+      Exporter 0
+      Module::Build 0.38
+      Test::More 0
+      if 0
+      parent 0
   DBD-SQLite-1.42
     pathname: I/IS/ISHIGAKI/DBD-SQLite-1.42.tar.gz
     provides:
