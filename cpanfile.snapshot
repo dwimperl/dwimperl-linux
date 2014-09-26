@@ -25,6 +25,36 @@ DISTRIBUTIONS
       Algorithm::Diff::_impl 1.1902
       Algorithm::DiffOld 1.1
     requirements:
+  AnyEvent-7.07
+    pathname: M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
+    provides:
+      AE 7.07
+      AnyEvent 7.07
+      AnyEvent::Base 7.07
+      AnyEvent::CondVar 7.07
+      AnyEvent::CondVar::Base 7.07
+      AnyEvent::Debug undef
+      AnyEvent::Debug::Backtrace undef
+      AnyEvent::Debug::Wrap undef
+      AnyEvent::Debug::Wrapped undef
+      AnyEvent::Debug::shell undef
+      AnyEvent::IO undef
+      AnyEvent::Impl::Cocoa undef
+      AnyEvent::Impl::EV undef
+      AnyEvent::Impl::Event undef
+      AnyEvent::Impl::EventLib undef
+      AnyEvent::Impl::FLTK undef
+      AnyEvent::Impl::Glib undef
+      AnyEvent::Impl::IOAsync undef
+      AnyEvent::Impl::Irssi undef
+      AnyEvent::Impl::POE undef
+      AnyEvent::Impl::Qt undef
+      AnyEvent::Impl::Qt::Io undef
+      AnyEvent::Impl::Qt::Timer undef
+      AnyEvent::Impl::Tk undef
+      AnyEvent::Strict undef
+    requirements:
+      ExtUtils::MakeMaker 0
   Apache-LogFormat-Compiler-0.32
     pathname: K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.32.tar.gz
     provides:

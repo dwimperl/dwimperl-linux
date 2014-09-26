@@ -1,5 +1,9 @@
 requires 'autodie',                    '2.25';
 requires 'Acme::MetaSyntactic',        '1.012';
+requires 'AnyEvent',                   '7.07';
+#requires 'AnyEvent::HTTP',             '2.21';
+#requires 'AnyEvent::Ping',             '0.006';
+#requires 'AnyEvent::Ping::TCP',        '1.00';
 requires 'App::Ack',                   '2.14';
 requires 'App::cpanminus',             '1.7011';
 #requires 'App::cpanminus::reporter',   '0.11';
@@ -27,11 +31,11 @@ requires 'Cpanel::JSON::XS',           '3.0104';
 requires 'CPAN::Meta::Requirements',   '2.128';
 requires 'Crypt::URandom',             '0.34';
 requires 'Daemon::Control',            '0.001006';
-#requires 'Dancer';
-#requires 'Dancer2';
+#requires 'Dancer',                     '1.3130'; #1
+#requires 'Dancer2',                    '0.150000'; #1
 requires 'Data::Dumper',               '2.154';
 requires 'Date::Tiny',                 '1.04';
-requires 'DateTime',                   '1.12';
+# requires 'DateTime',                   '1.12'; #1
 requires 'DateTime::Tiny',             '1.04';
 requires 'DBD::SQLite',                '1.42';
 requires 'DBI',                        '1.631';
@@ -39,6 +43,8 @@ requires 'DBI',                        '1.631';
 requires 'DBIx::Connector',            '0.53';
 requires 'DBIx::RunSQL',               '0.12';
 requires 'Devel::PPPort',              '3.24';
+#requires 'Devel::Dumpvar
+#requires 'Devel::Refactor
 requires 'Digest::SHA',                '5.92';
 requires 'Digest::SHA1',               '2.13';
 #requires 'Email::MIME::Kit';
@@ -146,14 +152,16 @@ requires 'Net::SSLeay',                 '1.14';
 #requires 'Scope::Upper';
 requires 'Socket',                     '2.015';
 requires 'Socket6',                    '0.25';
-#requires 'Starman';
+#requires 'Starman',                    '0.4010';
 #requires 'Storable',                   '2.51';
-#requires 'Template';
+#requires 'SVG',                        '2.59';
+#requires 'Template',                   '2.26';
+#requires 'Template::Tiny',             '1.12';
 #requires 'Term::ANSIColor',            '4.03';
 #requires 'Term::Cap',                  '1.16';
 requires 'Test::Builder',              '1.001006';
 requires 'Test::Deep',                  '0.113';
-#requires 'Test::Differences',           '0.62';
+#requires 'Test::Differences',           '0.62';  #1
 #requires 'Test::Memory::Cycle';
 #requires 'Test::MockTime';
 requires 'Test::More',                  '1.001006';
@@ -171,6 +179,7 @@ requires 'Test::Exception',             '0.35';
 #requires 'Test::Mock::LWP';
 #requires 'Test::MockModule';
 #requires 'Test::LongString';
+#requires 'Test::Ping
 requires 'Test::Harness',               '3.33';
 requires 'Test::Trap',                  '0.2.4';
 requires 'Test::Warn',                  '0.30';
@@ -187,6 +196,7 @@ requires 'Test::Warn',                  '0.30';
 #requires 'XML::LibXML',                 '2.0116';
 #requires 'XML::Parser',    '2.41';
 #requires 'XML::Feed';
+#requires 'XML::Twig',                  '3.48'; #1
 requires 'YAML',                       '1.12';
 
 # Net::Server 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523
@@ -212,21 +222,15 @@ requires 'YAML',                       '1.12';
 #mycpan WWW::Mechanize::TreeBuilder
 #mycpan DBIx::Class::Schema::Loader
 #mycpan Dist::Zilla
-#mycpan Perl::Tidy
 #mycpan Perl::Critic
 #mycpan Modern::Perl
 #mycpan Perl::Version
 #mycpan Software::License
 #mycpan CHI
-#
 #mycpan Text::Xslate
-#
-#mycpan Starman
-#mycpan Storable
 #mycpan Spreadsheet::ParseExcel::Simple
 #mycpan Spreadsheet::WriteExcel
 #mycpan Spreadsheet::WriteExcel::Simple
-#mycpan Template
 #mycpan Term::ProgressBar::Simple
 #mycpan Text::CSV
 #mycpan Text::CSV_XS
@@ -273,19 +277,8 @@ requires 'YAML',                       '1.12';
 ##  # mycpan XML::Simple needs XML::Parser
 ##  # mycpan XML::XPath  needs XML::Parser
 #
-#mycpan Acme::MetaSyntactic
-#mycpan DBIx::RunSQL
-#mycpan Hash::Merge::Simple
-##mycpan Geo::IP
-##mycpan Dancer
-##mycpan MIME::Lite
-#
 #mycpan Devel::Cycle
-#
-## Most of the requirements of Padre
-#mycpan ExtUtils::MakeMaker
 #mycpan ExtUtils::Embed
-#mycpan ExtUtils::Manifest
 #mycpan Algorithm::Diff
 #mycpan Capture::Tiny
 #mycpan CGI
@@ -295,69 +288,58 @@ requires 'YAML',                       '1.12';
 ## Needs Term::Readline::Gnu but that fails because:
 ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
 ## mycpan Debug::Client
-#mycpan Devel::Dumpvar
-#mycpan Devel::Refactor
-#mycpan Encode
-#mycpan File::Copy::Recursive
-#mycpan File::Find::Rule
-#mycpan File::Path
-#mycpan File::ShareDir
-#mycpan File::Which
-#mycpan File::pushd
-#mycpan File::HomeDir
-#mycpan File::Remove
-#mycpan HTML::Parser
-#mycpan IO::Socket
-#mycpan IO::String
-#mycpan IPC::Run
-#mycpan JSON::XS
-#mycpan List::MoreUtils
-#mycpan LWP
-#mycpan Module::Build
-#mycpan Module::CoreList
-#mycpan Module::Manifest
-#mycpan Module::Starter
-#mycpan ORLite
-#mycpan ORLite::Migrate
-#mycpan Params::Util
-#mycpan Parse::ErrorString::Perl
-#mycpan Parse::ExuberantCTags
-#mycpan Pod::POM
-#mycpan Pod::Simple
-#mycpan Pod::Simple::XHTML
-#mycpan Pod::Abstract
-#mycpan Pod::Perldoc
-#mycpan POD2::Base
-#mycpan PPI
-#mycpan PPIx::EditorTools
-#mycpan PPIx::Regexp
-#mycpan Probe::Perl
-#mycpan Storable
-#mycpan Sort::Versions
-#mycpan Template::Tiny
-#mycpan Term::ReadLine
-#mycpan Text::Balanced
-#mycpan Text::Diff
-#mycpan Text::FindIndent
-#mycpan Text::Patch
-#mycpan URI
-#mycpan version
-#mycpan YAML::Tiny
-#mycpan IO::Scalar
-#mycpan Pod::Usage
-#mycpan CPAN::Perl::Releases
-#mycpan AnyEvent
-#mycpan AnyEvent::HTTP
-#mycpan AnyEvent::Ping
-#mycpan AnyEvent::Ping::TCP
-#mycpan PDF::Create
-#mycpan Regexp::Common::time
-#mycpan WebService::GData
-#mycpan Parallel::ForkManager
-#mycpan SVG
-#mycpan Net::Ping
-#mycpan Test::Ping
-#mycpan Net::Traceroute
+
+#requires 'Encode
+#requires 'File::Copy::Recursive
+#requires 'File::Find::Rule
+#requires 'File::Path
+#requires 'File::ShareDir
+#requires 'File::Which
+#requires 'File::pushd
+#requires 'File::HomeDir
+#requires 'File::Remove
+#requires 'HTML::Parser
+#requires 'IO::Socket
+#requires 'IO::String
+#requires 'IPC::Run
+#requires 'JSON::XS
+#requires 'List::MoreUtils
+#requires 'LWP
+#requires 'Module::Build
+#requires 'Module::CoreList
+#requires 'Module::Manifest
+#requires 'Module::Starter
+#requires 'ORLite
+#requires 'ORLite::Migrate
+#requires 'Params::Util
+#requires 'Parse::ErrorString::Perl
+#requires 'Parse::ExuberantCTags
+#requires 'Pod::POM
+#requires 'Pod::Simple
+#requires 'Pod::Simple::XHTML
+#requires 'Pod::Abstract
+#requires 'Pod::Perldoc
+#requires 'POD2::Base
+#requires 'PPI
+#requires 'PPIx::EditorTools
+#requires 'PPIx::Regexp
+#requires 'Probe::Perl
+#requires 'Sort::Versions
+#requires 'Term::ReadLine
+#requires 'Text::Balanced
+#requires 'Text::Diff
+#requires 'Text::FindIndent
+#requires 'Text::Patch
+#requires 'URI
+#requires 'version
+#requires 'YAML::Tiny
+#requires 'IO::Scalar
+#requires 'CPAN::Perl::Releases
+#requires 'Regexp::Common::time
+#requires 'WebService::GData
+#requires 'Parallel::ForkManager
+#requires 'Net::Ping
+#requires 'Net::Traceroute
 
 
 # Win32
