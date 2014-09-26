@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3182
-Last-Updated: Fri Sep 26 11:27:08 2014
+Line-Count:   3195
+Last-Updated: Fri Sep 26 11:45:12 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1880,6 +1880,11 @@ Log::Log4perl::Util::TimeTracker      undef  M/MS/MSCHILLI/Log-Log4perl-1.44.tar
 MIME::Charset                      1.011001  N/NE/NEZUMI/MIME-Charset-1.011.1.tar.gz
 MIME::Charset::UTF                    undef  N/NE/NEZUMI/MIME-Charset-1.011.1.tar.gz
 MIME::Charset::_Compat                undef  N/NE/NEZUMI/MIME-Charset-1.011.1.tar.gz
+MIME::Lite                            3.030  R/RJ/RJBS/MIME-Lite-3.030.tar.gz
+MIME::Lite::IO_Handle                 3.030  R/RJ/RJBS/MIME-Lite-3.030.tar.gz
+MIME::Lite::IO_Scalar                 3.030  R/RJ/RJBS/MIME-Lite-3.030.tar.gz
+MIME::Lite::IO_ScalarArray            3.030  R/RJ/RJBS/MIME-Lite-3.030.tar.gz
+MIME::Lite::SMTP                      3.030  R/RJ/RJBS/MIME-Lite-3.030.tar.gz
 MIME::Type                             2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
 MIME::Types                            2.09  M/MA/MARKOV/MIME-Types-2.09.tar.gz
 MRO::Compat                            0.12  B/BO/BOBTFISH/MRO-Compat-0.12.tar.gz
@@ -1906,6 +1911,7 @@ Mail::Mailer::testfile                 2.13  M/MA/MARKOV/MailTools-2.13.tar.gz
 Mail::Mailer::testfile::pipe           2.13  M/MA/MARKOV/MailTools-2.13.tar.gz
 Mail::Send                             2.13  M/MA/MARKOV/MailTools-2.13.tar.gz
 Mail::Util                             2.13  M/MA/MARKOV/MailTools-2.13.tar.gz
+MailTool                              undef  R/RJ/RJBS/MIME-Lite-3.030.tar.gz
 Marpa::R2                          2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
 Marpa::R2::ASF                     2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
 Marpa::R2::Grammar                 2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
@@ -1943,6 +1949,7 @@ Method::Generate::Constructor         undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Method::Generate::DemolishAll         undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Method::Inliner                       undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Method::Signatures::Simple             1.07  R/RH/RHESA/Method-Signatures-Simple-1.07.tar.gz
+Modern::Perl                     1.20140107  C/CH/CHROMATIC/Modern-Perl-1.20140107.tar.gz
 Module::Build                        0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 Module::Build::Base                  0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 Module::Build::Compat                0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
@@ -1973,11 +1980,17 @@ Module::CoreList::TieHashDelta   5.20140920  B/BI/BINGOS/Module-CoreList-5.20140
 Module::CoreList::Utils          5.20140920  B/BI/BINGOS/Module-CoreList-5.20140920.tar.gz
 Module::Find                           0.12  C/CR/CRENZ/Module-Find-0.12.tar.gz
 Module::Implementation                 0.09  D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
+Module::Manifest                       1.08  A/AD/ADAMK/Module-Manifest-1.08.tar.gz
 Module::Metadata                   1.000024  E/ET/ETHER/Module-Metadata-1.000024.tar.gz
 Module::Pluggable                       5.1  S/SI/SIMONW/Module-Pluggable-5.1.tar.gz
 Module::Pluggable::Object               5.1  S/SI/SIMONW/Module-Pluggable-5.1.tar.gz
 Module::Runtime                       0.014  Z/ZE/ZEFRAM/Module-Runtime-0.014.tar.gz
 Module::Runtime::Conflicts            0.001  E/ET/ETHER/Module-Runtime-Conflicts-0.001.tar.gz
+Module::Starter                        1.62  X/XS/XSAWYERX/Module-Starter-1.62.tar.gz
+Module::Starter::App                   1.62  X/XS/XSAWYERX/Module-Starter-1.62.tar.gz
+Module::Starter::BuilderSet            1.62  X/XS/XSAWYERX/Module-Starter-1.62.tar.gz
+Module::Starter::Plugin::Template       1.62  X/XS/XSAWYERX/Module-Starter-1.62.tar.gz
+Module::Starter::Simple                1.62  X/XS/XSAWYERX/Module-Starter-1.62.tar.gz
 Module::Version                        0.12  X/XS/XSAWYERX/Module-Version-0.12.tar.gz
 Module::Version::App                   0.05  X/XS/XSAWYERX/Module-Version-0.12.tar.gz
 ModuleFindTest                        undef  C/CR/CRENZ/Module-Find-0.12.tar.gz

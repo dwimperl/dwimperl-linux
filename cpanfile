@@ -45,7 +45,7 @@ requires 'Daemon::Control',            '0.001006';
 #requires 'Dancer2',                    '0.150000'; #1
 requires 'Data::Dumper',               '2.154';
 requires 'Date::Tiny',                 '1.04';
-# requires 'DateTime',                   '1.12'; #1
+#requires 'DateTime',                   '1.12'; #1
 requires 'DateTime::Tiny',             '1.04';
 requires 'DBD::SQLite',                '1.42';
 requires 'DBI',                        '1.631';
@@ -63,7 +63,7 @@ requires 'Digest::SHA1',               '2.13';
 #requires 'DigitalOcean',               '0.12';
 #requires 'Dist::Zilla',                '5.020';
 requires 'Email::MIME::Creator',       '1.926';
-# requires 'Email::MIME::Kit',           '2.102014'; # Depends on Moose => #1
+#requires 'Email::MIME::Kit',           '2.102014'; # Depends on Moose => #1
 requires 'Email::Sender',              '1.300014';
 requires 'Email::Sender::Simple',      '1.300014';
 requires 'Email::Simple',              '2.203';
@@ -97,7 +97,7 @@ requires 'HTTP::Lite',                 '2.43';
 requires 'HTTP::Request',              '6.00';
 requires 'HTTP::Request::Common',      '6.04';
 requires 'HTTP::Tiny',                 '0.050';
-# requires 'Hash::Merge::Simple',        '0.051'; # Depends on #1
+#requires 'Hash::Merge::Simple',        '0.051'; # Depends on #1
 requires 'IO::Compress::Gzip',         '2.066';
 requires 'IO::Uncompress::Gunzip',     '2.066';
 requires 'IO::Scalar',                 '2.110';
@@ -118,20 +118,19 @@ requires 'Log::Dispatch',              '2.42';
 requires 'Log::Log4perl',              '1.44';
 requires 'LWP',                        '6.08';
 requires 'LWP::Protocol::https',       '6.06';
-#requires 'LWP::Protocol::PSGI';
-#requires 'LWP::Simple';
-#requires 'LWP::UserAgent';
-#requires 'LWP::UserAgent::Determined';
+requires 'LWP::Protocol::PSGI',        '0.07';
+requires 'LWP::Simple',                '6.00';
+requires 'LWP::UserAgent',             '6.06';
 requires 'Marpa::R2',                  '2.094000';
 requires 'Math::BigFloat',             '1.9993';
 #requires 'Math::Random::ISAAC::XS';
-#requires 'MIME::Lite';
-#requires 'MIME::Types
-#requires 'Modern::Perl
-#requires 'Module::Build
-#requires 'Module::CoreList
-#requires 'Module::Manifest
-#requires 'Module::Starter
+requires 'MIME::Lite',                 '3.030';
+requires 'MIME::Types',                '2.09';
+requires 'Modern::Perl',               '1.20140107';
+requires 'Module::Build',              '0.4210';
+requires 'Module::CoreList',           '5.20140920';
+requires 'Module::Manifest',           '1.08';
+requires 'Module::Starter',            '1.62';
 #requires 'MongoDB';
 requires 'Moo',                        '1.006000';
 requires 'MooX::Options',              '4.010';

@@ -3420,6 +3420,20 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.42
       Test::More 0
       perl 5.005
+  MIME-Lite-3.030
+    pathname: R/RJ/RJBS/MIME-Lite-3.030.tar.gz
+    provides:
+      MIME::Lite 3.030
+      MIME::Lite::IO_Handle 3.030
+      MIME::Lite::IO_Scalar 3.030
+      MIME::Lite::IO_ScalarArray 3.030
+      MIME::Lite::SMTP 3.030
+      MailTool undef
+    requirements:
+      Email::Date::Format 1.000
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Spec 0
   MIME-Types-2.09
     pathname: M/MA/MARKOV/MIME-Types-2.09.tar.gz
     provides:
@@ -3602,6 +3616,21 @@ DISTRIBUTIONS
     requirements:
       Devel::Declare 0.003001
       ExtUtils::MakeMaker 6.30
+  Modern-Perl-1.20140107
+    pathname: C/CH/CHROMATIC/Modern-Perl-1.20140107.tar.gz
+    provides:
+      Modern::Perl 1.20140107
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      IO::File 0
+      IO::Handle 0
+      Module::Build 0.3601
+      autodie 2.22
+      feature 0
+      mro 0
+      perl 5.010
+      strict 0
+      warnings 0
   Module-Build-0.4210
     pathname: L/LE/LEONT/Module-Build-0.4210.tar.gz
     provides:
@@ -3740,6 +3769,20 @@ DISTRIBUTIONS
     provides:
       Module::Implementation 0.09
     requirements:
+  Module-Manifest-1.08
+    pathname: A/AD/ADAMK/Module-Manifest-1.08.tar.gz
+    provides:
+      Module::Manifest 1.08
+    requirements:
+      Cwd 0
+      ExtUtils::MakeMaker 6.42
+      File::Basename 0
+      File::Spec 0.80
+      Params::Util 0.10
+      Test::Exception 0.27
+      Test::More 0.42
+      Test::Warn 0.11
+      perl 5.00503
   Module-Metadata-1.000024
     pathname: E/ET/ETHER/Module-Metadata-1.000024.tar.gz
     provides:
@@ -3777,6 +3820,24 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Module-Starter-1.62
+    pathname: X/XS/XSAWYERX/Module-Starter-1.62.tar.gz
+    provides:
+      Module::Starter 1.62
+      Module::Starter::App 1.62
+      Module::Starter::BuilderSet 1.62
+      Module::Starter::Plugin::Template 1.62
+      Module::Starter::Simple 1.62
+    requirements:
+      ExtUtils::Command 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      Getopt::Long 0
+      Path::Class 0
+      Pod::Usage 1.21
+      Test::Harness 0.21
+      Test::More 0
+      parent 0
   Module-Version-0.12
     pathname: X/XS/XSAWYERX/Module-Version-0.12.tar.gz
     provides:
