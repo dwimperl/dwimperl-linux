@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3580
-Last-Updated: Fri Sep 26 12:36:43 2014
+Line-Count:   3582
+Last-Updated: Fri Sep 26 12:57:49 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3267,6 +3267,7 @@ Test::Builder::Tester::Tie             1.24  E/EX/EXODIST/Test-Simple-1.001006.t
 Test::Class                            0.46  E/ET/ETHER/Test-Class-0.46.tar.gz
 Test::Class::Load                      0.46  E/ET/ETHER/Test-Class-0.46.tar.gz
 Test::Class::MethodInfo                0.46  E/ET/ETHER/Test-Class-0.46.tar.gz
+Test::Class::Most                      0.08  O/OV/OVID/Test-Class-Most-0.08.tar.gz
 Test::CleanNamespaces                  0.16  E/ET/ETHER/Test-CleanNamespaces-0.16.tar.gz
 Test::Code::TidyAll                    0.20  J/JS/JSWARTZ/Code-TidyAll-0.20.tar.gz
 Test::Deep                            0.113  R/RJ/RJBS/Test-Deep-0.113.tar.gz
@@ -3375,6 +3376,7 @@ Test::WWW::Mechanize::PSGI             0.35  L/LB/LBROCARD/Test-WWW-Mechanize-PS
 Test::Warn                             0.30  C/CH/CHORNY/Test-Warn-0.30.tar.gz
 Test::Warn::Categorization             0.30  C/CH/CHORNY/Test-Warn-0.30.tar.gz
 Test::Warnings                        0.016  E/ET/ETHER/Test-Warnings-0.016.tar.gz
+Test::Without::Module                  0.18  C/CO/CORION/Test-Without-Module-0.18.tar.gz
 Test::YAML                             1.05  I/IN/INGY/Test-YAML-1.05.tar.gz
 Test::YAML::Filter                     1.05  I/IN/INGY/Test-YAML-1.05.tar.gz
 Text::Diff                             1.41  O/OV/OVID/Text-Diff-1.41.tar.gz

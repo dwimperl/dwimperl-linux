@@ -5969,6 +5969,13 @@ DISTRIBUTIONS
       perl 5.008001
       strict 0
       warnings 0
+  Test-Class-Most-0.08
+    pathname: O/OV/OVID/Test-Class-Most-0.08.tar.gz
+    provides:
+      Test::Class::Most 0.08
+    requirements:
+      Test::Class 0.38
+      Test::Most 0.31
   Test-CleanNamespaces-0.16
     pathname: E/ET/ETHER/Test-CleanNamespaces-0.16.tar.gz
     provides:
@@ -6436,6 +6443,15 @@ DISTRIBUTIONS
     provides:
       Test::Warnings 0.016
     requirements:
+  Test-Without-Module-0.18
+    pathname: C/CO/CORION/Test-Without-Module-0.18.tar.gz
+    provides:
+      Test::Without::Module 0.18
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Find 0
+      File::Spec 0
+      Test::More 0
   Test-YAML-1.05
     pathname: I/IN/INGY/Test-YAML-1.05.tar.gz
     provides:
