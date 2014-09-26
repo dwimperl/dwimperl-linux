@@ -2072,6 +2072,15 @@ DISTRIBUTIONS
       Test::More 0.88
       Test::Requires 0
       perl 5.008001
+  Devel-Dumpvar-1.06
+    pathname: A/AD/ADAMK/Devel-Dumpvar-1.06.tar.gz
+    provides:
+      Devel::Dumpvar 1.06
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      File::Spec 0.80
+      Scalar::Util 1.18
+      Test::More 0.42
   Devel-GlobalDestruction-0.13
     pathname: H/HA/HAARG/Devel-GlobalDestruction-0.13.tar.gz
     provides:
@@ -2104,6 +2113,13 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       IO::File 0
       Test::More 0.70
+  Devel-Refactor-0.05
+    pathname: S/SS/SSOTKA/Devel-Refactor-0.05.tar.gz
+    provides:
+      Devel::Refactor 0.05
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
   Devel-StackTrace-1.34
     pathname: D/DR/DROLSKY/Devel-StackTrace-1.34.tar.gz
     provides:

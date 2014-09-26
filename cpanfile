@@ -52,11 +52,11 @@ requires 'DBI',                        '1.631';
 #requires 'DBIx::Class::Schema::Loader', '0.07042';
 requires 'DBIx::Connector',            '0.53';
 requires 'DBIx::RunSQL',               '0.12';
-#requires 'Devel::Cycle',               '1.11';
+requires 'Devel::Cycle',               '1.11';
 requires 'Devel::CheckBin',            '0.02';
 requires 'Devel::PPPort',              '3.24';
-#requires 'Devel::Dumpvar',             '1.06';
-#requires 'Devel::Refactor',            '0.05';
+requires 'Devel::Dumpvar',             '1.06';
+requires 'Devel::Refactor',            '0.05';
 requires 'Digest::SHA',                '5.92';
 requires 'Digest::SHA1',               '2.13';
 #requires 'DigitalOcean',               '0.12';
@@ -96,13 +96,13 @@ requires 'HTTP::Request',              '6.00';
 requires 'HTTP::Request::Common',      '6.04';
 requires 'HTTP::Tiny',                 '0.050';
 #requires 'Hash::Merge::Simple';
-#requires 'IO::Compress::Gzip
-#requires 'IO::Uncompress::Gunzip
-#requires 'IO::String
-#requires 'IO::Socket
+requires 'IO::Compress::Gzip',         '2.066';
+requires 'IO::Uncompress::Gunzip',     '2.066';
+requires 'IO::Scalar',                 '2.110';
+requires 'IO::String',                 '1.08';
+requires 'IO::Socket',                 '1.25';
 requires 'IO::Socket::IP',             '0.32';
-requires 'IO::Socket::INET6';
-#requires 'IO::Scalar
+requires 'IO::Socket::INET6',          '2.72';
 #requires 'IPC::Run
 requires 'JSON',                       '2.90';
 #requires 'JSON::XS
