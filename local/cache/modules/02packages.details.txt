@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3014
-Last-Updated: Fri Sep 26 08:15:05 2014
+Line-Count:   3015
+Last-Updated: Fri Sep 26 08:38:41 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1362,6 +1362,7 @@ DateTime::TimeZone::UTC                1.74  D/DR/DROLSKY/DateTime-TimeZone-1.74
 DateTime::TimeZone::WET                1.74  D/DR/DROLSKY/DateTime-TimeZone-1.74.tar.gz
 DateTime::Tiny                         1.04  A/AD/ADAMK/DateTime-Tiny-1.04.tar.gz
 Devel::AssertC99                      undef  S/SY/SYOHEX/Devel-CheckCompiler-0.05.tar.gz
+Devel::CheckBin                        0.02  T/TO/TOKUHIROM/Devel-CheckBin-0.02.tar.gz
 Devel::CheckCompiler                   0.05  S/SY/SYOHEX/Devel-CheckCompiler-0.05.tar.gz
 Devel::Cycle                           1.11  L/LD/LDS/Devel-Cycle-1.11.tar.gz
 Devel::Declare                     0.006017  E/ET/ETHER/Devel-Declare-0.006017.tar.gz

@@ -2007,6 +2007,19 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0.47
       perl 5.004
+  Devel-CheckBin-0.02
+    pathname: T/TO/TOKUHIROM/Devel-CheckBin-0.02.tar.gz
+    provides:
+      Devel::CheckBin 0.02
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Exporter 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 6.52
+      Module::Build 0.38
+      parent 0
+      perl 5.008001
   Devel-CheckCompiler-0.05
     pathname: S/SY/SYOHEX/Devel-CheckCompiler-0.05.tar.gz
     provides:
