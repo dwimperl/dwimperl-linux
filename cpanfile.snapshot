@@ -2824,6 +2824,22 @@ DISTRIBUTIONS
     provides:
       Filesys::Notify::Simple 0.12
     requirements:
+  Flickr-API-1.10
+    pathname: I/IA/IAMCAL/Flickr-API-1.10.tar.gz
+    provides:
+      Flickr::API 1.10
+      Flickr::API::Request 0.03
+      Flickr::API::Response 0.02
+    requirements:
+      Digest::MD5 0
+      ExtUtils::MakeMaker 0
+      HTTP::Message 1.56
+      HTTP::Request 0
+      HTTP::Response 0
+      LWP::UserAgent 0
+      Test::More 0
+      URI 1.18
+      XML::Parser::Lite::Tree 0.06
   Getopt-Long-Descriptive-0.097
     pathname: R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
     provides:
@@ -2848,6 +2864,16 @@ DISTRIBUTIONS
       HTML::PullParser 3.57
       HTML::TokeParser 3.69
     requirements:
+  HTML-TableExtract-2.11
+    pathname: M/MS/MSISK/HTML-TableExtract-2.11.tar.gz
+    provides:
+      HTML::TableExtract 2.11
+      HTML::TableExtract::Rasterize 2.11
+      HTML::TableExtract::StripHTML 2.11
+      HTML::TableExtract::Table 2.11
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTML::Parser 0
   HTML-Tagset-3.20
     pathname: P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
     provides:
@@ -3110,6 +3136,19 @@ DISTRIBUTIONS
       IO::WrapTie::Slave 2.110
     requirements:
       ExtUtils::MakeMaker 0
+  IPC-Run-0.92
+    pathname: T/TO/TODDR/IPC-Run-0.92.tar.gz
+    provides:
+      IPC::Run 0.92
+      IPC::Run::Debug 0.90
+      IPC::Run::IO 0.90
+      IPC::Run::Timer 0.90
+      IPC::Run::Win32Helper 0.90
+      IPC::Run::Win32IO 0.90
+      IPC::Run::Win32Pump 0.90
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
   IPC-Run3-0.048
     pathname: R/RJ/RJBS/IPC-Run3-0.048.tar.gz
     provides:
@@ -5780,6 +5819,14 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.42
       Test::More 0.47
+  XML-Parser-Lite-Tree-0.14
+    pathname: I/IA/IAMCAL/XML-Parser-Lite-Tree-0.14.tar.gz
+    provides:
+      XML::Parser::Lite::Tree 0.14
+      XML::Parser::LiteCopy 0.720
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   XML-SAX-0.99
     pathname: G/GR/GRANTM/XML-SAX-0.99.tar.gz
     provides:

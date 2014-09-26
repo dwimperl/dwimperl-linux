@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3124
-Last-Updated: Fri Sep 26 10:58:00 2014
+Line-Count:   3140
+Last-Updated: Fri Sep 26 11:14:46 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1606,6 +1606,9 @@ File::ShareDir::Install                0.09  G/GW/GWYN/File-ShareDir-Install-0.0
 File::Which                            1.09  A/AD/ADAMK/File-Which-1.09.tar.gz
 File::pushd                           1.009  D/DA/DAGOLDEN/File-pushd-1.009.tar.gz
 Filesys::Notify::Simple                0.12  M/MI/MIYAGAWA/Filesys-Notify-Simple-0.12.tar.gz
+Flickr::API                            1.10  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
+Flickr::API::Request                   0.03  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
+Flickr::API::Response                  0.02  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
 Getopt::Long::Descriptive             0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
 Getopt::Long::Descriptive::Opts       0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
 Getopt::Long::Descriptive::Usage      0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
@@ -1616,6 +1619,10 @@ HTML::HeadParser                       3.71  G/GA/GAAS/HTML-Parser-3.71.tar.gz
 HTML::LinkExtor                        3.69  G/GA/GAAS/HTML-Parser-3.71.tar.gz
 HTML::Parser                           3.71  G/GA/GAAS/HTML-Parser-3.71.tar.gz
 HTML::PullParser                       3.57  G/GA/GAAS/HTML-Parser-3.71.tar.gz
+HTML::TableExtract                     2.11  M/MS/MSISK/HTML-TableExtract-2.11.tar.gz
+HTML::TableExtract::Rasterize          2.11  M/MS/MSISK/HTML-TableExtract-2.11.tar.gz
+HTML::TableExtract::StripHTML          2.11  M/MS/MSISK/HTML-TableExtract-2.11.tar.gz
+HTML::TableExtract::Table              2.11  M/MS/MSISK/HTML-TableExtract-2.11.tar.gz
 HTML::Tagset                           3.20  P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
 HTML::Template                         2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
 HTML::Template::COND                   2.95  W/WO/WONKO/HTML-Template-2.95.tar.gz
@@ -1719,7 +1726,14 @@ IO::Wrap                              2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::WrapTie                           2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::WrapTie::Master                   2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::WrapTie::Slave                    2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
+IPC::Run                               0.92  T/TO/TODDR/IPC-Run-0.92.tar.gz
 IPC::Run3                             0.048  R/RJ/RJBS/IPC-Run3-0.048.tar.gz
+IPC::Run::Debug                        0.90  T/TO/TODDR/IPC-Run-0.92.tar.gz
+IPC::Run::IO                           0.90  T/TO/TODDR/IPC-Run-0.92.tar.gz
+IPC::Run::Timer                        0.90  T/TO/TODDR/IPC-Run-0.92.tar.gz
+IPC::Run::Win32Helper                  0.90  T/TO/TODDR/IPC-Run-0.92.tar.gz
+IPC::Run::Win32IO                      0.90  T/TO/TODDR/IPC-Run-0.92.tar.gz
+IPC::Run::Win32Pump                    0.90  T/TO/TODDR/IPC-Run-0.92.tar.gz
 Import::Into                       1.002004  E/ET/ETHER/Import-Into-1.002004.tar.gz
 JSON                                   2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
 JSON::Backend::PP                      2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
@@ -3060,6 +3074,8 @@ XML::LibXML::XPathContext            2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.
 XML::LibXML::XPathExpression         2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
 XML::LibXML::_SAXParser              2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
 XML::NamespaceSupport                  1.11  P/PE/PERIGRIN/XML-NamespaceSupport-1.11.tar.gz
+XML::Parser::Lite::Tree                0.14  I/IA/IAMCAL/XML-Parser-Lite-Tree-0.14.tar.gz
+XML::Parser::LiteCopy                 0.720  I/IA/IAMCAL/XML-Parser-Lite-Tree-0.14.tar.gz
 XML::SAX                               0.99  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::Base                         1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
 XML::SAX::Base::NoHandler              1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
