@@ -99,7 +99,7 @@ requires 'HTTP::Tiny',                      '0.049';
 requires 'HTTP::Lite',                      '2.43';
 requires 'HTTP::Request',                   '6.00';
 requires 'HTTP::Request::Common',           '6.04';
-#requires 'HTTP::Server::Simple',            '0.44';
+requires 'HTTP::Server::Simple',            '0.44';
 requires 'HTTP::Tiny',                      '0.050';
 #requires 'Hash::Merge::Simple',             '0.051'; #1
 requires 'IO::Compress::Gzip',              '2.066';
@@ -247,6 +247,7 @@ requires 'Test::Deep',                       '0.113';
 #requires 'Test::Differences',                '0.62';  #1
 requires 'Test::Exception',                  '0.35';
 requires 'Test::Fatal',                      '0.013';
+requires 'Test::FailWarnings',               '0.008';
 requires 'Test::Memory::Cycle',              '1.04';
 #requires 'Test::MockObject',                '1.20140408'; #1
 requires 'Test::MockTime',                   '0.13';

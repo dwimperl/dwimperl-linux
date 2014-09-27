@@ -6947,6 +6947,18 @@ DISTRIBUTIONS
     provides:
       Test::Exception 0.35
     requirements:
+  Test-FailWarnings-0.008
+    pathname: D/DA/DAGOLDEN/Test-FailWarnings-0.008.tar.gz
+    provides:
+      Test::FailWarnings 0.008
+    requirements:
+      Carp 0
+      Cwd 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec 0
+      Test::More 0.86
+      strict 0
+      warnings 0
   Test-Fatal-0.013
     pathname: R/RJ/RJBS/Test-Fatal-0.013.tar.gz
     provides:

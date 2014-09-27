@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   4197
-Last-Updated: Sat Sep 27 14:48:43 2014
+Line-Count:   4198
+Last-Updated: Sat Sep 27 14:57:22 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3639,6 +3639,7 @@ Test::Deep::SuperHashKeys             undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Deep::SuperHashKeysOnly         undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Differences                      0.62  D/DC/DCANTRELL/Test-Differences-0.62.tar.gz
 Test::Exception                        0.35  E/EX/EXODIST/Test-Exception-0.35.tar.gz
+Test::FailWarnings                    0.008  D/DA/DAGOLDEN/Test-FailWarnings-0.008.tar.gz
 Test::Fatal                           0.013  R/RJ/RJBS/Test-Fatal-0.013.tar.gz
 Test::Harness                          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Test::LeakTrace                        0.14  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
