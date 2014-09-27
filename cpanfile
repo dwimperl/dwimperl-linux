@@ -265,15 +265,15 @@ requires 'Test::Harness',               '3.33';
 requires 'Test::Trap',                  '0.2.4';
 requires 'Test::Warn',                  '0.30';
 #requires 'Test::Code::TidyAll',         '0.20';
-requires 'Test::Perl::Critic',          '1.02';
-#requires 'Term::ReadLine',              '1.14';
-#requires 'Term::ProgressBar::Simple',   '0.03';
-requires 'Text::Balanced',              '2.02';
-requires 'Text::Diff',                  '1.41';
-requires 'Text::FindIndent',            '0.10';
-#requires 'Text::Patch
-#requires 'Text::VimColor', '0.24';
-#requires 'Text::Xslate
+requires 'Test::Perl::Critic',              '1.02';
+#requires 'Term::ReadLine',                  '1.14';
+#requires 'Term::ProgressBar::Simple',       '0.03';
+requires 'Text::Balanced',                  '2.02';
+requires 'Text::Diff',                      '1.41';
+requires 'Text::FindIndent',                '0.10';
+#requires 'Text::Patch'                      '1.8';
+#requires 'Text::VimColor',                  '0.24';
+#requires 'Text::Xslate',                    '3.3.3';
 #requires 'Text::CSV',                       '1.32';
 #requires 'Text::CSV_XS',                    '1.11';
 requires 'threads',                         '1.96';
