@@ -100,6 +100,11 @@ case $1 in
 #      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ local::lib
   ;;
 
+  dwim)
+      cd $BUILD_HOME/src/DWIM
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose .
+  ;;
+
   openssl)
       cd $BUILD_HOME
       tar xzf src/$OPENSSL.tar.gz
@@ -183,9 +188,10 @@ case $1 in
   ;;
 
   try)
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Portable
+      #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Portable
       #export PERL5OPT="-MPortable $PERL5OPT"
-      #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Test::Differences
+      cd $BUILD_HOME
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Test::Differences
   ;;
 
   modules)
@@ -193,6 +199,7 @@ case $1 in
       export OPENSSL_PREFIX=$PREFIX_C
 
       export XMLPREFIX=$PREFIX_C
+      export PERL5OPT="-MDWIM"
 
       cd $BUILD_HOME
       HARNESS_OPTIONS=j3

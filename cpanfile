@@ -245,7 +245,7 @@ requires 'Test::Class',                     '0.47';
 #requires 'Test::Class::Most',               '0.08';
 requires 'Test::CleanNamespaces',           '0.16';
 requires 'Test::Deep',                       '0.113';
-#requires 'Test::Differences',                '0.62';  #1
+requires 'Test::Differences',                '0.62';  #1
 requires 'Test::Exception',                  '0.35';
 requires 'Test::Fatal',                      '0.013';
 requires 'Test::FailWarnings',               '0.008';
