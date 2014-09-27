@@ -53,10 +53,11 @@ BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_BASE_VERSION-$
 echo DWIMPERL_VERSION=$DWIMPERL_VERSION
 BUILD_TMP=/tmp
 ls -l $BUILD_TMP
+
 ROOT=$BUILD_TMP/dwim
-ls -l $BUILD_TMP
 echo ROOT=$ROOT
 [ -e $ROOT ] || mkdir $ROOT
+
 PREFIX_PERL=$ROOT/$DWIMPERL_VERSION/perl
 PREFIX_C=$ROOT/$DWIMPERL_VERSION/c
 
@@ -66,9 +67,9 @@ ORIGINAL_PATH=$PATH
 #BACKUP=$BUILD_TMP/dwimperl_backup
 
 echo SOURCE_HOME=$SOURCE_HOME
-
 ls -l $SOURCE_HOME
 cp $SOURCE_HOME/dwim.sh $ROOT/
+ls -l $ROOT
 
 # prepare the local metadb for cpanm
 # without this cpanm would complain that it cannot find the modules in the
