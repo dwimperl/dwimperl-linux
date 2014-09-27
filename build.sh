@@ -75,7 +75,6 @@ PACKAGES_ZIP=$PACKAGES.gz
 
 
 export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
-[ -e $BUILD_HOME/dwim.sh ] && source $BUILD_HOME/dwim.sh
 
 case $1 in
   perl)
@@ -199,6 +198,7 @@ case $1 in
       # needed to build Net::SSLeay
       export OPENSSL_PREFIX=$PREFIX_C
       export XMLPREFIX=$PREFIX_C
+      source $BUILD_HOME/dwim.sh
 
       cd $BUILD_HOME
       HARNESS_OPTIONS=j3
@@ -207,21 +207,25 @@ case $1 in
 
   test_perl)
       cd $BUILD_HOME
+      source $BUILD_HOME/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/prove t/00-perl.t
   ;;
 
   test_cpanfile)
       cd $BUILD_HOME
+      source $BUILD_HOME/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/prove t/01-cpanfile.t
   ;;
 
 
   test_all)
       cd $BUILD_HOME
+      source $BUILD_HOME/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/prove
   ;;
 
   outdate)
+      source $BUILD_HOME/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpan-outdated --verbose
   ;;
 
