@@ -138,7 +138,7 @@ case $1 in
       make install
   ;;
 
-  get_vanilla_perl)
+  get_base_perl)
       wget $DWIMPERL_COM/$BASE_DWIMPERL_VERSION.tar.gz
       tar -mxzf $BASE_DWIMPERL_VERSION.tar.gz
       echo BASE_DWIMPERL_VERSION=$BASE_DWIMPERL_VERSION
@@ -149,6 +149,7 @@ case $1 in
 
   try)
       export XMLPREFIX=$PREFIX_C
+      echo $XMLPREFIX
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose XML::LibXML
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Portable
       #export PERL5OPT="-MPortable $PERL5OPT"
@@ -198,7 +199,7 @@ case $1 in
     echo "Missing or unrecognized parameter $1"
     echo perl                - build perl
     echo cpanm               - install cpanm
-    echo get_vanilla_perl    - download and unzip the vanialla perl
+    echo get_base_perl       - download and unzip an earlier release
     echo modules             - install all the modules listed in the cpanfile
     echo test_perl           - test if perl has the expected version number t/00-perl.t
     echo test_cpanfile       - test if modules listed in the cpanfile can be loaded 

@@ -12,8 +12,7 @@ option list     => (is => 'ro', doc => 'List available droplets');
 option verbose  => (is => 'ro');
 option droplet  => (is => 'rw', format => 's', doc => 'Droplet ID - Use this Droplet instead of creating new');
 option create   => (is => 'ro');
-
-option from     => (is => 'ro', required => 1, format => 'i', doc => 'Base the build on this subversion (0, 1, 2, ...)');
+option base     => (is => 'ro', format => 'i', doc => 'Base the build on this subversion (0, 1, 2, ...)');
 
 has config_file => (is => 'rw');
 has tag         => (is => 'rw');
@@ -56,7 +55,8 @@ sub run {
 		return;
 	}
 
-	die "Exactly on of --create and   --droplet ID\n" if not $self->create xor $self->droplet;
+	die "Exactly on of --create,  --droplet ID, --list, --help\n" if not $self->create xor $self->droplet;
+	die "--base is required\n" if not defined $self->base;
 	
 	if ($self->create) {
 		printf "Creating droplet. Can take about 60 seconds. Started at %s, Please wait. \n", scalar localtime;
@@ -97,28 +97,30 @@ sub run {
 	);
 
 
-	if ($self->from) {
-		# based on 'vanilla perl' add all the modules
+	my $pref = "DWIM_BASE_VERSION=" . $self->base;
+	die $pref;
+	if ($self->base) {
+		# based on an earlier release
 		push @user_cmds, (
-			"cd $dir; ./build.sh get_vanilla_perl",
-			#"cd $dir; ./build.sh openssl",
-			#"cd $dir; ./build.sh libxml2",
-			#"cd $dir; ./build.sh zlib",
-			"cd $dir; ./build.sh modules",
-			"cd $dir; ./build.sh test_cpanfile",
-			#"cd $dir; ./build.sh test_all",
-			"cd $dir; ./build.sh zip",
+			"cd $dir; $pref ./build.sh get_base_perl",
+			#"cd $dir; $pref ./build.sh openssl",
+			#"cd $dir; $pref ./build.sh libxml2",
+			#"cd $dir; $pref ./build.sh zlib",
+			"cd $dir; $pref ./build.sh modules",
+			"cd $dir; $pref ./build.sh test_cpanfile",
+			#"cd $dir; $pref ./build.sh test_all",
+			"cd $dir; $pref ./build.sh zip",
 		);
 	} else {
-		# build 'vanilla perl with cpanm'
+		# build perl from scratch with cpanm
 		push @user_cmds, (
-			"cd $dir; ./build.sh perl",
-			"cd $dir; ./build.sh cpanm",
-			"cd $dir; ./build.sh openssl",
-			"cd $dir; ./build.sh libxml2",
-			"cd $dir; ./build.sh zlib",
-			"cd $dir; ./build.sh test_perl",
-			"cd $dir; ./build.sh zip",
+			"cd $dir; $pref ./build.sh perl",
+			"cd $dir; $pref ./build.sh cpanm",
+			"cd $dir; $pref ./build.sh openssl",
+			"cd $dir; $pref ./build.sh libxml2",
+			"cd $dir; $pref ./build.sh zlib",
+			"cd $dir; $pref ./build.sh test_perl",
+			"cd $dir; $pref ./build.sh zip",
 		);
 	}
 	my $results = $self->ssh($username, $server->ip_address, \@user_cmds);
