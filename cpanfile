@@ -44,11 +44,11 @@ requires 'CPAN::Perl::Releases',            '1.90';
 requires 'Crypt::URandom',                  '0.34';
 requires 'Cwd::Guard',                      '0.04';
 requires 'Daemon::Control',                 '0.001006';
-#requires 'Dancer',                          '1.3130';   #1
-#requires 'Dancer2',                         '0.150000'; #1
+requires 'Dancer',                          '1.3130';
+requires 'Dancer2',                         '0.150000';
 requires 'Data::Dumper',                    '2.154';
 requires 'Date::Tiny',                      '1.04';
-#requires 'DateTime',                        '1.12'; #1
+requires 'DateTime',                        '1.12';
 requires 'DateTime::Tiny',                  '1.04';
 requires 'DBD::SQLite',                     '1.42';
 requires 'DBI',                             '1.631';
@@ -67,7 +67,7 @@ requires 'Digest::SHA1',                    '2.13';
 #requires 'DigitalOcean',                    '0.12';
 #requires 'Dist::Zilla',                     '5.020';
 requires 'Email::MIME::Creator',            '1.926';
-#requires 'Email::MIME::Kit',                '2.102014'; # Depends on Moose => #1
+requires 'Email::MIME::Kit',                '2.102014';
 requires 'Email::Sender',                   '1.300014';
 requires 'Email::Sender::Simple',           '1.300014';
 requires 'Email::Simple',                   '2.203';
@@ -78,7 +78,7 @@ requires 'Excel::Writer::XLSX',             '0.77';
 requires 'ExtUtils::MakeMaker',             '6.98';
 #requires 'experimental',                    '0.010'; #1
 #requires 'ExtUtils::CBuilder',              '0.280219'; #1
-#requires 'ExtUtils::Helpers',               '0.022'; #1
+requires 'ExtUtils::Helpers',               '0.022';
 requires 'ExtUtils::Install',               '2.04';
 requires 'ExtUtils::Manifest',              '1.68';
 #requires 'ExtUtils::Embed',                 '1.32'; # core
@@ -102,7 +102,7 @@ requires 'HTTP::Request',                   '6.00';
 requires 'HTTP::Request::Common',           '6.04';
 requires 'HTTP::Server::Simple',            '0.44';
 requires 'HTTP::Tiny',                      '0.050';
-#requires 'Hash::Merge::Simple',             '0.051'; #1
+requires 'Hash::Merge::Simple',             '0.051';
 requires 'IO::Compress::Gzip',              '2.066';
 requires 'IO::Uncompress::Gunzip',          '2.066';
 requires 'IO::Scalar',                      '2.110';
@@ -124,7 +124,7 @@ requires 'Log::Dispatch',                   '2.42';
 requires 'Log::Log4perl',                   '1.44';
 requires 'LWP',                             '6.08';
 requires 'LWP::Protocol::https',            '6.06';
-#requires 'LWP::Protocol::PSGI',             '0.07'; #1
+requires 'LWP::Protocol::PSGI',             '0.07';
 requires 'LWP::Simple',                     '6.00';
 requires 'LWP::UserAgent',                  '6.06';
 requires 'Marpa::R2',                       '2.094000';
@@ -137,12 +137,12 @@ requires 'Module::Build',                   '0.4210';
 requires 'Module::CoreList',                '5.20140920';
 requires 'Module::Manifest',                '1.08';
 requires 'Module::Starter',                 '1.62';
-#requires 'MongoDB',                         '0.705.0.0'; # Moose
+requires 'MongoDB',                         '0.705.0.0';
 requires 'Moo',                             '1.006000';
 requires 'MooX::Options',                   '4.010';
 requires 'MooX::late',                      '0.015';
 requires 'MooX::Singleton',                 '1.20';
-requires 'Moose',                           '2.1213'; #1
+requires 'Moose',                           '2.1213';
 #requires 'MooseX::Singleton',               '0.29';
 #requires 'MooseX::StrictConstructor',       '0.19';
 #requires 'MooseX::Params::Validate',        '0.18';
@@ -180,7 +180,7 @@ requires 'Module::CoreList',                '5.20140920';
 requires 'Module::Metadata',                '1.000024';
 #requires 'Module::Version',                 '0.12'; # error: Failed to upconvert metadata to 1.1. Errors: Missing mandatory field, 'version' (version) [Validation: 1.0]
 requires 'Mojolicious',                     '5.46';
-#requires 'namespace::autoclean',            '0.20'; #1
+requires 'namespace::autoclean',            '0.20';
 requires 'Net::Config',                     '1.14';
 requires 'Net::DNS',                        '0.80';
 requires 'Net::Server',                     '2.008'; # 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523 # --notest Net::Server
