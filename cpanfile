@@ -274,19 +274,19 @@ requires 'Text::FindIndent',            '0.10';
 #requires 'Text::Patch
 #requires 'Text::VimColor', '0.24';
 #requires 'Text::Xslate
-#requires 'Text::CSV
-#requires 'Text::CSV_XS
-requires 'threads',                    '1.96';
-#requires 'Time::HiRes
-#requires 'Time::ParseDate
-#requires 'Time::Tiny
-requires 'Time::Piece',                '1.29';
-#requires 'Try::Tiny
-#requires 'TryCatch';
-requires 'Unicode::Collate',           '1.07';
-requires 'Unicode::Normalize',         '1.18';
-#requires 'URI',                            '1.64';
-#requires 'URL::Encode::XS',                '0.03';
+#requires 'Text::CSV',                       '1.32';
+#requires 'Text::CSV_XS',                    '1.11';
+requires 'threads',                         '1.96';
+#requires 'Time::HiRes',                     '1.9726';
+#requires 'Time::ParseDate',                 '2013.1113';
+#requires 'Time::Tiny',                      '1.05';
+requires 'Time::Piece',                     '1.29';
+#requires 'Try::Tiny',                       '0.22';
+#requires 'TryCatch',                        '1.003002';
+requires 'Unicode::Collate',                '1.07';
+requires 'Unicode::Normalize',              '1.18';
+#requires 'URI',                             '1.64';
+#requires 'URL::Encode::XS',                 '0.03';
 requires 'Variable::Magic',                 '0.54';
 #requires 'version',                         '0.9909';
 #requires 'Web::Feed',                       '0.03';
