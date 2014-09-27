@@ -4681,6 +4681,27 @@ DISTRIBUTIONS
       parent 0.223
       strict 1.03
       warnings 1.03
+  MooseX-Role-Parameterized-1.08
+    pathname: E/ET/ETHER/MooseX-Role-Parameterized-1.08.tar.gz
+    provides:
+      MooseX::Role::Parameterized 1.08
+      MooseX::Role::Parameterized::Meta::Role::Parameterized 1.08
+      MooseX::Role::Parameterized::Meta::Trait::Parameterizable 1.08
+      MooseX::Role::Parameterized::Meta::Trait::Parameterized 1.08
+      MooseX::Role::Parameterized::Parameters 1.08
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Module::Build::Tiny 0.037
+      Module::Runtime 0
+      Moose 2.0300
+      Moose::Exporter 0
+      Moose::Meta::Role 0
+      Moose::Role 0
+      Moose::Util 0
+      namespace::autoclean 0
+      namespace::clean 0
+      perl 5.008001
   Mouse-2.4.1
     pathname: G/GF/GFUJI/Mouse-2.4.1.tar.gz
     provides:
@@ -6571,6 +6592,17 @@ DISTRIBUTIONS
       Test::Builder::Tester 0
       Test::More 0
       Test::Simple 0.62
+  Test-Mock-LWP-0.08
+    pathname: L/LU/LUKEC/Test-Mock-LWP-0.08.tar.gz
+    provides:
+      Test::Mock::HTTP::Request 0.01
+      Test::Mock::HTTP::Response 0.01
+      Test::Mock::LWP 0.08
+      Test::Mock::LWP::UserAgent 0.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::MockObject 1.08
+      Test::More 0.42
   Test-MockModule-0.05
     pathname: S/SI/SIMONFLK/Test-MockModule-0.05.tar.gz
     provides:
@@ -7265,6 +7297,19 @@ DISTRIBUTIONS
       URI::URL 0
       URI::file 0
       perl 5.008
+  WWW-Mechanize-TreeBuilder-1.10003
+    pathname: A/AS/ASH/WWW-Mechanize-TreeBuilder-1.10003.tar.gz
+    provides:
+      WWW::Mechanize::TreeBuilder 1.10003
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      HTML::TreeBuilder 0
+      Moose 0.65
+      MooseX::Role::Parameterized 0
+      Scalar::Util 0
+      Test::More 0
+      Test::WWW::Mechanize 0
+      perl 5.008001
   WWW-RobotRules-6.02
     pathname: G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
     provides:
@@ -7272,6 +7317,185 @@ DISTRIBUTIONS
       WWW::RobotRules::AnyDBM_File 6.00
       WWW::RobotRules::InCore 6.02
     requirements:
+  Web-Feed-0.03
+    pathname: S/SZ/SZABGAB/Web-Feed-0.03.tar.gz
+    provides:
+      Web::Feed 0.03
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      perl 5.010
+  WebService-GData-0.06
+    pathname: S/SZ/SZABGAB/WebService-GData-0.06.tar.gz
+    provides:
+      WebService::GData 0.06
+      WebService::GData::Base 0.0203
+      WebService::GData::Batch undef
+      WebService::GData::Batch::Entry undef
+      WebService::GData::Batch::Response undef
+      WebService::GData::ClientLogin 0.0106
+      WebService::GData::Collection 0.0104
+      WebService::GData::Constants 1.06
+      WebService::GData::Error 1.02
+      WebService::GData::Error::Entry 1.02
+      WebService::GData::Feed 0.0108
+      WebService::GData::Feed::Entry 0.0104
+      WebService::GData::Iterator undef
+      WebService::GData::Node 0.06
+      WebService::GData::Node::APP undef
+      WebService::GData::Node::APP::Control undef
+      WebService::GData::Node::APP::Draft undef
+      WebService::GData::Node::APP::Edited undef
+      WebService::GData::Node::AbstractEntity 0.0103
+      WebService::GData::Node::Atom undef
+      WebService::GData::Node::Atom::AtomEntity 0.0102
+      WebService::GData::Node::Atom::Author undef
+      WebService::GData::Node::Atom::AuthorEntity 0.0102
+      WebService::GData::Node::Atom::Category undef
+      WebService::GData::Node::Atom::Content undef
+      WebService::GData::Node::Atom::Entry undef
+      WebService::GData::Node::Atom::EntryEntity 0.0101
+      WebService::GData::Node::Atom::Feed undef
+      WebService::GData::Node::Atom::FeedEntity 0.0101
+      WebService::GData::Node::Atom::Generator undef
+      WebService::GData::Node::Atom::Id undef
+      WebService::GData::Node::Atom::Link undef
+      WebService::GData::Node::Atom::Logo undef
+      WebService::GData::Node::Atom::Name undef
+      WebService::GData::Node::Atom::Published undef
+      WebService::GData::Node::Atom::Summary undef
+      WebService::GData::Node::Atom::Title undef
+      WebService::GData::Node::Atom::Updated undef
+      WebService::GData::Node::Atom::Uri undef
+      WebService::GData::Node::GD undef
+      WebService::GData::Node::GD::AditionalName undef
+      WebService::GData::Node::GD::Agent undef
+      WebService::GData::Node::GD::AttendeeStatus undef
+      WebService::GData::Node::GD::AttendeeType undef
+      WebService::GData::Node::GD::City undef
+      WebService::GData::Node::GD::Comments undef
+      WebService::GData::Node::GD::Country undef
+      WebService::GData::Node::GD::Deleted undef
+      WebService::GData::Node::GD::Email undef
+      WebService::GData::Node::GD::EntryLink undef
+      WebService::GData::Node::GD::EventStatus undef
+      WebService::GData::Node::GD::ExtendedProperty undef
+      WebService::GData::Node::GD::FamilyName undef
+      WebService::GData::Node::GD::FeedLink undef
+      WebService::GData::Node::GD::FormattedAddress undef
+      WebService::GData::Node::GD::GivenName undef
+      WebService::GData::Node::GD::Housename undef
+      WebService::GData::Node::GD::Im undef
+      WebService::GData::Node::GD::Money undef
+      WebService::GData::Node::GD::Name undef
+      WebService::GData::Node::GD::Neighborhood undef
+      WebService::GData::Node::GD::OrgDepartment undef
+      WebService::GData::Node::GD::OrgJobDescription undef
+      WebService::GData::Node::GD::OrgName undef
+      WebService::GData::Node::GD::OrgSymbol undef
+      WebService::GData::Node::GD::OrgTitle undef
+      WebService::GData::Node::GD::Organization undef
+      WebService::GData::Node::GD::OriginalEvent undef
+      WebService::GData::Node::GD::PhoneNumber undef
+      WebService::GData::Node::GD::Pobox undef
+      WebService::GData::Node::GD::PostalAddress undef
+      WebService::GData::Node::GD::Postcode undef
+      WebService::GData::Node::GD::Rating undef
+      WebService::GData::Node::GD::Recurrence undef
+      WebService::GData::Node::GD::RecurrenceException undef
+      WebService::GData::Node::GD::Region undef
+      WebService::GData::Node::GD::Reminder undef
+      WebService::GData::Node::GD::ResourceId undef
+      WebService::GData::Node::GD::Street undef
+      WebService::GData::Node::GD::StructuredPostalAddress undef
+      WebService::GData::Node::GD::Subregion undef
+      WebService::GData::Node::GD::Transparency undef
+      WebService::GData::Node::GD::Visibility undef
+      WebService::GData::Node::GD::When undef
+      WebService::GData::Node::GD::Where undef
+      WebService::GData::Node::GD::Who undef
+      WebService::GData::Node::GML undef
+      WebService::GData::Node::GML::Point undef
+      WebService::GData::Node::GML::Pos undef
+      WebService::GData::Node::GeoRSS undef
+      WebService::GData::Node::GeoRSS::Where undef
+      WebService::GData::Node::Media undef
+      WebService::GData::Node::Media::Category undef
+      WebService::GData::Node::Media::Content undef
+      WebService::GData::Node::Media::Credit undef
+      WebService::GData::Node::Media::Description undef
+      WebService::GData::Node::Media::Group undef
+      WebService::GData::Node::Media::GroupEntity 0.0102
+      WebService::GData::Node::Media::Keywords undef
+      WebService::GData::Node::Media::Player undef
+      WebService::GData::Node::Media::Rating undef
+      WebService::GData::Node::Media::Restriction undef
+      WebService::GData::Node::Media::Thumbnail undef
+      WebService::GData::Node::Media::Title undef
+      WebService::GData::Node::OpenSearch undef
+      WebService::GData::Node::OpenSearch::ItemsPerPage undef
+      WebService::GData::Node::OpenSearch::StartIndex undef
+      WebService::GData::Node::OpenSearch::TotalResults undef
+      WebService::GData::Node::PointEntity 0.0101
+      WebService::GData::Query 0.0205
+      WebService::GData::Serialize 0.0101
+      WebService::GData::Serialize::XML 0.0103
+      WebService::GData::YouTube 0.0206
+      WebService::GData::YouTube::Constants 1.02
+      WebService::GData::YouTube::Feed 0.0101
+      WebService::GData::YouTube::Feed::Comment 0.0104
+      WebService::GData::YouTube::Feed::Complaint 0.0101
+      WebService::GData::YouTube::Feed::Favorite 0.0101
+      WebService::GData::YouTube::Feed::Friend 0.0101
+      WebService::GData::YouTube::Feed::Playlist 0.0101
+      WebService::GData::YouTube::Feed::PlaylistLink 0.0103
+      WebService::GData::YouTube::Feed::UserProfile 0.0101
+      WebService::GData::YouTube::Feed::Video 0.0201
+      WebService::GData::YouTube::Feed::VideoMessage 0.0101
+      WebService::GData::YouTube::Query 0.0102
+      WebService::GData::YouTube::StagingServer undef
+      WebService::GData::YouTube::YT 0.0101
+      WebService::GData::YouTube::YT::AboutMe undef
+      WebService::GData::YouTube::YT::AccessControl undef
+      WebService::GData::YouTube::YT::Age undef
+      WebService::GData::YouTube::YT::AspectRatio undef
+      WebService::GData::YouTube::YT::Books undef
+      WebService::GData::YouTube::YT::Company undef
+      WebService::GData::YouTube::YT::CountHint undef
+      WebService::GData::YouTube::YT::Derived undef
+      WebService::GData::YouTube::YT::Duration undef
+      WebService::GData::YouTube::YT::FirstName undef
+      WebService::GData::YouTube::YT::Gender undef
+      WebService::GData::YouTube::YT::GroupEntity 0.0101
+      WebService::GData::YouTube::YT::Hobbies undef
+      WebService::GData::YouTube::YT::Hometown undef
+      WebService::GData::YouTube::YT::Incomplete undef
+      WebService::GData::YouTube::YT::LastName undef
+      WebService::GData::YouTube::YT::Location undef
+      WebService::GData::YouTube::YT::Media::Content undef
+      WebService::GData::YouTube::YT::Media::Credit undef
+      WebService::GData::YouTube::YT::Movies undef
+      WebService::GData::YouTube::YT::Music undef
+      WebService::GData::YouTube::YT::Occupation undef
+      WebService::GData::YouTube::YT::Position undef
+      WebService::GData::YouTube::YT::Private undef
+      WebService::GData::YouTube::YT::Rating undef
+      WebService::GData::YouTube::YT::Recorded undef
+      WebService::GData::YouTube::YT::Relationship undef
+      WebService::GData::YouTube::YT::School undef
+      WebService::GData::YouTube::YT::State undef
+      WebService::GData::YouTube::YT::Statistics undef
+      WebService::GData::YouTube::YT::Status undef
+      WebService::GData::YouTube::YT::Uploaded undef
+      WebService::GData::YouTube::YT::Username undef
+      WebService::GData::YouTube::YT::Videoid undef
+    requirements:
+      ExtUtils::MakeMaker 6.59
+      JSON 2
+      LWP 0
+      Test::Mock::LWP 0.05
+      Test::More 0
+      perl 5.008008
   XML-Atom-0.41
     pathname: M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
     provides:

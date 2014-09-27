@@ -293,10 +293,10 @@ requires 'Unicode::Normalize',              '1.18';
 #requires 'URL::Encode::XS',                 '0.03';
 requires 'Variable::Magic',                 '0.54';
 #requires 'version',                         '0.9909';
-#requires 'Web::Feed',                       '0.03';
-#requires 'WebService::GData',               '0.06';
-#requires 'WWW::Mechanize',                  '1.73';
-#requires 'WWW::Mechanize::TreeBuilder',     '1.10003';
+requires 'Web::Feed',                       '0.03';
+requires 'WebService::GData',               '0.06';
+requires 'WWW::Mechanize',                  '1.73';
+#requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # Moose
 #requires 'XML::Atom',                       '0.41'; #1
 requires 'XML::LibXML',                     '2.0116';  # it needs all kinds of parameters to build see build.sh and #2
 #requires 'XML::Feed',                       '0.52'; #1
