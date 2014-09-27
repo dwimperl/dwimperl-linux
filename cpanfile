@@ -220,55 +220,55 @@ requires 'Pod::Usage',                      '1.64';
 #requires 'PPI',                             '1.218'
 #requires 'PPIx::EditorTools::Outline',      '0.19';
 #requires 'PPIx::EditorTools',               '0.19';
-#requires 'PPIx::Regexp',                    '';
-#requires 'Probe::Perl',                     '';
-#requires 'Regexp::Common',                  '';
-#requires 'Regexp::Common::time',            '';
-#requires 'Scope::Upper',                    '';
+#requires 'PPIx::Regexp',                    '0.036';
+#requires 'Probe::Perl',                     '0.03';
+#requires 'Regexp::Common',                  '2013031301';
+#requires 'Regexp::Common::time',            '0.07';
+#requires 'Scope::Upper',                    '0.25';
 requires 'Socket',                          '2.015';
 requires 'Socket6',                         '0.25';
-#requires 'Software::License',               '';
-#requires 'Sort::Versions',                  '';
-#requires 'Spreadsheet::ParseExcel::Simple
-#requires 'Spreadsheet::WriteExcel
-#requires 'Spreadsheet::WriteExcel::Simple
-#requires 'Starman',                    '0.4010';
-requires 'Storable',                   '2.51';
-#requires 'SVG',                        '2.59';
-requires 'Template',                   '2.26';
-requires 'Template::Tiny',             '1.12';
-requires 'Term::ANSIColor',            '4.03';
-requires 'Term::Cap',                  '1.16';
-requires 'Test::Builder',              '1.001006';
-requires 'Test::Class',                '0.46';
-#requires 'Test::Class::Most',          '0.08';
-requires 'Test::CleanNamespaces',      '0.16';
-requires 'Test::Deep',                  '0.113';
-#requires 'Test::Differences',           '0.62';  #1
-requires 'Test::Exception',             '0.35';
-requires 'Test::Fatal',                 '0.013';
-requires 'Test::Memory::Cycle',         '1.04';
-#requires 'Test::MockObject',           '1.20140408'; #1
-requires 'Test::MockTime',              '0.13';
-#requires 'Test::Mock::LWP',            '0.08';
-#requires 'Test::MockModule',           '0.05';
-requires 'Test::More',                  '1.001006';
-#requires 'Test::Most',                  '0.34';  # 1
-requires 'Test::NoWarnings',            '1.04';
-requires 'Test::Output',                '1.03';
-requires 'Test::Script',                '1.07';
-requires 'Test::Without::Module',       '0.18';
-#requires 'Test::WWW::Mechanize',        '1.44';
-#requires 'Test::WWW::Mechanize::PSGI',  '0.35';
-requires 'Test::Pod',                   '1.48';
-requires 'Test::Pod::Coverage',         '1.10';
-requires 'Test::Requires',              '0.08';
-requires 'Test::LongString',            '0.16';
-#requires 'Test::Ping',                  '0.17'; #1
-requires 'Test::Harness',               '3.33';
-requires 'Test::Trap',                  '0.2.4';
-requires 'Test::Warn',                  '0.30';
-#requires 'Test::Code::TidyAll',         '0.20';
+#requires 'Software::License',               '0.103010';
+#requires 'Sort::Versions',                  '1.60';
+#requires 'Spreadsheet::ParseExcel::Simple', '1.04';
+#requires 'Spreadsheet::WriteExcel',         '2.40';
+#requires 'Spreadsheet::WriteExcel::Simple', '1.04';
+#requires 'Starman',                         '0.4010';
+requires 'Storable',                        '2.51';
+#requires 'SVG',                             '2.59';
+requires 'Template',                        '2.26';
+requires 'Template::Tiny',                  '1.12';
+requires 'Term::ANSIColor',                 '4.03';
+requires 'Term::Cap',                       '1.16';
+requires 'Test::Builder',                   '1.001006';
+requires 'Test::Class',                     '0.46';
+#requires 'Test::Class::Most',               '0.08';
+requires 'Test::CleanNamespaces',           '0.16';
+requires 'Test::Deep',                       '0.113';
+#requires 'Test::Differences',                '0.62';  #1
+requires 'Test::Exception',                  '0.35';
+requires 'Test::Fatal',                      '0.013';
+requires 'Test::Memory::Cycle',              '1.04';
+#requires 'Test::MockObject',                '1.20140408'; #1
+requires 'Test::MockTime',                   '0.13';
+#requires 'Test::Mock::LWP',                 '0.08';
+#requires 'Test::MockModule',                '0.05';
+requires 'Test::More',                       '1.001006';
+#requires 'Test::Most',                       '0.34';  # 1
+requires 'Test::NoWarnings',                 '1.04';
+requires 'Test::Output',                     '1.03';
+requires 'Test::Script',                     '1.07';
+requires 'Test::Without::Module',            '0.18';
+#requires 'Test::WWW::Mechanize',             '1.44';
+#requires 'Test::WWW::Mechanize::PSGI',       '0.35';
+requires 'Test::Pod',                        '1.48';
+requires 'Test::Pod::Coverage',              '1.10';
+requires 'Test::Requires',                   '0.08';
+requires 'Test::LongString',                 '0.16';
+#requires 'Test::Ping',                       '0.17'; #1
+requires 'Test::Harness',                    '3.33';
+requires 'Test::Trap',                       '0.2.4';
+requires 'Test::Warn',                       '0.30';
+#requires 'Test::Code::TidyAll',              '0.20';
 requires 'Test::Perl::Critic',              '1.02';
 #requires 'Term::ReadLine',                  '1.14';
 #requires 'Term::ProgressBar::Simple',       '0.03';
