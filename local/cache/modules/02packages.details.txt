@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3593
-Last-Updated: Sat Sep 27 11:48:00 2014
+Line-Count:   3600
+Last-Updated: Sat Sep 27 12:05:00 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3522,8 +3522,15 @@ XML::LibXML::XPathContext            2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.
 XML::LibXML::XPathExpression         2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
 XML::LibXML::_SAXParser              2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
 XML::NamespaceSupport                  1.11  P/PE/PERIGRIN/XML-NamespaceSupport-1.11.tar.gz
+XML::Parser                            2.41  T/TO/TODDR/XML-Parser-2.41.tar.gz
+XML::Parser::Expat                     2.41  T/TO/TODDR/XML-Parser-2.41.tar.gz
 XML::Parser::Lite::Tree                0.14  I/IA/IAMCAL/XML-Parser-Lite-Tree-0.14.tar.gz
 XML::Parser::LiteCopy                 0.720  I/IA/IAMCAL/XML-Parser-Lite-Tree-0.14.tar.gz
+XML::Parser::Style::Debug             undef  T/TO/TODDR/XML-Parser-2.41.tar.gz
+XML::Parser::Style::Objects           undef  T/TO/TODDR/XML-Parser-2.41.tar.gz
+XML::Parser::Style::Stream            undef  T/TO/TODDR/XML-Parser-2.41.tar.gz
+XML::Parser::Style::Subs              undef  T/TO/TODDR/XML-Parser-2.41.tar.gz
+XML::Parser::Style::Tree              undef  T/TO/TODDR/XML-Parser-2.41.tar.gz
 XML::SAX                               0.99  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::Base                         1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
 XML::SAX::Base::NoHandler              1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz

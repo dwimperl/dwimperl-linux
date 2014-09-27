@@ -99,6 +99,20 @@ wget http://zlib.net/zlib-1.2.8.tar.gz
 Update the ZLIB variable in build.sh
 
 
+expat
+-----
+
+XML::Parser needs expat.
+
+Visit http://sourceforge.net/projects/expat/
+and http://sourceforge.net/projects/expat/files/expat/ to see what is the latest then update
+the EXPAT variable in build.sh
+
+```
+cd src
+wget http://sourceforge.net/projects/expat/files/expat/2.1.0/expat-2.1.0.tar.gz
+```
+
 
 Upgrade cpanm used for installing cpanm
 ---------------------------------------

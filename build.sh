@@ -22,6 +22,7 @@ fi
 OPENSSL=openssl-1.0.1i
 LIBXML2=libxml2-2.9.1
 ZLIB=zlib-1.2.8
+EXPAT=expat-2.1.0
 
 # If you want to build DWIM Perl based on an earlier version
 # the script will download that version from http://dwimperl.com/download
@@ -138,6 +139,29 @@ case $1 in
       make install
   ;;
 
+  expat)
+      cd $BUILD_HOME
+      tar xzf src/$EXPAT.tar.gz
+      cd $EXPAT
+      ./configure --prefix $PREFIX_C
+      make
+      make install
+  ;;
+## If you ever happen to want to link against installed libraries
+## in a given directory, LIBDIR, you must either use libtool, and
+## specify the full pathname of the library, or use the `-LLIBDIR'
+## flag during linking and do at least one of the following:
+##    - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+##      during execution
+##    - add LIBDIR to the `LD_RUN_PATH' environment variable
+##      during linking
+##    - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+##    - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+## 
+## See any operating system documentation about shared libraries for
+## more information, such as the ld(1) and ld.so(8) manual pages.
+
+
   get_base_perl)
       wget $DWIMPERL_COM/$BASE_DWIMPERL_VERSION.tar.gz
       tar -mxzf $BASE_DWIMPERL_VERSION.tar.gz
@@ -152,6 +176,10 @@ case $1 in
       #export XMLPREFIX=$PREFIX_C
       #echo $XMLPREFIX
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose  --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
+  ;;
+
+  xml-parser)
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose --configre-args = "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
   ;;
 
   try)
