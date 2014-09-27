@@ -199,7 +199,8 @@ case $1 in
       export OPENSSL_PREFIX=$PREFIX_C
 
       export XMLPREFIX=$PREFIX_C
-      export PERL5OPT="-MDWIM"
+      #export PERL5OPT="-MDWIM"
+      source $BUILD_HOME/dwim.sh
 
       cd $BUILD_HOME
       HARNESS_OPTIONS=j3
