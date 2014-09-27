@@ -175,14 +175,14 @@ requires 'MooX::Options',              '4.010';
 requires 'Module::Build::ModuleInfo',       '0.4210';
 requires 'Module::CoreList',                '5.20140920';
 requires 'Module::Metadata',                '1.000024';
-#requires 'Module::Version',                '';
-requires 'Mojolicious',                '5.44';
-#requires 'namespace::autoclean';
-requires 'Net::Config',                '1.14';
-requires 'Net::DNS',                    '0.80';
-requires 'Net::SSLeay',                 '1.14';
-#requires 'Net::Ping',                   '2.41';
-#requires 'Net::Traceroute',             '1.15';
+requires 'Module::Version',                 '0.12';
+requires 'Mojolicious',                     '5.44';
+requires 'namespace::autoclean',            '0.20';
+requires 'Net::Config',                     '1.14';
+requires 'Net::DNS',                        '0.80';
+requires 'Net::SSLeay',                     '1.14';
+#requires 'Net::Ping',                       '2.41';
+#requires 'Net::Traceroute',                 '1.15';
 #requires 'ORLite
 #requires 'ORLite::Migrate
 #requires 'Params::Util
