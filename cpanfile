@@ -218,8 +218,8 @@ requires 'Pod::Perldoc',                    '3.24';
 requires 'POD2::Base',                      '0.043';
 #requires 'Portable',                        '1.22';
 requires 'PPI',                             '1.218';
-requires 'PPIx::EditorTools::Outline',      '0.18';
-requires 'PPIx::EditorTools',               '0.19';
+#requires 'PPIx::EditorTools::Outline',      '0.18'; #1
+#requires 'PPIx::EditorTools',               '0.19'; #1
 requires 'PPIx::Regexp',                    '0.036';
 requires 'Probe::Perl',                     '0.03';
 requires 'Regexp::Common',                  '2013031301';
@@ -294,7 +294,7 @@ requires 'Unicode::Normalize',              '1.18';
 requires 'Variable::Magic',                 '0.54';
 #requires 'version',                         '0.9909';
 requires 'Web::Feed',                       '0.03';
-requires 'WebService::GData',               '0.06';
+#requires 'WebService::GData',               '0.06'; #1
 requires 'WWW::Mechanize',                  '1.73';
 #requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # Moose
 #requires 'XML::Atom',                       '0.41'; #1
