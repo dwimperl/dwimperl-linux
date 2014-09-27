@@ -52,7 +52,7 @@ DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_VERSION-$ARCHITECTU
 BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_BASE_VERSION-$ARCHITECTURE
 echo DWIMPERL_VERSION=$DWIMPERL_VERSION
 BUILD_TMP=/tmp
-ls -l $BUILD_TMP
+#ls -l $BUILD_TMP
 
 ROOT=$BUILD_TMP/dwim
 echo ROOT=$ROOT
@@ -67,9 +67,9 @@ ORIGINAL_PATH=$PATH
 #BACKUP=$BUILD_TMP/dwimperl_backup
 
 echo SOURCE_HOME=$SOURCE_HOME
-ls -l $SOURCE_HOME
+#ls -l $SOURCE_HOME
 cp $SOURCE_HOME/dwim.sh $ROOT/
-ls -l $ROOT
+#ls -l $ROOT
 
 # prepare the local metadb for cpanm
 # without this cpanm would complain that it cannot find the modules in the
@@ -199,8 +199,8 @@ case $1 in
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Portable
       #export PERL5OPT="-MPortable $PERL5OPT"
       #cd $SOURCE_HOME
-      echo $ROOT
-      ls -l $ROOT
+      #echo $ROOT
+      #ls -l $ROOT
       source $ROOT/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Class::Singleton
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose DateTime
