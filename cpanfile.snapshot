@@ -18,6 +18,15 @@ DISTRIBUTIONS
       File::Glob 0
       List::Util 0
       Test::More 0.94
+  Algorithm-C3-0.10
+    pathname: H/HA/HAARG/Algorithm-C3-0.10.tar.gz
+    provides:
+      Algorithm::C3 0.10
+    requirements:
+      Carp 0.01
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
+      perl 5.006
   Algorithm-Diff-1.1902
     pathname: T/TY/TYEMQ/Algorithm-Diff-1.1902.tar.gz
     provides:
@@ -336,6 +345,58 @@ DISTRIBUTIONS
       Test::Deep 0.11
       Test::More 0.98
       if 0
+  CGI-FormBuilder-3.09
+    pathname: N/NW/NWIGER/CGI-FormBuilder-3.09.tgz
+    provides:
+      CGI::FormBuilder 3.09
+      CGI::FormBuilder::Field 3.09
+      CGI::FormBuilder::Field::button 3.09
+      CGI::FormBuilder::Field::checkbox 3.09
+      CGI::FormBuilder::Field::date 3.09
+      CGI::FormBuilder::Field::datetime 3.09
+      CGI::FormBuilder::Field::datetime_local 3.09
+      CGI::FormBuilder::Field::email 3.09
+      CGI::FormBuilder::Field::file 3.09
+      CGI::FormBuilder::Field::hidden 3.09
+      CGI::FormBuilder::Field::image 3.09
+      CGI::FormBuilder::Field::number 3.09
+      CGI::FormBuilder::Field::password 3.09
+      CGI::FormBuilder::Field::radio 3.09
+      CGI::FormBuilder::Field::select 3.09
+      CGI::FormBuilder::Field::static 3.09
+      CGI::FormBuilder::Field::submit 3.09
+      CGI::FormBuilder::Field::text 3.09
+      CGI::FormBuilder::Field::textarea 3.09
+      CGI::FormBuilder::Field::time 3.09
+      CGI::FormBuilder::Field::url 3.09
+      CGI::FormBuilder::Messages 3.09
+      CGI::FormBuilder::Messages::base 3.09
+      CGI::FormBuilder::Messages::default 3.09
+      CGI::FormBuilder::Messages::locale 3.09
+      CGI::FormBuilder::Multi 3.09
+      CGI::FormBuilder::Source 3.09
+      CGI::FormBuilder::Source::File 3.09
+      CGI::FormBuilder::Template 3.09
+      CGI::FormBuilder::Template::Builtin 3.09
+      CGI::FormBuilder::Template::CGI_SSI 3.09
+      CGI::FormBuilder::Template::Div 3.09
+      CGI::FormBuilder::Template::Fast 3.09
+      CGI::FormBuilder::Template::HTML 3.09
+      CGI::FormBuilder::Template::TT2 3.09
+      CGI::FormBuilder::Template::Text 3.09
+      CGI::FormBuilder::Test 3.09
+      CGI::FormBuilder::Util 3.09
+    requirements:
+      CGI 0
+      ExtUtils::MakeMaker 0
+  CGI-FormBuilder-Source-Perl-0.01
+    pathname: E/EV/EVDB/CGI-FormBuilder-Source-Perl-0.01.tar.gz
+    provides:
+      CGI::FormBuilder::Source::Perl 0.01
+    requirements:
+      CGI::FormBuilder 0
+      ExtUtils::MakeMaker 0
+      File::Slurp 0
   CGI-Simple-1.113
     pathname: A/AN/ANDYA/CGI-Simple-1.113.tar.gz
     provides:
@@ -556,6 +617,38 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::Exception 0
+  Class-Accessor-0.34
+    pathname: K/KA/KASEI/Class-Accessor-0.34.tar.gz
+    provides:
+      Class::Accessor 0.34
+      Class::Accessor::Fast 0.34
+      Class::Accessor::Faster 0.34
+    requirements:
+      ExtUtils::MakeMaker 0
+      base 1.01
+  Class-Accessor-Chained-0.01
+    pathname: R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
+    provides:
+      Class::Accessor::Chained 0.01
+      Class::Accessor::Chained::Fast undef
+    requirements:
+      Class::Accessor 0
+      Test::More 0
+  Class-Accessor-Grouped-0.10011
+    pathname: R/RI/RIBASUSHI/Class-Accessor-Grouped-0.10011.tar.gz
+    provides:
+      Class::Accessor::Grouped 0.10011
+    requirements:
+      Carp 0
+      Class::XSAccessor 1.19
+      ExtUtils::CBuilder 0.27
+      ExtUtils::MakeMaker 6.59
+      Module::Runtime 0.012
+      Scalar::Util 0
+      Sub::Name 0.05
+      Test::Exception 0.31
+      Test::More 0.88
+      perl 5.006
   Class-Adapter-1.08
     pathname: A/AD/ADAMK/Class-Adapter-1.08.tar.gz
     provides:
@@ -567,6 +660,29 @@ DISTRIBUTIONS
       Scalar::Util 1.10
       Test::More 0.47
       perl 5.005
+  Class-C3-0.27
+    pathname: H/HA/HAARG/Class-C3-0.27.tar.gz
+    provides:
+      Class::C3 0.27
+    requirements:
+      Algorithm::C3 0.07
+      ExtUtils::CBuilder 0.27
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      perl 5.006
+  Class-C3-Componentised-1.001000
+    pathname: F/FR/FREW/Class-C3-Componentised-1.001000.tar.gz
+    provides:
+      Class::C3::Componentised 1.001000
+      Class::C3::Componentised::ApplyHooks undef
+    requirements:
+      Carp 0
+      Class::C3 0.20
+      Class::Inspector 0
+      ExtUtils::MakeMaker 6.42
+      MRO::Compat 0
+      Test::Exception 0
+      perl 5.006002
   Class-Data-Inheritable-0.08
     pathname: T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
     provides:
@@ -642,6 +758,15 @@ DISTRIBUTIONS
     requirements:
       Carp 0
       ExtUtils::MakeMaker 6.17
+      strict 0
+      warnings 0
+  Class-Unload-0.08
+    pathname: I/IL/ILMARI/Class-Unload-0.08.tar.gz
+    provides:
+      Class::Unload 0.08
+    requirements:
+      Class::Inspector 0
+      ExtUtils::MakeMaker 6.30
       strict 0
       warnings 0
   Class-XSAccessor-1.19
@@ -804,6 +929,16 @@ DISTRIBUTIONS
       perl v5.8.1
       strict 0
       utf8 0
+  Context-Preserve-0.01
+    pathname: J/JR/JROCKWAY/Context-Preserve-0.01.tar.gz
+    provides:
+      Context::Preserve 0.01
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Test::Exception 0
+      Test::More 0
+      ok 0
   Cpanel-JSON-XS-3.0104
     pathname: R/RU/RURBAN/Cpanel-JSON-XS-3.0104.tar.gz
     provides:
@@ -951,6 +1086,209 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.48
       Test::Simple 0.90
       perl 5.008
+  DBIx-Class-0.082800
+    pathname: R/RI/RIBASUSHI/DBIx-Class-0.082800.tar.gz
+    provides:
+      DBIx::Class 0.082800
+      DBIx::Class::AccessorGroup undef
+      DBIx::Class::Admin undef
+      DBIx::Class::CDBICompat undef
+      DBIx::Class::Core undef
+      DBIx::Class::Cursor undef
+      DBIx::Class::DB undef
+      DBIx::Class::Exception undef
+      DBIx::Class::FilterColumn undef
+      DBIx::Class::InflateColumn undef
+      DBIx::Class::InflateColumn::DateTime undef
+      DBIx::Class::InflateColumn::File undef
+      DBIx::Class::Optional::Dependencies undef
+      DBIx::Class::Ordered undef
+      DBIx::Class::PK undef
+      DBIx::Class::PK::Auto undef
+      DBIx::Class::Relationship undef
+      DBIx::Class::Relationship::Base undef
+      DBIx::Class::ResultClass::HashRefInflator undef
+      DBIx::Class::ResultSet undef
+      DBIx::Class::ResultSetColumn undef
+      DBIx::Class::ResultSetManager undef
+      DBIx::Class::ResultSource undef
+      DBIx::Class::ResultSource::Table undef
+      DBIx::Class::ResultSource::View undef
+      DBIx::Class::ResultSourceHandle undef
+      DBIx::Class::ResultSourceProxy::Table undef
+      DBIx::Class::Row undef
+      DBIx::Class::SQLMaker undef
+      DBIx::Class::SQLMaker::LimitDialects undef
+      DBIx::Class::SQLMaker::OracleJoins undef
+      DBIx::Class::Schema undef
+      DBIx::Class::Schema::Versioned undef
+      DBIx::Class::Serialize::Storable undef
+      DBIx::Class::StartupCheck undef
+      DBIx::Class::Storage undef
+      DBIx::Class::Storage::DBI undef
+      DBIx::Class::Storage::DBI::ACCESS undef
+      DBIx::Class::Storage::DBI::ADO undef
+      DBIx::Class::Storage::DBI::ADO::MS_Jet undef
+      DBIx::Class::Storage::DBI::ADO::MS_Jet::Cursor undef
+      DBIx::Class::Storage::DBI::ADO::Microsoft_SQL_Server undef
+      DBIx::Class::Storage::DBI::ADO::Microsoft_SQL_Server::Cursor undef
+      DBIx::Class::Storage::DBI::AutoCast undef
+      DBIx::Class::Storage::DBI::Cursor undef
+      DBIx::Class::Storage::DBI::DB2 undef
+      DBIx::Class::Storage::DBI::Firebird undef
+      DBIx::Class::Storage::DBI::Firebird::Common undef
+      DBIx::Class::Storage::DBI::IdentityInsert undef
+      DBIx::Class::Storage::DBI::Informix undef
+      DBIx::Class::Storage::DBI::InterBase undef
+      DBIx::Class::Storage::DBI::MSSQL undef
+      DBIx::Class::Storage::DBI::NoBindVars undef
+      DBIx::Class::Storage::DBI::ODBC undef
+      DBIx::Class::Storage::DBI::ODBC::ACCESS undef
+      DBIx::Class::Storage::DBI::ODBC::DB2_400_SQL undef
+      DBIx::Class::Storage::DBI::ODBC::Firebird undef
+      DBIx::Class::Storage::DBI::ODBC::Microsoft_SQL_Server undef
+      DBIx::Class::Storage::DBI::ODBC::SQL_Anywhere undef
+      DBIx::Class::Storage::DBI::Oracle undef
+      DBIx::Class::Storage::DBI::Oracle::Generic undef
+      DBIx::Class::Storage::DBI::Oracle::WhereJoins undef
+      DBIx::Class::Storage::DBI::Pg undef
+      DBIx::Class::Storage::DBI::Replicated undef
+      DBIx::Class::Storage::DBI::Replicated::Balancer undef
+      DBIx::Class::Storage::DBI::Replicated::Balancer::First undef
+      DBIx::Class::Storage::DBI::Replicated::Balancer::Random undef
+      DBIx::Class::Storage::DBI::Replicated::Pool undef
+      DBIx::Class::Storage::DBI::Replicated::Replicant undef
+      DBIx::Class::Storage::DBI::Replicated::WithDSN undef
+      DBIx::Class::Storage::DBI::SQLAnywhere undef
+      DBIx::Class::Storage::DBI::SQLAnywhere::Cursor undef
+      DBIx::Class::Storage::DBI::SQLite undef
+      DBIx::Class::Storage::DBI::Sybase undef
+      DBIx::Class::Storage::DBI::Sybase::ASE undef
+      DBIx::Class::Storage::DBI::Sybase::ASE::NoBindVars undef
+      DBIx::Class::Storage::DBI::Sybase::FreeTDS undef
+      DBIx::Class::Storage::DBI::Sybase::MSSQL undef
+      DBIx::Class::Storage::DBI::Sybase::Microsoft_SQL_Server undef
+      DBIx::Class::Storage::DBI::Sybase::Microsoft_SQL_Server::NoBindVars undef
+      DBIx::Class::Storage::DBI::UniqueIdentifier undef
+      DBIx::Class::Storage::DBI::mysql undef
+      DBIx::Class::Storage::Statistics undef
+      DBIx::Class::Storage::TxnScopeGuard undef
+      DBIx::Class::UTF8Columns undef
+      SQL::Translator::Parser::DBIx::Class 1.10
+      SQL::Translator::Producer::DBIx::Class::File 0.1
+    requirements:
+      Class::Accessor::Grouped 0.10010
+      Class::C3::Componentised 1.0009
+      Class::Inspector 1.24
+      Config::Any 0.20
+      Context::Preserve 0.01
+      DBD::SQLite 1.29
+      DBI 1.57
+      Data::Dumper::Concise 2.020
+      Data::Page 2.00
+      Devel::GlobalDestruction 0.09
+      ExtUtils::MakeMaker 6.59
+      File::Temp 0.22
+      Hash::Merge 0.12
+      List::Util 1.16
+      MRO::Compat 0.12
+      Module::Find 0.07
+      Moo 1.004005
+      Package::Stash 0.28
+      Path::Class 0.18
+      SQL::Abstract 1.79
+      Scope::Guard 0.03
+      Sub::Name 0.04
+      Test::Deep 0.101
+      Test::Exception 0.31
+      Test::More 0.94
+      Test::Warn 0.21
+      Text::Balanced 2.00
+      Try::Tiny 0.07
+      namespace::clean 0.24
+      perl 5.008001
+  DBIx-Class-IntrospectableM2M-0.001001
+    pathname: G/GR/GRODITI/DBIx-Class-IntrospectableM2M-0.001001.tar.gz
+    provides:
+      DBIx::Class::IntrospectableM2M 0.001001
+    requirements:
+      DBIx::Class 0
+      ExtUtils::MakeMaker 6.98
+      Test::More 0
+  DBIx-Class-Schema-Loader-0.07042
+    pathname: I/IL/ILMARI/DBIx-Class-Schema-Loader-0.07042.tar.gz
+    provides:
+      DBIx::Class::Schema::Loader 0.07042
+      DBIx::Class::Schema::Loader::Base 0.07042
+      DBIx::Class::Schema::Loader::DBI 0.07042
+      DBIx::Class::Schema::Loader::DBI::ADO 0.07042
+      DBIx::Class::Schema::Loader::DBI::ADO::MS_Jet 0.07042
+      DBIx::Class::Schema::Loader::DBI::ADO::Microsoft_SQL_Server 0.07042
+      DBIx::Class::Schema::Loader::DBI::Component::QuotedDefault 0.07042
+      DBIx::Class::Schema::Loader::DBI::DB2 0.07042
+      DBIx::Class::Schema::Loader::DBI::Firebird 0.07042
+      DBIx::Class::Schema::Loader::DBI::Informix 0.07042
+      DBIx::Class::Schema::Loader::DBI::InterBase 0.07042
+      DBIx::Class::Schema::Loader::DBI::MSSQL 0.07042
+      DBIx::Class::Schema::Loader::DBI::ODBC 0.07042
+      DBIx::Class::Schema::Loader::DBI::ODBC::ACCESS 0.07042
+      DBIx::Class::Schema::Loader::DBI::ODBC::Firebird 0.07042
+      DBIx::Class::Schema::Loader::DBI::ODBC::Microsoft_SQL_Server 0.07042
+      DBIx::Class::Schema::Loader::DBI::ODBC::SQL_Anywhere 0.07042
+      DBIx::Class::Schema::Loader::DBI::Oracle 0.07042
+      DBIx::Class::Schema::Loader::DBI::Pg 0.07042
+      DBIx::Class::Schema::Loader::DBI::SQLAnywhere 0.07042
+      DBIx::Class::Schema::Loader::DBI::SQLite 0.07042
+      DBIx::Class::Schema::Loader::DBI::Sybase 0.07042
+      DBIx::Class::Schema::Loader::DBI::Sybase::Common 0.07042
+      DBIx::Class::Schema::Loader::DBI::Sybase::Microsoft_SQL_Server 0.07042
+      DBIx::Class::Schema::Loader::DBI::Writing 0.07042
+      DBIx::Class::Schema::Loader::DBI::mysql 0.07042
+      DBIx::Class::Schema::Loader::DBObject undef
+      DBIx::Class::Schema::Loader::DBObject::Informix undef
+      DBIx::Class::Schema::Loader::DBObject::Sybase undef
+      DBIx::Class::Schema::Loader::Optional::Dependencies undef
+      DBIx::Class::Schema::Loader::RelBuilder 0.07042
+      DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_040 0.07042
+      DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_05 0.07042
+      DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_06 0.07042
+      DBIx::Class::Schema::Loader::RelBuilder::Compat::v0_07 0.07042
+      DBIx::Class::Schema::Loader::Table undef
+      DBIx::Class::Schema::Loader::Table::Informix undef
+      DBIx::Class::Schema::Loader::Table::Sybase undef
+    requirements:
+      Carp::Clan 0
+      Class::Accessor::Grouped 0.10008
+      Class::C3::Componentised 1.0008
+      Class::Inspector 1.27
+      Class::Unload 0.07
+      DBD::SQLite 1.29
+      DBIx::Class 0.08127
+      DBIx::Class::IntrospectableM2M 0
+      Data::Dump 1.06
+      Digest::MD5 2.36
+      Exporter 5.63
+      ExtUtils::MakeMaker 6.59
+      File::Path 2.07
+      File::Temp 0.16
+      Hash::Merge 0.12
+      Lingua::EN::Inflect::Number 1.1
+      Lingua::EN::Inflect::Phrase 0.15
+      Lingua::EN::Tagger 0.23
+      List::MoreUtils 0.32
+      MRO::Compat 0.09
+      Scope::Guard 0.20
+      String::CamelCase 0.02
+      String::ToIdentifier::EN 0.05
+      Sub::Name 0
+      Test::Deep 0.107
+      Test::Differences 0.60
+      Test::Exception 0.31
+      Test::More 0.94
+      Test::Warn 0.21
+      Try::Tiny 0
+      namespace::clean 0.23
+      perl 5.008001
   DBIx-Connector-0.53
     pathname: D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
     provides:
@@ -1282,6 +1620,14 @@ DISTRIBUTIONS
     provides:
       Data::OptList 0.109
     requirements:
+  Data-Page-2.02
+    pathname: L/LB/LBROCARD/Data-Page-2.02.tar.gz
+    provides:
+      Data::Page 2.02
+    requirements:
+      Class::Accessor::Chained::Fast 0
+      Test::Exception 0
+      Test::More 0
   Data-Record-0.02
     pathname: O/OV/OVID/Data-Record-0.02.tar.gz
     provides:
@@ -2267,6 +2613,14 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0.47
       perl 5.004
+  Devel-Caller-2.06
+    pathname: R/RC/RCLAMP/Devel-Caller-2.06.tar.gz
+    provides:
+      Devel::Caller 2.06
+    requirements:
+      ExtUtils::MakeMaker 0
+      PadWalker 0.08
+      Test::More 0
   Devel-CheckBin-0.02
     pathname: T/TO/TOKUHIROM/Devel-CheckBin-0.02.tar.gz
     provides:
@@ -3355,6 +3709,14 @@ DISTRIBUTIONS
       bytes 0
       strict 0
       warnings 0
+  Hash-Merge-0.200
+    pathname: R/RE/REHSACK/Hash-Merge-0.200.tar.gz
+    provides:
+      Hash::Merge 0.200
+    requirements:
+      Clone 0
+      ExtUtils::MakeMaker 0
+      perl 5.008001
   Hash-Merge-Simple-0.051
     pathname: R/RO/ROKR/Hash-Merge-Simple-0.051.tar.gz
     provides:
@@ -3620,6 +3982,17 @@ DISTRIBUTIONS
     provides:
       Lexical::SealRequireHints 0.007
     requirements:
+  Lingua-EN-FindNumber-1.30
+    pathname: N/NE/NEILB/Lingua-EN-FindNumber-1.30.tar.gz
+    provides:
+      Lingua::EN::FindNumber 1.30
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      Lingua::EN::Words2Nums 0
+      base 0
+      strict 0
+      warnings 0
   Lingua-EN-Inflect-1.895
     pathname: D/DC/DCONWAY/Lingua-EN-Inflect-1.895.tar.gz
     provides:
@@ -3627,6 +4000,124 @@ DISTRIBUTIONS
     requirements:
       Test::More 0
       version 0
+  Lingua-EN-Inflect-Number-1.11
+    pathname: N/NE/NEILB/Lingua-EN-Inflect-Number-1.11.tar.gz
+    provides:
+      Lingua::EN::Inflect::Number 1.11
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      Lingua::EN::Inflect 0
+      strict 0
+      warnings 0
+  Lingua-EN-Inflect-Phrase-0.18
+    pathname: R/RK/RKITOVER/Lingua-EN-Inflect-Phrase-0.18.tar.gz
+    provides:
+      Lingua::EN::Inflect::Phrase 0.18
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Temp 0
+      Lingua::EN::FindNumber 0
+      Lingua::EN::Inflect 0
+      Lingua::EN::Inflect::Number 0
+      Lingua::EN::Number::IsOrdinal 0
+      Lingua::EN::Tagger 0
+      Test::More 0
+      Test::NoWarnings 0
+      strict 0
+      warnings 0
+  Lingua-EN-Number-IsOrdinal-0.04
+    pathname: R/RK/RKITOVER/Lingua-EN-Number-IsOrdinal-0.04.tar.gz
+    provides:
+      Lingua::EN::Number::IsOrdinal 0.04
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Temp 0
+      Lingua::EN::FindNumber 0
+      Test::Fatal 0
+      Test::More 0
+      Try::Tiny 0
+      strict 0
+      warnings 0
+  Lingua-EN-Tagger-0.24
+    pathname: A/AC/ACOBURN/Lingua-EN-Tagger-0.24.tar.gz
+    provides:
+      Lingua::EN::Tagger 0.24
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Spec 0.84
+      HTML::Parser 3.45
+      HTML::Tagset 3.20
+      Lingua::Stem 0.81
+      Memoize 1.01
+      Memoize::ExpireLRU 0.55
+      Storable 2.10
+      perl 5.008001
+  Lingua-EN-Words2Nums-0.18
+    pathname: J/JO/JOEY/Lingua-EN-Words2Nums-0.18.tar.gz
+    provides:
+      Lingua::EN::Words2Nums undef
+    requirements:
+      ExtUtils::MakeMaker 0
+  Lingua-PT-Stemmer-0.01
+    pathname: X/XE/XERN/Lingua-PT-Stemmer-0.01.tar.gz
+    provides:
+      Lingua::GL::Stemmer 0.01
+      Lingua::PT::Stemmer 0.01
+    requirements:
+      ExtUtils::MakeMaker 0
+  Lingua-Stem-0.84
+    pathname: S/SN/SNOWHARE/Lingua-Stem-0.84.tar.gz
+    provides:
+      Lingua::Stem 0.84
+      Lingua::Stem::AutoLoader 1.02
+      Lingua::Stem::Da 1.01
+      Lingua::Stem::De 1.01
+      Lingua::Stem::En 2.16
+      Lingua::Stem::EnBroken 2.13
+      Lingua::Stem::Gl 1.02
+      Lingua::Stem::No 1.01
+      Lingua::Stem::Pt 1.01
+      Lingua::Stem::Sv 1.01
+    requirements:
+      Carp 0
+      Lingua::GL::Stemmer 0
+      Lingua::PT::Stemmer 0
+      Lingua::Stem::Fr 0.02
+      Lingua::Stem::It 0
+      Lingua::Stem::Ru 0
+      Lingua::Stem::Snowball::Da 1.01
+      Lingua::Stem::Snowball::No 1.00
+      Lingua::Stem::Snowball::Se 1.01
+      Text::German 0
+  Lingua-Stem-Fr-0.02
+    pathname: S/SD/SDP/Lingua-Stem-Fr-0.02.tar.gz
+    provides:
+      Lingua::Stem::Fr 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+  Lingua-Stem-It-0.02
+    pathname: A/AC/ACALPINI/Lingua-Stem-It-0.02.tar.gz
+    provides:
+      Lingua::Stem::It 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+  Lingua-Stem-Ru-0.01
+    pathname: A/AL/ALGDR/Lingua-Stem-Ru-0.01.tar.gz
+    provides:
+      Lingua::Stem::Ru 0.01
+    requirements:
+      ExtUtils::MakeMaker 0
+  Lingua-Stem-Snowball-Da-1.01
+    pathname: C/CI/CINE/Lingua-Stem-Snowball-Da-1.01.tar.gz
+    provides:
+      Lingua::Stem::Snowball::Da 1.01
+    requirements:
+      ExtUtils::MakeMaker 0
   List-AllUtils-0.08
     pathname: D/DR/DROLSKY/List-AllUtils-0.08.tar.gz
     provides:
@@ -3926,6 +4417,13 @@ DISTRIBUTIONS
       Test::More 0.62
       Test::NoWarnings 0.084
       perl 5.006
+  Memoize-ExpireLRU-0.55
+    pathname: B/BP/BPOWERS/Memoize-ExpireLRU-0.55.tar.gz
+    provides:
+      Memoize::ExpireLRU 0.55
+    requirements:
+      ExtUtils::MakeMaker 0
+      Memoize 0.52
   Meta-Builder-0.003
     pathname: E/EX/EXODIST/Meta-Builder-0.003.tar.gz
     provides:
@@ -4877,6 +5375,25 @@ DISTRIBUTIONS
       parent 0.223
       strict 1.03
       warnings 1.03
+  MooseX-Params-Validate-0.18
+    pathname: D/DR/DROLSKY/MooseX-Params-Validate-0.18.tar.gz
+    provides:
+      MooseX::Params::Validate 0.18
+    requirements:
+      Carp 0
+      Devel::Caller 0
+      ExtUtils::MakeMaker 6.30
+      Moose 0.58
+      Moose::Role 0
+      Moose::Util::TypeConstraints 0
+      Params::Validate 0.88
+      Scalar::Util 0
+      Sub::Exporter 0
+      Test::Fatal 0
+      Test::More 0.88
+      overload 0
+      strict 0
+      warnings 0
   MooseX-Role-Parameterized-1.08
     pathname: E/ET/ETHER/MooseX-Role-Parameterized-1.08.tar.gz
     provides:
@@ -4898,6 +5415,50 @@ DISTRIBUTIONS
       namespace::autoclean 0
       namespace::clean 0
       perl 5.008001
+  MooseX-Role-TraitConstructor-0.01
+    pathname: N/NU/NUFFIN/MooseX-Role-TraitConstructor-0.01.tar.gz
+    provides:
+      MooseX::Role::TraitConstructor 0.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      List::Util 0
+      Moose 0.40
+      Test::Exception 0
+      Test::use::ok 0
+  MooseX-Singleton-0.29
+    pathname: K/KA/KAARE/MooseX-Singleton-0.29.tar.gz
+    provides:
+      MooseX::Singleton 0.29
+      MooseX::Singleton::Role::Meta::Class 0.29
+      MooseX::Singleton::Role::Meta::Instance 0.29
+      MooseX::Singleton::Role::Meta::Method::Constructor 0.29
+      MooseX::Singleton::Role::Object 0.29
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Moose 1.10
+      Scalar::Util 0
+      Test::Fatal 0
+      Test::More 0.88
+      Test::Requires 0
+  MooseX-StrictConstructor-0.19
+    pathname: D/DR/DROLSKY/MooseX-StrictConstructor-0.19.tar.gz
+    provides:
+      MooseX::StrictConstructor 0.19
+      MooseX::StrictConstructor::Trait::Class 0.19
+      MooseX::StrictConstructor::Trait::Method::Constructor 0.19
+    requirements:
+      B 0
+      ExtUtils::MakeMaker 6.30
+      Moose 0.94
+      Moose::Exporter 0
+      Moose::Role 0
+      Moose::Util::MetaRole 0
+      Test::Fatal 0
+      Test::Moose 0
+      Test::More 0.88
+      namespace::autoclean 0
+      strict 0
+      warnings 0
   MooseX-Traits-0.12
     pathname: E/ET/ETHER/MooseX-Traits-0.12.tar.gz
     provides:
@@ -6573,6 +7134,26 @@ DISTRIBUTIONS
       Role::Tiny 1.003003
       Role::Tiny::With 1.003003
     requirements:
+  SQL-Abstract-1.79
+    pathname: R/RI/RIBASUSHI/SQL-Abstract-1.79.tar.gz
+    provides:
+      SQL::Abstract 1.79
+      SQL::Abstract::Test undef
+      SQL::Abstract::Tree undef
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.59
+      Hash::Merge 0.12
+      List::Util 0
+      MRO::Compat 0.12
+      Moo 1.004002
+      Scalar::Util 0
+      Storable 0
+      Test::Deep 0.101
+      Test::Exception 0.31
+      Test::More 0.88
+      Test::Warn 0
+      perl 5.006
   SVG-2.59
     pathname: S/SZ/SZABGAB/SVG-2.59.tar.gz
     provides:
@@ -6600,6 +7181,14 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  Scope-Guard-0.20
+    pathname: C/CH/CHOCOLATE/Scope-Guard-0.20.tar.gz
+    provides:
+      Scope::Guard 0.20
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      perl 5.006001
   Scope-Upper-0.25
     pathname: V/VP/VPIT/Scope-Upper-0.25.tar.gz
     provides:
@@ -6612,6 +7201,18 @@ DISTRIBUTIONS
       XSLoader 0
       base 0
       perl 5.006001
+  Snowball-Norwegian-1.2
+    pathname: A/AS/ASKSH/Snowball-Norwegian-1.2.tar.gz
+    provides:
+      Lingua::Stem::Snowball::No 1.2
+    requirements:
+      Test::More 0.42
+  Snowball-Swedish-1.2
+    pathname: A/AS/ASKSH/Snowball-Swedish-1.2.tar.gz
+    provides:
+      Lingua::Stem::Snowball::Se 1.2
+    requirements:
+      Test::More 0.42
   Socket-2.015
     pathname: P/PE/PEVANS/Socket-2.015.tar.gz
     provides:
@@ -6792,6 +7393,13 @@ DISTRIBUTIONS
       Stream::Buffered::File undef
       Stream::Buffered::PerlIO undef
     requirements:
+  String-CamelCase-0.02
+    pathname: H/HI/HIO/String-CamelCase-0.02.tar.gz
+    provides:
+      String::CamelCase 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   String-Format-1.17
     pathname: D/DA/DARREN/String-Format-1.17.tar.gz
     provides:
@@ -6804,6 +7412,21 @@ DISTRIBUTIONS
     provides:
       String::RewritePrefix 0.007
     requirements:
+  String-ToIdentifier-EN-0.11
+    pathname: R/RK/RKITOVER/String-ToIdentifier-EN-0.11.tar.gz
+    provides:
+      String::ToIdentifier::EN 0.11
+      String::ToIdentifier::EN::Unicode 0.11
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      Lingua::EN::Inflect::Phrase 0
+      Text::Unidecode 0
+      Unicode::UCD 0
+      base 0
+      namespace::clean 0
+      strict 0
+      warnings 0
   Sub-Exporter-0.987
     pathname: R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
     provides:
@@ -7558,6 +8181,14 @@ DISTRIBUTIONS
       Test::YAML 1.05
       Test::YAML::Filter 1.05
     requirements:
+  Test-use-ok-0.11
+    pathname: A/AU/AUDREYT/Test-use-ok-0.11.tar.gz
+    provides:
+      Test::use::ok 0.11
+      ok 0.11
+    requirements:
+      ExtUtils::MakeMaker 6.36
+      perl 5.005
   Text-CSV-1.32
     pathname: M/MA/MAKAMAKA/Text-CSV-1.32.tar.gz
     provides:
@@ -7595,6 +8226,20 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.42
       Test::More 0.80
       perl 5.00503
+  Text-German-0.06
+    pathname: U/UL/ULPFR/Text-German-0.06.tar.gz
+    provides:
+      Text::German 0.06
+      Text::German::Adjektiv undef
+      Text::German::Ausnahme undef
+      Text::German::Cache undef
+      Text::German::Endung undef
+      Text::German::Regel undef
+      Text::German::Util undef
+      Text::German::Verb undef
+      Text::German::Vorsilbe undef
+    requirements:
+      ExtUtils::MakeMaker 0
   Text-Glob-0.09
     pathname: R/RC/RCLAMP/Text-Glob-0.09.tar.gz
     provides:
@@ -7619,6 +8264,13 @@ DISTRIBUTIONS
       Text::Template::Preprocess 1.46
     requirements:
       ExtUtils::MakeMaker 0
+  Text-Unidecode-1.22
+    pathname: S/SB/SBURKE/Text-Unidecode-1.22.tar.gz
+    provides:
+      Text::Unidecode 1.22
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008
   Throwable-0.200012
     pathname: R/RJ/RJBS/Throwable-0.200012.tar.gz
     provides:
