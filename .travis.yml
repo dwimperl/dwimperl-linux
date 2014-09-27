@@ -8,7 +8,7 @@ script:
 #  - ./build.sh modules
 #  - ./build.sh test_perl
 
-  - ./build.sh get_vanilla_perl
+  - ./build.sh get_base_perl
 #  - ./build.sh openssl
 #  - ./build.sh libxml2
 #  - ./build.sh zlib
