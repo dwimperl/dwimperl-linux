@@ -2664,6 +2664,19 @@ DISTRIBUTIONS
     provides:
       Encode::Locale 1.03
     requirements:
+  Error-0.17022
+    pathname: S/SH/SHLOMIF/Error-0.17022.tar.gz
+    provides:
+      Error 0.17022
+      Error::Simple 0.17022
+      Error::WarnDie 0.17022
+      Error::subs 0.17022
+    requirements:
+      Module::Build 0.39
+      Scalar::Util 0
+      perl v5.6.0
+      strict 0
+      warnings 0
   Eval-Closure-0.11
     pathname: D/DO/DOY/Eval-Closure-0.11.tar.gz
     provides:
@@ -6340,6 +6353,24 @@ DISTRIBUTIONS
       Test::More 0
       strict 0
       warnings 0
+  Test-Ping-0.17
+    pathname: X/XS/XSAWYERX/Test-Ping-0.17.tar.gz
+    provides:
+      Test::Ping 0.17
+      Test::Ping::Ties::BIND 0.01
+      Test::Ping::Ties::HIRES 0.01
+      Test::Ping::Ties::PORT 0.01
+      Test::Ping::Ties::PROTO 0.04
+      Test::Ping::Ties::SERVICE_CHECK 0.01
+      Test::Ping::Ties::SOURCE_VERIFY 0.01
+      Test::Ping::Ties::TIMEOUT 0.03
+    requirements:
+      Carp 0
+      Net::Ping 2.33
+      Test::Builder 0.86
+      Test::More 0
+      Test::Timer 0.05
+      Tie::Scalar 0
   Test-Pod-1.48
     pathname: D/DW/DWHEELER/Test-Pod-1.48.tar.gz
     provides:
@@ -6483,6 +6514,24 @@ DISTRIBUTIONS
       Test::Tester::CaptureRunner undef
       Test::Tester::Delegate undef
     requirements:
+  Test-Timer-0.09
+    pathname: J/JO/JONASBN/Test-Timer-0.09.tar.gz
+    provides:
+      Test::Timer 0.09
+      Test::Timer::TimeoutException 0.09
+    requirements:
+      Benchmark 0
+      Carp 0
+      English 0
+      Error 0
+      File::Spec 0
+      Module::Build 0.4
+      Test::Builder 0
+      Test::Builder::Module 0
+      Test::Exception 0
+      Test::More 0
+      Test::Tester 0
+      perl v5.10.0
   Test-Trap-v0.2.4
     pathname: E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
     provides:

@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3682
-Last-Updated: Sat Sep 27 12:54:37 2014
+Line-Count:   3696
+Last-Updated: Sat Sep 27 12:58:26 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1550,6 +1550,10 @@ Encode::UTF_EBCDIC                     2.62  D/DA/DANKOGAI/Encode-2.62.tar.gz
 Encode::Unicode                        2.09  D/DA/DANKOGAI/Encode-2.62.tar.gz
 Encode::Unicode::UTF7                  2.08  D/DA/DANKOGAI/Encode-2.62.tar.gz
 Encode::utf8                           2.62  D/DA/DANKOGAI/Encode-2.62.tar.gz
+Error                               0.17022  S/SH/SHLOMIF/Error-0.17022.tar.gz
+Error::Simple                       0.17022  S/SH/SHLOMIF/Error-0.17022.tar.gz
+Error::WarnDie                      0.17022  S/SH/SHLOMIF/Error-0.17022.tar.gz
+Error::subs                         0.17022  S/SH/SHLOMIF/Error-0.17022.tar.gz
 Eval::Closure                          0.11  D/DO/DOY/Eval-Closure-0.11.tar.gz
 Excel::Writer::XLSX                    0.77  J/JM/JMCNAMARA/Excel-Writer-XLSX-0.77.tar.gz
 Excel::Writer::XLSX::Chart             0.77  J/JM/JMCNAMARA/Excel-Writer-XLSX-0.77.tar.gz
@@ -3362,6 +3366,14 @@ Test::Object::Test                     0.07  A/AD/ADAMK/Test-Object-0.07.tar.gz
 Test::Output                           1.03  B/BD/BDFOY/Test-Output-1.03.tar.gz
 Test::Perl::Critic                     1.02  T/TH/THALJEF/Test-Perl-Critic-1.02.tar.gz
 Test::Perl::Critic::Policy            1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Test::Ping                             0.17  X/XS/XSAWYERX/Test-Ping-0.17.tar.gz
+Test::Ping::Ties::BIND                 0.01  X/XS/XSAWYERX/Test-Ping-0.17.tar.gz
+Test::Ping::Ties::HIRES                0.01  X/XS/XSAWYERX/Test-Ping-0.17.tar.gz
+Test::Ping::Ties::PORT                 0.01  X/XS/XSAWYERX/Test-Ping-0.17.tar.gz
+Test::Ping::Ties::PROTO                0.04  X/XS/XSAWYERX/Test-Ping-0.17.tar.gz
+Test::Ping::Ties::SERVICE_CHECK        0.01  X/XS/XSAWYERX/Test-Ping-0.17.tar.gz
+Test::Ping::Ties::SOURCE_VERIFY        0.01  X/XS/XSAWYERX/Test-Ping-0.17.tar.gz
+Test::Ping::Ties::TIMEOUT              0.03  X/XS/XSAWYERX/Test-Ping-0.17.tar.gz
 Test::Pod                              1.48  D/DW/DWHEELER/Test-Pod-1.48.tar.gz
 Test::Pod::Coverage                    1.10  N/NE/NEILB/Test-Pod-Coverage-1.10.tar.gz
 Test::Reporter                         1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
@@ -3384,6 +3396,8 @@ Test::Tester                          0.109  F/FD/FDALY/Test-Tester-0.109.tar.gz
 Test::Tester::Capture                 undef  F/FD/FDALY/Test-Tester-0.109.tar.gz
 Test::Tester::CaptureRunner           undef  F/FD/FDALY/Test-Tester-0.109.tar.gz
 Test::Tester::Delegate                undef  F/FD/FDALY/Test-Tester-0.109.tar.gz
+Test::Timer                            0.09  J/JO/JONASBN/Test-Timer-0.09.tar.gz
+Test::Timer::TimeoutException          0.09  J/JO/JONASBN/Test-Timer-0.09.tar.gz
 Test::Trap                         0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
 Test::Trap::Builder                0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
 Test::Trap::Builder::PerlIO        0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz

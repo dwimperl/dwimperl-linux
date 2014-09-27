@@ -258,9 +258,9 @@ requires 'Test::Without::Module',       '0.18';
 #requires 'Test::WWW::Mechanize::PSGI',  '0.35';
 requires 'Test::Pod',                   '1.48';
 requires 'Test::Pod::Coverage',         '1.10';
-#requires 'Test::Requires';
-#requires 'Test::LongString';
-#requires 'Test::Ping
+requires 'Test::Requires',              '0.08';
+requires 'Test::LongString',            '0.16';
+requires 'Test::Ping',                  '0.17';
 requires 'Test::Harness',               '3.33';
 requires 'Test::Trap',                  '0.2.4';
 requires 'Test::Warn',                  '0.30';
