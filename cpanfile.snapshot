@@ -556,6 +556,16 @@ DISTRIBUTIONS
     provides:
       Class::Data::Inheritable 0.08
     requirements:
+  Class-ErrorHandler-0.03
+    pathname: T/TO/TOKUHIROM/Class-ErrorHandler-0.03.tar.gz
+    provides:
+      Class::ErrorHandler 0.03
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      ExtUtils::CBuilder 0
+      Module::Build 0.38
+      perl 5.008_001
   Class-Inspector-1.28
     pathname: A/AD/ADAMK/Class-Inspector-1.28.tar.gz
     provides:
@@ -1303,6 +1313,25 @@ DISTRIBUTIONS
       vars 0
       warnings 0
       warnings::register 0
+  DateTime-Format-Mail-0.401
+    pathname: B/BO/BOOK/DateTime-Format-Mail-0.401.tar.gz
+    provides:
+      DateTime::Format::Mail 0.401
+    requirements:
+      Carp 0
+      DateTime 0.18
+      ExtUtils::MakeMaker 6.30
+      Params::Validate 0
+      strict 0
+      vars 0
+  DateTime-Format-W3CDTF-0.06
+    pathname: G/GW/GWILLIAMS/DateTime-Format-W3CDTF-0.06.tar.gz
+    provides:
+      DateTime::Format::W3CDTF 0.06
+    requirements:
+      DateTime 0
+      ExtUtils::MakeMaker 6.42
+      Test::More 0.61
   DateTime-Locale-0.45
     pathname: D/DR/DROLSKY/DateTime-Locale-0.45.tar.gz
     provides:
@@ -2813,6 +2842,19 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       XSLoader 0
       perl 5.006
+  Feed-Find-0.07
+    pathname: B/BT/BTROTT/Feed-Find-0.07.tar.gz
+    provides:
+      Feed::Find 0.07
+    requirements:
+      Class::ErrorHandler 0
+      ExtUtils::MakeMaker 6.42
+      Filter::Util::Call 0
+      HTML::Parser 0
+      LWP 0
+      Test::More 0
+      URI 0
+      perl 5.008001
   Fennec-Lite-0.004
     pathname: E/EX/EXODIST/Fennec-Lite-0.004.tar.gz
     provides:
@@ -6182,6 +6224,14 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::Builder 0.12
       Test::Builder::Tester 1.04
+  Test-Manifest-2.02
+    pathname: B/BD/BDFOY/Test-Manifest-2.02.tar.gz
+    provides:
+      Test::Manifest 2.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.95
+      perl 5.006
   Test-Memory-Cycle-1.04
     pathname: P/PE/PETDANCE/Test-Memory-Cycle-1.04.tar.gz
     provides:
@@ -6712,6 +6762,22 @@ DISTRIBUTIONS
       URI::urn::isbn undef
       URI::urn::oid undef
     requirements:
+  URI-Fetch-0.10
+    pathname: N/NE/NEILB/URI-Fetch-0.10.tar.gz
+    provides:
+      URI::Fetch 0.10
+      URI::Fetch::Response 0.10
+    requirements:
+      Carp 0
+      Class::ErrorHandler 0
+      ExtUtils::MakeMaker 6.30
+      LWP::UserAgent 0
+      Storable 0
+      URI 0
+      base 0
+      constant 0
+      strict 0
+      warnings 0
   URL-Encode-0.03
     pathname: C/CH/CHANSEN/URL-Encode-0.03.tar.gz
     provides:
@@ -6833,6 +6899,72 @@ DISTRIBUTIONS
       WWW::RobotRules::AnyDBM_File 6.00
       WWW::RobotRules::InCore 6.02
     requirements:
+  XML-Atom-0.41
+    pathname: M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+    provides:
+      LWP::UserAgent::AtomClient undef
+      XML::Atom 0.41
+      XML::Atom::Base undef
+      XML::Atom::Category undef
+      XML::Atom::Client undef
+      XML::Atom::Content undef
+      XML::Atom::Entry undef
+      XML::Atom::ErrorHandler undef
+      XML::Atom::Feed undef
+      XML::Atom::Link undef
+      XML::Atom::Namespace 0.41
+      XML::Atom::Person undef
+      XML::Atom::Server undef
+      XML::Atom::Thing undef
+      XML::Atom::Util undef
+    requirements:
+      Class::Data::Inheritable 0
+      DateTime 0
+      DateTime::TimeZone 0
+      Digest::SHA1 0
+      ExtUtils::MakeMaker 6.42
+      LWP::UserAgent 0
+      MIME::Base64 0
+      URI 0
+      XML::LibXML 1.69
+      XML::XPath 0
+      perl 5.008001
+  XML-Feed-0.52
+    pathname: D/DA/DAVECROSS/XML-Feed-0.52.tar.gz
+    provides:
+      XML::Feed 0.52
+      XML::Feed::Content 0.52
+      XML::Feed::Enclosure 0.52
+      XML::Feed::Entry 0.52
+      XML::Feed::Entry::Format::Atom 0.52
+      XML::Feed::Entry::Format::RSS 0.52
+      XML::Feed::Format::Atom 0.52
+      XML::Feed::Format::RSS 0.52
+    requirements:
+      Class::ErrorHandler 0
+      DateTime 0
+      DateTime::Format::Mail 0
+      DateTime::Format::W3CDTF 0
+      Feed::Find 0
+      HTML::Entities 0
+      HTML::TokeParser 0
+      LWP::UserAgent 0
+      List::Util 0
+      Module::Pluggable 0
+      Test::More 0
+      URI::Fetch 0
+      XML::Atom 0.38
+      XML::LibXML 1.66
+      XML::RSS 1.47
+  XML-Filter-BufferText-1.01
+    pathname: R/RB/RBERJON/XML-Filter-BufferText-1.01.tar.gz
+    provides:
+      XML::Filter::BufferText 1.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.40
+      XML::SAX 0.04
+      XML::SAX::Base 1.03
   XML-LibXML-2.0116
     pathname: S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
     provides:
@@ -6912,6 +7044,28 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  XML-RSS-1.55
+    pathname: S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
+    provides:
+      Test::Run::CmdLine::WithTestManifest undef
+      XML::RSS 1.55
+      XML::RSS::Private::Output::Base undef
+      XML::RSS::Private::Output::Roles::ImageDims undef
+      XML::RSS::Private::Output::Roles::ModulesElems undef
+      XML::RSS::Private::Output::V0_9 undef
+      XML::RSS::Private::Output::V0_91 undef
+      XML::RSS::Private::Output::V1_0 undef
+      XML::RSS::Private::Output::V2_0 undef
+    requirements:
+      DateTime 0
+      DateTime::Format::Mail 0
+      DateTime::Format::W3CDTF 0
+      HTML::Entities 0
+      Module::Build 0.36
+      Test::Manifest 0.9
+      Test::More 0
+      XML::Parser 2.23
+      perl 5.008
   XML-SAX-0.99
     pathname: G/GR/GRANTM/XML-SAX-0.99.tar.gz
     provides:
@@ -6940,6 +7094,81 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.31
       Test::More 0.88
+  XML-SAX-Expat-0.51
+    pathname: B/BJ/BJOERN/XML-SAX-Expat-0.51.tar.gz
+    provides:
+      XML::SAX::Expat 0.51
+    requirements:
+      ExtUtils::MakeMaker 0
+      XML::NamespaceSupport 0.03
+      XML::Parser 2.27
+      XML::SAX 0.03
+      XML::SAX::Base 1.00
+  XML-SAX-Writer-0.54
+    pathname: P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+    provides:
+      XML::SAX::Writer 0.53
+      XML::SAX::Writer::ArrayConsumer 0.53
+      XML::SAX::Writer::CodeConsumer 0.53
+      XML::SAX::Writer::ConsumerInterface 0.53
+      XML::SAX::Writer::Encode 0.53
+      XML::SAX::Writer::FileConsumer 0.53
+      XML::SAX::Writer::HandleConsumer 0.53
+      XML::SAX::Writer::NullConverter 0.53
+      XML::SAX::Writer::StringConsumer 0.53
+      XML::SAX::Writer::XML 0.54
+    requirements:
+      Encode 2.12
+      ExtUtils::MakeMaker 6.30
+      Test::More 0.40
+      XML::Filter::BufferText 1.00
+      XML::NamespaceSupport 1.00
+      XML::SAX::Exception 1.01
+  XML-Simple-2.20
+    pathname: G/GR/GRANTM/XML-Simple-2.20.tar.gz
+    provides:
+      XML::Simple 2.20
+    requirements:
+      ExtUtils::MakeMaker 6.31
+      Test::More 0.88
+      XML::NamespaceSupport 1.04
+      XML::SAX 0.15
+      XML::SAX::Expat 0
+  XML-XPath-1.13
+    pathname: M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+    provides:
+      XML::XPath 1.13
+      XML::XPath::Boolean undef
+      XML::XPath::Builder undef
+      XML::XPath::Expr undef
+      XML::XPath::Function undef
+      XML::XPath::Literal undef
+      XML::XPath::LocationPath undef
+      XML::XPath::Node undef
+      XML::XPath::Node::Attribute undef
+      XML::XPath::Node::AttributeImpl undef
+      XML::XPath::Node::Comment undef
+      XML::XPath::Node::CommentImpl undef
+      XML::XPath::Node::Element undef
+      XML::XPath::Node::ElementImpl undef
+      XML::XPath::Node::Namespace undef
+      XML::XPath::Node::NamespaceImpl undef
+      XML::XPath::Node::PI undef
+      XML::XPath::Node::PIImpl undef
+      XML::XPath::Node::Text undef
+      XML::XPath::Node::TextImpl undef
+      XML::XPath::NodeImpl undef
+      XML::XPath::NodeSet undef
+      XML::XPath::Number undef
+      XML::XPath::Parser undef
+      XML::XPath::PerlSAX undef
+      XML::XPath::Root undef
+      XML::XPath::Step undef
+      XML::XPath::Variable undef
+      XML::XPath::XMLParser undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      XML::Parser 2.23
   YAML-1.12
     pathname: I/IN/INGY/YAML-1.12.tar.gz
     provides:

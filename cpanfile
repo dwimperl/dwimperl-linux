@@ -293,16 +293,16 @@ requires 'Variable::Magic',                 '0.54';
 #requires 'WebService::GData',               '0.06';
 #requires 'WWW::Mechanize',                  '1.73';
 #requires 'WWW::Mechanize::TreeBuilder',     '1.10003';
-#requires 'XML::Atom',                       '0.41'; # needs XML::Parser
+requires 'XML::Atom',                       '0.41'; # needs XML::Parser
 requires 'XML::LibXML',                     '2.0116';  # it needs all kinds of parameters to build see build.sh and #2
-#requires 'XML::Feed',                       '0.52';
+requires 'XML::Feed',                       '0.52';
 requires 'XML::Parser',                     '2.41';
-#requires 'XML::RSS',                        '1.55';  # needs XML::Parser
+requires 'XML::RSS',                        '1.55';  # needs XML::Parser
 requires 'XML::SAX',                        '0.99';
-#requires 'XML::SAX::Writer',                '0.54';
-#requires 'XML::Simple',                     '2.20';  # needs XML::Parser
+requires 'XML::SAX::Writer',                '0.53';
+requires 'XML::Simple',                     '2.20';  # needs XML::Parser
 #requires 'XML::Twig',                       '3.48'; #1
-#requires 'XML::XPath',                      '1.13';  # needs XML::Parser
+requires 'XML::XPath',                      '1.13';  # needs XML::Parser
 requires 'XML::NamespaceSupport',           '1.11';
 requires 'YAML',                            '1.12';
 #requires 'YAML::Tiny',                      '1.63'; #1
