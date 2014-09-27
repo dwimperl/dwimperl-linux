@@ -136,12 +136,12 @@ requires 'Module::Build',                   '0.4210';
 requires 'Module::CoreList',                '5.20140920';
 requires 'Module::Manifest',                '1.08';
 requires 'Module::Starter',                 '1.62';
-requires 'MongoDB',                         '0.705.0.0';
+#requires 'MongoDB',                         '0.705.0.0'; # Moose
 requires 'Moo',                             '1.006000';
 requires 'MooX::Options',                   '4.010';
 requires 'MooX::late',                      '0.015';
 requires 'MooX::Singleton',                 '1.20';
-#requires 'Moose',                           '2.1213';
+#requires 'Moose',                           '2.1213'; #1
 #requires 'MooseX::Singleton',               '0.29';
 #requires 'MooseX::StrictConstructor',       '0.19';
 #requires 'MooseX::Params::Validate',        '0.18';
@@ -296,7 +296,7 @@ requires 'Variable::Magic',                 '0.54';
 #requires 'version',                         '0.9909';
 requires 'Web::Feed',                       '0.03';
 #requires 'WebService::GData',               '0.06'; #1
-requires 'WWW::Mechanize',                  '1.73';
+#requires 'WWW::Mechanize',                  '1.73'; # depends on HTTP::Server::Simple::CGI
 #requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # Moose
 #requires 'XML::Atom',                       '0.41'; #1
 requires 'XML::LibXML',                     '2.0116';  # it needs all kinds of parameters to build see build.sh and #2
