@@ -177,7 +177,7 @@ requires 'Module::CoreList',                '5.20140920';
 requires 'Module::Metadata',                '1.000024';
 #requires 'Module::Version',                 '0.12'; # error: Failed to upconvert metadata to 1.1. Errors: Missing mandatory field, 'version' (version) [Validation: 1.0]
 requires 'Mojolicious',                     '5.44';
-requires 'namespace::autoclean',            '0.20';
+#requires 'namespace::autoclean',            '0.20'; #1
 requires 'Net::Config',                     '1.14';
 requires 'Net::DNS',                        '0.80';
 requires 'Net::SSLeay',                     '1.14';
