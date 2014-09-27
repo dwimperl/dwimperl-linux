@@ -206,6 +206,7 @@ case $1 in
     echo test_all            - test if we can load modules
     echo outdate             - list the modules that have newer versions on CPAN
     echo zip                 - create the final zip file
+    exit 1
   ;;
 esac
 
