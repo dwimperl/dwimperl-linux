@@ -51,16 +51,20 @@ PERL_SOURCE_ZIP_FILE=$PERL_SOURCE_VERSION.tar.gz
 DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_VERSION-$ARCHITECTURE
 BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_BASE_VERSION-$ARCHITECTURE
 echo DWIMPERL_VERSION=$DWIMPERL_VERSION
-ROOT=~
+BUILD_TMP=~
+ROOT=$BUILD_TMP/build
+mkdir $ROOT;
 PREFIX_PERL=$ROOT/$DWIMPERL_VERSION/perl
 PREFIX_C=$ROOT/$DWIMPERL_VERSION/c
 
-BUILD_HOME=`pwd`
+cp $SOURCE_HOME/dwim.sh $ROOT
+
+SOURCE_HOME=`pwd`
 ORIGINAL_PATH=$PATH
 #TEST_DIR=$ROOT/dwimperl_test
 #BACKUP=$ROOT/dwimperl_backup
 
-echo BUILD_HOME=$BUILD_HOME
+echo SOURCE_HOME=$SOURCE_HOME
 
 
 # prepare the local metadb for cpanm
@@ -87,7 +91,7 @@ case $1 in
       make
       TEST_JOBS=3 make test
       make install
-      cd $BUILD_HOME
+      cd $SOURCE_HOME
       
       which perl
       $PREFIX_PERL/bin/perl -v
@@ -95,18 +99,18 @@ case $1 in
   ;;
 
   cpanm)
-      cd $BUILD_HOME
-      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ --mirror-only App::cpanminus
-#      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$BUILD_HOME/local/cache/ local::lib
+      cd $SOURCE_HOME
+      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ --mirror-only App::cpanminus
+#      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ local::lib
   ;;
 
   dwim)
-      cd $BUILD_HOME/src/DWIM
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose .
+      cd $SOURCE_HOME/src/DWIM
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose .
   ;;
 
   openssl)
-      cd $BUILD_HOME
+      cd $SOURCE_HOME
       tar xzf src/$OPENSSL.tar.gz
       cd $OPENSSL
 
@@ -117,9 +121,9 @@ case $1 in
       #mkdir doc/apps
       #mkdir doc/crypto
       #mkdir doc/ssl
-      #cp $BUILD_HOME/src/empty.pod doc/apps/
-      #cp $BUILD_HOME/src/empty.pod doc/crypto/
-      #cp $BUILD_HOME/src/empty.pod doc/ssl/
+      #cp $SOURCE_HOME/src/empty.pod doc/apps/
+      #cp $SOURCE_HOME/src/empty.pod doc/crypto/
+      #cp $SOURCE_HOME/src/empty.pod doc/ssl/
       ./config --prefix=$PREFIX_C -fPIC
       make
       make test
@@ -127,7 +131,7 @@ case $1 in
   ;;
 
   libxml2)
-      cd $BUILD_HOME
+      cd $SOURCE_HOME
       tar xzf src/$LIBXML2.tar.gz
       cd $LIBXML2
       ./configure --prefix $PREFIX_C --without-python
@@ -136,7 +140,7 @@ case $1 in
   ;;
 
   zlib)
-      cd $BUILD_HOME
+      cd $SOURCE_HOME
       tar xzf src/$ZLIB.tar.gz
       cd $ZLIB
       ./configure --prefix $PREFIX_C
@@ -145,7 +149,7 @@ case $1 in
   ;;
 
   expat)
-      cd $BUILD_HOME
+      cd $SOURCE_HOME
       tar xzf src/$EXPAT.tar.gz
       cd $EXPAT
       ./configure --prefix $PREFIX_C
@@ -180,58 +184,58 @@ case $1 in
   xml-libxml)
       #export XMLPREFIX=$PREFIX_C
       #echo $XMLPREFIX
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose  --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose  --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
   ;;
 
   xml-parser)
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
   ;;
 
   try)
-      #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Portable
+      #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Portable
       #export PERL5OPT="-MPortable $PERL5OPT"
-      cd $BUILD_HOME
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Test::Differences
+      cd $SOURCE_HOME
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Test::Differences
   ;;
 
   modules)
       # needed to build Net::SSLeay
       export OPENSSL_PREFIX=$PREFIX_C
       export XMLPREFIX=$PREFIX_C
-      source $BUILD_HOME/dwim.sh
+      source $ROOT/dwim.sh
 
-      cd $BUILD_HOME
+      cd $SOURCE_HOME
       HARNESS_OPTIONS=j3
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$BUILD_HOME/local/cache/ --mirror-only .
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$SOURCE_HOME/local/cache/ --mirror-only .
   ;;
 
   test_perl)
-      cd $BUILD_HOME
-      source $BUILD_HOME/dwim.sh
+      cd $SOURCE_HOME
+      source $ROOT/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/prove t/00-perl.t
   ;;
 
   test_cpanfile)
-      cd $BUILD_HOME
-      source $BUILD_HOME/dwim.sh
+      cd $SOURCE_HOME
+      source $ROOT/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/prove t/01-cpanfile.t
   ;;
 
 
   test_all)
-      cd $BUILD_HOME
-      source $BUILD_HOME/dwim.sh
+      cd $SOURCE_HOME
+      source $ROOT/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/prove
   ;;
 
   outdate)
-      source $BUILD_HOME/dwim.sh
+      source $ROOT/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpan-outdated --verbose
   ;;
 
   zip)
       cd $ROOT
-      cp $BUILD_HOME/src/reloc_perl $PREFIX_PERL/bin/
+      cp $SOURCE_HOME/src/reloc_perl $PREFIX_PERL/bin/
       chmod u+wx $PREFIX_PERL/bin/*
       tar -czf $DWIMPERL_VERSION.tar.gz $DWIMPERL_VERSION
       echo GENERATED_ZIP_FILE=$ROOT/$DWIMPERL_VERSION.tar.gz
