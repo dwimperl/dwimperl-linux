@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3786
-Last-Updated: Sat Sep 27 14:34:14 2014
+Line-Count:   3798
+Last-Updated: Sat Sep 27 14:38:32 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -2620,6 +2620,7 @@ PDF::Create::Outline                   1.10  S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
 PDF::Create::Page                      1.10  S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
 PDF::Image::GIF                        1.10  S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
 PDF::Image::JPEG                       1.10  S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
+POD2::Base                            0.043  F/FE/FERREIRA/POD2-Base-0.043.tar.gz
 POSIX::strftime::Compiler              0.40  K/KA/KAZEBURO/POSIX-strftime-Compiler-0.40.tar.gz
 PPI                                   1.218  M/MI/MITHALDU/PPI-1.218.tar.gz
 PPI::Cache                            1.218  M/MI/MITHALDU/PPI-1.218.tar.gz
@@ -2715,6 +2716,16 @@ PPI::Transform                        1.218  M/MI/MITHALDU/PPI-1.218.tar.gz
 PPI::Transform::UpdateCopyright       1.218  M/MI/MITHALDU/PPI-1.218.tar.gz
 PPI::Util                             1.218  M/MI/MITHALDU/PPI-1.218.tar.gz
 PPI::XSAccessor                       1.218  M/MI/MITHALDU/PPI-1.218.tar.gz
+PPIx::EditorTools                      0.19  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+PPIx::EditorTools::FindUnmatchedBrace       0.18  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+PPIx::EditorTools::FindVariableDeclaration       0.18  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+PPIx::EditorTools::IntroduceTemporaryVariable       0.18  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+PPIx::EditorTools::Lexer               0.18  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+PPIx::EditorTools::Outline             0.18  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+PPIx::EditorTools::RenamePackage       0.18  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+PPIx::EditorTools::RenamePackageFromPath       0.18  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+PPIx::EditorTools::RenameVariable       0.18  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+PPIx::EditorTools::ReturnObject        0.18  S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
 PPIx::Regexp                          0.036  W/WY/WYANT/PPIx-Regexp-0.036.tar.gz
 PPIx::Regexp::Constant                0.036  W/WY/WYANT/PPIx-Regexp-0.036.tar.gz
 PPIx::Regexp::Dumper                  0.036  W/WY/WYANT/PPIx-Regexp-0.036.tar.gz
@@ -3230,6 +3241,7 @@ Regexp::Common::list             2010010201  A/AB/ABIGAIL/Regexp-Common-20130313
 Regexp::Common::net              2013031301  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
 Regexp::Common::number           2013031101  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
 Regexp::Common::profanity        2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Regexp::Common::time                   0.07  S/SZ/SZABGAB/Regexp-Common-time-0.07.tar.gz
 Regexp::Common::whitespace       2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
 Regexp::Common::zip              2010010201  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
 Return::MultiLevel                     0.04  M/MA/MAUKE/Return-MultiLevel-0.04.tar.gz

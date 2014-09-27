@@ -4951,6 +4951,17 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       FileHandle 0
       Scalar::Util 0
+  POD2-Base-0.043
+    pathname: F/FE/FERREIRA/POD2-Base-0.043.tar.gz
+    provides:
+      POD2::Base 0.043
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      Test::More 0
+      strict 0
+      vars 0
+      warnings 0
   POSIX-strftime-Compiler-0.40
     pathname: K/KA/KAZEBURO/POSIX-strftime-Compiler-0.40.tar.gz
     provides:
@@ -5080,6 +5091,35 @@ DISTRIBUTIONS
       Test::Object 0.07
       Test::SubCalls 1.07
       perl 5.006
+  PPIx-EditorTools-0.19
+    pathname: S/SZ/SZABGAB/PPIx-EditorTools-0.19.tar.gz
+    provides:
+      PPIx::EditorTools 0.19
+      PPIx::EditorTools::FindUnmatchedBrace 0.18
+      PPIx::EditorTools::FindVariableDeclaration 0.18
+      PPIx::EditorTools::IntroduceTemporaryVariable 0.18
+      PPIx::EditorTools::Lexer 0.18
+      PPIx::EditorTools::Outline 0.18
+      PPIx::EditorTools::RenamePackage 0.18
+      PPIx::EditorTools::RenamePackageFromPath 0.18
+      PPIx::EditorTools::RenameVariable 0.18
+      PPIx::EditorTools::ReturnObject 0.18
+    requirements:
+      Carp 0
+      Class::XSAccessor 1.02
+      ExtUtils::MakeMaker 6.59
+      File::Basename 0
+      File::Find 0
+      File::Spec 0
+      File::Temp 0
+      PPI 1.215
+      PPI::Find 0
+      Test::Differences 0
+      Test::More 0.88
+      Test::Most 0
+      Test::NoWarnings 0.084
+      Try::Tiny 0.11
+      perl 5.008
   PPIx-Regexp-0.036
     pathname: W/WY/WYANT/PPIx-Regexp-0.036.tar.gz
     provides:
@@ -6084,6 +6124,15 @@ DISTRIBUTIONS
       perl 5.00473
       strict 0
       vars 0
+  Regexp-Common-time-0.07
+    pathname: S/SZ/SZABGAB/Regexp-Common-time-0.07.tar.gz
+    provides:
+      Regexp::Common::time 0.07
+    requirements:
+      ExtUtils::MakeMaker 0
+      POSIX 0
+      Regexp::Common 0
+      Test::More 0.40
   Return-MultiLevel-0.04
     pathname: M/MA/MAUKE/Return-MultiLevel-0.04.tar.gz
     provides:
