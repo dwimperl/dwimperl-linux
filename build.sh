@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/bash -e
 
 # TODO: The output of some commands have been redirectd to /dev/null becaus they
 # created too much output for Travis-CI. This needs to be improved.
