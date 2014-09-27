@@ -147,10 +147,12 @@ case $1 in
       $PREFIX_PERL/bin/perl -v
   ;;
 
+  # TODO: See Issue #2
   xml-libxml)
       #export XMLPREFIX=$PREFIX_C
-      echo $XMLPREFIX
+      #echo $XMLPREFIX
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose  --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
+  ;;
 
   try)
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Portable
