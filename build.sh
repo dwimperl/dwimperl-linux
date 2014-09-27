@@ -150,7 +150,7 @@ case $1 in
   try)
       export XMLPREFIX=$PREFIX_C
       echo $XMLPREFIX
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose XML::LibXML
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose  --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Portable
       #export PERL5OPT="-MPortable $PERL5OPT"
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Test::Differences
