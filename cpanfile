@@ -30,6 +30,7 @@ requires 'CGI::Fast',                       '2.03';
 requires 'CHI',                             '0.58';
 requires 'Class::Adapter',                  '1.08';
 requires 'Class::Inspector',                '1.28';
+requires 'Class::Singleton',                '1.4';
 requires 'Class::XSAccessor',               '1.19';
 requires 'Code::Explain',                   '0.02';
 requires 'Compress::Zlib',                  '2.066';
@@ -191,20 +192,20 @@ requires 'ORLite',                          '1.98';
 requires 'ORLite::Migrate',                 '1.10';
 #requires 'PAR::Packer',                     '1.022'; #failed
 requires 'Params::Util',                    '1.07';
-#requires 'Parse::ErrorString::Perl',        '0.21'; #1
+requires 'Parse::ErrorString::Perl',        '0.21';
 requires 'Parse::ExuberantCTags',           '1.02';
 requires 'Parallel::ForkManager',           '1.06';
 requires 'Parse::CPAN::Meta',               '1.4414';
 requires 'Parse::Functions',                '0.01';
 requires 'Path::Tiny',                      '0.058';
-#requires 'PDF::Create',                     '1.08'; #1
+requires 'PDF::Create',                     '1.08';
 requires 'perlfaq',                         '5.0150045';
 requires 'Perl::Tidy',                      '20140711';
 requires 'Perl::Critic',                    '1.122';
 requires 'Perl::Version',                   '1.013';
 requires 'Plack',                           '1.0031';
-#requires 'Plack::Middleware::Debug',        '0.16'; #1
-#requires 'Plack::Middleware::LogErrors',    '0.001'; #1
+requires 'Plack::Middleware::Debug',        '0.16';
+requires 'Plack::Middleware::LogErrors',    '0.001';
 requires 'Plack::Middleware::LogWarn',      '0.001002';
 requires 'Plack::Middleware::ReverseProxy', '0.15';
 requires 'Pod::Abstract',                   '0.20';
@@ -219,8 +220,8 @@ requires 'Pod::Perldoc',                    '3.24';
 requires 'POD2::Base',                      '0.043';
 #requires 'Portable',                        '1.22';
 requires 'PPI',                             '1.218';
-#requires 'PPIx::EditorTools::Outline',      '0.18'; #1
-#requires 'PPIx::EditorTools',               '0.19'; #1
+requires 'PPIx::EditorTools::Outline',      '0.18';
+requires 'PPIx::EditorTools',               '0.19';
 requires 'PPIx::Regexp',                    '0.036';
 requires 'Probe::Perl',                     '0.03';
 requires 'Regexp::Common',                  '2013031301';
@@ -233,7 +234,7 @@ requires 'Sort::Versions',                  '1.60';
 requires 'Spreadsheet::ParseExcel::Simple', '1.04';
 requires 'Spreadsheet::WriteExcel',         '2.40';
 requires 'Spreadsheet::WriteExcel::Simple', '1.04';
-#requires 'Starman',                         '0.4010'; #1
+requires 'Starman',                         '0.4010';
 requires 'Storable',                        '2.51';
 requires 'SVG',                             '2.59';
 requires 'Template',                        '2.26';
@@ -245,12 +246,12 @@ requires 'Test::Class',                     '0.47';
 #requires 'Test::Class::Most',               '0.08';
 requires 'Test::CleanNamespaces',           '0.16';
 requires 'Test::Deep',                       '0.113';
-requires 'Test::Differences',                '0.62';  #1
+requires 'Test::Differences',                '0.62';
 requires 'Test::Exception',                  '0.35';
 requires 'Test::Fatal',                      '0.013';
 requires 'Test::FailWarnings',               '0.008';
 requires 'Test::Memory::Cycle',              '1.04';
-#requires 'Test::MockObject',                '1.20140408'; #1
+requires 'Test::MockObject',                '1.20140408';
 requires 'Test::MockTime',                   '0.13';
 #requires 'Test::Mock::LWP',                 '0.08';
 requires 'Test::MockModule',                '0.05';
@@ -266,11 +267,11 @@ requires 'Test::Pod',                        '1.48';
 requires 'Test::Pod::Coverage',              '1.10';
 requires 'Test::Requires',                   '0.08';
 requires 'Test::LongString',                 '0.16';
-#requires 'Test::Ping',                       '0.17'; #1
+requires 'Test::Ping',                       '0.17';
 requires 'Test::Harness',                    '3.33';
 requires 'Test::Trap',                       '0.2.4';
 requires 'Test::Warn',                       '0.30';
-#requires 'Test::Code::TidyAll',              '0.20'; #1
+requires 'Test::Code::TidyAll',              '0.20';
 requires 'Test::Perl::Critic',              '1.02';
 #requires 'Term::ReadLine',                  '1.14';
 #requires 'Term::ProgressBar::Simple',       '0.03';
@@ -296,19 +297,19 @@ requires 'Unicode::Normalize',              '1.18';
 requires 'Variable::Magic',                 '0.54';
 #requires 'version',                         '0.9909';
 requires 'Web::Feed',                       '0.03';
-#requires 'WebService::GData',               '0.06'; #1
+requires 'WebService::GData',               '0.06';
 #requires 'WWW::Mechanize',                  '1.73'; # depends on HTTP::Server::Simple::CGI
 #requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # Moose
-#requires 'XML::Atom',                       '0.41'; #1
+requires 'XML::Atom',                       '0.41';
 requires 'XML::LibXML',                     '2.0116';  # it needs all kinds of parameters to build see build.sh and #2
-#requires 'XML::Feed',                       '0.52'; #1
+requires 'XML::Feed',                       '0.52';
 requires 'XML::Parser',                     '2.41';
-#requires 'XML::RSS',                        '1.55';  #1
+requires 'XML::RSS',                        '1.55';
 requires 'XML::SAX',                        '0.99';
 requires 'XML::SAX::Writer',                '0.53';
 requires 'XML::Simple',                     '2.20';
-#requires 'XML::Twig',                       '3.48'; #1
+requires 'XML::Twig',                       '3.48';
 requires 'XML::XPath',                      '1.13';
 requires 'XML::NamespaceSupport',           '1.11';
 requires 'YAML',                            '1.12';
-#requires 'YAML::Tiny',                      '1.63'; #1
+requires 'YAML::Tiny',                      '1.63';

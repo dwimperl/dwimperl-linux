@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   4238
-Last-Updated: Sat Sep 27 15:46:48 2014
+Line-Count:   4247
+Last-Updated: Sat Sep 27 20:56:48 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -4150,6 +4150,14 @@ XML::SAX::Writer::NullConverter        0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.t
 XML::SAX::Writer::StringConsumer       0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
 XML::SAX::Writer::XML                  0.54  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
 XML::Simple                            2.20  G/GR/GRANTM/XML-Simple-2.20.tar.gz
+XML::Twig                              3.48  M/MI/MIROD/XML-Twig-3.48.tar.gz
+XML::Twig::Elt                         3.48  M/MI/MIROD/XML-Twig-3.48.tar.gz
+XML::Twig::Entity                      3.48  M/MI/MIROD/XML-Twig-3.48.tar.gz
+XML::Twig::Entity_list                 3.48  M/MI/MIROD/XML-Twig-3.48.tar.gz
+XML::Twig::XPath                       0.02  M/MI/MIROD/XML-Twig-3.48.tar.gz
+XML::Twig::XPath::Attribute            0.02  M/MI/MIROD/XML-Twig-3.48.tar.gz
+XML::Twig::XPath::Elt                  0.02  M/MI/MIROD/XML-Twig-3.48.tar.gz
+XML::Twig::XPath::Namespace            0.02  M/MI/MIROD/XML-Twig-3.48.tar.gz
 XML::XPath                             1.13  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
 XML::XPath::Boolean                   undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
 XML::XPath::Builder                   undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
@@ -4179,6 +4187,7 @@ XML::XPath::Root                      undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.g
 XML::XPath::Step                      undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
 XML::XPath::Variable                  undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
 XML::XPath::XMLParser                 undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPathEngine::NodeSet              0.02  M/MI/MIROD/XML-Twig-3.48.tar.gz
 YAML                                   1.12  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Any                              1.12  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Dumper                          undef  I/IN/INGY/YAML-1.12.tar.gz

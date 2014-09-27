@@ -8440,6 +8440,22 @@ DISTRIBUTIONS
       XML::NamespaceSupport 1.04
       XML::SAX 0.15
       XML::SAX::Expat 0
+  XML-Twig-3.48
+    pathname: M/MI/MIROD/XML-Twig-3.48.tar.gz
+    provides:
+      XML::Twig 3.48
+      XML::Twig::Elt 3.48
+      XML::Twig::Entity 3.48
+      XML::Twig::Entity_list 3.48
+      XML::Twig::XPath 0.02
+      XML::Twig::XPath::Attribute 0.02
+      XML::Twig::XPath::Elt 0.02
+      XML::Twig::XPath::Namespace 0.02
+      XML::XPath::NodeSet 0.02
+      XML::XPathEngine::NodeSet 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      XML::Parser 2.23
   XML-XPath-1.13
     pathname: M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
     provides:
