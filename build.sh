@@ -179,7 +179,7 @@ case $1 in
   ;;
 
   xml-parser)
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose --configre-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
   ;;
 
   try)
