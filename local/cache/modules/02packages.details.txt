@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   4247
-Last-Updated: Sat Sep 27 20:56:48 2014
+Line-Count:   4248
+Last-Updated: Sat Sep 27 23:06:07 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3611,6 +3611,7 @@ Test::Builder::Module              1.001006  E/EX/EXODIST/Test-Simple-1.001006.t
 Test::Builder::Tester                  1.24  E/EX/EXODIST/Test-Simple-1.001006.tar.gz
 Test::Builder::Tester::Color           1.24  E/EX/EXODIST/Test-Simple-1.001006.tar.gz
 Test::Builder::Tester::Tie             1.24  E/EX/EXODIST/Test-Simple-1.001006.tar.gz
+Test::CheckDeps                       0.010  L/LE/LEONT/Test-CheckDeps-0.010.tar.gz
 Test::Class                            0.47  E/ET/ETHER/Test-Class-0.47.tar.gz
 Test::Class::Load                      0.47  E/ET/ETHER/Test-Class-0.47.tar.gz
 Test::Class::MethodInfo                0.47  E/ET/ETHER/Test-Class-0.47.tar.gz
