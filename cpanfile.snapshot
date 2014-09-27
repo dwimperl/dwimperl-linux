@@ -796,6 +796,12 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Pod::Text 2.08
       Pod::Usage 1.33
+  Crypt-RC4-2.02
+    pathname: S/SI/SIFUKURT/Crypt-RC4-2.02.tar.gz
+    provides:
+      Crypt::RC4 2.02
+    requirements:
+      ExtUtils::MakeMaker 0
   Crypt-URandom-0.34
     pathname: D/DD/DDICK/Crypt-URandom-0.34.tar.gz
     provides:
@@ -1268,6 +1274,17 @@ DISTRIBUTIONS
       Sub::Uplevel 0.09
       Test::Exception 0.21
       Test::More 0.6
+  Data-Section-0.200006
+    pathname: R/RJ/RJBS/Data-Section-0.200006.tar.gz
+    provides:
+      Data::Section 0.200006
+    requirements:
+      Encode 0
+      ExtUtils::MakeMaker 6.30
+      MRO::Compat 0.09
+      Sub::Exporter 0.979
+      strict 0
+      warnings 0
   Data-UUID-1.219
     pathname: R/RJ/RJBS/Data-UUID-1.219.tar.gz
     provides:
@@ -2370,6 +2387,13 @@ DISTRIBUTIONS
       perl 5.008
       strict 0
       warnings 0
+  Digest-Perl-MD5-1.9
+    pathname: D/DE/DELTA/Digest-Perl-MD5-1.9.tar.gz
+    provides:
+      Digest::Perl::MD5 1.9
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
   Digest-SHA-5.92
     pathname: M/MS/MSHELOR/Digest-SHA-5.92.tar.gz
     provides:
@@ -3240,6 +3264,14 @@ DISTRIBUTIONS
     provides:
       HTTP::Negotiate 6.01
     requirements:
+  HTTP-Parser-XS-0.16
+    pathname: K/KA/KAZUHO/HTTP-Parser-XS-0.16.tar.gz
+    provides:
+      HTTP::Parser::XS 0.16
+      HTTP::Parser::XS::PP undef
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Test::More 0.96
   HTTP-Server-Simple-0.44
     pathname: J/JE/JESSE/HTTP-Server-Simple-0.44.tar.gz
     provides:
@@ -4906,6 +4938,16 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  OLE-Storage_Lite-0.19
+    pathname: J/JM/JMCNAMARA/OLE-Storage_Lite-0.19.tar.gz
+    provides:
+      OLE::Storage_Lite 0.19
+      OLE::Storage_Lite::PPS 0.19
+      OLE::Storage_Lite::PPS::Dir 0.19
+      OLE::Storage_Lite::PPS::File 0.19
+      OLE::Storage_Lite::PPS::Root 0.19
+    requirements:
+      ExtUtils::MakeMaker 0
   ORLite-1.98
     pathname: A/AD/ADAMK/ORLite-1.98.tar.gz
     provides:
@@ -5362,6 +5404,30 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.36
       Test::More 0.88
+  Parse-RecDescent-1.967009
+    pathname: J/JT/JTBRAUN/Parse-RecDescent-1.967009.tar.gz
+    provides:
+      Parse::RecDescent 1.967009
+      Parse::RecDescent::Action 1.967009
+      Parse::RecDescent::ColCounter 1.967009
+      Parse::RecDescent::Directive 1.967009
+      Parse::RecDescent::Error 1.967009
+      Parse::RecDescent::Expectation 1.967009
+      Parse::RecDescent::InterpLit 1.967009
+      Parse::RecDescent::LineCounter 1.967009
+      Parse::RecDescent::Literal 1.967009
+      Parse::RecDescent::OffsetCounter 1.967009
+      Parse::RecDescent::Operator 1.967009
+      Parse::RecDescent::Production 1.967009
+      Parse::RecDescent::Repetition 1.967009
+      Parse::RecDescent::Result 1.967009
+      Parse::RecDescent::Rule 1.967009
+      Parse::RecDescent::Subrule 1.967009
+      Parse::RecDescent::Token 1.967009
+      Parse::RecDescent::UncondReject 1.967009
+    requirements:
+      Test::More 0
+      Text::Balanced 1.95
   Path-Class-0.35
     pathname: K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
     provides:
@@ -6165,6 +6231,18 @@ DISTRIBUTIONS
       Role::Tiny 1.003003
       Role::Tiny::With 1.003003
     requirements:
+  SVG-2.59
+    pathname: S/SZ/SZABGAB/SVG-2.59.tar.gz
+    provides:
+      SVG 2.59
+      SVG::DOM 2.59
+      SVG::Element 2.59
+      SVG::Extension 2.59
+      SVG::XML 2.59
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      parent 0
   Safe-Isa-1.000005
     pathname: E/ET/ETHER/Safe-Isa-1.000005.tar.gz
     provides:
@@ -6207,12 +6285,156 @@ DISTRIBUTIONS
       Socket6 0.25
     requirements:
       ExtUtils::MakeMaker 0
+  Software-License-0.103010
+    pathname: R/RJ/RJBS/Software-License-0.103010.tar.gz
+    provides:
+      Software::License 0.103010
+      Software::License::AGPL_3 0.103010
+      Software::License::Apache_1_1 0.103010
+      Software::License::Apache_2_0 0.103010
+      Software::License::Artistic_1_0 0.103010
+      Software::License::Artistic_2_0 0.103010
+      Software::License::BSD 0.103010
+      Software::License::CC0_1_0 0.103010
+      Software::License::Custom 0.103010
+      Software::License::FreeBSD 0.103010
+      Software::License::GFDL_1_2 0.103010
+      Software::License::GFDL_1_3 0.103010
+      Software::License::GPL_1 0.103010
+      Software::License::GPL_2 0.103010
+      Software::License::GPL_3 0.103010
+      Software::License::LGPL_2_1 0.103010
+      Software::License::LGPL_3_0 0.103010
+      Software::License::MIT 0.103010
+      Software::License::Mozilla_1_0 0.103010
+      Software::License::Mozilla_1_1 0.103010
+      Software::License::Mozilla_2_0 0.103010
+      Software::License::None 0.103010
+      Software::License::OpenSSL 0.103010
+      Software::License::Perl_5 0.103010
+      Software::License::PostgreSQL 0.103010
+      Software::License::QPL_1_0 0.103010
+      Software::License::SSLeay 0.103010
+      Software::License::Sun 0.103010
+      Software::License::Zlib 0.103010
+      Software::LicenseUtils 0.103010
+    requirements:
+      Carp 0
+      Data::Section 0
+      ExtUtils::MakeMaker 6.30
+      File::Spec 0
+      IO::Dir 0
+      Module::Load 0
+      Sub::Install 0
+      Text::Template 0
+      parent 0
+      strict 0
+      warnings 0
+  Sort-Versions-1.60
+    pathname: N/NE/NEILB/Sort-Versions-1.60.tar.gz
+    provides:
+      Sort::Versions 1.60
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      strict 0
+      warnings 0
   Spiffy-0.46
     pathname: I/IN/INGY/Spiffy-0.46.tar.gz
     provides:
       Spiffy 0.46
       Spiffy::mixin undef
     requirements:
+  Spreadsheet-ParseExcel-0.65
+    pathname: D/DO/DOUGW/Spreadsheet-ParseExcel-0.65.tar.gz
+    provides:
+      Spreadsheet::ParseExcel 0.65
+      Spreadsheet::ParseExcel::Cell 0.65
+      Spreadsheet::ParseExcel::Dump 0.65
+      Spreadsheet::ParseExcel::FmtDefault 0.65
+      Spreadsheet::ParseExcel::FmtJapan 0.65
+      Spreadsheet::ParseExcel::FmtJapan2 0.65
+      Spreadsheet::ParseExcel::FmtUnicode 0.65
+      Spreadsheet::ParseExcel::Font 0.65
+      Spreadsheet::ParseExcel::Format 0.65
+      Spreadsheet::ParseExcel::SaveParser 0.65
+      Spreadsheet::ParseExcel::SaveParser::Workbook 0.65
+      Spreadsheet::ParseExcel::SaveParser::Worksheet 0.65
+      Spreadsheet::ParseExcel::Utility 0.65
+      Spreadsheet::ParseExcel::Workbook 0.65
+      Spreadsheet::ParseExcel::Worksheet 0.65
+    requirements:
+      Crypt::RC4 0
+      Digest::Perl::MD5 0
+      ExtUtils::MakeMaker 0
+      IO::File 0
+      IO::Scalar 0
+      OLE::Storage_Lite 0.19
+      Scalar::Util 0
+  Spreadsheet-ParseExcel-Simple-1.04
+    pathname: T/TM/TMTM/Spreadsheet-ParseExcel-Simple-1.04.tar.gz
+    provides:
+      Spreadsheet::ParseExcel::Simple 1.04
+      Spreadsheet::ParseExcel::Simple::_Sheet 1.04
+    requirements:
+      ExtUtils::MakeMaker 0
+      Spreadsheet::ParseExcel 0.18
+      Test::More 0.01
+  Spreadsheet-WriteExcel-2.40
+    pathname: J/JM/JMCNAMARA/Spreadsheet-WriteExcel-2.40.tar.gz
+    provides:
+      Spreadsheet::WriteExcel 2.40
+      Spreadsheet::WriteExcel::BIFFwriter 2.40
+      Spreadsheet::WriteExcel::Big 2.40
+      Spreadsheet::WriteExcel::Chart 2.40
+      Spreadsheet::WriteExcel::Chart::Area 2.40
+      Spreadsheet::WriteExcel::Chart::Bar 2.40
+      Spreadsheet::WriteExcel::Chart::Column 2.40
+      Spreadsheet::WriteExcel::Chart::External 2.40
+      Spreadsheet::WriteExcel::Chart::Line 2.40
+      Spreadsheet::WriteExcel::Chart::Pie 2.40
+      Spreadsheet::WriteExcel::Chart::Scatter 2.40
+      Spreadsheet::WriteExcel::Chart::Stock 2.40
+      Spreadsheet::WriteExcel::Examples 2.40
+      Spreadsheet::WriteExcel::Format 2.40
+      Spreadsheet::WriteExcel::Formula 2.40
+      Spreadsheet::WriteExcel::OLEwriter 2.40
+      Spreadsheet::WriteExcel::Properties 2.40
+      Spreadsheet::WriteExcel::Utility 2.40
+      Spreadsheet::WriteExcel::Workbook 2.40
+      Spreadsheet::WriteExcel::Worksheet 2.40
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Temp 0
+      OLE::Storage_Lite 0.19
+      Parse::RecDescent 0
+  Spreadsheet-WriteExcel-Simple-1.04
+    pathname: T/TM/TMTM/Spreadsheet-WriteExcel-Simple-1.04.tar.gz
+    provides:
+      Spreadsheet::WriteExcel::Simple 1.04
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Scalar 1.126
+      Spreadsheet::WriteExcel 0.31
+      Test::More 0.04
+  Starman-0.4010
+    pathname: M/MI/MIYAGAWA/Starman-0.4010.tar.gz
+    provides:
+      HTTP::Server::PSGI::Net::Server::PreFork undef
+      Plack::Handler::Starman undef
+      Starman 0.4010
+      Starman::Server undef
+    requirements:
+      Data::Dump 0
+      HTTP::Date 0
+      HTTP::Parser::XS 0
+      HTTP::Status 0
+      Module::Build::Tiny 0.037
+      Net::Server 2.007
+      Plack 0.9971
+      Test::TCP 2.00
+      parent 0
+      perl 5.008001
   Storable-2.51
     pathname: A/AM/AMS/Storable-2.51.tar.gz
     provides:
@@ -6987,6 +7209,13 @@ DISTRIBUTIONS
       File::Temp 0
       Test::More 0
       perl 5.00800
+  Text-Template-1.46
+    pathname: M/MJ/MJD/Text-Template-1.46.tar.gz
+    provides:
+      Text::Template 1.46
+      Text::Template::Preprocess 1.46
+    requirements:
+      ExtUtils::MakeMaker 0
   Throwable-0.200012
     pathname: R/RJ/RJBS/Throwable-0.200012.tar.gz
     provides:
