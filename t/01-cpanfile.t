@@ -24,7 +24,7 @@ while (my $line  = <$fh>) {
 		next if $module eq 'ORLite';           # Error:  Missing, empty or invalid params HASH
 		next if $module eq 'ORLite::Migrate';  # Error:  Missing, empty or invalid params HASH
 		#diag "$module  - $version";
-		eval "$module ()";
+		eval "use $module ()";
 		ok !$@, "use $module ()" or diag $@;
 	} else {
 		diag "Invalid line $line";
