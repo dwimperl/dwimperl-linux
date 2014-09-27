@@ -33,8 +33,8 @@ sub run {
 
 	$self->usage('Missing config') if !-e $self->config_file;
 
-	say $zip_file if $self->verbose;
-	say $dir if $self->verbose;
+	say "\$zip_file=$zip_file" if $self->verbose;
+	say "\$dir=$dir" if $self->verbose;
 	
 	my $Config = Config::Tiny->read( $self->config_file, 'utf8' );
 
@@ -98,7 +98,6 @@ sub run {
 
 
 	my $pref = "DWIM_BASE_VERSION=" . $self->base;
-	die $pref;
 	if ($self->base) {
 		# based on an earlier release
 		push @user_cmds, (
@@ -127,9 +126,9 @@ sub run {
 
 	my ($remote_filename) = map { substr $_, 19 } grep { /^GENERATED_ZIP_FILE=/ } @{ $results->[-1] };
 	chomp $remote_filename;
-	say "remote_filename='$remote_filename'" if $self->verbose;
+	say "\$remote_filename='$remote_filename'" if $self->verbose;
 	(my $local_filename = $remote_filename) =~ s{^.*/}{};
-	say "local_filename='$local_filename'" if $self->verbose;
+	say "\$local_filename='$local_filename'" if $self->verbose;
 
 	# download the zip file
 	my $cmd = sprintf 'scp -q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s:%s %s',  $username, $server->ip_address, $remote_filename, $local_filename;
@@ -147,10 +146,13 @@ sub ssh {
 
 	my @results;
 	foreach my $cmd (@$cmds) {
+		say "===================" if $self->verbose;
 		my $full_cmd = sprintf 'ssh -q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no %s@%s "%s"',  $username, $ip_address, $cmd;
-		say $full_cmd if $self->verbose;
+		say "\$full_cmd=$full_cmd" if $self->verbose;
 		my @out = qx{$full_cmd};
+		say '@out:' if $self->verbose;
 		print @out if $self->verbose;
+		say '---';
 		push @results, \@out;
 	}
 
