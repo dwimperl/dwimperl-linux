@@ -202,7 +202,7 @@ requires 'Perl::Tidy',                      '20140711';
 requires 'Perl::Critic',                    '1.122';
 requires 'Perl::Version',                   '1.013';
 requires 'Plack',                           '1.0031';
-requires 'Plack::Middleware::Debug',        '0.16';
+#requires 'Plack::Middleware::Debug',        '0.16'; #1
 #requires 'Plack::Middleware::LogErrors',    '0.001'; #1
 requires 'Plack::Middleware::LogWarn',      '0.001002';
 requires 'Plack::Middleware::ReverseProxy', '0.15';
