@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3600
-Last-Updated: Sat Sep 27 12:33:30 2014
+Line-Count:   3681
+Last-Updated: Sat Sep 27 12:37:53 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -190,6 +190,7 @@ Class::Adapter                         1.08  A/AD/ADAMK/Class-Adapter-1.08.tar.g
 Class::Adapter::Builder                1.07  A/AD/ADAMK/Class-Adapter-1.08.tar.gz
 Class::Adapter::Clear                  1.07  A/AD/ADAMK/Class-Adapter-1.08.tar.gz
 Class::Data::Inheritable               0.08  T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
+Class::ErrorHandler                    0.03  T/TO/TOKUHIROM/Class-ErrorHandler-0.03.tar.gz
 Class::Inspector                       1.28  A/AD/ADAMK/Class-Inspector-1.28.tar.gz
 Class::Inspector::Functions            1.28  A/AD/ADAMK/Class-Inspector-1.28.tar.gz
 Class::Load                            0.22  E/ET/ETHER/Class-Load-0.22.tar.gz
@@ -550,6 +551,8 @@ Date::Parse                            2.30  G/GB/GBARR/TimeDate-2.30.tar.gz
 Date::Tiny                             1.04  A/AD/ADAMK/Date-Tiny-1.04.tar.gz
 DateTime                               1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
 DateTime::Duration                     1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
+DateTime::Format::Mail                0.401  B/BO/BOOK/DateTime-Format-Mail-0.401.tar.gz
+DateTime::Format::W3CDTF               0.06  G/GW/GWILLIAMS/DateTime-Format-W3CDTF-0.06.tar.gz
 DateTime::Helpers                      1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
 DateTime::Infinite                     1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
 DateTime::Infinite::Future             1.12  D/DR/DROLSKY/DateTime-1.12.tar.gz
@@ -1618,6 +1621,7 @@ ExtUtils::Packlist                     2.04  B/BI/BINGOS/ExtUtils-Install-2.04.t
 FCGI                                   0.77  E/ET/ETHER/FCGI-0.77.tar.gz
 FCGI::Stream                           0.77  E/ET/ETHER/FCGI-0.77.tar.gz
 Fatal                                  2.25  P/PJ/PJF/autodie-2.25.tar.gz
+Feed::Find                             0.07  B/BT/BTROTT/Feed-Find-0.07.tar.gz
 Fennec::Lite                          0.004  E/EX/EXODIST/Fennec-Lite-0.004.tar.gz
 Fh                                     4.04  L/LE/LEEJO/CGI-4.04.tar.gz
 File::ConfigDir                       0.013  R/RE/REHSACK/File-ConfigDir-0.013.tar.gz
@@ -1836,6 +1840,7 @@ LWP::Protocol::nogo                   undef  M/MS/MSCHILLI/libwww-perl-6.08.tar.
 LWP::RobotUA                           6.06  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::Simple                            6.00  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
 LWP::UserAgent                         6.06  M/MS/MSCHILLI/libwww-perl-6.08.tar.gz
+LWP::UserAgent::AtomClient            undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
 Lexical::SealRequireHints             0.007  Z/ZE/ZEFRAM/Lexical-SealRequireHints-0.007.tar.gz
 Lingua::EN::Inflect                   1.895  D/DC/DCONWAY/Lingua-EN-Inflect-1.895.tar.gz
 List::AllUtils                         0.08  D/DR/DROLSKY/List-AllUtils-0.08.tar.gz
@@ -3337,6 +3342,7 @@ Test::Harness                          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Test::LeakTrace                        0.14  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::LeakTrace::Script               undef  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::LongString                       0.16  R/RG/RGARCIA/Test-LongString-0.16.tar.gz
+Test::Manifest                         2.02  B/BD/BDFOY/Test-Manifest-2.02.tar.gz
 Test::Memory::Cycle                    1.04  P/PE/PETDANCE/Test-Memory-Cycle-1.04.tar.gz
 Test::MetaSyntactic                   1.005  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 Test::MockModule                       0.05  S/SI/SIMONFLK/Test-MockModule-0.05.tar.gz
@@ -3364,6 +3370,7 @@ Test::Reporter::Transport::File        1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.ta
 Test::Reporter::Transport::Metabase   1.999008  D/DA/DAGOLDEN/Test-Reporter-Transport-Metabase-1.999008.tar.gz
 Test::Reporter::Transport::Null        1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
 Test::Requires                         0.08  T/TO/TOKUHIROM/Test-Requires-0.08.tar.gz
+Test::Run::CmdLine::WithTestManifest      undef  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
 Test::Script                           1.07  A/AD/ADAMK/Test-Script-1.07.tar.gz
 Test::SharedFork                       0.29  E/EX/EXODIST/Test-SharedFork-0.29.tar.gz
 Test::SharedFork::Array               undef  E/EX/EXODIST/Test-SharedFork-0.29.tar.gz
@@ -3413,6 +3420,8 @@ UNIVERSAL::can                   1.20140328  C/CH/CHROMATIC/UNIVERSAL-can-1.2014
 UNIVERSAL::isa                   1.20140824  E/ET/ETHER/UNIVERSAL-isa-1.20140824.tar.gz
 URI                                    1.64  E/ET/ETHER/URI-1.64.tar.gz
 URI::Escape                            3.31  E/ET/ETHER/URI-1.64.tar.gz
+URI::Fetch                             0.10  N/NE/NEILB/URI-Fetch-0.10.tar.gz
+URI::Fetch::Response                   0.10  N/NE/NEILB/URI-Fetch-0.10.tar.gz
 URI::Heuristic                         4.20  E/ET/ETHER/URI-1.64.tar.gz
 URI::IRI                              undef  E/ET/ETHER/URI-1.64.tar.gz
 URI::QueryParam                       undef  E/ET/ETHER/URI-1.64.tar.gz
@@ -3485,6 +3494,29 @@ WWW::Mechanize::Link                  undef  E/ET/ETHER/WWW-Mechanize-1.73.tar.g
 WWW::RobotRules                        6.02  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
 WWW::RobotRules::AnyDBM_File           6.00  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
 WWW::RobotRules::InCore                6.02  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+XML::Atom                              0.41  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Base                       undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Category                   undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Client                     undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Content                    undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Entry                      undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::ErrorHandler               undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Feed                       undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Link                       undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Namespace                   0.41  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Person                     undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Server                     undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Thing                      undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Atom::Util                       undef  M/MI/MIYAGAWA/XML-Atom-0.41.tar.gz
+XML::Feed                              0.52  D/DA/DAVECROSS/XML-Feed-0.52.tar.gz
+XML::Feed::Content                     0.52  D/DA/DAVECROSS/XML-Feed-0.52.tar.gz
+XML::Feed::Enclosure                   0.52  D/DA/DAVECROSS/XML-Feed-0.52.tar.gz
+XML::Feed::Entry                       0.52  D/DA/DAVECROSS/XML-Feed-0.52.tar.gz
+XML::Feed::Entry::Format::Atom         0.52  D/DA/DAVECROSS/XML-Feed-0.52.tar.gz
+XML::Feed::Entry::Format::RSS          0.52  D/DA/DAVECROSS/XML-Feed-0.52.tar.gz
+XML::Feed::Format::Atom                0.52  D/DA/DAVECROSS/XML-Feed-0.52.tar.gz
+XML::Feed::Format::RSS                 0.52  D/DA/DAVECROSS/XML-Feed-0.52.tar.gz
+XML::Filter::BufferText                1.01  R/RB/RBERJON/XML-Filter-BufferText-1.01.tar.gz
 XML::LibXML                          2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
 XML::LibXML::Attr                    2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
 XML::LibXML::AttributeHash           2.0116  S/SH/SHLOMIF/XML-LibXML-2.0116.tar.gz
@@ -3531,11 +3563,20 @@ XML::Parser::Style::Objects           undef  T/TO/TODDR/XML-Parser-2.41.tar.gz
 XML::Parser::Style::Stream            undef  T/TO/TODDR/XML-Parser-2.41.tar.gz
 XML::Parser::Style::Subs              undef  T/TO/TODDR/XML-Parser-2.41.tar.gz
 XML::Parser::Style::Tree              undef  T/TO/TODDR/XML-Parser-2.41.tar.gz
+XML::RSS                               1.55  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
+XML::RSS::Private::Output::Base       undef  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
+XML::RSS::Private::Output::Roles::ImageDims      undef  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
+XML::RSS::Private::Output::Roles::ModulesElems      undef  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
+XML::RSS::Private::Output::V0_9       undef  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
+XML::RSS::Private::Output::V0_91      undef  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
+XML::RSS::Private::Output::V1_0       undef  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
+XML::RSS::Private::Output::V2_0       undef  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
 XML::SAX                               0.99  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::Base                         1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
 XML::SAX::Base::NoHandler              1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
 XML::SAX::DocumentLocator             undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::Exception                    1.08  G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz
+XML::SAX::Expat                        0.51  B/BJ/BJOERN/XML-SAX-Expat-0.51.tar.gz
 XML::SAX::ParserFactory                1.01  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::PurePerl                     0.99  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::PurePerl::DebugHandler      undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
@@ -3545,6 +3586,46 @@ XML::SAX::PurePerl::Reader            undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::PurePerl::Reader::Stream      undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::PurePerl::Reader::String      undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
 XML::SAX::PurePerl::Reader::URI       undef  G/GR/GRANTM/XML-SAX-0.99.tar.gz
+XML::SAX::Writer                       0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::SAX::Writer::ArrayConsumer        0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::SAX::Writer::CodeConsumer         0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::SAX::Writer::ConsumerInterface       0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::SAX::Writer::Encode               0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::SAX::Writer::FileConsumer         0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::SAX::Writer::HandleConsumer       0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::SAX::Writer::NullConverter        0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::SAX::Writer::StringConsumer       0.53  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::SAX::Writer::XML                  0.54  P/PE/PERIGRIN/XML-SAX-Writer-0.54.tar.gz
+XML::Simple                            2.20  G/GR/GRANTM/XML-Simple-2.20.tar.gz
+XML::XPath                             1.13  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Boolean                   undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Builder                   undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Expr                      undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Function                  undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Literal                   undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::LocationPath              undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node                      undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::Attribute           undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::AttributeImpl       undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::Comment             undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::CommentImpl         undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::Element             undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::ElementImpl         undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::Namespace           undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::NamespaceImpl       undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::PI                  undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::PIImpl              undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::Text                undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Node::TextImpl            undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::NodeImpl                  undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::NodeSet                   undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Number                    undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Parser                    undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::PerlSAX                   undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Root                      undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Step                      undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::Variable                  undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
+XML::XPath::XMLParser                 undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
 YAML                                   1.12  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Any                              1.12  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Dumper                          undef  I/IN/INGY/YAML-1.12.tar.gz

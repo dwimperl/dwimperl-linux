@@ -7411,6 +7411,20 @@ DISTRIBUTIONS
     provides:
       multidimensional 0.011
     requirements:
+  namespace-autoclean-0.20
+    pathname: E/ET/ETHER/namespace-autoclean-0.20.tar.gz
+    provides:
+      namespace::autoclean 0.20
+    requirements:
+      B::Hooks::EndOfScope 0.12
+      ExtUtils::MakeMaker 0
+      List::Util 0
+      Module::Build::Tiny 0.038
+      Sub::Identify 0
+      namespace::clean 0.20
+      perl 5.006
+      strict 0
+      warnings 0
   namespace-clean-0.25
     pathname: R/RI/RIBASUSHI/namespace-clean-0.25.tar.gz
     provides:
