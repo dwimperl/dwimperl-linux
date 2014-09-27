@@ -246,8 +246,8 @@ requires 'Test::Fatal',                 '0.013';
 requires 'Test::Memory::Cycle',         '1.04';
 #requires 'Test::MockObject',           '1.20140408'; #1
 requires 'Test::MockTime',              '0.13';
-#requires 'Test::Mock::LWP';
-#requires 'Test::MockModule';
+#requires 'Test::Mock::LWP',            '0.08';
+#requires 'Test::MockModule',           '0.05';
 requires 'Test::More',                  '1.001006';
 #requires 'Test::Most',                  '0.34';  # 1
 requires 'Test::NoWarnings',            '1.04';
@@ -307,22 +307,11 @@ requires 'XML::NamespaceSupport',           '1.11';
 requires 'YAML',                            '1.12';
 #requires 'YAML::Tiny',                      '1.63'; #1
 
-# Net::Server 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523
-#mycpan --notest Net::Server
-#
-## mycpan PAR::Packer failed
-
-## CGI::FormBuilder: lots of warnings like this:
-## /bin/tar: Ignoring unknown extended header keyword `SCHILY.ino'
-##### mycpan CGI::FormBuilder
-#mycpan CGI::FormBuilder::Source::Perl
- 
-
-
-
-## Needs Term::Readline::Gnu but that fails because:
-## Could not find neither libtermcap.a, libncurses.a, or libcurses.
-## requires 'Debug::Client
+#requires 'Net::Server',                     '2.008'; # 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523 # --notest Net::Server
+#requires 'CGI::FormBuilder',                '3.09';
+#requires 'CGI::FormBuilder::Source::Perl',  '0.01';
+#requires 'PAR::Packer',                     '1.022';
+#requires 'Debug::Client',                   '0.29';  # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
 
 # Win32
 # Win32::Shortcut
