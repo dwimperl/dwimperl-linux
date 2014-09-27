@@ -141,10 +141,10 @@ DISTRIBUTIONS
       parent 0
       strict 0
       warnings 0
-  App-cpanminus-1.7011
-    pathname: M/MI/MIYAGAWA/App-cpanminus-1.7011.tar.gz
+  App-cpanminus-1.7012
+    pathname: M/MI/MIYAGAWA/App-cpanminus-1.7012.tar.gz
     provides:
-      App::cpanminus 1.7011
+      App::cpanminus 1.7012
     requirements:
       ExtUtils::Install 1.46
       ExtUtils::MakeMaker 6.58
@@ -393,17 +393,17 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
-  CPAN-Meta-2.142060
-    pathname: D/DA/DAGOLDEN/CPAN-Meta-2.142060.tar.gz
+  CPAN-Meta-2.142690
+    pathname: D/DA/DAGOLDEN/CPAN-Meta-2.142690.tar.gz
     provides:
-      CPAN::Meta 2.142060
-      CPAN::Meta::Converter 2.142060
-      CPAN::Meta::Feature 2.142060
-      CPAN::Meta::History 2.142060
-      CPAN::Meta::Merge 2.142060
-      CPAN::Meta::Prereqs 2.142060
-      CPAN::Meta::Spec 2.142060
-      CPAN::Meta::Validator 2.142060
+      CPAN::Meta 2.142690
+      CPAN::Meta::Converter 2.142690
+      CPAN::Meta::Feature 2.142690
+      CPAN::Meta::History 2.142690
+      CPAN::Meta::Merge 2.142690
+      CPAN::Meta::Prereqs 2.142690
+      CPAN::Meta::Spec 2.142690
+      CPAN::Meta::Validator 2.142690
     requirements:
       CPAN::Meta::Requirements 2.121
       CPAN::Meta::YAML 0.008
@@ -4257,8 +4257,8 @@ DISTRIBUTIONS
       Getopt::Long 0
       Test::More 0
       autodie 0
-  Mojolicious-5.44
-    pathname: S/SR/SRI/Mojolicious-5.44.tar.gz
+  Mojolicious-5.46
+    pathname: S/SR/SRI/Mojolicious-5.46.tar.gz
     provides:
       Mojo undef
       Mojo::Asset undef
@@ -4321,7 +4321,7 @@ DISTRIBUTIONS
       Mojo::UserAgent::Server undef
       Mojo::UserAgent::Transactor undef
       Mojo::Util undef
-      Mojolicious 5.44
+      Mojolicious 5.46
       Mojolicious::Command undef
       Mojolicious::Command::cgi undef
       Mojolicious::Command::cpanify undef
@@ -6968,12 +6968,12 @@ DISTRIBUTIONS
       Test::Base::Filter undef
       Test::Base::Handle 0.88
     requirements:
-  Test-Class-0.46
-    pathname: E/ET/ETHER/Test-Class-0.46.tar.gz
+  Test-Class-0.47
+    pathname: E/ET/ETHER/Test-Class-0.47.tar.gz
     provides:
-      Test::Class 0.46
-      Test::Class::Load 0.46
-      Test::Class::MethodInfo 0.46
+      Test::Class 0.47
+      Test::Class::Load 0.47
+      Test::Class::MethodInfo 0.47
     requirements:
       Attribute::Handlers 0.77
       Carp 0

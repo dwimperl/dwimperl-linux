@@ -6,7 +6,7 @@ requires 'AnyEvent::HTTP',                  '2.21';
 requires 'AnyEvent::Ping',                  '0.006';
 #requires 'AnyEvent::Ping::TCP',             '1.00'; # has lots of CPANTESTERS fail reports
 requires 'App::Ack',                        '2.14';
-requires 'App::cpanminus',                  '1.7011';
+requires 'App::cpanminus',                  '1.7012';
 requires 'App::cpanminus::reporter',        '0.11';
 requires 'App::cpanoutdated',               '0.28';
 requires 'App::Prove',                      '3.33';
@@ -37,6 +37,7 @@ requires 'Config::Any',                     '0.24';
 requires 'Config::General',                 '2.56';
 requires 'Config::Tiny',                    '2.20';
 requires 'Cpanel::JSON::XS',                '3.0104';
+requires 'CPAN::Meta',                      '2.142690';
 requires 'CPAN::Meta::Check',               '0.009';
 requires 'CPAN::Meta::Requirements',        '2.128';
 requires 'CPAN::Perl::Releases',            '1.90';
@@ -178,7 +179,7 @@ requires 'Module::Build::ModuleInfo',       '0.4210';
 requires 'Module::CoreList',                '5.20140920';
 requires 'Module::Metadata',                '1.000024';
 #requires 'Module::Version',                 '0.12'; # error: Failed to upconvert metadata to 1.1. Errors: Missing mandatory field, 'version' (version) [Validation: 1.0]
-requires 'Mojolicious',                     '5.44';
+requires 'Mojolicious',                     '5.46';
 #requires 'namespace::autoclean',            '0.20'; #1
 requires 'Net::Config',                     '1.14';
 requires 'Net::DNS',                        '0.80';
@@ -240,7 +241,7 @@ requires 'Template::Tiny',                  '1.12';
 requires 'Term::ANSIColor',                 '4.03';
 requires 'Term::Cap',                       '1.16';
 requires 'Test::Builder',                   '1.001006';
-requires 'Test::Class',                     '0.46';
+requires 'Test::Class',                     '0.47';
 #requires 'Test::Class::Most',               '0.08';
 requires 'Test::CleanNamespaces',           '0.16';
 requires 'Test::Deep',                       '0.113';
