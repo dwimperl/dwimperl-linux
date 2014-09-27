@@ -142,7 +142,7 @@ requires 'Moo',                             '1.006000';
 requires 'MooX::Options',                   '4.010';
 requires 'MooX::late',                      '0.015';
 requires 'MooX::Singleton',                 '1.20';
-#requires 'Moose',                           '2.1213'; #1
+requires 'Moose',                           '2.1213'; #1
 #requires 'MooseX::Singleton',               '0.29';
 #requires 'MooseX::StrictConstructor',       '0.19';
 #requires 'MooseX::Params::Validate',        '0.18';
