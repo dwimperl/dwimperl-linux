@@ -16,6 +16,7 @@ script:
 
   - ./build.sh get_base_perl
   - ./build.sh dwim
+  - ./build.sh notest
   - ./build.sh try
   - ./build.sh modules
   - ./build.sh test_perl
