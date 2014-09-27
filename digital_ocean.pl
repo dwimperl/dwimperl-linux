@@ -105,19 +105,25 @@ sub run {
 			#"cd $dir; $pref ./build.sh openssl",
 			#"cd $dir; $pref ./build.sh libxml2",
 			#"cd $dir; $pref ./build.sh zlib",
+			"cd $dir; $pref ./build.sh xml-libxml",
+			"cd $dir; $pref ./build.sh expat",
+			"cd $dir; $pref ./build.sh xml-parser",
 			"cd $dir; $pref ./build.sh modules",
 			"cd $dir; $pref ./build.sh test_cpanfile",
 			#"cd $dir; $pref ./build.sh test_all",
 			"cd $dir; $pref ./build.sh zip",
 		);
 	} else {
-		# build perl from scratch with cpanm
+		# build perl from scratch with cpanm, only installing modules that need special treatment
 		push @user_cmds, (
 			"cd $dir; $pref ./build.sh perl",
 			"cd $dir; $pref ./build.sh cpanm",
 			"cd $dir; $pref ./build.sh openssl",
 			"cd $dir; $pref ./build.sh libxml2",
 			"cd $dir; $pref ./build.sh zlib",
+			"cd $dir; $pref ./build.sh expat",
+			"cd $dir; $pref ./build.sh xml-libxml",
+			"cd $dir; $pref ./build.sh xml-parser",
 			"cd $dir; $pref ./build.sh test_perl",
 			"cd $dir; $pref ./build.sh zip",
 		);
