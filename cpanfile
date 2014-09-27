@@ -182,7 +182,7 @@ requires 'Mojolicious',                     '5.44';
 #requires 'namespace::autoclean',            '0.20'; #1
 requires 'Net::Config',                     '1.14';
 requires 'Net::DNS',                        '0.80';
-#requires 'Net::Server',                     '2.008'; # 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523 # --notest Net::Server
+requires 'Net::Server',                     '2.008'; # 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523 # --notest Net::Server
 requires 'Net::SSLeay',                     '1.14';
 #requires 'Net::Ping',                       '2.41';
 #requires 'Net::Traceroute',                 '1.15';
@@ -194,7 +194,7 @@ requires 'Params::Util',                    '1.07';
 requires 'Parse::ExuberantCTags',           '1.02';
 requires 'Parallel::ForkManager',           '1.06';
 requires 'Parse::CPAN::Meta',               '1.4414';
-#requires 'Parse::Functions',               '0.01';
+requires 'Parse::Functions',               '0.01';
 #requires 'Path::Tiny',                     '0.058';
 #requires 'Perl::Tidy';
 #requires 'Perl::Critic
@@ -205,7 +205,7 @@ requires 'Parse::CPAN::Meta',               '1.4414';
 #requires 'Plack::Middleware::LogWarn
 #requires 'Plack::Middleware::ReverseProxy
 #requires 'PPIx::EditorTools::Outline';
-#requires 'PDF::Create',                '1.08';
+requires 'PDF::Create',                '1.08';
 requires 'perlfaq',                         '5.0150045';
 #requires 'Pod::Abstract
 requires 'Pod::Checker',               '1.71';
@@ -235,8 +235,8 @@ requires 'Socket6',                    '0.25';
 #requires 'Starman',                    '0.4010';
 requires 'Storable',                   '2.51';
 #requires 'SVG',                        '2.59';
-#requires 'Template',                   '2.26';
-#requires 'Template::Tiny',             '1.12';
+requires 'Template',                   '2.26';
+requires 'Template::Tiny',             '1.12';
 requires 'Term::ANSIColor',            '4.03';
 requires 'Term::Cap',                  '1.16';
 requires 'Test::Builder',              '1.001006';

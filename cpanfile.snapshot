@@ -4835,6 +4835,37 @@ DISTRIBUTIONS
       MIME::Base64 0
       Test::More 0.60_01
       perl 5.005
+  Net-Server-2.008
+    pathname: R/RH/RHANDOM/Net-Server-2.008.tar.gz
+    provides:
+      Net::Server 2.008
+      Net::Server::Daemonize 0.06
+      Net::Server::Fork undef
+      Net::Server::HTTP undef
+      Net::Server::INET undef
+      Net::Server::INET::Handle undef
+      Net::Server::Log::Log::Log4perl undef
+      Net::Server::Log::Sys::Syslog undef
+      Net::Server::MultiType undef
+      Net::Server::PSGI undef
+      Net::Server::PreFork undef
+      Net::Server::PreForkSimple undef
+      Net::Server::Proto undef
+      Net::Server::Proto::SSL undef
+      Net::Server::Proto::SSLEAY undef
+      Net::Server::Proto::TCP undef
+      Net::Server::Proto::UDP undef
+      Net::Server::Proto::UNIX undef
+      Net::Server::Proto::UNIXDGRAM undef
+      Net::Server::SIG 0.03
+      Net::Server::Single undef
+      Net::Server::TiedHandle 2.008
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Socket 0
+      POSIX 0
+      Socket 0
+      Time::HiRes 0
   Number-Compare-0.03
     pathname: R/RC/RCLAMP/Number-Compare-0.03.tar.gz
     provides:
@@ -4894,6 +4925,20 @@ DISTRIBUTIONS
       Class::XSAccessor 0.11
       ExtUtils::MakeMaker 6.98
       Test::More 0.47
+  PDF-Create-1.10
+    pathname: S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
+    provides:
+      PDF::Create 1.10
+      PDF::Create::Outline 1.10
+      PDF::Create::Page 1.10
+      PDF::Image::GIF 1.10
+      PDF::Image::JPEG 1.10
+    requirements:
+      Carp 0
+      Data::Dumper 0
+      ExtUtils::MakeMaker 0
+      FileHandle 0
+      Scalar::Util 0
   POSIX-strftime-Compiler-0.40
     pathname: K/KA/KAZEBURO/POSIX-strftime-Compiler-0.40.tar.gz
     provides:
@@ -5232,6 +5277,18 @@ DISTRIBUTIONS
       File::Spec 0
       Test::More 0
       perl 5.006001
+  Parse-Functions-0.01
+    pathname: S/SZ/SZABGAB/Parse-Functions-0.01.tar.gz
+    provides:
+      Parse::Functions 0.01
+      Parse::Functions::CSharp 0.01
+      Parse::Functions::Java 0.01
+      Parse::Functions::Perl 0.01
+      Parse::Functions::Python 0.01
+      Parse::Functions::Ruby 0.01
+    requirements:
+      ExtUtils::MakeMaker 6.36
+      Test::More 0.88
   Path-Class-0.35
     pathname: K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
     provides:
