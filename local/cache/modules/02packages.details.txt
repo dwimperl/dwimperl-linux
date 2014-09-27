@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3681
-Last-Updated: Sat Sep 27 12:37:53 2014
+Line-Count:   3682
+Last-Updated: Sat Sep 27 12:38:59 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3675,6 +3675,7 @@ lib::core::only                       undef  H/HA/HAARG/local-lib-2.000014.tar.g
 local::lib                         2.000014  H/HA/HAARG/local-lib-2.000014.tar.gz
 metaclass                            2.1213  E/ET/ETHER/Moose-2.1213.tar.gz
 multidimensional                      0.011  I/IL/ILMARI/multidimensional-0.011.tar.gz
+namespace::autoclean                   0.20  E/ET/ETHER/namespace-autoclean-0.20.tar.gz
 namespace::clean                       0.25  R/RI/RIBASUSHI/namespace-clean-0.25.tar.gz
 ojo                                   undef  S/SR/SRI/Mojolicious-5.44.tar.gz
 oo                                    undef  H/HA/HAARG/Moo-1.006000.tar.gz
