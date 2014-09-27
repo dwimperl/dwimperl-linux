@@ -194,18 +194,18 @@ requires 'Params::Util',                    '1.07';
 requires 'Parse::ExuberantCTags',           '1.02';
 requires 'Parallel::ForkManager',           '1.06';
 requires 'Parse::CPAN::Meta',               '1.4414';
-requires 'Parse::Functions',               '0.01';
-#requires 'Path::Tiny',                     '0.058';
-#requires 'Perl::Tidy';
-#requires 'Perl::Critic
-#requires 'Perl::Version
-#requires 'Plack';
-#requires 'Plack::Middleware::Debug
-#requires 'Plack::Middleware::LogErrors
-#requires 'Plack::Middleware::LogWarn
-#requires 'Plack::Middleware::ReverseProxy
+requires 'Parse::Functions',                '0.01';
+requires 'Path::Tiny',                      '0.058';
+requires 'Perl::Tidy',                      '20140711';
+requires 'Perl::Critic',                    '1.122';
+requires 'Perl::Version',                   '1.013';
+requires 'Plack',                           '1.0031';
+requires 'Plack::Middleware::Debug',        '0.16';
+requires 'Plack::Middleware::LogErrors',    '0.001';
+requires 'Plack::Middleware::LogWarn',      '0.001002';
+requires 'Plack::Middleware::ReverseProxy', '0.15';
 #requires 'PPIx::EditorTools::Outline';
-requires 'PDF::Create',                '1.08';
+#requires 'PDF::Create',                '1.08'; #1
 requires 'perlfaq',                         '5.0150045';
 #requires 'Pod::Abstract
 requires 'Pod::Checker',               '1.71';

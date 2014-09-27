@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3763
-Last-Updated: Sat Sep 27 13:38:24 2014
+Line-Count:   3786
+Last-Updated: Sat Sep 27 14:23:41 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1658,6 +1658,7 @@ File::ShareDir                        1.102  R/RE/REHSACK/File-ShareDir-1.102.ta
 File::ShareDir::Install                0.09  G/GW/GWYN/File-ShareDir-Install-0.09.tar.gz
 File::ShareDir::ProjectDistDir     1.000004  K/KE/KENTNL/File-ShareDir-ProjectDistDir-1.000004.tar.gz
 File::Slurp                         9999.19  U/UR/URI/File-Slurp-9999.19.tar.gz
+File::Slurp::Tiny                     0.003  L/LE/LEONT/File-Slurp-Tiny-0.003.tar.gz
 File::Which                            1.09  A/AD/ADAMK/File-Which-1.09.tar.gz
 File::Zglob                            0.11  T/TO/TOKUHIROM/File-Zglob-0.11.tar.gz
 File::pushd                           1.009  D/DA/DAGOLDEN/File-pushd-1.009.tar.gz
@@ -3045,6 +3046,7 @@ Perl::Tidy::Tokenizer              20140711  S/SH/SHANCOCK/Perl-Tidy-20140711.ta
 Perl::Tidy::VerticalAligner        20140711  S/SH/SHANCOCK/Perl-Tidy-20140711.tar.gz
 Perl::Tidy::VerticalAligner::Alignment   20140711  S/SH/SHANCOCK/Perl-Tidy-20140711.tar.gz
 Perl::Tidy::VerticalAligner::Line   20140711  S/SH/SHANCOCK/Perl-Tidy-20140711.tar.gz
+Perl::Version                         1.013  B/BD/BDFOY/Perl-Version-1.013.tar.gz
 PerlIO::utf8_strict                   0.004  L/LE/LEONT/PerlIO-utf8_strict-0.004.tar.gz
 Plack                                1.0031  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::App::CGIBin                    undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
@@ -3085,6 +3087,20 @@ Plack::Middleware::Conditional        undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::ConditionalGET      undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::ContentLength      undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::ContentMD5         undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
+Plack::Middleware::Debug               0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::Base         0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::CatalystLog       0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::DBITrace       0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::Environment       0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::Memory       0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::ModuleVersions       0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::Panel       undef  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::Parameters      undef  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::PerlConfig       0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::Response       0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::Session      undef  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::Timer        0.16  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+Plack::Middleware::Debug::TrackObjects      undef  M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
 Plack::Middleware::ErrorDocument      undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::HTTPExceptions      undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::Head               undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
@@ -3095,10 +3111,14 @@ Plack::Middleware::LighttpdScriptNameFix      undef  M/MI/MIYAGAWA/Plack-1.0031.
 Plack::Middleware::Lint               undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::Log4perl           undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::LogDispatch        undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
+Plack::Middleware::LogErrors          0.001  E/ET/ETHER/Plack-Middleware-LogErrors-0.001.tar.gz
+Plack::Middleware::LogErrors::LogHandle      0.001  E/ET/ETHER/Plack-Middleware-LogErrors-0.001.tar.gz
+Plack::Middleware::LogWarn         0.001002  M/MA/MAESTRO/Plack-Middleware-LogWarn-0.001002.tar.gz
 Plack::Middleware::NullLogger         undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::RearrangeHeaders      undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::Recursive          undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::Refresh            undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
+Plack::Middleware::ReverseProxy        0.15  M/MI/MIYAGAWA/Plack-Middleware-ReverseProxy-0.15.tar.gz
 Plack::Middleware::Runtime            undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::SimpleContentFilter      undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
 Plack::Middleware::SimpleLogger       undef  M/MI/MIYAGAWA/Plack-1.0031.tar.gz
@@ -3485,6 +3505,9 @@ Text::Diff::Table                      1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
 Text::FindIndent                       0.10  S/SM/SMUELLER/Text-FindIndent-0.10.tar.gz
 Text::Glob                             0.09  R/RC/RCLAMP/Text-Glob-0.09.tar.gz
 Text::LineFold                      2012.04  N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
+Text::MicroTemplate                    0.20  K/KA/KAZUHO/Text-MicroTemplate-0.20.tar.gz
+Text::MicroTemplate::EncodedString       0.20  K/KA/KAZUHO/Text-MicroTemplate-0.20.tar.gz
+Text::MicroTemplate::File             undef  K/KA/KAZUHO/Text-MicroTemplate-0.20.tar.gz
 Throwable                          0.200012  R/RJ/RJBS/Throwable-0.200012.tar.gz
 Throwable::Error                   0.200012  R/RJ/RJBS/Throwable-0.200012.tar.gz
 Time::Duration                          1.1  A/AV/AVIF/Time-Duration-1.1.tar.gz

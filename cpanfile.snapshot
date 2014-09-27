@@ -3015,6 +3015,18 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Fcntl 0
       POSIX 0
+  File-Slurp-Tiny-0.003
+    pathname: L/LE/LEONT/File-Slurp-Tiny-0.003.tar.gz
+    provides:
+      File::Slurp::Tiny 0.003
+    requirements:
+      Carp 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.30
+      File::Spec::Functions 0
+      FileHandle 0
+      strict 0
+      warnings 0
   File-Which-1.09
     pathname: A/AD/ADAMK/File-Which-1.09.tar.gz
     provides:
@@ -5675,6 +5687,19 @@ DISTRIBUTIONS
       Perl::Tidy::VerticalAligner::Line 20140711
     requirements:
       ExtUtils::MakeMaker 0
+  Perl-Version-1.013
+    pathname: B/BD/BDFOY/Perl-Version-1.013.tar.gz
+    provides:
+      Perl::Version 1.013
+    requirements:
+      Carp 0
+      Data::Dumper 0
+      ExtUtils::MakeMaker 0
+      File::Slurp::Tiny 0
+      Getopt::Long 2.34
+      Pod::Usage 1.3
+      Scalar::Util 0
+      Test::More 0
   PerlIO-utf8_strict-0.004
     pathname: L/LE/LEONT/PerlIO-utf8_strict-0.004.tar.gz
     provides:
@@ -5790,6 +5815,68 @@ DISTRIBUTIONS
       Try::Tiny 0
       URI 1.59
       parent 0
+  Plack-Middleware-Debug-0.16
+    pathname: M/MI/MIYAGAWA/Plack-Middleware-Debug-0.16.tar.gz
+    provides:
+      Plack::Middleware::Debug 0.16
+      Plack::Middleware::Debug::Base 0.16
+      Plack::Middleware::Debug::CatalystLog 0.16
+      Plack::Middleware::Debug::DBITrace 0.16
+      Plack::Middleware::Debug::Environment 0.16
+      Plack::Middleware::Debug::Memory 0.16
+      Plack::Middleware::Debug::ModuleVersions 0.16
+      Plack::Middleware::Debug::Panel undef
+      Plack::Middleware::Debug::Parameters undef
+      Plack::Middleware::Debug::PerlConfig 0.16
+      Plack::Middleware::Debug::Response 0.16
+      Plack::Middleware::Debug::Session undef
+      Plack::Middleware::Debug::Timer 0.16
+      Plack::Middleware::Debug::TrackObjects undef
+    requirements:
+      Class::Method::Modifiers 1.05
+      Data::Dump 0
+      Encode 2.23
+      File::ShareDir 1.00
+      Module::Build::Tiny 0.026
+      Plack 0
+      Text::MicroTemplate 0.15
+      parent 0
+      perl 5.008001
+  Plack-Middleware-LogErrors-0.001
+    pathname: E/ET/ETHER/Plack-Middleware-LogErrors-0.001.tar.gz
+    provides:
+      Plack::Middleware::LogErrors 0.001
+      Plack::Middleware::LogErrors::LogHandle 0.001
+    requirements:
+      Module::Build::Tiny 0.023
+      Plack::Middleware 0
+      Plack::Util::Accessor 0
+      Scalar::Util 0
+      parent 0
+      perl 5.008
+      strict 0
+      warnings 0
+  Plack-Middleware-LogWarn-0.001002
+    pathname: M/MA/MAESTRO/Plack-Middleware-LogWarn-0.001002.tar.gz
+    provides:
+      Plack::Middleware::LogWarn 0.001002
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Plack 0.9979
+      Test::Deep 0.108
+      Test::More 0.98
+  Plack-Middleware-ReverseProxy-0.15
+    pathname: M/MI/MIYAGAWA/Plack-Middleware-ReverseProxy-0.15.tar.gz
+    provides:
+      Plack::Middleware::ReverseProxy 0.15
+    requirements:
+      ExtUtils::MakeMaker 6.59
+      Plack 0.9988
+      Plack::Middleware 0
+      Plack::Request 0
+      Test::More 0
+      parent 0
+      perl 5.008001
   Pod-Checker-1.71
     pathname: M/MA/MAREKR/Pod-Checker-1.71.tar.gz
     provides:
@@ -6808,6 +6895,17 @@ DISTRIBUTIONS
       Text::Glob 0.09
     requirements:
       Test::More 0
+  Text-MicroTemplate-0.20
+    pathname: K/KA/KAZUHO/Text-MicroTemplate-0.20.tar.gz
+    provides:
+      Text::MicroTemplate 0.20
+      Text::MicroTemplate::EncodedString 0.20
+      Text::MicroTemplate::File undef
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      File::Temp 0
+      Test::More 0
+      perl 5.00800
   Throwable-0.200012
     pathname: R/RJ/RJBS/Throwable-0.200012.tar.gz
     provides:
