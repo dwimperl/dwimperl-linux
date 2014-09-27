@@ -196,39 +196,39 @@ requires 'Parallel::ForkManager',           '1.06';
 requires 'Parse::CPAN::Meta',               '1.4414';
 requires 'Parse::Functions',                '0.01';
 requires 'Path::Tiny',                      '0.058';
+#requires 'PDF::Create',                     '1.08'; #1
+requires 'perlfaq',                         '5.0150045';
 requires 'Perl::Tidy',                      '20140711';
 requires 'Perl::Critic',                    '1.122';
 requires 'Perl::Version',                   '1.013';
 requires 'Plack',                           '1.0031';
 requires 'Plack::Middleware::Debug',        '0.16';
-requires 'Plack::Middleware::LogErrors',    '0.001';
+#requires 'Plack::Middleware::LogErrors',    '0.001'; #1
 requires 'Plack::Middleware::LogWarn',      '0.001002';
 requires 'Plack::Middleware::ReverseProxy', '0.15';
-#requires 'PPIx::EditorTools::Outline';
-#requires 'PDF::Create',                '1.08'; #1
-requires 'perlfaq',                         '5.0150045';
-#requires 'Pod::Abstract
-requires 'Pod::Checker',               '1.71';
-#requires 'Pod::Coverage::Moose';
-requires 'Pod::Perldoc',               '3.24';
-requires 'Pod::Usage',                 '1.64';
-#requires 'Pod::POM
-#requires 'Pod::Simple
-#requires 'Pod::Simple::XHTML
-#requires 'Pod::Perldoc
-#requires 'POD2::Base
-#requires 'Portable',                    '1.22';
-#requires 'PPI
-#requires 'PPIx::EditorTools
-#requires 'PPIx::Regexp
-#requires 'Probe::Perl
-#requires 'Regexp::Common',
-#requires 'Regexp::Common::time',
-#requires 'Scope::Upper';
-requires 'Socket',                     '2.015';
-requires 'Socket6',                    '0.25';
-#requires 'Software::License
-#requires 'Sort::Versions
+#requires 'Pod::Abstract',                   '0.20';
+requires 'Pod::Checker',                    '1.71';
+#requires 'Pod::Coverage::Moose',            '0.05';
+requires 'Pod::Perldoc',                    '3.24';
+requires 'Pod::Usage',                      '1.64';
+#requires 'Pod::POM',                        '0.29';
+#requires 'Pod::Simple',                     '3.28';
+#requires 'Pod::Simple::XHTML',              '3.28';
+#requires 'Pod::Perldoc',                    '3.24';
+#requires 'POD2::Base',                      '0.043';
+#requires 'Portable',                        '1.22';
+#requires 'PPI',                             '1.218'
+#requires 'PPIx::EditorTools::Outline',      '0.19';
+#requires 'PPIx::EditorTools',               '0.19';
+#requires 'PPIx::Regexp',                    '';
+#requires 'Probe::Perl',                     '';
+#requires 'Regexp::Common',                  '';
+#requires 'Regexp::Common::time',            '';
+#requires 'Scope::Upper',                    '';
+requires 'Socket',                          '2.015';
+requires 'Socket6',                         '0.25';
+#requires 'Software::License',               '';
+#requires 'Sort::Versions',                  '';
 #requires 'Spreadsheet::ParseExcel::Simple
 #requires 'Spreadsheet::WriteExcel
 #requires 'Spreadsheet::WriteExcel::Simple
