@@ -9,13 +9,12 @@ script:
 #  - ./build.sh libxml2
 #  - ./build.sh zlib
 #  - ./build.sh xml-libxml
+#  - ./build.sh expat
+#  - ./build.sh xml-parser
 #  - ./build.sh modules
 #  - ./build.sh test_perl
 
   - ./build.sh get_base_perl
-  - ./build.sh xml-libxml
-  - ./build.sh expat
-  - ./build.sh xml-parser
   - ./build.sh modules
   - ./build.sh test_perl
   - ./build.sh test_cpanfile
