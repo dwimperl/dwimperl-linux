@@ -53,17 +53,17 @@ BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_BASE_VERSION-$
 echo DWIMPERL_VERSION=$DWIMPERL_VERSION
 BUILD_TMP=/tmp
 ls -l $BUILD_TMP
-ROOT=$BUILD_TMP/dwim_$$
+ROOT=$BUILD_TMP/dwim
 ls -l $BUILD_TMP
 echo ROOT=$ROOT
-mkdir $ROOT;
+[ -e $ROOT ] || mkdir $ROOT
 PREFIX_PERL=$ROOT/$DWIMPERL_VERSION/perl
 PREFIX_C=$ROOT/$DWIMPERL_VERSION/c
 
 SOURCE_HOME=`pwd`
 ORIGINAL_PATH=$PATH
-#TEST_DIR=$ROOT/dwimperl_test
-#BACKUP=$ROOT/dwimperl_backup
+#TEST_DIR=$BUILD_TMP/dwimperl_test
+#BACKUP=$BUILD_TMP/dwimperl_backup
 
 echo SOURCE_HOME=$SOURCE_HOME
 
@@ -74,7 +74,7 @@ cp $SOURCE_HOME/dwim.sh $ROOT/
 # without this cpanm would complain that it cannot find the modules in the
 # metaDB (especially if we are off-line)
 # the gzip -k works on OSX but not on the Linux of Travis
-PACKAGES=local/cache/modules/02packages.details.txt
+PACKAGES=$SOURCE_HOME/local/cache/modules/02packages.details.txt
 PACKAGES_ZIP=$PACKAGES.gz
 #echo PACKAGES=$PACKAGES
 #echo PACKAGES_ZIP=$PACKAGES_ZIP
@@ -102,8 +102,7 @@ case $1 in
   ;;
 
   cpanm)
-      cd $SOURCE_HOME
-      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ --mirror-only App::cpanminus
+      $PREFIX_PERL/bin/perl $SOURCE_HOME/src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ --mirror-only App::cpanminus
 #      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ local::lib
   ;;
 
@@ -113,8 +112,8 @@ case $1 in
   ;;
 
   openssl)
-      cd $SOURCE_HOME
-      tar xzf src/$OPENSSL.tar.gz
+      cd $BUILD_TMP
+      tar xzf $SOURCE_HOME/src/$OPENSSL.tar.gz
       cd $OPENSSL
 
       # instead of patching broken PODs that cause "make install" to fail we just remove them:
@@ -134,8 +133,8 @@ case $1 in
   ;;
 
   libxml2)
-      cd $SOURCE_HOME
-      tar xzf src/$LIBXML2.tar.gz
+      cd $BUILD_TMP
+      tar xzf $SOURCE_HOME/src/$LIBXML2.tar.gz
       cd $LIBXML2
       ./configure --prefix $PREFIX_C --without-python
       make
@@ -143,8 +142,8 @@ case $1 in
   ;;
 
   zlib)
-      cd $SOURCE_HOME
-      tar xzf src/$ZLIB.tar.gz
+      cd $BUILD_TMP
+      tar xzf $SOURCE_HOME/src/$ZLIB.tar.gz
       cd $ZLIB
       ./configure --prefix $PREFIX_C
       make
@@ -152,8 +151,8 @@ case $1 in
   ;;
 
   expat)
-      cd $SOURCE_HOME
-      tar xzf src/$EXPAT.tar.gz
+      cd $BUILD_TMP
+      tar xzf $SOURCE_HOME/src/$EXPAT.tar.gz
       cd $EXPAT
       ./configure --prefix $PREFIX_C
       make
@@ -175,6 +174,7 @@ case $1 in
 
 
   get_base_perl)
+      cd $BUILD_TMP
       wget $DWIMPERL_COM/$BASE_DWIMPERL_VERSION.tar.gz
       tar -mxzf $BASE_DWIMPERL_VERSION.tar.gz
       echo BASE_DWIMPERL_VERSION=$BASE_DWIMPERL_VERSION
@@ -197,7 +197,7 @@ case $1 in
   try)
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Portable
       #export PERL5OPT="-MPortable $PERL5OPT"
-      cd $SOURCE_HOME
+      #cd $SOURCE_HOME
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Test::Differences
   ;;
 
