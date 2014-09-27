@@ -294,7 +294,7 @@ requires 'Variable::Magic',                 '0.54';
 #requires 'WWW::Mechanize',                  '1.73';
 #requires 'WWW::Mechanize::TreeBuilder',     '1.10003';
 #requires 'XML::Atom',                       '0.41'; # needs XML::Parser
-#requires 'XML::LibXML',                     '2.0116';
+requires 'XML::LibXML',                     '2.0116';  # it needs all kinds of parameters to build see build.sh
 #requires 'XML::Feed',                       '0.52';
 #requires 'XML::Parser',                     '2.41';
 #requires 'XML::RSS',                        '1.55';  # needs XML::Parser

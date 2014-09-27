@@ -5,18 +5,18 @@ language: c
 script:
 #  - ./build.sh perl
 #  - ./build.sh cpanm
+#  - ./build.sh openssl
+#  - ./build.sh libxml2
+#  - ./build.sh zlib
+#  - ./build.sh xml-libxml
 #  - ./build.sh modules
 #  - ./build.sh test_perl
 
   - ./build.sh get_base_perl
-#  - ./build.sh openssl
-#  - ./build.sh libxml2
-#  - ./build.sh zlib
+  - ./build.sh xml-libxml
   - ./build.sh modules
-  - ./build.sh try
   - ./build.sh test_perl
-#  - ./build.sh test_cpanfile
+  - ./build.sh test_cpanfile
 #  - ./build.sh test_all
-
   - ./build.sh outdate
 
