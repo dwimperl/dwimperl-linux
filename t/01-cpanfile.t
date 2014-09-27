@@ -20,6 +20,9 @@ while (my $line  = <$fh>) {
 		next if $module eq 'Log::Contextual';  # error: (Log::Contextual does not have a default import list)
 		next if $module eq 'threads';          # error: (Attempt to reload threads.pm aborted.)
 		next if $module eq 'Test::NoWarnings'; # just confusing the counting of Test::Builder
+
+		next if $module eq 'ORLite';           # Error:  Missing, empty or invalid params HASH
+		next if $module eq 'ORLite::Migrate';  # Error:  Missing, empty or invalid params HASH
 		#diag "$module  - $version";
 		use_ok $module;
 	} else {
