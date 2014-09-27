@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#try!/bin/sh -e
 
 # TODO: The output of some commands have been redirectd to /dev/null becaus they
 # created too much output for Travis-CI. This needs to be improved.
@@ -183,7 +183,7 @@ case $1 in
   ;;
 
   try)
-      #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Portable
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Portable
       #export PERL5OPT="-MPortable $PERL5OPT"
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$BUILD_HOME/local/cache/ --mirror-only --verbose Test::Differences
   ;;
