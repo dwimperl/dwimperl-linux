@@ -25,6 +25,8 @@ requires 'CGI',                        '4.04';
 requires 'CGI::Simple',                '1.113';
 requires 'CGI::Deurl::XS',             '0.07';
 requires 'CGI::Fast',                  '2.03';
+#requires 'CGI::FormBuilder',                '3.09';
+#requires 'CGI::FormBuilder::Source::Perl',  '0.01';
 requires 'CHI',                        '0.58';
 requires 'Class::Adapter',             '1.08';
 requires 'Class::Inspector',           '1.28';
@@ -53,6 +55,7 @@ requires 'DBI',                        '1.631';
 #requires 'DBIx::Class::Schema::Loader', '0.07042';
 requires 'DBIx::Connector',            '0.53';
 requires 'DBIx::RunSQL',               '0.12';
+#requires 'Debug::Client',                   '0.29';  # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
 requires 'Devel::Cycle',               '1.11';
 requires 'Devel::CheckBin',            '0.02';
 requires 'Devel::PPPort',              '3.24';
@@ -180,11 +183,13 @@ requires 'Mojolicious',                     '5.44';
 #requires 'namespace::autoclean',            '0.20'; #1
 requires 'Net::Config',                     '1.14';
 requires 'Net::DNS',                        '0.80';
+#requires 'Net::Server',                     '2.008'; # 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523 # --notest Net::Server
 requires 'Net::SSLeay',                     '1.14';
 #requires 'Net::Ping',                       '2.41';
 #requires 'Net::Traceroute',                 '1.15';
 requires 'ORLite',                          '1.98';
 requires 'ORLite::Migrate',                 '1.10';
+#requires 'PAR::Packer',                     '1.022';
 requires 'Params::Util',                    '1.07';
 #requires 'Parse::ErrorString::Perl',        '0.21'; #1
 requires 'Parse::ExuberantCTags',           '1.02';
@@ -306,15 +311,3 @@ requires 'XML::XPath',                      '1.13';
 requires 'XML::NamespaceSupport',           '1.11';
 requires 'YAML',                            '1.12';
 #requires 'YAML::Tiny',                      '1.63'; #1
-
-#requires 'Net::Server',                     '2.008'; # 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523 # --notest Net::Server
-#requires 'CGI::FormBuilder',                '3.09';
-#requires 'CGI::FormBuilder::Source::Perl',  '0.01';
-#requires 'PAR::Packer',                     '1.022';
-#requires 'Debug::Client',                   '0.29';  # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
-
-# Win32
-# Win32::Shortcut
-# Win32::TieRegistry
-# File::Glob::Windows
-
