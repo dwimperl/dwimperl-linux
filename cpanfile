@@ -186,7 +186,7 @@ requires 'Net::SSLeay',                     '1.14';
 requires 'ORLite',                          '1.98';
 requires 'ORLite::Migrate',                 '1.10';
 requires 'Params::Util',                    '1.07';
-requires 'Parse::ErrorString::Perl',        '0.21';
+#requires 'Parse::ErrorString::Perl',        '0.21'; #1
 requires 'Parse::ExuberantCTags',           '1.02';
 requires 'Parallel::ForkManager',           '1.06';
 requires 'Parse::CPAN::Meta',               '1.4414';
