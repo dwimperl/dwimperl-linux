@@ -75,6 +75,7 @@ PACKAGES_ZIP=$PACKAGES.gz
 
 
 export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
+[ -e $BUILD_HOME/dwim.sh ] && source $BUILD_HOME/dwim.sh
 
 case $1 in
   perl)
@@ -197,10 +198,7 @@ case $1 in
   modules)
       # needed to build Net::SSLeay
       export OPENSSL_PREFIX=$PREFIX_C
-
       export XMLPREFIX=$PREFIX_C
-      #export PERL5OPT="-MDWIM"
-      source $BUILD_HOME/dwim.sh
 
       cd $BUILD_HOME
       HARNESS_OPTIONS=j3
