@@ -188,7 +188,7 @@ requires 'Net::SSLeay',                     '1.14';
 #requires 'Net::Traceroute',                 '1.15';
 requires 'ORLite',                          '1.98';
 requires 'ORLite::Migrate',                 '1.10';
-requires 'PAR::Packer',                     '1.022';
+#requires 'PAR::Packer',                     '1.022'; #failed
 requires 'Params::Util',                    '1.07';
 #requires 'Parse::ErrorString::Perl',        '0.21'; #1
 requires 'Parse::ExuberantCTags',           '1.02';
