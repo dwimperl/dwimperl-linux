@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   3696
-Last-Updated: Sat Sep 27 12:58:26 2014
+Line-Count:   3730
+Last-Updated: Sat Sep 27 13:19:48 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1657,9 +1657,11 @@ File::Remove                           1.52  A/AD/ADAMK/File-Remove-1.52.tar.gz
 File::ShareDir                        1.102  R/RE/REHSACK/File-ShareDir-1.102.tar.gz
 File::ShareDir::Install                0.09  G/GW/GWYN/File-ShareDir-Install-0.09.tar.gz
 File::ShareDir::ProjectDistDir     1.000004  K/KE/KENTNL/File-ShareDir-ProjectDistDir-1.000004.tar.gz
+File::Slurp                         9999.19  U/UR/URI/File-Slurp-9999.19.tar.gz
 File::Which                            1.09  A/AD/ADAMK/File-Which-1.09.tar.gz
 File::Zglob                            0.11  T/TO/TOKUHIROM/File-Zglob-0.11.tar.gz
 File::pushd                           1.009  D/DA/DAGOLDEN/File-pushd-1.009.tar.gz
+FileSlurp_12                        9999.13  U/UR/URI/File-Slurp-9999.19.tar.gz
 Filesys::Notify::Simple                0.12  M/MI/MIYAGAWA/Filesys-Notify-Simple-0.12.tar.gz
 Flickr::API                            1.10  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
 Flickr::API::Request                   0.03  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
@@ -2584,6 +2586,10 @@ Net::SSLeay                            1.66  M/MI/MIKEM/Net-SSLeay-1.66.tar.gz
 Net::SSLeay::Handle                    0.61  M/MI/MIKEM/Net-SSLeay-1.66.tar.gz
 Net::Time                              2.11  S/SH/SHAY/libnet-1.27.tar.gz
 Number::Compare                        0.03  R/RC/RCLAMP/Number-Compare-0.03.tar.gz
+ORLite                                 1.98  A/AD/ADAMK/ORLite-1.98.tar.gz
+ORLite::Migrate                        1.10  A/AD/ADAMK/ORLite-Migrate-1.10.tar.gz
+ORLite::Migrate::Patch                 1.10  A/AD/ADAMK/ORLite-Migrate-1.10.tar.gz
+ORLite::Migrate::Timeline              1.10  A/AD/ADAMK/ORLite-Migrate-1.10.tar.gz
 Object::Tiny::RW::XS                   0.03  S/SR/SRCHULO/Object-Tiny-RW-XS-0.03.tar.gz
 Object::Tiny::XS                       1.01  S/SM/SMUELLER/Object-Tiny-XS-1.01.tar.gz
 POSIX::strftime::Compiler              0.40  K/KA/KAZEBURO/POSIX-strftime-Compiler-0.40.tar.gz
@@ -2749,12 +2755,17 @@ Package::Stash                         0.37  D/DO/DOY/Package-Stash-0.37.tar.gz
 Package::Stash::PP                     0.37  D/DO/DOY/Package-Stash-0.37.tar.gz
 Package::Stash::XS                     0.28  D/DO/DOY/Package-Stash-XS-0.28.tar.gz
 PadWalker                              1.98  R/RO/ROBIN/PadWalker-1.98.tar.gz
+Parallel::ForkManager                  1.06  S/SZ/SZABGAB/Parallel-ForkManager-1.06.tar.gz
 Params::Util                           1.07  A/AD/ADAMK/Params-Util-1.07.tar.gz
 Params::Validate                       1.13  D/DR/DROLSKY/Params-Validate-1.13.tar.gz
 Params::Validate::Constants            1.13  D/DR/DROLSKY/Params-Validate-1.13.tar.gz
 Params::Validate::PP                   1.13  D/DR/DROLSKY/Params-Validate-1.13.tar.gz
 Params::Validate::XS                   1.13  D/DR/DROLSKY/Params-Validate-1.13.tar.gz
 Parse::CPAN::Meta                    1.4414  D/DA/DAGOLDEN/Parse-CPAN-Meta-1.4414.tar.gz
+Parse::ErrorString::Perl               0.21  S/SZ/SZABGAB/Parse-ErrorString-Perl-0.21.tar.gz
+Parse::ErrorString::Perl::ErrorItem       0.21  S/SZ/SZABGAB/Parse-ErrorString-Perl-0.21.tar.gz
+Parse::ErrorString::Perl::StackItem       0.21  S/SZ/SZABGAB/Parse-ErrorString-Perl-0.21.tar.gz
+Parse::ExuberantCTags                  1.02  S/SM/SMUELLER/Parse-ExuberantCTags-1.02.tar.gz
 Path::Class                            0.35  K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
 Path::Class::Dir                       0.35  K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
 Path::Class::Entity                    0.35  K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
@@ -3082,6 +3093,29 @@ Pod::Coverage::CountParents           undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.g
 Pod::Coverage::ExportOnly             undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
 Pod::Coverage::Extractor               0.23  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
 Pod::Coverage::Overloader             undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::POM                               0.29  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Constants                    1.01  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node                         1.05  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Begin                 undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Code                  undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Content               undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::For                   undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Head1                 undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Head2                 undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Head3                 undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Head4                 undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Item                  undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Over                  undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Pod                   undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Sequence              undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Text                  undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Node::Verbatim              undef  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Nodes                        1.03  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::Test                         1.01  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::View                         1.04  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::View::HTML                   1.06  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::View::Pod                    1.03  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+Pod::POM::View::Text                   1.03  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
 Pod::Perldoc                           3.24  M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz
 Pod::Perldoc::BaseTo                   3.24  M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz
 Pod::Perldoc::GetOptsOO                3.24  M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz

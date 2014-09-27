@@ -99,7 +99,7 @@ requires 'HTTP::Request::Common',      '6.04';
 #requires 'HTTP::Server::Simple',       '0.44';
 #requires 'HTTP::Server::Simple::CGI';             # does not have a version number!
 requires 'HTTP::Tiny',                 '0.050';
-#requires 'Hash::Merge::Simple',        '0.051'; # Depends on #1
+#requires 'Hash::Merge::Simple',        '0.051'; #1
 requires 'IO::Compress::Gzip',         '2.066';
 requires 'IO::Uncompress::Gunzip',     '2.066';
 requires 'IO::Scalar',                 '2.110';
@@ -121,7 +121,7 @@ requires 'Log::Dispatch',              '2.42';
 requires 'Log::Log4perl',              '1.44';
 requires 'LWP',                        '6.08';
 requires 'LWP::Protocol::https',       '6.06';
-#requires 'LWP::Protocol::PSGI',        '0.07'; # depends on #1
+#requires 'LWP::Protocol::PSGI',        '0.07'; #1
 requires 'LWP::Simple',                '6.00';
 requires 'LWP::UserAgent',             '6.06';
 requires 'Marpa::R2',                  '2.094000';
@@ -183,13 +183,13 @@ requires 'Net::DNS',                        '0.80';
 requires 'Net::SSLeay',                     '1.14';
 #requires 'Net::Ping',                       '2.41';
 #requires 'Net::Traceroute',                 '1.15';
-#requires 'ORLite
-#requires 'ORLite::Migrate
-#requires 'Params::Util
-#requires 'Parse::ErrorString::Perl
-#requires 'Parse::ExuberantCTags
-#requires 'Parallel::ForkManager
-#requires 'Parse::CPAN::Meta',          '1.4414';
+requires 'ORLite',                          '1.98';
+requires 'ORLite::Migrate',                 '1.10';
+requires 'Params::Util',                    '1.07';
+requires 'Parse::ErrorString::Perl',        '0.21';
+requires 'Parse::ExuberantCTags',           '1.02';
+requires 'Parallel::ForkManager',           '1.06';
+requires 'Parse::CPAN::Meta',               '1.4414';
 #requires 'Parse::Functions';
 #requires 'Path::Tiny';
 #requires 'Perl::Tidy';
@@ -244,7 +244,7 @@ requires 'Test::Deep',                  '0.113';
 requires 'Test::Exception',             '0.35';
 requires 'Test::Fatal',                 '0.013';
 requires 'Test::Memory::Cycle',         '1.04';
-#requires 'Test::MockObject',           '1.20140408'; # depends on #1
+#requires 'Test::MockObject',           '1.20140408'; #1
 requires 'Test::MockTime',              '0.13';
 #requires 'Test::Mock::LWP';
 #requires 'Test::MockModule';

@@ -3004,6 +3004,17 @@ DISTRIBUTIONS
       strict 0
       utf8 0
       warnings 0
+  File-Slurp-9999.19
+    pathname: U/UR/URI/File-Slurp-9999.19.tar.gz
+    provides:
+      File::Slurp 9999.19
+      FileSlurp_12 9999.13
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      POSIX 0
   File-Which-1.09
     pathname: A/AD/ADAMK/File-Which-1.09.tar.gz
     provides:
@@ -4831,6 +4842,42 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  ORLite-1.98
+    pathname: A/AD/ADAMK/ORLite-1.98.tar.gz
+    provides:
+      ORLite 1.98
+    requirements:
+      DBD::SQLite 1.27
+      DBI 1.607
+      ExtUtils::MakeMaker 6.59
+      File::Path 2.08
+      File::Remove 1.40
+      File::Spec 0.80
+      File::Temp 0.20
+      Params::Util 1.00
+      Test::More 0.47
+      Test::Script 1.06
+      perl 5.006
+  ORLite-Migrate-1.10
+    pathname: A/AD/ADAMK/ORLite-Migrate-1.10.tar.gz
+    provides:
+      ORLite::Migrate 1.10
+      ORLite::Migrate::Patch 1.10
+      ORLite::Migrate::Timeline 1.10
+    requirements:
+      DBD::SQLite 1.21
+      DBI 1.58
+      ExtUtils::MakeMaker 6.98
+      File::Path 2.04
+      File::Spec 3.2701
+      File::Which 1.07
+      File::pushd 1.00
+      IPC::Run3 0.042
+      ORLite 1.28
+      Params::Util 0.37
+      Probe::Perl 0.01
+      Test::More 0.47
+      perl 5.006
   Object-Tiny-RW-XS-0.03
     pathname: S/SR/SRCHULO/Object-Tiny-RW-XS-0.03.tar.gz
     provides:
@@ -5121,6 +5168,18 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.008001
+  Parallel-ForkManager-1.06
+    pathname: S/SZ/SZABGAB/Parallel-ForkManager-1.06.tar.gz
+    provides:
+      Parallel::ForkManager 1.06
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Path 2
+      File::Spec 0
+      File::Temp 0
+      POSIX 0
+      Storable 0
+      Test::More 0.80
   Params-Util-1.07
     pathname: A/AD/ADAMK/Params-Util-1.07.tar.gz
     provides:
@@ -5146,6 +5205,33 @@ DISTRIBUTIONS
     provides:
       Parse::CPAN::Meta 1.4414
     requirements:
+  Parse-ErrorString-Perl-0.21
+    pathname: S/SZ/SZABGAB/Parse-ErrorString-Perl-0.21.tar.gz
+    provides:
+      Parse::ErrorString::Perl 0.21
+      Parse::ErrorString::Perl::ErrorItem 0.21
+      Parse::ErrorString::Perl::StackItem 0.21
+    requirements:
+      Carp 0
+      Class::XSAccessor 0
+      ExtUtils::MakeMaker 6.59
+      File::Basename 0
+      File::Spec 0
+      Pod::Find 0
+      Pod::POM 0.27
+      Test::Differences 0
+      Test::More 0.47
+      perl 5.008007
+  Parse-ExuberantCTags-1.02
+    pathname: S/SM/SMUELLER/Parse-ExuberantCTags-1.02.tar.gz
+    provides:
+      Parse::ExuberantCTags 1.02
+    requirements:
+      Data::Dumper 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      Test::More 0
+      perl 5.006001
   Path-Class-0.35
     pathname: K/KW/KWILLIAMS/Path-Class-0.35.tar.gz
     provides:
@@ -5671,6 +5757,40 @@ DISTRIBUTIONS
       Pod::Find 0.21
       Pod::Parser 1.13
       Test::More 0
+  Pod-POM-0.29
+    pathname: A/AN/ANDREWF/Pod-POM-0.29.tar.gz
+    provides:
+      Pod::POM 0.29
+      Pod::POM::Constants 1.01
+      Pod::POM::Node 1.05
+      Pod::POM::Node::Begin undef
+      Pod::POM::Node::Code undef
+      Pod::POM::Node::Content undef
+      Pod::POM::Node::For undef
+      Pod::POM::Node::Head1 undef
+      Pod::POM::Node::Head2 undef
+      Pod::POM::Node::Head3 undef
+      Pod::POM::Node::Head4 undef
+      Pod::POM::Node::Item undef
+      Pod::POM::Node::Over undef
+      Pod::POM::Node::Pod undef
+      Pod::POM::Node::Sequence undef
+      Pod::POM::Node::Text undef
+      Pod::POM::Node::Verbatim undef
+      Pod::POM::Nodes 1.03
+      Pod::POM::Test 1.01
+      Pod::POM::View 1.04
+      Pod::POM::View::HTML 1.06
+      Pod::POM::View::Pod 1.03
+      Pod::POM::View::Text 1.03
+    requirements:
+      Encode 0
+      ExtUtils::MakeMaker 6.59
+      File::Slurp 0
+      Test::More 0
+      Text::Wrap 2001.0929
+      parent 0
+      perl 5.006
   Pod-Perldoc-3.24
     pathname: M/MA/MALLEN/Pod-Perldoc-3.24.tar.gz
     provides:
