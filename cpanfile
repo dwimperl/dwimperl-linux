@@ -232,7 +232,7 @@ requires 'Sort::Versions',                  '1.60';
 requires 'Spreadsheet::ParseExcel::Simple', '1.04';
 requires 'Spreadsheet::WriteExcel',         '2.40';
 requires 'Spreadsheet::WriteExcel::Simple', '1.04';
-requires 'Starman',                         '0.4010';
+#requires 'Starman',                         '0.4010'; #1
 requires 'Storable',                        '2.51';
 requires 'SVG',                             '2.59';
 requires 'Template',                        '2.26';
@@ -269,7 +269,7 @@ requires 'Test::LongString',                 '0.16';
 requires 'Test::Harness',                    '3.33';
 requires 'Test::Trap',                       '0.2.4';
 requires 'Test::Warn',                       '0.30';
-requires 'Test::Code::TidyAll',              '0.20';
+#requires 'Test::Code::TidyAll',              '0.20'; #1
 requires 'Test::Perl::Critic',              '1.02';
 #requires 'Term::ReadLine',                  '1.14';
 #requires 'Term::ProgressBar::Simple',       '0.03';
@@ -279,8 +279,8 @@ requires 'Text::FindIndent',                '0.10';
 #requires 'Text::Patch'                      '1.8';
 #requires 'Text::VimColor',                  '0.24';
 #requires 'Text::Xslate',                    '3.3.3';
-#requires 'Text::CSV',                       '1.32';
-#requires 'Text::CSV_XS',                    '1.11';
+requires 'Text::CSV',                       '1.32';
+requires 'Text::CSV_XS',                    '1.11';
 requires 'threads',                         '1.96';
 #requires 'Time::HiRes',                     '1.9726';
 #requires 'Time::ParseDate',                 '2013.1113';

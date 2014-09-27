@@ -280,6 +280,15 @@ DISTRIBUTIONS
       B::Hooks::OP::Check 0.19
       B::Hooks::OP::Check::Install::Files undef
     requirements:
+  B-Hooks-OP-PPAddr-0.03
+    pathname: F/FL/FLORA/B-Hooks-OP-PPAddr-0.03.tar.gz
+    provides:
+      B::Hooks::OP::PPAddr 0.03
+      B::Hooks::OP::PPAddr::Install::Files undef
+    requirements:
+      ExtUtils::Depends 0.302
+      ExtUtils::MakeMaker 6.42
+      parent 0
   B-Keywords-1.13
     pathname: R/RU/RURBAN/B-Keywords-1.13.tar.gz
     provides:
@@ -540,6 +549,13 @@ DISTRIBUTIONS
       Scalar::Util 0
       Test::Exception 0
       Test::More 0.18
+  Carp-Clan-6.04
+    pathname: S/ST/STBEY/Carp-Clan-6.04.tar.gz
+    provides:
+      Carp::Clan 6.04
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::Exception 0
   Class-Adapter-1.08
     pathname: A/AD/ADAMK/Class-Adapter-1.08.tar.gz
     provides:
@@ -2328,6 +2344,22 @@ DISTRIBUTIONS
       Devel::PPPort 3.24
     requirements:
       ExtUtils::MakeMaker 0
+  Devel-PartialDump-0.17
+    pathname: E/ET/ETHER/Devel-PartialDump-0.17.tar.gz
+    provides:
+      Devel::PartialDump 0.17
+    requirements:
+      Carp 0
+      Carp::Heavy 0
+      Class::Tiny 0
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.030
+      Scalar::Util 0
+      Sub::Exporter 0
+      namespace::clean 0
+      perl 5.006001
+      strict 0
+      warnings 0
   Devel-Platform-Info-0.14
     pathname: B/BA/BARBIE/Devel-Platform-Info-0.14.tar.gz
     provides:
@@ -4866,6 +4898,73 @@ DISTRIBUTIONS
       namespace::autoclean 0
       namespace::clean 0
       perl 5.008001
+  MooseX-Traits-0.12
+    pathname: E/ET/ETHER/MooseX-Traits-0.12.tar.gz
+    provides:
+      MooseX::Traits 0.12
+      MooseX::Traits::Util 0.12
+    requirements:
+      Carp 0
+      Class::Load 0
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.030
+      Moose::Role 0
+      Sub::Exporter 0
+      namespace::autoclean 0
+      perl 5.006
+      strict 0
+      warnings 0
+      warnings::register 0
+  MooseX-Types-0.45
+    pathname: E/ET/ETHER/MooseX-Types-0.45.tar.gz
+    provides:
+      MooseX::Types 0.45
+      MooseX::Types::Base 0.45
+      MooseX::Types::CheckedUtilExports 0.45
+      MooseX::Types::Combine 0.45
+      MooseX::Types::Moose 0.45
+      MooseX::Types::TypeDecorator 0.45
+      MooseX::Types::UndefinedType 0.45
+      MooseX::Types::Util 0.45
+      MooseX::Types::Wrapper 0.45
+    requirements:
+      Carp 0
+      Carp::Clan 6.00
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Module::Build::Tiny 0.037
+      Module::Runtime 0
+      Moose 1.06
+      Moose::Exporter 0
+      Moose::Meta::TypeConstraint::Union 0
+      Moose::Util::TypeConstraints 0
+      Scalar::Util 1.19
+      Sub::Exporter 0
+      Sub::Name 0
+      base 0
+      namespace::autoclean 0.16
+      overload 0
+      perl 5.008
+      strict 0
+      warnings 0
+  MooseX-Types-Structured-0.30
+    pathname: E/ET/ETHER/MooseX-Types-Structured-0.30.tar.gz
+    provides:
+      MooseX::Types::Structured 0.30
+    requirements:
+      Devel::PartialDump 0.13
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.030
+      Moose 1.08
+      Moose::Meta::TypeCoercion 0
+      Moose::Meta::TypeConstraint 0
+      Moose::Meta::TypeConstraint::Parameterizable 0
+      Moose::Util::TypeConstraints 1.06
+      MooseX::Types 0.22
+      Scalar::Util 0
+      Sub::Exporter 0.982
+      overload 0
+      perl 5.008
   Mouse-2.4.1
     pathname: G/GF/GFUJI/Mouse-2.4.1.tar.gz
     provides:
@@ -5587,6 +5686,37 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.36
       Test::More 0.88
+  Parse-Method-Signatures-1.003016
+    pathname: I/IL/ILMARI/Parse-Method-Signatures-1.003016.tar.gz
+    provides:
+      Parse::Method::Signatures 1.003016
+      Parse::Method::Signatures::Param undef
+      Parse::Method::Signatures::Param::Bindable undef
+      Parse::Method::Signatures::Param::Named undef
+      Parse::Method::Signatures::Param::Placeholder undef
+      Parse::Method::Signatures::Param::Positional undef
+      Parse::Method::Signatures::Param::Unpacked undef
+      Parse::Method::Signatures::Param::Unpacked::Array undef
+      Parse::Method::Signatures::Param::Unpacked::Hash undef
+      Parse::Method::Signatures::ParamCollection undef
+      Parse::Method::Signatures::Sig undef
+      Parse::Method::Signatures::TypeConstraint undef
+      Parse::Method::Signatures::Types undef
+    requirements:
+      Class::Load 0.19
+      ExtUtils::MakeMaker 6.36
+      List::MoreUtils 0.20
+      Moose 0
+      MooseX::Traits 0.06
+      MooseX::Types 0.17
+      MooseX::Types::Moose 0
+      MooseX::Types::Structured 0
+      PPI 1.203
+      Test::Differences 0
+      Test::Exception 0
+      Test::More 0
+      aliased 0
+      namespace::clean 0.10
   Parse-RecDescent-1.967009
     pathname: J/JT/JTBRAUN/Parse-RecDescent-1.967009.tar.gz
     provides:
@@ -7415,6 +7545,27 @@ DISTRIBUTIONS
       Test::YAML 1.05
       Test::YAML::Filter 1.05
     requirements:
+  Text-CSV-1.32
+    pathname: M/MA/MAKAMAKA/Text-CSV-1.32.tar.gz
+    provides:
+      Text::CSV 1.32
+      Text::CSV::ErrorDiag 1.31
+      Text::CSV_PP 1.31
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Handle 0
+      Test::Harness 0
+      Test::More 0
+  Text-CSV_XS-1.11
+    pathname: H/HM/HMBRAND/Text-CSV_XS-1.11.tgz
+    provides:
+      Text::CSV_XS 1.11
+    requirements:
+      Config 0
+      DynaLoader 0
+      ExtUtils::MakeMaker 0
+      IO::Handle 0
+      Test::More 0
   Text-Diff-1.41
     pathname: O/OV/OVID/Text-Diff-1.41.tar.gz
     provides:
@@ -7496,6 +7647,16 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       strict 0
       warnings 0
+  Time-ParseDate-2013.1113
+    pathname: M/MU/MUIR/modules/Time-ParseDate-2013.1113.tar.gz
+    provides:
+      Time::CTime 2011.0505
+      Time::DaysInMonth 99.1117
+      Time::JulianDay 2011.0505
+      Time::ParseDate 2013.1113
+      Time::Timezone 2006.0814
+    requirements:
+      ExtUtils::MakeMaker 0
   Time-Piece-1.29
     pathname: R/RJ/RJBS/Time-Piece-1.29.tar.gz
     provides:
@@ -7504,6 +7665,14 @@ DISTRIBUTIONS
     requirements:
       Exporter 5.57
       ExtUtils::MakeMaker 0
+  Time-Tiny-1.05
+    pathname: A/AD/ADAMK/Time-Tiny-1.05.tar.gz
+    provides:
+      Time::Tiny 1.05
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
+      perl 5.004
   TimeDate-2.30
     pathname: G/GB/GBARR/TimeDate-2.30.tar.gz
     provides:
@@ -7552,6 +7721,28 @@ DISTRIBUTIONS
     provides:
       Try::Tiny 0.22
     requirements:
+  TryCatch-1.003002
+    pathname: A/AS/ASH/TryCatch-1.003002.tar.gz
+    provides:
+      TryCatch 1.003002
+    requirements:
+      B::Hooks::EndOfScope 0.12
+      B::Hooks::OP::Check 0.18
+      B::Hooks::OP::PPAddr 0.03
+      Devel::Declare 0.005007
+      ExtUtils::Depends 0.302
+      ExtUtils::MakeMaker 6.59
+      Moose 0
+      MooseX::Types 0
+      Parse::Method::Signatures 1.003012
+      Scope::Upper 0.06
+      Sub::Exporter 0.979
+      Test::Exception 0
+      Test::More 0.88
+      Variable::Magic 0.28
+      XSLoader 0
+      namespace::clean 0.20
+      perl 5.008001
   Type-Tiny-1.000004
     pathname: T/TO/TOBYINK/Type-Tiny-1.000004.tar.gz
     provides:
