@@ -136,7 +136,6 @@ requires 'Module::Build',                   '0.4210';
 requires 'Module::CoreList',                '5.20140920';
 requires 'Module::Manifest',                '1.08';
 requires 'Module::Starter',                 '1.62';
-#requires 'MongoDB',                         '0.705.0.0'; # failed https://travis-ci.org/dwimperl/dwimperl-linux/builds/36477668  (https://jira.mongodb.org/browse/PERL-437)
 requires 'Moo',                             '1.006000';
 requires 'MooX::Options',                   '4.010';
 requires 'MooX::late',                      '0.015';
@@ -146,7 +145,6 @@ requires 'MooseX::Singleton',               '0.29';
 requires 'MooseX::StrictConstructor',       '0.19';
 requires 'MooseX::Params::Validate',        '0.18';
 requires 'MooseX::Role::TraitConstructor',  '0.01';
-#requires 'MooseX::Traits',                  '0.12'; # failed
 requires 'MooseX::Object::Pluggable',       '0.0013';
 requires 'MooseX::Role::Parameterized',     '1.08';
 requires 'MooseX::Role::WithOverloading',   '0.15';
@@ -163,7 +161,6 @@ requires 'MooseX::Types::DateTime',         '0.10';
 requires 'MooseX::Getopt',                  '0.65';
 requires 'MooseX::ConfigFromFile',          '0.13';
 requires 'MooseX::SimpleConfig',            '0.10';
-requires 'MooseX::App::Cmd',                '0.27';
 requires 'MooseX::Role::Cmd',               '0.10';
 requires 'MooseX::LogDispatch',             '1.2002';
 requires 'MooseX::LazyLogDispatch',         '0.02';
@@ -263,13 +260,12 @@ requires 'Test::NoWarnings',                 '1.04';
 requires 'Test::Output',                     '1.03';
 requires 'Test::Script',                     '1.07';
 requires 'Test::Without::Module',            '0.18';
-#requires 'Test::WWW::Mechanize',             '1.44';
-#requires 'Test::WWW::Mechanize::PSGI',       '0.35';
+requires 'Test::WWW::Mechanize',             '1.44';
+requires 'Test::WWW::Mechanize::PSGI',       '0.35';
 requires 'Test::Pod',                        '1.48';
 requires 'Test::Pod::Coverage',              '1.10';
 requires 'Test::Requires',                   '0.08';
 requires 'Test::LongString',                 '0.16';
-#requires 'Test::Ping',                       '0.17'; #failed
 requires 'Test::Harness',                    '3.33';
 requires 'Test::Trap',                       '0.2.4';
 requires 'Test::Warn',                       '0.30';
@@ -300,8 +296,8 @@ requires 'Variable::Magic',                 '0.54';
 requires 'version',                         '0.9909';
 requires 'Web::Feed',                       '0.03';
 requires 'WebService::GData',               '0.06';
-#requires 'WWW::Mechanize',                  '1.73'; # depends on HTTP::Server::Simple::CGI
-#requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # Moose
+requires 'WWW::Mechanize',                  '1.73'; # depends on HTTP::Server::Simple::CGI
+requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # Moose
 requires 'XML::Atom',                       '0.41';
 requires 'XML::LibXML',                     '2.0116';  # it needs all kinds of parameters to build see build.sh and #2
 #requires 'XML::Feed',                       '0.52'; #failed

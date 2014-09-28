@@ -1,3 +1,7 @@
 #requires 'AnyEvent::Ping::TCP',             '1.00'; # has lots of CPANTESTERS fail reports
 #requires 'Debug::Client',                   '0.29';  # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
-#requires 'Geo::IP',                         '1.43';
+#requires 'Geo::IP',                         '1.43'; # needs some C compiling
+#requires 'MongoDB',                         '0.705.0.0'; # failed https://travis-ci.org/dwimperl/dwimperl-linux/builds/36477668  (https://jira.mongodb.org/browse/PERL-437)
+#requires 'MooseX::Traits',                  '0.12'; # failed
+#requires 'MooseX::App::Cmd',                '0.27'; # failed
+#requires 'Test::Ping',                       '0.17'; #failed
