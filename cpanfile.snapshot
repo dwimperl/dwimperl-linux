@@ -1566,6 +1566,15 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Data-Compare-1.24
+    pathname: D/DC/DCANTRELL/Data-Compare-1.24.tar.gz
+    provides:
+      Data::Compare 1.24
+      Data::Compare::Plugins::Scalar::Properties 1
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Find::Rule 0.1
+      Scalar::Util 0
   Data-Dump-1.22
     pathname: G/GA/GAAS/Data-Dump-1.22.tar.gz
     provides:
@@ -1675,6 +1684,18 @@ DISTRIBUTIONS
     requirements:
       Digest::MD5 0
       ExtUtils::MakeMaker 0
+  Data-Visitor-0.30
+    pathname: D/DO/DOY/Data-Visitor-0.30.tar.gz
+    provides:
+      Data::Visitor 0.30
+      Data::Visitor::Callback 0.30
+    requirements:
+      Class::Load 0.06
+      ExtUtils::MakeMaker 6.30
+      Moose 0.89
+      Task::Weaken 0
+      Tie::ToObject 0.01
+      namespace::clean 0.19
   Date-Tiny-1.04
     pathname: A/AD/ADAMK/Date-Tiny-1.04.tar.gz
     provides:
@@ -2664,6 +2685,75 @@ DISTRIBUTIONS
       Test::Requires 0
       parent 0
       perl 5.008001
+  Devel-CheckOS-1.73
+    pathname: D/DC/DCANTRELL/Devel-CheckOS-1.73.tar.gz
+    provides:
+      Devel::AssertOS 1.21
+      Devel::AssertOS::AIX 1.2
+      Devel::AssertOS::Amiga 1.2
+      Devel::AssertOS::Android 1.2
+      Devel::AssertOS::Apple 1.2
+      Devel::AssertOS::BSDOS 1.2
+      Devel::AssertOS::BeOS 1.4
+      Devel::AssertOS::Bitrig 1.0
+      Devel::AssertOS::Cygwin 1.3
+      Devel::AssertOS::DEC 1.4
+      Devel::AssertOS::DGUX 1.2
+      Devel::AssertOS::DragonflyBSD 1.2
+      Devel::AssertOS::Dynix 1.2
+      Devel::AssertOS::EBCDIC 1.0
+      Devel::AssertOS::FreeBSD 1.2
+      Devel::AssertOS::GNUkFreeBSD 1.1
+      Devel::AssertOS::HPUX 1.2
+      Devel::AssertOS::Haiku 1.1
+      Devel::AssertOS::Interix 1.2
+      Devel::AssertOS::Irix 1.2
+      Devel::AssertOS::Linux 1.3
+      Devel::AssertOS::Linux::v2_6 1.3
+      Devel::AssertOS::MPEiX 1.2
+      Devel::AssertOS::MSDOS 1.2
+      Devel::AssertOS::MSWin32 1.3
+      Devel::AssertOS::MacOSX 1.2
+      Devel::AssertOS::MacOSX::v10_4 1.3
+      Devel::AssertOS::MacOSX::v10_5 1.0
+      Devel::AssertOS::MacOSclassic 1.2
+      Devel::AssertOS::MachTen 1.2
+      Devel::AssertOS::MicrosoftWindows 1.3
+      Devel::AssertOS::MidnightBSD 1.1
+      Devel::AssertOS::MirOSBSD 1.2
+      Devel::AssertOS::NeXT 1.2
+      Devel::AssertOS::NetBSD 1.2
+      Devel::AssertOS::Netware 1.2
+      Devel::AssertOS::OS2 1.1
+      Devel::AssertOS::OS390 1.2
+      Devel::AssertOS::OS400 1.2
+      Devel::AssertOS::OSF 1.2
+      Devel::AssertOS::OSFeatures::POSIXShellRedirection 1.4
+      Devel::AssertOS::OpenBSD 1.2
+      Devel::AssertOS::POSIXBC 1.2
+      Devel::AssertOS::QNX 1.2
+      Devel::AssertOS::QNX::Neutrino 1.1
+      Devel::AssertOS::QNX::v4 1.1
+      Devel::AssertOS::RISCOS 1.2
+      Devel::AssertOS::Realtime 1.2
+      Devel::AssertOS::SCO 1.2
+      Devel::AssertOS::Solaris 1.2
+      Devel::AssertOS::Sun 1.3
+      Devel::AssertOS::SunOS 1.2
+      Devel::AssertOS::SysVr4 1.2
+      Devel::AssertOS::SysVr5 1.2
+      Devel::AssertOS::Unicos 1.2
+      Devel::AssertOS::Unix 1.5
+      Devel::AssertOS::VMESA 1.2
+      Devel::AssertOS::VMS 1.2
+      Devel::AssertOS::VOS 1.2
+      Devel::CheckOS 1.73
+    requirements:
+      Data::Compare 1.21
+      ExtUtils::MakeMaker 0
+      File::Find::Rule 0.28
+      File::Temp 0.19
+      Test::More 0.62
   Devel-Cycle-1.11
     pathname: L/LD/LDS/Devel-Cycle-1.11.tar.gz
     provides:
@@ -3160,6 +3250,13 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       File::Temp 0.19
       IO::File 1.14
+  Exception-Base-0.25
+    pathname: D/DE/DEXTER/Exception-Base-0.25.tar.gz
+    provides:
+      Exception::Base 0.25
+    requirements:
+      Test::Unit::Lite 0.12
+      perl 5.006
   Exception-Class-1.38
     pathname: D/DR/DROLSKY/Exception-Class-1.38.tar.gz
     provides:
@@ -3747,6 +3844,18 @@ DISTRIBUTIONS
     provides:
       Hash::MultiValue 0.15
     requirements:
+  Hash-Util-FieldHash-Compat-0.08
+    pathname: E/ET/ETHER/Hash-Util-FieldHash-Compat-0.08.tar.gz
+    provides:
+      Hash::Util::FieldHash::Compat 0.08
+      Hash::Util::FieldHash::Compat::Heavy 0.08
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      constant 0
+      parent 0
+      strict 0
+      warnings 0
   Hook-LexWrap-0.24
     pathname: C/CH/CHORNY/Hook-LexWrap-0.24.tar.gz
     provides:
@@ -4237,6 +4346,19 @@ DISTRIBUTIONS
       threads 0
       threads::shared 0
       warnings 0
+  Log-Dispatch-Config-1.04
+    pathname: M/MI/MIYAGAWA/Log-Dispatch-Config-1.04.tar.gz
+    provides:
+      Log::Dispatch::Config 1.04
+      Log::Dispatch::Configurator 1.00
+      Log::Dispatch::Configurator::AppConfig 1.00
+    requirements:
+      AppConfig 1.52
+      ExtUtils::MakeMaker 0
+      File::Temp 0.12
+      IO::Scalar 0
+      Log::Dispatch 2
+      Test::More 0.32
   Log-Log4perl-1.44
     pathname: M/MS/MSCHILLI/Log-Log4perl-1.44.tar.gz
     provides:
@@ -5406,6 +5528,382 @@ DISTRIBUTIONS
       parent 0.223
       strict 1.03
       warnings 1.03
+  MooseX-App-Cmd-0.27
+    pathname: M/MJ/MJGARDNER/MooseX-App-Cmd-0.27.tar.gz
+    provides:
+      MooseX::App::Cmd 0.27
+      MooseX::App::Cmd::Command 0.27
+      MouseX::App::Cmd 0.27
+      MouseX::App::Cmd::Command 0.27
+    requirements:
+      Any::Moose 0
+      App::Cmd 0.321
+      App::Cmd::Command 0
+      English 0
+      ExtUtils::MakeMaker 6.30
+      File::Basename 0
+      Getopt::Long::Descriptive 0.091
+      MouseX::Getopt 0
+      Test::use::ok 0
+      namespace::clean 0
+  MooseX-ClassAttribute-0.27
+    pathname: D/DR/DROLSKY/MooseX-ClassAttribute-0.27.tar.gz
+    provides:
+      MooseX::ClassAttribute 0.27
+      MooseX::ClassAttribute::Meta::Role::Attribute 0.27
+      MooseX::ClassAttribute::Trait::Application 0.27
+      MooseX::ClassAttribute::Trait::Application::ToClass 0.27
+      MooseX::ClassAttribute::Trait::Application::ToRole 0.27
+      MooseX::ClassAttribute::Trait::Attribute 0.27
+      MooseX::ClassAttribute::Trait::Class 0.27
+      MooseX::ClassAttribute::Trait::Mixin::HasClassAttributes 0.27
+      MooseX::ClassAttribute::Trait::Role 0.27
+      MooseX::ClassAttribute::Trait::Role::Composite 0.27
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      List::MoreUtils 0
+      Moose 2.00
+      Moose::Exporter 0
+      Moose::Meta::Role::Attribute 0
+      Moose::Role 0
+      Moose::Util 0
+      Moose::Util::MetaRole 0
+      Scalar::Util 0
+      Test::Fatal 0
+      Test::More 0.88
+      Test::Requires 0.05
+      namespace::autoclean 0.11
+      namespace::clean 0.20
+      strict 0
+      vars 0
+      warnings 0
+  MooseX-Clone-0.05
+    pathname: N/NU/NUFFIN/MooseX-Clone-0.05.tar.gz
+    provides:
+      MooseX::Clone 0.05
+      MooseX::Clone::Meta::Attribute::Trait::Clone undef
+      MooseX::Clone::Meta::Attribute::Trait::Clone::Base undef
+      MooseX::Clone::Meta::Attribute::Trait::Clone::Std undef
+      MooseX::Clone::Meta::Attribute::Trait::Copy undef
+      MooseX::Clone::Meta::Attribute::Trait::NoClone undef
+      MooseX::Clone::Meta::Attribute::Trait::StrableClone undef
+    requirements:
+      Data::Visitor 0.24
+      ExtUtils::MakeMaker 0
+      Hash::Util::FieldHash::Compat 0
+      Moose 0.74
+      Test::use::ok 0
+      namespace::clean 0.08
+  MooseX-ConfigFromFile-0.13
+    pathname: E/ET/ETHER/MooseX-ConfigFromFile-0.13.tar.gz
+    provides:
+      MooseX::ConfigFromFile 0.13
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.030
+      Moose::Role 0
+      MooseX::Types::Moose 0
+      MooseX::Types::Path::Tiny 0.005
+      namespace::autoclean 0
+      perl 5.006
+      warnings 0
+  MooseX-Daemonize-0.19
+    pathname: E/ET/ETHER/MooseX-Daemonize-0.19.tar.gz
+    provides:
+      MooseX::Daemonize 0.19
+      MooseX::Daemonize::Core 0.19
+      MooseX::Daemonize::Pid 0.19
+      MooseX::Daemonize::Pid::File 0.19
+      MooseX::Daemonize::WithPidFile 0.19
+      Test::MooseX::Daemonize 0.19
+      Test::MooseX::Daemonize::Testable 0.19
+    requirements:
+      Devel::AssertOS 0
+      Devel::CheckOS 1.63
+      ExtUtils::MakeMaker 6.30
+      File::Path 2.08
+      Module::Build::Tiny 0.034
+      Moose 0
+      Moose::Role 0
+      Moose::Util::TypeConstraints 0
+      MooseX::Getopt 0
+      MooseX::Getopt::OptionTypeMap 0
+      MooseX::Types::Path::Class 0
+      POSIX 0
+      Sub::Exporter 0
+      Sub::Exporter::ForMethods 0
+      Test::Builder 0
+      namespace::autoclean 0
+      perl 5.008003
+      strict 0
+      warnings 0
+  MooseX-Declare-0.39
+    pathname: E/ET/ETHER/MooseX-Declare-0.39.tar.gz
+    provides:
+      MooseX::Declare 0.39
+      MooseX::Declare::Context 0.39
+      MooseX::Declare::Context::Namespaced 0.39
+      MooseX::Declare::Context::Parameterized 0.39
+      MooseX::Declare::Context::WithOptions 0.39
+      MooseX::Declare::StackItem 0.39
+      MooseX::Declare::Syntax::EmptyBlockIfMissing 0.39
+      MooseX::Declare::Syntax::Extending 0.39
+      MooseX::Declare::Syntax::InnerSyntaxHandling 0.39
+      MooseX::Declare::Syntax::Keyword::Class 0.39
+      MooseX::Declare::Syntax::Keyword::Clean 0.39
+      MooseX::Declare::Syntax::Keyword::Method 0.39
+      MooseX::Declare::Syntax::Keyword::MethodModifier 0.39
+      MooseX::Declare::Syntax::Keyword::Namespace 0.39
+      MooseX::Declare::Syntax::Keyword::Role 0.39
+      MooseX::Declare::Syntax::Keyword::With 0.39
+      MooseX::Declare::Syntax::KeywordHandling 0.39
+      MooseX::Declare::Syntax::MethodDeclaration 0.39
+      MooseX::Declare::Syntax::MethodDeclaration::Parameterized 0.39
+      MooseX::Declare::Syntax::MooseSetup 0.39
+      MooseX::Declare::Syntax::NamespaceHandling 0.39
+      MooseX::Declare::Syntax::OptionHandling 0.39
+      MooseX::Declare::Syntax::RoleApplication 0.39
+      MooseX::Declare::Util 0.39
+    requirements:
+      Carp 0
+      Devel::Declare 0.005011
+      Devel::Declare::Context::Simple 0
+      ExtUtils::MakeMaker 0
+      List::MoreUtils 0
+      Module::Build::Tiny 0.037
+      Module::Runtime 0
+      Moose 0.90
+      Moose::Meta::Class 0
+      Moose::Role 0
+      Moose::Util 0
+      Moose::Util::TypeConstraints 0
+      MooseX::Method::Signatures 0.36
+      MooseX::Method::Signatures::Meta::Method 0
+      MooseX::Method::Signatures::Types 0
+      MooseX::Role::Parameterized 0.12
+      MooseX::Types::Moose 0.20
+      Parse::Method::Signatures 0
+      Parse::Method::Signatures::Param::Placeholder 0
+      Sub::Exporter 0
+      Sub::Install 0
+      aliased 0
+      constant 0
+      namespace::autoclean 0.09
+      namespace::clean 0.11
+      overload 0
+      perl 5.006
+      strict 0
+      warnings 0
+  MooseX-Getopt-0.65
+    pathname: E/ET/ETHER/MooseX-Getopt-0.65.tar.gz
+    provides:
+      MooseX::Getopt 0.65
+      MooseX::Getopt::Basic 0.65
+      MooseX::Getopt::Dashes 0.65
+      MooseX::Getopt::GLD 0.65
+      MooseX::Getopt::Meta::Attribute 0.65
+      MooseX::Getopt::Meta::Attribute::NoGetopt 0.65
+      MooseX::Getopt::Meta::Attribute::Trait 0.65
+      MooseX::Getopt::Meta::Attribute::Trait::NoGetopt 0.65
+      MooseX::Getopt::OptionTypeMap 0.65
+      MooseX::Getopt::ProcessedArgv 0.65
+      MooseX::Getopt::Strict 0.65
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Getopt::Long 2.37
+      Getopt::Long::Descriptive 0.088
+      Module::Build::Tiny 0.037
+      Moose 0
+      Moose::Meta::Attribute 0
+      Moose::Role 0.56
+      Moose::Util::TypeConstraints 0
+      MooseX::Role::Parameterized 0
+      Scalar::Util 0
+      Try::Tiny 0
+      namespace::autoclean 0
+      perl 5.006
+      strict 0
+      warnings 0
+  MooseX-GlobRef-0.0701
+    pathname: D/DE/DEXTER/MooseX-GlobRef-0.0701.tar.gz
+    provides:
+      MooseX::GlobRef 0.0701
+      MooseX::GlobRef::Object 0.0701
+      MooseX::GlobRef::Role::Meta::Instance 0.0701
+      MooseX::GlobRef::Role::Object 0.0701
+    requirements:
+      Moose 0.94
+      Test::Assert 0
+      Test::Unit::Lite 0.12
+      parent 0
+      perl 5.006
+  MooseX-InsideOut-0.106
+    pathname: D/DO/DOY/MooseX-InsideOut-0.106.tar.gz
+    provides:
+      MooseX::InsideOut 0.106
+      MooseX::InsideOut::Role::Meta::Instance 0.106
+    requirements:
+      Class::MOP 0.80
+      ExtUtils::MakeMaker 6.31
+      Hash::Util::FieldHash::Compat 0
+      Moose 0.94
+      namespace::clean 0.11
+  MooseX-Iterator-0.11
+    pathname: R/RL/RLB/MooseX-Iterator-0.11.tar.gz
+    provides:
+      Moose::Meta::Attribute::Custom::Iterable 0.11
+      MooseX::Iterator 0.11
+      MooseX::Iterator::Array 0.11
+      MooseX::Iterator::Hash 0.11
+      MooseX::Iterator::Meta::Iterable 0.11
+      MooseX::Iterator::Role 0.11
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Moose 0.86
+      Test::More 0.42
+  MooseX-LazyLogDispatch-0.02
+    pathname: B/BL/BLBLACK/MooseX-LazyLogDispatch-0.02.tar.gz
+    provides:
+      MooseX::LazyLogDispatch 0.02
+      MooseX::LazyLogDispatch::Levels 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Scalar 2.110
+      Log::Dispatch::Configurator 0
+      Moose 0
+      Test::More 0.42
+  MooseX-LazyRequire-0.11
+    pathname: E/ET/ETHER/MooseX-LazyRequire-0.11.tar.gz
+    provides:
+      MooseX::LazyRequire 0.11
+      MooseX::LazyRequire::Meta::Attribute::Trait::LazyRequire 0.11
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Module::Build::Tiny 0.037
+      Moose 0.94
+      Moose::Exporter 0
+      Moose::Role 0
+      aliased 0.30
+      namespace::autoclean 0
+      perl 5.006
+  MooseX-Log-Log4perl-0.46
+    pathname: L/LA/LAMMEL/MooseX-Log-Log4perl-0.46.tar.gz
+    provides:
+      MooseX::Log::Log4perl 0.46
+      MooseX::Log::Log4perl::Easy 0.46
+    requirements:
+      Any::Moose 0.12
+      ExtUtils::MakeMaker 6.59
+      IO::Scalar 0
+      Log::Log4perl 1.13
+      Moose 0.65
+      Test::More 0
+      perl 5.008
+  MooseX-LogDispatch-1.2002
+    pathname: J/JG/JGOULAH/MooseX-LogDispatch-1.2002.tar.gz
+    provides:
+      MooseX::LogDispatch 1.2002
+      MooseX::LogDispatch::Levels undef
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      IO::Scalar 0
+      Log::Dispatch::Configurator 0
+      Moose 0
+      Test::Exception 0
+      Test::More 0
+  MooseX-Meta-TypeConstraint-ForceCoercion-0.01
+    pathname: F/FL/FLORA/MooseX-Meta-TypeConstraint-ForceCoercion-0.01.tar.gz
+    provides:
+      MooseX::Meta::TypeConstraint::ForceCoercion 0.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      Moose 0
+      namespace::autoclean 0
+  MooseX-Method-Signatures-0.48
+    pathname: E/ET/ETHER/MooseX-Method-Signatures-0.48.tar.gz
+    provides:
+      MooseX::Method::Signatures 0.48
+      MooseX::Method::Signatures::Meta::Method 0.48
+      MooseX::Method::Signatures::Types 0.48
+    requirements:
+      B::Hooks::EndOfScope 0.10
+      Carp 0
+      Context::Preserve 0
+      Devel::Declare 0.005011
+      Devel::Declare::Context::Simple 0
+      Eval::Closure 0
+      ExtUtils::MakeMaker 0
+      Module::Build::Tiny 0.038
+      Module::Runtime 0.012
+      Moose 0.89
+      Moose::Meta::Class 0
+      Moose::Meta::Method 0
+      Moose::Util 0
+      Moose::Util::TypeConstraints 0
+      MooseX::LazyRequire 0.06
+      MooseX::Meta::TypeConstraint::ForceCoercion 0
+      MooseX::Types 0.35
+      MooseX::Types::Moose 0.19
+      MooseX::Types::Structured 0.24
+      MooseX::Types::Util 0
+      Parse::Method::Signatures 1.003014
+      Parse::Method::Signatures::Param::Named 0
+      Parse::Method::Signatures::Param::Placeholder 0
+      Parse::Method::Signatures::TypeConstraint 0
+      Parse::Method::Signatures::Types 0
+      Scalar::Util 0
+      Sub::Name 0
+      Task::Weaken 0
+      Text::Balanced 0
+      aliased 0
+      if 0
+      namespace::autoclean 0
+      perl 5.006
+      strict 0
+      warnings 0
+  MooseX-NonMoose-0.26
+    pathname: D/DO/DOY/MooseX-NonMoose-0.26.tar.gz
+    provides:
+      MooseX::NonMoose 0.26
+      MooseX::NonMoose::InsideOut 0.26
+      MooseX::NonMoose::Meta::Role::Class 0.26
+      MooseX::NonMoose::Meta::Role::Constructor 0.26
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      List::MoreUtils 0
+      Module::Runtime 0
+      Moose::Exporter 0
+      Moose::Role 2.0000
+      Moose::Util 0
+      Try::Tiny 0
+      warnings 0
+  MooseX-Object-Pluggable-0.0013
+    pathname: E/ET/ETHER/MooseX-Object-Pluggable-0.0013.tar.gz
+    provides:
+      MooseX::Object::Pluggable 0.0013
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.034
+      Module::Pluggable::Object 0
+      Module::Runtime 0
+      Moose::Role 0
+      Moose::Util 0
+      Scalar::Util 0
+      Try::Tiny 0
+      namespace::autoclean 0
+      perl 5.006
+  MooseX-Param-0.02
+    pathname: S/ST/STEVAN/MooseX-Param-0.02.tar.gz
+    provides:
+      MooseX::Param 0.02
+    requirements:
+      Moose 0.32
+      Test::Exception 0.21
+      Test::More 0.62
   MooseX-Params-Validate-0.18
     pathname: D/DR/DROLSKY/MooseX-Params-Validate-0.18.tar.gz
     provides:
@@ -5425,6 +5923,16 @@ DISTRIBUTIONS
       overload 0
       strict 0
       warnings 0
+  MooseX-Role-Cmd-0.10
+    pathname: E/ED/EDENC/MooseX-Role-Cmd-0.10.tar.gz
+    provides:
+      MooseX::Role::Cmd 0.10
+      MooseX::Role::Cmd::Meta::Attribute::Trait undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      IPC::Cmd 0.42
+      Moose 0.6
+      Test::Exception 0
   MooseX-Role-Parameterized-1.08
     pathname: E/ET/ETHER/MooseX-Role-Parameterized-1.08.tar.gz
     provides:
@@ -5456,6 +5964,26 @@ DISTRIBUTIONS
       Moose 0.40
       Test::Exception 0
       Test::use::ok 0
+  MooseX-SemiAffordanceAccessor-0.09
+    pathname: D/DR/DROLSKY/MooseX-SemiAffordanceAccessor-0.09.tar.gz
+    provides:
+      MooseX::SemiAffordanceAccessor 0.09
+      MooseX::SemiAffordanceAccessor::Role::Attribute 0.09
+    requirements:
+      ExtUtils::MakeMaker 6.31
+      Moose 1.16
+      Test::More 0.88
+  MooseX-SimpleConfig-0.10
+    pathname: E/ET/ETHER/MooseX-SimpleConfig-0.10.tar.gz
+    provides:
+      MooseX::SimpleConfig 0.10
+    requirements:
+      Config::Any 0.13
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.030
+      Moose::Role 0
+      MooseX::ConfigFromFile 0
+      perl 5.006
   MooseX-Singleton-0.29
     pathname: K/KA/KAARE/MooseX-Singleton-0.29.tar.gz
     provides:
@@ -5471,6 +5999,45 @@ DISTRIBUTIONS
       Test::Fatal 0
       Test::More 0.88
       Test::Requires 0
+  MooseX-Storage-0.47
+    pathname: E/ET/ETHER/MooseX-Storage-0.47.tar.gz
+    provides:
+      Moose::Meta::Attribute::Custom::DoNotSerialize 0.47
+      Moose::Meta::Attribute::Custom::Trait::DoNotSerialize 0.47
+      MooseX::Storage 0.47
+      MooseX::Storage::Base::WithChecksum 0.47
+      MooseX::Storage::Basic 0.47
+      MooseX::Storage::Deferred 0.47
+      MooseX::Storage::Engine 0.47
+      MooseX::Storage::Engine::IO::AtomicFile 0.47
+      MooseX::Storage::Engine::IO::File 0.47
+      MooseX::Storage::Engine::Trait::DisableCycleDetection 0.47
+      MooseX::Storage::Engine::Trait::OnlyWhenBuilt 0.47
+      MooseX::Storage::Format::JSON 0.47
+      MooseX::Storage::Format::Storable 0.47
+      MooseX::Storage::Format::YAML 0.47
+      MooseX::Storage::IO::AtomicFile 0.47
+      MooseX::Storage::IO::File 0.47
+      MooseX::Storage::IO::StorableFile 0.47
+      MooseX::Storage::Meta::Attribute::DoNotSerialize 0.47
+      MooseX::Storage::Meta::Attribute::Trait::DoNotSerialize 0.47
+      MooseX::Storage::Traits::DisableCycleDetection 0.47
+      MooseX::Storage::Traits::OnlyWhenBuilt 0.47
+      MooseX::Storage::Util 0.47
+    requirements:
+      Carp 0
+      Data::Dumper 0
+      Digest 0
+      ExtUtils::MakeMaker 0
+      Module::Build::Tiny 0.037
+      Module::Runtime 0
+      Moose 0.99
+      Moose::Meta::Attribute 0
+      Moose::Role 0
+      Scalar::Util 0
+      String::RewritePrefix 0
+      namespace::autoclean 0
+      perl 5.008
   MooseX-StrictConstructor-0.19
     pathname: D/DR/DROLSKY/MooseX-StrictConstructor-0.19.tar.gz
     provides:
@@ -5537,6 +6104,75 @@ DISTRIBUTIONS
       namespace::autoclean 0.16
       overload 0
       perl 5.008
+      strict 0
+      warnings 0
+  MooseX-Types-DateTime-0.10
+    pathname: E/ET/ETHER/MooseX-Types-DateTime-0.10.tar.gz
+    provides:
+      MooseX::Types::DateTime 0.10
+    requirements:
+      DateTime 0.4302
+      DateTime::Duration 0.4302
+      DateTime::Locale 0.4001
+      DateTime::TimeZone 0.95
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.034
+      Moose 0.41
+      MooseX::Types 0.30
+      MooseX::Types::Moose 0.30
+      namespace::clean 0.08
+      perl 5.008003
+      strict 0
+      warnings 0
+  MooseX-Types-Path-Class-0.06
+    pathname: T/TH/THEPLER/MooseX-Types-Path-Class-0.06.tar.gz
+    provides:
+      MooseX::Types::Path::Class 0.06
+    requirements:
+      Class::MOP 0
+      ExtUtils::MakeMaker 6.30
+      Moose 0.39
+      MooseX::Types 0.04
+      Path::Class 0.16
+      Test::More 0.88
+  MooseX-Types-Path-Tiny-0.011
+    pathname: E/ET/ETHER/MooseX-Types-Path-Tiny-0.011.tar.gz
+    provides:
+      MooseX::Types::Path::Tiny 0.011
+    requirements:
+      ExtUtils::MakeMaker 0
+      Module::Build::Tiny 0.037
+      Moose 2
+      MooseX::Types 0
+      MooseX::Types::Moose 0
+      MooseX::Types::Stringlike 0
+      Path::Tiny 0
+      if 0
+      namespace::autoclean 0
+      perl 5.006
+      strict 0
+      warnings 0
+  MooseX-Types-Set-Object-0.04
+    pathname: E/ET/ETHER/MooseX-Types-Set-Object-0.04.tar.gz
+    provides:
+      MooseX::Types::Set::Object 0.04
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.030
+      Moose 0.50
+      MooseX::Types 0
+      MooseX::Types::Moose 0
+      Set::Object 0
+      perl 5.006
+  MooseX-Types-Stringlike-0.003
+    pathname: D/DA/DAGOLDEN/MooseX-Types-Stringlike-0.003.tar.gz
+    provides:
+      MooseX::Types::Stringlike 0.003
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      MooseX::Types 0
+      MooseX::Types::Moose 0
+      overload 0
       strict 0
       warnings 0
   MooseX-Types-Structured-0.30
@@ -7232,6 +7868,17 @@ DISTRIBUTIONS
       XSLoader 0
       base 0
       perl 5.006001
+  Set-Object-1.34
+    pathname: R/RU/RURBAN/Set-Object-1.34.tar.gz
+    provides:
+      Set::Object 1.34
+      Set::Object::TieArray 1.34
+      Set::Object::TieHash 1.34
+      Set::Object::Weak undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      Test::More 0
   Snowball-Norwegian-1.2
     pathname: A/AS/ASKSH/Snowball-Norwegian-1.2.tar.gz
     provides:
@@ -7464,6 +8111,16 @@ DISTRIBUTIONS
       Sub::Exporter 0.987
       Sub::Exporter::Util 0.987
     requirements:
+  Sub-Exporter-ForMethods-0.100051
+    pathname: R/RJ/RJBS/Sub-Exporter-ForMethods-0.100051.tar.gz
+    provides:
+      Sub::Exporter::ForMethods 0.100051
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Sub::Exporter 0.978
+      Sub::Name 0
+      strict 0
+      warnings 0
   Sub-Exporter-Progressive-0.001011
     pathname: F/FR/FREW/Sub-Exporter-Progressive-0.001011.tar.gz
     provides:
@@ -7496,6 +8153,12 @@ DISTRIBUTIONS
     provides:
       Sub::Uplevel 0.24
     requirements:
+  Symbol-Util-0.0203
+    pathname: D/DE/DEXTER/Symbol-Util-0.0203.tar.gz
+    provides:
+      Symbol::Util 0.0203
+    requirements:
+      perl 5.006
   Syntax-Keyword-Junction-0.003008
     pathname: F/FR/FREW/Syntax-Keyword-Junction-0.003008.tar.gz
     provides:
@@ -7614,6 +8277,19 @@ DISTRIBUTIONS
       ExtUtils::CBuilder 0
       ExtUtils::MakeMaker 0
       Test::More 0
+  Test-Assert-0.0504
+    pathname: D/DE/DEXTER/Test-Assert-0.0504.tar.gz
+    provides:
+      Exception::Assertion 0.0504
+      Test::Assert 0.0504
+    requirements:
+      Class::Inspector 0
+      Exception::Base 0.21
+      Symbol::Util 0.0202
+      Test::Unit::Lite 0.11
+      constant::boolean 0.02
+      parent 0
+      perl 5.006
   Test-Base-0.88
     pathname: I/IN/INGY/Test-Base-0.88.tar.gz
     provides:
@@ -8169,6 +8845,19 @@ DISTRIBUTIONS
       strict 0
       version 0
       warnings 0
+  Test-Unit-Lite-0.1202
+    pathname: D/DE/DEXTER/Test-Unit-Lite-0.1202.tar.gz
+    provides:
+      Test::Unit::Debug 0.1202
+      Test::Unit::HarnessUnit 0.1202
+      Test::Unit::Lite 0.1202
+      Test::Unit::Lite::AllTests 0.1202
+      Test::Unit::Result 0.1202
+      Test::Unit::TestCase 0.1202
+      Test::Unit::TestRunner 0.1202
+      Test::Unit::TestSuite 0.1202
+    requirements:
+      perl 5.006
   Test-WWW-Mechanize-1.44
     pathname: P/PE/PETDANCE/Test-WWW-Mechanize-1.44.tar.gz
     provides:
@@ -8400,6 +9089,16 @@ DISTRIBUTIONS
     requirements:
       Test::More 0
       perl 5.005
+  Tie-ToObject-0.03
+    pathname: N/NU/NUFFIN/Tie-ToObject-0.03.tar.gz
+    provides:
+      Tie::ToObject 0.03
+    requirements:
+      ExtUtils::MakeMaker 0
+      Scalar::Util 0
+      Test::More 0
+      Test::use::ok 0
+      Tie::RefHash 0
   Time-Duration-1.1
     pathname: A/AV/AVIF/Time-Duration-1.1.tar.gz
     provides:
@@ -9399,6 +10098,13 @@ DISTRIBUTIONS
       common::sense 3.73
     requirements:
       ExtUtils::MakeMaker 0
+  constant-boolean-0.02
+    pathname: D/DE/DEXTER/constant-boolean-0.02.tar.gz
+    provides:
+      constant::boolean 0.02
+    requirements:
+      Symbol::Util 0.02
+      perl 5.006
   cpan-outdated-0.28
     pathname: T/TO/TOKUHIROM/cpan-outdated-0.28.tar.gz
     provides:
@@ -9505,6 +10211,30 @@ DISTRIBUTIONS
       local::lib 2.000014
     requirements:
       perl 5.006
+  mousex-getopt-0.35
+    pathname: T/TO/TOKUHIROM/mousex-getopt-0.35.tar.gz
+    provides:
+      MouseX::Getopt 0.35
+      MouseX::Getopt::Basic undef
+      MouseX::Getopt::Dashes undef
+      MouseX::Getopt::GLD undef
+      MouseX::Getopt::Meta::Attribute undef
+      MouseX::Getopt::Meta::Attribute::NoGetopt undef
+      MouseX::Getopt::Meta::Attribute::Trait undef
+      MouseX::Getopt::Meta::Attribute::Trait::NoGetopt undef
+      MouseX::Getopt::OptionTypeMap undef
+      MouseX::Getopt::Strict undef
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      ExtUtils::CBuilder 0
+      Getopt::Long 2.37
+      Getopt::Long::Descriptive 0.091
+      Module::Build 0.38
+      Mouse 0.64
+      Mouse::Meta::Attribute 0
+      Mouse::Role 0
+      Mouse::Util::TypeConstraints 0
   multidimensional-0.011
     pathname: I/IL/ILMARI/multidimensional-0.011.tar.gz
     provides:
