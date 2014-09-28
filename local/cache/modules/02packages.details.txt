@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   5060
-Last-Updated: Sun Sep 28 21:53:14 2014
+Line-Count:   5068
+Last-Updated: Sun Sep 28 22:07:22 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1738,6 +1738,7 @@ Devel::Declare::Context::Simple    0.006017  E/ET/ETHER/Devel-Declare-0.006017.t
 Devel::Declare::MethodInstaller::Simple   0.006017  E/ET/ETHER/Devel-Declare-0.006017.tar.gz
 Devel::Dumpvar                         1.06  A/AD/ADAMK/Devel-Dumpvar-1.06.tar.gz
 Devel::Dwarn                          undef  F/FR/FREW/Data-Dumper-Concise-2.022.tar.gz
+Devel::FindPerl                       0.012  L/LE/LEONT/Devel-FindPerl-0.012.tar.gz
 Devel::GlobalDestruction               0.13  H/HA/HAARG/Devel-GlobalDestruction-0.13.tar.gz
 Devel::Hide                          0.0009  F/FE/FERREIRA/Devel-Hide-0.0009.tar.gz
 Devel::InnerPackage                     0.4  S/SI/SIMONW/Module-Pluggable-5.1.tar.gz
@@ -4412,6 +4413,13 @@ Test::Exception                        0.35  E/EX/EXODIST/Test-Exception-0.35.ta
 Test::Exception::LessClever           0.006  E/EX/EXODIST/Test-Exception-LessClever-0.006.tar.gz
 Test::FailWarnings                    0.008  D/DA/DAGOLDEN/Test-FailWarnings-0.008.tar.gz
 Test::Fatal                           0.013  R/RJ/RJBS/Test-Fatal-0.013.tar.gz
+Test::File::ShareDir               1.000005  K/KE/KENTNL/Test-File-ShareDir-1.000005.tar.gz
+Test::File::ShareDir::Dist         1.000005  K/KE/KENTNL/Test-File-ShareDir-1.000005.tar.gz
+Test::File::ShareDir::Module       1.000005  K/KE/KENTNL/Test-File-ShareDir-1.000005.tar.gz
+Test::File::ShareDir::Object::Dist   1.000005  K/KE/KENTNL/Test-File-ShareDir-1.000005.tar.gz
+Test::File::ShareDir::Object::Inc   1.000005  K/KE/KENTNL/Test-File-ShareDir-1.000005.tar.gz
+Test::File::ShareDir::Object::Module   1.000005  K/KE/KENTNL/Test-File-ShareDir-1.000005.tar.gz
+Test::File::ShareDir::TempDirObject   1.000005  K/KE/KENTNL/Test-File-ShareDir-1.000005.tar.gz
 Test::Harness                          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Test::LeakTrace                        0.14  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::LeakTrace::Script               undef  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
