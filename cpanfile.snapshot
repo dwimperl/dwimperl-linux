@@ -7103,6 +7103,13 @@ DISTRIBUTIONS
       POSIX 0
       Socket 0
       Time::HiRes 0
+  Net-Traceroute-1.15
+    pathname: H/HA/HAG/Net-Traceroute-1.15.tar.gz
+    provides:
+      Net::Traceroute 1.15
+    requirements:
+      ExtUtils::MakeMaker 0
+      Time::HiRes 0
   Number-Compare-0.03
     pathname: R/RC/RCLAMP/Number-Compare-0.03.tar.gz
     provides:

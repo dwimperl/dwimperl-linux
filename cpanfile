@@ -176,8 +176,10 @@ requires 'MouseX::ConfigFromFile',          '0.05';
 requires 'MouseX::SimpleConfig',            '0.11';
 requires 'Net::Config',                     '1.14';
 requires 'Net::DNS',                        '0.80';
+requires 'Net::Ping',                       '2.41';
 requires 'Net::SSLeay',                     '1.14';
 requires 'Net::Server',                     '2.008'; # 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523 # --notest Net::Server
+requires 'Net::Traceroute',                 '1.15';
 requires 'ORLite',                          '1.98';
 requires 'ORLite::Migrate',                 '1.10';
 requires 'PDF::Create',                     '1.08';

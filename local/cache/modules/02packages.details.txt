@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   5068
-Last-Updated: Sun Sep 28 22:07:22 2014
+Line-Count:   5069
+Last-Updated: Sun Sep 28 22:34:19 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3379,6 +3379,7 @@ Net::Server::SIG                       0.03  R/RH/RHANDOM/Net-Server-2.008.tar.g
 Net::Server::Single                   undef  R/RH/RHANDOM/Net-Server-2.008.tar.gz
 Net::Server::TiedHandle               2.008  R/RH/RHANDOM/Net-Server-2.008.tar.gz
 Net::Time                              2.11  S/SH/SHAY/libnet-1.27.tar.gz
+Net::Traceroute                        1.15  H/HA/HAG/Net-Traceroute-1.15.tar.gz
 Number::Compare                        0.03  R/RC/RCLAMP/Number-Compare-0.03.tar.gz
 OLE::Storage_Lite                      0.19  J/JM/JMCNAMARA/OLE-Storage_Lite-0.19.tar.gz
 OLE::Storage_Lite::PPS                 0.19  J/JM/JMCNAMARA/OLE-Storage_Lite-0.19.tar.gz
