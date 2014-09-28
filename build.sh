@@ -54,17 +54,17 @@ echo DWIMPERL_VERSION=$DWIMPERL_VERSION
 BUILD_TMP=/tmp
 #ls -l $BUILD_TMP
 
-ROOT=$BUILD_TMP/dwim
+ROOT=$BUILD_TMP/$DWIMPERL_VERSION
+#TEST_DIR=$BUILD_TMP/dwimperl_test
+#BACKUP=$BUILD_TMP/dwimperl_backup
 echo ROOT=$ROOT
 [ -e $ROOT ] || mkdir $ROOT
 
-PREFIX_PERL=$ROOT/$DWIMPERL_VERSION/perl
-PREFIX_C=$ROOT/$DWIMPERL_VERSION/c
+PREFIX_PERL=$ROOT/perl
+PREFIX_C=$ROOT/c
 
 SOURCE_HOME=`pwd`
 ORIGINAL_PATH=$PATH
-#TEST_DIR=$BUILD_TMP/dwimperl_test
-#BACKUP=$BUILD_TMP/dwimperl_backup
 
 echo SOURCE_HOME=$SOURCE_HOME
 #ls -l $SOURCE_HOME
@@ -179,8 +179,8 @@ case $1 in
       wget $DWIMPERL_COM/$BASE_DWIMPERL_VERSION.tar.gz
       tar -mxzf $BASE_DWIMPERL_VERSION.tar.gz
       echo BASE_DWIMPERL_VERSION=$BASE_DWIMPERL_VERSION
-      echo ROOT/DWIMPERL_VERSION=$ROOT/$DWIMPERL_VERSION
-      mv $BASE_DWIMPERL_VERSION $ROOT/$DWIMPERL_VERSION
+      echo ROOT=$ROOT
+      mv $BASE_DWIMPERL_VERSION $ROOT
       $PREFIX_PERL/bin/perl -v
   ;;
 
@@ -253,11 +253,11 @@ case $1 in
   ;;
 
   zip)
-      cd $ROOT
+      cd $BUILD_TMP
       cp $SOURCE_HOME/src/reloc_perl $PREFIX_PERL/bin/
       chmod u+wx $PREFIX_PERL/bin/*
       tar -czf $DWIMPERL_VERSION.tar.gz $DWIMPERL_VERSION
-      echo GENERATED_ZIP_FILE=$ROOT/$DWIMPERL_VERSION.tar.gz
+      echo GENERATED_ZIP_FILE=$BUILD_TMP/$DWIMPERL_VERSION.tar.gz
   ;;
 
   *)
