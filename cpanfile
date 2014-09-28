@@ -134,6 +134,7 @@ requires 'Module::Manifest',                '1.08';
 requires 'Module::Metadata',                '1.000024';
 requires 'Module::Starter',                 '1.62';
 requires 'Mojolicious',                     '5.46';
+requires 'MongoDB',                         '0.705.0.0'; # failed https://travis-ci.org/dwimperl/dwimperl-linux/builds/36477668  (https://jira.mongodb.org/browse/PERL-437)
 requires 'Moo',                             '1.006000';
 requires 'MooX::Options',                   '4.010';
 requires 'MooX::Singleton',                 '1.20';
