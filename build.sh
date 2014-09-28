@@ -58,7 +58,7 @@ ROOT=$BUILD_TMP/$DWIMPERL_VERSION
 #TEST_DIR=$BUILD_TMP/dwimperl_test
 #BACKUP=$BUILD_TMP/dwimperl_backup
 echo ROOT=$ROOT
-[ -e $ROOT ] || mkdir $ROOT
+#[ -e $ROOT ] || mkdir $ROOT
 
 PREFIX_PERL=$ROOT/perl
 PREFIX_C=$ROOT/c
@@ -67,9 +67,6 @@ SOURCE_HOME=`pwd`
 ORIGINAL_PATH=$PATH
 
 echo SOURCE_HOME=$SOURCE_HOME
-#ls -l $SOURCE_HOME
-cp $SOURCE_HOME/dwim.sh $ROOT/
-#ls -l $ROOT
 
 # prepare the local metadb for cpanm
 # without this cpanm would complain that it cannot find the modules in the
@@ -99,7 +96,8 @@ case $1 in
       
       which perl
       $PREFIX_PERL/bin/perl -v
-      cp src/reloc_perl $PREFIX_PERL/bin/
+      cp $SOURCE_HOME/src/reloc_perl $PREFIX_PERL/bin/
+      cp $SOURCE_HOME/dwim.sh $ROOT/
   ;;
 
   cpanm)
@@ -181,6 +179,7 @@ case $1 in
       echo BASE_DWIMPERL_VERSION=$BASE_DWIMPERL_VERSION
       echo ROOT=$ROOT
       mv $BASE_DWIMPERL_VERSION $ROOT
+      cp $SOURCE_HOME/dwim.sh $ROOT/
       $PREFIX_PERL/bin/perl -v
   ;;
 
