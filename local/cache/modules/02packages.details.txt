@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   4741
-Last-Updated: Sun Sep 28 12:13:06 2014
+Line-Count:   4762
+Last-Updated: Sun Sep 28 12:21:54 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1884,6 +1884,7 @@ ExtUtils::Install                      2.04  B/BI/BINGOS/ExtUtils-Install-2.04.t
 ExtUtils::Install::Warn                2.04  B/BI/BINGOS/ExtUtils-Install-2.04.tar.gz
 ExtUtils::InstallPaths                0.010  L/LE/LEONT/ExtUtils-InstallPaths-0.010.tar.gz
 ExtUtils::Installed                    2.04  B/BI/BINGOS/ExtUtils-Install-2.04.tar.gz
+ExtUtils::MakeMaker::CPANfile          0.06  I/IS/ISHIGAKI/ExtUtils-MakeMaker-CPANfile-0.06.tar.gz
 ExtUtils::Manifest                     1.68  B/BI/BINGOS/ExtUtils-Manifest-1.68.tar.gz
 ExtUtils::Packlist                     2.04  B/BI/BINGOS/ExtUtils-Install-2.04.tar.gz
 FCGI                                   0.77  E/ET/ETHER/FCGI-0.77.tar.gz
@@ -2349,6 +2350,11 @@ Module::Build::Tiny                   0.038  L/LE/LEONT/Module-Build-Tiny-0.038.
 Module::Build::Version                 0.87  L/LE/LEONT/Module-Build-Deprecated-0.4210.tar.gz
 Module::Build::XSUtil                  0.14  H/HI/HIDEAKIO/Module-Build-XSUtil-0.14.tar.gz
 Module::Build::YAML                    1.41  L/LE/LEONT/Module-Build-Deprecated-0.4210.tar.gz
+Module::CPANfile                     1.1000  M/MI/MIYAGAWA/Module-CPANfile-1.1000.tar.gz
+Module::CPANfile::Environment         undef  M/MI/MIYAGAWA/Module-CPANfile-1.1000.tar.gz
+Module::CPANfile::Prereq              undef  M/MI/MIYAGAWA/Module-CPANfile-1.1000.tar.gz
+Module::CPANfile::Prereqs             undef  M/MI/MIYAGAWA/Module-CPANfile-1.1000.tar.gz
+Module::CPANfile::Requirement         undef  M/MI/MIYAGAWA/Module-CPANfile-1.1000.tar.gz
 Module::CoreList                 5.20140920  B/BI/BINGOS/Module-CoreList-5.20140920.tar.gz
 Module::CoreList::TieHashDelta   5.20140920  B/BI/BINGOS/Module-CoreList-5.20140920.tar.gz
 Module::CoreList::Utils          5.20140920  B/BI/BINGOS/Module-CoreList-5.20140920.tar.gz
@@ -2903,6 +2909,18 @@ MooseX::Role::Parameterized::Meta::Trait::Parameterizable       1.08  E/ET/ETHER
 MooseX::Role::Parameterized::Meta::Trait::Parameterized       1.08  E/ET/ETHER/MooseX-Role-Parameterized-1.08.tar.gz
 MooseX::Role::Parameterized::Parameters       1.08  E/ET/ETHER/MooseX-Role-Parameterized-1.08.tar.gz
 MooseX::Role::TraitConstructor         0.01  N/NU/NUFFIN/MooseX-Role-TraitConstructor-0.01.tar.gz
+MooseX::Role::WithOverloading          0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Application       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToClass       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToInstance       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Application::Composite::ToRole       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Application::FixOverloadedRefs       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Application::ToClass       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Application::ToInstance       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Application::ToRole       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
+MooseX::Role::WithOverloading::Meta::Role::Composite       0.15  E/ET/ETHER/MooseX-Role-WithOverloading-0.15.tar.gz
 MooseX::SemiAffordanceAccessor         0.09  D/DR/DROLSKY/MooseX-SemiAffordanceAccessor-0.09.tar.gz
 MooseX::SemiAffordanceAccessor::Role::Attribute       0.09  D/DR/DROLSKY/MooseX-SemiAffordanceAccessor-0.09.tar.gz
 MooseX::SimpleConfig                   0.10  E/ET/ETHER/MooseX-SimpleConfig-0.10.tar.gz
@@ -2977,6 +2995,7 @@ Mouse::Util::MetaRole                 undef  G/GF/GFUJI/Mouse-2.4.1.tar.gz
 Mouse::Util::TypeConstraints          undef  G/GF/GFUJI/Mouse-2.4.1.tar.gz
 MouseX::App::Cmd                       0.27  M/MJ/MJGARDNER/MooseX-App-Cmd-0.27.tar.gz
 MouseX::App::Cmd::Command              0.27  M/MJ/MJGARDNER/MooseX-App-Cmd-0.27.tar.gz
+MouseX::ConfigFromFile                 0.05  M/MA/MASAKI/MouseX-ConfigFromFile-0.05.tar.gz
 MouseX::Getopt                         0.35  T/TO/TOKUHIROM/mousex-getopt-0.35.tar.gz
 MouseX::Getopt::Basic                 undef  T/TO/TOKUHIROM/mousex-getopt-0.35.tar.gz
 MouseX::Getopt::Dashes                undef  T/TO/TOKUHIROM/mousex-getopt-0.35.tar.gz
@@ -2991,6 +3010,7 @@ MouseX::Types                          0.06  G/GF/GFUJI/MouseX-Types-0.06.tar.gz
 MouseX::Types::Base                    0.06  G/GF/GFUJI/MouseX-Types-0.06.tar.gz
 MouseX::Types::Moose                  undef  G/GF/GFUJI/MouseX-Types-0.06.tar.gz
 MouseX::Types::Mouse                  undef  G/GF/GFUJI/MouseX-Types-0.06.tar.gz
+MouseX::Types::Path::Class             0.07  M/MA/MASAKI/MouseX-Types-Path-Class-0.07.tar.gz
 MouseX::Types::TypeDecorator          undef  G/GF/GFUJI/MouseX-Types-0.06.tar.gz
 Mozilla::CA                        20130114  A/AB/ABH/Mozilla-CA-20130114.tar.gz
 MultipartBuffer                        4.04  L/LE/LEEJO/CGI-4.04.tar.gz
@@ -4192,6 +4212,7 @@ Test::Unit::Result                   0.1202  D/DE/DEXTER/Test-Unit-Lite-0.1202.t
 Test::Unit::TestCase                 0.1202  D/DE/DEXTER/Test-Unit-Lite-0.1202.tar.gz
 Test::Unit::TestRunner               0.1202  D/DE/DEXTER/Test-Unit-Lite-0.1202.tar.gz
 Test::Unit::TestSuite                0.1202  D/DE/DEXTER/Test-Unit-Lite-0.1202.tar.gz
+Test::UseAllModules                    0.15  I/IS/ISHIGAKI/Test-UseAllModules-0.15.tar.gz
 Test::WWW::Mechanize                   1.44  P/PE/PETDANCE/Test-WWW-Mechanize-1.44.tar.gz
 Test::WWW::Mechanize::PSGI             0.35  L/LB/LBROCARD/Test-WWW-Mechanize-PSGI-0.35.tar.gz
 Test::Warn                             0.30  C/CH/CHORNY/Test-Warn-0.30.tar.gz

@@ -1,0 +1,3 @@
+#requires 'AnyEvent::Ping::TCP',             '1.00'; # has lots of CPANTESTERS fail reports
+#requires 'Debug::Client',                   '0.29';  # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
+#requires 'Geo::IP',                         '1.43';
