@@ -16,7 +16,7 @@ requires 'B::Debug',                        '1.21';
 requires 'Business::PayPal',                '0.13';
 requires 'Cache::Memcached::Fast',          '0.22';
 requires 'Capture::Tiny',                   '0.25';
-#requries 'Catalyst',                        '5.90073';
+requires 'Catalyst',                        '5.90073';
 requires 'Carp::Always',                    '0.13';
 requires 'Carp::Assert',                    '0.21';
 requires 'Carp::Assert::More',              '1.14';
@@ -297,7 +297,6 @@ requires 'version',                         '0.9909';
 requires 'Web::Feed',                       '0.03';
 requires 'WebService::GData',               '0.06';
 requires 'WWW::Mechanize',                  '1.73'; # depends on HTTP::Server::Simple::CGI
-requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # Moose
 requires 'XML::Atom',                       '0.41';
 requires 'XML::LibXML',                     '2.0116';  # it needs all kinds of parameters to build see build.sh and #2
 #requires 'XML::Feed',                       '0.52'; #failed
