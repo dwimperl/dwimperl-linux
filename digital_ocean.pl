@@ -103,12 +103,8 @@ sub run {
 		# based on an earlier release
 		push @user_cmds, (
 			"cd $dir; $pref ./build.sh get_base_perl",
-			#"cd $dir; $pref ./build.sh openssl",
-			#"cd $dir; $pref ./build.sh libxml2",
-			#"cd $dir; $pref ./build.sh zlib",
-			"cd $dir; $pref ./build.sh xml-libxml",
-			"cd $dir; $pref ./build.sh expat",
-			"cd $dir; $pref ./build.sh xml-parser",
+			"cd $dir; $pref ./build.sh dwim",
+			"cd $dir; $pref ./build.sh notest",
 			"cd $dir; $pref ./build.sh modules",
 			"cd $dir; $pref ./build.sh test_cpanfile",
 			#"cd $dir; $pref ./build.sh test_all",
