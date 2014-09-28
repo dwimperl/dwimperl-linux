@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   4509
-Last-Updated: Sun Sep 28 10:26:45 2014
+Line-Count:   4517
+Last-Updated: Sun Sep 28 10:44:52 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -2246,6 +2246,12 @@ Method::Signatures::Simple             1.07  R/RH/RHESA/Method-Signatures-Simple
 Mixin::Linewise                       0.106  R/RJ/RJBS/Mixin-Linewise-0.106.tar.gz
 Mixin::Linewise::Readers              0.106  R/RJ/RJBS/Mixin-Linewise-0.106.tar.gz
 Mixin::Linewise::Writers              0.106  R/RJ/RJBS/Mixin-Linewise-0.106.tar.gz
+Mock::Quick                           1.108  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
+Mock::Quick::Class                    undef  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
+Mock::Quick::Method                   undef  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
+Mock::Quick::Object                   undef  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
+Mock::Quick::Object::Control          undef  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
+Mock::Quick::Util                     undef  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
 Modern::Perl                     1.20140107  C/CH/CHROMATIC/Modern-Perl-1.20140107.tar.gz
 Module::Build                        0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 Module::Build::Base                  0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
@@ -2910,6 +2916,7 @@ ORLite                                 1.98  A/AD/ADAMK/ORLite-1.98.tar.gz
 ORLite::Migrate                        1.10  A/AD/ADAMK/ORLite-Migrate-1.10.tar.gz
 ORLite::Migrate::Patch                 1.10  A/AD/ADAMK/ORLite-Migrate-1.10.tar.gz
 ORLite::Migrate::Timeline              1.10  A/AD/ADAMK/ORLite-Migrate-1.10.tar.gz
+Object::Quick                         undef  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
 Object::Tiny::RW::XS                   0.03  S/SR/SRCHULO/Object-Tiny-RW-XS-0.03.tar.gz
 Object::Tiny::XS                       1.01  S/SM/SMUELLER/Object-Tiny-XS-1.01.tar.gz
 PAR                                   1.007  R/RS/RSCHUPP/PAR-1.007.tar.gz
@@ -3894,6 +3901,7 @@ Test::Deep::SuperHashKeys             undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Deep::SuperHashKeysOnly         undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Differences                      0.62  D/DC/DCANTRELL/Test-Differences-0.62.tar.gz
 Test::Exception                        0.35  E/EX/EXODIST/Test-Exception-0.35.tar.gz
+Test::Exception::LessClever           0.006  E/EX/EXODIST/Test-Exception-LessClever-0.006.tar.gz
 Test::FailWarnings                    0.008  D/DA/DAGOLDEN/Test-FailWarnings-0.008.tar.gz
 Test::Fatal                           0.013  R/RJ/RJBS/Test-Fatal-0.013.tar.gz
 Test::Harness                          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz

@@ -4520,6 +4520,23 @@ DISTRIBUTIONS
       Sub::Exporter 0
       strict 0
       warnings 0
+  Mock-Quick-1.108
+    pathname: E/EX/EXODIST/Mock-Quick-1.108.tar.gz
+    provides:
+      Mock::Quick 1.108
+      Mock::Quick::Class undef
+      Mock::Quick::Method undef
+      Mock::Quick::Object undef
+      Mock::Quick::Object::Control undef
+      Mock::Quick::Util undef
+      Object::Quick undef
+    requirements:
+      Carp 0
+      Exporter::Declare 0.103
+      Fennec::Lite 0.004
+      Scalar::Util 0
+      Test::Exception 0.29
+      Test::Simple 0.88
   Modern-Perl-1.20140107
     pathname: C/CH/CHROMATIC/Modern-Perl-1.20140107.tar.gz
     provides:
@@ -7727,6 +7744,16 @@ DISTRIBUTIONS
     provides:
       Test::Exception 0.35
     requirements:
+  Test-Exception-LessClever-0.006
+    pathname: E/EX/EXODIST/Test-Exception-LessClever-0.006.tar.gz
+    provides:
+      Test::Exception::LessClever 0.006
+    requirements:
+      Carp 0
+      Exporter 0
+      Mock::Quick 1.100
+      Test::Builder 0
+      Test::Simple 0.88
   Test-FailWarnings-0.008
     pathname: D/DA/DAGOLDEN/Test-FailWarnings-0.008.tar.gz
     provides:
