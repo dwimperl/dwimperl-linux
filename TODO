@@ -1,7 +1,6 @@
 requires 'AnyEvent::Ping::TCP',             '1.00'; # has lots of CPANTESTERS fail reports
-requires 'Debug::Client',                   '0.29';  # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
+requires 'Debug::Client',                   '0.29'; # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
 requires 'DigitalOcean',                    '0.12';
-requires 'Dist::Zilla',                     '5.020';
 requires 'ExtUtils::Embed',                 '1.32'; # core
 requires 'Geo::IP',                         '1.43'; # needs some C compiling
 requires 'Module::Version',                 '0.12'; # error: Failed to upconvert metadata to 1.1. Errors: Missing mandatory field, 'version' (version) [Validation: 1.0]
