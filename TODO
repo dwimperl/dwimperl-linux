@@ -7,6 +7,7 @@ requires 'MongoDB',                         '0.705.0.0'; # failed https://travis
 requires 'MooseX::App::Cmd',                '0.27'; # failed
 requires 'MooseX::Traits',                  '0.12'; # failed
 requires 'PAR::Packer',                     '1.022'; # failed
+requires 'PerlIO::gzip',                    '0.18'; # failed, reported to author
 requires 'Test::Ping',                      '0.17'; #failed
 requires 'Text::VimColor',                  '0.24'; # need vim to be installed (shall we carry it with us or shall we just install it on the build machine?)
 requires 'TryCatch',                        '1.003002';  # failed
