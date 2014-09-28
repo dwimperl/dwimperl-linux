@@ -62,7 +62,7 @@ requires 'Devel::PPPort',                   '3.24';
 requires 'Devel::Refactor',                 '0.05';
 requires 'Digest::SHA',                     '5.92';
 requires 'Digest::SHA1',                    '2.13';
-requires 'DigitalOcean',                    '0.12';
+requires 'Dist::Zilla',                     '5.020';
 requires 'Email::MIME::Creator',            '1.926';
 requires 'Email::MIME::Kit',                '2.102014';
 requires 'Email::Sender',                   '1.300014';
