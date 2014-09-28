@@ -62,6 +62,7 @@ requires 'Devel::PPPort',                   '3.24';
 requires 'Devel::Refactor',                 '0.05';
 requires 'Digest::SHA',                     '5.92';
 requires 'Digest::SHA1',                    '2.13';
+requires 'DigitalOcean',                    '0.12';
 requires 'Email::MIME::Creator',            '1.926';
 requires 'Email::MIME::Kit',                '2.102014';
 requires 'Email::Sender',                   '1.300014';
@@ -134,7 +135,6 @@ requires 'Module::Manifest',                '1.08';
 requires 'Module::Metadata',                '1.000024';
 requires 'Module::Starter',                 '1.62';
 requires 'Mojolicious',                     '5.46';
-requires 'MongoDB',                         '0.705.0.0'; # failed https://travis-ci.org/dwimperl/dwimperl-linux/builds/36477668  (https://jira.mongodb.org/browse/PERL-437)
 requires 'Moo',                             '1.006000';
 requires 'MooX::Options',                   '4.010';
 requires 'MooX::Singleton',                 '1.20';

@@ -14,7 +14,7 @@ requires 'PAR::Packer',                     '1.022'; #failed
 requires 'Pod::Coverage::Moose',            '0.05';
 requires 'Term::ProgressBar::Simple',       '0.03';
 requires 'Term::ReadLine',                  '1.14';
-requires 'Test::Ping',                       '0.17'; #failed
+requires 'Test::Ping',                      '0.17'; #failed
 requires 'Text::VimColor',                  '0.24'; # need vim to be installed (shall we carry it with us or shall we just install it on the build machine?)
 requires 'TryCatch',                        '1.003002';  # failed
 requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # failed
