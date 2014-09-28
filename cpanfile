@@ -111,6 +111,7 @@ requires 'IO::String',                      '1.08';
 requires 'IO::Socket',                      '1.25';
 requires 'IO::Socket::IP',                  '0.32';
 requires 'IO::Socket::INET6',               '2.72';
+requires 'IPC::System::Simple',             '1.25'; # fails the taint-mode tests probably due to the %Config mangling
 requires 'IPC::Run',                        '0.92';
 requires 'IPC::Run3',                       '0.048';
 requires 'JSON',                            '2.90';
