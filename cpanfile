@@ -139,7 +139,7 @@ requires 'Module::Build',                   '0.4210';
 requires 'Module::CoreList',                '5.20140920';
 requires 'Module::Manifest',                '1.08';
 requires 'Module::Starter',                 '1.62';
-#requires 'MongoDB',                         '0.705.0.0'; # failed
+requires 'MongoDB',                         '0.705.0.0'; # failed
 requires 'Moo',                             '1.006000';
 requires 'MooX::Options',                   '4.010';
 requires 'MooX::late',                      '0.015';
@@ -292,7 +292,7 @@ requires 'threads',                         '1.96';
 #requires 'Time::Tiny',                      '1.05';
 requires 'Time::Piece',                     '1.29';
 requires 'Try::Tiny',                       '0.22';
-#requires 'TryCatch',                        '1.003002';
+#requires 'TryCatch',                        '1.003002';  # failed
 requires 'Unicode::Collate',                '1.07';
 requires 'Unicode::Normalize',              '1.18';
 requires 'URI',                             '1.64';
