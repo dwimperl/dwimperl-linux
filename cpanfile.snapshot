@@ -6292,6 +6292,22 @@ DISTRIBUTIONS
       MouseX::Types::Path::Class 0.06
       Test::More 0.94
       Test::UseAllModules 0
+  MouseX-SimpleConfig-0.11
+    pathname: M/MJ/MJGARDNER/MouseX-SimpleConfig-0.11.tar.gz
+    provides:
+      MouseX::SimpleConfig 0.11
+    requirements:
+      Carp 0
+      Config::Any 0.13
+      English 0
+      ExtUtils::MakeMaker 6.31
+      File::Find 0
+      File::Temp 0
+      Mouse 0.35
+      Mouse::Role 0
+      MouseX::ConfigFromFile 0.02
+      Path::Class::File 0
+      Test::More 0.88
   MouseX-Types-0.06
     pathname: G/GF/GFUJI/MouseX-Types-0.06.tar.gz
     provides:

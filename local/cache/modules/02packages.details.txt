@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   4762
-Last-Updated: Sun Sep 28 12:21:54 2014
+Line-Count:   4763
+Last-Updated: Sun Sep 28 12:49:53 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3006,6 +3006,7 @@ MouseX::Getopt::Meta::Attribute::Trait      undef  T/TO/TOKUHIROM/mousex-getopt-
 MouseX::Getopt::Meta::Attribute::Trait::NoGetopt      undef  T/TO/TOKUHIROM/mousex-getopt-0.35.tar.gz
 MouseX::Getopt::OptionTypeMap         undef  T/TO/TOKUHIROM/mousex-getopt-0.35.tar.gz
 MouseX::Getopt::Strict                undef  T/TO/TOKUHIROM/mousex-getopt-0.35.tar.gz
+MouseX::SimpleConfig                   0.11  M/MJ/MJGARDNER/MouseX-SimpleConfig-0.11.tar.gz
 MouseX::Types                          0.06  G/GF/GFUJI/MouseX-Types-0.06.tar.gz
 MouseX::Types::Base                    0.06  G/GF/GFUJI/MouseX-Types-0.06.tar.gz
 MouseX::Types::Moose                  undef  G/GF/GFUJI/MouseX-Types-0.06.tar.gz
