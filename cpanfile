@@ -49,7 +49,7 @@ requires 'Dancer',                          '1.3130';
 requires 'Dancer2',                         '0.150000';
 requires 'Data::Dumper',                    '2.154';
 requires 'Date::Tiny',                      '1.04';
-#requires 'DateTime',                        '1.12';
+requires 'DateTime',                        '1.12';
 requires 'DateTime::Tiny',                  '1.04';
 requires 'DBD::SQLite',                     '1.42';
 requires 'DBI',                             '1.631';
