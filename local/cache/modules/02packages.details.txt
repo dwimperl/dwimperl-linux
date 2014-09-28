@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   5069
-Last-Updated: Sun Sep 28 22:34:19 2014
+Line-Count:   5081
+Last-Updated: Sun Sep 28 22:41:48 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -313,6 +313,11 @@ Class::MOP::Module                   2.1213  E/ET/ETHER/Moose-2.1213.tar.gz
 Class::MOP::Object                   2.1213  E/ET/ETHER/Moose-2.1213.tar.gz
 Class::MOP::Package                  2.1213  E/ET/ETHER/Moose-2.1213.tar.gz
 Class::Method::Modifiers               2.11  E/ET/ETHER/Class-Method-Modifiers-2.11.tar.gz
+Class::MethodMaker                     2.21  S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.21.tar.gz
+Class::MethodMaker::Constants         undef  S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.21.tar.gz
+Class::MethodMaker::Engine             2.21  S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.21.tar.gz
+Class::MethodMaker::OptExt            undef  S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.21.tar.gz
+Class::MethodMaker::V1Compat          undef  S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.21.tar.gz
 Class::Singleton                        1.4  A/AB/ABW/Class-Singleton-1.4.tar.gz
 Class::Tiny                           1.000  D/DA/DAGOLDEN/Class-Tiny-1.000.tar.gz
 Class::Tiny::Object                   1.000  D/DA/DAGOLDEN/Class-Tiny-1.000.tar.gz
@@ -2131,6 +2136,7 @@ Filesys::Notify::Simple                0.12  M/MI/MIYAGAWA/Filesys-Notify-Simple
 Flickr::API                            1.10  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
 Flickr::API::Request                   0.03  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
 Flickr::API::Response                  0.02  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
+Generate                              undef  S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.21.tar.gz
 Getopt::ArgvFile                       1.11  J/JS/JSTENZEL/Getopt-ArgvFile-1.11.tar.gz
 Getopt::Long::Descriptive             0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
 Getopt::Long::Descriptive::Opts       0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0.097.tar.gz
@@ -2236,6 +2242,7 @@ IO::Compress::Zlib::Constants         2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::Compress::Zlib::Extra             2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::HTML                              1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
 IO::InnerFile                         2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
+IO::Interactive                    0.000006  B/BD/BDFOY/IO-Interactive-0.0.6.tar.gz
 IO::Lines                             2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::Prompt::Tiny                      0.002  D/DA/DAGOLDEN/IO-Prompt-Tiny-0.002.tar.gz
 IO::Scalar                            2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
@@ -4009,6 +4016,7 @@ Pod::Coverage                          0.23  R/RC/RCLAMP/Pod-Coverage-0.23.tar.g
 Pod::Coverage::CountParents           undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
 Pod::Coverage::ExportOnly             undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
 Pod::Coverage::Extractor               0.23  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+Pod::Coverage::Moose                   0.05  E/ET/ETHER/Pod-Coverage-Moose-0.05.tar.gz
 Pod::Coverage::Overloader             undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
 Pod::Eventual                      0.094001  R/RJ/RJBS/Pod-Eventual-0.094001.tar.gz
 Pod::Eventual::Simple              0.094001  R/RJ/RJBS/Pod-Eventual-0.094001.tar.gz
@@ -4336,6 +4344,10 @@ Template::View                         2.91  A/AB/ABW/Template-Toolkit-2.26.tar.
 Term::ANSIColor                        4.03  R/RR/RRA/Term-ANSIColor-4.03.tar.gz
 Term::Cap                              1.16  J/JS/JSTOWE/Term-Cap-1.16.tar.gz
 Term::Encoding                         0.02  M/MI/MIYAGAWA/Term-Encoding-0.02.tar.gz
+Term::ProgressBar                      2.16  S/SZ/SZABGAB/Term-ProgressBar-2.16.tar.gz
+Term::ProgressBar::IO                  2.16  S/SZ/SZABGAB/Term-ProgressBar-2.16.tar.gz
+Term::ProgressBar::Quiet               0.31  L/LB/LBROCARD/Term-ProgressBar-Quiet-0.31.tar.gz
+Term::ProgressBar::Simple              0.03  E/EV/EVDB/Term-ProgressBar-Simple-0.03.tar.gz
 Term::ReadKey                          2.32  J/JS/JSTOWE/TermReadKey-2.32.tar.gz
 Term::Size::Any                       0.002  F/FE/FERREIRA/Term-Size-Any-0.002.tar.gz
 Term::Size::Perl                      0.029  F/FE/FERREIRA/Term-Size-Perl-0.029.tar.gz

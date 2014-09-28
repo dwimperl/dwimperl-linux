@@ -900,6 +900,18 @@ DISTRIBUTIONS
     provides:
       Class::Method::Modifiers 2.11
     requirements:
+  Class-MethodMaker-2.21
+    pathname: S/SC/SCHWIGON/class-methodmaker/Class-MethodMaker-2.21.tar.gz
+    provides:
+      Class::MethodMaker 2.21
+      Class::MethodMaker::Constants undef
+      Class::MethodMaker::Engine 2.21
+      Class::MethodMaker::OptExt undef
+      Class::MethodMaker::V1Compat undef
+      Generate undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.006
   Class-Singleton-1.4
     pathname: A/AB/ABW/Class-Singleton-1.4.tar.gz
     provides:
@@ -4379,6 +4391,14 @@ DISTRIBUTIONS
     provides:
       IO::HTML 1.001
     requirements:
+  IO-Interactive-0.0.6
+    pathname: B/BD/BDFOY/IO-Interactive-0.0.6.tar.gz
+    provides:
+      IO::Interactive 0.000006
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      version 0
   IO-Prompt-Tiny-0.002
     pathname: D/DA/DAGOLDEN/IO-Prompt-Tiny-0.002.tar.gz
     provides:
@@ -8398,6 +8418,19 @@ DISTRIBUTIONS
       Pod::Find 0.21
       Pod::Parser 1.13
       Test::More 0
+  Pod-Coverage-Moose-0.05
+    pathname: E/ET/ETHER/Pod-Coverage-Moose-0.05.tar.gz
+    provides:
+      Pod::Coverage::Moose 0.05
+    requirements:
+      Carp 0
+      Class::Load 0
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.030
+      Moose 0.24
+      Pod::Coverage 0
+      namespace::autoclean 0.08
+      perl 5.006
   Pod-Eventual-0.094001
     pathname: R/RJ/RJBS/Pod-Eventual-0.094001.tar.gz
     provides:
@@ -9146,6 +9179,39 @@ DISTRIBUTIONS
       Term::Encoding 0.02
     requirements:
       ExtUtils::MakeMaker 0
+  Term-ProgressBar-2.16
+    pathname: S/SZ/SZABGAB/Term-ProgressBar-2.16.tar.gz
+    provides:
+      Term::ProgressBar 2.16
+      Term::ProgressBar::IO 2.16
+    requirements:
+      Capture::Tiny 0.13
+      Carp 0
+      Class::MethodMaker 1.02
+      ExtUtils::MakeMaker 0
+      Fatal 0
+      File::Temp 0
+      POSIX 0
+      Term::ReadKey 2.14
+      Test::Exception 0.31
+      Test::More 0.80
+  Term-ProgressBar-Quiet-0.31
+    pathname: L/LB/LBROCARD/Term-ProgressBar-Quiet-0.31.tar.gz
+    provides:
+      Term::ProgressBar::Quiet 0.31
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Interactive 0
+      Term::ProgressBar 0
+      Test::MockObject 0
+      Test::More 0
+  Term-ProgressBar-Simple-0.03
+    pathname: E/EV/EVDB/Term-ProgressBar-Simple-0.03.tar.gz
+    provides:
+      Term::ProgressBar::Simple 0.03
+    requirements:
+      ExtUtils::MakeMaker 0
+      Term::ProgressBar::Quiet 0
   Term-Size-Any-0.002
     pathname: F/FE/FERREIRA/Term-Size-Any-0.002.tar.gz
     provides:
