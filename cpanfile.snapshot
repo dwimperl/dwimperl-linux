@@ -1610,6 +1610,20 @@ DISTRIBUTIONS
       overload 0
       strict 0
       warnings 0
+  Data-MessagePack-0.48
+    pathname: G/GF/GFUJI/Data-MessagePack-0.48.tar.gz
+    provides:
+      Data::MessagePack 0.48
+      Data::MessagePack::Boolean undef
+      Data::MessagePack::PP undef
+    requirements:
+      Devel::PPPort 3.19
+      ExtUtils::MakeMaker 6.59
+      ExtUtils::ParseXS 2.21
+      Test::More 0.94
+      Test::Requires 0
+      XSLoader 0.02
+      perl 5.008001
   Data-Munge-0.08
     pathname: M/MA/MAUKE/Data-Munge-0.08.tar.gz
     provides:
@@ -8257,6 +8271,13 @@ DISTRIBUTIONS
       File::Temp 0
       Test::More 0
       perl 5.00800
+  Text-Patch-1.8
+    pathname: C/CA/CADE/Text-Patch-1.8.tar.gz
+    provides:
+      Text::Patch 1.8
+    requirements:
+      ExtUtils::MakeMaker 0
+      Text::Diff 0
   Text-Template-1.46
     pathname: M/MJ/MJD/Text-Template-1.46.tar.gz
     provides:
@@ -8271,6 +8292,64 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.008
+  Text-VimColor-0.24
+    pathname: R/RW/RWSTAUNER/Text-VimColor-0.24.tar.gz
+    provides:
+      Text::VimColor 0.24
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      File::Copy 0
+      File::ShareDir 0
+      File::ShareDir::Install 0.03
+      File::Temp 0
+      Getopt::Long 0
+      IO::File 0
+      IPC::Open3 0
+      Path::Class 0.04
+      Symbol 0
+      Term::ANSIColor 1.03
+      constant 0
+      strict 0
+      warnings 0
+  Text-Xslate-3.3.3
+    pathname: S/SY/SYOHEX/Text-Xslate-3.3.3.tar.gz
+    provides:
+      Text::Xslate 3.003003
+      Text::Xslate::Bridge undef
+      Text::Xslate::Bridge::Star undef
+      Text::Xslate::Compiler undef
+      Text::Xslate::Engine 3.003003
+      Text::Xslate::HashWithDefault undef
+      Text::Xslate::PP 3.003003
+      Text::Xslate::PP::Const undef
+      Text::Xslate::PP::Method undef
+      Text::Xslate::PP::Opcode 3.003003
+      Text::Xslate::PP::State undef
+      Text::Xslate::PP::Type::Macro undef
+      Text::Xslate::PP::Type::Pair undef
+      Text::Xslate::PP::Type::Raw undef
+      Text::Xslate::Parser undef
+      Text::Xslate::Runner undef
+      Text::Xslate::Symbol undef
+      Text::Xslate::Syntax::Kolon undef
+      Text::Xslate::Syntax::Metakolon undef
+      Text::Xslate::Syntax::TTerse undef
+      Text::Xslate::Type::Raw undef
+      Text::Xslate::Util undef
+    requirements:
+      Data::MessagePack 0.38
+      Devel::PPPort 3.19
+      ExtUtils::MakeMaker 6.59
+      ExtUtils::ParseXS 3.18
+      File::Copy::Recursive 0
+      Mouse 0.61
+      Scalar::Util 1.14
+      Test::More 0.88
+      Test::Requires 0
+      XSLoader 0.02
+      parent 0.221
+      perl 5.008001
   Throwable-0.200012
     pathname: R/RJ/RJBS/Throwable-0.200012.tar.gz
     provides:
