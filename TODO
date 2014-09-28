@@ -5,4 +5,5 @@ requires 'MongoDB',                         '0.705.0.0'; # failed https://travis
 requires 'MooseX::Traits',                  '0.12'; # failed
 requires 'MooseX::App::Cmd',                '0.27'; # failed
 requires 'Test::Ping',                       '0.17'; #failed
+requires 'Text::VimColor',                  '0.24'; # need vim to be installed (shall we carry it with us or shall we just install it on the build machine?)
 requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # failed

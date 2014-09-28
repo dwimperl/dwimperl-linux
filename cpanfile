@@ -277,7 +277,6 @@ requires 'Text::Balanced',                  '2.02';
 requires 'Text::Diff',                      '1.41';
 requires 'Text::FindIndent',                '0.10';
 requires 'Text::Patch',                     '1.8';
-requires 'Text::VimColor',                  '0.24';
 requires 'Text::Xslate',                    '3.3.3';
 requires 'Text::CSV',                       '1.32';
 requires 'Text::CSV_XS',                    '1.11';
