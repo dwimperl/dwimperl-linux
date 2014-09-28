@@ -138,7 +138,7 @@ requires 'Module::Build',                   '0.4210';
 requires 'Module::CoreList',                '5.20140920';
 requires 'Module::Manifest',                '1.08';
 requires 'Module::Starter',                 '1.62';
-requires 'MongoDB',                         '0.705.0.0';
+#requires 'MongoDB',                         '0.705.0.0'; # failed
 requires 'Moo',                             '1.006000';
 requires 'MooX::Options',                   '4.010';
 requires 'MooX::late',                      '0.015';
@@ -148,7 +148,7 @@ requires 'MooseX::Singleton',               '0.29';
 requires 'MooseX::StrictConstructor',       '0.19';
 requires 'MooseX::Params::Validate',        '0.18';
 requires 'MooseX::Role::TraitConstructor',  '0.01';
-requires 'MooseX::Traits',                  '0.12';
+#requires 'MooseX::Traits',                  '0.12'; # failed
 #requires 'MooseX::Object::Pluggable',       '0.0013';
 #requires 'MooseX::Role::Parameterized',     '1.08';
 #requires 'MooseX::GlobRef',                 '0.0701';
@@ -268,7 +268,7 @@ requires 'Test::Pod',                        '1.48';
 requires 'Test::Pod::Coverage',              '1.10';
 requires 'Test::Requires',                   '0.08';
 requires 'Test::LongString',                 '0.16';
-requires 'Test::Ping',                       '0.17';
+#requires 'Test::Ping',                       '0.17'; #failed
 requires 'Test::Harness',                    '3.33';
 requires 'Test::Trap',                       '0.2.4';
 requires 'Test::Warn',                       '0.30';
@@ -303,7 +303,7 @@ requires 'WebService::GData',               '0.06';
 #requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # Moose
 requires 'XML::Atom',                       '0.41';
 requires 'XML::LibXML',                     '2.0116';  # it needs all kinds of parameters to build see build.sh and #2
-requires 'XML::Feed',                       '0.52';
+#requires 'XML::Feed',                       '0.52'; #failed
 requires 'XML::Parser',                     '2.41';
 requires 'XML::RSS',                        '1.55';
 requires 'XML::SAX',                        '0.99';
