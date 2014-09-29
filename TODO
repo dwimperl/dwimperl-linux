@@ -1,14 +1,16 @@
-requires 'AnyEvent::Ping::TCP',             '1.00'; # has lots of CPANTESTERS fail reports
-requires 'Debug::Client',                   '0.29'; # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
-requires 'DigitalOcean',                    '0.12'; # tests fail, pull-requst sent
-requires 'Geo::IP',                         '1.43'; # needs some C compiling
-requires 'Module::Version',                 '0.12'; # error: Failed to upconvert metadata to 1.1. Errors: Missing mandatory field, 'version' (version) [Validation: 1.0]
-requires 'MongoDB',                         '0.705.0.0'; # failed https://travis-ci.org/dwimperl/dwimperl-linux/builds/36477668  (https://jira.mongodb.org/browse/PERL-437)
-requires 'MooseX::App::Cmd',                '0.27'; # failed
-requires 'MooseX::Traits',                  '0.12'; # failed
-requires 'PAR::Packer',                     '1.022'; # failed
-requires 'PerlIO::gzip',                    '0.18'; # failed, reported to author
-requires 'Test::Ping',                      '0.17'; #failed
-requires 'Text::VimColor',                  '0.24'; # need vim to be installed (shall we carry it with us or shall we just install it on the build machine?)
-requires 'TryCatch',                        '1.003002';  # failed
-requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # failed
+requires 'AnyEvent::Ping::TCP',                            '1.00'; # has lots of CPANTESTERS fail reports
+requires 'Dancer::Plugin::CRUD',                           '1.03'; # tons of warnings, report sent to author
+requires 'Dancer::Plugin::REST',                           '0.11'; # complains about You can't use prepare_serializer_for_format, this is a keyword reserved by Dancer::Plugin::CRUD report sent
+requires 'Debug::Client',                                  '0.29'; # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
+requires 'DigitalOcean',                                   '0.12'; # tests fail, pull-requst sent
+requires 'Geo::IP',                                        '1.43'; # needs some C compiling
+requires 'Module::Version',                                '0.12'; # error: Failed to upconvert metadata to 1.1. Errors: Missing mandatory field, 'version' (version) [Validation: 1.0]
+requires 'MongoDB',                                        '0.705.0.0'; # failed https://travis-ci.org/dwimperl/dwimperl-linux/builds/36477668  (https://jira.mongodb.org/browse/PERL-437)
+requires 'MooseX::App::Cmd',                               '0.27'; # failed
+requires 'MooseX::Traits',                                 '0.12'; # failed
+requires 'PAR::Packer',                                    '1.022'; # failed
+requires 'PerlIO::gzip',                                   '0.18'; # failed, reported to author
+requires 'Test::Ping',                                     '0.17'; #failed
+requires 'Text::VimColor',                                 '0.24'; # need vim to be installed (shall we carry it with us or shall we just install it on the build machine?)
+requires 'TryCatch',                                       '1.003002';  # failed
+requires 'WWW::Mechanize::TreeBuilder',                    '1.10003'; # failed
