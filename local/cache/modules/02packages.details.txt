@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   5858
-Last-Updated: Mon Sep 29 09:18:29 2014
+Line-Count:   5863
+Last-Updated: Mon Sep 29 09:59:45 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1151,6 +1151,7 @@ DateTime::Format::Fall                undef  D/DR/DROLSKY/DateTime-Format-Builde
 DateTime::Format::HTTP                 0.42  C/CK/CKRAS/DateTime-Format-HTTP-0.42.tar.gz
 DateTime::Format::ISO8601              0.08  J/JH/JHOBLITT/DateTime-Format-ISO8601-0.08.tar.gz
 DateTime::Format::Mail                0.401  B/BO/BOOK/DateTime-Format-Mail-0.401.tar.gz
+DateTime::Format::SQLite               0.11  C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz
 DateTime::Format::Simple              undef  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
 DateTime::Format::Strptime             1.56  D/DR/DROLSKY/DateTime-Format-Strptime-1.56.tar.gz
 DateTime::Format::W3CDTF               0.06  G/GW/GWILLIAMS/DateTime-Format-W3CDTF-0.06.tar.gz
@@ -5235,6 +5236,10 @@ Test::Reporter::Transport::File        1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.ta
 Test::Reporter::Transport::Metabase   1.999008  D/DA/DAGOLDEN/Test-Reporter-Transport-Metabase-1.999008.tar.gz
 Test::Reporter::Transport::Null        1.60  D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
 Test::Requires                         0.08  T/TO/TOKUHIROM/Test-Requires-0.08.tar.gz
+Test::Roo                             1.004  D/DA/DAGOLDEN/Test-Roo-1.004.tar.gz
+Test::Roo::Class                      1.004  D/DA/DAGOLDEN/Test-Roo-1.004.tar.gz
+Test::Roo::Cookbook                   1.004  D/DA/DAGOLDEN/Test-Roo-1.004.tar.gz
+Test::Roo::Role                       1.004  D/DA/DAGOLDEN/Test-Roo-1.004.tar.gz
 Test::Run::CmdLine::WithTestManifest      undef  S/SH/SHLOMIF/XML-RSS-1.55.tar.gz
 Test::SQL::Translator                  1.59  I/IL/ILMARI/SQL-Translator-0.11020.tar.gz
 Test::Script                           1.07  A/AD/ADAMK/Test-Script-1.07.tar.gz

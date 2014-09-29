@@ -2883,6 +2883,14 @@ DISTRIBUTIONS
       Params::Validate 0
       strict 0
       vars 0
+  DateTime-Format-SQLite-0.11
+    pathname: C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz
+    provides:
+      DateTime::Format::SQLite 0.11
+    requirements:
+      DateTime 0.1
+      DateTime::Format::Builder 0.6
+      ExtUtils::MakeMaker 0
   DateTime-Format-Strptime-1.56
     pathname: D/DR/DROLSKY/DateTime-Format-Strptime-1.56.tar.gz
     provides:
@@ -11612,6 +11620,20 @@ DISTRIBUTIONS
       Test::Builder::Module 0
       Test::More 0.61
       perl 5.008_001
+  Test-Roo-1.004
+    pathname: D/DA/DAGOLDEN/Test-Roo-1.004.tar.gz
+    provides:
+      Test::Roo 1.004
+      Test::Roo::Class 1.004
+      Test::Roo::Cookbook 1.004
+      Test::Roo::Role 1.004
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      Moo 1.000008
+      MooX::Types::MooseLike::Base 0
+      Sub::Install 0
+      Test::More 0.96
+      strictures 0
   Test-Script-1.07
     pathname: A/AD/ADAMK/Test-Script-1.07.tar.gz
     provides:
