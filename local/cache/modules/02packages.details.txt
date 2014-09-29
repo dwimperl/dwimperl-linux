@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   6269
-Last-Updated: Mon Sep 29 18:00:29 2014
+Line-Count:   6284
+Last-Updated: Mon Sep 29 18:28:07 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -2622,7 +2622,7 @@ Getopt::Usaginator                   0.0012  R/RO/ROKR/Getopt-Usaginator-0.0012.
 Gravatar::URL                          1.06  M/MS/MSCHWERN/Gravatar-URL-1.06.tar.gz
 Guard                                 1.022  M/ML/MLEHMANN/Guard-1.022.tar.gz
 HTML::AsSubs                           5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
-HTML::Element                          5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
+HTML::Element                          0.14  M/MI/MIROD/HTML-TreeBuilder-XPath-0.14.tar.gz
 HTML::Element::traverse                5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
 HTML::Entities                         3.69  G/GA/GAAS/HTML-Parser-3.71.tar.gz
 HTML::Escape                           1.09  T/TO/TOKUHIROM/HTML-Escape-1.09.tar.gz
@@ -2663,6 +2663,11 @@ HTML::Tiny                             1.05  A/AN/ANDYA/HTML-Tiny-1.05.tar.gz
 HTML::TokeParser                       3.69  G/GA/GAAS/HTML-Parser-3.71.tar.gz
 HTML::Tree                             5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
 HTML::TreeBuilder                      5.03  C/CJ/CJM/HTML-Tree-5.03.tar.gz
+HTML::TreeBuilder::XPath               0.14  M/MI/MIROD/HTML-TreeBuilder-XPath-0.14.tar.gz
+HTML::TreeBuilder::XPath::Attribute       0.14  M/MI/MIROD/HTML-TreeBuilder-XPath-0.14.tar.gz
+HTML::TreeBuilder::XPath::Node         0.14  M/MI/MIROD/HTML-TreeBuilder-XPath-0.14.tar.gz
+HTML::TreeBuilder::XPath::Root         0.14  M/MI/MIROD/HTML-TreeBuilder-XPath-0.14.tar.gz
+HTML::TreeBuilder::XPath::TextNode       0.14  M/MI/MIROD/HTML-TreeBuilder-XPath-0.14.tar.gz
 HTTP::Body                             1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
 HTTP::Body::MultiPart                  1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
 HTTP::Body::OctetStream                1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
@@ -6205,7 +6210,17 @@ XML::XPath::Root                      undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.g
 XML::XPath::Step                      undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
 XML::XPath::Variable                  undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
 XML::XPath::XMLParser                 undef  M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
-XML::XPathEngine::NodeSet              0.02  M/MI/MIROD/XML-Twig-3.48.tar.gz
+XML::XPathEngine                       0.14  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::Boolean             undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::Expr                undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::Function            undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::Literal             undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::LocationPath        undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::NodeSet             undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::Number              undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::Root                undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::Step                undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+XML::XPathEngine::Variable            undef  M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
 YAML                                   1.12  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Any                              1.12  I/IN/INGY/YAML-1.12.tar.gz
 YAML::Dumper                          undef  I/IN/INGY/YAML-1.12.tar.gz

@@ -5609,6 +5609,20 @@ DISTRIBUTIONS
       base 0
       integer 0
       perl 5.008
+  HTML-TreeBuilder-XPath-0.14
+    pathname: M/MI/MIROD/HTML-TreeBuilder-XPath-0.14.tar.gz
+    provides:
+      HTML::Element 0.14
+      HTML::TreeBuilder::XPath 0.14
+      HTML::TreeBuilder::XPath::Attribute 0.14
+      HTML::TreeBuilder::XPath::Node 0.14
+      HTML::TreeBuilder::XPath::Root 0.14
+      HTML::TreeBuilder::XPath::TextNode 0.14
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTML::TreeBuilder 0
+      List::Util 0
+      XML::XPathEngine 0.12
   HTTP-Body-1.19
     pathname: G/GE/GETTY/HTTP-Body-1.19.tar.gz
     provides:
@@ -13804,6 +13818,23 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       XML::Parser 2.23
+  XML-XPathEngine-0.14
+    pathname: M/MI/MIROD/XML-XPathEngine-0.14.tar.gz
+    provides:
+      XML::XPathEngine 0.14
+      XML::XPathEngine::Boolean undef
+      XML::XPathEngine::Expr undef
+      XML::XPathEngine::Function undef
+      XML::XPathEngine::Literal undef
+      XML::XPathEngine::LocationPath undef
+      XML::XPathEngine::NodeSet undef
+      XML::XPathEngine::Number undef
+      XML::XPathEngine::Root undef
+      XML::XPathEngine::Step undef
+      XML::XPathEngine::Variable undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   YAML-1.12
     pathname: I/IN/INGY/YAML-1.12.tar.gz
     provides:
