@@ -555,6 +555,34 @@ DISTRIBUTIONS
       Test::More 0.88
       Time::Local 0
       perl 5.006
+  Async-Queue-0.021
+    pathname: T/TO/TOSHIOITO/Async-Queue-0.021.tar.gz
+    provides:
+      Async::Queue 0.021
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      FindBin 0
+      Scalar::Util 0
+      Test::Builder 0
+      Test::Exception 0
+      Test::More 0
+  Async-Selector-1.03
+    pathname: T/TO/TOSHIOITO/Async-Selector-1.03.tar.gz
+    provides:
+      Async::Selector 1.03
+      Async::Selector::Aggregator 1.02
+      Async::Selector::Watcher 1.03
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      FindBin 0
+      List::Util 0
+      Scalar::Util 0
+      Test::Exception 0
+      Test::Memory::Cycle 0
+      Test::More 0
+      Test::Warn 0
   B-Debug-1.21
     pathname: R/RU/RURBAN/B-Debug-1.21.tar.gz
     provides:
@@ -607,6 +635,90 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Net::SSLeay 1.14
       Test::More 0
+  BusyBird-0.09
+    pathname: T/TO/TOSHIOITO/BusyBird-0.09.tar.gz
+    provides:
+      BusyBird 0.09
+      BusyBird::Filter undef
+      BusyBird::Filter::Twitter undef
+      BusyBird::Flow undef
+      BusyBird::Input::Generator undef
+      BusyBird::Log undef
+      BusyBird::Main undef
+      BusyBird::Main::PSGI undef
+      BusyBird::Main::PSGI::View undef
+      BusyBird::Runner undef
+      BusyBird::SafeData undef
+      BusyBird::StatusStorage undef
+      BusyBird::StatusStorage::Common undef
+      BusyBird::StatusStorage::Memory undef
+      BusyBird::StatusStorage::SQLite undef
+      BusyBird::Test::StatusStorage undef
+      BusyBird::Timeline undef
+      BusyBird::Util undef
+      BusyBird::Watcher undef
+      BusyBird::Watcher::Aggregator undef
+    requirements:
+      Async::Queue 0.02
+      Async::Selector 1.03
+      Async::Selector::Aggregator 1.02
+      BusyBird::DateTime::Format 0.04
+      CPS 0.15
+      Cache::Memory::Simple 1.01
+      Carp 0
+      DBD::SQLite 0
+      DBI 0
+      Data::Diver 0
+      Data::UUID 0
+      DateTime 0.70
+      DateTime::Duration 0
+      DateTime::Format::Strptime 0
+      DateTime::TimeZone 1.42
+      Encode 0
+      Exporter 0
+      File::Copy 0
+      File::HomeDir 0
+      File::ShareDir 1.00
+      File::Spec 0
+      Future::Q 0.040
+      JSON 0
+      JavaScript::Value::Escape 0
+      List::Util 1.24
+      Module::Build 0.42
+      Module::Build::Prereqs::FromCPANfile 0.02
+      POSIX 0
+      Plack 0
+      Plack::Builder 0
+      Plack::Request 0
+      Plack::Runner 0
+      Pod::Usage 0
+      Router::Simple 0
+      SQL::Maker 1.19
+      SQL::QueryMaker 0.03
+      Scalar::Util 1.24
+      Storable 2.27
+      Test::Builder 0
+      Test::Exception 0
+      Test::More 0.98
+      Text::Xslate 1.60
+      Tie::IxHash 0
+      Time::HiRes 1.9720
+      Try::Tiny 0.10
+      Twiggy 0
+      URI::Escape 0
+      autovivification 0.10
+      parent 0
+      perl v5.10.0
+      sort 0
+  BusyBird-DateTime-Format-0.05
+    pathname: T/TO/TOSHIOITO/BusyBird-DateTime-Format-0.05.tar.gz
+    provides:
+      BusyBird::DateTime::Format 0.05
+    requirements:
+      DateTime::Format::Strptime 0
+      Module::Build 0.42
+      Module::Build::Prereqs::FromCPANfile 0.02
+      Try::Tiny 0
   CGI-4.04
     pathname: L/LE/LEEJO/CGI-4.04.tar.gz
     provides:
@@ -910,6 +1022,21 @@ DISTRIBUTIONS
       Term::ReadKey 0
       strict 0
       warnings 0
+  CPS-0.18
+    pathname: P/PE/PEVANS/CPS-0.18.tar.gz
+    provides:
+      CPS 0.18
+      CPS::Functional 0.18
+      CPS::Future 0.18
+      CPS::Governor 0.18
+      CPS::Governor::Deferred 0.18
+      CPS::Governor::Simple 0.18
+    requirements:
+      Future 0
+      Test::Fatal 0
+      Test::Identity 0
+      Test::More 0
+      Test::Refcount 0
   CSS-Minifier-XS-0.09
     pathname: G/GT/GTERMARS/CSS-Minifier-XS-0.09.tar.gz
     provides:
@@ -924,6 +1051,19 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  Cache-Memory-Simple-1.03
+    pathname: T/TO/TOKUHIROM/Cache-Memory-Simple-1.03.tar.gz
+    provides:
+      Cache::Memory::Simple 1.03
+      Cache::Memory::Simple::Scalar undef
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      ExtUtils::CBuilder 0
+      Module::Build 0.38
+      Time::HiRes 0
+      parent 0
+      perl 5.008001
   Captcha-reCAPTCHA-0.97
     pathname: P/PH/PHRED/Captcha-reCAPTCHA-0.97.tar.gz
     provides:
@@ -2667,6 +2807,12 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       File::Find::Rule 0.1
       Scalar::Util 0
+  Data-Diver-1.0101
+    pathname: T/TY/TYEMQ/Data-Diver-1.0101.tgz
+    provides:
+      Data::Diver 1.0101
+    requirements:
+      ExtUtils::MakeMaker 0
   Data-Dump-1.22
     pathname: G/GA/GAAS/Data-Dump-1.22.tar.gz
     provides:
@@ -5218,6 +5364,35 @@ DISTRIBUTIONS
       Test::More 0
       URI 1.18
       XML::Parser::Lite::Tree 0.06
+  Future-0.29
+    pathname: P/PE/PEVANS/Future-0.29.tar.gz
+    provides:
+      Future 0.29
+      Future::Utils 0.29
+      Test::Future 0.29
+    requirements:
+      Carp 1.25
+      Test::Builder::Module 0
+      Test::Fatal 0
+      Test::Identity 0
+      Test::More 0.88
+      Test::Refcount 0
+      Time::HiRes 0
+      perl 5.008
+  Future-Q-0.090
+    pathname: T/TO/TOSHIOITO/Future-Q-0.090.tar.gz
+    provides:
+      Future::Q 0.090
+    requirements:
+      Carp 0
+      Devel::GlobalDestruction 0
+      Future 0.22
+      Module::Build::Pluggable 0.09
+      Module::Build::Pluggable::CPANfile 0.05
+      Scalar::Util 0
+      Try::Tiny 0
+      parent 0
+      perl 5.006
   Galileo-0.036
     pathname: J/JB/JBERGER/Galileo-0.036.tar.gz
     provides:
@@ -5817,6 +5992,14 @@ DISTRIBUTIONS
       ExtUtils::CBuilder 0
       Test::More 0
       perl v5.8.8
+  JavaScript-Value-Escape-0.06
+    pathname: K/KA/KAZEBURO/JavaScript-Value-Escape-0.06.tar.gz
+    provides:
+      JavaScript::Value::Escape 0.06
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Test::More 0
+      perl 5.008001
   LWP-MediaTypes-6.02
     pathname: G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
     provides:
@@ -6641,6 +6824,21 @@ DISTRIBUTIONS
       Test::SharedFork 0
       parent 0
       perl 5.008001
+  Module-Build-Pluggable-CPANfile-0.05
+    pathname: K/KA/KAZEBURO/Module-Build-Pluggable-CPANfile-0.05.tar.gz
+    provides:
+      Module::Build::Pluggable::CPANfile 0.05
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      ExtUtils::CBuilder 0
+      List::Util 1.14
+      Module::Build 0.38
+      Module::Build::Pluggable 0.05
+      Module::CPANfile 0.9010
+      parent 0
+      perl 5.008005
+      version 0.99
   Module-Build-Pluggable-PPPort-0.04
     pathname: T/TO/TOKUHIROM/Module-Build-Pluggable-PPPort-0.04.tar.gz
     provides:
@@ -6654,6 +6852,15 @@ DISTRIBUTIONS
       Test::Requires 0
       parent 0
       perl 5.008001
+  Module-Build-Prereqs-FromCPANfile-0.02
+    pathname: T/TO/TOSHIOITO/Module-Build-Prereqs-FromCPANfile-0.02.tar.gz
+    provides:
+      Module::Build::Prereqs::FromCPANfile 0.02
+    requirements:
+      CPAN::Meta::Prereqs 2.132830
+      Exporter 0
+      Module::CPANfile 1.0000
+      version 0.80
   Module-Build-Tiny-0.038
     pathname: L/LE/LEONT/Module-Build-Tiny-0.038.tar.gz
     provides:
@@ -10624,6 +10831,23 @@ DISTRIBUTIONS
       Role::Tiny 1.003003
       Role::Tiny::With 1.003003
     requirements:
+  Router-Simple-0.15
+    pathname: T/TO/TOKUHIROM/Router-Simple-0.15.tar.gz
+    provides:
+      Router::Simple 0.15
+      Router::Simple::Declare undef
+      Router::Simple::Route undef
+      Router::Simple::SubMapper undef
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Class::Accessor::Lite 0.05
+      ExtUtils::CBuilder 0
+      List::Util 0
+      Module::Build 0.38
+      Scalar::Util 0
+      parent 0
+      perl 5.008_001
   SNMP-5.0404
     pathname: H/HA/HARDAKER/SNMP-5.0404.tar.gz
     provides:
@@ -10778,6 +11002,39 @@ DISTRIBUTIONS
       Test::More 0.88
       Test::Warn 0
       perl 5.006
+  SQL-Maker-1.20
+    pathname: T/TO/TOKUHIROM/SQL-Maker-1.20.tar.gz
+    provides:
+      SQL::Maker 1.20
+      SQL::Maker::Condition undef
+      SQL::Maker::Plugin::InsertMulti undef
+      SQL::Maker::Plugin::InsertOnDuplicate undef
+      SQL::Maker::SQLType undef
+      SQL::Maker::Select undef
+      SQL::Maker::Select::Oracle undef
+      SQL::Maker::SelectSet undef
+      SQL::Maker::Util undef
+    requirements:
+      Class::Accessor::Lite 0.05
+      DBI 0
+      Module::Build::Tiny 0.035
+      Module::Load 0
+      SQL::QueryMaker 0
+      Scalar::Util 0
+      parent 0
+      perl 5.008001
+  SQL-QueryMaker-0.03
+    pathname: K/KA/KAZUHO/SQL-QueryMaker-0.03.tar.gz
+    provides:
+      SQL::QueryMaker 0.03
+    requirements:
+      DateTime 0
+      ExtUtils::MakeMaker 6.42
+      Scalar::Util 0
+      Test::More 0.98
+      Test::Requires 0
+      Tie::IxHash 0
+      perl 5.008001
   SQL-Translator-0.11020
     pathname: I/IL/ILMARI/SQL-Translator-0.11020.tar.gz
     provides:
@@ -11833,6 +12090,14 @@ DISTRIBUTIONS
       Test::Harness 3.33
     requirements:
       ExtUtils::MakeMaker 0
+  Test-Identity-0.01
+    pathname: P/PE/PEVANS/Test-Identity-0.01.tar.gz
+    provides:
+      Test::Identity 0.01
+    requirements:
+      Scalar::Util 0
+      Test::Builder::Tester 0
+      Test::More 0
   Test-LeakTrace-0.14
     pathname: G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
     provides:
@@ -12030,6 +12295,16 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Test-Refcount-0.08
+    pathname: P/PE/PEVANS/Test-Refcount-0.08.tar.gz
+    provides:
+      Test::Refcount 0.08
+    requirements:
+      B 0
+      Scalar::Util 0
+      Test::Builder 0
+      Test::Builder::Tester 0
+      Test::More 0
   Test-Reporter-1.60
     pathname: D/DA/DAGOLDEN/Test-Reporter-1.60.tar.gz
     provides:
@@ -12715,6 +12990,21 @@ DISTRIBUTIONS
       XSLoader 0
       namespace::clean 0.20
       perl 5.008001
+  Twiggy-0.1024
+    pathname: M/MI/MIYAGAWA/Twiggy-0.1024.tar.gz
+    provides:
+      AnyEvent::Server::PSGI undef
+      Plack::Handler::Twiggy undef
+      Twiggy 0.1024
+      Twiggy::Server undef
+      Twiggy::Server::SS undef
+      Twiggy::Writer undef
+    requirements:
+      AnyEvent 0
+      ExtUtils::MakeMaker 6.30
+      HTTP::Status 0
+      Plack 0.99
+      Try::Tiny 0
   Type-Tiny-1.000004
     pathname: T/TO/TOBYINK/Type-Tiny-1.000004.tar.gz
     provides:
@@ -13641,6 +13931,17 @@ DISTRIBUTIONS
       overload 0
       strict 0
       warnings 0
+  autovivification-0.12
+    pathname: V/VP/VPIT/autovivification-0.12.tar.gz
+    provides:
+      autovivification 0.12
+    requirements:
+      Config 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      XSLoader 0
+      perl 5.008003
   bareword-filehandles-0.003
     pathname: I/IL/ILMARI/bareword-filehandles-0.003.tar.gz
     provides:
