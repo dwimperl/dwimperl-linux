@@ -292,6 +292,7 @@ requires 'Pod::Usage',                                     '1.64';
 requires 'Probe::Perl',                                    '0.03';
 requires 'Regexp::Common',                                 '2013031301';
 requires 'Regexp::Common::time',                           '0.07';
+requires 'Rex',                                            '0.53.1';
 requires 'SQL::Translator',                                '0.11020';
 requires 'SVG',                                            '2.59';
 requires 'Scope::Upper',                                   '0.25';
