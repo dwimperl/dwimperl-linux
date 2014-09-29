@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   6557
-Last-Updated: Mon Sep 29 19:59:37 2014
+Line-Count:   6613
+Last-Updated: Mon Sep 29 21:38:05 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -2560,6 +2560,7 @@ Exception::Assertion                 0.0504  D/DE/DEXTER/Test-Assert-0.0504.tar.
 Exception::Base                        0.25  D/DE/DEXTER/Exception-Base-0.25.tar.gz
 Exception::Class                       1.38  D/DR/DROLSKY/Exception-Class-1.38.tar.gz
 Exception::Class::Base                 1.38  D/DR/DROLSKY/Exception-Class-1.38.tar.gz
+Expect                                 1.31  S/SZ/SZABGAB/Expect-1.31.tar.gz
 Exporter::Declare                     0.113  E/EX/EXODIST/Exporter-Declare-0.113.tar.gz
 Exporter::Declare::Export             undef  E/EX/EXODIST/Exporter-Declare-0.113.tar.gz
 Exporter::Declare::Export::Alias      undef  E/EX/EXODIST/Exporter-Declare-0.113.tar.gz
@@ -2640,6 +2641,7 @@ File::Which                            1.09  A/AD/ADAMK/File-Which-1.09.tar.gz
 File::Zglob                            0.11  T/TO/TOKUHIROM/File-Zglob-0.11.tar.gz
 File::pushd                           1.009  D/DA/DAGOLDEN/File-pushd-1.009.tar.gz
 FileSlurp_12                        9999.13  U/UR/URI/File-Slurp-9999.19.tar.gz
+Filesys::DiskUsage                     0.07  S/SZ/SZABGAB/Filesys-DiskUsage-0.07.tar.gz
 Filesys::Notify::Simple                0.12  M/MI/MIYAGAWA/Filesys-Notify-Simple-0.12.tar.gz
 Flickr::API                            1.10  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
 Flickr::API::Request                   0.03  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
@@ -2961,6 +2963,7 @@ IO::InnerFile                         2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::Interactive                    0.000006  B/BD/BDFOY/IO-Interactive-0.0.6.tar.gz
 IO::Lines                             2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::Prompt::Tiny                      0.002  D/DA/DAGOLDEN/IO-Prompt-Tiny-0.002.tar.gz
+IO::Pty                                1.12  T/TO/TODDR/IO-Tty-1.12.tar.gz
 IO::Scalar                            2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::ScalarArray                       2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::Socket::INET6                      2.72  S/SH/SHLOMIF/IO-Socket-INET6-2.72.tar.gz
@@ -2979,6 +2982,8 @@ IO::Stringy                           2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::TieCombine                        1.004  R/RJ/RJBS/IO-TieCombine-1.004.tar.gz
 IO::TieCombine::Handle                1.004  R/RJ/RJBS/IO-TieCombine-1.004.tar.gz
 IO::TieCombine::Scalar                1.004  R/RJ/RJBS/IO-TieCombine-1.004.tar.gz
+IO::Tty                                1.12  T/TO/TODDR/IO-Tty-1.12.tar.gz
+IO::Tty::Constant                     undef  T/TO/TODDR/IO-Tty-1.12.tar.gz
 IO::Uncompress::Adapter::Bunzip2      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::Uncompress::Adapter::Identity      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 IO::Uncompress::Adapter::Inflate      2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
@@ -3243,6 +3248,25 @@ Mail::Mailer::testfile::pipe           2.13  M/MA/MARKOV/MailTools-2.13.tar.gz
 Mail::Send                             2.13  M/MA/MARKOV/MailTools-2.13.tar.gz
 Mail::Util                             2.13  M/MA/MARKOV/MailTools-2.13.tar.gz
 MailTool                              undef  R/RJ/RJBS/MIME-Lite-3.030.tar.gz
+Mango                                  1.14  S/SR/SRI/Mango-1.14.tar.gz
+Mango::BSON                           undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::BSON::Binary                   undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::BSON::Code                     undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::BSON::Document                 undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::BSON::ObjectID                 undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::BSON::Time                     undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::BSON::Timestamp                undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::BSON::_MaxKey                  undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::BSON::_MinKey                  undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::Bulk                           undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::Collection                     undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::Cursor                         undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::Cursor::Query                  undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::Database                       undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::GridFS                         undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::GridFS::Reader                 undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::GridFS::Writer                 undef  S/SR/SRI/Mango-1.14.tar.gz
+Mango::Protocol                       undef  S/SR/SRI/Mango-1.14.tar.gz
 Marpa::R2                          2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
 Marpa::R2::ASF                     2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
 Marpa::R2::Grammar                 2.094000  J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
@@ -3281,6 +3305,16 @@ Method::Generate::Constructor         undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Method::Generate::DemolishAll         undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Method::Inliner                       undef  H/HA/HAARG/Moo-1.006000.tar.gz
 Method::Signatures::Simple             1.07  R/RH/RHESA/Method-Signatures-Simple-1.07.tar.gz
+Minion                                 0.37  S/SR/SRI/Minion-0.37.tar.gz
+Minion::Backend                       undef  S/SR/SRI/Minion-0.37.tar.gz
+Minion::Backend::File                 undef  S/SR/SRI/Minion-0.37.tar.gz
+Minion::Backend::File::_Guard         undef  S/SR/SRI/Minion-0.37.tar.gz
+Minion::Backend::Mango                undef  S/SR/SRI/Minion-0.37.tar.gz
+Minion::Command::minion               undef  S/SR/SRI/Minion-0.37.tar.gz
+Minion::Command::minion::job          undef  S/SR/SRI/Minion-0.37.tar.gz
+Minion::Command::minion::worker       undef  S/SR/SRI/Minion-0.37.tar.gz
+Minion::Job                           undef  S/SR/SRI/Minion-0.37.tar.gz
+Minion::Worker                        undef  S/SR/SRI/Minion-0.37.tar.gz
 Mixin::Linewise                       0.106  R/RJ/RJBS/Mixin-Linewise-0.106.tar.gz
 Mixin::Linewise::Readers              0.106  R/RJ/RJBS/Mixin-Linewise-0.106.tar.gz
 Mixin::Linewise::Writers              0.106  R/RJ/RJBS/Mixin-Linewise-0.106.tar.gz
@@ -3428,6 +3462,7 @@ Mojolicious::Command::generate::makefile      undef  S/SR/SRI/Mojolicious-5.46.t
 Mojolicious::Command::generate::plugin      undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Command::get             undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Command::inflate         undef  S/SR/SRI/Mojolicious-5.46.tar.gz
+Mojolicious::Command::jobcontrol   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
 Mojolicious::Command::prefork         undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Command::psgi            undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Command::routes          undef  S/SR/SRI/Mojolicious-5.46.tar.gz
@@ -3437,6 +3472,7 @@ Mojolicious::Commands                 undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Controller               undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Lite                     undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin                   undef  S/SR/SRI/Mojolicious-5.46.tar.gz
+Mojolicious::Plugin::Authentication       1.26  M/MA/MADCAT/Mojolicious-Plugin-Authentication-1.26.tar.gz
 Mojolicious::Plugin::Charset          undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin::Config           undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin::Config::Sandbox      undef  S/SR/SRI/Mojolicious-5.46.tar.gz
@@ -3447,6 +3483,7 @@ Mojolicious::Plugin::HeaderCondition      undef  S/SR/SRI/Mojolicious-5.46.tar.g
 Mojolicious::Plugin::Humane            0.07  J/JB/JBERGER/Mojolicious-Plugin-Humane-0.07.tar.gz
 Mojolicious::Plugin::JSONConfig       undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin::Memorize          0.01  J/JB/JBERGER/Mojolicious-Plugin-Memorize-0.01.tar.gz
+Mojolicious::Plugin::Minion           undef  S/SR/SRI/Minion-0.37.tar.gz
 Mojolicious::Plugin::Mount            undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin::PODRenderer      undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin::TagHelpers       undef  S/SR/SRI/Mojolicious-5.46.tar.gz
@@ -5143,6 +5180,25 @@ Rex::Inventory::SMBios::Memory     0.053001  J/JF/JFRIED/Rex-0.53.1.tar.gz
 Rex::Inventory::SMBios::MemoryArray   0.053001  J/JF/JFRIED/Rex-0.53.1.tar.gz
 Rex::Inventory::SMBios::Section    0.053001  J/JF/JFRIED/Rex-0.53.1.tar.gz
 Rex::Inventory::SMBios::SystemInformation   0.053001  J/JF/JFRIED/Rex-0.53.1.tar.gz
+Rex::JobControl                    0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Audit             0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Dashboard         0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Formular          0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Help              0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Helper::AuditLog   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Helper::Chdir     0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Helper::Project   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Helper::Project::Formular   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Helper::Project::Job   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Helper::Project::Rexfile   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Job               0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Mojolicious::Plugin::Audit   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Mojolicious::Plugin::MinionJobs   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Mojolicious::Plugin::Project   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Mojolicious::Plugin::User   0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Nodes             0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Project           0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+Rex::JobControl::Rexfile           0.007000  J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
 Rex::Logger                        0.053001  J/JF/JFRIED/Rex-0.53.1.tar.gz
 Rex::Notify                        0.053001  J/JF/JFRIED/Rex-0.53.1.tar.gz
 Rex::Output                        0.053001  J/JF/JFRIED/Rex-0.53.1.tar.gz

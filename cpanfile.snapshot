@@ -5197,6 +5197,20 @@ DISTRIBUTIONS
       Exception::Class 1.38
       Exception::Class::Base 1.38
     requirements:
+  Expect-1.31
+    pathname: S/SZ/SZABGAB/Expect-1.31.tar.gz
+    provides:
+      Expect 1.31
+    requirements:
+      Carp 0
+      Errno 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.64
+      Fcntl 0
+      IO::Handle 0
+      IO::Pty 1.11
+      IO::Tty 1.11
+      POSIX 0
   Exporter-Declare-0.113
     pathname: E/EX/EXODIST/Exporter-Declare-0.113.tar.gz
     provides:
@@ -5551,6 +5565,17 @@ DISTRIBUTIONS
       overload 0
       strict 0
       warnings 0
+  Filesys-DiskUsage-0.07
+    pathname: S/SZ/SZABGAB/Filesys-DiskUsage-0.07.tar.gz
+    provides:
+      Filesys::DiskUsage 0.07
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Find 0
+      File::Temp 0
+      Test::More 0
+      Test::Warn 0
   Filesys-Notify-Simple-0.12
     pathname: M/MI/MIYAGAWA/Filesys-Notify-Simple-0.12.tar.gz
     provides:
@@ -6367,6 +6392,15 @@ DISTRIBUTIONS
       IO::TieCombine::Handle 1.004
       IO::TieCombine::Scalar 1.004
     requirements:
+  IO-Tty-1.12
+    pathname: T/TO/TODDR/IO-Tty-1.12.tar.gz
+    provides:
+      IO::Pty 1.12
+      IO::Tty 1.12
+      IO::Tty::Constant undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   IO-stringy-2.110
     pathname: D/DS/DSKOLL/IO-stringy-2.110.tar.gz
     provides:
@@ -7037,6 +7071,31 @@ DISTRIBUTIONS
       Net::Domain 1.05
       Net::SMTP 1.03
       Test::More 0
+  Mango-1.14
+    pathname: S/SR/SRI/Mango-1.14.tar.gz
+    provides:
+      Mango 1.14
+      Mango::BSON undef
+      Mango::BSON::Binary undef
+      Mango::BSON::Code undef
+      Mango::BSON::Document undef
+      Mango::BSON::ObjectID undef
+      Mango::BSON::Time undef
+      Mango::BSON::Timestamp undef
+      Mango::BSON::_MaxKey undef
+      Mango::BSON::_MinKey undef
+      Mango::Bulk undef
+      Mango::Collection undef
+      Mango::Cursor undef
+      Mango::Cursor::Query undef
+      Mango::Database undef
+      Mango::GridFS undef
+      Mango::GridFS::Reader undef
+      Mango::GridFS::Writer undef
+      Mango::Protocol undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mojolicious 5.40
   Marpa-R2-2.094000
     pathname: J/JK/JKEGL/Marpa-R2-2.094000.tar.gz
     provides:
@@ -7170,6 +7229,24 @@ DISTRIBUTIONS
     requirements:
       Devel::Declare 0.003001
       ExtUtils::MakeMaker 6.30
+  Minion-0.37
+    pathname: S/SR/SRI/Minion-0.37.tar.gz
+    provides:
+      Minion 0.37
+      Minion::Backend undef
+      Minion::Backend::File undef
+      Minion::Backend::File::_Guard undef
+      Minion::Backend::Mango undef
+      Minion::Command::minion undef
+      Minion::Command::minion::job undef
+      Minion::Command::minion::worker undef
+      Minion::Job undef
+      Minion::Worker undef
+      Mojolicious::Plugin::Minion undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mango 1.08
+      Mojolicious 5.33
   Mixin-Linewise-0.106
     pathname: R/RJ/RJBS/Mixin-Linewise-0.106.tar.gz
     provides:
@@ -7658,6 +7735,13 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Pod::Simple 3.09
       Time::Local 1.2
+  Mojolicious-Plugin-Authentication-1.26
+    pathname: M/MA/MADCAT/Mojolicious-Plugin-Authentication-1.26.tar.gz
+    provides:
+      Mojolicious::Plugin::Authentication 1.26
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Mojo::Base 0
   Mojolicious-Plugin-Humane-0.07
     pathname: J/JB/JBERGER/Mojolicious-Plugin-Humane-0.07.tar.gz
     provides:
@@ -11306,6 +11390,56 @@ DISTRIBUTIONS
       vars 0
       warnings 0
       warnings::register 0
+  Rex-JobControl-0.7.0
+    pathname: J/JF/JFRIED/Rex-JobControl-0.7.0.tar.gz
+    provides:
+      Mojolicious::Command::jobcontrol 0.007000
+      Rex::JobControl 0.007000
+      Rex::JobControl::Audit 0.007000
+      Rex::JobControl::Dashboard 0.007000
+      Rex::JobControl::Formular 0.007000
+      Rex::JobControl::Help 0.007000
+      Rex::JobControl::Helper::AuditLog 0.007000
+      Rex::JobControl::Helper::Chdir 0.007000
+      Rex::JobControl::Helper::Project 0.007000
+      Rex::JobControl::Helper::Project::Formular 0.007000
+      Rex::JobControl::Helper::Project::Job 0.007000
+      Rex::JobControl::Helper::Project::Rexfile 0.007000
+      Rex::JobControl::Job 0.007000
+      Rex::JobControl::Mojolicious::Plugin::Audit 0.007000
+      Rex::JobControl::Mojolicious::Plugin::MinionJobs 0.007000
+      Rex::JobControl::Mojolicious::Plugin::Project 0.007000
+      Rex::JobControl::Mojolicious::Plugin::User 0.007000
+      Rex::JobControl::Nodes 0.007000
+      Rex::JobControl::Project 0.007000
+      Rex::JobControl::Rexfile 0.007000
+    requirements:
+      Capture::Tiny 0
+      Cwd 0
+      Data::Dumper 0
+      DateTime 0
+      Digest::Bcrypt 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Path 0
+      File::Spec 0
+      File::Spec::Functions 0
+      FindBin 0
+      Getopt::Long 0
+      Minion 0
+      Mojo::Base 0
+      Mojo::JSON 0
+      Mojo::Log 0
+      Mojolicious 0
+      Mojolicious::Commands 0
+      Mojolicious::Plugin 0
+      Mojolicious::Plugin::Authentication 0
+      Rex 0
+      YAML 0
+      base 0
+      strict 0
+      warnings 0
   Role-HasMessage-0.006
     pathname: R/RJ/RJBS/Role-HasMessage-0.006.tar.gz
     provides:
