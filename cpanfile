@@ -136,7 +136,7 @@ requires 'IO::String',                                     '1.08';
 requires 'IO::Uncompress::Gunzip',                         '2.066';
 requires 'IPC::Run',                                       '0.92';
 requires 'IPC::Run3',                                      '0.048';
-requires 'IPC::System::Simple',                            '1.25'; # fails the taint-mode tests probably due to the %Config mangling
+requires 'IPC::System::Simple',                            '1.25'; # fails the taint-mode tests probably due to the %Config mangling see build.sh
 requires 'JSON',                                           '2.90';
 requires 'JSON::MaybeXS',                                  '1.002002';
 requires 'JSON::XS',                                       '3.01';
@@ -214,7 +214,7 @@ requires 'Net::Config',                                    '1.14';
 requires 'Net::DNS',                                       '0.80';
 requires 'Net::Ping',                                      '2.41';
 requires 'Net::SSLeay',                                    '1.14';
-requires 'Net::Server',                                    '2.008'; # 2.007 failed: https://rt.cpan.org/Public/Bug/Display.html?id=91523 # --notest Net::Server
+requires 'Net::Server',                                    '2.008';
 requires 'Net::Traceroute',                                '1.15';
 requires 'ORLite',                                         '1.98';
 requires 'ORLite::Migrate',                                '1.10';
@@ -338,11 +338,12 @@ requires 'URL::Encode::XS',                                '0.03';
 requires 'Unicode::Collate',                               '1.07';
 requires 'Unicode::Normalize',                             '1.18';
 requires 'Variable::Magic',                                '0.54';
-requires 'WWW::Mechanize',                                 '1.73'; # depends on HTTP::Server::Simple::CGI
+requires 'WWW::Mechanize',                                 '1.73';
 requires 'Web::Feed',                                      '0.03';
 requires 'WebService::GData',                              '0.06';
 requires 'XML::Atom',                                      '0.41';
-requires 'XML::LibXML',                                    '2.0116';  # it needs all kinds of parameters to build see build.sh and #2
+requires 'XML::Feed',                                      '0.52';
+requires 'XML::LibXML',                                    '2.0116'; # it needs all kinds of parameters to build see build.sh and #2
 requires 'XML::NamespaceSupport',                          '1.11';
 requires 'XML::Parser',                                    '2.41';
 requires 'XML::RSS',                                       '1.55';

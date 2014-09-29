@@ -12,4 +12,3 @@ requires 'Test::Ping',                      '0.17'; #failed
 requires 'Text::VimColor',                  '0.24'; # need vim to be installed (shall we carry it with us or shall we just install it on the build machine?)
 requires 'TryCatch',                        '1.003002';  # failed
 requires 'WWW::Mechanize::TreeBuilder',     '1.10003'; # failed
-requires 'XML::Feed',                       '0.52'; #failed

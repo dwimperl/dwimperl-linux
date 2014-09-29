@@ -1,0 +1,75 @@
+This is DWIM Perl for Linux - http://dwimperl.com/
+
+
+After unzipping the .tar.gz file some configuration might be usefule:
+
+Run the following commands:
+
+    source /path/to/dwim.sh
+    reloc_perl
+
+To make the settins persisten, add the following line to the ~/.bashrc file:
+
+    source /path/to/dwim.sh
+
+
+For the list of installed CPAN modules, check the 'cpanfile' that comes with thid distribution.
+
+
+CPAN
+-----
+In order to install further modules you'll have to make sure you have 'make' and 'gcc' installed
+On Ubuntu this means running
+
+   sudo aptitude install make gcc
+
+If you have those installed you can run
+
+   cpanm Module::Name
+
+
+Bug reports and requests for additional modules, visit
+https://github.com/dwimperl/dwimperl-linux/
+
+
+For more information visit http://dwimperl.com/
+
+
+COPYRIGHT
+----------
+Copyright: DWIM Perl is Copyright Gabor Szabo
+perl and the other content included in this distribution are
+copyright their respective authors and copyright holders.
+
+LICENSE
+--------
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl 5 itself.
+Packages included in DWIM Perl have their own license that might
+be different from the 'Perl 5' license.
+
+
+DISCLAIMER OF WARRANTY
+----------------------
+BECAUSE THIS SOFTWARE IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE SOFTWARE, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+PROVIDE THE SOFTWARE "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER
+EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE
+ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH
+YOU. SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL
+NECESSARY SERVICING, REPAIR, OR CORRECTION.
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENCE, BE
+LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL,
+OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE
+THE SOFTWARE (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING
+RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A
+FAILURE OF THE SOFTWARE TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF
+SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+

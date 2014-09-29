@@ -213,7 +213,7 @@ case $1 in
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose IPC::System::Simple
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Class::Singleton
       #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose MongoDB
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose XML::Feed
+      #$PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose XML::Feed
   ;;
 
   modules)
@@ -254,6 +254,8 @@ case $1 in
   zip)
       cd $BUILD_TMP
       cp $SOURCE_HOME/src/reloc_perl $PREFIX_PERL/bin/
+      cp $SOURCE_HOME/cpanfile $ROOT/
+      cp $SOURCE_HOME/src/README $ROOT/
       chmod u+wx $PREFIX_PERL/bin/*
       tar -czf $DWIMPERL_VERSION.tar.gz $DWIMPERL_VERSION
       echo GENERATED_ZIP_FILE=$BUILD_TMP/$DWIMPERL_VERSION.tar.gz

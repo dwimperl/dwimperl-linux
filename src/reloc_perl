@@ -2,17 +2,17 @@
 use strict;
 use warnings;
 use Cwd qw(abs_path);
+use File::Basename qw(dirname);
 
-my $dir = shift or die "Usage: $0 dir   - the directory after perl was moved\n";
+my $dir = dirname abs_path $0;
 
-$dir = abs_path $dir;
-
-my %SKIP = map { $_ => 1 } qw(. .. a2p);
-# TODO better check if the file is a binary file!
+my %SKIP = map { $_ => 1 } qw(. .. a2p extract_vba chartex);
+# extract_vba and chartex are not UTF8
 
 opendir my $dh, $dir or die "Could not open '$dir' $!";
 while (my $entry = readdir $dh) {
 	next if $SKIP{$entry};
+	# TODO heck if the file is a binary file in a better way!
 	next if grep { /ELF/ } qx{file $dir/$entry};
 
 	eval {
