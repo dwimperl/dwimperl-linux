@@ -2090,6 +2090,71 @@ DISTRIBUTIONS
       Test::Fatal 0
       Test::More 0.94
       namespace::clean 0.18
+  DBIx-Class-DeploymentHandler-0.002211
+    pathname: F/FR/FREW/DBIx-Class-DeploymentHandler-0.002211.tar.gz
+    provides:
+      DBIx::Class::DeploymentHandler 0.002211
+      DBIx::Class::DeploymentHandler::Dad 0.002211
+      DBIx::Class::DeploymentHandler::DeployMethod::SQL::Translator 0.002211
+      DBIx::Class::DeploymentHandler::DeployMethod::SQL::Translator::Deprecated 0.002211
+      DBIx::Class::DeploymentHandler::DeployMethod::SQL::Translator::ScriptHelpers 0.002211
+      DBIx::Class::DeploymentHandler::Deprecated 0.002211
+      DBIx::Class::DeploymentHandler::HandlesDeploy 0.002211
+      DBIx::Class::DeploymentHandler::HandlesVersionStorage 0.002211
+      DBIx::Class::DeploymentHandler::HandlesVersioning 0.002211
+      DBIx::Class::DeploymentHandler::LogImporter 0.002211
+      DBIx::Class::DeploymentHandler::LogRouter 0.002211
+      DBIx::Class::DeploymentHandler::Logger 0.002211
+      DBIx::Class::DeploymentHandler::Types 0.002211
+      DBIx::Class::DeploymentHandler::VersionHandler::DatabaseToSchemaVersions 0.002211
+      DBIx::Class::DeploymentHandler::VersionHandler::ExplicitVersions 0.002211
+      DBIx::Class::DeploymentHandler::VersionHandler::Monotonic 0.002211
+      DBIx::Class::DeploymentHandler::VersionStorage::Deprecated 0.002211
+      DBIx::Class::DeploymentHandler::VersionStorage::Deprecated::Component 0.002211
+      DBIx::Class::DeploymentHandler::VersionStorage::Deprecated::VersionResult 0.002211
+      DBIx::Class::DeploymentHandler::VersionStorage::Deprecated::VersionResultSet 0.002211
+      DBIx::Class::DeploymentHandler::VersionStorage::Standard 0.002211
+      DBIx::Class::DeploymentHandler::VersionStorage::Standard::Component 0.002211
+      DBIx::Class::DeploymentHandler::VersionStorage::Standard::VersionResult 0.002211
+      DBIx::Class::DeploymentHandler::VersionStorage::Standard::VersionResultSet 0.002211
+      DBIx::Class::DeploymentHandler::WithApplicatorDumple 0.002211
+      DBIx::Class::DeploymentHandler::WithReasonableDefaults 0.002211
+    requirements:
+      Carp 0
+      Carp::Clan 0
+      Context::Preserve 0.01
+      DBIx::Class 0.08121
+      ExtUtils::MakeMaker 6.30
+      Log::Contextual 0.005005
+      Moo 1.003
+      Moose 1
+      MooseX::Role::Parameterized 0.18
+      Path::Class 0.26
+      SQL::Translator 0.11005
+      Sub::Exporter::Progressive 0
+      Text::Brew 0.02
+      Try::Tiny 0
+      autodie 0
+      namespace::autoclean 0
+      parent 0.225
+  DBIx-Class-EncodedColumn-0.00013
+    pathname: W/WR/WREIS/DBIx-Class-EncodedColumn-0.00013.tar.gz
+    provides:
+      DBIx::Class::EncodedColumn 0.00013
+      DBIx::Class::EncodedColumn::Crypt 0.01
+      DBIx::Class::EncodedColumn::Crypt::Eksblowfish::Bcrypt 0.00001
+      DBIx::Class::EncodedColumn::Crypt::OpenPGP 0.01
+      DBIx::Class::EncodedColumn::Digest 0.00001
+    requirements:
+      DBD::SQLite 0
+      DBIx::Class 0.06002
+      Dir::Self 0
+      Encode 0
+      ExtUtils::MakeMaker 6.36
+      File::Spec 0
+      File::Temp 0
+      Sub::Name 0.04
+      Test::More 0
   DBIx-Class-Helpers-2.023007
     pathname: F/FR/FREW/DBIx-Class-Helpers-2.023007.tar.gz
     provides:
@@ -4121,6 +4186,15 @@ DISTRIBUTIONS
       Object::Tiny::XS 0
       Test::More 0
       perl 5.006
+  Dir-Self-0.11
+    pathname: M/MA/MAUKE/Dir-Self-0.11.tar.gz
+    provides:
+      Dir::Self 0.11
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.48
+      File::Spec 0
+      strict 0
   Dist-CheckConflicts-0.11
     pathname: D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz
     provides:
@@ -5144,6 +5218,39 @@ DISTRIBUTIONS
       Test::More 0
       URI 1.18
       XML::Parser::Lite::Tree 0.06
+  Galileo-0.036
+    pathname: J/JB/JBERGER/Galileo-0.036.tar.gz
+    provides:
+      Galileo 0.036
+      Galileo::Admin undef
+      Galileo::Command::dump undef
+      Galileo::Command::setup undef
+      Galileo::DB::Deploy undef
+      Galileo::DB::Schema 2
+      Galileo::DB::Schema::Result::Menu undef
+      Galileo::DB::Schema::Result::Page undef
+      Galileo::DB::Schema::Result::User undef
+      Galileo::File undef
+      Galileo::Menu undef
+      Galileo::Page undef
+      Galileo::Plugin::Modal undef
+      Galileo::User undef
+    requirements:
+      Crypt::Eksblowfish::Bcrypt 0
+      DBD::SQLite 0
+      DBIx::Class 0
+      DBIx::Class::Candy 0
+      DBIx::Class::DeploymentHandler 0
+      DBIx::Class::EncodedColumn 0
+      File::Copy::Recursive 0
+      File::Next 0
+      File::ShareDir 1.00
+      Module::Build 0.38
+      Mojolicious 4.63
+      Mojolicious::Plugin::Humane 0.07
+      Mojolicious::Plugin::Memorize 0
+      SQL::Translator 0
+      perl v5.10.1
   Getopt-ArgvFile-1.11
     pathname: J/JS/JSTENZEL/Getopt-ArgvFile-1.11.tar.gz
     provides:
@@ -6852,6 +6959,22 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Pod::Simple 3.09
       Time::Local 1.2
+  Mojolicious-Plugin-Humane-0.07
+    pathname: J/JB/JBERGER/Mojolicious-Plugin-Humane-0.07.tar.gz
+    provides:
+      Mojolicious::Plugin::Humane 0.07
+    requirements:
+      File::ShareDir 1.00
+      Module::Build 0.38
+      Mojolicious 4.77
+  Mojolicious-Plugin-Memorize-0.01
+    pathname: J/JB/JBERGER/Mojolicious-Plugin-Memorize-0.01.tar.gz
+    provides:
+      Mojolicious::Plugin::Memorize 0.01
+    requirements:
+      Module::Build 0.38
+      Mojolicious 3.92
+      perl v5.10.1
   MongoDB-v0.705.0.0
     pathname: M/MO/MONGODB/MongoDB-v0.705.0.0.tar.gz
     provides:
@@ -11854,6 +11977,13 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.36
       perl 5.005
+  Text-Brew-0.02
+    pathname: K/KC/KCIVEY/Text-Brew-0.02.tar.gz
+    provides:
+      Text::Brew 0.02
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   Text-CSV-1.32
     pathname: M/MA/MAKAMAKA/Text-CSV-1.32.tar.gz
     provides:
