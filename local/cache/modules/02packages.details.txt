@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   6613
-Last-Updated: Mon Sep 29 21:38:05 2014
+Line-Count:   6709
+Last-Updated: Mon Sep 29 22:15:28 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -313,6 +313,18 @@ Authen::Passphrase::PHPass            0.008  Z/ZE/ZEFRAM/Authen-Passphrase-0.008
 Authen::Passphrase::RejectAll         0.008  Z/ZE/ZEFRAM/Authen-Passphrase-0.008.tar.gz
 Authen::Passphrase::SaltedDigest      0.008  Z/ZE/ZEFRAM/Authen-Passphrase-0.008.tar.gz
 Authen::Passphrase::VMSPurdy          0.008  Z/ZE/ZEFRAM/Authen-Passphrase-0.008.tar.gz
+Authen::SASL                           2.16  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::CRAM_MD5                 2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::EXTERNAL                 2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::Perl                     2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::Perl::ANONYMOUS          2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::Perl::CRAM_MD5           2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::Perl::DIGEST_MD5         2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::Perl::EXTERNAL           2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::Perl::GSSAPI             0.05  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::Perl::LOGIN              2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::Perl::Layer              2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
+Authen::SASL::Perl::PLAIN              2.14  G/GB/GBARR/Authen-SASL-2.16.tar.gz
 B::Debug                               1.21  R/RU/RURBAN/B-Debug-1.21.tar.gz
 B::Hooks::EndOfScope                   0.13  E/ET/ETHER/B-Hooks-EndOfScope-0.13.tar.gz
 B::Hooks::EndOfScope::PP               0.13  E/ET/ETHER/B-Hooks-EndOfScope-0.13.tar.gz
@@ -497,6 +509,9 @@ Catalyst::Authentication::Credential::Remote      undef  B/BO/BOBTFISH/Catalyst-
 Catalyst::Authentication::Realm       undef  B/BO/BOBTFISH/Catalyst-Plugin-Authentication-0.10023.tar.gz
 Catalyst::Authentication::Realm::Compatibility      undef  B/BO/BOBTFISH/Catalyst-Plugin-Authentication-0.10023.tar.gz
 Catalyst::Authentication::Realm::Progressive      undef  B/BO/BOBTFISH/Catalyst-Plugin-Authentication-0.10023.tar.gz
+Catalyst::Authentication::Realm::SimpleDB      undef  I/IL/ILMARI/Catalyst-Authentication-Store-DBIx-Class-0.1506.tar.gz
+Catalyst::Authentication::Store::DBIx::Class     0.1506  I/IL/ILMARI/Catalyst-Authentication-Store-DBIx-Class-0.1506.tar.gz
+Catalyst::Authentication::Store::DBIx::Class::User      undef  I/IL/ILMARI/Catalyst-Authentication-Store-DBIx-Class-0.1506.tar.gz
 Catalyst::Authentication::Store::Minimal      undef  B/BO/BOBTFISH/Catalyst-Plugin-Authentication-0.10023.tar.gz
 Catalyst::Authentication::Store::Null      undef  B/BO/BOBTFISH/Catalyst-Plugin-Authentication-0.10023.tar.gz
 Catalyst::Authentication::Store::Proxy   0.000001  P/PE/PERLER/Catalyst-Authentication-Store-Proxy-0.0.1.tar.gz
@@ -507,8 +522,10 @@ Catalyst::ClassData                   undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.9
 Catalyst::Component                   undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Component::ApplicationAttribute      undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Component::ContextClosure      undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
+Catalyst::Component::InstancePerContext   0.001001  G/GR/GRODITI/Catalyst-Component-InstancePerContext-0.001001.tar.gz
 Catalyst::Controller                  undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Controller::REST             1.16  F/FR/FREW/Catalyst-Action-REST-1.16.tar.gz
+Catalyst::Devel                        1.39  I/IL/ILMARI/Catalyst-Devel-1.39.tar.gz
 Catalyst::DispatchType                undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::DispatchType::Chained       undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::DispatchType::Default       undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
@@ -523,11 +540,18 @@ Catalyst::Exception::Basic            undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.9
 Catalyst::Exception::Detach           undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Exception::Go               undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Exception::Interface        undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
+Catalyst::Helper                       1.39  I/IL/ILMARI/Catalyst-Devel-1.39.tar.gz
+Catalyst::Helper::Model::DBIC::Schema       0.65  G/GB/GBJK/Catalyst-Model-DBIC-Schema-0.65.tar.gz
+Catalyst::Helper::View::Email          0.34  D/DH/DHOSS/Catalyst-View-Email-0.34.tar.gz
+Catalyst::Helper::View::Email::Template       0.34  D/DH/DHOSS/Catalyst-View-Email-0.34.tar.gz
 Catalyst::Helper::View::JSON          undef  M/MI/MIYAGAWA/Catalyst-View-JSON-0.33.tar.gz
+Catalyst::Helper::View::TT            undef  J/JJ/JJNAPIORK/Catalyst-View-TT-0.41.tar.gz
 Catalyst::Helper::View::TT::Alloy      undef  P/PE/PERLER/Catalyst-View-TT-Alloy-0.00003.tar.gz
+Catalyst::Helper::View::TTSite        undef  J/JJ/JJNAPIORK/Catalyst-View-TT-0.41.tar.gz
 Catalyst::Log                         undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Middleware::Stash           undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Model                       undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
+Catalyst::Model::DBIC::Schema          0.65  G/GB/GBJK/Catalyst-Model-DBIC-Schema-0.65.tar.gz
 Catalyst::Plugin::Authentication    0.10023  B/BO/BOBTFISH/Catalyst-Plugin-Authentication-0.10023.tar.gz
 Catalyst::Plugin::Authentication::Credential::Password      undef  B/BO/BOBTFISH/Catalyst-Plugin-Authentication-0.10023.tar.gz
 Catalyst::Plugin::Authentication::Store::Minimal      undef  B/BO/BOBTFISH/Catalyst-Plugin-Authentication-0.10023.tar.gz
@@ -536,7 +560,11 @@ Catalyst::Plugin::Authentication::User::Hash      undef  B/BO/BOBTFISH/Catalyst-
 Catalyst::Plugin::ConfigLoader         0.34  B/BO/BOBTFISH/Catalyst-Plugin-ConfigLoader-0.34.tar.gz
 Catalyst::Plugin::Session              0.39  J/JJ/JJNAPIORK/Catalyst-Plugin-Session-0.39.tar.gz
 Catalyst::Plugin::Session::State      undef  J/JJ/JJNAPIORK/Catalyst-Plugin-Session-0.39.tar.gz
+Catalyst::Plugin::Session::State::Cookie       0.17  M/MS/MSTROUT/Catalyst-Plugin-Session-State-Cookie-0.17.tar.gz
 Catalyst::Plugin::Session::Store      undef  J/JJ/JJNAPIORK/Catalyst-Plugin-Session-0.39.tar.gz
+Catalyst::Plugin::Session::Store::DBIC       0.14  B/BO/BOBTFISH/Catalyst-Plugin-Session-Store-DBIC-0.14.tar.gz
+Catalyst::Plugin::Session::Store::DBIC::Delegate      undef  B/BO/BOBTFISH/Catalyst-Plugin-Session-Store-DBIC-0.14.tar.gz
+Catalyst::Plugin::Session::Store::Delegate       0.06  B/BO/BOBTFISH/Catalyst-Plugin-Session-Store-Delegate-0.06.tar.gz
 Catalyst::Plugin::Session::Store::Dummy      undef  J/JJ/JJNAPIORK/Catalyst-Plugin-Session-0.39.tar.gz
 Catalyst::Plugin::Session::Test::Store        123  J/JJ/JJNAPIORK/Catalyst-Plugin-Session-0.39.tar.gz
 Catalyst::Plugin::Static::Simple       0.32  J/JJ/JJNAPIORK/Catalyst-Plugin-Static-Simple-0.32.tar.gz
@@ -546,6 +574,9 @@ Catalyst::Request::REST                1.16  F/FR/FREW/Catalyst-Action-REST-1.16
 Catalyst::Request::REST::ForBrowsers       1.16  F/FR/FREW/Catalyst-Action-REST-1.16.tar.gz
 Catalyst::Request::Upload             undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Response                    undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
+Catalyst::Restarter                   undef  I/IL/ILMARI/Catalyst-Devel-1.39.tar.gz
+Catalyst::Restarter::Forking          undef  I/IL/ILMARI/Catalyst-Devel-1.39.tar.gz
+Catalyst::Restarter::Win32            undef  I/IL/ILMARI/Catalyst-Devel-1.39.tar.gz
 Catalyst::Runtime                   5.90073  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Script::CGI                 undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Script::Create              undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
@@ -556,12 +587,21 @@ Catalyst::ScriptRole                  undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.9
 Catalyst::ScriptRunner                undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Stats                       undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::Test                        undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
+Catalyst::TraitFor::Model::DBIC::Schema::Caching      undef  G/GB/GBJK/Catalyst-Model-DBIC-Schema-0.65.tar.gz
+Catalyst::TraitFor::Model::DBIC::Schema::PerRequestSchema      undef  G/GB/GBJK/Catalyst-Model-DBIC-Schema-0.65.tar.gz
+Catalyst::TraitFor::Model::DBIC::Schema::Replicated      undef  G/GB/GBJK/Catalyst-Model-DBIC-Schema-0.65.tar.gz
+Catalyst::TraitFor::Model::DBIC::Schema::SchemaProxy      undef  G/GB/GBJK/Catalyst-Model-DBIC-Schema-0.65.tar.gz
+Catalyst::TraitFor::Request::BrowserDetect       0.02  F/FL/FLORA/Catalyst-TraitFor-Request-BrowserDetect-0.02.tar.gz
 Catalyst::TraitFor::Request::REST       1.16  F/FR/FREW/Catalyst-Action-REST-1.16.tar.gz
 Catalyst::TraitFor::Request::REST::ForBrowsers       1.16  F/FR/FREW/Catalyst-Action-REST-1.16.tar.gz
 Catalyst::Utils                       undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
 Catalyst::View                        undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90073.tar.gz
+Catalyst::View::Email                  0.34  D/DH/DHOSS/Catalyst-View-Email-0.34.tar.gz
+Catalyst::View::Email::Template        0.34  D/DH/DHOSS/Catalyst-View-Email-0.34.tar.gz
 Catalyst::View::JSON                   0.33  M/MI/MIYAGAWA/Catalyst-View-JSON-0.33.tar.gz
+Catalyst::View::TT                     0.41  J/JJ/JJNAPIORK/Catalyst-View-TT-0.41.tar.gz
 Catalyst::View::TT::Alloy           0.00003  P/PE/PERLER/Catalyst-View-TT-Alloy-0.00003.tar.gz
+CatalystX::Component::Traits           0.19  R/RK/RKITOVER/CatalystX-Component-Traits-0.19.tar.gz
 CatalystX::RoleApplicator             0.005  H/HD/HDP/CatalystX-RoleApplicator-0.005.tar.gz
 Class::Accessor                        0.34  K/KA/KASEI/Class-Accessor-0.34.tar.gz
 Class::Accessor::Chained               0.01  R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
@@ -610,6 +650,7 @@ Class::Mix                            0.005  Z/ZE/ZEFRAM/Class-Mix-0.005.tar.gz
 Class::Singleton                        1.4  A/AB/ABW/Class-Singleton-1.4.tar.gz
 Class::Tiny                           1.000  D/DA/DAGOLDEN/Class-Tiny-1.000.tar.gz
 Class::Tiny::Object                   1.000  D/DA/DAGOLDEN/Class-Tiny-1.000.tar.gz
+Class::Trigger                         0.14  M/MI/MIYAGAWA/Class-Trigger-0.14.tar.gz
 Class::Unload                          0.08  I/IL/ILMARI/Class-Unload-0.08.tar.gz
 Class::XSAccessor                      1.19  S/SM/SMUELLER/Class-XSAccessor-1.19.tar.gz
 Class::XSAccessor::Array               1.19  S/SM/SMUELLER/Class-XSAccessor-1.19.tar.gz
@@ -2601,11 +2642,19 @@ ExtUtils::MakeMaker::CPANfile          0.06  I/IS/ISHIGAKI/ExtUtils-MakeMaker-CP
 ExtUtils::Manifest                     1.68  B/BI/BINGOS/ExtUtils-Manifest-1.68.tar.gz
 ExtUtils::Packlist                     2.04  B/BI/BINGOS/ExtUtils-Install-2.04.tar.gz
 FCGI                                   0.77  E/ET/ETHER/FCGI-0.77.tar.gz
+FCGI::ProcManager                      0.24  B/BO/BOBTFISH/FCGI-ProcManager-0.24.tar.gz
+FCGI::ProcManager::Constrained        undef  B/BO/BOBTFISH/FCGI-ProcManager-0.24.tar.gz
 FCGI::Stream                           0.77  E/ET/ETHER/FCGI-0.77.tar.gz
 Fatal                                  2.25  P/PJ/PJF/autodie-2.25.tar.gz
 Feed::Find                             0.07  B/BT/BTROTT/Feed-Find-0.07.tar.gz
 Fennec::Lite                          0.004  E/EX/EXODIST/Fennec-Lite-0.004.tar.gz
 Fh                                     4.04  L/LE/LEEJO/CGI-4.04.tar.gz
+File::ChangeNotify                     0.24  D/DR/DROLSKY/File-ChangeNotify-0.24.tar.gz
+File::ChangeNotify::Event              0.24  D/DR/DROLSKY/File-ChangeNotify-0.24.tar.gz
+File::ChangeNotify::Watcher            0.24  D/DR/DROLSKY/File-ChangeNotify-0.24.tar.gz
+File::ChangeNotify::Watcher::Default       0.24  D/DR/DROLSKY/File-ChangeNotify-0.24.tar.gz
+File::ChangeNotify::Watcher::Inotify       0.24  D/DR/DROLSKY/File-ChangeNotify-0.24.tar.gz
+File::ChangeNotify::Watcher::KQueue       0.24  D/DR/DROLSKY/File-ChangeNotify-0.24.tar.gz
 File::ConfigDir                       0.013  R/RE/REHSACK/File-ConfigDir-0.013.tar.gz
 File::Copy::Recursive                  0.38  D/DM/DMUEY/File-Copy-Recursive-0.38.tar.gz
 File::Find::Rule                       0.33  R/RC/RCLAMP/File-Find-Rule-0.33.tar.gz
@@ -2631,6 +2680,7 @@ File::Listing::unix                    6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::Listing::vms                     6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::MMagic                           1.30  K/KN/KNOK/File-MMagic-1.30.tar.gz
 File::Next                             1.12  P/PE/PETDANCE/File-Next-1.12.tar.gz
+File::Pid                              1.01  C/CW/CWEST/File-Pid-1.01.tar.gz
 File::Remove                           1.52  A/AD/ADAMK/File-Remove-1.52.tar.gz
 File::ShareDir                        1.102  R/RE/REHSACK/File-ShareDir-1.102.tar.gz
 File::ShareDir::Install                0.09  G/GW/GWYN/File-ShareDir-Install-0.09.tar.gz
@@ -2901,6 +2951,7 @@ HTTP::Body::OctetStream                1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
 HTTP::Body::UrlEncoded                 1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
 HTTP::Body::XForms                     1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
 HTTP::Body::XFormsMultipart            1.19  G/GE/GETTY/HTTP-Body-1.19.tar.gz
+HTTP::BrowserDetect                    1.75  O/OA/OALDERS/HTTP-BrowserDetect-1.75.tar.gz
 HTTP::Config                           6.00  G/GA/GAAS/HTTP-Message-6.06.tar.gz
 HTTP::Cookies                          6.01  G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
 HTTP::Cookies::Microsoft               6.00  G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
@@ -3325,6 +3376,7 @@ Mock::Quick::Object                   undef  E/EX/EXODIST/Mock-Quick-1.108.tar.g
 Mock::Quick::Object::Control          undef  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
 Mock::Quick::Util                     undef  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
 Modern::Perl                     1.20140107  C/CH/CHROMATIC/Modern-Perl-1.20140107.tar.gz
+Module::AutoInstall                    1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
 Module::Build                        0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 Module::Build::Base                  0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 Module::Build::Compat                0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
@@ -3368,6 +3420,40 @@ Module::CoreList::TieHashDelta   5.20140920  B/BI/BINGOS/Module-CoreList-5.20140
 Module::CoreList::Utils          5.20140920  B/BI/BINGOS/Module-CoreList-5.20140920.tar.gz
 Module::Find                           0.12  C/CR/CRENZ/Module-Find-0.12.tar.gz
 Module::Implementation                 0.09  D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
+Module::Install                        1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin                 1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin::Bundle         1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin::Compiler       1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin::Find           1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin::Include        1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin::Makefile       1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin::Manifest       1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin::Metadata       1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin::ScanDeps       1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Admin::WriteAll       1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::AutoInstall           1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Base                  1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Base::FakeAdmin       1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Bundle                1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Can                   1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Catalyst             undef  I/IL/ILMARI/Catalyst-Devel-1.39.tar.gz
+Module::Install::Compiler              1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::DSL                   1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Deprecated            1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::External              1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Fetch                 1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Include               1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Inline                1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::MakeMaker             1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Makefile              1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Metadata              1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::PAR                   1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Run                   1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Scripts               1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Share                 1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::Win32                 1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::With                  1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+Module::Install::WriteAll              1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
 Module::Manifest                       1.08  A/AD/ADAMK/Module-Manifest-1.08.tar.gz
 Module::Metadata                   1.000024  E/ET/ETHER/Module-Metadata-1.000024.tar.gz
 Module::Path                           0.14  N/NE/NEILB/Module-Path-0.14.tar.gz
@@ -3928,6 +4014,8 @@ MooseX::Log::Log4perl                  0.46  L/LA/LAMMEL/MooseX-Log-Log4perl-0.4
 MooseX::Log::Log4perl::Easy            0.46  L/LA/LAMMEL/MooseX-Log-Log4perl-0.46.tar.gz
 MooseX::LogDispatch                  1.2002  J/JG/JGOULAH/MooseX-LogDispatch-1.2002.tar.gz
 MooseX::LogDispatch::Levels           undef  J/JG/JGOULAH/MooseX-LogDispatch-1.2002.tar.gz
+MooseX::MarkAsMethods                  0.15  R/RS/RSRCHBOY/MooseX-MarkAsMethods-0.15.tar.gz
+MooseX::MarkAsMethods::MetaRole::MethodMarker       0.15  R/RS/RSRCHBOY/MooseX-MarkAsMethods-0.15.tar.gz
 MooseX::Meta::TypeConstraint::ForceCoercion       0.01  F/FL/FLORA/MooseX-Meta-TypeConstraint-ForceCoercion-0.01.tar.gz
 MooseX::Method::Signatures             0.48  E/ET/ETHER/MooseX-Method-Signatures-0.48.tar.gz
 MooseX::Method::Signatures::Meta::Method       0.48  E/ET/ETHER/MooseX-Method-Signatures-0.48.tar.gz
@@ -4010,6 +4098,7 @@ MooseX::StrictConstructor::Trait::Class       0.19  D/DR/DROLSKY/MooseX-StrictCo
 MooseX::StrictConstructor::Trait::Method::Constructor       0.19  D/DR/DROLSKY/MooseX-StrictConstructor-0.19.tar.gz
 MooseX::Traits                         0.12  E/ET/ETHER/MooseX-Traits-0.12.tar.gz
 MooseX::Traits::Attribute::FormFuChained       2.01  C/CF/CFRANKS/HTML-FormFu-2.01.tar.gz
+MooseX::Traits::Pluggable              0.12  R/RK/RKITOVER/MooseX-Traits-Pluggable-0.12.tar.gz
 MooseX::Traits::Util                   0.12  E/ET/ETHER/MooseX-Traits-0.12.tar.gz
 MooseX::Types                          0.45  E/ET/ETHER/MooseX-Types-0.45.tar.gz
 MooseX::Types::Base                    0.45  E/ET/ETHER/MooseX-Types-0.45.tar.gz
@@ -4019,6 +4108,7 @@ MooseX::Types::Common              0.001012  E/ET/ETHER/MooseX-Types-Common-0.00
 MooseX::Types::Common::Numeric     0.001012  E/ET/ETHER/MooseX-Types-Common-0.001012.tar.gz
 MooseX::Types::Common::String      0.001012  E/ET/ETHER/MooseX-Types-Common-0.001012.tar.gz
 MooseX::Types::DateTime                0.10  E/ET/ETHER/MooseX-Types-DateTime-0.10.tar.gz
+MooseX::Types::LoadableClass          0.012  E/ET/ETHER/MooseX-Types-LoadableClass-0.012.tar.gz
 MooseX::Types::Moose                   0.45  E/ET/ETHER/MooseX-Types-0.45.tar.gz
 MooseX::Types::Path::Class             0.06  T/TH/THEPLER/MooseX-Types-Path-Class-0.06.tar.gz
 MooseX::Types::Path::Tiny             0.011  E/ET/ETHER/MooseX-Types-Path-Tiny-0.011.tar.gz
@@ -4156,6 +4246,7 @@ Net::DNS::ZoneFile                     1235  N/NL/NLNETLABS/Net-DNS-0.80.tar.gz
 Net::DNS::ZoneFile::Generator          1235  N/NL/NLNETLABS/Net-DNS-0.80.tar.gz
 Net::DNS::ZoneFile::Text               1235  N/NL/NLNETLABS/Net-DNS-0.80.tar.gz
 Net::Domain                            2.23  S/SH/SHAY/libnet-1.27.tar.gz
+Net::Domain::TLD                       1.72  A/AL/ALEXP/Net-Domain-TLD-1.72.tar.gz
 Net::EmptyPort                        undef  T/TO/TOKUHIROM/Test-TCP-2.06.tar.gz
 Net::FTP                               2.79  S/SH/SHAY/libnet-1.27.tar.gz
 Net::FTP::A                            1.19  S/SH/SHAY/libnet-1.27.tar.gz
@@ -5815,6 +5906,7 @@ Template::Stash::Context               1.63  A/AB/ABW/Template-Toolkit-2.26.tar.
 Template::Stash::XS                   undef  A/AB/ABW/Template-Toolkit-2.26.tar.gz
 Template::Test                         2.75  A/AB/ABW/Template-Toolkit-2.26.tar.gz
 Template::TieString                    2.75  A/AB/ABW/Template-Toolkit-2.26.tar.gz
+Template::Timer                        1.00  P/PE/PETDANCE/Template-Timer-1.00.tar.gz
 Template::Tiny                         1.12  A/AD/ADAMK/Template-Tiny-1.12.tar.gz
 Template::VMethods                     2.16  A/AB/ABW/Template-Toolkit-2.26.tar.gz
 Template::View                         2.91  A/AB/ABW/Template-Toolkit-2.26.tar.gz
@@ -6019,6 +6111,8 @@ Test::use::ok                          0.11  A/AU/AUDREYT/Test-use-ok-0.11.tar.g
 Text::Brew                             0.02  K/KC/KCIVEY/Text-Brew-0.02.tar.gz
 Text::CSV                              1.32  M/MA/MAKAMAKA/Text-CSV-1.32.tar.gz
 Text::CSV::ErrorDiag                   1.31  M/MA/MAKAMAKA/Text-CSV-1.32.tar.gz
+Text::CSV::Simple                      1.00  T/TM/TMTM/Text-CSV-Simple-1.00.tar.gz
+Text::CSV::Simple::__::Base            1.00  T/TM/TMTM/Text-CSV-Simple-1.00.tar.gz
 Text::CSV_PP                           1.31  M/MA/MAKAMAKA/Text-CSV-1.32.tar.gz
 Text::CSV_XS                           1.11  H/HM/HMBRAND/Text-CSV_XS-1.11.tgz
 Text::Diff                             1.41  O/OV/OVID/Text-Diff-1.41.tar.gz
@@ -6596,6 +6690,8 @@ declaration                           1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.
 encoding                               2.12  D/DA/DANKOGAI/Encode-2.62.tar.gz
 eta                                   1.001  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
 experimental                          0.010  L/LE/LEONT/experimental-0.010.tar.gz
+inc::Module::Install                   1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
+inc::Module::Install::DSL              1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
 inc::latest                          0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 inc::latest::private                 0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 indirect                               0.32  V/VP/VPIT/indirect-0.32.tar.gz

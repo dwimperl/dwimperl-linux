@@ -644,6 +644,27 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Authen-SASL-2.16
+    pathname: G/GB/GBARR/Authen-SASL-2.16.tar.gz
+    provides:
+      Authen::SASL 2.16
+      Authen::SASL::CRAM_MD5 2.14
+      Authen::SASL::EXTERNAL 2.14
+      Authen::SASL::Perl 2.14
+      Authen::SASL::Perl::ANONYMOUS 2.14
+      Authen::SASL::Perl::CRAM_MD5 2.14
+      Authen::SASL::Perl::DIGEST_MD5 2.14
+      Authen::SASL::Perl::EXTERNAL 2.14
+      Authen::SASL::Perl::GSSAPI 0.05
+      Authen::SASL::Perl::LOGIN 2.14
+      Authen::SASL::Perl::Layer 2.14
+      Authen::SASL::Perl::PLAIN 2.14
+    requirements:
+      Digest::HMAC_MD5 0
+      Digest::MD5 0
+      ExtUtils::MakeMaker 6.42
+      Test::More 0
+      perl 5.005
   B-Debug-1.21
     pathname: R/RU/RURBAN/B-Debug-1.21.tar.gz
     provides:
@@ -1234,6 +1255,24 @@ DISTRIBUTIONS
       HTTP::Request::AsCGI 0
       MRO::Compat 0
       Test::More 0.88
+  Catalyst-Authentication-Store-DBIx-Class-0.1506
+    pathname: I/IL/ILMARI/Catalyst-Authentication-Store-DBIx-Class-0.1506.tar.gz
+    provides:
+      Catalyst::Authentication::Realm::SimpleDB undef
+      Catalyst::Authentication::Store::DBIx::Class 0.1506
+      Catalyst::Authentication::Store::DBIx::Class::User undef
+    requirements:
+      Catalyst::Model::DBIC::Schema 0.18
+      Catalyst::Plugin::Authentication 0.10008
+      Catalyst::Runtime 5.8
+      DBIx::Class 0.08
+      ExtUtils::MakeMaker 6.59
+      List::MoreUtils 0
+      Moose 0
+      Test::More 0
+      Try::Tiny 0
+      namespace::autoclean 0
+      perl 5.008001
   Catalyst-Authentication-Store-Proxy-0.0.1
     pathname: P/PE/PERLER/Catalyst-Authentication-Store-Proxy-0.0.1.tar.gz
     provides:
@@ -1247,6 +1286,82 @@ DISTRIBUTIONS
       Test::More 0.88
       strict 0
       warnings 0
+  Catalyst-Component-InstancePerContext-0.001001
+    pathname: G/GR/GRODITI/Catalyst-Component-InstancePerContext-0.001001.tar.gz
+    provides:
+      Catalyst::Component::InstancePerContext 0.001001
+    requirements:
+      Catalyst 0
+      ExtUtils::MakeMaker 0
+      Moose 0
+      Scalar::Util 0
+      Test::More 0
+  Catalyst-Devel-1.39
+    pathname: I/IL/ILMARI/Catalyst-Devel-1.39.tar.gz
+    provides:
+      Catalyst::Devel 1.39
+      Catalyst::Helper 1.39
+      Catalyst::Restarter undef
+      Catalyst::Restarter::Forking undef
+      Catalyst::Restarter::Win32 undef
+      Module::Install::Catalyst undef
+    requirements:
+      Catalyst 5.90001
+      Catalyst::Action::RenderView 0.10
+      Catalyst::Plugin::ConfigLoader 0.30
+      Catalyst::Plugin::Static::Simple 0.28
+      Config::General 2.42
+      ExtUtils::MakeMaker 6.36
+      File::ChangeNotify 0.07
+      File::Copy::Recursive 0
+      File::ShareDir 0
+      Module::Install 1.02
+      Moose 0
+      MooseX::Daemonize 0
+      MooseX::Emulate::Class::Accessor::Fast 0
+      Path::Class 0.09
+      Starman 0
+      Template 2.14
+      Test::Fatal 0.003
+      Test::More 0.94
+      namespace::autoclean 0
+      namespace::clean 0
+  Catalyst-Model-DBIC-Schema-0.65
+    pathname: G/GB/GBJK/Catalyst-Model-DBIC-Schema-0.65.tar.gz
+    provides:
+      Catalyst::Helper::Model::DBIC::Schema 0.65
+      Catalyst::Model::DBIC::Schema 0.65
+      Catalyst::TraitFor::Model::DBIC::Schema::Caching undef
+      Catalyst::TraitFor::Model::DBIC::Schema::PerRequestSchema undef
+      Catalyst::TraitFor::Model::DBIC::Schema::Replicated undef
+      Catalyst::TraitFor::Model::DBIC::Schema::SchemaProxy undef
+    requirements:
+      Carp::Clan 0
+      Catalyst::Component::InstancePerContext 0
+      Catalyst::Devel 1.0
+      Catalyst::Runtime 5.80005
+      CatalystX::Component::Traits 0.14
+      DBD::SQLite 0
+      DBIx::Class 0.08114
+      DBIx::Class::Schema::Loader 0.04005
+      ExtUtils::MakeMaker 6.59
+      Hash::Merge 0
+      List::MoreUtils 0
+      Module::Runtime 0.012
+      Moose 1.12
+      MooseX::MarkAsMethods 0.13
+      MooseX::NonMoose 0.16
+      MooseX::Types 0
+      MooseX::Types::LoadableClass 0.009
+      Storable 0
+      Test::Exception 0
+      Test::More 0.94
+      Test::Requires 0
+      Tie::IxHash 0
+      Try::Tiny 0
+      namespace::autoclean 0.09
+      namespace::clean 0
+      perl 5.008001
   Catalyst-Plugin-Authentication-0.10023
     pathname: B/BO/BOBTFISH/Catalyst-Plugin-Authentication-0.10023.tar.gz
     provides:
@@ -1319,6 +1434,51 @@ DISTRIBUTIONS
       Tie::RefHash 1.34
       namespace::clean 0.10
       perl 5.008
+  Catalyst-Plugin-Session-State-Cookie-0.17
+    pathname: M/MS/MSTROUT/Catalyst-Plugin-Session-State-Cookie-0.17.tar.gz
+    provides:
+      Catalyst::Plugin::Session::State::Cookie 0.17
+    requirements:
+      Catalyst 5.80005
+      Catalyst::Plugin::Session 0.27
+      ExtUtils::MakeMaker 6.42
+      MRO::Compat 0
+      Moose 0
+      Test::More 0
+      namespace::autoclean 0
+  Catalyst-Plugin-Session-Store-DBIC-0.14
+    pathname: B/BO/BOBTFISH/Catalyst-Plugin-Session-Store-DBIC-0.14.tar.gz
+    provides:
+      Catalyst::Plugin::Session::Store::DBIC 0.14
+      Catalyst::Plugin::Session::Store::DBIC::Delegate undef
+    requirements:
+      Carp 0
+      Catalyst 5.65
+      Catalyst::Exception 0
+      Catalyst::Plugin::Session::Store::Delegate 0.05
+      Class::Accessor::Fast 0
+      DBIx::Class 0.07000
+      ExtUtils::MakeMaker 0
+      FindBin 0
+      MIME::Base64 0
+      MRO::Compat 0
+      Scalar::Util 0
+      Storable 0
+      Test::More 0
+      Test::Warn 0.20
+  Catalyst-Plugin-Session-Store-Delegate-0.06
+    pathname: B/BO/BOBTFISH/Catalyst-Plugin-Session-Store-Delegate-0.06.tar.gz
+    provides:
+      Catalyst::Plugin::Session::Store::Delegate 0.06
+    requirements:
+      Catalyst::Plugin::Session 0.27
+      ExtUtils::MakeMaker 6.42
+      MRO::Compat 0
+      Moose 0
+      MooseX::Emulate::Class::Accessor::Fast 0
+      Test::More 0
+      Test::use::ok 0
+      namespace::clean 0
   Catalyst-Plugin-Static-Simple-0.32
     pathname: J/JJ/JJNAPIORK/Catalyst-Plugin-Static-Simple-0.32.tar.gz
     provides:
@@ -1445,6 +1605,39 @@ DISTRIBUTIONS
       namespace::autoclean 0.09
       namespace::clean 0.23
       perl 5.008003
+  Catalyst-TraitFor-Request-BrowserDetect-0.02
+    pathname: F/FL/FLORA/Catalyst-TraitFor-Request-BrowserDetect-0.02.tar.gz
+    provides:
+      Catalyst::TraitFor::Request::BrowserDetect 0.02
+    requirements:
+      Catalyst 0
+      CatalystX::RoleApplicator 0
+      ExtUtils::MakeMaker 0
+      HTTP::BrowserDetect 0
+      Moose 0
+      Test::More 0.88
+      aliased 0
+      namespace::autoclean 0
+  Catalyst-View-Email-0.34
+    pathname: D/DH/DHOSS/Catalyst-View-Email-0.34.tar.gz
+    provides:
+      Catalyst::Helper::View::Email 0.34
+      Catalyst::Helper::View::Email::Template 0.34
+      Catalyst::View::Email 0.34
+      Catalyst::View::Email::Template 0.34
+    requirements:
+      Authen::SASL 2.13
+      Catalyst 5.7
+      Email::MIME 1.859
+      Email::MIME::Creator 1.455
+      Email::Sender::Simple 0.100110
+      ExtUtils::MakeMaker 6.36
+      MIME::Base64 3.08
+      Module::Runtime 0.014
+      Moose 0.93
+      Test::More 0.88
+      Test::Requires 0
+      parent 0.223
   Catalyst-View-JSON-0.33
     pathname: M/MI/MIYAGAWA/Catalyst-View-JSON-0.33.tar.gz
     provides:
@@ -1457,6 +1650,22 @@ DISTRIBUTIONS
       MRO::Compat 0
       Test::More 0
       YAML 0
+      perl 5.008001
+  Catalyst-View-TT-0.41
+    pathname: J/JJ/JJNAPIORK/Catalyst-View-TT-0.41.tar.gz
+    provides:
+      Catalyst::Helper::View::TT undef
+      Catalyst::Helper::View::TTSite undef
+      Catalyst::View::TT 0.41
+    requirements:
+      Catalyst 5.7
+      Class::Accessor 0
+      ExtUtils::MakeMaker 6.59
+      MRO::Compat 0
+      Path::Class 0
+      Template 0
+      Template::Timer 0
+      Test::More 0
       perl 5.008001
   Catalyst-View-TT-Alloy-0.00003
     pathname: P/PE/PERLER/Catalyst-View-TT-Alloy-0.00003.tar.gz
@@ -1471,6 +1680,20 @@ DISTRIBUTIONS
       Path::Class 0
       Task::Weaken 0
       Template::Alloy 0
+  CatalystX-Component-Traits-0.19
+    pathname: R/RK/RKITOVER/CatalystX-Component-Traits-0.19.tar.gz
+    provides:
+      CatalystX::Component::Traits 0.19
+    requirements:
+      Carp 0
+      Catalyst 0
+      Class::Load 0
+      ExtUtils::MakeMaker 6.30
+      List::MoreUtils 0
+      Moose::Role 0
+      MooseX::Traits::Pluggable 0
+      Scalar::Util 0
+      namespace::autoclean 0
   CatalystX-RoleApplicator-0.005
     pathname: H/HD/HDP/CatalystX-RoleApplicator-0.005.tar.gz
     provides:
@@ -1677,6 +1900,16 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.17
       strict 0
       warnings 0
+  Class-Trigger-0.14
+    pathname: M/MI/MIYAGAWA/Class-Trigger-0.14.tar.gz
+    provides:
+      Class::Trigger 0.14
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      Filter::Util::Call 0
+      IO::Scalar 0
+      IO::WrapTie 0
+      Test::More 0.32
   Class-Unload-0.08
     pathname: I/IL/ILMARI/Class-Unload-0.08.tar.gz
     provides:
@@ -5359,6 +5592,13 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       XSLoader 0
       perl 5.006
+  FCGI-ProcManager-0.24
+    pathname: B/BO/BOBTFISH/FCGI-ProcManager-0.24.tar.gz
+    provides:
+      FCGI::ProcManager 0.24
+      FCGI::ProcManager::Constrained undef
+    requirements:
+      ExtUtils::MakeMaker 0
   Feed-Find-0.07
     pathname: B/BT/BTROTT/Feed-Find-0.07.tar.gz
     provides:
@@ -5381,6 +5621,31 @@ DISTRIBUTIONS
       Test::Builder 0
       Test::More 0
       perl 5.006
+  File-ChangeNotify-0.24
+    pathname: D/DR/DROLSKY/File-ChangeNotify-0.24.tar.gz
+    provides:
+      File::ChangeNotify 0.24
+      File::ChangeNotify::Event 0.24
+      File::ChangeNotify::Watcher 0.24
+      File::ChangeNotify::Watcher::Default 0.24
+      File::ChangeNotify::Watcher::Inotify 0.24
+      File::ChangeNotify::Watcher::KQueue 0.24
+    requirements:
+      Carp 0
+      Class::Load 0
+      File::Find 0
+      File::Spec 0
+      List::MoreUtils 0
+      Module::Build 0.3601
+      Module::Pluggable::Object 0
+      Moose 0
+      Moose::Util::TypeConstraints 0
+      MooseX::Params::Validate 0
+      MooseX::SemiAffordanceAccessor 0
+      Time::HiRes 0
+      namespace::autoclean 0
+      strict 0
+      warnings 0
   File-ConfigDir-0.013
     pathname: R/RE/REHSACK/File-ConfigDir-0.013.tar.gz
     provides:
@@ -5473,6 +5738,13 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       File::Spec 0
       Test::More 0.88
+  File-Pid-1.01
+    pathname: C/CW/CWEST/File-Pid-1.01.tar.gz
+    provides:
+      File::Pid 1.01
+    requirements:
+      Class::Accessor::Fast 0.19
+      ExtUtils::MakeMaker 0
   File-Remove-1.52
     pathname: A/AD/ADAMK/File-Remove-1.52.tar.gz
     provides:
@@ -6113,6 +6385,17 @@ DISTRIBUTIONS
       HTTP::Body::XForms 1.19
       HTTP::Body::XFormsMultipart 1.19
     requirements:
+  HTTP-BrowserDetect-1.75
+    pathname: O/OA/OALDERS/HTTP-BrowserDetect-1.75.tar.gz
+    provides:
+      HTTP::BrowserDetect 1.75
+    requirements:
+      ExtUtils::MakeMaker 0
+      Module::Build 0.28
+      perl 5.006
+      strict 0
+      vars 0
+      warnings 0
   HTTP-Cookies-6.01
     pathname: G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
     provides:
@@ -7504,6 +7787,61 @@ DISTRIBUTIONS
     provides:
       Module::Implementation 0.09
     requirements:
+  Module-Install-1.12
+    pathname: B/BI/BINGOS/Module-Install-1.12.tar.gz
+    provides:
+      Module::AutoInstall 1.12
+      Module::Install 1.12
+      Module::Install::Admin 1.12
+      Module::Install::Admin::Bundle 1.12
+      Module::Install::Admin::Compiler 1.12
+      Module::Install::Admin::Find 1.12
+      Module::Install::Admin::Include 1.12
+      Module::Install::Admin::Makefile 1.12
+      Module::Install::Admin::Manifest 1.12
+      Module::Install::Admin::Metadata 1.12
+      Module::Install::Admin::ScanDeps 1.12
+      Module::Install::Admin::WriteAll 1.12
+      Module::Install::AutoInstall 1.12
+      Module::Install::Base 1.12
+      Module::Install::Base::FakeAdmin 1.12
+      Module::Install::Bundle 1.12
+      Module::Install::Can 1.12
+      Module::Install::Compiler 1.12
+      Module::Install::DSL 1.12
+      Module::Install::Deprecated 1.12
+      Module::Install::External 1.12
+      Module::Install::Fetch 1.12
+      Module::Install::Include 1.12
+      Module::Install::Inline 1.12
+      Module::Install::MakeMaker 1.12
+      Module::Install::Makefile 1.12
+      Module::Install::Metadata 1.12
+      Module::Install::PAR 1.12
+      Module::Install::Run 1.12
+      Module::Install::Scripts 1.12
+      Module::Install::Share 1.12
+      Module::Install::Win32 1.12
+      Module::Install::With 1.12
+      Module::Install::WriteAll 1.12
+      inc::Module::Install 1.12
+      inc::Module::Install::DSL 1.12
+    requirements:
+      Devel::PPPort 3.16
+      ExtUtils::Install 1.52
+      ExtUtils::MakeMaker 6.59
+      ExtUtils::ParseXS 2.19
+      File::Path 0
+      File::Remove 1.42
+      File::Spec 3.28
+      Module::Build 0.29
+      Module::CoreList 2.17
+      Module::ScanDeps 1.09
+      Parse::CPAN::Meta 1.4413
+      Test::Harness 3.13
+      Test::More 0.86
+      YAML::Tiny 1.38
+      perl 5.006
   Module-Manifest-1.08
     pathname: A/AD/ADAMK/Module-Manifest-1.08.tar.gz
     provides:
@@ -8597,6 +8935,26 @@ DISTRIBUTIONS
       Moose 0
       Test::Exception 0
       Test::More 0
+  MooseX-MarkAsMethods-0.15
+    pathname: R/RS/RSRCHBOY/MooseX-MarkAsMethods-0.15.tar.gz
+    provides:
+      MooseX::MarkAsMethods 0.15
+      MooseX::MarkAsMethods::MetaRole::MethodMarker 0.15
+    requirements:
+      B::Hooks::EndOfScope 0
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Temp 0
+      Moose 0.94
+      Moose::Exporter 0
+      Moose::Role 0
+      Moose::Util::MetaRole 0
+      Test::Moose 0
+      Test::More 0.92
+      namespace::autoclean 0.12
+      overload 0
+      strict 0
+      warnings 0
   MooseX-Meta-TypeConstraint-ForceCoercion-0.01
     pathname: F/FL/FLORA/MooseX-Meta-TypeConstraint-ForceCoercion-0.01.tar.gz
     provides:
@@ -8937,6 +9295,19 @@ DISTRIBUTIONS
       strict 0
       warnings 0
       warnings::register 0
+  MooseX-Traits-Pluggable-0.12
+    pathname: R/RK/RKITOVER/MooseX-Traits-Pluggable-0.12.tar.gz
+    provides:
+      MooseX::Traits::Pluggable 0.12
+    requirements:
+      Carp 0
+      Class::Load 0
+      ExtUtils::MakeMaker 6.30
+      List::MoreUtils 0
+      Moose::Role 0
+      Moose::Util 0
+      Scalar::Util 0
+      namespace::autoclean 0
   MooseX-Types-0.45
     pathname: E/ET/ETHER/MooseX-Types-0.45.tar.gz
     provides:
@@ -9000,6 +9371,22 @@ DISTRIBUTIONS
       MooseX::Types::Moose 0.30
       namespace::clean 0.08
       perl 5.008003
+      strict 0
+      warnings 0
+  MooseX-Types-LoadableClass-0.012
+    pathname: E/ET/ETHER/MooseX-Types-LoadableClass-0.012.tar.gz
+    provides:
+      MooseX::Types::LoadableClass 0.012
+    requirements:
+      Class::Load 0
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.030
+      Module::Runtime 0
+      Moose::Util::TypeConstraints 0
+      MooseX::Types 0
+      MooseX::Types::Moose 0
+      namespace::autoclean 0
+      perl 5.006
       strict 0
       warnings 0
   MooseX-Types-Path-Class-0.06
@@ -9297,6 +9684,14 @@ DISTRIBUTIONS
       MIME::Base64 2.11
       Test::More 0.52
       perl 5.00404
+  Net-Domain-TLD-1.72
+    pathname: A/AL/ALEXP/Net-Domain-TLD-1.72.tar.gz
+    provides:
+      Net::Domain::TLD 1.72
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Storable 0
   Net-HTTP-6.07
     pathname: M/MS/MSCHILLI/Net-HTTP-6.07.tar.gz
     provides:
@@ -12413,6 +12808,15 @@ DISTRIBUTIONS
       Data::Page 0.14
       ExtUtils::MakeMaker 0
       Template 2.07
+  Template-Timer-1.00
+    pathname: P/PE/PETDANCE/Template-Timer-1.00.tar.gz
+    provides:
+      Template::Timer 1.00
+    requirements:
+      ExtUtils::MakeMaker 0
+      Template 0
+      Test::More 0
+      Time::HiRes 0
   Template-Tiny-1.12
     pathname: A/AD/ADAMK/Template-Tiny-1.12.tar.gz
     provides:
@@ -13360,6 +13764,16 @@ DISTRIBUTIONS
       IO::Handle 0
       Test::Harness 0
       Test::More 0
+  Text-CSV-Simple-1.00
+    pathname: T/TM/TMTM/Text-CSV-Simple-1.00.tar.gz
+    provides:
+      Text::CSV::Simple 1.00
+      Text::CSV::Simple::__::Base 1.00
+    requirements:
+      Class::Trigger 0
+      ExtUtils::MakeMaker 0
+      File::Slurp 0
+      Text::CSV_XS 0
   Text-CSV_XS-1.11
     pathname: H/HM/HMBRAND/Text-CSV_XS-1.11.tgz
     provides:
