@@ -583,6 +583,67 @@ DISTRIBUTIONS
       Test::Memory::Cycle 0
       Test::More 0
       Test::Warn 0
+  Authen-DecHpwd-2.006
+    pathname: Z/ZE/ZEFRAM/Authen-DecHpwd-2.006.tar.gz
+    provides:
+      Authen::DecHpwd 2.006
+    requirements:
+      Data::Integer 0.003
+      Digest::CRC 0.14
+      Exporter 0
+      Module::Build 0
+      Scalar::String 0
+      Test::More 0
+      constant 0
+      parent 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Authen-Passphrase-0.008
+    pathname: Z/ZE/ZEFRAM/Authen-Passphrase-0.008.tar.gz
+    provides:
+      Authen::Passphrase 0.008
+      Authen::Passphrase::AcceptAll 0.008
+      Authen::Passphrase::BigCrypt 0.008
+      Authen::Passphrase::BlowfishCrypt 0.008
+      Authen::Passphrase::Clear 0.008
+      Authen::Passphrase::Crypt16 0.008
+      Authen::Passphrase::DESCrypt 0.008
+      Authen::Passphrase::EggdropBlowfish 0.008
+      Authen::Passphrase::LANManager 0.008
+      Authen::Passphrase::LANManagerHalf 0.008
+      Authen::Passphrase::MD5Crypt 0.008
+      Authen::Passphrase::MySQL323 0.008
+      Authen::Passphrase::MySQL41 0.008
+      Authen::Passphrase::NTHash 0.008
+      Authen::Passphrase::NetscapeMail 0.008
+      Authen::Passphrase::PHPass 0.008
+      Authen::Passphrase::RejectAll 0.008
+      Authen::Passphrase::SaltedDigest 0.008
+      Authen::Passphrase::VMSPurdy 0.008
+    requirements:
+      Authen::DecHpwd 2.003
+      Carp 0
+      Crypt::DES 0
+      Crypt::Eksblowfish::Bcrypt 0.008
+      Crypt::Eksblowfish::Uklblowfish 0.008
+      Crypt::MySQL 0.03
+      Crypt::PasswdMD5 1.0
+      Crypt::UnixCrypt_XS 0.08
+      Data::Entropy::Algorithms 0
+      Digest 1.00
+      Digest::MD4 1.2
+      Digest::MD5 1.9953
+      Digest::SHA 0
+      MIME::Base64 2.21
+      Module::Build 0
+      Module::Runtime 0.011
+      Params::Classify 0
+      Test::More 0
+      parent 0
+      perl 5.006
+      strict 0
+      warnings 0
   B-Debug-1.21
     pathname: R/RU/RURBAN/B-Debug-1.21.tar.gz
     provides:
@@ -1900,6 +1961,12 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Pod::Text 2.08
       Pod::Usage 1.33
+  Crypt-DES-2.07
+    pathname: D/DP/DPARIS/Crypt-DES-2.07.tar.gz
+    provides:
+      Crypt::DES 2.07
+    requirements:
+      ExtUtils::MakeMaker 0
   Crypt-Eksblowfish-0.009
     pathname: Z/ZE/ZEFRAM/Crypt-Eksblowfish-0.009.tar.gz
     provides:
@@ -1920,6 +1987,24 @@ DISTRIBUTIONS
       XSLoader 0
       parent 0
       perl 5.006
+      strict 0
+      warnings 0
+  Crypt-MySQL-0.04
+    pathname: I/IK/IKEBE/Crypt-MySQL-0.04.tar.gz
+    provides:
+      Crypt::MySQL 0.04
+    requirements:
+      Digest::SHA1 0
+      ExtUtils::CBuilder 0
+      Test::More 0
+  Crypt-PasswdMD5-1.40
+    pathname: R/RS/RSAVAGE/Crypt-PasswdMD5-1.40.tgz
+    provides:
+      Crypt::PasswdMD5 1.40
+    requirements:
+      Digest::MD5 2.53
+      Module::Build 0
+      Test::More 0.94
       strict 0
       warnings 0
   Crypt-RC4-2.02
@@ -1954,6 +2039,12 @@ DISTRIBUTIONS
       English 0
       FileHandle 0
       Test::More 0
+  Crypt-UnixCrypt_XS-0.10
+    pathname: B/BO/BORISZ/Crypt-UnixCrypt_XS-0.10.tar.gz
+    provides:
+      Crypt::UnixCrypt_XS 0.10
+    requirements:
+      ExtUtils::MakeMaker 0
   Cwd-Guard-0.04
     pathname: K/KA/KAZEBURO/Cwd-Guard-0.04.tar.gz
     provides:
@@ -2093,6 +2184,19 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.48
       Test::Simple 0.90
       perl 5.008
+  DBICx-TestDatabase-0.05
+    pathname: J/JR/JROCKWAY/DBICx-TestDatabase-0.05.tar.gz
+    provides:
+      DBICx::TestDatabase 0.05
+      DBICx::TestDatabase::Subclass undef
+    requirements:
+      DBD::SQLite 1.29
+      DBIx::Class 0
+      ExtUtils::MakeMaker 6.36
+      File::Temp 0
+      SQL::Translator 0
+      Test::More 0
+      ok 0
   DBIx-Class-0.082800
     pathname: R/RI/RIBASUSHI/DBIx-Class-0.082800.tar.gz
     provides:
@@ -2277,6 +2381,14 @@ DISTRIBUTIONS
       autodie 0
       namespace::autoclean 0
       parent 0.225
+  DBIx-Class-DynamicDefault-0.04
+    pathname: M/MS/MSTROUT/DBIx-Class-DynamicDefault-0.04.tar.gz
+    provides:
+      DBIx::Class::DynamicDefault 0.04
+    requirements:
+      DBICx::TestDatabase 0
+      DBIx::Class 0.08127
+      ExtUtils::MakeMaker 6.36
   DBIx-Class-EncodedColumn-0.00013
     pathname: W/WR/WREIS/DBIx-Class-EncodedColumn-0.00013.tar.gz
     provides:
@@ -2446,6 +2558,21 @@ DISTRIBUTIONS
       Test::Warn 0.21
       Try::Tiny 0
       namespace::clean 0.23
+      perl 5.008001
+  DBIx-Class-TimeStamp-0.14
+    pathname: R/RI/RIBASUSHI/DBIx-Class-TimeStamp-0.14.tar.gz
+    provides:
+      DBIx::Class::TimeStamp 0.14
+    requirements:
+      Class::Accessor::Grouped 0
+      DBIx::Class 0.08009
+      DBIx::Class::DynamicDefault 0.03
+      DateTime 0.55
+      DateTime::Format::MySQL 0
+      DateTime::Format::SQLite 0
+      ExtUtils::MakeMaker 6.42
+      Time::HiRes 0
+      Time::Warp 0
       perl 5.008001
   DBIx-Connector-0.53
     pathname: D/DW/DWHEELER/DBIx-Connector-0.53.tar.gz
@@ -2798,6 +2925,15 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Dancer2-Plugin-DBIC-0.0006
+    pathname: I/IR/IRONCAMEL/Dancer2-Plugin-DBIC-0.0006.tar.gz
+    provides:
+      Dancer2::Plugin::DBIC 0.0006
+    requirements:
+      DBIx::Class 0
+      Dancer2 0
+      ExtUtils::MakeMaker 6.30
+      Module::Load 0
   Data-Compare-1.24
     pathname: D/DC/DCANTRELL/Data-Compare-1.24.tar.gz
     provides:
@@ -2897,6 +3033,21 @@ DISTRIBUTIONS
       Sub::Install 0.03
       bytes 0
       overload 0
+      strict 0
+      warnings 0
+  Data-Integer-0.004
+    pathname: Z/ZE/ZEFRAM/Data-Integer-0.004.tar.gz
+    provides:
+      Data::Integer 0.004
+    requirements:
+      Carp 0
+      Exporter 0
+      Module::Build 0
+      Test::More 0
+      constant 0
+      integer 0
+      parent 0
+      perl 5.006
       strict 0
       warnings 0
   Data-MessagePack-0.48
@@ -3094,6 +3245,51 @@ DISTRIBUTIONS
       Params::Validate 0
       strict 0
       vars 0
+  DateTime-Format-MySQL-0.04
+    pathname: D/DR/DROLSKY/DateTime-Format-MySQL-0.04.tar.gz
+    provides:
+      DateTime::Format::MySQL 0.04
+    requirements:
+      DateTime 0
+      DateTime::Format::Builder 0.6
+  DateTime-Format-Natural-1.02
+    pathname: S/SC/SCHUBIGER/DateTime-Format-Natural-1.02.tar.gz
+    provides:
+      DateTime::Format::Natural 1.02
+      DateTime::Format::Natural::Calc 1.40
+      DateTime::Format::Natural::Compat 0.07
+      DateTime::Format::Natural::Duration 0.06
+      DateTime::Format::Natural::Duration::Checks 0.04
+      DateTime::Format::Natural::Expand 0.03
+      DateTime::Format::Natural::Extract 0.11
+      DateTime::Format::Natural::Formatted 0.07
+      DateTime::Format::Natural::Helpers 0.06
+      DateTime::Format::Natural::Lang::Base 1.08
+      DateTime::Format::Natural::Lang::EN 1.59
+      DateTime::Format::Natural::Rewrite 0.06
+      DateTime::Format::Natural::Test 0.10
+      DateTime::Format::Natural::Utils 0.05
+      DateTime::Format::Natural::Wrappers 0.03
+    requirements:
+      Carp 0
+      Clone 0
+      Cwd 0
+      DateTime 0
+      DateTime::TimeZone 0
+      Exporter 0
+      File::Find 0
+      File::Spec 0
+      FindBin 0
+      Getopt::Long 0
+      List::MoreUtils 0
+      Module::Util 0
+      Params::Validate 0
+      Scalar::Util 0
+      Storable 0
+      Term::ReadLine 0
+      Test::MockTime 0
+      Test::More 0
+      boolean 0
   DateTime-Format-SQLite-0.11
     pathname: C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz
     provides:
@@ -4263,6 +4459,11 @@ DISTRIBUTIONS
       parent 0
       strict 0
       warnings 0
+  Digest-CRC-0.18
+    pathname: O/OL/OLIMAUL/Digest-CRC-0.18.tar.gz
+    provides:
+      Digest::CRC 0.18
+    requirements:
   Digest-HMAC-1.03
     pathname: G/GA/GAAS/Digest-HMAC-1.03.tar.gz
     provides:
@@ -4285,6 +4486,13 @@ DISTRIBUTIONS
       perl 5.008
       strict 0
       warnings 0
+  Digest-MD4-1.9
+    pathname: M/MI/MIKEM/DigestMD4/Digest-MD4-1.9.tar.gz
+    provides:
+      Digest::MD4 1.9
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Spec 0
   Digest-Perl-MD5-1.9
     pathname: D/DE/DELTA/Digest-Perl-MD5-1.9.tar.gz
     provides:
@@ -5512,6 +5720,225 @@ DISTRIBUTIONS
       HTTP::Request::Common 6.03
       URI 1.10
       perl 5.008001
+  HTML-FormFu-2.01
+    pathname: C/CF/CFRANKS/HTML-FormFu-2.01.tar.gz
+    provides:
+      HTML::FormFu 2.01
+      HTML::FormFu::Attribute 2.01
+      HTML::FormFu::Constants 2.01
+      HTML::FormFu::Constraint 2.01
+      HTML::FormFu::Constraint::ASCII 2.01
+      HTML::FormFu::Constraint::AllOrNone 2.01
+      HTML::FormFu::Constraint::AutoSet 2.01
+      HTML::FormFu::Constraint::Bool 2.01
+      HTML::FormFu::Constraint::Callback 2.01
+      HTML::FormFu::Constraint::CallbackOnce 2.01
+      HTML::FormFu::Constraint::DateTime 2.01
+      HTML::FormFu::Constraint::DependOn 2.01
+      HTML::FormFu::Constraint::Email 2.01
+      HTML::FormFu::Constraint::Equal 2.01
+      HTML::FormFu::Constraint::File 2.01
+      HTML::FormFu::Constraint::File::MIME 2.01
+      HTML::FormFu::Constraint::File::MaxSize 2.01
+      HTML::FormFu::Constraint::File::MinSize 2.01
+      HTML::FormFu::Constraint::File::Size 2.01
+      HTML::FormFu::Constraint::Integer 2.01
+      HTML::FormFu::Constraint::Length 2.01
+      HTML::FormFu::Constraint::MaxLength 2.01
+      HTML::FormFu::Constraint::MaxRange 2.01
+      HTML::FormFu::Constraint::MinLength 2.01
+      HTML::FormFu::Constraint::MinMaxFields 2.01
+      HTML::FormFu::Constraint::MinRange 2.01
+      HTML::FormFu::Constraint::Number 2.01
+      HTML::FormFu::Constraint::Printable 2.01
+      HTML::FormFu::Constraint::Range 2.01
+      HTML::FormFu::Constraint::Regex 2.01
+      HTML::FormFu::Constraint::Repeatable::Any 2.01
+      HTML::FormFu::Constraint::Required 2.01
+      HTML::FormFu::Constraint::Set 2.01
+      HTML::FormFu::Constraint::SingleValue 2.01
+      HTML::FormFu::Constraint::Word 2.01
+      HTML::FormFu::Deflator 2.01
+      HTML::FormFu::Deflator::Callback 2.01
+      HTML::FormFu::Deflator::CompoundDateTime 2.01
+      HTML::FormFu::Deflator::CompoundSplit 2.01
+      HTML::FormFu::Deflator::FormatNumber 2.01
+      HTML::FormFu::Deflator::PathClassFile 2.01
+      HTML::FormFu::Deflator::Strftime 2.01
+      HTML::FormFu::Deploy 2.01
+      HTML::FormFu::Element 2.01
+      HTML::FormFu::Element::Blank 2.01
+      HTML::FormFu::Element::Block 2.01
+      HTML::FormFu::Element::Button 2.01
+      HTML::FormFu::Element::Checkbox 2.01
+      HTML::FormFu::Element::Checkboxgroup 2.01
+      HTML::FormFu::Element::ComboBox 2.01
+      HTML::FormFu::Element::ContentButton 2.01
+      HTML::FormFu::Element::Date 2.01
+      HTML::FormFu::Element::DateTime 2.01
+      HTML::FormFu::Element::Email 2.01
+      HTML::FormFu::Element::Fieldset 2.01
+      HTML::FormFu::Element::File 2.01
+      HTML::FormFu::Element::Hidden 2.01
+      HTML::FormFu::Element::Hr 2.01
+      HTML::FormFu::Element::Image 2.01
+      HTML::FormFu::Element::Label 2.01
+      HTML::FormFu::Element::Multi 2.01
+      HTML::FormFu::Element::Number 2.01
+      HTML::FormFu::Element::Password 2.01
+      HTML::FormFu::Element::Radio 2.01
+      HTML::FormFu::Element::Radiogroup 2.01
+      HTML::FormFu::Element::Repeatable 2.01
+      HTML::FormFu::Element::Reset 2.01
+      HTML::FormFu::Element::Select 2.01
+      HTML::FormFu::Element::SimpleTable 2.01
+      HTML::FormFu::Element::Src 2.01
+      HTML::FormFu::Element::Submit 2.01
+      HTML::FormFu::Element::Text 2.01
+      HTML::FormFu::Element::Textarea 2.01
+      HTML::FormFu::Element::URL 2.01
+      HTML::FormFu::Exception 2.01
+      HTML::FormFu::Exception::Constraint 2.01
+      HTML::FormFu::Exception::Inflator 2.01
+      HTML::FormFu::Exception::Input 2.01
+      HTML::FormFu::Exception::Transformer 2.01
+      HTML::FormFu::Exception::Validator 2.01
+      HTML::FormFu::FakeQuery 2.01
+      HTML::FormFu::Filter 2.01
+      HTML::FormFu::Filter::Callback 2.01
+      HTML::FormFu::Filter::CompoundJoin 2.01
+      HTML::FormFu::Filter::CompoundSprintf 2.01
+      HTML::FormFu::Filter::CopyValue 2.01
+      HTML::FormFu::Filter::Encode 2.01
+      HTML::FormFu::Filter::ForceListValue 2.01
+      HTML::FormFu::Filter::FormatNumber 2.01
+      HTML::FormFu::Filter::HTMLEscape 2.01
+      HTML::FormFu::Filter::HTMLScrubber 2.01
+      HTML::FormFu::Filter::LowerCase 2.01
+      HTML::FormFu::Filter::NonNumeric 2.01
+      HTML::FormFu::Filter::Regex 2.01
+      HTML::FormFu::Filter::Split 2.01
+      HTML::FormFu::Filter::TrimEdges 2.01
+      HTML::FormFu::Filter::UpperCase 2.01
+      HTML::FormFu::Filter::Whitespace 2.01
+      HTML::FormFu::I18N 2.01
+      HTML::FormFu::I18N::bg 2.01
+      HTML::FormFu::I18N::cs 2.01
+      HTML::FormFu::I18N::da 2.01
+      HTML::FormFu::I18N::de 2.01
+      HTML::FormFu::I18N::en 2.01
+      HTML::FormFu::I18N::es 2.01
+      HTML::FormFu::I18N::fr 2.01
+      HTML::FormFu::I18N::hu 2.01
+      HTML::FormFu::I18N::it 2.01
+      HTML::FormFu::I18N::ja 2.01
+      HTML::FormFu::I18N::no 2.01
+      HTML::FormFu::I18N::pt_br 2.01
+      HTML::FormFu::I18N::pt_pt 2.01
+      HTML::FormFu::I18N::ro 2.01
+      HTML::FormFu::I18N::ru 2.01
+      HTML::FormFu::I18N::ua 2.01
+      HTML::FormFu::I18N::zh_cn 2.01
+      HTML::FormFu::Inflator 2.01
+      HTML::FormFu::Inflator::Callback 2.01
+      HTML::FormFu::Inflator::CompoundDateTime 2.01
+      HTML::FormFu::Inflator::DateTime 2.01
+      HTML::FormFu::Literal 2.01
+      HTML::FormFu::Localize 2.01
+      HTML::FormFu::Model 2.01
+      HTML::FormFu::Model::HashRef 2.01
+      HTML::FormFu::ObjectUtil 2.01
+      HTML::FormFu::OutputProcessor 2.01
+      HTML::FormFu::OutputProcessor::Indent 2.01
+      HTML::FormFu::OutputProcessor::StripWhitespace 2.01
+      HTML::FormFu::OutputProcessor::StripWhitespace::_iter 2.01
+      HTML::FormFu::Plugin 2.01
+      HTML::FormFu::Plugin::StashValid 2.01
+      HTML::FormFu::Preload 2.01
+      HTML::FormFu::Processor 2.01
+      HTML::FormFu::QueryType::CGI 2.01
+      HTML::FormFu::QueryType::CGI::Simple 2.01
+      HTML::FormFu::QueryType::Catalyst 2.01
+      HTML::FormFu::Role::Constraint::Others 2.01
+      HTML::FormFu::Role::ContainsElements 2.01
+      HTML::FormFu::Role::ContainsElementsSharedWithField 2.01
+      HTML::FormFu::Role::CreateChildren 2.01
+      HTML::FormFu::Role::CustomRoles 2.01
+      HTML::FormFu::Role::Element::Coercible 2.01
+      HTML::FormFu::Role::Element::Field 2.01
+      HTML::FormFu::Role::Element::FieldMethods 2.01
+      HTML::FormFu::Role::Element::Group 2.01
+      HTML::FormFu::Role::Element::Input 2.01
+      HTML::FormFu::Role::Element::Layout 2.01
+      HTML::FormFu::Role::Element::MultiElement 2.01
+      HTML::FormFu::Role::Element::NonBlock 2.01
+      HTML::FormFu::Role::Element::ProcessOptionsFromModel 2.01
+      HTML::FormFu::Role::Element::SingleValueField 2.01
+      HTML::FormFu::Role::Filter::Compound 2.01
+      HTML::FormFu::Role::FormAndBlockMethods 2.01
+      HTML::FormFu::Role::FormAndElementMethods 2.01
+      HTML::FormFu::Role::FormBlockAndFieldMethods 2.01
+      HTML::FormFu::Role::GetProcessors 2.01
+      HTML::FormFu::Role::HasParent 2.01
+      HTML::FormFu::Role::NestedHashUtils 2.01
+      HTML::FormFu::Role::Populate 2.01
+      HTML::FormFu::Role::Render 2.01
+      HTML::FormFu::Transformer 2.01
+      HTML::FormFu::Transformer::Callback 2.01
+      HTML::FormFu::Upload 2.01
+      HTML::FormFu::UploadParam 2.01
+      HTML::FormFu::Util 2.01
+      HTML::FormFu::Validator 2.01
+      HTML::FormFu::Validator::Callback 2.01
+      MooseX::Attribute::FormFuChained 2.01
+      MooseX::Attribute::FormFuChained::Method::Accessor 2.01
+      MooseX::FormFuChainedAccessors 2.01
+      MooseX::Traits::Attribute::FormFuChained 2.01
+    requirements:
+      Carp 0
+      Class::MOP::Method 0
+      Clone 0.31
+      Config::Any 0.18
+      Cwd 0
+      Data::Visitor 0.26
+      Data::Visitor::Callback 0
+      DateTime 0.54
+      DateTime::Format::Builder 0.7901
+      DateTime::Format::Natural 0
+      DateTime::Format::Strptime 1.2000
+      DateTime::Locale 0.45
+      Email::Valid 0
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.30
+      Fatal 0
+      File::Copy 0
+      File::Find 0
+      File::ShareDir 0
+      File::ShareDir::Install 0.03
+      File::Spec 0
+      File::Temp 0
+      HTML::Scrubber 0
+      HTML::TokeParser::Simple 3.14
+      HTTP::Headers 1.64
+      Hash::Flatten 0
+      IO::File 0
+      List::MoreUtils 0
+      List::Util 0
+      Locale::Maketext 0
+      Module::Pluggable 0
+      Moose 1.00
+      Moose::Role 0
+      Moose::Util 0
+      MooseX::Aliases 0
+      Number::Format 0
+      Path::Class::File 0
+      Readonly 0
+      Regexp::Common 0
+      Scalar::Util 0
+      Storable 0
+      Task::Weaken 0
+      YAML::XS 0.32
   HTML-Parser-3.71
     pathname: G/GA/GAAS/HTML-Parser-3.71.tar.gz
     provides:
@@ -5542,6 +5969,16 @@ DISTRIBUTIONS
       URI 0
       namespace::clean 0
       strict 0
+  HTML-Scrubber-0.11
+    pathname: N/NI/NIGELM/HTML-Scrubber-0.11.tar.gz
+    provides:
+      HTML::Scrubber 0.11
+    requirements:
+      HTML::Entities 0
+      HTML::Parser 3.47
+      Module::Build 0.3601
+      strict 0
+      warnings 0
   HTML-TableExtract-2.11
     pathname: M/MS/MSISK/HTML-TableExtract-2.11.tar.gz
     provides:
@@ -5586,6 +6023,24 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  HTML-TokeParser-Simple-3.16
+    pathname: O/OV/OVID/HTML-TokeParser-Simple-3.16.tar.gz
+    provides:
+      HTML::TokeParser::Simple 3.16
+      HTML::TokeParser::Simple::Token 3.16
+      HTML::TokeParser::Simple::Token::Comment 3.16
+      HTML::TokeParser::Simple::Token::Declaration 3.15
+      HTML::TokeParser::Simple::Token::ProcessInstruction 3.16
+      HTML::TokeParser::Simple::Token::Tag 3.16
+      HTML::TokeParser::Simple::Token::Tag::End 3.16
+      HTML::TokeParser::Simple::Token::Tag::Start 3.16
+      HTML::TokeParser::Simple::Token::Text 3.16
+    requirements:
+      HTML::Parser 3.25
+      HTML::TokeParser 2.24
+      Sub::Override 0
+      Test::More 0
+      perl 5.006
   HTML-Tree-5.03
     pathname: C/CJ/CJM/HTML-Tree-5.03.tar.gz
     provides:
@@ -5731,6 +6186,14 @@ DISTRIBUTIONS
       Hash::AsObject 0.13
     requirements:
       ExtUtils::MakeMaker 0
+  Hash-Flatten-1.19
+    pathname: B/BB/BBC/Hash-Flatten-1.19.tar.gz
+    provides:
+      Hash::Flatten 1.19
+    requirements:
+      ExtUtils::MakeMaker 0
+      Log::Trace 0
+      Test::Assertions 0
   Hash-Merge-0.200
     pathname: R/RE/REHSACK/Hash-Merge-0.200.tar.gz
     provides:
@@ -6453,6 +6916,13 @@ DISTRIBUTIONS
       Log::Message 0
       Test::More 0
       if 0
+  Log-Trace-1.070
+    pathname: B/BB/BBC/Log-Trace-1.070.tar.gz
+    provides:
+      Log::Trace 1.070
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   MCE-1.515
     pathname: M/MA/MARIOROY/MCE-1.515.tar.gz
     provides:
@@ -7054,6 +7524,14 @@ DISTRIBUTIONS
       Test::Harness 0.21
       Test::More 0
       parent 0
+  Module-Util-1.09
+    pathname: M/MA/MATTLAW/Module-Util-1.09.tar.gz
+    provides:
+      Module::Util 1.09
+    requirements:
+      Module::Build 0.40
+      Test::More 0
+      perl v5.5.3
   Module-Version-0.12
     pathname: X/XS/XSAWYERX/Module-Version-0.12.tar.gz
     provides:
@@ -7725,6 +8203,17 @@ DISTRIBUTIONS
       Syntax::Keyword::Junction 0
       autobox 2.23
       parent 0
+  MooseX-Aliases-0.11
+    pathname: D/DO/DOY/MooseX-Aliases-0.11.tar.gz
+    provides:
+      MooseX::Aliases 0.11
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Moose 2.0000
+      Moose::Exporter 0
+      Moose::Role 0
+      Moose::Util::TypeConstraints 0
+      Scalar::Util 0
   MooseX-App-Cmd-0.27
     pathname: M/MJ/MJGARDNER/MooseX-App-Cmd-0.27.tar.gz
     provides:
@@ -11180,6 +11669,22 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  Scalar-String-0.002
+    pathname: Z/ZE/ZEFRAM/Scalar-String-0.002.tar.gz
+    provides:
+      Scalar::String 0.002
+    requirements:
+      Carp 0
+      Exporter 0
+      Module::Build 0
+      Test::More 0
+      bytes 0
+      if 0
+      parent 0
+      perl 5.006
+      strict 0
+      utf8 0
+      warnings 0
   Scope-Guard-0.20
     pathname: C/CH/CHOCOLATE/Scope-Guard-0.20.tar.gz
     provides:
@@ -11458,6 +11963,77 @@ DISTRIBUTIONS
       Stream::Buffered::File undef
       Stream::Buffered::PerlIO undef
     requirements:
+  Strehler-1.2.2
+    pathname: C/CY/CYMON/Strehler-1.2.2.tar.gz
+    provides:
+      Strehler 1.002002
+      Strehler::API undef
+      Strehler::Admin undef
+      Strehler::Dancer2::Plugin 1.0
+      Strehler::Element undef
+      Strehler::Element::Article undef
+      Strehler::Element::Image undef
+      Strehler::Element::Log undef
+      Strehler::Element::Role::Configured undef
+      Strehler::Element::Role::Slugged undef
+      Strehler::Element::User undef
+      Strehler::FormFu::Element::Category undef
+      Strehler::FormFu::Element::DisplayOrder undef
+      Strehler::FormFu::Element::EntitySelect undef
+      Strehler::FormFu::Element::PublishDate undef
+      Strehler::FormFu::Element::Slug undef
+      Strehler::FormFu::Element::Tags undef
+      Strehler::FormFu::Validator::CategoryUnique undef
+      Strehler::Helpers undef
+      Strehler::Meta::Category undef
+      Strehler::Meta::Tag undef
+      Strehler::Schema undef
+      Strehler::Schema::Result::ActivityLog undef
+      Strehler::Schema::Result::Article undef
+      Strehler::Schema::Result::Category undef
+      Strehler::Schema::Result::ConfiguredTag undef
+      Strehler::Schema::Result::Content undef
+      Strehler::Schema::Result::Description undef
+      Strehler::Schema::Result::Image undef
+      Strehler::Schema::Result::Tag undef
+      Strehler::Schema::Result::User undef
+    requirements:
+      Authen::Passphrase::BlowfishCrypt 0
+      Carp 0
+      Cwd 0
+      DBIx::Class::Core 0
+      DBIx::Class::Schema 0
+      DBIx::Class::Schema::Loader 0
+      DBIx::Class::TimeStamp 0
+      Dancer2 0.11
+      Dancer2::Core::App 0
+      Dancer2::Core::Runner 0
+      Dancer2::Plugin 0
+      Dancer2::Plugin::Ajax 0
+      Dancer2::Plugin::DBIC 0
+      Dancer2::Serializer::JSON 0
+      DateTime::Format::SQLite 0
+      DateTime::Format::Strptime 0
+      ExtUtils::MakeMaker 6.30
+      File::Copy 0
+      File::Copy::Recursive 0
+      File::Path 0
+      HTML::FormFu 1.00
+      HTML::FormFu::Element::Block 0
+      HTML::FormFu::Element::Fieldset 0
+      HTML::FormFu::Element::Label 0
+      HTML::FormFu::Element::Select 0
+      HTML::FormFu::Element::Text 0
+      HTML::FormFu::Validator 0
+      Lingua::EN::Inflect 0
+      Moo 0
+      Moo::Role 0
+      Moose 0
+      SQL::Translator 0
+      Term::ReadKey 0
+      Text::Unidecode 0
+      Unicode::Normalize 0
+      YAML::XS 0
   String-CamelCase-0.02
     pathname: H/HI/HIO/String-CamelCase-0.02.tar.gz
     provides:
@@ -11584,6 +12160,14 @@ DISTRIBUTIONS
       XSLoader 0
       strict 0
       warnings 0
+  Sub-Override-0.09
+    pathname: O/OV/OVID/Sub-Override-0.09.tar.gz
+    provides:
+      Sub::Override 0.09
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::Fatal 0.010
+      Test::More 0.47
   Sub-Uplevel-0.24
     pathname: D/DA/DAGOLDEN/Sub-Uplevel-0.24.tar.gz
     provides:
@@ -11859,6 +12443,16 @@ DISTRIBUTIONS
       constant::boolean 0.02
       parent 0
       perl 5.006
+  Test-Assertions-1.054
+    pathname: B/BB/BBC/Test-Assertions-1.054.tar.gz
+    provides:
+      Test::Assertions 1.054
+      Test::Assertions::TestScript 1.018
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Getopt::Long 0
+      Log::Trace 0
   Test-Base-0.88
     pathname: I/IN/INGY/Test-Base-0.88.tar.gz
     provides:
@@ -12880,6 +13474,12 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0.47
       perl 5.004
+  Time-Warp-0.5
+    pathname: J/JP/JPRIT/Time-Warp-0.5.tar.gz
+    provides:
+      Time::Warp 0.5
+    requirements:
+      ExtUtils::MakeMaker 0
   Time-timegm-0.01
     pathname: P/PE/PEVANS/Time-timegm-0.01.tar.gz
     provides:
