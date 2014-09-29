@@ -1163,6 +1163,22 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006
+  Class-Mix-0.005
+    pathname: Z/ZE/ZEFRAM/Class-Mix-0.005.tar.gz
+    provides:
+      Class::Mix 0.005
+    requirements:
+      Carp 0
+      Exporter 0
+      Module::Build 0
+      Params::Classify 0
+      Test::More 0
+      constant 0
+      if 0
+      parent 0
+      perl 5.006
+      strict 0
+      warnings 0
   Class-Singleton-1.4
     pathname: A/AB/ABW/Class-Singleton-1.4.tar.gz
     provides:
@@ -1455,12 +1471,51 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Pod::Text 2.08
       Pod::Usage 1.33
+  Crypt-Eksblowfish-0.009
+    pathname: Z/ZE/ZEFRAM/Crypt-Eksblowfish-0.009.tar.gz
+    provides:
+      Crypt::Eksblowfish 0.009
+      Crypt::Eksblowfish::Bcrypt 0.009
+      Crypt::Eksblowfish::Blowfish 0.009
+      Crypt::Eksblowfish::Family 0.009
+      Crypt::Eksblowfish::Subkeyed 0.009
+      Crypt::Eksblowfish::Uklblowfish 0.009
+    requirements:
+      Carp 0
+      Class::Mix 0.001
+      Exporter 0
+      ExtUtils::CBuilder 0.15
+      MIME::Base64 2.21
+      Module::Build 0
+      Test::More 0
+      XSLoader 0
+      parent 0
+      perl 5.006
+      strict 0
+      warnings 0
   Crypt-RC4-2.02
     pathname: S/SI/SIFUKURT/Crypt-RC4-2.02.tar.gz
     provides:
       Crypt::RC4 2.02
     requirements:
       ExtUtils::MakeMaker 0
+  Crypt-Rijndael-1.12
+    pathname: B/BD/BDFOY/Crypt-Rijndael-1.12.tar.gz
+    provides:
+      Crypt::Rijndael 1.12
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::Manifest 1.14
+      Test::More 0
+  Crypt-SaltedHash-0.09
+    pathname: G/GS/GSHANK/Crypt-SaltedHash-0.09.tar.gz
+    provides:
+      Crypt::SaltedHash 0.09
+    requirements:
+      Digest 0
+      ExtUtils::MakeMaker 6.30
+      Test::Fatal 0
+      Test::More 0
   Crypt-URandom-0.34
     pathname: D/DD/DDICK/Crypt-URandom-0.34.tar.gz
     provides:
@@ -1953,6 +2008,72 @@ DISTRIBUTIONS
       strict 0
       vars 0
       warnings 0
+  Dancer-Plugin-Auth-Extensible-0.30
+    pathname: B/BI/BIGPRESH/Dancer-Plugin-Auth-Extensible-0.30.tar.gz
+    provides:
+      Dancer::Plugin::Auth::Extensible 0.30
+      Dancer::Plugin::Auth::Extensible::Provider::Base undef
+      Dancer::Plugin::Auth::Extensible::Provider::Config undef
+      Dancer::Plugin::Auth::Extensible::Provider::Database undef
+      Dancer::Plugin::Auth::Extensible::Provider::Example undef
+      Dancer::Plugin::Auth::Extensible::Provider::Unix undef
+    requirements:
+      Crypt::SaltedHash 0
+      Dancer 1.3118
+      ExtUtils::MakeMaker 0
+      Mock::Quick 0
+      Test::More 0
+      YAML 0
+  Dancer-Plugin-CRUD-1.03
+    pathname: Z/ZU/ZURBORG/Dancer-Plugin-CRUD-1.03.tar.gz
+    provides:
+      Dancer::Plugin::CRUD 1.03
+    requirements:
+      Dancer 1.312
+      ExtUtils::MakeMaker 0
+      Modern::Perl 0
+      Sub::Name 0
+      Test::More 0
+      Text::Pluralize 1.1
+      Validate::Tiny 1.005
+  Dancer-Plugin-DBIC-0.2100
+    pathname: I/IR/IRONCAMEL/Dancer-Plugin-DBIC-0.2100.tar.gz
+    provides:
+      Dancer::Plugin::DBIC 0.2100
+    requirements:
+      DBIx::Class 0
+      Dancer 1.3098
+      Dancer::Plugin 0
+      ExtUtils::MakeMaker 6.30
+      Module::Load 0
+      SQL::Translator 0.11016
+      strict 0
+      utf8 0
+      warnings 0
+  Dancer-Plugin-Passphrase-2.0.1
+    pathname: J/JA/JAITKEN/Dancer-Plugin-Passphrase-2.0.1.tar.gz
+    provides:
+      Dancer::Plugin::Passphrase 2.000001
+    requirements:
+      Dancer::Plugin 0
+      Data::Entropy::Algorithms 0.003
+      Digest 1.16
+      Digest::Bcrypt 0
+      Digest::SHA 5.74
+      ExtUtils::MakeMaker 6.30
+      MIME::Base64 3.08
+      Scalar::Util 1.20
+  Dancer-Plugin-REST-0.11
+    pathname: Y/YA/YANICK/Dancer-Plugin-REST-0.11.tar.gz
+    provides:
+      Dancer::Plugin::REST 0.11
+    requirements:
+      Carp 0
+      Dancer 1.3111
+      Dancer::Plugin 0
+      Module::Build 0.3601
+      strict 0
+      warnings 0
   Dancer2-0.150000
     pathname: X/XS/XSAWYERX/Dancer2-0.150000.tar.gz
     provides:
@@ -2113,6 +2234,48 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.59
       perl 5.006
+  Data-Entropy-0.007
+    pathname: Z/ZE/ZEFRAM/Data-Entropy-0.007.tar.gz
+    provides:
+      Data::Entropy 0.007
+      Data::Entropy::Algorithms 0.007
+      Data::Entropy::RawSource::CryptCounter 0.007
+      Data::Entropy::RawSource::Local 0.007
+      Data::Entropy::RawSource::RandomOrg 0.007
+      Data::Entropy::RawSource::RandomnumbersInfo 0.007
+      Data::Entropy::Source 0.007
+    requirements:
+      Carp 0
+      Crypt::Rijndael 0
+      Data::Float 0.008
+      Errno 1.00
+      Exporter 0
+      HTTP::Lite 2.2
+      IO::File 1.03
+      Module::Build 0
+      Params::Classify 0
+      Test::More 0
+      constant 0
+      integer 0
+      parent 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Data-Float-0.012
+    pathname: Z/ZE/ZEFRAM/Data-Float-0.012.tar.gz
+    provides:
+      Data::Float 0.012
+    requirements:
+      Carp 0
+      Exporter 0
+      Module::Build 0
+      Test::More 0
+      constant 0
+      integer 0
+      parent 0
+      perl 5.006
+      strict 0
+      warnings 0
   Data-GUID-0.048
     pathname: R/RJ/RJBS/Data-GUID-0.048.tar.gz
     provides:
@@ -3468,6 +3631,21 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0
       perl 5.004
+  Digest-Bcrypt-1.0.1
+    pathname: J/JA/JAITKEN/Digest-Bcrypt-1.0.1.tar.gz
+    provides:
+      Digest::Bcrypt 1.000001
+    requirements:
+      Carp 0
+      Crypt::Eksblowfish::Bcrypt 0
+      Digest 0
+      Digest::base 0
+      ExtUtils::MakeMaker 6.30
+      Test::More 0
+      bytes 0
+      parent 0
+      strict 0
+      warnings 0
   Digest-HMAC-1.03
     pathname: G/GA/GAAS/Digest-HMAC-1.03.tar.gz
     provides:
@@ -8288,6 +8466,16 @@ DISTRIBUTIONS
       XSLoader 0
       strict 0
       warnings 0
+  Package-Variant-1.002002
+    pathname: H/HA/HAARG/Package-Variant-1.002002.tar.gz
+    provides:
+      Package::Variant 1.002002
+    requirements:
+      Carp 0
+      Import::Into 1
+      Module::Runtime 0.013
+      perl 5.006
+      strictures 1
   PadWalker-1.98
     pathname: R/RO/ROBIN/PadWalker-1.98.tar.gz
     provides:
@@ -8321,6 +8509,20 @@ DISTRIBUTIONS
       HTML::Entities 0
       JSON 0
       Test::More 0
+  Params-Classify-0.013
+    pathname: Z/ZE/ZEFRAM/Params-Classify-0.013.tar.gz
+    provides:
+      Params::Classify 0.013
+    requirements:
+      Exporter 0
+      ExtUtils::ParseXS 2.2006
+      Module::Build 0
+      Scalar::Util 1.01
+      Test::More 0
+      parent 0
+      perl 5.006001
+      strict 0
+      warnings 0
   Params-Util-1.07
     pathname: A/AD/ADAMK/Params-Util-1.07.tar.gz
     provides:
@@ -9494,6 +9696,110 @@ DISTRIBUTIONS
       Test::More 0.88
       Test::Warn 0
       perl 5.006
+  SQL-Translator-0.11020
+    pathname: I/IL/ILMARI/SQL-Translator-0.11020.tar.gz
+    provides:
+      Parse::RecDescent::SQL::Translator::Parser::DB2::Grammar undef
+      SQL::Translator 0.11020
+      SQL::Translator::Diff undef
+      SQL::Translator::Filter::DefaultExtra 1.59
+      SQL::Translator::Filter::Globals 1.59
+      SQL::Translator::Filter::Names 1.59
+      SQL::Translator::Generator::DDL::PostgreSQL undef
+      SQL::Translator::Generator::DDL::SQLServer undef
+      SQL::Translator::Generator::DDL::SQLite undef
+      SQL::Translator::Generator::Role::DDL undef
+      SQL::Translator::Generator::Role::Quote undef
+      SQL::Translator::Parser 1.60
+      SQL::Translator::Parser::Access 1.59
+      SQL::Translator::Parser::DB2 undef
+      SQL::Translator::Parser::DB2::Grammar undef
+      SQL::Translator::Parser::DBI 1.59
+      SQL::Translator::Parser::DBI::DB2 undef
+      SQL::Translator::Parser::DBI::MySQL 1.59
+      SQL::Translator::Parser::DBI::Oracle 1.59
+      SQL::Translator::Parser::DBI::PostgreSQL 1.59
+      SQL::Translator::Parser::DBI::SQLServer 1.59
+      SQL::Translator::Parser::DBI::SQLite 1.59
+      SQL::Translator::Parser::DBI::Sybase 1.59
+      SQL::Translator::Parser::Excel 1.59
+      SQL::Translator::Parser::JSON 1.00
+      SQL::Translator::Parser::MySQL 1.59
+      SQL::Translator::Parser::Oracle 1.59
+      SQL::Translator::Parser::PostgreSQL 1.59
+      SQL::Translator::Parser::SQLServer 1.59
+      SQL::Translator::Parser::SQLite 1.59
+      SQL::Translator::Parser::Storable 1.59
+      SQL::Translator::Parser::Sybase 1.59
+      SQL::Translator::Parser::XML 1.59
+      SQL::Translator::Parser::XML::SQLFairy 1.59
+      SQL::Translator::Parser::YAML 1.59
+      SQL::Translator::Parser::xSV 1.59
+      SQL::Translator::Producer 1.59
+      SQL::Translator::Producer::ClassDBI 1.59
+      SQL::Translator::Producer::DB2 1.59
+      SQL::Translator::Producer::DiaUml 1.59
+      SQL::Translator::Producer::Diagram 1.59
+      SQL::Translator::Producer::Dumper 1.59
+      SQL::Translator::Producer::GraphViz 1.59
+      SQL::Translator::Producer::HTML 1.59
+      SQL::Translator::Producer::JSON 1.00
+      SQL::Translator::Producer::Latex 1.59
+      SQL::Translator::Producer::MySQL 1.59
+      SQL::Translator::Producer::Oracle 1.59
+      SQL::Translator::Producer::POD 1.59
+      SQL::Translator::Producer::PostgreSQL 1.59
+      SQL::Translator::Producer::SQLServer 1.59
+      SQL::Translator::Producer::SQLite 1.59
+      SQL::Translator::Producer::Storable 1.59
+      SQL::Translator::Producer::Sybase 1.59
+      SQL::Translator::Producer::TT::Base 1.59
+      SQL::Translator::Producer::TT::Table 1.59
+      SQL::Translator::Producer::TTSchema 1.59
+      SQL::Translator::Producer::XML 1.59
+      SQL::Translator::Producer::XML::SQLFairy 1.59
+      SQL::Translator::Producer::YAML 1.59
+      SQL::Translator::Role::BuildArgs undef
+      SQL::Translator::Role::Debug undef
+      SQL::Translator::Role::Error undef
+      SQL::Translator::Role::ListAttr undef
+      SQL::Translator::Schema 1.59
+      SQL::Translator::Schema::Constants 1.59
+      SQL::Translator::Schema::Constraint 1.59
+      SQL::Translator::Schema::Field 1.59
+      SQL::Translator::Schema::Index 1.59
+      SQL::Translator::Schema::Object 1.59
+      SQL::Translator::Schema::Procedure 1.59
+      SQL::Translator::Schema::Role::Compare undef
+      SQL::Translator::Schema::Role::Extra undef
+      SQL::Translator::Schema::Table 1.59
+      SQL::Translator::Schema::Trigger 1.59
+      SQL::Translator::Schema::View 1.59
+      SQL::Translator::Types undef
+      SQL::Translator::Utils 1.59
+      SQL::Translator::Utils::Error 1.59
+      Test::SQL::Translator 1.59
+    requirements:
+      Carp::Clan 0
+      DBI 1.54
+      Digest::SHA 0
+      ExtUtils::MakeMaker 6.59
+      File::ShareDir 1.0
+      JSON 2.0
+      List::MoreUtils 0.09
+      Moo 1.000003
+      Package::Variant 1.001001
+      Parse::RecDescent 1.967009
+      Scalar::Util 0
+      Sub::Quote 0
+      Test::Differences 0
+      Test::Exception 0.31
+      Test::More 0.88
+      Text::ParseWords 0
+      Try::Tiny 0.04
+      XML::Writer 0.500
+      YAML 0.66
+      perl 5.008001
   SVG-2.59
     pathname: S/SZ/SZABGAB/SVG-2.59.tar.gz
     provides:
@@ -10956,6 +11262,12 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Text::Diff 0
+  Text-Pluralize-1.1
+    pathname: K/KV/KVAIL/Text-Pluralize-1.1.tar.gz
+    provides:
+      Text::Pluralize 1.1
+    requirements:
+      ExtUtils::MakeMaker 0
   Text-SimpleTable-2.03
     pathname: M/MR/MRAMBERG/Text-SimpleTable-2.03.tar.gz
     provides:
@@ -11469,6 +11781,16 @@ DISTRIBUTIONS
       constant 0
       strict 0
       warnings 0
+  Validate-Tiny-1.005
+    pathname: M/MI/MINIMAL/Validate-Tiny-1.005.tar.gz
+    provides:
+      Validate::Tiny 1.005
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      List::MoreUtils 0
+      strict 0
+      warnings 0
   Variable-Magic-0.54
     pathname: V/VP/VPIT/Variable-Magic-0.54.tar.gz
     provides:
@@ -11973,6 +12295,14 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       XML::Parser 2.23
+  XML-Writer-0.625
+    pathname: J/JO/JOSEPHW/XML-Writer-0.625.tar.gz
+    provides:
+      XML::Writer 0.625
+      XML::Writer::_PrintChecker 0.625
+      XML::Writer::_String 0.625
+    requirements:
+      ExtUtils::MakeMaker 0
   XML-XPath-1.13
     pathname: M/MS/MSERGEANT/XML-XPath-1.13.tar.gz
     provides:
