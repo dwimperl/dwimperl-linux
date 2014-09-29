@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   6553
-Last-Updated: Mon Sep 29 18:58:10 2014
+Line-Count:   6557
+Last-Updated: Mon Sep 29 19:59:37 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -5774,6 +5774,10 @@ Term::Size::Any                       0.002  F/FE/FERREIRA/Term-Size-Any-0.002.t
 Term::Size::Perl                      0.029  F/FE/FERREIRA/Term-Size-Perl-0.029.tar.gz
 Term::UI                               0.42  B/BI/BINGOS/Term-UI-0.42.tar.gz
 Term::UI::History                      0.42  B/BI/BINGOS/Term-UI-0.42.tar.gz
+Test::Aggregate                       0.371  R/RW/RWSTAUNER/Test-Aggregate-0.371.tar.gz
+Test::Aggregate::Base                 0.371  R/RW/RWSTAUNER/Test-Aggregate-0.371.tar.gz
+Test::Aggregate::Builder              0.371  R/RW/RWSTAUNER/Test-Aggregate-0.371.tar.gz
+Test::Aggregate::Nested               0.371  R/RW/RWSTAUNER/Test-Aggregate-0.371.tar.gz
 Test::Assert                         0.0504  D/DE/DEXTER/Test-Assert-0.0504.tar.gz
 Test::Assertions                      1.054  B/BB/BBC/Test-Assertions-1.054.tar.gz
 Test::Assertions::TestScript          1.018  B/BB/BBC/Test-Assertions-1.054.tar.gz

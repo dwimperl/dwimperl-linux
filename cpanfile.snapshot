@@ -12430,6 +12430,20 @@ DISTRIBUTIONS
       Term::ReadKey 2.32
     requirements:
       ExtUtils::MakeMaker 0
+  Test-Aggregate-0.371
+    pathname: R/RW/RWSTAUNER/Test-Aggregate-0.371.tar.gz
+    provides:
+      Test::Aggregate 0.371
+      Test::Aggregate::Base 0.371
+      Test::Aggregate::Builder 0.371
+      Test::Aggregate::Nested 0.371
+    requirements:
+      FindBin 1.47
+      Test::Harness 3.09
+      Test::Most 0.21
+      Test::NoWarnings 0
+      Test::Simple 0.94
+      Test::Trap 0
   Test-Assert-0.0504
     pathname: D/DE/DEXTER/Test-Assert-0.0504.tar.gz
     provides:

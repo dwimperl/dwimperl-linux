@@ -364,6 +364,7 @@ requires 'Term::ANSIColor',                                '4.03';
 requires 'Term::Cap',                                      '1.16';
 requires 'Term::ProgressBar::Simple',                      '0.03';
 requires 'Term::ReadLine',                                 '1.14';
+requires 'Test::Aggregate::Nested',                        '0.371';
 requires 'Test::Assertions',                               '1.054';
 requires 'Test::Builder',                                  '1.001006';
 requires 'Test::CheckDeps',                                '0.010';
