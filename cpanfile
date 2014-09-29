@@ -71,6 +71,7 @@ requires 'Class::XSAccessor',                              '1.19';
 requires 'Code::Explain',                                  '0.02';
 requires 'Code::TidyAll',                                  '0.20';
 requires 'Compress::Zlib',                                 '2.066';
+requires 'Convos',                                         '0.84';
 requires 'Config::Any',                                    '0.24';
 requires 'Config::General',                                '2.56';
 requires 'Config::JFDI',                                   '0.065';

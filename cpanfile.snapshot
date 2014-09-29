@@ -2174,6 +2174,46 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       Math::BigInt 1.997
       Test::More 0.90
+  Convos-0.84
+    pathname: J/JH/JHTHORSEN/Convos-0.84.tar.gz
+    provides:
+      Convos 0.84
+      Convos::Archive undef
+      Convos::Archive::File undef
+      Convos::Command::backend undef
+      Convos::Command::flush undef
+      Convos::Command::upgrade undef
+      Convos::Command::version undef
+      Convos::Controller::Chat undef
+      Convos::Controller::Client undef
+      Convos::Controller::Connection undef
+      Convos::Controller::Oembed undef
+      Convos::Controller::User undef
+      Convos::Core undef
+      Convos::Core::Commands undef
+      Convos::Core::Connection undef
+      Convos::Core::Util undef
+      Convos::Loopback undef
+      Convos::Plugin::Helpers undef
+      Convos::Upgrader undef
+      Convos::Upgrader::v0_3004 undef
+      Convos::Upgrader::v0_3005 undef
+      Convos::Upgrader::v0_8400 undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Socket::SSL 1.84
+      IRC::Utils 0.12
+      Mojo::IRC 0.11
+      Mojo::Redis 0.9928
+      Mojolicious 5.3
+      Mojolicious::Plugin::AssetPack 0.23
+      Mojolicious::Plugin::FontAwesome4 4.1
+      Mojolicious::Plugin::LinkEmbedder 0.07
+      Parse::IRC 1.18
+      Test::More 0.90
+      Time::Piece 1.2
+      URI::Find 20111103
+      Unicode::UTF8 0.58
   Cookie-Baker-0.03
     pathname: K/KA/KAZEBURO/Cookie-Baker-0.03.tar.gz
     provides:
@@ -6736,6 +6776,12 @@ DISTRIBUTIONS
       re 0
       strict 0
       warnings 0
+  IRC-Utils-0.12
+    pathname: H/HI/HINRIK/IRC-Utils-0.12.tar.gz
+    provides:
+      IRC::Utils 0.12
+    requirements:
+      ExtUtils::MakeMaker 6.30
   Import-Into-1.002004
     pathname: E/ET/ETHER/Import-Into-1.002004.tar.gz
     provides:
@@ -7959,6 +8005,28 @@ DISTRIBUTIONS
       Getopt::Long 0
       Test::More 0
       autodie 0
+  Mojo-IRC-0.13
+    pathname: J/JH/JHTHORSEN/Mojo-IRC-0.13.tar.gz
+    provides:
+      Mojo::IRC 0.13
+    requirements:
+      ExtUtils::MakeMaker 0
+      IRC::Utils 0.12
+      Mojolicious 4.30
+      Parse::IRC 1.20
+      Test::More 0.88
+      Unicode::UTF8 0.59
+  Mojo-Redis-0.9928
+    pathname: J/JH/JHTHORSEN/Mojo-Redis-0.9928.tar.gz
+    provides:
+      Mojo::Redis 0.9928
+      Mojo::Redis::Subscription undef
+    requirements:
+      Encode 0
+      ExtUtils::MakeMaker 0
+      Mojolicious 3.0
+      Protocol::Redis 1.0
+      Test::More 0.88
   Mojolicious-5.46
     pathname: S/SR/SRI/Mojolicious-5.46.tar.gz
     provides:
@@ -8073,6 +8141,27 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Pod::Simple 3.09
       Time::Local 1.2
+  Mojolicious-Plugin-AssetPack-0.24
+    pathname: J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+    provides:
+      Mojolicious::Plugin::AssetPack 0.24
+      Mojolicious::Plugin::AssetPack::Preprocessor undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::CoffeeScript undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Css undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::JavaScript undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Jsx undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Less undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Sass undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Scss undef
+      Mojolicious::Plugin::AssetPack::Preprocessors 0.01
+    requirements:
+      CSS::Minifier::XS 0.01
+      ExtUtils::MakeMaker 0
+      File::Which 1.00
+      IPC::Run3 0.04
+      JavaScript::Minifier::XS 0.01
+      Mojolicious 5.00
+      Test::More 0.88
   Mojolicious-Plugin-Authentication-1.26
     pathname: M/MA/MADCAT/Mojolicious-Plugin-Authentication-1.26.tar.gz
     provides:
@@ -8080,6 +8169,15 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.30
       Mojo::Base 0
+  Mojolicious-Plugin-FontAwesome4-4.2001
+    pathname: J/JH/JHTHORSEN/Mojolicious-Plugin-FontAwesome4-4.2001.tar.gz
+    provides:
+      Mojolicious::Plugin::FontAwesome4 4.2001
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mojolicious 5.00
+      Mojolicious::Plugin::AssetPack 0.24
+      Test::More 0.88
   Mojolicious-Plugin-Humane-0.07
     pathname: J/JB/JBERGER/Mojolicious-Plugin-Humane-0.07.tar.gz
     provides:
@@ -8088,6 +8186,31 @@ DISTRIBUTIONS
       File::ShareDir 1.00
       Module::Build 0.38
       Mojolicious 4.77
+  Mojolicious-Plugin-LinkEmbedder-0.07
+    pathname: J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+    provides:
+      Mojolicious::Plugin::LinkEmbedder 0.07
+      Mojolicious::Plugin::LinkEmbedder::Link undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Game undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Game::_2play undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Image undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Image::Imgur undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Text undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Text::GistGithub undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Text::Twitter undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Video undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Video::Blip undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Video::Collegehumor undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Video::Dbtv undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Video::Ted undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Video::Vimeo undef
+      Mojolicious::Plugin::LinkEmbedder::Link::Video::Youtube undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Find 1.00
+      Module::Find 0.10
+      Mojolicious 5.00
+      Test::More 0.90
   Mojolicious-Plugin-Memorize-0.01
     pathname: J/JB/JBERGER/Mojolicious-Plugin-Memorize-0.01.tar.gz
     provides:
@@ -10376,6 +10499,13 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.36
       Test::More 0.88
+  Parse-IRC-1.20
+    pathname: B/BI/BINGOS/Parse-IRC-1.20.tar.gz
+    provides:
+      Parse::IRC 1.20
+    requirements:
+      ExtUtils::MakeMaker 6.59
+      Test::More 0.47
   Parse-Method-Signatures-1.003016
     pathname: I/IL/ILMARI/Parse-Method-Signatures-1.003016.tar.gz
     provides:
@@ -11382,6 +11512,17 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       File::Spec 0
       strict 0
+  Protocol-Redis-1.0003
+    pathname: U/UN/UNDEF/Protocol-Redis-1.0003.tar.gz
+    provides:
+      Protocol::Redis 1.0003
+      Protocol::Redis::Test undef
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.98
+      List::Util 0
+      Test::More 0.88
+      perl 5.008001
   Readonly-2.00
     pathname: S/SA/SANKO/Readonly-2.00.tar.gz
     provides:
@@ -14423,6 +14564,19 @@ DISTRIBUTIONS
       constant 0
       strict 0
       warnings 0
+  Unicode-UTF8-0.60
+    pathname: C/CH/CHANSEN/Unicode-UTF8-0.60.tar.gz
+    provides:
+      Unicode::UTF8 0.60
+    requirements:
+      Carp 0
+      Encode 1.9801
+      Exporter 0
+      ExtUtils::MakeMaker 6.59
+      Test::Fatal 0.006
+      Test::More 0.47
+      XSLoader 0
+      perl 5.008001
   Validate-Tiny-1.005
     pathname: M/MI/MINIMAL/Validate-Tiny-1.005.tar.gz
     provides:

@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   6709
-Last-Updated: Mon Sep 29 22:15:28 2014
+Line-Count:   6766
+Last-Updated: Mon Sep 29 22:22:48 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -717,6 +717,28 @@ Config::MVP::Sequence              2.200008  R/RJ/RJBS/Config-MVP-2.200008.tar.g
 Config::Tiny                           2.20  R/RS/RSAVAGE/Config-Tiny-2.20.tgz
 Context::Preserve                      0.01  J/JR/JROCKWAY/Context-Preserve-0.01.tar.gz
 Convert::ASN1                          0.27  G/GB/GBARR/Convert-ASN1-0.27.tar.gz
+Convos                                 0.84  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Archive                       undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Archive::File                 undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Command::backend              undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Command::flush                undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Command::upgrade              undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Command::version              undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Controller::Chat              undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Controller::Client            undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Controller::Connection        undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Controller::Oembed            undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Controller::User              undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Core                          undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Core::Commands                undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Core::Connection              undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Core::Util                    undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Loopback                      undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Plugin::Helpers               undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Upgrader                      undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Upgrader::v0_3004             undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Upgrader::v0_3005             undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
+Convos::Upgrader::v0_8400             undef  J/JH/JHTHORSEN/Convos-0.84.tar.gz
 Cookie::Baker                          0.03  K/KA/KAZEBURO/Cookie-Baker-0.03.tar.gz
 Cpanel::JSON::XS                     3.0104  R/RU/RURBAN/Cpanel-JSON-XS-3.0104.tar.gz
 Crypt::DES                             2.07  D/DP/DPARIS/Crypt-DES-2.07.tar.gz
@@ -3059,6 +3081,7 @@ IPC::Run::Win32Helper                  0.90  T/TO/TODDR/IPC-Run-0.92.tar.gz
 IPC::Run::Win32IO                      0.90  T/TO/TODDR/IPC-Run-0.92.tar.gz
 IPC::Run::Win32Pump                    0.90  T/TO/TODDR/IPC-Run-0.92.tar.gz
 IPC::System::Simple                    1.25  P/PJ/PJF/IPC-System-Simple-1.25.tar.gz
+IRC::Utils                             0.12  H/HI/HINRIK/IRC-Utils-0.12.tar.gz
 Import::Into                       1.002004  E/ET/ETHER/Import-Into-1.002004.tar.gz
 JSON                                   2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
 JSON::Any                              1.36  E/ET/ETHER/JSON-Any-1.36.tar.gz
@@ -3501,6 +3524,7 @@ Mojo::IOLoop::Client                  undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::IOLoop::Delay                   undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::IOLoop::Server                  undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::IOLoop::Stream                  undef  S/SR/SRI/Mojolicious-5.46.tar.gz
+Mojo::IRC                              0.13  J/JH/JHTHORSEN/Mojo-IRC-0.13.tar.gz
 Mojo::JSON                            undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::JSON::Pointer                   undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::JSON::_Bool                     undef  S/SR/SRI/Mojolicious-5.46.tar.gz
@@ -3514,6 +3538,8 @@ Mojo::Path                            undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::Reactor                         undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::Reactor::EV                     undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::Reactor::Poll                   undef  S/SR/SRI/Mojolicious-5.46.tar.gz
+Mojo::Redis                          0.9928  J/JH/JHTHORSEN/Mojo-Redis-0.9928.tar.gz
+Mojo::Redis::Subscription             undef  J/JH/JHTHORSEN/Mojo-Redis-0.9928.tar.gz
 Mojo::Server                          undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::Server::CGI                     undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojo::Server::Daemon                  undef  S/SR/SRI/Mojolicious-5.46.tar.gz
@@ -3558,6 +3584,16 @@ Mojolicious::Commands                 undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Controller               undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Lite                     undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin                   undef  S/SR/SRI/Mojolicious-5.46.tar.gz
+Mojolicious::Plugin::AssetPack         0.24  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+Mojolicious::Plugin::AssetPack::Preprocessor      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+Mojolicious::Plugin::AssetPack::Preprocessor::CoffeeScript      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+Mojolicious::Plugin::AssetPack::Preprocessor::Css      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+Mojolicious::Plugin::AssetPack::Preprocessor::JavaScript      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+Mojolicious::Plugin::AssetPack::Preprocessor::Jsx      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+Mojolicious::Plugin::AssetPack::Preprocessor::Less      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+Mojolicious::Plugin::AssetPack::Preprocessor::Sass      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+Mojolicious::Plugin::AssetPack::Preprocessor::Scss      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
+Mojolicious::Plugin::AssetPack::Preprocessors       0.01  J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-0.24.tar.gz
 Mojolicious::Plugin::Authentication       1.26  M/MA/MADCAT/Mojolicious-Plugin-Authentication-1.26.tar.gz
 Mojolicious::Plugin::Charset          undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin::Config           undef  S/SR/SRI/Mojolicious-5.46.tar.gz
@@ -3565,9 +3601,26 @@ Mojolicious::Plugin::Config::Sandbox      undef  S/SR/SRI/Mojolicious-5.46.tar.g
 Mojolicious::Plugin::DefaultHelpers      undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin::EPLRenderer      undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin::EPRenderer       undef  S/SR/SRI/Mojolicious-5.46.tar.gz
+Mojolicious::Plugin::FontAwesome4     4.2001  J/JH/JHTHORSEN/Mojolicious-Plugin-FontAwesome4-4.2001.tar.gz
 Mojolicious::Plugin::HeaderCondition      undef  S/SR/SRI/Mojolicious-5.46.tar.gz
 Mojolicious::Plugin::Humane            0.07  J/JB/JBERGER/Mojolicious-Plugin-Humane-0.07.tar.gz
 Mojolicious::Plugin::JSONConfig       undef  S/SR/SRI/Mojolicious-5.46.tar.gz
+Mojolicious::Plugin::LinkEmbedder       0.07  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Game      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Game::_2play      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Image      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Image::Imgur      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Text      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Text::GistGithub      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Text::Twitter      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Video      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Video::Blip      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Video::Collegehumor      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Video::Dbtv      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Video::Ted      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Video::Vimeo      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
+Mojolicious::Plugin::LinkEmbedder::Link::Video::Youtube      undef  J/JH/JHTHORSEN/Mojolicious-Plugin-LinkEmbedder-0.07.tar.gz
 Mojolicious::Plugin::Memorize          0.01  J/JB/JBERGER/Mojolicious-Plugin-Memorize-0.01.tar.gz
 Mojolicious::Plugin::Minion           undef  S/SR/SRI/Minion-0.37.tar.gz
 Mojolicious::Plugin::Mount            undef  S/SR/SRI/Mojolicious-5.46.tar.gz
@@ -4581,6 +4634,7 @@ Parse::Functions::Java                 0.01  S/SZ/SZABGAB/Parse-Functions-0.01.t
 Parse::Functions::Perl                 0.01  S/SZ/SZABGAB/Parse-Functions-0.01.tar.gz
 Parse::Functions::Python               0.01  S/SZ/SZABGAB/Parse-Functions-0.01.tar.gz
 Parse::Functions::Ruby                 0.01  S/SZ/SZABGAB/Parse-Functions-0.01.tar.gz
+Parse::IRC                             1.20  B/BI/BINGOS/Parse-IRC-1.20.tar.gz
 Parse::Method::Signatures          1.003016  I/IL/ILMARI/Parse-Method-Signatures-1.003016.tar.gz
 Parse::Method::Signatures::Param      undef  I/IL/ILMARI/Parse-Method-Signatures-1.003016.tar.gz
 Parse::Method::Signatures::Param::Bindable      undef  I/IL/ILMARI/Parse-Method-Signatures-1.003016.tar.gz
@@ -5060,6 +5114,8 @@ Portable::HomeDir                      1.22  K/KM/KMX/Portable-1.22.tar.gz
 Portable::LoadYaml                     1.22  K/KM/KMX/Portable-1.22.tar.gz
 Portable::minicpan                     1.22  K/KM/KMX/Portable-1.22.tar.gz
 Probe::Perl                            0.03  K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
+Protocol::Redis                      1.0003  U/UN/UNDEF/Protocol-Redis-1.0003.tar.gz
+Protocol::Redis::Test                 undef  U/UN/UNDEF/Protocol-Redis-1.0003.tar.gz
 Readonly                               2.00  S/SA/SANKO/Readonly-2.00.tar.gz
 Readonly::Array                        2.00  S/SA/SANKO/Readonly-2.00.tar.gz
 Readonly::Hash                         2.00  S/SA/SANKO/Readonly-2.00.tar.gz
@@ -6313,6 +6369,7 @@ Unicode::Collate::Locale               1.02  S/SA/SADAHIRO/Unicode-Collate-1.07.
 Unicode::GCString                   2013.10  N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
 Unicode::LineBreak                  2014.06  N/NE/NEZUMI/Unicode-LineBreak-2014.06.tar.gz
 Unicode::Normalize                     1.18  S/SA/SADAHIRO/Unicode-Normalize-1.18.tar.gz
+Unicode::UTF8                          0.60  C/CH/CHANSEN/Unicode-UTF8-0.60.tar.gz
 Unicornify::URL                        1.06  M/MS/MSCHWERN/Gravatar-URL-1.06.tar.gz
 Validate::Tiny                        1.005  M/MI/MINIMAL/Validate-Tiny-1.005.tar.gz
 Variable::Magic                        0.54  V/VP/VPIT/Variable-Magic-0.54.tar.gz
