@@ -57,7 +57,7 @@ requires 'Class::Adapter',                                 '1.08';
 requires 'Class::ErrorHandler',                            '0.03';
 requires 'Class::Inspector',                               '1.28';
 requires 'Class::Mix',                                     '0.005';
-requires 'Class::Singleton',                               '1.4';
+requires 'Class::Singleton',                               '1.4'; #5
 requires 'Class::XSAccessor',                              '1.19';
 requires 'Code::Explain',                                  '0.02';
 requires 'Code::TidyAll',                                  '0.20';
@@ -171,7 +171,7 @@ requires 'IO::String',                                     '1.08';
 requires 'IO::Uncompress::Gunzip',                         '2.066';
 requires 'IPC::Run',                                       '0.92';
 requires 'IPC::Run3',                                      '0.048';
-requires 'IPC::System::Simple',                            '1.25'; # fails the taint mode tests probably due to the %Config mangling see build.sh
+requires 'IPC::System::Simple',                            '1.25'; #3
 requires 'JSON',                                           '2.90';
 requires 'JSON::MaybeXS',                                  '1.002002';
 requires 'JSON::XS',                                       '3.01';
@@ -407,9 +407,9 @@ requires 'Web::Feed',                                      '0.03';
 requires 'WebService::GData',                              '0.06';
 requires 'XML::Atom',                                      '0.41';
 requires 'XML::Feed',                                      '0.52';
-requires 'XML::LibXML',                                    '2.0116'; # it needs all kinds of parameters to build see build.sh and #2
+requires 'XML::LibXML',                                    '2.0116'; #2
 requires 'XML::NamespaceSupport',                          '1.11';
-requires 'XML::Parser',                                    '2.41';
+requires 'XML::Parser',                                    '2.41'; #4
 requires 'XML::RSS',                                       '1.55';
 requires 'XML::SAX',                                       '0.99';
 requires 'XML::SAX::Writer',                               '0.53';

@@ -197,10 +197,10 @@ case $1 in
   notest)
       source $ROOT/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --notest IPC::System::Simple
-      # see https://travis-ci.org/dwimperl/dwimperl-linux/builds/36451393
+      # see #3
 
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --notest Class::Singleton
-      # Test counting restarts after 1 due to destructor timing. see https://rt.cpan.org/Public/Bug/Display.html?id=23568
+      # see #5
   ;;
 
   try)
