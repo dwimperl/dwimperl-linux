@@ -5361,6 +5361,13 @@ DISTRIBUTIONS
       IO::File 0
       Log::Any 0
       Test::More 0
+  Log-Any-Adapter-Callback-0.09
+    pathname: S/SH/SHARYANTO/Log-Any-Adapter-Callback-0.09.tar.gz
+    provides:
+      Log::Any::Adapter::Callback 0.09
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Log::Any::Adapter 0.11
   Log-Contextual-0.006004
     pathname: F/FR/FREW/Log-Contextual-0.006004.tar.gz
     provides:
@@ -10312,6 +10319,21 @@ DISTRIBUTIONS
       Path::Tiny 0.018
       strict 0
       warnings 0
+  Test-Filename-0.03
+    pathname: D/DA/DAGOLDEN/Test-Filename-0.03.tar.gz
+    provides:
+      Test::Filename 0.03
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Spec::Functions 0
+      File::Temp 0
+      Path::Tiny 0
+      Test::Builder::Module 0
+      Test::More 0
+      Test::Tester 0
+      strict 0
+      warnings 0
   Test-Harness-3.33
     pathname: L/LE/LEONT/Test-Harness-3.33.tar.gz
     provides:
@@ -10455,6 +10477,22 @@ DISTRIBUTIONS
       Test::Most 0.34
       Test::Most::Exception 0.34
     requirements:
+  Test-Name-FromLine-0.13
+    pathname: S/SA/SATOH/Test-Name-FromLine-0.13.tar.gz
+    provides:
+      Test::Name::FromLine 0.13
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 6.36
+      File::Slurp 0
+      Filter::Util::Call 0
+      Module::Build 0.38
+      Test::Builder 0
+      Test::Differences 0
+      Test::Fatal 0
+      Test::More 0
   Test-NoWarnings-1.04
     pathname: A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz
     provides:
@@ -10668,6 +10706,15 @@ DISTRIBUTIONS
       Test::Tester::CaptureRunner undef
       Test::Tester::Delegate undef
     requirements:
+  Test-Time-0.04
+    pathname: S/SA/SATOH/Test-Time-0.04.tar.gz
+    provides:
+      Test::Time 0.04
+    requirements:
+      ExtUtils::MakeMaker 6.36
+      Filter::Util::Call 0
+      Test::More 0
+      Test::Name::FromLine 0
   Test-Timer-0.09
     pathname: J/JO/JONASBN/Test-Timer-0.09.tar.gz
     provides:
