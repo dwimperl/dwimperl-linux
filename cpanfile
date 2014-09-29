@@ -347,7 +347,6 @@ requires 'Spreadsheet::WriteExcel',                        '2.40';
 requires 'Spreadsheet::WriteExcel::Simple',                '1.04';
 requires 'Starman',                                        '0.4010';
 requires 'Storable',                                       '2.51';
-requires 'Strehler',                                       '1.2.2';
 requires 'Sub::Override',                                  '0.09';
 requires 'Syntax::Keyword::Junction',                      '0.003008';
 requires 'Template',                                       '2.26';
