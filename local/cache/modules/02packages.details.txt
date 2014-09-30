@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7150
-Last-Updated: Tue Sep 30 08:31:33 2014
+Line-Count:   7201
+Last-Updated: Tue Sep 30 08:42:07 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3135,6 +3135,7 @@ IO::HTML                              1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
 IO::InnerFile                         2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
 IO::Interactive                    0.000006  B/BD/BDFOY/IO-Interactive-0.0.6.tar.gz
 IO::Lines                             2.110  D/DS/DSKOLL/IO-stringy-2.110.tar.gz
+IO::Pipely                            0.005  R/RC/RCAPUTO/IO-Pipely-0.005.tar.gz
 IO::Prompt                         0.997002  D/DC/DCONWAY/IO-Prompt-0.997002.tar.gz
 IO::Prompt::ReturnVal              0.997002  D/DC/DCONWAY/IO-Prompt-0.997002.tar.gz
 IO::Prompt::Tiny                      0.002  D/DA/DAGOLDEN/IO-Prompt-Tiny-0.002.tar.gz
@@ -4700,6 +4701,56 @@ PDF::Image::GIF                        1.10  S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
 PDF::Image::JPEG                       1.10  S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
 PIR                                   1.008  D/DA/DAGOLDEN/Path-Iterator-Rule-1.008.tar.gz
 POD2::Base                            0.043  F/FE/FERREIRA/POD2-Base-0.043.tar.gz
+POE                                   1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Component                        1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Component::Client::TCP           1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Component::Server::TCP           1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Driver                           1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Driver::SysRW                    1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter                           1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter::Block                    1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter::Grep                     1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter::HTTPD                    1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter::Line                     1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter::Map                      1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter::RecordBlock              1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter::Reference                1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter::Stackable                1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Filter::Stream                   1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Kernel                           1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Loop                             1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Loop::IO_Poll                    1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Loop::PerlSignals                1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Loop::Select                     1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::NFA                              1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Pipe                             1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Pipe::OneWay                     1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Pipe::TwoWay                     1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Queue                            1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Queue::Array                     1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resource                         1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resource::Aliases                1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resource::Clock                  1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resource::Events                 1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resource::Extrefs                1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resource::FileHandles            1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resource::SIDs                   1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resource::Sessions               1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resource::Signals                1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Resources                        1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Session                          1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Test::DondeEstan                 1.358  R/RC/RCAPUTO/POE-Test-Loops-1.358.tar.gz
+POE::Test::Loops                      1.358  R/RC/RCAPUTO/POE-Test-Loops-1.358.tar.gz
+POE::Test::Sequence                   undef  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Wheel                            1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Wheel::Curses                    1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Wheel::FollowTail                1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Wheel::ListenAccept              1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Wheel::ReadLine                  1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Wheel::ReadLine::Keymap          1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Wheel::ReadWrite                 1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Wheel::Run                       1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
+POE::Wheel::SocketFactory             1.364  R/RC/RCAPUTO/POE-1.364.tar.gz
 POSIX::strftime::Compiler              0.40  K/KA/KAZEBURO/POSIX-strftime-Compiler-0.40.tar.gz
 PPI                                   1.218  M/MI/MITHALDU/PPI-1.218.tar.gz
 PPI::Cache                            1.218  M/MI/MITHALDU/PPI-1.218.tar.gz

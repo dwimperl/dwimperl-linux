@@ -315,6 +315,7 @@ requires 'ORLite',                                         '1.98';
 requires 'ORLite::Migrate',                                '1.10';
 requires 'PDF::Create',                                    '1.08';
 requires 'POD2::Base',                                     '0.043';
+requires 'POE',                                            '1.364';
 requires 'PPI',                                            '1.218';
 requires 'PPIx::EditorTools',                              '0.19';
 requires 'PPIx::EditorTools::Outline',                     '0.18';

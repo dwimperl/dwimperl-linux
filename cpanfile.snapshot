@@ -6971,6 +6971,19 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0
       version 0
+  IO-Pipely-0.005
+    pathname: R/RC/RCAPUTO/IO-Pipely-0.005.tar.gz
+    provides:
+      IO::Pipely 0.005
+    requirements:
+      Exporter 5.68
+      ExtUtils::MakeMaker 6.30
+      Fcntl 1.06
+      IO::Socket 1.31
+      Symbol 1.06
+      base 2.18
+      strict 0
+      warnings 0
   IO-Prompt-0.997002
     pathname: D/DC/DCONWAY/IO-Prompt-0.997002.tar.gz
     provides:
@@ -10624,6 +10637,80 @@ DISTRIBUTIONS
       strict 0
       vars 0
       warnings 0
+  POE-1.364
+    pathname: R/RC/RCAPUTO/POE-1.364.tar.gz
+    provides:
+      POE 1.364
+      POE::Component 1.364
+      POE::Component::Client::TCP 1.364
+      POE::Component::Server::TCP 1.364
+      POE::Driver 1.364
+      POE::Driver::SysRW 1.364
+      POE::Filter 1.364
+      POE::Filter::Block 1.364
+      POE::Filter::Grep 1.364
+      POE::Filter::HTTPD 1.364
+      POE::Filter::Line 1.364
+      POE::Filter::Map 1.364
+      POE::Filter::RecordBlock 1.364
+      POE::Filter::Reference 1.364
+      POE::Filter::Stackable 1.364
+      POE::Filter::Stream 1.364
+      POE::Kernel 1.364
+      POE::Loop 1.364
+      POE::Loop::IO_Poll 1.364
+      POE::Loop::PerlSignals 1.364
+      POE::Loop::Select 1.364
+      POE::NFA 1.364
+      POE::Pipe 1.364
+      POE::Pipe::OneWay 1.364
+      POE::Pipe::TwoWay 1.364
+      POE::Queue 1.364
+      POE::Queue::Array 1.364
+      POE::Resource 1.364
+      POE::Resource::Aliases 1.364
+      POE::Resource::Clock 1.364
+      POE::Resource::Events 1.364
+      POE::Resource::Extrefs 1.364
+      POE::Resource::FileHandles 1.364
+      POE::Resource::SIDs 1.364
+      POE::Resource::Sessions 1.364
+      POE::Resource::Signals 1.364
+      POE::Resources 1.364
+      POE::Session 1.364
+      POE::Test::Sequence undef
+      POE::Wheel 1.364
+      POE::Wheel::Curses 1.364
+      POE::Wheel::FollowTail 1.364
+      POE::Wheel::ListenAccept 1.364
+      POE::Wheel::ReadLine 1.364
+      POE::Wheel::ReadLine::Keymap 1.364
+      POE::Wheel::ReadWrite 1.364
+      POE::Wheel::Run 1.364
+      POE::Wheel::SocketFactory 1.364
+    requirements:
+      Carp 0
+      Errno 1.09
+      Exporter 0
+      File::Spec 0.87
+      IO 1.24
+      IO::Handle 1.27
+      IO::Pipely 0.005
+      IO::Tty 1.08
+      POE::Test::Loops 1.358
+      POSIX 1.02
+      Socket 1.7
+      Storable 2.16
+      Test::Harness 2.26
+      Time::HiRes 1.59
+  POE-Test-Loops-1.358
+    pathname: R/RC/RCAPUTO/POE-Test-Loops-1.358.tar.gz
+    provides:
+      POE::Test::DondeEstan 1.358
+      POE::Test::Loops 1.358
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Test::More 1.001003
   POSIX-strftime-Compiler-0.40
     pathname: K/KA/KAZEBURO/POSIX-strftime-Compiler-0.40.tar.gz
     provides:
