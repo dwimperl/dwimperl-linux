@@ -6889,6 +6889,14 @@ DISTRIBUTIONS
       Mojolicious::Plugin::Memorize 0
       SQL::Translator 0
       perl v5.10.1
+  Geo-IP-1.45
+    pathname: M/MA/MAXMIND/Geo-IP-1.45.tar.gz
+    provides:
+      Geo::IP 1.45
+      Geo::IP::Record undef
+      Geo::Mirror 1.45
+    requirements:
+      ExtUtils::MakeMaker 0
   Getopt-ArgvFile-1.11
     pathname: J/JS/JSTENZEL/Getopt-ArgvFile-1.11.tar.gz
     provides:
