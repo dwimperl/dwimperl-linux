@@ -182,6 +182,7 @@ requires 'Flickr::API',                                    '1.10';
 requires 'Future',                                         '0.29';
 requires 'Future::Q',                                      '0.090';
 requires 'Galileo',                                        '0.036';
+requires 'Geo::IP',                                        '1.43';
 requires 'Gravatar::URL',                                  '1.06';
 requires 'HTML::Entities',                                 '3.69';
 requires 'HTML::Escape',                                   '1.09';

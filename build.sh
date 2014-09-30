@@ -23,6 +23,12 @@ OPENSSL=openssl-1.0.1i
 LIBXML2=libxml2-2.9.1
 ZLIB=zlib-1.2.8
 EXPAT=expat-2.1.0
+GEOIP=GeoIP-1.6.2
+if [ "$GEOIP_DATA_URL" = "" ]
+then
+    GEOIP_DATA_URL=http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+fi
+
 
 # If you want to build DWIM Perl based on an earlier version
 # the script will download that version from http://dwimperl.com/download
@@ -171,6 +177,21 @@ case $1 in
 ## See any operating system documentation about shared libraries for
 ## more information, such as the ld(1) and ld.so(8) manual pages.
 
+  geoip)
+      cd $BUILD_TMP
+      tar xzf $SROUCE_HOME/src/$GEOIP.tar.gz
+      cd $GEOIP
+      ./configure --prefix $PREFIX_C
+      make
+      make check
+      make install
+
+      wget $GEOIP_DATA_URL
+      gunzip GeoIP.dat.gz
+      mkdir -p $SOURCE_HOME/share/GeoIP/
+      mv GeoIP.dat $SOURCE_HOME/share/GeoIP/
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Geo::IP
+  ;;
 
   get_base_perl)
       cd $BUILD_TMP

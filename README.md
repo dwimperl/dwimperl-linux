@@ -117,6 +117,21 @@ cd src
 wget http://sourceforge.net/projects/expat/files/expat/2.1.0/expat-2.1.0.tar.gz
 ```
 
+Geo::IP
+---------
+
+Needed by Geo::IP
+
+Visit http://dev.maxmind.com/geoip/legacy/downloadable/
+that links to https://github.com/maxmind/geoip-api-c/releases
+
+```
+cd src
+wget https://github.com/maxmind/geoip-api-c/releases/download/v1.6.2/GeoIP-1.6.2.tar.gz
+```
+
+Change the GEOIP variable in build.sh
+
 
 Upgrade cpanm used for installing cpanm
 ---------------------------------------
