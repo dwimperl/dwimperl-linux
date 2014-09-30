@@ -11,7 +11,7 @@ requires 'MooseX::App::Cmd',                               '0.27'; # failed
 requires 'MooseX::Traits',                                 '0.12'; # failed
 requires 'PAR::Packer',                                    '1.022'; # failed
 requires 'PerlIO::gzip',                                   '0.18'; # failed, reported to author by mail
-requires 'Pinto',                                          '0.09995'; depends on #7
+requires 'Pinto',                                          '0.09995'; depends on #7 via CPAN-Checksums
 requires 'Search::Xapian',                                 '1.2.18.0'; # needs xapian installed
 requires 'SNMP',                                           '5.0404'; # failed
 requires 'SNMP::Info',                                     '3.20'; # failed
