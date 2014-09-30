@@ -314,6 +314,7 @@ requires 'NetAddr::IP',                                    '4.075';
 requires 'ORLite',                                         '1.98';
 requires 'ORLite::Migrate',                                '1.10';
 requires 'PDF::Create',                                    '1.08';
+requires 'Pinto',                                          '0.09995';
 requires 'POD2::Base',                                     '0.043';
 requires 'PPI',                                            '1.218';
 requires 'PPIx::EditorTools',                              '0.19';

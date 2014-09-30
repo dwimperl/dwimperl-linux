@@ -713,6 +713,31 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.42
       Test::More 0
       perl 5.005
+  Authen-Simple-0.5
+    pathname: C/CH/CHANSEN/Authen-Simple-0.5.tar.gz
+    provides:
+      Authen::Simple 0.5
+      Authen::Simple::Adapter undef
+      Authen::Simple::Apache undef
+      Authen::Simple::Log undef
+      Authen::Simple::Password undef
+    requirements:
+      Class::Accessor::Fast 0
+      Class::Data::Inheritable 0
+      Crypt::PasswdMD5 0
+      Digest::MD5 0
+      Digest::SHA 0
+      ExtUtils::MakeMaker 6.36
+      MIME::Base64 0
+      Params::Validate 0
+      Test::More 0
+  Authen-Simple-Passwd-0.6
+    pathname: C/CH/CHANSEN/Authen-Simple-Passwd-0.6.tar.gz
+    provides:
+      Authen::Simple::Passwd 0.6
+    requirements:
+      Authen::Simple 0.3
+      IO::File 0
   B-Debug-1.21
     pathname: R/RU/RURBAN/B-Debug-1.21.tar.gz
     provides:
@@ -1012,6 +1037,22 @@ DISTRIBUTIONS
       Text::Wrap 0
       perl 5.008
       version 0.79
+  CPAN-Checksums-2.09
+    pathname: A/AN/ANDK/CPAN-Checksums-2.09.tar.gz
+    provides:
+      CPAN::Checksums 2.09
+    requirements:
+      Compress::Bzip2 0
+      Compress::Zlib 0
+      Data::Compare 0
+      Data::Dumper 0
+      Digest::MD5 2.36
+      Digest::SHA 0
+      DirHandle 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      File::Temp 0
+      IO::File 1.14
   CPAN-DistnameInfo-0.12
     pathname: G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
     provides:
@@ -2065,6 +2106,20 @@ DISTRIBUTIONS
       Text::ParseWords 0
       Time::Duration::Parse 0
       Try::Tiny 0
+  Compress-Bzip2-2.18
+    pathname: R/RU/RURBAN/Compress-Bzip2-2.18.tar.gz
+    provides:
+      Compress::Bzip2 2.18
+    requirements:
+      Carp 0
+      Config 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      File::Copy 0
+      File::Spec 0
+      Getopt::Std 0
+      Test::More 0
+      constant 1.04
   Compress-Raw-Bzip2-2.066
     pathname: P/PM/PMQS/Compress-Raw-Bzip2-2.066.tar.gz
     provides:
@@ -5031,6 +5086,43 @@ DISTRIBUTIONS
       base 0
       strict 0
       warnings 0
+  Dist-Metadata-0.925
+    pathname: R/RW/RWSTAUNER/Dist-Metadata-0.925.tar.gz
+    provides:
+      Dist::Metadata 0.925
+      Dist::Metadata::Archive 0.925
+      Dist::Metadata::Dir 0.925
+      Dist::Metadata::Dist 0.925
+      Dist::Metadata::Struct 0.925
+      Dist::Metadata::Tar 0.925
+      Dist::Metadata::Zip 0.925
+    requirements:
+      Archive::Tar 1
+      Archive::Zip 1.30
+      CPAN::DistnameInfo 0.12
+      CPAN::Meta 2.1
+      Carp 0
+      Digest 1.03
+      Digest::MD5 2
+      Digest::SHA 5
+      ExtUtils::MakeMaker 6.30
+      File::Basename 0
+      File::Find 0
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Spec::Native 1.002
+      File::Temp 0.19
+      List::Util 0
+      Module::Metadata 0
+      Path::Class 0.24
+      Test::Fatal 0
+      Test::MockObject 1.09
+      Test::More 0.96
+      Try::Tiny 0.09
+      constant 0
+      parent 0
+      strict 0
+      warnings 0
   Dist-Zilla-5.020
     pathname: R/RJ/RJBS/Dist-Zilla-5.020.tar.gz
     provides:
@@ -5710,6 +5802,12 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Exporter-Tidy-0.07
+    pathname: J/JU/JUERD/Exporter-Tidy-0.07.tar.gz
+    provides:
+      Exporter::Tidy 0.07
+    requirements:
+      ExtUtils::MakeMaker 0
   Exporter-Tiny-0.040
     pathname: T/TO/TOBYINK/Exporter-Tiny-0.040.tar.gz
     provides:
@@ -5967,6 +6065,12 @@ DISTRIBUTIONS
       File::MMagic 1.30
     requirements:
       ExtUtils::MakeMaker 0
+  File-NFSLock-1.24
+    pathname: B/BB/BBB/File-NFSLock-1.24.tar.gz
+    provides:
+      File::NFSLock 1.24
+    requirements:
+      ExtUtils::MakeMaker 0
   File-Next-1.12
     pathname: P/PE/PETDANCE/File-Next-1.12.tar.gz
     provides:
@@ -6040,6 +6144,17 @@ DISTRIBUTIONS
       FileHandle 0
       strict 0
       warnings 0
+  File-Spec-Native-1.003
+    pathname: R/RW/RWSTAUNER/File-Spec-Native-1.003.tar.gz
+    provides:
+      File::Spec::Native 1.003
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Temp 0
+      Test::More 0.88
   File-Which-1.09
     pathname: A/AD/ADAMK/File-Which-1.09.tar.gz
     provides:
@@ -6855,6 +6970,18 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+      version 0
+  IO-Prompt-0.997002
+    pathname: D/DC/DCONWAY/IO-Prompt-0.997002.tar.gz
+    provides:
+      IO::Prompt 0.997002
+      IO::Prompt::ReturnVal 0.997002
+    requirements:
+      IO::Handle 0
+      POSIX 0
+      Term::ReadKey 0
+      Test::More 0
+      Want 0
       version 0
   IO-Prompt-Tiny-0.002
     pathname: D/DA/DAGOLDEN/IO-Prompt-Tiny-0.002.tar.gz
@@ -8074,6 +8201,15 @@ DISTRIBUTIONS
       Text::ParseWords 0
       perl 5.008000
       version 0.87
+  Module-Build-CleanInstall-0.05
+    pathname: J/JB/JBERGER/Module-Build-CleanInstall-0.05.tar.gz
+    provides:
+      Module::Build::CleanInstall 0.05
+    requirements:
+      List::MoreUtils 0
+      Module::Build 0.36
+      parent 0
+      perl v5.8.1
   Module-Build-Deprecated-0.4210
     pathname: L/LE/LEONT/Module-Build-Deprecated-0.4210.tar.gz
     provides:
@@ -9239,6 +9375,26 @@ DISTRIBUTIONS
       namespace::autoclean 0
       perl 5.006
       warnings 0
+  MooseX-Configuration-0.02
+    pathname: D/DR/DROLSKY/MooseX-Configuration-0.02.tar.gz
+    provides:
+      MooseX::Configuration 0.02
+      MooseX::Configuration::Trait::Attribute 0.02
+      MooseX::Configuration::Trait::Attribute::ConfigKey 0.02
+      MooseX::Configuration::Trait::Object 0.02
+    requirements:
+      Config::INI 0
+      ExtUtils::MakeMaker 6.31
+      File::Temp 0
+      List::AllUtils 0
+      Moose 0
+      MooseX::Types 0
+      MooseX::Types::Path::Class 0
+      Path::Class 0
+      Test::More 0.88
+      Text::Autoformat 0
+      autodie 0
+      namespace::autoclean 0
   MooseX-Daemonize-0.19
     pathname: E/ET/ETHER/MooseX-Daemonize-0.19.tar.gz
     provides:
@@ -11431,6 +11587,238 @@ DISTRIBUTIONS
       strict 0
       utf8 0
       warnings 0
+  Pinto-0.09995
+    pathname: T/TH/THALJEF/Pinto-0.09995.tar.gz
+    provides:
+      App::Pinto 0.09995
+      App::Pinto::Command 0.09995
+      App::Pinto::Command::add 0.09995
+      App::Pinto::Command::clean 0.09995
+      App::Pinto::Command::copy 0.09995
+      App::Pinto::Command::default 0.09995
+      App::Pinto::Command::delete 0.09995
+      App::Pinto::Command::diff 0.09995
+      App::Pinto::Command::help 0.09995
+      App::Pinto::Command::init 0.09995
+      App::Pinto::Command::install 0.09995
+      App::Pinto::Command::kill 0.09995
+      App::Pinto::Command::list 0.09995
+      App::Pinto::Command::lock 0.09995
+      App::Pinto::Command::log 0.09995
+      App::Pinto::Command::manual 0.09995
+      App::Pinto::Command::merge 0.09995
+      App::Pinto::Command::migrate 0.09995
+      App::Pinto::Command::new 0.09995
+      App::Pinto::Command::nop 0.09995
+      App::Pinto::Command::pin 0.09995
+      App::Pinto::Command::props 0.09995
+      App::Pinto::Command::pull 0.09995
+      App::Pinto::Command::register 0.09995
+      App::Pinto::Command::rename 0.09995
+      App::Pinto::Command::reset 0.09995
+      App::Pinto::Command::revert 0.09995
+      App::Pinto::Command::roots 0.09995
+      App::Pinto::Command::stacks 0.09995
+      App::Pinto::Command::statistics 0.09995
+      App::Pinto::Command::thanks 0.09995
+      App::Pinto::Command::unlock 0.09995
+      App::Pinto::Command::unpin 0.09995
+      App::Pinto::Command::unregister 0.09995
+      App::Pinto::Command::update 0.09995
+      App::Pinto::Command::verify 0.09995
+      Pinto 0.09995
+      Pinto::Action 0.09995
+      Pinto::Action::Add 0.09995
+      Pinto::Action::Clean 0.09995
+      Pinto::Action::Copy 0.09995
+      Pinto::Action::Default 0.09995
+      Pinto::Action::Delete 0.09995
+      Pinto::Action::Diff 0.09995
+      Pinto::Action::Install 0.09995
+      Pinto::Action::Kill 0.09995
+      Pinto::Action::List 0.09995
+      Pinto::Action::Lock 0.09995
+      Pinto::Action::Log 0.09995
+      Pinto::Action::Merge 0.09995
+      Pinto::Action::New 0.09995
+      Pinto::Action::Nop 0.09995
+      Pinto::Action::Pin 0.09995
+      Pinto::Action::Props 0.09995
+      Pinto::Action::Pull 0.09995
+      Pinto::Action::Register 0.09995
+      Pinto::Action::Rename 0.09995
+      Pinto::Action::Reset 0.09995
+      Pinto::Action::Revert 0.09995
+      Pinto::Action::Roots 0.09995
+      Pinto::Action::Stacks 0.09995
+      Pinto::Action::Statistics 0.09995
+      Pinto::Action::Unlock 0.09995
+      Pinto::Action::Unpin 0.09995
+      Pinto::Action::Unregister 0.09995
+      Pinto::Action::Update 0.09995
+      Pinto::Action::Verify 0.09995
+      Pinto::ArchiveUnpacker 0.09995
+      Pinto::Chrome 0.09995
+      Pinto::Chrome::Net 0.09995
+      Pinto::Chrome::Term 0.09995
+      Pinto::Config 0.09995
+      Pinto::Constants 0.09995
+      Pinto::Database 0.09995
+      Pinto::Difference 0.09995
+      Pinto::DifferenceEntry 0.09995
+      Pinto::Exception 0.09995
+      Pinto::Globals 0.09995
+      Pinto::IndexReader 0.09995
+      Pinto::IndexWriter 0.09995
+      Pinto::Initializer 0.09995
+      Pinto::Locator 0.09995
+      Pinto::Locator::Mirror 0.09995
+      Pinto::Locator::Multiplex 0.09995
+      Pinto::Locator::Stratopan 0.09995
+      Pinto::Locker 0.09995
+      Pinto::Migrator 0.09995
+      Pinto::ModlistWriter 0.09995
+      Pinto::PackageExtractor 0.09995
+      Pinto::PrerequisiteWalker 0.09995
+      Pinto::Remote 0.09995
+      Pinto::Remote::Action 0.09995
+      Pinto::Remote::Action::Add 0.09995
+      Pinto::Remote::Action::Install 0.09995
+      Pinto::Remote::Result 0.09995
+      Pinto::Repository 0.09995
+      Pinto::Result 0.09995
+      Pinto::RevisionWalker 0.09995
+      Pinto::Role::Committable 0.09995
+      Pinto::Role::Installer 0.09995
+      Pinto::Role::PauseConfig 0.09995
+      Pinto::Role::Plated 0.09995
+      Pinto::Role::Puller 0.09995
+      Pinto::Role::Schema::Result 0.09995
+      Pinto::Role::Transactional 0.09995
+      Pinto::Role::UserAgent 0.09995
+      Pinto::Schema 0.09995
+      Pinto::Schema::Result::Ancestry 0.09995
+      Pinto::Schema::Result::Distribution 0.09995
+      Pinto::Schema::Result::Package 0.09995
+      Pinto::Schema::Result::Prerequisite 0.09995
+      Pinto::Schema::Result::Registration 0.09995
+      Pinto::Schema::Result::Revision 0.09995
+      Pinto::Schema::Result::Stack 0.09995
+      Pinto::Schema::ResultSet::Distribution 0.09995
+      Pinto::Schema::ResultSet::Package 0.09995
+      Pinto::Schema::ResultSet::Registration 0.09995
+      Pinto::Server 0.09995
+      Pinto::Server::Responder 0.09995
+      Pinto::Server::Responder::Action 0.09995
+      Pinto::Server::Responder::File 0.09995
+      Pinto::Server::Router 0.09995
+      Pinto::Statistics 0.09995
+      Pinto::Store 0.09995
+      Pinto::Target 0.09995
+      Pinto::Target::Distribution 0.09995
+      Pinto::Target::Package 0.09995
+      Pinto::Types 0.09995
+      Pinto::Util 0.09995
+    requirements:
+      App::Cmd 0.323
+      App::Cmd::Command::help 0
+      App::Cmd::Setup 0
+      Archive::Extract 0.68
+      Archive::Tar 0
+      Authen::Simple::Passwd 0
+      CPAN::Checksums 0
+      CPAN::DistnameInfo 0
+      CPAN::Meta 0
+      CPAN::Meta::Requirements 0
+      Carp 0
+      Class::Load 0
+      Cwd 0
+      Cwd::Guard 0
+      DBD::SQLite 1.33
+      DBIx::Class 0.08200
+      DBIx::Class::Core 0
+      DBIx::Class::ResultSet 0
+      DBIx::Class::Schema 0
+      DateTime 0
+      DateTime::TimeZone 0
+      DateTime::TimeZone::Local::Unix 0
+      DateTime::TimeZone::OffsetOnly 0
+      Devel::StackTrace 0
+      Digest::MD5 0
+      Digest::SHA 0
+      Dist::Metadata 0.924
+      Encode 0
+      Exporter 0
+      File::Copy 0
+      File::Find 0
+      File::HomeDir 0
+      File::NFSLock 0
+      File::Spec 0
+      File::Temp 0
+      File::Which 0
+      Getopt::Long 0
+      HTTP::Date 0
+      HTTP::Request::Common 0
+      HTTP::Status 0
+      IO::File 0
+      IO::Handle 0
+      IO::Interactive 0
+      IO::Pipe 0
+      IO::Prompt 0
+      IO::Select 0
+      IO::String 0
+      IO::Zlib 0
+      JSON 0
+      JSON::PP 2.27103
+      LWP::UserAgent 0
+      List::MoreUtils 0
+      List::Util 0
+      Module::Build 0.4005
+      Module::Build::CleanInstall 0.05
+      Module::CoreList 5.021002
+      Moose 0
+      Moose::Role 0
+      MooseX::Aliases 0
+      MooseX::ClassAttribute 0.27
+      MooseX::Configuration 0
+      MooseX::MarkAsMethods 0
+      MooseX::NonMoose 0
+      MooseX::SetOnce 0
+      MooseX::StrictConstructor 0
+      MooseX::Types 0
+      MooseX::Types::Moose 0
+      Path::Class 0
+      Path::Class::Dir 0
+      Path::Class::File 0
+      Plack 1.0028
+      Plack::MIME 0
+      Plack::Middleware::Auth::Basic 0
+      Plack::Request 0
+      Plack::Response 0
+      Plack::Runner 0
+      Pod::Usage 0
+      Proc::Fork 0
+      Proc::Terminator 0
+      Readonly 0
+      Router::Simple 0
+      Scalar::Util 0
+      Starman 0.3014
+      String::Format 0
+      Term::ANSIColor 2.02
+      Term::EditorEdit 0
+      Throwable::Error 0.200005
+      Try::Tiny 0
+      URI 0
+      URI::Escape 0
+      URI::file 0
+      UUID::Tiny 0
+      base 0
+      overload 0
+      perl 5.008
+      strict 0
+      utf8 0
+      version 0
+      warnings 0
   Plack-1.0031
     pathname: M/MI/MIYAGAWA/Plack-1.0031.tar.gz
     provides:
@@ -11939,6 +12327,30 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       File::Spec 0
       strict 0
+  Proc-Fork-0.802
+    pathname: A/AR/ARISTOTLE/Proc-Fork-0.802.tar.gz
+    provides:
+      Proc::Fork 0.802
+    requirements:
+      Carp 0
+      Exporter::Tidy 0
+      ExtUtils::MakeMaker 6.30
+      Test::More 0
+      strict 0
+      vars 0
+      warnings 0
+  Proc-Terminator-0.05
+    pathname: M/MN/MNUNBERG/Proc-Terminator-0.05.tar.gz
+    provides:
+      Proc::Terminator 0.05
+      Proc::Terminator::Batch 0.05
+      Proc::Terminator::Ctx 0.05
+    requirements:
+      ExtUtils::MakeMaker 0
+      Moo 0.009014
+      POSIX 0
+      Test::More 0
+      Time::HiRes 0
   Protocol-Redis-1.0003
     pathname: U/UN/UNDEF/Protocol-Redis-1.0003.tar.gz
     provides:
@@ -13469,6 +13881,19 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0.33
+  Term-EditorEdit-0.0016
+    pathname: R/RO/ROKR/Term-EditorEdit-0.0016.tar.gz
+    provides:
+      Term::EditorEdit 0.0016
+      Term::EditorEdit::Edit undef
+    requirements:
+      Any::Moose 0
+      ExtUtils::MakeMaker 6.30
+      File::Temp 0
+      IO::File 0
+      Test::Most 0
+      Text::Clip 0
+      Try::Tiny 0
   Term-Encoding-0.02
     pathname: M/MI/MIYAGAWA/Term-Encoding-0.02.tar.gz
     provides:
@@ -14324,6 +14749,16 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.36
       perl 5.005
+  Text-Autoformat-1.669004
+    pathname: D/DC/DCONWAY/Text-Autoformat-1.669004.tar.gz
+    provides:
+      Hang 1.669004
+      NullHang 1.669004
+      Text::Autoformat 1.669004
+    requirements:
+      Test::More 0
+      Text::Reform 1.11
+      version 0
   Text-Brew-0.02
     pathname: K/KC/KCIVEY/Text-Brew-0.02.tar.gz
     provides:
@@ -14372,6 +14807,14 @@ DISTRIBUTIONS
       File::Spec 0
       Scalar::Util 0
       Test::More 0
+  Text-Clip-0.0014
+    pathname: R/RO/ROKR/Text-Clip-0.0014.tar.gz
+    provides:
+      Text::Clip 0.0014
+    requirements:
+      Any::Moose 0
+      ExtUtils::MakeMaker 6.31
+      Test::Most 0
   Text-Diff-1.41
     pathname: O/OV/OVID/Text-Diff-1.41.tar.gz
     provides:
@@ -14461,6 +14904,14 @@ DISTRIBUTIONS
       Text::Pluralize 1.1
     requirements:
       ExtUtils::MakeMaker 0
+  Text-Reform-1.20
+    pathname: C/CH/CHORNY/Text-Reform-1.20.tar.gz
+    provides:
+      Text::Reform 1.20
+    requirements:
+      Exporter 0
+      Test::More 0
+      perl 5.005
   Text-SimpleTable-2.03
     pathname: M/MR/MRAMBERG/Text-SimpleTable-2.03.tar.gz
     provides:
@@ -14973,6 +15424,19 @@ DISTRIBUTIONS
       URL::Encode 0.03
       XSLoader 0
       perl 5.008001
+  UUID-Tiny-1.04
+    pathname: C/CA/CAUGUSTIN/UUID-Tiny-1.04.tar.gz
+    provides:
+      UUID::Tiny 1.04
+    requirements:
+      Carp 0
+      Digest::MD5 0
+      ExtUtils::MakeMaker 0
+      IO::File 0
+      MIME::Base64 0
+      POSIX 0
+      Test::More 0
+      Time::HiRes 0
   Unicode-Collate-1.07
     pathname: S/SA/SADAHIRO/Unicode-Collate-1.07.tar.gz
     provides:
@@ -15116,6 +15580,12 @@ DISTRIBUTIONS
       WWW::RobotRules::AnyDBM_File 6.00
       WWW::RobotRules::InCore 6.02
     requirements:
+  Want-0.23
+    pathname: R/RO/ROBIN/Want-0.23.tar.gz
+    provides:
+      Want 0.23
+    requirements:
+      ExtUtils::MakeMaker 0
   Web-Feed-0.03
     pathname: S/SZ/SZABGAB/Web-Feed-0.03.tar.gz
     provides:
