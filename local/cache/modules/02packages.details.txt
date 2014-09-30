@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7201
-Last-Updated: Tue Sep 30 08:42:07 2014
+Line-Count:   7214
+Last-Updated: Tue Sep 30 08:52:16 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -55,6 +55,7 @@ AnyEvent::Ping                        0.006  U/UN/UNDEF/AnyEvent-Ping-0.006.tar.
 AnyEvent::Ping::TCP                    1.00  P/PO/PODONNELL/AnyEvent-Ping-TCP-1.00.tar.gz
 AnyEvent::Server::PSGI                undef  M/MI/MIYAGAWA/Twiggy-0.1024.tar.gz
 AnyEvent::Strict                      undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
+Apache::Htpasswd                        1.9  K/KM/KMELTZ/Apache-Htpasswd-1.9.tar.gz
 Apache::LogFormat::Compiler            0.32  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.32.tar.gz
 App::Ack                               2.14  P/PE/PETDANCE/ack-2.14.tar.gz
 App::Ack::ConfigDefault               undef  P/PE/PETDANCE/ack-2.14.tar.gz
@@ -316,6 +317,9 @@ AppConfig::Getopt                      1.65  A/AB/ABW/AppConfig-1.66.tar.gz
 AppConfig::State                       1.65  A/AB/ABW/AppConfig-1.66.tar.gz
 AppConfig::Sys                         1.65  A/AB/ABW/AppConfig-1.66.tar.gz
 Archive::Any                         0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
+Archive::Any::Create                   0.03  M/MI/MIYAGAWA/Archive-Any-Create-0.03.tar.gz
+Archive::Any::Create::Tar             undef  M/MI/MIYAGAWA/Archive-Any-Create-0.03.tar.gz
+Archive::Any::Create::Zip             undef  M/MI/MIYAGAWA/Archive-Any-Create-0.03.tar.gz
 Archive::Any::Plugin                 0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
 Archive::Any::Plugin::Tar            0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
 Archive::Any::Plugin::Zip            0.0941  O/OA/OALDERS/Archive-Any-0.0941.tar.gz
@@ -3701,6 +3705,13 @@ Module::CPANfile::Requirement         undef  M/MI/MIYAGAWA/Module-CPANfile-1.100
 Module::CoreList                 5.20140920  B/BI/BINGOS/Module-CoreList-5.20140920.tar.gz
 Module::CoreList::TieHashDelta   5.20140920  B/BI/BINGOS/Module-CoreList-5.20140920.tar.gz
 Module::CoreList::Utils          5.20140920  B/BI/BINGOS/Module-CoreList-5.20140920.tar.gz
+Module::Faker                         0.017  R/RJ/RJBS/Module-Faker-0.017.tar.gz
+Module::Faker::Appendix               0.017  R/RJ/RJBS/Module-Faker-0.017.tar.gz
+Module::Faker::Dist                   0.017  R/RJ/RJBS/Module-Faker-0.017.tar.gz
+Module::Faker::File                   0.017  R/RJ/RJBS/Module-Faker-0.017.tar.gz
+Module::Faker::Heavy                  0.017  R/RJ/RJBS/Module-Faker-0.017.tar.gz
+Module::Faker::Module                 0.017  R/RJ/RJBS/Module-Faker-0.017.tar.gz
+Module::Faker::Package                0.017  R/RJ/RJBS/Module-Faker-0.017.tar.gz
 Module::Find                           0.12  C/CR/CRENZ/Module-Find-0.12.tar.gz
 Module::Implementation                 0.09  D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
 Module::Install                        1.12  B/BI/BINGOS/Module-Install-1.12.tar.gz
@@ -6495,6 +6506,7 @@ Test::Filename                         0.03  D/DA/DAGOLDEN/Test-Filename-0.03.ta
 Test::Future                           0.29  P/PE/PEVANS/Future-0.29.tar.gz
 Test::Harness                          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Test::Identity                         0.01  P/PE/PEVANS/Test-Identity-0.01.tar.gz
+Test::LWP::UserAgent                  0.025  E/ET/ETHER/Test-LWP-UserAgent-0.025.tar.gz
 Test::LeakTrace                        0.14  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::LeakTrace::Script               undef  G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
 Test::LongString                       0.16  R/RG/RGARCIA/Test-LongString-0.16.tar.gz
@@ -6729,6 +6741,7 @@ Types::TypeTiny                    1.000004  T/TO/TOBYINK/Type-Tiny-1.000004.tar
 U64                                   2.066  P/PM/PMQS/IO-Compress-2.066.tar.gz
 UNIVERSAL::can                   1.20140328  C/CH/CHROMATIC/UNIVERSAL-can-1.20140328.tar.gz
 UNIVERSAL::isa                   1.20140824  E/ET/ETHER/UNIVERSAL-isa-1.20140824.tar.gz
+UNIVERSAL::require                     0.17  N/NE/NEILB/UNIVERSAL-require-0.17.tar.gz
 URI                                    1.64  E/ET/ETHER/URI-1.64.tar.gz
 URI::Escape                            3.31  E/ET/ETHER/URI-1.64.tar.gz
 URI::Fetch                             0.10  N/NE/NEILB/URI-Fetch-0.10.tar.gz

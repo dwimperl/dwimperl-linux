@@ -137,6 +137,15 @@ DISTRIBUTIONS
       AnyEvent::Ping::TCP 1.00
     requirements:
       ExtUtils::MakeMaker 0
+  Apache-Htpasswd-1.9
+    pathname: K/KM/KMELTZ/Apache-Htpasswd-1.9.tar.gz
+    provides:
+      Apache::Htpasswd 1.9
+    requirements:
+      Crypt::PasswdMD5 0
+      Digest::SHA 2
+      ExtUtils::MakeMaker 0
+      MIME::Base64 0
   Apache-LogFormat-Compiler-0.32
     pathname: K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.32.tar.gz
     provides:
@@ -541,6 +550,19 @@ DISTRIBUTIONS
       base 0
       strict 0
       warnings 0
+  Archive-Any-Create-0.03
+    pathname: M/MI/MIYAGAWA/Archive-Any-Create-0.03.tar.gz
+    provides:
+      Archive::Any::Create 0.03
+      Archive::Any::Create::Tar undef
+      Archive::Any::Create::Zip undef
+    requirements:
+      Archive::Tar 0
+      Archive::Zip 0
+      Exception::Class 0
+      ExtUtils::MakeMaker 6.30
+      IO::Zlib 0
+      UNIVERSAL::require 0
   Archive-Extract-0.72
     pathname: B/BI/BINGOS/Archive-Extract-0.72.tar.gz
     provides:
@@ -8364,6 +8386,35 @@ DISTRIBUTIONS
       List::Util 0
       Test::More 0
       version 0.88
+  Module-Faker-0.017
+    pathname: R/RJ/RJBS/Module-Faker-0.017.tar.gz
+    provides:
+      Module::Faker 0.017
+      Module::Faker::Appendix 0.017
+      Module::Faker::Dist 0.017
+      Module::Faker::File 0.017
+      Module::Faker::Heavy 0.017
+      Module::Faker::Module 0.017
+      Module::Faker::Package 0.017
+    requirements:
+      Archive::Any::Create 0
+      CPAN::DistnameInfo 0
+      CPAN::Meta 2.130880
+      CPAN::Meta::Requirements 0
+      Carp 0
+      Encode 0
+      ExtUtils::MakeMaker 0
+      File::Next 0
+      File::Path 0
+      File::Temp 0
+      Moose 0.33
+      Moose::Role 0
+      Moose::Util::TypeConstraints 0
+      Parse::CPAN::Meta 1.4401
+      Path::Class 0.06
+      Text::Template 0
+      strict 0
+      warnings 0
   Module-Find-0.12
     pathname: C/CR/CRENZ/Module-Find-0.12.tar.gz
     provides:
@@ -14348,6 +14399,27 @@ DISTRIBUTIONS
       Scalar::Util 0
       Test::Builder::Tester 0
       Test::More 0
+  Test-LWP-UserAgent-0.025
+    pathname: E/ET/ETHER/Test-LWP-UserAgent-0.025.tar.gz
+    provides:
+      Test::LWP::UserAgent 0.025
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      HTTP::Date 0
+      HTTP::Request 0
+      HTTP::Response 0
+      HTTP::Status 0
+      LWP::UserAgent 0
+      Safe::Isa 0
+      Scalar::Util 0
+      Storable 0
+      Try::Tiny 0
+      URI 0
+      namespace::clean 0
+      parent 0
+      strict 0
+      warnings 0
   Test-LeakTrace-0.14
     pathname: G/GF/GFUJI/Test-LeakTrace-0.14.tar.gz
     provides:
@@ -15404,6 +15476,15 @@ DISTRIBUTIONS
       strict 0
       warnings 0
       warnings::register 0
+  UNIVERSAL-require-0.17
+    pathname: N/NE/NEILB/UNIVERSAL-require-0.17.tar.gz
+    provides:
+      UNIVERSAL::require 0.17
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
+      perl 5.006
   URI-1.64
     pathname: E/ET/ETHER/URI-1.64.tar.gz
     provides:
