@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7149
-Last-Updated: Tue Sep 30 08:23:26 2014
+Line-Count:   7150
+Last-Updated: Tue Sep 30 08:31:33 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -6514,6 +6514,7 @@ Test::Tester::Delegate                undef  F/FD/FDALY/Test-Tester-0.109.tar.gz
 Test::Time                             0.04  S/SA/SATOH/Test-Time-0.04.tar.gz
 Test::Timer                            0.09  J/JO/JONASBN/Test-Timer-0.09.tar.gz
 Test::Timer::TimeoutException          0.09  J/JO/JONASBN/Test-Timer-0.09.tar.gz
+Test::TinyMocker                       0.03  S/SU/SUKRIA/Test-TinyMocker-0.05.tar.gz
 Test::Trap                         0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
 Test::Trap::Builder                0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
 Test::Trap::Builder::PerlIO        0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz

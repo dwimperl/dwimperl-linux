@@ -14630,6 +14630,18 @@ DISTRIBUTIONS
       Test::More 0
       Test::Tester 0
       perl v5.10.0
+  Test-TinyMocker-0.05
+    pathname: S/SU/SUKRIA/Test-TinyMocker-0.05.tar.gz
+    provides:
+      Test::TinyMocker 0.03
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      base 0
+      strict 0
+      vars 0
+      warnings 0
   Test-Trap-v0.2.4
     pathname: E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
     provides:

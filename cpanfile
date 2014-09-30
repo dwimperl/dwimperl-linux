@@ -433,6 +433,7 @@ requires 'Test::Requires',                                 '0.08';
 requires 'Test::Roo',                                      '1.004';
 requires 'Test::Script',                                   '1.07';
 requires 'Test::Time',                                     '0.04';
+requires 'Test::TinyMocker',                               '0.03';
 requires 'Test::Trap',                                     '0.2.4';
 requires 'Test::WWW::Mechanize',                           '1.44';
 requires 'Test::WWW::Mechanize::PSGI',                     '0.35';
