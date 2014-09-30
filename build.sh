@@ -179,7 +179,7 @@ case $1 in
 
   geoip)
       cd $BUILD_TMP
-      tar xzf $SROUCE_HOME/src/$GEOIP.tar.gz
+      tar xzf $SOURCE_HOME/src/$GEOIP.tar.gz
       cd $GEOIP
       ./configure --prefix $PREFIX_C
       make
