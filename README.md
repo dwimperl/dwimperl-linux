@@ -25,9 +25,13 @@ If you'd like to build DWIM Perl for linux yourself you can do so by the followi
 Install the prerequisites which are 'make' and 'gcc'
 
 ```
-wget https://github.com/dwimperl/dwimperl-linux/archive/master.zip```
-    # Note: in some cases the file downloaded by ```wget``` will have no .zip extension.
-    # You might want to rename the file before proceeding
+wget https://github.com/dwimperl/dwimperl-linux/archive/master.zip
+```
+
+Note: in some cases the file downloaded by ```wget``` will have no .zip extension.
+You might want to rename the file before proceeding
+
+```
 unzip master.zip
 cd dwimperl-linux-master
 ./build.sh perl        # build perl
@@ -148,8 +152,4 @@ Run ```./build.sh outdated``` to list the distributions that have newer versions
 Edit ```cpanfile``` and put the new version number after the name of the module:
 ```requires 'Module::Name', '3.14';```
 then run ```carton install``` to update the ```cpanfile.snapshot```
-
-
-
-
 
