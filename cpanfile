@@ -444,6 +444,7 @@ requires 'Test::WWW::Mechanize::PSGI',                     '0.35';
 requires 'Test::Warn',                                     '0.30';
 requires 'Test::Without::Module',                          '0.18';
 requires 'Test::XPath',                                    '0.16';
+requires 'Test::utf8',                                     '1.01';
 requires 'Text::Balanced',                                 '2.02';
 requires 'Text::Brew',                                     '0.02';
 requires 'Text::CSV',                                      '1.32';
