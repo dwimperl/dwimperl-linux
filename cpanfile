@@ -413,6 +413,7 @@ requires 'Test::Exception',                                '0.35';
 requires 'Test::Exception::LessClever',                    '0.006';
 requires 'Test::FailWarnings',                             '0.008';
 requires 'Test::Fatal',                                    '0.013';
+requires 'Test::File',                                     '1.41';
 requires 'Test::File::ShareDir',                           '1.000005';
 requires 'Test::Filename',                                 '0.03';
 requires 'Test::Harness',                                  '3.33';
