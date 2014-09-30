@@ -334,7 +334,6 @@ requires 'Path::Tiny',                                     '0.058';
 requires 'Perl::Critic',                                   '1.122';
 requires 'Perl::Tidy',                                     '20140711';
 requires 'Perl::Version',                                  '1.013';
-requires 'Pinto',                                          '0.09995';
 requires 'Plack',                                          '1.0031';
 requires 'Plack::Middleware::Assets',                      '1.0.0';
 requires 'Plack::Middleware::Debug',                       '0.16';
