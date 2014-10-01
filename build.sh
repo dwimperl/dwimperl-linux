@@ -117,6 +117,13 @@ case $1 in
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose .
   ;;
 
+  external)
+      $0 openssl
+      $0 libxml2
+      $0 zlib
+      $0 expat
+  ;;
+
   openssl)
       cd $BUILD_TMP
       tar xzf $SOURCE_HOME/src/$OPENSSL.tar.gz
