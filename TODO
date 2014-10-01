@@ -6,7 +6,6 @@ requires 'DigitalOcean',                                   '0.12'; # tests fail,
 requires 'Geo::IP',                                        '1.43'; # needs some C compiling
 requires 'Git',                                            '0.03'; # failed
 requires 'Module::Version',                                '0.12'; # error: Failed to upconvert metadata to 1.1. Errors: Missing mandatory field, 'version' (version) [Validation: 1.0]
-requires 'MongoDB',                                        '0.705.0.0'; #6
 requires 'MooseX::App::Cmd',                               '0.27'; # failed
 requires 'MooseX::Traits',                                 '0.12'; # failed
 requires 'PAR::Packer',                                    '1.022'; # failed

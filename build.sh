@@ -252,6 +252,7 @@ case $1 in
 
       $0 xml-libxml
       $0 xml-parser
+      $0 geo-ip
   ;;
 
   try)

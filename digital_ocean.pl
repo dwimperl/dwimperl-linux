@@ -9,10 +9,14 @@ use DigitalOcean;
 use File::HomeDir;
 
 option list     => (is => 'ro', doc => 'List available droplets');
+
 option verbose  => (is => 'ro');
 option droplet  => (is => 'rw', format => 's', doc => 'Droplet ID - Use this Droplet instead of creating new');
 option create   => (is => 'ro');
-option base     => (is => 'ro', format => 'i', doc => 'Base the build on this subversion (0, 1, 2, ...)');
+
+option base     => (is => 'ro', format => 'i', doc => 'Base the build on this subversion (1, 2, ...)');
+option full     => (is => 'ro', doc => 'Create the whole thing from scratch');
+#option perl     => (is => 'ro', doc => 'Create from scratch but only Perl, the external dependencies and the minimum requried');
 
 has config_file => (is => 'rw');
 has tag         => (is => 'rw');
@@ -56,7 +60,9 @@ sub run {
 	}
 
 	die "Exactly on of --create,  --droplet ID, --list, --help\n" if not $self->create xor $self->droplet;
-	die "--base is required\n" if not defined $self->base;
+	if (not defined $self->base and not $self->full) {
+		die "--base N   or --full is required\n"
+	}
 	
 	if ($self->create) {
 		printf "Creating droplet. Can take about 60 seconds. Started at %s, Please wait. \n", scalar localtime;
@@ -98,34 +104,36 @@ sub run {
 	);
 
 
-	my $pref = "DWIM_BASE_VERSION=" . $self->base;
+	my $pref = '';
 	if ($self->base) {
+		$pref .= ' DWIM_BASE_VERSION=' . $self->base;
+	}
+	if ($self->full) {
+		# build perl from scratch with cpanm, only installing modules that need special treatment
+		push @user_cmds, map { "cd $dir; $pref ./build.sh $_" } (
+			'perl',
+			'external',
+			'cpanm',
+			'dwim',
+			'special_modules',
+			'modules',
+			'test_perl',
+			'zip',
+		);
+	} elsif ($self->base) {
 		# based on an earlier release
-		push @user_cmds, (
-			"cd $dir; $pref ./build.sh get_base_perl",
-			#"cd $dir; $pref ./build.sh dwim",
-			#"cd $dir; $pref ./build.sh special_modules",
-			"cd $dir; $pref ./build.sh geoip",
-			"cd $dir; $pref ./build.sh modules",
-			"cd $dir; $pref ./build.sh test_cpanfile",
-			#"cd $dir; $pref ./build.sh test_all",
-			"cd $dir; $pref ./build.sh zip",
+		push @user_cmds, map { "cd $dir; $pref ./build.sh $_" } (
+			'get_base_perl',
+			#'dwim',
+			#'special_modules',
+			'geoip',
+			'modules',
+			'test_cpanfile',
+			#'test_all',
+			'zip',
 		);
 	} else {
-		# build perl from scratch with cpanm, only installing modules that need special treatment
-		push @user_cmds, (
-			"cd $dir; $pref ./build.sh perl",
-			"cd $dir; $pref ./build.sh cpanm",
-			"cd $dir; $pref ./build.sh openssl",
-			"cd $dir; $pref ./build.sh libxml2",
-			"cd $dir; $pref ./build.sh zlib",
-			"cd $dir; $pref ./build.sh expat",
-			"cd $dir; $pref ./build.sh geoip",
-			"cd $dir; $pref ./build.sh xml-libxml",
-			"cd $dir; $pref ./build.sh xml-parser",
-			"cd $dir; $pref ./build.sh test_perl",
-			"cd $dir; $pref ./build.sh zip",
-		);
+		die "Hmm, how comes?\n";
 	}
 	my $results = $self->ssh($username, $server->ip_address, \@user_cmds);
 

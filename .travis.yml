@@ -8,26 +8,23 @@ script:
 ######## build all (except the modules)
   - ./build.sh perl
 
-#  - ./build.sh external
+  - ./build.sh external
 ##  - ./build.sh openssl
 ##  - ./build.sh libxml2
 ##  - ./build.sh zlib
 ##  - ./build.sh expat
-  - ./build.sh geoip
+##  - ./build.sh geoip
 
   - ./build.sh cpanm
   - ./build.sh dwim
 
-#  - ./build.sh special_modules
-  - ./build.sh notest IPC::System::Simple
-  - ./build.sh notest Class::Singleton
+  - ./build.sh special_modules
+##  - ./build.sh notest IPC::System::Simple
+##  - ./build.sh notest Class::Singleton
 ##  - ./build.sh xml-libxml
 ##  - ./build.sh xml-parser
 
-  - ./build.sh verbose Geo::IP
-#  - ./build.sh verbose MongoDB
 #  - ./build.sh modules
-
 #  - ./build.sh test_perl
 #  - ./build.sh test_cpanfile
 

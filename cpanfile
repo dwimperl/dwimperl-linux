@@ -260,6 +260,7 @@ requires 'Module::Util',                                   '1.09';
 requires 'Mojolicious',                                    '5.46';
 requires 'Mojolicious::Plugin::Humane',                    '0.07';
 requires 'Mojolicious::Plugin::Memorize',                  '0.01';
+requires 'MongoDB',                                        '0.705.0.0'; #6
 requires 'Moo',                                            '1.006000';
 requires 'MooX::Options',                                  '4.010';
 requires 'MooX::Singleton',                                '1.20';
