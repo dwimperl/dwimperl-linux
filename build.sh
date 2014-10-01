@@ -122,6 +122,7 @@ case $1 in
       $0 libxml2
       $0 zlib
       $0 expat
+      $0 geoip
   ;;
 
   openssl)
@@ -193,11 +194,14 @@ case $1 in
       make
       make check
       make install
+  ;;
 
-      wget $GEOIP_DATA_URL
-      gunzip GeoIP.dat.gz
-      mkdir -p $SOURCE_HOME/share/GeoIP/
-      mv GeoIP.dat $SOURCE_HOME/share/GeoIP/
+  geo-ip)
+      cd $BUILD_TMP
+      #wget $GEOIP_DATA_URL
+      #gunzip GeoIP.dat.gz
+      #mkdir -p $SOURCE_HOME/share/GeoIP/
+      #mv GeoIP.dat $SOURCE_HOME/share/GeoIP/
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Geo::IP
   ;;
 
@@ -239,11 +243,14 @@ case $1 in
 
   special_modules)
       source $ROOT/dwim.sh
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --notest IPC::System::Simple
+      $0 notest IPC::System::Simple
       # see #3
 
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --notest Class::Singleton
+      $0 notest Class::Singleton
       # see #5
+
+      $0 xml-libxml
+      $0 xml-parser
   ;;
 
   try)
