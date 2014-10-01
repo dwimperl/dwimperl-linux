@@ -4,15 +4,16 @@ branches:
 language: c
 script:
 #  - ./build.sh perl
-#  - ./build.sh dwim
-#  - ./build.sh cpanm
 #  - ./build.sh openssl
 #  - ./build.sh libxml2
 #  - ./build.sh zlib
-#  - ./build.sh xml-libxml
 #  - ./build.sh expat
-#  - ./build.sh xml-parser
+#  - ./build.sh cpanm
+#  - ./build.sh dwim
 #  - ./build.sh notest
+#  - ./build.sh xml-libxml
+#  - ./build.sh xml-parser
+#  - ./build.sh geoip
 #  - ./build.sh modules
 #  - ./build.sh test_perl
 
