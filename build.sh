@@ -197,6 +197,7 @@ case $1 in
   ;;
 
   geo-ip)
+      source $ROOT/dwim.sh
       cd $BUILD_TMP
       wget $GEOIP_DATA_URL
       gunzip GeoIP.dat.gz

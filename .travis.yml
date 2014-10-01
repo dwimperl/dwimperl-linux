@@ -23,6 +23,7 @@ script:
 ##  - ./build.sh notest Class::Singleton
 ##  - ./build.sh xml-libxml
 ##  - ./build.sh xml-parser
+##  - ./build.sh geo-ip
 
 #  - ./build.sh modules
 #  - ./build.sh test_perl
