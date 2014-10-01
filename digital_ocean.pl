@@ -66,7 +66,7 @@ sub run {
 			size_id        =>  66,        # 512Mb
 			#image_id       => '1601',    # CentOS 5.8 x64
 			#image_id       => 6344382,    # CentOS 5.10 x64
-			image_id       => 6372321,    #CentOS 5.8 x64
+			image_id       => 6372321,    #CentOS 5.10 x64
 			ssh_key_ids    => $ssh_key_id,
 			region_id      => 8,          # New York 3
 			wait_on_event  => 1,

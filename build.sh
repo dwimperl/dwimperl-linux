@@ -209,11 +209,18 @@ case $1 in
   xml-libxml)
       #export XMLPREFIX=$PREFIX_C
       #echo $XMLPREFIX
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose  --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
   ;;
 
   xml-parser)
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
+  ;;
+
+  verbose)
+      source $ROOT/dwim.sh
+      CPAN_MODULE=$2
+      echo MODULE=$CPAN_MODULE
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose $CPAN_MODULE
   ;;
 
   notest)
