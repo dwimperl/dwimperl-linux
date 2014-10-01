@@ -3,6 +3,8 @@ branches:
     - gh-pages
 language: c
 script:
+  - cat .travis.yml
+
 ######## build all (except the modules)
   - ./build.sh perl
 

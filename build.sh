@@ -198,11 +198,12 @@ case $1 in
 
   geo-ip)
       cd $BUILD_TMP
-      #wget $GEOIP_DATA_URL
-      #gunzip GeoIP.dat.gz
-      #mkdir -p $SOURCE_HOME/share/GeoIP/
-      #mv GeoIP.dat $SOURCE_HOME/share/GeoIP/
+      wget $GEOIP_DATA_URL
+      gunzip GeoIP.dat.gz
+      mkdir -p $PREFIX_C/share/GeoIP/
+      mv GeoIP.dat $PREFIX_C/share/GeoIP/
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Geo::IP
+      rm -f $PREFIX_C/share/GeoIP/GeoIP.dat
   ;;
 
   get_base_perl)
