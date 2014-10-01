@@ -90,20 +90,21 @@ export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
 case $1 in
   perl)
       echo "Building Perl"
+      cd $BUILD_TMP
       [ -e $PERL_SOURCE_VERSION ] && echo "Directory $PERL_SOURCE_VERSION already exists" && exit
-      tar -xzf src/$PERL_SOURCE_ZIP_FILE
+      tar -xzf $SOURCE_HOME/src/$PERL_SOURCE_ZIP_FILE
       cd $PERL_SOURCE_VERSION
       ./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL
 	  # -Dusethreads
       make
       TEST_JOBS=3 make test
       make install
-      cd $SOURCE_HOME
       
-      which perl
       $PREFIX_PERL/bin/perl -v
       cp $SOURCE_HOME/src/reloc_perl $PREFIX_PERL/bin/
       cp $SOURCE_HOME/dwim.sh $ROOT/
+      cd $BUILD_TMP
+      rm -rf $PERL_SOURCE_VERSION
   ;;
 
   cpanm)
