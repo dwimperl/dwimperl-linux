@@ -225,6 +225,13 @@ case $1 in
 
   notest)
       source $ROOT/dwim.sh
+      CPAN_MODULE=$2
+      echo MODULE=$CPAN_MODULE
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose --notest $CPAN_MODULE
+  ;;
+
+  special_modules)
+      source $ROOT/dwim.sh
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --notest IPC::System::Simple
       # see #3
 

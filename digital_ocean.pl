@@ -104,7 +104,7 @@ sub run {
 		push @user_cmds, (
 			"cd $dir; $pref ./build.sh get_base_perl",
 			#"cd $dir; $pref ./build.sh dwim",
-			#"cd $dir; $pref ./build.sh notest",
+			#"cd $dir; $pref ./build.sh special_modules",
 			"cd $dir; $pref ./build.sh geoip",
 			"cd $dir; $pref ./build.sh modules",
 			"cd $dir; $pref ./build.sh test_cpanfile",
