@@ -6161,6 +6161,20 @@ DISTRIBUTIONS
       String::RewritePrefix 0
       Test::Deep 0
       YAML::XS 0
+  Email-MIME-RFC2047-0.91
+    pathname: N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
+    provides:
+      Email::MIME::RFC2047 0.91
+      Email::MIME::RFC2047::Address 0.91
+      Email::MIME::RFC2047::AddressList 0.91
+      Email::MIME::RFC2047::Decoder 0.91
+      Email::MIME::RFC2047::Encoder 0.91
+      Email::MIME::RFC2047::Group 0.91
+      Email::MIME::RFC2047::Mailbox 0.91
+      Email::MIME::RFC2047::MailboxList 0.91
+      Email::MIME::RFC2047::Parser 0.91
+    requirements:
+      ExtUtils::MakeMaker 6.31
   Email-MessageID-1.405
     pathname: R/RJ/RJBS/Email-MessageID-1.405.tar.gz
     provides:

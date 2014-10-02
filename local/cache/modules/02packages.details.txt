@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7909
-Last-Updated: Thu Oct  2 20:20:51 2014
+Line-Count:   7918
+Last-Updated: Thu Oct  2 20:44:32 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -2816,6 +2816,15 @@ Email::MIME::Kit::Role::ManifestReader   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.10
 Email::MIME::Kit::Role::Renderer   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
 Email::MIME::Kit::Role::Validator   2.102014  R/RJ/RJBS/Email-MIME-Kit-2.102014.tar.gz
 Email::MIME::Modifier                 1.926  R/RJ/RJBS/Email-MIME-1.926.tar.gz
+Email::MIME::RFC2047                   0.91  N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
+Email::MIME::RFC2047::Address          0.91  N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
+Email::MIME::RFC2047::AddressList       0.91  N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
+Email::MIME::RFC2047::Decoder          0.91  N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
+Email::MIME::RFC2047::Encoder          0.91  N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
+Email::MIME::RFC2047::Group            0.91  N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
+Email::MIME::RFC2047::Mailbox          0.91  N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
+Email::MIME::RFC2047::MailboxList       0.91  N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
+Email::MIME::RFC2047::Parser           0.91  N/NW/NWELLNHOF/Email-MIME-RFC2047-0.91.tar.gz
 Email::MessageID                      1.405  R/RJ/RJBS/Email-MessageID-1.405.tar.gz
 Email::Sender                      1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
 Email::Sender::Failure             1.300014  R/RJ/RJBS/Email-Sender-1.300014.tar.gz
