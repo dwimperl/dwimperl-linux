@@ -6,19 +6,19 @@ script:
   - cat .travis.yml
 
 ######## build all (except the modules)
-  - ./build.sh perl
+#  - ./build.sh perl
 
-  - ./build.sh external
+#  - ./build.sh external
 ##  - ./build.sh openssl
 ##  - ./build.sh libxml2
 ##  - ./build.sh zlib
 ##  - ./build.sh expat
 ##  - ./build.sh geoip
 
-  - ./build.sh cpanm
-  - ./build.sh dwim
+#  - ./build.sh cpanm
+#  - ./build.sh dwim
 
-  - ./build.sh special_modules
+#  - ./build.sh special_modules
 ##  - ./build.sh notest IPC::System::Simple
 ##  - ./build.sh notest Class::Singleton
 ##  - ./build.sh xml-libxml
@@ -31,11 +31,10 @@ script:
 
 ###### build based on an earlier version
 
-#  - ./build.sh get_base_perl
-#  - ./build.sh geoip
+  - ./build.sh get_base_perl
 #  - ./build.sh try
-#  - ./build.sh modules
+  - ./build.sh modules
 #  - ./build.sh test_perl
-#  - ./build.sh test_cpanfile
+  - ./build.sh test_cpanfile
 #  - ./build.sh test_all
-#  - ./build.sh outdate
+  - ./build.sh outdate
