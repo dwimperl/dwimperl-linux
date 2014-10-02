@@ -3,7 +3,6 @@ requires 'Dancer::Plugin::CRUD',                           '1.03'; # tons of war
 requires 'Dancer::Plugin::REST',                           '0.11'; # complains about You can't use prepare_serializer_for_format, this is a keyword reserved by Dancer::Plugin::CRUD report sent
 requires 'Debug::Client',                                  '0.29'; # Needs Term::Readline::Gnu but that fails because: ## Could not find neither libtermcap.a, libncurses.a, or libcurses.
 requires 'DigitalOcean',                                   '0.12'; # tests fail, pull-requst sent
-requires 'Geo::IP',                                        '1.43'; # needs some C compiling
 requires 'Git',                                            '0.03'; # failed
 requires 'Module::Version',                                '0.12'; # error: Failed to upconvert metadata to 1.1. Errors: Missing mandatory field, 'version' (version) [Validation: 1.0]
 requires 'MooseX::App::Cmd',                               '0.27'; # failed

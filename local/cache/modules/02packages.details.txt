@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7773
-Last-Updated: Tue Sep 30 17:55:49 2014
+Line-Count:   7775
+Last-Updated: Thu Oct  2 13:07:27 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3722,6 +3722,8 @@ JSON::Backend::PP                      2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
 JSON::Boolean                          2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
 JSON::MaybeXS                      1.002002  E/ET/ETHER/JSON-MaybeXS-1.002002.tar.gz
 JSON::PP::Boolean                       1.0  M/ML/MLEHMANN/Types-Serialiser-1.0.tar.gz
+JSON::Tiny                             0.50  D/DA/DAVIDO/JSON-Tiny-0.50.tar.gz
+JSON::Tiny::_Bool                      0.50  D/DA/DAVIDO/JSON-Tiny-0.50.tar.gz
 JSON::XS                               3.01  M/ML/MLEHMANN/JSON-XS-3.01.tar.gz
 JavaScript::Minifier::XS               0.09  G/GT/GTERMARS/JavaScript-Minifier-XS-0.09.tar.gz
 JavaScript::Value::Escape              0.06  K/KA/KAZEBURO/JavaScript-Value-Escape-0.06.tar.gz
@@ -4091,7 +4093,7 @@ Module::Build::Platform::darwin      0.4210  L/LE/LEONT/Module-Build-0.4210.tar.
 Module::Build::Platform::os2         0.4210  L/LE/LEONT/Module-Build-0.4210.tar.gz
 Module::Build::Pluggable               0.10  T/TO/TOKUHIROM/Module-Build-Pluggable-0.10.tar.gz
 Module::Build::Pluggable::Base        undef  T/TO/TOKUHIROM/Module-Build-Pluggable-0.10.tar.gz
-Module::Build::Pluggable::CPANfile       0.05  T/TO/TOKUHIROM/Module-Build-Pluggable-PPPort-0.04.tar.gz
+Module::Build::Pluggable::CPANfile       0.05  K/KA/KAZEBURO/Module-Build-Pluggable-CPANfile-0.05.tar.gz
 Module::Build::Pluggable::GithubMeta      undef  T/TO/TOKUHIROM/Module-Build-Pluggable-0.10.tar.gz
 Module::Build::Pluggable::PPPort       0.04  T/TO/TOKUHIROM/Module-Build-Pluggable-PPPort-0.04.tar.gz
 Module::Build::Pluggable::Repository       0.10  T/TO/TOKUHIROM/Module-Build-Pluggable-0.10.tar.gz
@@ -5953,9 +5955,9 @@ Portable::LoadYaml                     1.22  K/KM/KMX/Portable-1.22.tar.gz
 Portable::minicpan                     1.22  K/KM/KMX/Portable-1.22.tar.gz
 Probe::Perl                            0.03  K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
 Proc::Fork                            0.802  A/AR/ARISTOTLE/Proc-Fork-0.802.tar.gz
-Proc::Terminator                       0.05  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
-Proc::Terminator::Batch                0.05  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
-Proc::Terminator::Ctx                  0.05  A/AB/ABIGAIL/Regexp-Common-2013031301.tar.gz
+Proc::Terminator                       0.05  M/MN/MNUNBERG/Proc-Terminator-0.05.tar.gz
+Proc::Terminator::Batch                0.05  M/MN/MNUNBERG/Proc-Terminator-0.05.tar.gz
+Proc::Terminator::Ctx                  0.05  M/MN/MNUNBERG/Proc-Terminator-0.05.tar.gz
 Protocol::Redis                      1.0003  U/UN/UNDEF/Protocol-Redis-1.0003.tar.gz
 Protocol::Redis::Test                 undef  U/UN/UNDEF/Protocol-Redis-1.0003.tar.gz
 RDF::Trine                            1.009  G/GW/GWILLIAMS/RDF-Trine-1.009.tar.gz

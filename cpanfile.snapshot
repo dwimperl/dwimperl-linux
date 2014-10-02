@@ -8188,6 +8188,14 @@ DISTRIBUTIONS
       File::Temp 0
       JSON::PP 2.27202
       perl 5.006
+  JSON-Tiny-0.50
+    pathname: D/DA/DAVIDO/JSON-Tiny-0.50.tar.gz
+    provides:
+      JSON::Tiny 0.50
+      JSON::Tiny::_Bool 0.50
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008000
   JSON-XS-3.01
     pathname: M/ML/MLEHMANN/JSON-XS-3.01.tar.gz
     provides:

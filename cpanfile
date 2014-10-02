@@ -219,6 +219,7 @@ requires 'IPC::System::Simple',                            '1.25'; #3
 requires 'Image::ExifTool',                                '9.70';
 requires 'JSON',                                           '2.90';
 requires 'JSON::MaybeXS',                                  '1.002002';
+requires 'JSON::Tiny',                                     '0.50';
 requires 'JSON::XS',                                       '3.01';
 requires 'JavaScript::Value::Escape',                      '0.06';
 requires 'LWP',                                            '6.08';
