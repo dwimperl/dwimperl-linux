@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7901
-Last-Updated: Thu Oct  2 19:42:46 2014
+Line-Count:   7909
+Last-Updated: Thu Oct  2 19:47:00 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -3000,6 +3000,7 @@ File::Listing::vms                     6.04  G/GA/GAAS/File-Listing-6.04.tar.gz
 File::MMagic                           1.30  K/KN/KNOK/File-MMagic-1.30.tar.gz
 File::NFSLock                          1.24  B/BB/BBB/File-NFSLock-1.24.tar.gz
 File::Next                             1.12  P/PE/PETDANCE/File-Next-1.12.tar.gz
+File::PathList                         1.04  A/AD/ADAMK/File-PathList-1.04.tar.gz
 File::Pid                              1.01  C/CW/CWEST/File-Pid-1.01.tar.gz
 File::RandomAccess                     1.10  E/EX/EXIFTOOL/Image-ExifTool-9.70.tar.gz
 File::Remove                           1.52  A/AD/ADAMK/File-Remove-1.52.tar.gz
@@ -5607,6 +5608,7 @@ Perl::Critic::Policy::Modules::ProhibitPOSIXimport         85  K/KR/KRYDE/Perl-C
 Perl::Critic::Policy::Modules::ProhibitUseQuotedVersion         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::Modules::RequireBarewordIncludes      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::RequireEndWithOne      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Modules::RequireExplicitInclusion       0.03  T/TH/THALJEF/strictersubs/Perl-Critic-StricterSubs-0.03.tar.gz
 Perl::Critic::Policy::Modules::RequireExplicitPackage      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::RequireFilenameMatchesPackage      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::RequireNoMatchVarsWithUseEnglish      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5643,10 +5645,14 @@ Perl::Critic::Policy::RegularExpressions::RequireExtendedFormatting      1.122  
 Perl::Critic::Policy::RegularExpressions::RequireLineBoundaryMatching      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Subroutines::ProhibitAmpersandSigils      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Subroutines::ProhibitBuiltinHomonyms      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Subroutines::ProhibitCallsToUndeclaredSubs       0.03  T/TH/THALJEF/strictersubs/Perl-Critic-StricterSubs-0.03.tar.gz
+Perl::Critic::Policy::Subroutines::ProhibitCallsToUnexportedSubs       0.03  T/TH/THALJEF/strictersubs/Perl-Critic-StricterSubs-0.03.tar.gz
 Perl::Critic::Policy::Subroutines::ProhibitExcessComplexity      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Subroutines::ProhibitExplicitReturnUndef      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Subroutines::ProhibitExportingUndeclaredSubs       0.03  T/TH/THALJEF/strictersubs/Perl-Critic-StricterSubs-0.03.tar.gz
 Perl::Critic::Policy::Subroutines::ProhibitManyArgs      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Subroutines::ProhibitNestedSubs      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Subroutines::ProhibitQualifiedSubDeclarations       0.03  T/TH/THALJEF/strictersubs/Perl-Critic-StricterSubs-0.03.tar.gz
 Perl::Critic::Policy::Subroutines::ProhibitReturnSort      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Subroutines::ProhibitSubroutinePrototypes      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Subroutines::ProhibitUnusedPrivateSubroutines      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5738,6 +5744,8 @@ Perl::Critic::Pulp::PodParser::RequireLinkedURLs         85  K/KR/KRYDE/Perl-Cri
 Perl::Critic::Pulp::ProhibitDuplicateHashKeys::Qword         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Pulp::Utils                85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Statistics              1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::StricterSubs             0.03  T/TH/THALJEF/strictersubs/Perl-Critic-StricterSubs-0.03.tar.gz
+Perl::Critic::StricterSubs::Utils       0.03  T/TH/THALJEF/strictersubs/Perl-Critic-StricterSubs-0.03.tar.gz
 Perl::Critic::TestUtils               1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Theme                   1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::ThemeListing            1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz

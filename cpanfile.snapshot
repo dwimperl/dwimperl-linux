@@ -6700,6 +6700,15 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       File::Spec 0
       Test::More 0.88
+  File-PathList-1.04
+    pathname: A/AD/ADAMK/File-PathList-1.04.tar.gz
+    provides:
+      File::PathList 1.04
+    requirements:
+      ExtUtils::MakeMaker 6.98
+      File::Spec 0.80
+      Params::Util 0.24
+      Test::More 0.47
   File-Pid-1.01
     pathname: C/CW/CWEST/File-Pid-1.01.tar.gz
     provides:
@@ -12838,6 +12847,24 @@ DISTRIBUTIONS
       Test::More 0
       perl 5.006
       version 0
+  Perl-Critic-StricterSubs-0.03
+    pathname: T/TH/THALJEF/strictersubs/Perl-Critic-StricterSubs-0.03.tar.gz
+    provides:
+      Perl::Critic::Policy::Modules::RequireExplicitInclusion 0.03
+      Perl::Critic::Policy::Subroutines::ProhibitCallsToUndeclaredSubs 0.03
+      Perl::Critic::Policy::Subroutines::ProhibitCallsToUnexportedSubs 0.03
+      Perl::Critic::Policy::Subroutines::ProhibitExportingUndeclaredSubs 0.03
+      Perl::Critic::Policy::Subroutines::ProhibitQualifiedSubDeclarations 0.03
+      Perl::Critic::StricterSubs 0.03
+      Perl::Critic::StricterSubs::Utils 0.03
+    requirements:
+      File::PathList 0
+      Perl::Critic 1.08
+      Perl::Critic::TestUtils 1.08
+      Perl::Critic::Utils 1.08
+      Perl::Critic::Violation 1.08
+      Test::Deep 0
+      Test::More 0
   Perl-Critic-Tics-0.009
     pathname: R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
     provides:

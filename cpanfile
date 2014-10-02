@@ -511,6 +511,6 @@ requires 'Perl::Critic::Lax',                              '0.011';
 #requires 'Perl::Critic::logicLAB',                         '0.09';
 requires 'Perl::Critic::More',                             '1.003';
 #requires 'Perl::Critic::OTRS',                             '0.05';
-#requires 'Perl::Critic::StricterSubs',                     '0.03';
+requires 'Perl::Critic::StricterSubs',                     '0.03';
 requires 'Perl::Critic::Pulp',                             '85';
 requires 'Perl::Critic::Tics',                             '0.009';
