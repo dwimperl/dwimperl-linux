@@ -12693,6 +12693,18 @@ DISTRIBUTIONS
       Test::Git 0
       Test::More 0
       perl 5.006
+  Perl-Critic-Itch-0.07
+    pathname: M/MA/MARCELO/Perl-Critic-Itch-0.07.tar.gz
+    provides:
+      Perl::Critic::Itch 0.07
+      Perl::Critic::Policy::CodeLayout::ProhibitHashBarewords 0.07
+    requirements:
+      ExtUtils::MakeMaker 0
+      Perl::Critic 1.052
+      Perl::Critic::TestUtils 1.052
+      Perl::Critic::Utils 1.052
+      Perl::Critic::Violation 1.052
+      Test::More 0
   Perl-Critic-Lax-0.011
     pathname: R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
     provides:

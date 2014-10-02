@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7840
-Last-Updated: Thu Oct  2 18:25:29 2014
+Line-Count:   7842
+Last-Updated: Thu Oct  2 18:31:58 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -5481,6 +5481,7 @@ Perl::Critic::Exception::Fatal::PolicyDefinition      1.122  T/TH/THALJEF/Perl-C
 Perl::Critic::Exception::IO           1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Exception::Parse        1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Git                  1.002001  A/AU/AUBERTG/Perl-Critic-Git-v1.2.1.tar.gz
+Perl::Critic::Itch                     0.07  M/MA/MARCELO/Perl-Critic-Itch-0.07.tar.gz
 Perl::Critic::Lax                     0.011  R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
 Perl::Critic::More                    1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::OTRS                     0.05  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
@@ -5515,6 +5516,7 @@ Perl::Critic::Policy::ClassHierarchies::ProhibitAutoloading      1.122  T/TH/THA
 Perl::Critic::Policy::ClassHierarchies::ProhibitExplicitISA      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ClassHierarchies::ProhibitOneArgBless      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitHardTabs      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::CodeLayout::ProhibitHashBarewords       0.07  M/MA/MARCELO/Perl-Critic-Itch-0.07.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitParensWithBuiltins      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitQuotedWordLists      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitTrailingWhitespace      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
