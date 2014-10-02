@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7775
-Last-Updated: Thu Oct  2 13:07:27 2014
+Line-Count:   7840
+Last-Updated: Thu Oct  2 18:25:29 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -1423,6 +1423,7 @@ Data::Record                           0.02  O/OV/OVID/Data-Record-0.02.tar.gz
 Data::Section                      0.200006  R/RJ/RJBS/Data-Section-0.200006.tar.gz
 Data::Types                            0.09  D/DW/DWHEELER/Data-Types-0.09.tar.gz
 Data::UUID                            1.219  R/RJ/RJBS/Data-UUID-1.219.tar.gz
+Data::Validate::Type               1.005001  A/AU/AUBERTG/Data-Validate-Type-v1.5.1.tar.gz
 Data::Visitor                          0.30  D/DO/DOY/Data-Visitor-0.30.tar.gz
 Data::Visitor::Callback                0.30  D/DO/DOY/Data-Visitor-0.30.tar.gz
 Date::Format                           2.24  G/GB/GBARR/TimeDate-2.30.tar.gz
@@ -3017,6 +3018,7 @@ Filesys::Notify::Simple                0.12  M/MI/MIYAGAWA/Filesys-Notify-Simple
 Flickr::API                            1.10  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
 Flickr::API::Request                   0.03  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
 Flickr::API::Response                  0.02  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
+FooBar                                undef  T/TH/THALJEF/Perl-Critic-Dynamic-0.05.tar.gz
 Future                                 0.29  P/PE/PEVANS/Future-0.29.tar.gz
 Future::Q                             0.090  T/TO/TOSHIOITO/Future-Q-0.090.tar.gz
 Future::Utils                          0.29  P/PE/PEVANS/Future-0.29.tar.gz
@@ -3045,6 +3047,15 @@ Getopt::Long::Descriptive::Usage      0.097  R/RJ/RJBS/Getopt-Long-Descriptive-0
 Getopt::Usaginator                   0.0012  R/RO/ROKR/Getopt-Usaginator-0.0012.tar.gz
 Git                                    0.03  M/MS/MSOUTH/Git-0.03.tgz
 Git::Error::Command                    0.03  M/MS/MSOUTH/Git-0.03.tgz
+Git::Repository                       1.312  B/BO/BOOK/Git-Repository-1.312.tar.gz
+Git::Repository::Command              1.312  B/BO/BOOK/Git-Repository-1.312.tar.gz
+Git::Repository::Log                  1.312  B/BO/BOOK/Git-Repository-Plugin-Log-1.312.tar.gz
+Git::Repository::Log::Iterator        1.312  B/BO/BOOK/Git-Repository-Plugin-Log-1.312.tar.gz
+Git::Repository::Plugin               1.312  B/BO/BOOK/Git-Repository-1.312.tar.gz
+Git::Repository::Plugin::Blame     1.002002  A/AU/AUBERTG/Git-Repository-Plugin-Blame-v1.2.2.tar.gz
+Git::Repository::Plugin::Blame::Cache   1.002002  A/AU/AUBERTG/Git-Repository-Plugin-Blame-v1.2.2.tar.gz
+Git::Repository::Plugin::Blame::Line   1.002002  A/AU/AUBERTG/Git-Repository-Plugin-Blame-v1.2.2.tar.gz
+Git::Repository::Plugin::Log          1.312  B/BO/BOOK/Git-Repository-Plugin-Log-1.312.tar.gz
 Git::activestate_pipe                  0.03  M/MS/MSOUTH/Git-0.03.tgz
 Gravatar::URL                          1.06  M/MS/MSCHWERN/Gravatar-URL-1.06.tar.gz
 Guard                                 1.022  M/ML/MLEHMANN/Guard-1.022.tar.gz
@@ -3716,6 +3727,7 @@ Image::ExifTool::XMP                   2.78  E/EX/EXIFTOOL/Image-ExifTool-9.70.t
 Image::ExifTool::ZIP                   1.17  E/EX/EXIFTOOL/Image-ExifTool-9.70.tar.gz
 Image::ExifTool::iWork                 1.03  E/EX/EXIFTOOL/Image-ExifTool-9.70.tar.gz
 Import::Into                       1.002004  E/ET/ETHER/Import-Into-1.002004.tar.gz
+InnerFooBar                           undef  T/TH/THALJEF/Perl-Critic-Dynamic-0.05.tar.gz
 JSON                                   2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
 JSON::Any                              1.36  E/ET/ETHER/JSON-Any-1.36.tar.gz
 JSON::Backend::PP                      2.90  M/MA/MAKAMAKA/JSON-2.90.tar.gz
@@ -5440,11 +5452,16 @@ Path::IsDev::Role::NegativeHeuristic   1.001002  K/KE/KENTNL/Path-IsDev-1.001002
 Path::Iterator::Rule                  1.008  D/DA/DAGOLDEN/Path-Iterator-Rule-1.008.tar.gz
 Path::Tiny                            0.058  D/DA/DAGOLDEN/Path-Tiny-0.058.tar.gz
 Path::Tiny::Error                     0.058  D/DA/DAGOLDEN/Path-Tiny-0.058.tar.gz
+Perl6::Slurp                       0.051005  D/DC/DCONWAY/Perl6-Slurp-0.051005.tar.gz
 Perl::Critic                          1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Annotation              1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Bangs                    1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
 Perl::Critic::Command                 1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Compatibility           1.001  E/EL/ELLIOTJS/Perl-Critic-Compatibility-1.001.tar.gz
 Perl::Critic::Config                  1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Document                1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Dynamic                  0.05  T/TH/THALJEF/Perl-Critic-Dynamic-0.05.tar.gz
+Perl::Critic::DynamicPolicy            0.05  T/TH/THALJEF/Perl-Critic-Dynamic-0.05.tar.gz
 Perl::Critic::Exception               1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Exception::AggregateConfiguration      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Exception::Configuration      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5463,8 +5480,21 @@ Perl::Critic::Exception::Fatal::Internal      1.122  T/TH/THALJEF/Perl-Critic-1.
 Perl::Critic::Exception::Fatal::PolicyDefinition      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Exception::IO           1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Exception::Parse        1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Git                  1.002001  A/AU/AUBERTG/Perl-Critic-Git-v1.2.1.tar.gz
+Perl::Critic::Lax                     0.011  R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
+Perl::Critic::More                    1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
+Perl::Critic::OTRS                     0.05  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
 Perl::Critic::OptionsProcessor        1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy                  1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Bangs::ProhibitBitwiseOperators       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
+Perl::Critic::Policy::Bangs::ProhibitCommentedOutCode       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
+Perl::Critic::Policy::Bangs::ProhibitDebuggingModules       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
+Perl::Critic::Policy::Bangs::ProhibitFlagComments       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
+Perl::Critic::Policy::Bangs::ProhibitNoPlan       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
+Perl::Critic::Policy::Bangs::ProhibitNumberedNames       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
+Perl::Critic::Policy::Bangs::ProhibitRefProtoOrProto       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
+Perl::Critic::Policy::Bangs::ProhibitUselessRegexModifiers       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
+Perl::Critic::Policy::Bangs::ProhibitVagueNames       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
 Perl::Critic::Policy::BuiltinFunctions::ProhibitBooleanGrep      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::BuiltinFunctions::ProhibitComplexMappings      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::BuiltinFunctions::ProhibitLvalueSubstr      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5488,9 +5518,11 @@ Perl::Critic::Policy::CodeLayout::ProhibitHardTabs      1.122  T/TH/THALJEF/Perl
 Perl::Critic::Policy::CodeLayout::ProhibitParensWithBuiltins      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitQuotedWordLists      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitTrailingWhitespace      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::CodeLayout::RequireASCII      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::CodeLayout::RequireConsistentNewlines      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::RequireTidyCode      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::RequireTrailingCommas      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Compatibility::ProhibitThreeArgumentOpen      1.001  E/EL/ELLIOTJS/Perl-Critic-Compatibility-1.001.tar.gz
 Perl::Critic::Policy::ControlStructures::ProhibitCStyleForLoops      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ControlStructures::ProhibitCascadingIfElse      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ControlStructures::ProhibitDeepNests      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5506,8 +5538,11 @@ Perl::Critic::Policy::Documentation::RequirePackageMatchesPodName      1.122  T/
 Perl::Critic::Policy::Documentation::RequirePodAtEnd      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Documentation::RequirePodLinksIncludeText      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Documentation::RequirePodSections      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Dynamic::ValidateAgainstSymbolTable       0.05  T/TH/THALJEF/Perl-Critic-Dynamic-0.05.tar.gz
+Perl::Critic::Policy::Editor::RequireEmacsFileVariables      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::ErrorHandling::RequireCarping      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ErrorHandling::RequireCheckingReturnValueOfEval      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::ErrorHandling::RequireUseOfExceptions      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::InputOutput::ProhibitBacktickOperators      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::InputOutput::ProhibitBarewordFileHandles      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::InputOutput::ProhibitExplicitStdin      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5522,10 +5557,17 @@ Perl::Critic::Policy::InputOutput::RequireCheckedClose      1.122  T/TH/THALJEF/
 Perl::Critic::Policy::InputOutput::RequireCheckedOpen      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::InputOutput::RequireCheckedSyscalls      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::InputOutput::RequireEncodingWithUTF8Layer      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Lax::ProhibitComplexMappings::LinesNotStatements      0.011  R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
+Perl::Critic::Policy::Lax::ProhibitEmptyQuotes::ExceptAsFallback      0.011  R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
+Perl::Critic::Policy::Lax::ProhibitLeadingZeros::ExceptChmod      0.011  R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
+Perl::Critic::Policy::Lax::ProhibitStringyEval::ExceptForRequire      0.011  R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
+Perl::Critic::Policy::Lax::RequireEndWithTrueConst      0.011  R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
+Perl::Critic::Policy::Lax::RequireExplicitPackage::ExceptForPragmata      0.011  R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
 Perl::Critic::Policy::Miscellanea::ProhibitFormats      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Miscellanea::ProhibitTies      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Miscellanea::ProhibitUnrestrictedNoCritic      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Miscellanea::ProhibitUselessNoCritic      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Modules::PerlMinimumVersion      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::Modules::ProhibitAutomaticExportation      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::ProhibitConditionalUseStatements      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::ProhibitEvilModules      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5536,9 +5578,22 @@ Perl::Critic::Policy::Modules::RequireEndWithOne      1.122  T/TH/THALJEF/Perl-C
 Perl::Critic::Policy::Modules::RequireExplicitPackage      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::RequireFilenameMatchesPackage      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::RequireNoMatchVarsWithUseEnglish      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Modules::RequirePerlVersion      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::Modules::RequireVersionVar      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::NamingConventions::Capitalization      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::NamingConventions::ProhibitAmbiguousNames      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::OTRS::ProhibitDumper       0.03  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::ProhibitFetchrowHashref       0.02  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::ProhibitLocaltime       0.02  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::ProhibitLowPrecedenceOps       0.02  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::ProhibitOpen       0.02  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::ProhibitPushISA       0.01  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::ProhibitRequire       0.02  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::ProhibitRmtree       1.02  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::ProhibitSomeCoreFunctions       0.02  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::RequireCamelCase       0.02  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::RequireParensWithMethods       0.02  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+Perl::Critic::Policy::OTRS::RequireTrueReturnValueForModules       0.03  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
 Perl::Critic::Policy::Objects::ProhibitIndirectSyntax      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::References::ProhibitDoubleSigils      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::RegularExpressions::ProhibitCaptureWithoutTest      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5572,6 +5627,9 @@ Perl::Critic::Policy::TestingAndDebugging::ProhibitProlongedStrictureOverride   
 Perl::Critic::Policy::TestingAndDebugging::RequireTestLabels      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::TestingAndDebugging::RequireUseStrict      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::TestingAndDebugging::RequireUseWarnings      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Tics::ProhibitLongLines      0.009  R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
+Perl::Critic::Policy::Tics::ProhibitManyArrows      0.009  R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
+Perl::Critic::Policy::Tics::ProhibitUseBase      0.009  R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitCommaSeparatedStatements      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitComplexVersion      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitConstantPragma      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5588,11 +5646,13 @@ Perl::Critic::Policy::ValuesAndExpressions::ProhibitNoisyQuotes      1.122  T/TH
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitQuotesAsQuotelikeOperatorDelimiters      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitSpecialLiteralHeredocTerminator      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitVersionStrings      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::RequireConstantOnLeftSideOfEquality      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireConstantVersion      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireInterpolationOfMetachars      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireNumberSeparators      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireQuotedHeredocTerminator      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireUpperCaseHeredocTerminator      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::RestrictLongStrings      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::Variables::ProhibitAugmentedAssignmentInDeclaration      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Variables::ProhibitConditionalDeclarations      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Variables::ProhibitEvilVariables      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5623,6 +5683,7 @@ Perl::Critic::Statistics              1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.
 Perl::Critic::TestUtils               1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Theme                   1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::ThemeListing            1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Tics                    0.009  R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
 Perl::Critic::UserProfile             1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Utils                   1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Utils::Constants        1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -6804,6 +6865,8 @@ Syntax::Keyword::Junction::Any     0.003008  F/FR/FREW/Syntax-Keyword-Junction-0
 Syntax::Keyword::Junction::Base    0.003008  F/FR/FREW/Syntax-Keyword-Junction-0.003008.tar.gz
 Syntax::Keyword::Junction::None    0.003008  F/FR/FREW/Syntax-Keyword-Junction-0.003008.tar.gz
 Syntax::Keyword::Junction::One     0.003008  F/FR/FREW/Syntax-Keyword-Junction-0.003008.tar.gz
+System::Command                       1.110  B/BO/BOOK/System-Command-1.110.tar.gz
+System::Command::Reaper               1.110  B/BO/BOOK/System-Command-1.110.tar.gz
 TAP::Base                              3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 TAP::Formatter::Base                   3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 TAP::Formatter::Color                  3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
@@ -7037,6 +7100,7 @@ Test::File::ShareDir::Object::Module   1.000005  K/KE/KENTNL/Test-File-ShareDir-
 Test::File::ShareDir::TempDirObject   1.000005  K/KE/KENTNL/Test-File-ShareDir-1.000005.tar.gz
 Test::Filename                         0.03  D/DA/DAGOLDEN/Test-Filename-0.03.tar.gz
 Test::Future                           0.29  P/PE/PEVANS/Future-0.29.tar.gz
+Test::Git                             1.312  B/BO/BOOK/Git-Repository-1.312.tar.gz
 Test::Harness                          3.33  L/LE/LEONT/Test-Harness-3.33.tar.gz
 Test::Identity                         0.01  P/PE/PEVANS/Test-Identity-0.01.tar.gz
 Test::JSON                             0.11  O/OV/OVID/Test-JSON-0.11.tar.gz
@@ -7126,6 +7190,7 @@ Test::Trap::Builder                0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar
 Test::Trap::Builder::PerlIO        0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
 Test::Trap::Builder::SystemSafe    0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
 Test::Trap::Builder::TempFile      0.002004  E/EB/EBHANSSEN/Test-Trap-v0.2.4.tar.gz
+Test::Type                         1.002000  A/AU/AUBERTG/Test-Type-v1.2.0.tar.gz
 Test::TypeTiny                     1.000004  T/TO/TOBYINK/Type-Tiny-1.000004.tar.gz
 Test::Unit::Debug                    0.1202  D/DE/DEXTER/Test-Unit-Lite-0.1202.tar.gz
 Test::Unit::HarnessUnit              0.1202  D/DE/DEXTER/Test-Unit-Lite-0.1202.tar.gz

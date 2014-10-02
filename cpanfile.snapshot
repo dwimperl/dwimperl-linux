@@ -4037,6 +4037,21 @@ DISTRIBUTIONS
     requirements:
       Digest::MD5 0
       ExtUtils::MakeMaker 0
+  Data-Validate-Type-v1.5.1
+    pathname: A/AU/AUBERTG/Data-Validate-Type-v1.5.1.tar.gz
+    provides:
+      Data::Validate::Type 1.005001
+    requirements:
+      Carp 0
+      Data::Dump 0
+      Exporter 0
+      File::Spec 0
+      Module::Build 0
+      Scalar::Util 1.18
+      Test::Exception 0
+      Test::FailWarnings 0
+      Test::More 0.94
+      perl 5.006
   Data-Visitor-0.30
     pathname: D/DO/DOY/Data-Visitor-0.30.tar.gz
     provides:
@@ -6931,6 +6946,64 @@ DISTRIBUTIONS
       Git::activestate_pipe 0.03
     requirements:
       ExtUtils::MakeMaker 0
+  Git-Repository-1.312
+    pathname: B/BO/BOOK/Git-Repository-1.312.tar.gz
+    provides:
+      Git::Repository 1.312
+      Git::Repository::Command 1.312
+      Git::Repository::Plugin 1.312
+      Test::Git 1.312
+    requirements:
+      Carp 0
+      Cwd 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Temp 0
+      IO::Handle 0
+      Scalar::Util 0
+      System::Command 1.103
+      Test::Builder 0
+      strict 0
+      warnings 0
+  Git-Repository-Plugin-Blame-v1.2.2
+    pathname: A/AU/AUBERTG/Git-Repository-Plugin-Blame-v1.2.2.tar.gz
+    provides:
+      Git::Repository::Plugin::Blame 1.002002
+      Git::Repository::Plugin::Blame::Cache 1.002002
+      Git::Repository::Plugin::Blame::Line 1.002002
+    requirements:
+      Carp 0
+      Class::Load 0.2
+      Data::Dumper 0
+      Data::Validate::Type 0
+      Git::Repository 1.2
+      Git::Repository::Plugin::Log 0
+      Module::Build 0
+      Perl6::Slurp 0
+      Test::Deep 0
+      Test::Exception 0
+      Test::FailWarnings 0
+      Test::Git 0
+      Test::More 0
+      Test::Type 0
+      perl 5.006
+  Git-Repository-Plugin-Log-1.312
+    pathname: B/BO/BOOK/Git-Repository-Plugin-Log-1.312.tar.gz
+    provides:
+      Git::Repository::Log 1.312
+      Git::Repository::Log::Iterator 1.312
+      Git::Repository::Plugin::Log 1.312
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      Git::Repository 1.309
+      Git::Repository::Command 0
+      Git::Repository::Plugin 0
+      Scalar::Util 0
+      strict 0
+      warnings 0
   Gravatar-URL-1.06
     pathname: M/MS/MSCHWERN/Gravatar-URL-1.06.tar.gz
     provides:
@@ -12548,6 +12621,146 @@ DISTRIBUTIONS
       strict 0
       version 0.77
       warnings 0
+  Perl-Critic-Bangs-1.10
+    pathname: P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
+    provides:
+      Perl::Critic::Bangs 1.10
+      Perl::Critic::Policy::Bangs::ProhibitBitwiseOperators 1.10
+      Perl::Critic::Policy::Bangs::ProhibitCommentedOutCode 1.10
+      Perl::Critic::Policy::Bangs::ProhibitDebuggingModules 1.10
+      Perl::Critic::Policy::Bangs::ProhibitFlagComments 1.10
+      Perl::Critic::Policy::Bangs::ProhibitNoPlan 1.10
+      Perl::Critic::Policy::Bangs::ProhibitNumberedNames 1.10
+      Perl::Critic::Policy::Bangs::ProhibitRefProtoOrProto 1.10
+      Perl::Critic::Policy::Bangs::ProhibitUselessRegexModifiers 1.10
+      Perl::Critic::Policy::Bangs::ProhibitVagueNames 1.10
+    requirements:
+      ExtUtils::MakeMaker 0
+      PPI::Cache 0
+      PPI::Document 0
+      Perl::Critic 1.098
+      Perl::Critic::Policy 0
+      Perl::Critic::PolicyFactory 0
+      Perl::Critic::PolicyParameter 0
+      Perl::Critic::TestUtils 0
+      Perl::Critic::UserProfile 0
+      Perl::Critic::Utils 0
+      Perl::Critic::Violation 0
+      Readonly 0
+      Test::More 0.96
+      Test::Perl::Critic 1.01
+  Perl-Critic-Compatibility-1.001
+    pathname: E/EL/ELLIOTJS/Perl-Critic-Compatibility-1.001.tar.gz
+    provides:
+      Perl::Critic::Compatibility 1.001
+      Perl::Critic::Policy::Compatibility::ProhibitThreeArgumentOpen 1.001
+    requirements:
+      Perl::Critic 1.083_001
+      Test::More 0
+      version 0
+  Perl-Critic-Dynamic-0.05
+    pathname: T/TH/THALJEF/Perl-Critic-Dynamic-0.05.tar.gz
+    provides:
+      FooBar undef
+      InnerFooBar undef
+      Perl::Critic::Dynamic 0.05
+      Perl::Critic::DynamicPolicy 0.05
+      Perl::Critic::Policy::Dynamic::ValidateAgainstSymbolTable 0.05
+    requirements:
+      Devel::Symdump 2.07
+      Perl::Critic::Policy 1.108
+      Perl::Critic::Utils 1.108
+      Readonly 0
+      Storable 2.16
+      Test::More 0
+  Perl-Critic-Git-v1.2.1
+    pathname: A/AU/AUBERTG/Perl-Critic-Git-v1.2.1.tar.gz
+    provides:
+      Perl::Critic::Git 1.002001
+    requirements:
+      Carp 0
+      Data::Dumper 0
+      File::Basename 0
+      File::Path 0
+      File::Spec 0
+      Git::Repository 0
+      Git::Repository::Plugin::Blame 0
+      Module::Build 0
+      Perl::Critic 0
+      Test::Deep 0
+      Test::Exception 0
+      Test::FailWarnings 0
+      Test::Git 0
+      Test::More 0
+      perl 5.006
+  Perl-Critic-Lax-0.011
+    pathname: R/RJ/RJBS/Perl-Critic-Lax-0.011.tar.gz
+    provides:
+      Perl::Critic::Lax 0.011
+      Perl::Critic::Policy::Lax::ProhibitComplexMappings::LinesNotStatements 0.011
+      Perl::Critic::Policy::Lax::ProhibitEmptyQuotes::ExceptAsFallback 0.011
+      Perl::Critic::Policy::Lax::ProhibitLeadingZeros::ExceptChmod 0.011
+      Perl::Critic::Policy::Lax::ProhibitStringyEval::ExceptForRequire 0.011
+      Perl::Critic::Policy::Lax::RequireEndWithTrueConst 0.011
+      Perl::Critic::Policy::Lax::RequireExplicitPackage::ExceptForPragmata 0.011
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Perl::Critic::Policy 0
+      Perl::Critic::Utils 0
+      parent 0
+      strict 0
+      warnings 0
+  Perl-Critic-More-1.003
+    pathname: T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
+    provides:
+      Perl::Critic::More 1.003
+      Perl::Critic::Policy::CodeLayout::RequireASCII 1.003
+      Perl::Critic::Policy::Editor::RequireEmacsFileVariables 1.003
+      Perl::Critic::Policy::ErrorHandling::RequireUseOfExceptions 1.003
+      Perl::Critic::Policy::Modules::PerlMinimumVersion 1.003
+      Perl::Critic::Policy::Modules::RequirePerlVersion 1.003
+      Perl::Critic::Policy::ValuesAndExpressions::RequireConstantOnLeftSideOfEquality 1.003
+      Perl::Critic::Policy::ValuesAndExpressions::RestrictLongStrings 1.003
+    requirements:
+      Module::Build 0.4
+      Perl::Critic 1.098
+      Readonly 1.03
+      Test::More 0
+  Perl-Critic-OTRS-0.05
+    pathname: R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
+    provides:
+      Perl::Critic::OTRS 0.05
+      Perl::Critic::Policy::OTRS::ProhibitDumper 0.03
+      Perl::Critic::Policy::OTRS::ProhibitFetchrowHashref 0.02
+      Perl::Critic::Policy::OTRS::ProhibitLocaltime 0.02
+      Perl::Critic::Policy::OTRS::ProhibitLowPrecedenceOps 0.02
+      Perl::Critic::Policy::OTRS::ProhibitOpen 0.02
+      Perl::Critic::Policy::OTRS::ProhibitPushISA 0.01
+      Perl::Critic::Policy::OTRS::ProhibitRequire 0.02
+      Perl::Critic::Policy::OTRS::ProhibitRmtree 1.02
+      Perl::Critic::Policy::OTRS::ProhibitSomeCoreFunctions 0.02
+      Perl::Critic::Policy::OTRS::RequireCamelCase 0.02
+      Perl::Critic::Policy::OTRS::RequireParensWithMethods 0.02
+      Perl::Critic::Policy::OTRS::RequireTrueReturnValueForModules 0.03
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Perl::Critic 1.105
+      Readonly 1.03
+  Perl-Critic-Tics-0.009
+    pathname: R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
+    provides:
+      Perl::Critic::Policy::Tics::ProhibitLongLines 0.009
+      Perl::Critic::Policy::Tics::ProhibitManyArrows 0.009
+      Perl::Critic::Policy::Tics::ProhibitUseBase 0.009
+      Perl::Critic::Tics 0.009
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Perl::Critic::Policy 0
+      Perl::Critic::Utils 0
+      Perl::Critic::Violation 0
+      parent 0
+      strict 0
+      warnings 0
   Perl-PrereqScanner-1.020
     pathname: R/RJ/RJBS/Perl-PrereqScanner-1.020.tar.gz
     provides:
@@ -12616,6 +12829,12 @@ DISTRIBUTIONS
       Pod::Usage 1.3
       Scalar::Util 0
       Test::More 0
+  Perl6-Slurp-0.051005
+    pathname: D/DC/DCONWAY/Perl6-Slurp-0.051005.tar.gz
+    provides:
+      Perl6::Slurp 0.051005
+    requirements:
+      ExtUtils::MakeMaker 0
   PerlIO-utf8_strict-0.004
     pathname: L/LE/LEONT/PerlIO-utf8_strict-0.004.tar.gz
     provides:
@@ -14955,6 +15174,26 @@ DISTRIBUTIONS
       Sub::Exporter::Progressive 0.001006
       parent 0
       syntax 0
+  System-Command-1.110
+    pathname: B/BO/BOOK/System-Command-1.110.tar.gz
+    provides:
+      System::Command 1.110
+      System::Command::Reaper 1.110
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::MakeMaker 6.30
+      Fcntl 0
+      IO::Handle 0
+      IPC::Run 0
+      List::Util 0
+      POSIX 0
+      Scalar::Util 0
+      Symbol 0
+      constant 0
+      strict 0
+      warnings 0
   Task-Catalyst-4.02
     pathname: B/BO/BOBTFISH/Task-Catalyst-4.02.tar.gz
     provides:
@@ -16360,6 +16599,20 @@ DISTRIBUTIONS
       strict 0
       version 0
       warnings 0
+  Test-Type-v1.2.0
+    pathname: A/AU/AUBERTG/Test-Type-v1.2.0.tar.gz
+    provides:
+      Test::Type 1.002000
+    requirements:
+      Carp 0
+      Data::Validate::Type v1.5.0
+      Exporter 5.57
+      File::Spec 0
+      Module::Build 0
+      Test::Builder::Tester 0
+      Test::FailWarnings 0
+      Test::More 0.94
+      perl 5.006
   Test-Unit-Lite-0.1202
     pathname: D/DE/DEXTER/Test-Unit-Lite-0.1202.tar.gz
     provides:
