@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7842
-Last-Updated: Thu Oct  2 19:40:55 2014
+Line-Count:   7901
+Last-Updated: Thu Oct  2 19:42:46 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -5486,6 +5486,7 @@ Perl::Critic::Lax                     0.011  R/RJ/RJBS/Perl-Critic-Lax-0.011.tar
 Perl::Critic::More                    1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::OTRS                     0.05  R/RE/RENEEB/Perl-Critic-OTRS-0.05.tar.gz
 Perl::Critic::OptionsProcessor        1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::PodParser::ProhibitVerbatimMarkup         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy                  1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Bangs::ProhibitBitwiseOperators       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
 Perl::Critic::Policy::Bangs::ProhibitCommentedOutCode       1.10  P/PE/PETDANCE/Perl-Critic-Bangs-1.10.tar.gz
@@ -5515,16 +5516,26 @@ Perl::Critic::Policy::BuiltinFunctions::RequireSimpleSortBlock      1.122  T/TH/
 Perl::Critic::Policy::ClassHierarchies::ProhibitAutoloading      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ClassHierarchies::ProhibitExplicitISA      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ClassHierarchies::ProhibitOneArgBless      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::CodeLayout::ProhibitFatCommaNewline         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitHardTabs      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitHashBarewords       0.07  M/MA/MARCELO/Perl-Critic-Itch-0.07.tar.gz
+Perl::Critic::Policy::CodeLayout::ProhibitIfIfSameLine         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitParensWithBuiltins      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitQuotedWordLists      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::ProhibitTrailingWhitespace      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::CodeLayout::RequireASCII      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::CodeLayout::RequireConsistentNewlines      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::CodeLayout::RequireFinalSemicolon         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::CodeLayout::RequireTidyCode      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::CodeLayout::RequireTrailingCommaAtNewline         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::CodeLayout::RequireTrailingCommas      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Compatibility::ConstantLeadingUnderscore         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Compatibility::ConstantPragmaHash         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Compatibility::Gtk2Constants         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Compatibility::PerlMinimumVersionAndWhy         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Compatibility::PodMinimumVersion         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::Compatibility::ProhibitThreeArgumentOpen      1.001  E/EL/ELLIOTJS/Perl-Critic-Compatibility-1.001.tar.gz
+Perl::Critic::Policy::Compatibility::ProhibitUnixDevNull         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::ControlStructures::ProhibitCStyleForLoops      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ControlStructures::ProhibitCascadingIfElse      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ControlStructures::ProhibitDeepNests      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5536,6 +5547,20 @@ Perl::Critic::Policy::ControlStructures::ProhibitUnlessBlocks      1.122  T/TH/T
 Perl::Critic::Policy::ControlStructures::ProhibitUnreachableCode      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ControlStructures::ProhibitUntilBlocks      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Documentation::PodSpelling      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitAdjacentLinks         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitAdjacentLinks::Parser         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitBadAproposMarkup         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitDuplicateHeadings         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitDuplicateSeeAlso         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitLinkToSelf         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitParagraphEndComma         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitParagraphTwoDots         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitUnbalancedParens         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::ProhibitVerbatimMarkup         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::RequireEndBeforeLastPod         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::RequireFilenameMarkup         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::RequireFinalCut         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Documentation::RequireLinkedURLs         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::Documentation::RequirePackageMatchesPodName      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Documentation::RequirePodAtEnd      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Documentation::RequirePodLinksIncludeText      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5569,12 +5594,17 @@ Perl::Critic::Policy::Miscellanea::ProhibitFormats      1.122  T/TH/THALJEF/Perl
 Perl::Critic::Policy::Miscellanea::ProhibitTies      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Miscellanea::ProhibitUnrestrictedNoCritic      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Miscellanea::ProhibitUselessNoCritic      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Miscellanea::TextDomainPlaceholders         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Miscellanea::TextDomainUnused         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::Modules::PerlMinimumVersion      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::Modules::ProhibitAutomaticExportation      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::ProhibitConditionalUseStatements      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::ProhibitEvilModules      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::ProhibitExcessMainComplexity      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Modules::ProhibitModuleShebang         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::Modules::ProhibitMultiplePackages      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::Modules::ProhibitPOSIXimport         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::Modules::ProhibitUseQuotedVersion         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::Modules::RequireBarewordIncludes      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::RequireEndWithOne      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Modules::RequireExplicitPackage      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5632,11 +5662,18 @@ Perl::Critic::Policy::TestingAndDebugging::RequireUseWarnings      1.122  T/TH/T
 Perl::Critic::Policy::Tics::ProhibitLongLines      0.009  R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
 Perl::Critic::Policy::Tics::ProhibitManyArrows      0.009  R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
 Perl::Critic::Policy::Tics::ProhibitUseBase      0.009  R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::ConstantBeforeLt         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::NotWithCompare         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitArrayAssignAref         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitBarewordDoubleColon         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitCommaSeparatedStatements      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitComplexVersion      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitConstantPragma      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitDuplicateHashKeys         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitEmptyCommas         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitEmptyQuotes      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitEscapedCharacters      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitFiletest_f         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitImplicitNewlines      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitInterpolationOfLiterals      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitLeadingZeros      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5645,16 +5682,20 @@ Perl::Critic::Policy::ValuesAndExpressions::ProhibitMagicNumbers      1.122  T/T
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitMismatchedOperators      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitMixedBooleanOperators      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitNoisyQuotes      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitNullStatements         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitQuotesAsQuotelikeOperatorDelimiters      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitSpecialLiteralHeredocTerminator      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::ProhibitUnknownBackslash         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::ProhibitVersionStrings      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireConstantOnLeftSideOfEquality      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireConstantVersion      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireInterpolationOfMetachars      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireNumberSeparators      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::RequireNumericVersion         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireQuotedHeredocTerminator      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RequireUpperCaseHeredocTerminator      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::ValuesAndExpressions::RestrictLongStrings      1.003  T/TH/THALJEF/Perl-Critic-More-1.003.tar.gz
+Perl::Critic::Policy::ValuesAndExpressions::UnexpandedSpecialLiteral         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Policy::Variables::ProhibitAugmentedAssignmentInDeclaration      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Variables::ProhibitConditionalDeclarations      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Policy::Variables::ProhibitEvilVariables      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5681,6 +5722,21 @@ Perl::Critic::PolicyParameter::Behavior::Integer      1.122  T/TH/THALJEF/Perl-C
 Perl::Critic::PolicyParameter::Behavior::String      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::PolicyParameter::Behavior::StringList      1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::ProfilePrototype        1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
+Perl::Critic::Pulp                       85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodMinimumVersionViolation         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser            85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::ProhibitBadAproposMarkup         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::ProhibitDuplicateHeadings         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::ProhibitDuplicateSeeAlso         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::ProhibitLinkToSelf         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::ProhibitParagraphEndComma         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::ProhibitParagraphTwoDots         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::ProhibitUnbalancedParens         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::RequireFilenameMarkup         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::RequireFinalCut         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::PodParser::RequireLinkedURLs         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::ProhibitDuplicateHashKeys::Qword         85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+Perl::Critic::Pulp::Utils                85  K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
 Perl::Critic::Statistics              1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::TestUtils               1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
 Perl::Critic::Theme                   1.122  T/TH/THALJEF/Perl-Critic-1.122.tar.gz
@@ -5968,6 +6024,9 @@ Pod::Coverage::Moose                   0.05  E/ET/ETHER/Pod-Coverage-Moose-0.05.
 Pod::Coverage::Overloader             undef  R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
 Pod::Eventual                      0.094001  R/RJ/RJBS/Pod-Eventual-0.094001.tar.gz
 Pod::Eventual::Simple              0.094001  R/RJ/RJBS/Pod-Eventual-0.094001.tar.gz
+Pod::MinimumVersion                      50  K/KR/KRYDE/Pod-MinimumVersion-50.tar.gz
+Pod::MinimumVersion::Parser              50  K/KR/KRYDE/Pod-MinimumVersion-50.tar.gz
+Pod::MinimumVersion::Report              50  K/KR/KRYDE/Pod-MinimumVersion-50.tar.gz
 Pod::POM                               0.29  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
 Pod::POM::Constants                    1.01  A/AN/ANDREWF/Pod-POM-0.29.tar.gz
 Pod::POM::Node                         1.05  A/AN/ANDREWF/Pod-POM-0.29.tar.gz

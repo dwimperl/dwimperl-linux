@@ -12758,6 +12758,86 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       Perl::Critic 1.105
       Readonly 1.03
+  Perl-Critic-Pulp-85
+    pathname: K/KR/KRYDE/Perl-Critic-Pulp-85.tar.gz
+    provides:
+      Perl::Critic::PodParser::ProhibitVerbatimMarkup 85
+      Perl::Critic::Policy::CodeLayout::ProhibitFatCommaNewline 85
+      Perl::Critic::Policy::CodeLayout::ProhibitIfIfSameLine 85
+      Perl::Critic::Policy::CodeLayout::RequireFinalSemicolon 85
+      Perl::Critic::Policy::CodeLayout::RequireTrailingCommaAtNewline 85
+      Perl::Critic::Policy::Compatibility::ConstantLeadingUnderscore 85
+      Perl::Critic::Policy::Compatibility::ConstantPragmaHash 85
+      Perl::Critic::Policy::Compatibility::Gtk2Constants 85
+      Perl::Critic::Policy::Compatibility::PerlMinimumVersionAndWhy 85
+      Perl::Critic::Policy::Compatibility::PodMinimumVersion 85
+      Perl::Critic::Policy::Compatibility::ProhibitUnixDevNull 85
+      Perl::Critic::Policy::Documentation::ProhibitAdjacentLinks 85
+      Perl::Critic::Policy::Documentation::ProhibitAdjacentLinks::Parser 85
+      Perl::Critic::Policy::Documentation::ProhibitBadAproposMarkup 85
+      Perl::Critic::Policy::Documentation::ProhibitDuplicateHeadings 85
+      Perl::Critic::Policy::Documentation::ProhibitDuplicateSeeAlso 85
+      Perl::Critic::Policy::Documentation::ProhibitLinkToSelf 85
+      Perl::Critic::Policy::Documentation::ProhibitParagraphEndComma 85
+      Perl::Critic::Policy::Documentation::ProhibitParagraphTwoDots 85
+      Perl::Critic::Policy::Documentation::ProhibitUnbalancedParens 85
+      Perl::Critic::Policy::Documentation::ProhibitVerbatimMarkup 85
+      Perl::Critic::Policy::Documentation::RequireEndBeforeLastPod 85
+      Perl::Critic::Policy::Documentation::RequireFilenameMarkup 85
+      Perl::Critic::Policy::Documentation::RequireFinalCut 85
+      Perl::Critic::Policy::Documentation::RequireLinkedURLs 85
+      Perl::Critic::Policy::Miscellanea::TextDomainPlaceholders 85
+      Perl::Critic::Policy::Miscellanea::TextDomainUnused 85
+      Perl::Critic::Policy::Modules::ProhibitModuleShebang 85
+      Perl::Critic::Policy::Modules::ProhibitPOSIXimport 85
+      Perl::Critic::Policy::Modules::ProhibitUseQuotedVersion 85
+      Perl::Critic::Policy::ValuesAndExpressions::ConstantBeforeLt 85
+      Perl::Critic::Policy::ValuesAndExpressions::NotWithCompare 85
+      Perl::Critic::Policy::ValuesAndExpressions::ProhibitArrayAssignAref 85
+      Perl::Critic::Policy::ValuesAndExpressions::ProhibitBarewordDoubleColon 85
+      Perl::Critic::Policy::ValuesAndExpressions::ProhibitDuplicateHashKeys 85
+      Perl::Critic::Policy::ValuesAndExpressions::ProhibitEmptyCommas 85
+      Perl::Critic::Policy::ValuesAndExpressions::ProhibitFiletest_f 85
+      Perl::Critic::Policy::ValuesAndExpressions::ProhibitNullStatements 85
+      Perl::Critic::Policy::ValuesAndExpressions::ProhibitUnknownBackslash 85
+      Perl::Critic::Policy::ValuesAndExpressions::RequireNumericVersion 85
+      Perl::Critic::Policy::ValuesAndExpressions::UnexpandedSpecialLiteral 85
+      Perl::Critic::Pulp 85
+      Perl::Critic::Pulp::PodMinimumVersionViolation 85
+      Perl::Critic::Pulp::PodParser 85
+      Perl::Critic::Pulp::PodParser::ProhibitBadAproposMarkup 85
+      Perl::Critic::Pulp::PodParser::ProhibitDuplicateHeadings 85
+      Perl::Critic::Pulp::PodParser::ProhibitDuplicateSeeAlso 85
+      Perl::Critic::Pulp::PodParser::ProhibitLinkToSelf 85
+      Perl::Critic::Pulp::PodParser::ProhibitParagraphEndComma 85
+      Perl::Critic::Pulp::PodParser::ProhibitParagraphTwoDots 85
+      Perl::Critic::Pulp::PodParser::ProhibitUnbalancedParens 85
+      Perl::Critic::Pulp::PodParser::RequireFilenameMarkup 85
+      Perl::Critic::Pulp::PodParser::RequireFinalCut 85
+      Perl::Critic::Pulp::PodParser::RequireLinkedURLs 85
+      Perl::Critic::Pulp::ProhibitDuplicateHashKeys::Qword 85
+      Perl::Critic::Pulp::Utils 85
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::String 1.02
+      List::MoreUtils 0.24
+      List::Util 0
+      PPI 1.212
+      PPI::Document 0
+      PPI::Dumper 0
+      Perl::Critic 1.084
+      Perl::Critic::Policy 1.084
+      Perl::Critic::Utils 1.100
+      Perl::Critic::Utils::PPI 0
+      Perl::Critic::Violation 0
+      Pod::Escapes 0
+      Pod::MinimumVersion 50
+      Pod::ParseLink 0
+      Pod::Parser 0
+      Scalar::Util 0
+      Test::More 0
+      perl 5.006
+      version 0
   Perl-Critic-Tics-0.009
     pathname: R/RJ/RJBS/Perl-Critic-Tics-0.009.tar.gz
     provides:
@@ -13495,6 +13575,20 @@ DISTRIBUTIONS
       Mixin::Linewise::Readers 0.102
       strict 0
       warnings 0
+  Pod-MinimumVersion-50
+    pathname: K/KR/KRYDE/Pod-MinimumVersion-50.tar.gz
+    provides:
+      Pod::MinimumVersion 50
+      Pod::MinimumVersion::Parser 50
+      Pod::MinimumVersion::Report 50
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::String 1.02
+      List::Util 0
+      Pod::Parser 0
+      Test 0
+      perl 5.004
+      version 0
   Pod-POM-0.29
     pathname: A/AN/ANDREWF/Pod-POM-0.29.tar.gz
     provides:
