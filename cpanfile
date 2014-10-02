@@ -516,3 +516,4 @@ requires 'Perl::Critic::Pulp',                             '85';
 requires 'Perl::Critic::Tics',                             '0.009';
 requires 'Module::Version',                                '0.12';
 requires 'TryCatch',                                       '1.003002';
+requires 'Compress::Bzip2',                                '2.18';
