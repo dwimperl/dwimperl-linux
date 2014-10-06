@@ -2068,6 +2068,20 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.30
       Moose 0
       parent 0
+  Config-MVP-Slicer-0.302
+    pathname: R/RW/RWSTAUNER/Config-MVP-Slicer-0.302.tar.gz
+    provides:
+      Config::MVP::Slicer 0.302
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Temp 0
+      Moose 0
+      Test::Fatal 0
+      Test::More 0.96
+      strict 0
+      warnings 0
   Config-Tiny-2.20
     pathname: R/RS/RSAVAGE/Config-Tiny-2.20.tgz
     provides:
@@ -5326,6 +5340,273 @@ DISTRIBUTIONS
       strict 0
       version 0
       warnings 0
+  Dist-Zilla-Plugin-Bugtracker-1.111080
+    pathname: M/MA/MARCEL/Dist-Zilla-Plugin-Bugtracker-1.111080.tar.gz
+    provides:
+      Dist::Zilla::Plugin::Bugtracker 1.111080
+    requirements:
+      Carp 0
+      Dist::Zilla::Role::MetaProvider 0
+      English 0
+      ExtUtils::MakeMaker 6.31
+      File::Find 0
+      File::Temp 0
+      Moose 0
+      Scalar::Util 0
+      Test::Differences 0
+      Test::MockObject 0
+      Test::More 0.94
+  Dist-Zilla-Plugin-Config-Git-0.92
+    pathname: B/BB/BBYRD/Dist-Zilla-Plugin-Config-Git-0.92.tar.gz
+    provides:
+      Dist::Zilla::Plugin::Config::Git 0.92
+      Dist::Zilla::Role::GitConfig 0.92
+    requirements:
+      Dist::Zilla::Role::Plugin 1.000
+      Moose 0.34
+      MooseX::Types 0.06
+      String::Errf 0.001
+      namespace::clean 0.06
+  Dist-Zilla-Plugin-ContributorsFile-0.2.4
+    pathname: Y/YA/YANICK/Dist-Zilla-Plugin-ContributorsFile-0.2.4.tar.gz
+    provides:
+      Dist::Zilla::Plugin::ContributorsFile 0.002004
+    requirements:
+      Dist::Zilla::File::InMemory 0
+      Dist::Zilla::Role::FileGatherer 0
+      Dist::Zilla::Role::FileMunger 0
+      Dist::Zilla::Role::FilePruner 0
+      Dist::Zilla::Role::Plugin 0
+      Dist::Zilla::Role::TextTemplate 0
+      Module::Build 0.28
+      Moose 0
+      strict 0
+      warnings 0
+  Dist-Zilla-Plugin-ContributorsFromGit-0.014
+    pathname: R/RS/RSRCHBOY/Dist-Zilla-Plugin-ContributorsFromGit-0.014.tar.gz
+    provides:
+      Dist::Zilla::Plugin::ContributorsFromGit 0.014
+    requirements:
+      Dist::Zilla 5.013
+      Dist::Zilla::Role::BeforeBuild 0
+      Dist::Zilla::Role::MetaProvider 0
+      Dist::Zilla::Role::RegisterStash 0
+      Dist::Zilla::Stash::PodWeaver 0
+      Encode 0
+      ExtUtils::MakeMaker 6.30
+      File::ShareDir::Install 0.06
+      File::ShareDir::ProjectDistDir 0
+      File::Which 0
+      IPC::System::Simple 0
+      List::AllUtils 0
+      Path::Class 0
+      Reindeer 0.017
+      YAML::Tiny 0
+      aliased 0
+      autobox::Core 0
+      autobox::Junctions 0
+      autodie 0
+      utf8 0
+  Dist-Zilla-Plugin-CopyReadmeFromBuild-0.0019
+    pathname: R/RO/ROKR/Dist-Zilla-Plugin-CopyReadmeFromBuild-0.0019.tar.gz
+    provides:
+      Dist::Zilla::Plugin::CopyReadmeFromBuild 0.0019
+    requirements:
+      Dist::Zilla 0
+      ExtUtils::MakeMaker 6.30
+      Test::Most 0
+  Dist-Zilla-Plugin-Git-2.024
+    pathname: C/CJ/CJM/Dist-Zilla-Plugin-Git-2.024.tar.gz
+    provides:
+      Dist::Zilla::Plugin::Git 2.024
+      Dist::Zilla::Plugin::Git::Check 2.024
+      Dist::Zilla::Plugin::Git::Commit 2.024
+      Dist::Zilla::Plugin::Git::CommitBuild 2.024
+      Dist::Zilla::Plugin::Git::GatherDir 2.024
+      Dist::Zilla::Plugin::Git::Init 2.024
+      Dist::Zilla::Plugin::Git::NextVersion 2.024
+      Dist::Zilla::Plugin::Git::Push 2.024
+      Dist::Zilla::Plugin::Git::Tag 2.024
+      Dist::Zilla::PluginBundle::Git 2.024
+      Dist::Zilla::Role::Git::DirtyFiles 2.024
+      Dist::Zilla::Role::Git::Repo 2.024
+    requirements:
+      Cwd 0
+      DateTime 0
+      Dist::Zilla 4
+      Dist::Zilla::Plugin::GatherDir 4.200016
+      Dist::Zilla::Role::AfterBuild 0
+      Dist::Zilla::Role::AfterMint 0
+      Dist::Zilla::Role::AfterRelease 0
+      Dist::Zilla::Role::BeforeRelease 0
+      Dist::Zilla::Role::FilePruner 0
+      Dist::Zilla::Role::GitConfig 0
+      Dist::Zilla::Role::PluginBundle 0
+      Dist::Zilla::Role::VersionProvider 0
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Temp 0
+      File::chdir 0
+      Git::Wrapper 0.021
+      IPC::Open3 0
+      IPC::System::Simple 0
+      List::AllUtils 0
+      List::Util 0
+      Module::Build 0.3601
+      Module::Runtime 0
+      Moose 0
+      Moose::Autobox 0
+      Moose::Role 0
+      Moose::Util::TypeConstraints 0
+      MooseX::AttributeShortcuts 0
+      MooseX::Has::Sugar 0
+      MooseX::Types::Moose 0
+      MooseX::Types::Path::Tiny 0.010
+      Path::Tiny 0.048
+      String::Formatter 0
+      Try::Tiny 0
+      Version::Next 0
+      constant 0
+      namespace::autoclean 0.09
+      perl 5.010
+      strict 0
+      version 0.80
+      warnings 0
+  Dist-Zilla-Plugin-GithubMeta-0.46
+    pathname: B/BI/BINGOS/Dist-Zilla-Plugin-GithubMeta-0.46.tar.gz
+    provides:
+      Dist::Zilla::Plugin::GithubMeta 0.46
+    requirements:
+      Dist::Zilla 4.101582
+      Dist::Zilla::Role::MetaProvider 4.101582
+      ExtUtils::MakeMaker 6.30
+      IPC::Cmd 0
+      Moose 1.07
+      MooseX::Types::URI 0.03
+      version 0
+  Dist-Zilla-Plugin-InstallGuide-1.200003
+    pathname: D/DO/DOHERTY/Dist-Zilla-Plugin-InstallGuide-1.200003.tar.gz
+    provides:
+      Dist::Zilla::Plugin::InstallGuide 1.200003
+    requirements:
+      Dist::Zilla::File::FromCode 0
+      Dist::Zilla::Role::FileGatherer 0
+      Dist::Zilla::Role::TextTemplate 0
+      Module::Build 0.3601
+      Moose 0
+      Moose::Autobox 0
+      perl 5.008
+      strict 0
+      warnings 0
+  Dist-Zilla-Plugin-PodWeaver-4.006
+    pathname: R/RJ/RJBS/Dist-Zilla-Plugin-PodWeaver-4.006.tar.gz
+    provides:
+      Dist::Zilla::Plugin::PodWeaver 4.006
+    requirements:
+      Dist::Zilla 5
+      Dist::Zilla::Role::FileFinderUser 0
+      Dist::Zilla::Role::FileMunger 0
+      ExtUtils::MakeMaker 0
+      List::MoreUtils 0
+      Moose 0
+      PPI 0
+      Pod::Elemental::PerlMunger 0.1
+      Pod::Weaver 4
+      Pod::Weaver::Config::Assembler 0
+      namespace::autoclean 0
+  Dist-Zilla-Plugin-ReadmeFromPod-0.21
+    pathname: F/FA/FAYLAND/Dist-Zilla-Plugin-ReadmeFromPod-0.21.tar.gz
+    provides:
+      Dist::Zilla::Plugin::ReadmeFromPod 0.21
+    requirements:
+      Dist::Zilla::File::InMemory 0
+      Dist::Zilla::Role::InstallTool 5
+      ExtUtils::MakeMaker 6.30
+      Moose 0
+      Moose::Autobox 0
+      Pod::Simple 3.23
+      Pod::Text 0
+  Dist-Zilla-Plugin-Test-CPAN-Changes-0.008
+    pathname: D/DO/DOHERTY/Dist-Zilla-Plugin-Test-CPAN-Changes-0.008.tar.gz
+    provides:
+      Dist::Zilla::Plugin::Test::CPAN::Changes 0.008
+    requirements:
+      Data::Section 0
+      Dist::Zilla 4
+      Dist::Zilla::File::InMemory 0
+      Dist::Zilla::Role::FileGatherer 0
+      Dist::Zilla::Role::PrereqSource 0
+      Module::Build 0.3601
+      Moose 0
+      Test::CPAN::Changes 0.19
+      perl 5.006
+      strict 0
+      warnings 0
+  Dist-Zilla-Role-DynamicConfig-1.002
+    pathname: R/RW/RWSTAUNER/Dist-Zilla-Role-DynamicConfig-1.002.tar.gz
+    provides:
+      Dist::Zilla::Role::DynamicConfig 1.002
+    requirements:
+      Dist::Zilla 4
+      Dist::Zilla::Role::Plugin 0
+      Dist::Zilla::Tester 0
+      File::Find 0
+      File::Temp 0
+      Module::Build 0.3601
+      Moose 0
+      Moose::Role 0
+      Test::MockObject 0
+      Test::More 0.88
+      perl 5.006
+  Dist-Zilla-Role-RegisterStash-0.003
+    pathname: R/RS/RSRCHBOY/Dist-Zilla-Role-RegisterStash-0.003.tar.gz
+    provides:
+      Dist::Zilla::Role::RegisterStash 0.003
+    requirements:
+      Class::Load 0
+      Dist::Zilla 4.3
+      ExtUtils::MakeMaker 6.30
+      Moose::Role 0
+      namespace::autoclean 0
+  Dist-Zilla-Role-Stash-Plugins-1.006
+    pathname: R/RW/RWSTAUNER/Dist-Zilla-Role-Stash-Plugins-1.006.tar.gz
+    provides:
+      Dist::Zilla::Role::Stash::Plugins 1.006
+    requirements:
+      Config::MVP::Slicer 0
+      Dist::Zilla::Role::DynamicConfig 0
+      Dist::Zilla::Role::Plugin 0
+      Dist::Zilla::Role::Stash 0
+      Dist::Zilla::Tester 0
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Spec::Functions 0
+      File::Temp 0
+      List::Util 0
+      Moose 0
+      Moose::Role 0
+      Test::MockObject 0
+      Test::More 0
+      strict 0
+      warnings 0
+  Dist-Zilla-Stash-PodWeaver-1.005
+    pathname: R/RW/RWSTAUNER/Dist-Zilla-Stash-PodWeaver-1.005.tar.gz
+    provides:
+      Dist::Zilla::Stash::PodWeaver 1.005
+    requirements:
+      Dist::Zilla::Role::Stash::Plugins 1.006
+      Dist::Zilla::Tester 0
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Spec::Functions 0
+      File::Temp 0
+      List::Util 0
+      Moose 0
+      Pod::Weaver::Config::Assembler 0
+      Test::MockObject 0
+      Test::More 0
+      strict 0
+      warnings 0
   Elasticsearch-1.05
     pathname: D/DR/DRTECH/Elasticsearch-1.05.tar.gz
     provides:
@@ -6202,6 +6483,20 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.59
       Test::More 0.96
       perl 5.008008
+  File-chdir-0.1009
+    pathname: D/DA/DAGOLDEN/File-chdir-0.1009.tar.gz
+    provides:
+      File::chdir 0.1009
+      File::chdir::ARRAY 0.1009
+      File::chdir::SCALAR 0.1009
+    requirements:
+      Carp 0
+      Cwd 3.16
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec::Functions 3.27
+      strict 0
+      vars 0
   File-pushd-1.009
     pathname: D/DA/DAGOLDEN/File-pushd-1.009.tar.gz
     provides:
@@ -6335,6 +6630,29 @@ DISTRIBUTIONS
       IPC::Open3 0
       Package::Pkg 0.0014
       Test::Most 0
+  Git-Wrapper-0.037
+    pathname: G/GE/GENEHACK/Git-Wrapper-0.037.tar.gz
+    provides:
+      Git::Wrapper 0.037
+      Git::Wrapper::Exception 0.037
+      Git::Wrapper::File::RawModification 0.037
+      Git::Wrapper::Log 0.037
+      Git::Wrapper::Status 0.037
+      Git::Wrapper::Statuses 0.037
+    requirements:
+      Devel::CheckBin 0
+      ExtUtils::MakeMaker 6.30
+      File::Spec 0
+      File::Temp 0
+      File::pushd 1.005
+      IPC::Cmd 0
+      IPC::Open3 0
+      Scalar::Util 0
+      Sort::Versions 0
+      Symbol 0
+      overload 0
+      strict 0
+      warnings 0
   Gravatar-URL-1.06
     pathname: M/MS/MSCHWERN/Gravatar-URL-1.06.tar.gz
     provides:
@@ -9537,6 +9855,29 @@ DISTRIBUTIONS
       Syntax::Keyword::Junction 0
       autobox 2.23
       parent 0
+  MooseX-AbstractMethod-0.004
+    pathname: R/RS/RSRCHBOY/MooseX-AbstractMethod-0.004.tar.gz
+    provides:
+      MooseX::AbstractMethod 0.004
+      MooseX::AbstractMethod::Trait::Class 0.004
+      MooseX::AbstractMethod::Trait::Method 0.004
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Temp 0
+      Moose 0.94
+      Moose::Exporter 0
+      Moose::Role 0
+      Moose::Util 0
+      Moose::Util::MetaRole 0
+      MooseX::Traits 0
+      Test::Fatal 0
+      Test::Moose 0
+      Test::More 0.88
+      constant 0
+      namespace::autoclean 0
+      strict 0
+      warnings 0
   MooseX-Aliases-0.11
     pathname: D/DO/DOY/MooseX-Aliases-0.11.tar.gz
     provides:
@@ -9548,6 +9889,48 @@ DISTRIBUTIONS
       Moose::Role 0
       Moose::Util::TypeConstraints 0
       Scalar::Util 0
+  MooseX-AlwaysCoerce-0.21
+    pathname: E/ET/ETHER/MooseX-AlwaysCoerce-0.21.tar.gz
+    provides:
+      MooseX::AlwaysCoerce 0.21
+      MooseX::AlwaysCoerce::Role::Meta::Attribute 0.21
+      MooseX::AlwaysCoerce::Role::Meta::Class 0.21
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      Module::Build::Tiny 0.030
+      Moose 0
+      Moose::Exporter 0
+      Moose::Role 0
+      Moose::Util::MetaRole 0
+      Moose::Util::TypeConstraints 0
+      MooseX::ClassAttribute 0.24
+      Package::Stash 0.26
+      namespace::autoclean 0.12
+      perl 5.006
+      strict 0
+      warnings 0
+  MooseX-AttributeShortcuts-0.024
+    pathname: R/RS/RSRCHBOY/MooseX-AttributeShortcuts-0.024.tar.gz
+    provides:
+      MooseX::AttributeShortcuts 0.024
+      MooseX::AttributeShortcuts::Trait::Attribute 0.024
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      List::AllUtils 0
+      Moose 0
+      Moose::Exporter 0
+      Moose::Util::MetaRole 0
+      Moose::Util::TypeConstraints 0
+      MooseX::Role::Parameterized 0
+      MooseX::Types::Common::String 0
+      MooseX::Types::Moose 0
+      Package::DeprecationManager 0
+      autobox::Core 0
+      autobox::Junctions 0
+      namespace::autoclean 0
+      strict 0
+      warnings 0
   MooseX-ClassAttribute-0.27
     pathname: D/DR/DROLSKY/MooseX-ClassAttribute-0.27.tar.gz
     provides:
@@ -9630,6 +10013,22 @@ DISTRIBUTIONS
       Text::Autoformat 0
       autodie 0
       namespace::autoclean 0
+  MooseX-CurriedDelegation-0.002
+    pathname: R/RS/RSRCHBOY/MooseX-CurriedDelegation-0.002.tar.gz
+    provides:
+      MooseX::CurriedDelegation 0.002
+      MooseX::CurriedDelegation::Trait::Attribute 0.002
+      MooseX::CurriedDelegation::Trait::Method::Delegation 0.002
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Moose 0
+      Moose::Exporter 0
+      Moose::Role 0
+      MooseX::Util 0
+      aliased 0
+      namespace::autoclean 0
+      strict 0
+      warnings 0
   MooseX-Daemonize-0.19
     pathname: E/ET/ETHER/MooseX-Daemonize-0.19.tar.gz
     provides:
@@ -9774,6 +10173,18 @@ DISTRIBUTIONS
       Test::Unit::Lite 0.12
       parent 0
       perl 5.006
+  MooseX-Has-Sugar-1.000004
+    pathname: K/KE/KENTNL/MooseX-Has-Sugar-1.000004.tar.gz
+    provides:
+      MooseX::Has::Sugar 1.000004
+      MooseX::Has::Sugar::Minimal 1.000004
+      MooseX::Has::Sugar::Saccharin 1.000004
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Sub::Exporter::Progressive 0
+      strict 0
+      warnings 0
   MooseX-InsideOut-0.106
     pathname: D/DO/DOY/MooseX-InsideOut-0.106.tar.gz
     provides:
@@ -9943,6 +10354,27 @@ DISTRIBUTIONS
       MooseX::Types::Moose 0.21
       namespace::autoclean 0.08
       perl 5.006
+  MooseX-NewDefaults-0.004
+    pathname: R/RS/RSRCHBOY/MooseX-NewDefaults-0.004.tar.gz
+    provides:
+      MooseX::NewDefaults 0.004
+      MooseX::NewDefaults::Magic 0.004
+      MooseX::NewDefaults::Trait::Class 0.004
+    requirements:
+      B 0
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Temp 0
+      Moose 0.94
+      Moose::Exporter 0
+      Moose::Role 0
+      Moose::Util 0
+      Scalar::Util 0
+      Test::Moose 0
+      Test::More 0.88
+      namespace::autoclean 0
+      strict 0
+      warnings 0
   MooseX-NonMoose-0.26
     pathname: D/DO/DOY/MooseX-NonMoose-0.26.tar.gz
     provides:
@@ -10192,6 +10624,15 @@ DISTRIBUTIONS
       namespace::autoclean 0
       strict 0
       warnings 0
+  MooseX-TraitFor-Meta-Class-BetterAnonClassNames-0.002001
+    pathname: R/RS/RSRCHBOY/MooseX-TraitFor-Meta-Class-BetterAnonClassNames-0.002001.tar.gz
+    provides:
+      MooseX::TraitFor::Meta::Class::BetterAnonClassNames 0.002001
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Moose::Role 0
+      autobox::Core 0
+      namespace::autoclean 0
   MooseX-Traits-0.12
     pathname: E/ET/ETHER/MooseX-Traits-0.12.tar.gz
     provides:
@@ -10382,6 +10823,29 @@ DISTRIBUTIONS
       Sub::Exporter 0.982
       overload 0
       perl 5.008
+  MooseX-Types-Tied-0.003
+    pathname: R/RS/RSRCHBOY/MooseX-Types-Tied-0.003.tar.gz
+    provides:
+      MooseX::Types::Tied 0.003
+      MooseX::Types::Tied::Hash::IxHash 0.003
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Temp 0
+      Moose 0
+      MooseX::Types 0
+      MooseX::Types::Moose 0
+      Scalar::Util 0
+      Test::Exception 0
+      Test::More 0.88
+      Tie::Array 0
+      Tie::Handle 0
+      Tie::Hash 0
+      Tie::IxHash 0
+      Tie::Scalar 0
+      base 0
+      strict 0
+      warnings 0
   MooseX-Types-URI-0.07
     pathname: E/ET/ETHER/MooseX-Types-URI-0.07.tar.gz
     provides:
@@ -10403,6 +10867,24 @@ DISTRIBUTIONS
       if 0
       namespace::autoclean 0
       perl 5.006
+      strict 0
+      warnings 0
+  MooseX-Util-0.003
+    pathname: R/RS/RSRCHBOY/MooseX-Util-0.003.tar.gz
+    provides:
+      MooseX::Traitor 0.003
+      MooseX::Util 0.003
+      MooseX::Util::Meta::Class 0.003
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Moose 0
+      Moose::Meta::Class 0
+      Moose::Role 0
+      Moose::Util 0
+      MooseX::AttributeShortcuts 0
+      MooseX::TraitFor::Meta::Class::BetterAnonClassNames 0.002001
+      namespace::autoclean 0
+      parent 0
       strict 0
       warnings 0
   Mouse-2.4.1
@@ -12581,6 +13063,69 @@ DISTRIBUTIONS
       Pod::Coverage 0
       namespace::autoclean 0.08
       perl 5.006
+  Pod-Elemental-0.103001
+    pathname: R/RJ/RJBS/Pod-Elemental-0.103001.tar.gz
+    provides:
+      Pod::Elemental 0.103001
+      Pod::Elemental::Autoblank 0.103001
+      Pod::Elemental::Autochomp 0.103001
+      Pod::Elemental::Command 0.103001
+      Pod::Elemental::Document 0.103001
+      Pod::Elemental::Element::Generic::Blank 0.103001
+      Pod::Elemental::Element::Generic::Command 0.103001
+      Pod::Elemental::Element::Generic::Nonpod 0.103001
+      Pod::Elemental::Element::Generic::Text 0.103001
+      Pod::Elemental::Element::Nested 0.103001
+      Pod::Elemental::Element::Pod5::Command 0.103001
+      Pod::Elemental::Element::Pod5::Data 0.103001
+      Pod::Elemental::Element::Pod5::Nonpod 0.103001
+      Pod::Elemental::Element::Pod5::Ordinary 0.103001
+      Pod::Elemental::Element::Pod5::Region 0.103001
+      Pod::Elemental::Element::Pod5::Verbatim 0.103001
+      Pod::Elemental::Flat 0.103001
+      Pod::Elemental::Node 0.103001
+      Pod::Elemental::Objectifier 0.103001
+      Pod::Elemental::Paragraph 0.103001
+      Pod::Elemental::Selectors 0.103001
+      Pod::Elemental::Transformer 0.103001
+      Pod::Elemental::Transformer::Gatherer 0.103001
+      Pod::Elemental::Transformer::Nester 0.103001
+      Pod::Elemental::Transformer::Pod5 0.103001
+      Pod::Elemental::Types 0.103001
+    requirements:
+      Class::Load 0
+      Encode 0
+      ExtUtils::MakeMaker 6.30
+      Mixin::Linewise::Readers 0
+      Moose 0
+      Moose::Autobox 0.10
+      Moose::Role 0.90
+      Moose::Util::TypeConstraints 0
+      MooseX::Types 0
+      MooseX::Types::Moose 0
+      Pod::Eventual::Simple 0.004
+      String::RewritePrefix 0
+      String::Truncate 0
+      Sub::Exporter 0
+      Sub::Exporter::ForMethods 0
+      namespace::autoclean 0
+      strict 0
+      utf8 0
+      warnings 0
+  Pod-Elemental-PerlMunger-0.200002
+    pathname: R/RJ/RJBS/Pod-Elemental-PerlMunger-0.200002.tar.gz
+    provides:
+      Pod::Elemental::PerlMunger 0.200002
+    requirements:
+      Encode 0
+      ExtUtils::MakeMaker 6.30
+      List::AllUtils 0
+      Moose 0
+      Moose::Role 0
+      PPI 0
+      Params::Util 0
+      Pod::Elemental 0.103000
+      namespace::autoclean 0
   Pod-Eventual-0.094001
     pathname: R/RJ/RJBS/Pod-Eventual-0.094001.tar.gz
     provides:
@@ -12717,6 +13262,72 @@ DISTRIBUTIONS
       File::Spec 0.82
       Pod::Text 3.15
       Test::More 0.6
+  Pod-Weaver-4.006
+    pathname: R/RJ/RJBS/Pod-Weaver-4.006.tar.gz
+    provides:
+      Pod::Weaver 4.006
+      Pod::Weaver::Config 4.006
+      Pod::Weaver::Config::Assembler 4.006
+      Pod::Weaver::Config::Finder 4.006
+      Pod::Weaver::Plugin::EnsurePod5 4.006
+      Pod::Weaver::Plugin::H1Nester 4.006
+      Pod::Weaver::Plugin::SingleEncoding 4.006
+      Pod::Weaver::Plugin::Transformer 4.006
+      Pod::Weaver::PluginBundle::CorePrep 4.006
+      Pod::Weaver::PluginBundle::Default 4.006
+      Pod::Weaver::Role::Dialect 4.006
+      Pod::Weaver::Role::Finalizer 4.006
+      Pod::Weaver::Role::Plugin 4.006
+      Pod::Weaver::Role::Preparer 4.006
+      Pod::Weaver::Role::Section 4.006
+      Pod::Weaver::Role::StringFromComment 4.006
+      Pod::Weaver::Role::Transformer 4.006
+      Pod::Weaver::Section::Authors 4.006
+      Pod::Weaver::Section::Bugs 4.006
+      Pod::Weaver::Section::Collect 4.006
+      Pod::Weaver::Section::Generic 4.006
+      Pod::Weaver::Section::Leftovers 4.006
+      Pod::Weaver::Section::Legal 4.006
+      Pod::Weaver::Section::Name 4.006
+      Pod::Weaver::Section::Region 4.006
+      Pod::Weaver::Section::Version 4.006
+    requirements:
+      Config::MVP 2
+      Config::MVP::Assembler 0
+      Config::MVP::Assembler::WithBundles 0
+      Config::MVP::Reader::Finder 0
+      Config::MVP::Reader::INI 0
+      DateTime 0
+      ExtUtils::MakeMaker 6.30
+      File::Spec 0
+      List::MoreUtils 0
+      Log::Dispatchouli 1.100710
+      Mixin::Linewise::Readers 0.103
+      Module::Runtime 0
+      Moose 0
+      Moose::Autobox 0.10
+      Moose::Role 0
+      Moose::Util::TypeConstraints 0
+      Params::Util 0
+      Pod::Elemental 0.100220
+      Pod::Elemental::Document 0
+      Pod::Elemental::Element::Nested 0
+      Pod::Elemental::Element::Pod5::Command 0
+      Pod::Elemental::Element::Pod5::Ordinary 0
+      Pod::Elemental::Element::Pod5::Region 0
+      Pod::Elemental::Element::Pod5::Verbatim 0
+      Pod::Elemental::Selectors 0
+      Pod::Elemental::Transformer::Gatherer 0
+      Pod::Elemental::Transformer::Nester 0
+      Pod::Elemental::Transformer::Pod5 0
+      Pod::Elemental::Types 0
+      String::Flogger 1
+      String::Formatter 0.100680
+      String::RewritePrefix 0
+      Text::Wrap 0
+      namespace::autoclean 0
+      strict 0
+      warnings 0
   Probe-Perl-0.03
     pathname: K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
     provides:
@@ -12838,6 +13449,48 @@ DISTRIBUTIONS
       POSIX 0
       Regexp::Common 0
       Test::More 0.40
+  Reindeer-0.017
+    pathname: R/RS/RSRCHBOY/Reindeer-0.017.tar.gz
+    provides:
+      Reindeer 0.017
+      Reindeer::Builder 0.017
+      Reindeer::Role 0.017
+      Reindeer::Types 0.017
+      Reindeer::Util 0.017
+    requirements:
+      Carp 0
+      Class::Load 0
+      ExtUtils::MakeMaker 6.30
+      Import::Into 0
+      Moose 1.15
+      Moose::Autobox 0
+      Moose::Exporter 0
+      Moose::Util::TypeConstraints 0
+      MooseX::AbstractMethod 0.003
+      MooseX::AlwaysCoerce 0.16
+      MooseX::AttributeShortcuts 0.017
+      MooseX::ClassAttribute 0.26
+      MooseX::CurriedDelegation 0
+      MooseX::LazyRequire 0.07
+      MooseX::MarkAsMethods 0.14
+      MooseX::NewDefaults 0.003
+      MooseX::Params::Validate 0.016
+      MooseX::StrictConstructor 0.19
+      MooseX::Traitor 0
+      MooseX::Types::Combine 0
+      MooseX::Types::Common::Numeric 0.001004
+      MooseX::Types::Common::String 0.001004
+      MooseX::Types::LoadableClass 0.006
+      MooseX::Types::Moose 0.31
+      MooseX::Types::Path::Class 0.05
+      MooseX::Types::Tied::Hash::IxHash 0.003
+      Path::Class 0.24
+      Sub::Exporter 0
+      Sub::Install 0
+      Try::Tiny 0.11
+      base 0
+      strict 0
+      warnings 0
   Return-MultiLevel-0.04
     pathname: M/MA/MAUKE/Return-MultiLevel-0.04.tar.gz
     provides:
@@ -13857,6 +14510,18 @@ DISTRIBUTIONS
       Unicode::UCD 0
       base 0
       namespace::clean 0
+      strict 0
+      warnings 0
+  String-Truncate-1.100602
+    pathname: R/RJ/RJBS/String-Truncate-1.100602.tar.gz
+    provides:
+      String::Truncate 1.100602
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.30
+      Sub::Exporter 0.953
+      Sub::Exporter::Util 0
+      Sub::Install 0.03
       strict 0
       warnings 0
   Sub-Exporter-0.987
@@ -16086,6 +16751,17 @@ DISTRIBUTIONS
       XSLoader 0
       base 0
       perl 5.008
+  Version-Next-0.004
+    pathname: D/DA/DAGOLDEN/Version-Next-0.004.tar.gz
+    provides:
+      Version::Next 0.004
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 6.17
+      Sub::Exporter 0
+      strict 0
+      version 0.81
+      warnings 0
   WWW-Mechanize-1.73
     pathname: E/ET/ETHER/WWW-Mechanize-1.73.tar.gz
     provides:
@@ -16722,6 +17398,30 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Scope::Guard 0.20
+  autobox-Core-1.28
+    pathname: S/SW/SWALTERS/autobox-Core-1.28.tar.gz
+    provides:
+      autobox::Core 1.28
+      autobox::Core::ARRAY 1.28
+      autobox::Core::CODE 1.28
+      autobox::Core::HASH 1.28
+      autobox::Core::SCALAR 1.28
+    requirements:
+      ExtUtils::MakeMaker 6.46
+      Test::More 0.88
+      autobox 2.71
+  autobox-Junctions-0.001
+    pathname: R/RS/RSRCHBOY/autobox-Junctions-0.001.tar.gz
+    provides:
+      autobox::Junctions 0.001
+      autobox::Junctions::ARRAY 0.001
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Syntax::Keyword::Junction 0
+      autobox 0
+      parent 0
+      strict 0
+      warnings 0
   autodie-2.25
     pathname: P/PJ/PJF/autodie-2.25.tar.gz
     provides:
