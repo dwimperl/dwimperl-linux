@@ -103,6 +103,7 @@ case $1 in
       $PREFIX_PERL/bin/perl -v
       cp $SOURCE_HOME/src/reloc_perl $PREFIX_PERL/bin/
       cp $SOURCE_HOME/dwim.sh $ROOT/
+      chmod +x $ROOT/dwim.sh
       cd $BUILD_TMP
       rm -rf $PERL_SOURCE_VERSION
   ;;
@@ -215,6 +216,7 @@ case $1 in
       echo ROOT=$ROOT
       mv $BASE_DWIMPERL_VERSION $ROOT
       cp $SOURCE_HOME/dwim.sh $ROOT/
+      chmod +x $ROOT/dwim.sh
       $PREFIX_PERL/bin/perl -v
   ;;
 
