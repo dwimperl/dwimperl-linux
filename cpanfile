@@ -5,6 +5,7 @@ requires 'AnyEvent',                                       '7.07';
 requires 'AnyEvent::DNS::EtcHosts',                        '0.0103';
 requires 'AnyEvent::HTTP',                                 '2.21';
 requires 'AnyEvent::Ping',                                 '0.006';
+requires 'AnyEvent::Ping::TCP',                            '1.01';
 requires 'Apache::Htpasswd',                               '1.9';
 requires 'App::Ack',                                       '2.14';
 requires 'App::Nopaste',                                   '0.96';

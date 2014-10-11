@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7119
-Last-Updated: Mon Oct  6 23:18:17 2014
+Line-Count:   7120
+Last-Updated: Sat Oct 11 07:37:19 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -50,6 +50,7 @@ AnyEvent::Impl::Qt::Io                undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Impl::Qt::Timer             undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Impl::Tk                    undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 AnyEvent::Ping                        0.006  U/UN/UNDEF/AnyEvent-Ping-0.006.tar.gz
+AnyEvent::Ping::TCP                    1.01  P/PO/PODONNELL/AnyEvent-Ping-TCP-1.01.tar.gz
 AnyEvent::Server::PSGI                undef  M/MI/MIYAGAWA/Twiggy-0.1024.tar.gz
 AnyEvent::Strict                      undef  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Apache::Htpasswd                        1.9  K/KM/KMELTZ/Apache-Htpasswd-1.9.tar.gz

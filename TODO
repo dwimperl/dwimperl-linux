@@ -1,6 +1,5 @@
 #requires 'POE',                                            '1.364';
 requires 'AnyEvent::Curl::Multi',                          '1.1';
-requires 'AnyEvent::Ping::TCP',                            '1.00'; # has lots of CPANTESTERS fail reports
 requires 'BusyBird',                                       '0.09';
 requires 'BusyBird::DateTime::Format',                     '0.05';
 requires 'Dancer::Plugin::CRUD',                           '1.03'; # tons of warnings, report sent to author

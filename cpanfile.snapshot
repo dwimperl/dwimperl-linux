@@ -119,6 +119,14 @@ DISTRIBUTIONS
       List::Util 0
       Test::More 0.88
       perl 5.008001
+  AnyEvent-Ping-TCP-1.01
+    pathname: P/PO/PODONNELL/AnyEvent-Ping-TCP-1.01.tar.gz
+    provides:
+      AnyEvent::Ping::TCP 1.01
+    requirements:
+      AnyEvent 7
+      ExtUtils::MakeMaker 0
+      Time::HiRes 1.9719
   Apache-Htpasswd-1.9
     pathname: K/KM/KMELTZ/Apache-Htpasswd-1.9.tar.gz
     provides:
