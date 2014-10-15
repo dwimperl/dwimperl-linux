@@ -5060,6 +5060,31 @@ DISTRIBUTIONS
       Digest::base 1.00
       ExtUtils::MakeMaker 0
       perl 5.004
+  DigitalOcean-0.13
+    pathname: S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+    provides:
+      DigitalOcean 0.13
+      DigitalOcean::Domain 0.02
+      DigitalOcean::Domain::Record 0.03
+      DigitalOcean::Droplet 0.05
+      DigitalOcean::Event 0.02
+      DigitalOcean::Image 0.02
+      DigitalOcean::Region 0.02
+      DigitalOcean::SSH::Key 0.02
+      DigitalOcean::Size 0.02
+      DigitalOcean::Types undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      JSON::XS 0
+      LWP::Protocol::https 0
+      LWP::UserAgent 0
+      Method::Signatures::Simple 0
+      Mouse 0
+      MouseX::Types 0
+      Object::Tiny::RW::XS 0
+      Object::Tiny::XS 0
+      Test::More 0
+      perl 5.006
   Dir-Self-0.11
     pathname: M/MA/MAUKE/Dir-Self-0.11.tar.gz
     provides:
@@ -11248,6 +11273,22 @@ DISTRIBUTIONS
       Storable 2.11
       Test::More 0.47
       perl 5.005
+  Object-Tiny-RW-XS-0.03
+    pathname: S/SR/SRCHULO/Object-Tiny-RW-XS-0.03.tar.gz
+    provides:
+      Object::Tiny::RW::XS 0.03
+    requirements:
+      Class::XSAccessor 0.11
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
+  Object-Tiny-XS-1.01
+    pathname: S/SM/SMUELLER/Object-Tiny-XS-1.01.tar.gz
+    provides:
+      Object::Tiny::XS 1.01
+    requirements:
+      Class::XSAccessor 0.11
+      ExtUtils::MakeMaker 6.98
+      Test::More 0.47
   PDF-Create-1.10
     pathname: S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
     provides:

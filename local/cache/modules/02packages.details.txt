@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7120
-Last-Updated: Sat Oct 11 07:37:19 2014
+Line-Count:   7132
+Last-Updated: Wed Oct 15 12:05:36 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -2314,6 +2314,16 @@ Digest::MD4                             1.9  M/MI/MIKEM/DigestMD4/Digest-MD4-1.9
 Digest::Perl::MD5                       1.9  D/DE/DELTA/Digest-Perl-MD5-1.9.tar.gz
 Digest::SHA                            5.92  M/MS/MSHELOR/Digest-SHA-5.92.tar.gz
 Digest::SHA1                           2.13  G/GA/GAAS/Digest-SHA1-2.13.tar.gz
+DigitalOcean                           0.13  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+DigitalOcean::Domain                   0.02  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+DigitalOcean::Domain::Record           0.03  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+DigitalOcean::Droplet                  0.05  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+DigitalOcean::Event                    0.02  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+DigitalOcean::Image                    0.02  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+DigitalOcean::Region                   0.02  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+DigitalOcean::SSH::Key                 0.02  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+DigitalOcean::Size                     0.02  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
+DigitalOcean::Types                   undef  S/SR/SRCHULO/DigitalOcean-0.13.tar.gz
 Dir::Self                              0.11  M/MA/MAUKE/Dir-Self-0.11.tar.gz
 Dist::CheckConflicts                   0.11  D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz
 Dist::Metadata                        0.925  R/RW/RWSTAUNER/Dist-Metadata-0.925.tar.gz
@@ -4654,6 +4664,8 @@ ORLite::Migrate::Timeline              1.10  A/AD/ADAMK/ORLite-Migrate-1.10.tar.
 Object::Quick                         undef  E/EX/EXODIST/Mock-Quick-1.108.tar.gz
 Object::Signature                      1.07  A/AD/ADAMK/Object-Signature-1.07.tar.gz
 Object::Signature::File                1.07  A/AD/ADAMK/Object-Signature-1.07.tar.gz
+Object::Tiny::RW::XS                   0.03  S/SR/SRCHULO/Object-Tiny-RW-XS-0.03.tar.gz
+Object::Tiny::XS                       1.01  S/SM/SMUELLER/Object-Tiny-XS-1.01.tar.gz
 PDF::Create                            1.10  S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
 PDF::Create::Outline                   1.10  S/SZ/SZABGAB/PDF-Create-1.10.tar.gz
 PDF::Create::Page                      1.10  S/SZ/SZABGAB/PDF-Create-1.10.tar.gz

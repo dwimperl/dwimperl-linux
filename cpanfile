@@ -149,6 +149,7 @@ requires 'Digest::MD4',                                    '1.9';
 requires 'Digest::MD5',                                    '2.53';
 requires 'Digest::SHA',                                    '5.92';
 requires 'Digest::SHA1',                                   '2.13';
+requires 'DigitalOcean',                                   '0.13';
 requires 'Dir::Self',                                      '0.11';
 requires 'Dist::Zilla',                                    '5.020';
 requires 'Dist::Zilla::Plugin::Bugtracker',                '1.111080';
