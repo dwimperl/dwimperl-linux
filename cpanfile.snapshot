@@ -15226,6 +15226,18 @@ DISTRIBUTIONS
       Test::Builder 0
       strict 0
       warnings 0
+  Test-CheckManifest-1.28
+    pathname: R/RE/RENEEB/Test-CheckManifest-1.28.tar.gz
+    provides:
+      Test::CheckManifest 1.28
+    requirements:
+      Carp 0
+      Cwd 0
+      ExtUtils::MakeMaker 6.30
+      File::Basename 0
+      File::Find 0
+      File::Spec 0
+      Test::Builder 0
   Test-Class-0.47
     pathname: E/ET/ETHER/Test-Class-0.47.tar.gz
     provides:
@@ -15340,6 +15352,21 @@ DISTRIBUTIONS
       Data::Dumper 2.126
       Test::More 0
       Text::Diff 0.35
+  Test-DistManifest-1.012
+    pathname: E/ET/ETHER/Test-DistManifest-1.012.tar.gz
+    provides:
+      Test::DistManifest 1.012
+    requirements:
+      Carp 0
+      Cwd 0
+      ExtUtils::MakeMaker 6.30
+      ExtUtils::Manifest 0
+      File::Find 0
+      File::Spec 0
+      Module::Manifest 0.07
+      Test::Builder 0
+      Test::More 0.62
+      Test::NoWarnings 0.084
   Test-Exception-0.35
     pathname: E/EX/EXODIST/Test-Exception-0.35.tar.gz
     provides:
@@ -15943,6 +15970,26 @@ DISTRIBUTIONS
       ExtUtils::Manifest 0
       Test::Builder 0.30
       Test::More 0
+  Test-Version-1.003001
+    pathname: X/XE/XENO/Test-Version-1.003001.tar.gz
+    provides:
+      Foo undef
+      FooBar undef
+      FooBarBaz undef
+      NotStrict undef
+      Test::Version 1.003001
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Find::Rule::Perl 0
+      Module::Metadata 0
+      Test::Builder 0
+      Test::More 0
+      parent 0
+      strict 0
+      version 0.86
+      warnings 0
   Test-WWW-Mechanize-1.44
     pathname: P/PE/PETDANCE/Test-WWW-Mechanize-1.44.tar.gz
     provides:

@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.12
-Line-Count:   7132
-Last-Updated: Wed Oct 15 12:05:36 2014
+Line-Count:   7138
+Last-Updated: Fri Oct 17 09:27:21 2014
 
 AE                                     7.07  M/ML/MLEHMANN/AnyEvent-7.07.tar.gz
 Acme::MetaSyntactic                   1.012  B/BO/BOOK/Acme-MetaSyntactic-1.012.tar.gz
@@ -2781,7 +2781,9 @@ Filesys::Notify::Simple                0.12  M/MI/MIYAGAWA/Filesys-Notify-Simple
 Flickr::API                            1.10  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
 Flickr::API::Request                   0.03  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
 Flickr::API::Response                  0.02  I/IA/IAMCAL/Flickr-API-1.10.tar.gz
-FooBar                                undef  T/TH/THALJEF/Perl-Critic-Dynamic-0.05.tar.gz
+Foo                                   undef  X/XE/XENO/Test-Version-1.003001.tar.gz
+FooBar                                undef  X/XE/XENO/Test-Version-1.003001.tar.gz
+FooBarBaz                             undef  X/XE/XENO/Test-Version-1.003001.tar.gz
 Future                                 0.29  P/PE/PEVANS/Future-0.29.tar.gz
 Future::Utils                          0.29  P/PE/PEVANS/Future-0.29.tar.gz
 Galileo                               0.036  J/JB/JBERGER/Galileo-0.036.tar.gz
@@ -4649,6 +4651,7 @@ NetAddr::IP::Util                      1.51  M/MI/MIKER/NetAddr-IP-4.075.tar.gz
 NetAddr::IP::UtilPP                    1.09  M/MI/MIKER/NetAddr-IP-4.075.tar.gz
 NetAddr::IP::UtilPolluted              1.51  M/MI/MIKER/NetAddr-IP-4.075.tar.gz
 NetAddr::IP::Util_IS                      1  M/MI/MIKER/NetAddr-IP-4.075.tar.gz
+NotStrict                             undef  X/XE/XENO/Test-Version-1.003001.tar.gz
 NullHang                           1.669004  D/DC/DCONWAY/Text-Autoformat-1.669004.tar.gz
 Number::Compare                        0.03  R/RC/RCLAMP/Number-Compare-0.03.tar.gz
 Number::Format                         1.73  W/WR/WRW/Number-Format-1.73.tar.gz
@@ -6361,6 +6364,7 @@ Test::Builder::Tester::Color           1.24  E/EX/EXODIST/Test-Simple-1.001006.t
 Test::Builder::Tester::Tie             1.24  E/EX/EXODIST/Test-Simple-1.001006.tar.gz
 Test::CPAN::Changes                    0.30  B/BR/BRICAS/CPAN-Changes-0.30.tar.gz
 Test::CheckDeps                       0.010  L/LE/LEONT/Test-CheckDeps-0.010.tar.gz
+Test::CheckManifest                    1.28  R/RE/RENEEB/Test-CheckManifest-1.28.tar.gz
 Test::Class                            0.47  E/ET/ETHER/Test-Class-0.47.tar.gz
 Test::Class::Load                      0.47  E/ET/ETHER/Test-Class-0.47.tar.gz
 Test::Class::MethodInfo                0.47  E/ET/ETHER/Test-Class-0.47.tar.gz
@@ -6418,6 +6422,7 @@ Test::Deep::SuperHashElements         undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Deep::SuperHashKeys             undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Deep::SuperHashKeysOnly         undef  R/RJ/RJBS/Test-Deep-0.113.tar.gz
 Test::Differences                      0.62  D/DC/DCANTRELL/Test-Differences-0.62.tar.gz
+Test::DistManifest                    1.012  E/ET/ETHER/Test-DistManifest-1.012.tar.gz
 Test::Exception                        0.35  E/EX/EXODIST/Test-Exception-0.35.tar.gz
 Test::Exception::LessClever           0.006  E/EX/EXODIST/Test-Exception-LessClever-0.006.tar.gz
 Test::FailWarnings                    0.008  D/DA/DAGOLDEN/Test-FailWarnings-0.008.tar.gz
@@ -6519,6 +6524,7 @@ Test::Unit::TestCase                 0.1202  D/DE/DEXTER/Test-Unit-Lite-0.1202.t
 Test::Unit::TestRunner               0.1202  D/DE/DEXTER/Test-Unit-Lite-0.1202.tar.gz
 Test::Unit::TestSuite                0.1202  D/DE/DEXTER/Test-Unit-Lite-0.1202.tar.gz
 Test::UseAllModules                    0.15  I/IS/ISHIGAKI/Test-UseAllModules-0.15.tar.gz
+Test::Version                      1.003001  X/XE/XENO/Test-Version-1.003001.tar.gz
 Test::WWW::Mechanize                   1.44  P/PE/PETDANCE/Test-WWW-Mechanize-1.44.tar.gz
 Test::WWW::Mechanize::PSGI             0.35  L/LB/LBROCARD/Test-WWW-Mechanize-PSGI-0.35.tar.gz
 Test::Warn                             0.30  C/CH/CHORNY/Test-Warn-0.30.tar.gz
