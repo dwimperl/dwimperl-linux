@@ -132,7 +132,7 @@ that links to https://github.com/maxmind/geoip-api-c/releases
 
 ```
 cd src
-wget https://github.com/maxmind/geoip-api-c/releases/download/v1.6.2/GeoIP-1.6.2.tar.gz
+wget https://github.com/maxmind/geoip-api-c/releases/download/v1.6.5/GeoIP-1.6.5.tar.gz
 ```
 
 Change the GEOIP variable in build.sh

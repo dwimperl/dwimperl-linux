@@ -23,7 +23,7 @@ OPENSSL=openssl-1.0.2
 LIBXML2=libxml2-2.9.2
 ZLIB=zlib-1.2.8
 EXPAT=expat-2.1.0
-GEOIP=GeoIP-1.6.2
+GEOIP=GeoIP-1.6.5
 if [ "$GEOIP_DATA_URL" = "" ]
 then
     GEOIP_DATA_URL=http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz

@@ -2,4 +2,7 @@
 Perl    upgraded to 5.20.2
 OpenSSL upgraded to 1.0.2
 LibXML  upgraded to 2.9.2
+GeoIP   upgraded to 1.6.5
+
+v5.20.1.10  2014.10.02
 
