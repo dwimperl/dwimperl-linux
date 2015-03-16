@@ -38,6 +38,7 @@ cd dwimperl-linux-master
 ./build.sh cpanm       # install cpanm
 ./build.sh dwim
 ./build.sh external
+./build.sh specials    # install special modules
 ./build.sh modules     # install all the modules
 ./build.sh test_all    # run a sanity check loading some of the modules we installed
 ./build.sh zip         # create the tar.gz to be distributed

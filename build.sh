@@ -197,17 +197,6 @@ case $1 in
       make install
   ;;
 
-  geo-ip)
-      source $ROOT/dwim.sh
-      cd $BUILD_TMP
-      wget $GEOIP_DATA_URL
-      gunzip GeoIP.dat.gz
-      mkdir -p $PREFIX_C/share/GeoIP/
-      mv GeoIP.dat $PREFIX_C/share/GeoIP/
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Geo::IP
-      rm -f $PREFIX_C/share/GeoIP/GeoIP.dat
-  ;;
-
   get_base_perl)
       cd $BUILD_TMP
       wget $DWIMPERL_COM/$BASE_DWIMPERL_VERSION.tar.gz
@@ -218,6 +207,32 @@ case $1 in
       cp $SOURCE_HOME/dwim.sh $ROOT/
       chmod +x $ROOT/dwim.sh
       $PREFIX_PERL/bin/perl -v
+  ;;
+
+
+  specials)
+      source $ROOT/dwim.sh
+      $0 notest IPC::System::Simple
+      # see #3
+
+      $0 notest Class::Singleton
+      # see #5
+
+      $0 xml-libxml
+      $0 xml-parser
+      $0 geo-ip
+  ;;
+
+
+  geo-ip)
+      source $ROOT/dwim.sh
+      cd $BUILD_TMP
+      wget $GEOIP_DATA_URL
+      gunzip GeoIP.dat.gz
+      mkdir -p $PREFIX_C/share/GeoIP/
+      mv GeoIP.dat $PREFIX_C/share/GeoIP/
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Geo::IP
+      rm -f $PREFIX_C/share/GeoIP/GeoIP.dat
   ;;
 
   # TODO: See Issue #2
@@ -231,6 +246,7 @@ case $1 in
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
   ;;
 
+
   verbose)
       source $ROOT/dwim.sh
       CPAN_MODULE=$2
@@ -243,19 +259,6 @@ case $1 in
       CPAN_MODULE=$2
       echo MODULE=$CPAN_MODULE
       $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose --notest $CPAN_MODULE
-  ;;
-
-  special_modules)
-      source $ROOT/dwim.sh
-      $0 notest IPC::System::Simple
-      # see #3
-
-      $0 notest Class::Singleton
-      # see #5
-
-      $0 xml-libxml
-      $0 xml-parser
-      $0 geo-ip
   ;;
 
   try)
