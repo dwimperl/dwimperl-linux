@@ -69,4 +69,13 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y htop
     sudo apt-get install -y vim
   SHELL
+
+  config.vm.define "dev" do |dev|
+    config.vm.box = "hashicorp/precise32"
+  end
+
+  config.vm.define "build" do |build|
+    config.vm.box = "hashicorp/precise32"
+  end
+
 end
