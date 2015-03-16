@@ -4,7 +4,7 @@
 # created too much output for Travis-CI. This needs to be improved.
 
 echo set up environmet variables
-PERL_VERSION=5.20.1
+PERL_VERSION=5.20.2
 
 if [ "$DWIM_VERSION" = "" ]
 then

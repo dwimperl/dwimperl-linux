@@ -56,7 +56,7 @@ Look at http://www.cpan.org/src/README.html for the latest stable release of Per
 
 ```
 cd src/
-wget http://www.cpan.org/src/5.0/perl-5.20.1.tar.gz
+wget http://www.cpan.org/src/5.0/perl-5.20.2.tar.gz
 ```
 
 Update the PERL_VERSION in build.sh
