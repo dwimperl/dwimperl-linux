@@ -197,7 +197,7 @@ requires 'Filesys::DiskUsage',                             '0.07';
 requires 'Flickr::API',                                    '1.10';
 requires 'Future',                                         '0.29';
 requires 'Galileo',                                        '0.036';
-requires 'Geo::IP',                                        '1.43';
+#requires 'Geo::IP',                                        '1.43';
 requires 'Gravatar::URL',                                  '1.06';
 requires 'HTML::Entities',                                 '3.69';
 requires 'HTML::Escape',                                   '1.09';
@@ -487,6 +487,7 @@ requires 'Test::Version',                                  '1.003001';
 requires 'Test::WWW::Mechanize',                           '1.44';
 requires 'Test::WWW::Mechanize::PSGI',                     '0.35';
 requires 'Test::Warn',                                     '0.30';
+requires 'Test::Warnings',                                 '0.020';
 requires 'Test::Without::Module',                          '0.18';
 requires 'Test::XPath',                                    '0.16';
 requires 'Test::utf8',                                     '1.01';
@@ -523,9 +524,9 @@ requires 'WebService::Bluga::Webthumb',                    '0.05';
 requires 'WebService::GData',                              '0.06';
 requires 'XML::Atom',                                      '0.41';
 requires 'XML::Feed',                                      '0.52';
-requires 'XML::LibXML',                                    '2.0116'; #2
+#requires 'XML::LibXML',                                    '2.0116'; #2
 requires 'XML::NamespaceSupport',                          '1.11';
-requires 'XML::Parser',                                    '2.41'; #4
+#requires 'XML::Parser',                                    '2.44'; #4
 requires 'XML::RSS',                                       '1.55';
 requires 'XML::SAX',                                       '0.99';
 requires 'XML::SAX::Writer',                               '0.53';
