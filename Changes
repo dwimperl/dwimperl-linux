@@ -1,4 +1,5 @@
 
+cpanm            to 1.7027
 Perl    upgraded to 5.20.2
 OpenSSL upgraded to 1.0.2
 LibXML  upgraded to 2.9.2
