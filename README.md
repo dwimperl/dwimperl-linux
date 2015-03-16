@@ -89,7 +89,7 @@ See http://xmlsoft.org/ and ftp://xmlsoft.org/libxml2/
 
 ```
 cd src
-wget ftp://xmlsoft.org/libxml2/libxml2-2.9.1.tar.gz
+wget ftp://xmlsoft.org/libxml2/libxml2-2.9.2.tar.gz
 ```
 
 Update the LIBXML2 variable in build.sh

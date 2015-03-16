@@ -20,7 +20,7 @@ then
 fi
 
 OPENSSL=openssl-1.0.2
-LIBXML2=libxml2-2.9.1
+LIBXML2=libxml2-2.9.2
 ZLIB=zlib-1.2.8
 EXPAT=expat-2.1.0
 GEOIP=GeoIP-1.6.2
