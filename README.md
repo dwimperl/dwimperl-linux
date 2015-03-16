@@ -36,6 +36,8 @@ unzip master.zip
 cd dwimperl-linux-master
 ./build.sh perl        # build perl
 ./build.sh cpanm       # install cpanm
+./build.sh dwim
+./build.sh external
 ./build.sh modules     # install all the modules
 ./build.sh test_all    # run a sanity check loading some of the modules we installed
 ./build.sh zip         # create the tar.gz to be distributed
@@ -68,9 +70,11 @@ Look at http://www.openssl.org/  and at http://www.openssl.org/news/
 ...
 06-Aug-2014:    openssl-1.0.1i.tar.gz
 
+22-Jan-2015:    openssl-1.0.2.tar.gz
+
 ```
 cd src/
-wget http://www.openssl.org/source/openssl-1.0.1i.tar.gz
+wget http://www.openssl.org/source/openssl-1.0.2.tar.gz
 ```
 
 Update the OPENSSL entry in build.sh
