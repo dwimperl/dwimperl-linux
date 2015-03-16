@@ -12891,6 +12891,17 @@ DISTRIBUTIONS
       Test::More 0.96
       Test::Requires 0
       perl 5.008001
+  Plack-Middleware-DirIndex-1.00
+    pathname: L/LL/LLAP/Plack-Middleware-DirIndex-1.00.tar.gz
+    provides:
+      Plack::Middleware::DirIndex 1.00
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Plack::Middleware 0
+      Plack::Util::Accessor 0
+      parent 0
+      strict 0
+      warnings 0
   Plack-Middleware-ETag-0.03
     pathname: F/FR/FRANCKC/Plack-Middleware-ETag-0.03.tar.gz
     provides:
@@ -15284,6 +15295,14 @@ DISTRIBUTIONS
       namespace::clean 0
       strict 0
       warnings 0
+  Test-ConsistentVersion-v0.3.0
+    pathname: C/CE/CEBJYRE/Test-ConsistentVersion-v0.3.0.tar.gz
+    provides:
+      Test::ConsistentVersion 0.003000
+    requirements:
+      Test::Builder 0.94
+      autodie 0
+      version 0
   Test-Deep-0.113
     pathname: R/RJ/RJBS/Test-Deep-0.113.tar.gz
     provides:
@@ -15719,6 +15738,14 @@ DISTRIBUTIONS
       Pod::Simple 3.05
       Test::Builder::Tester 1.02
       Test::More 0.62
+  Test-Pod-Content-v0.0.6
+    pathname: M/MK/MKUTTER/Test-Pod-Content-v0.0.6.tar.gz
+    provides:
+      Test::Pod::Content 0.000006
+    requirements:
+      Pod::Simple 0
+      Test::More 0
+      version 0
   Test-Pod-Coverage-1.10
     pathname: N/NE/NEILB/Test-Pod-Coverage-1.10.tar.gz
     provides:
