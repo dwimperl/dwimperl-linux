@@ -10,3 +10,4 @@
 /src/DWIM/Makefile
 /src/DWIM/blib/
 /src/DWIM/pm_to_blib
+/.vagrant/
