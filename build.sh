@@ -8,11 +8,11 @@ PERL_VERSION=5.20.2
 
 if [ "$DWIM_VERSION" = "" ]
 then
-    DWIM_VERSION=11
+    DWIM_VERSION=1
 fi
 if [ "$DWIM_BASE_VERSION" = "" ]
 then
-    DWIM_BASE_VERSION=10
+    DWIM_BASE_VERSION=0
 fi
 if [ "$DWIMPERL_COM" = "" ]
 then
