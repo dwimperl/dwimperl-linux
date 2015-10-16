@@ -1,10 +1,49 @@
 #!/bin/bash -e
 
-# TODO: The output of some commands have been redirectd to /dev/null becaus they
+# TODO: The output of some commands have been redirected to /dev/null because they
 # created too much output for Travis-CI. This needs to be improved.
 
 echo set up environmet variables
-PERL_VERSION=5.20.2
+###################################################
+## Perl 5
+# Look at http://www.cpan.org/src/README.html for the latest stable release of Perl
+PERL_VERSION=5.22.0
+
+## OpenSSL is needed by Net::SSLEay which is needed by LWP::Protocol::https
+# and Business::PayPal and more.
+# Look at http://www.openssl.org/  and at http://www.openssl.org/news/
+# 2013.02.11:  openssl-1.0.1e.tar.gz
+# 2014.08.06:  openssl-1.0.1i.tar.gz
+# 2015.01.22:  openssl-1.0.2.tar.gz
+# 2015.10.16:  openssl-1.0.2d.tar.gz
+OPENSSL=openssl-1.0.2d
+
+## libxml2 and zlib are needed for XML::LibXML
+# See http://xmlsoft.org/ and ftp://xmlsoft.org/libxml2/
+# 2014.10.16: libxml2-2.9.2
+LIBXML2=libxml2-2.9.2
+
+## zlib
+# See http://www.zlib.net/
+ZLIB=zlib-1.2.8
+
+## expat
+# XML::Parser needs expat.
+# Visit http://sourceforge.net/projects/expat/
+# and http://sourceforge.net/projects/expat/files/expat/ to see what is the latest
+# 2012.03.24 expat-2.1.0
+EXPAT=expat-2.1.0
+
+## Geo::IP
+# Needed by Geo::IP
+# Visit http://dev.maxmind.com/geoip/legacy/downloadable/
+# that links to https://github.com/maxmind/geoip-api-c/releases
+# 2015.02.26 1.6.5
+# 2015.07.28 1.6.6
+GEOIP=GeoIP-1.6.6
+###################################################
+
+
 
 if [ "$DWIM_VERSION" = "" ]
 then
@@ -19,11 +58,6 @@ then
     DWIMPERL_COM=http://dwimperl.com/download
 fi
 
-OPENSSL=openssl-1.0.2
-LIBXML2=libxml2-2.9.2
-ZLIB=zlib-1.2.8
-EXPAT=expat-2.1.0
-GEOIP=GeoIP-1.6.5
 if [ "$GEOIP_DATA_URL" = "" ]
 then
     GEOIP_DATA_URL=http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
