@@ -3,7 +3,7 @@
 # TODO: The output of some commands have been redirected to /dev/null because they
 # created too much output for Travis-CI. This needs to be improved.
 
-echo set up environmet variables
+printf "\nSet up environmet variables\n\n"
 ###################################################
 ## Perl 5
 # Look at http://www.cpan.org/src/README.html for the latest stable release of Perl
@@ -70,43 +70,32 @@ fi
 # and the configuring the DWIMPERL_COM environment variable to point to the directory
 # where the downloaded file lives in. (untested feature)
 # DWIMPERL_COM=file:///path/to/dwimperl.com/ ./build.sh ....
-echo DWIMPERL_COM=$DWIMPERL_COM
 
 PLATFORM=`uname`
 PLATFORM_NAME=$(echo $PLATFORM | tr '[:upper:]' '[:lower:]')
-echo PLATFORM=$PLATFORM
-echo PLATFORM_NAME=$PLATFORM_NAME
+
 if [ "$PLATFORM" = "Darwin" ]
 then
   ARCHITECTURE=`uname -m`
 else
   ARCHITECTURE=`uname -i`
 fi
-echo ARCHITECTURE=$ARCHITECTURE
-
 
 PERL_SOURCE_VERSION=perl-$PERL_VERSION
 PERL_SOURCE_ZIP_FILE=$PERL_SOURCE_VERSION.tar.gz
 
 DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_VERSION-$ARCHITECTURE
 BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_BASE_VERSION-$ARCHITECTURE
-echo DWIMPERL_VERSION=$DWIMPERL_VERSION
+
 BUILD_TMP=/tmp
-#ls -l $BUILD_TMP
 
 ROOT=$BUILD_TMP/$DWIMPERL_VERSION
-#TEST_DIR=$BUILD_TMP/dwimperl_test
-#BACKUP=$BUILD_TMP/dwimperl_backup
-echo ROOT=$ROOT
-#[ -e $ROOT ] || mkdir $ROOT
+[ -e $ROOT ] || mkdir $ROOT
 
+LOG_DIR=$BUILD_TMP/log
 PREFIX_PERL=$ROOT/perl
 PREFIX_C=$ROOT/c
-
-SOURCE_HOME=`pwd`
-ORIGINAL_PATH=$PATH
-
-echo SOURCE_HOME=$SOURCE_HOME
+SOURCE_HOME=/vagrant
 
 # prepare the local metadb for cpanm
 # without this cpanm would complain that it cannot find the modules in the
@@ -114,30 +103,59 @@ echo SOURCE_HOME=$SOURCE_HOME
 # the gzip -k works on OSX but not on the Linux of Travis
 PACKAGES=$SOURCE_HOME/local/cache/modules/02packages.details.txt
 PACKAGES_ZIP=$PACKAGES.gz
+
+printf "DWIMPERL_COM     = %s\n" $DWIMPERL_COM
+printf "PLATFORM         = %s\n" $PLATFORM
+printf "PLATFORM_NAME    = %s\n" $PLATFORM_NAME
+printf "ARCHITECTURE     = %s\n" $ARCHITECTURE
+printf "DWIMPERL_VERSION = %s\n" $DWIMPERL_VERSION
+printf "ROOT             = %s\n" $ROOT
+printf "SOURCE_HOME      = %s\n" $SOURCE_HOME
+printf "LOG_DIR          = %s\n" $LOG_DIR
+printf "PREFIX_PERL      = %s\n" $PREFIX_PERL
 #echo PACKAGES=$PACKAGES
 #echo PACKAGES_ZIP=$PACKAGES_ZIP
-[ ! -e $PACKAGES_ZIP ] || [ $PACKAGES -nt $PACKAGES_ZIP ] && (cat $PACKAGES | gzip > $PACKAGES_ZIP)
+printf "==================\n"
+#[ ! -e $PACKAGES_ZIP ] || [ $PACKAGES -nt $PACKAGES_ZIP ] && (cat $PACKAGES | gzip > $PACKAGES_ZIP)
 
-
+ORIGINAL_PATH=$PATH
 export PATH=$PREFIX_PERL/bin:$ORIGINAL_PATH
 
+[ -e $LOG_DIR ] || mkdir $LOG_DIR
+
 case $1 in
+  all)
+      $0 perl
+      $0 cpanm
+      $0 dwim
+      $0 external
+  ;;
+  download)
+      if [ ! -e $SOURCE_HOME/src/$PERL_SOURCE_ZIP_FILE ]; then
+         echo "Downloading $PERL_SOURCE_ZIP_FILE"
+         cd $SOURCE_HOME/src
+         wget -q http://www.cpan.org/src/5.0/$PERL_SOURCE_ZIP_FILE
+      fi
+  ;;
   perl)
       echo "Building Perl"
       cd $BUILD_TMP
       [ -e $PERL_SOURCE_VERSION ] && echo "Directory $PERL_SOURCE_VERSION already exists" && exit
       tar -xzf $SOURCE_HOME/src/$PERL_SOURCE_ZIP_FILE
       cd $PERL_SOURCE_VERSION
-      ./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL
+      echo "    Configure"
+      ./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL > $LOG_DIR/perl_config.log 2>&1 
 	  # -Dusethreads
-      make
-      TEST_JOBS=3 make test
-      make install
-      
+      echo "    make"
+      make > $LOG_DIR/perl_make.log 2>&1
+      echo "    test"
+      `TEST_JOBS=3 make test` > $LOGDIR/perl_test.log 2>&1
+      make install > $LOG_DIR/perl_install.log 2>&2
+
       $PREFIX_PERL/bin/perl -v
-      cp $SOURCE_HOME/src/reloc_perl $PREFIX_PERL/bin/
-      cp $SOURCE_HOME/dwim.sh $ROOT/
-      chmod +x $ROOT/dwim.sh
+      #cp $SOURCE_HOME/src/reloc_perl $PREFIX_PERL/bin/
+      #cp $SOURCE_HOME/dwim.sh $ROOT/
+      #chmod +x $ROOT/dwim.sh
       cd $BUILD_TMP
       rm -rf $PERL_SOURCE_VERSION
   ;;
@@ -356,17 +374,24 @@ case $1 in
   ;;
 
   *)
-    echo "Missing or unrecognized parameter $1"
-    echo perl                - build perl
-    echo cpanm               - install cpanm
-    echo get_base_perl       - download and unzip an earlier release
-    echo modules             - install all the modules listed in the cpanfile
-    echo test_perl           - test if perl has the expected version number t/00-perl.t
-    echo test_cpanfile       - test if modules listed in the cpanfile can be loaded 
-    echo test_all            - test if we can load modules
-    echo outdate             - list the modules that have newer versions on CPAN
-    echo zip                 - create the final zip file
+    printf "Missing or unrecognized parameter $1\n"
+    printf "Available parameters:\n"
+    printf "\n"
+    printf "perl                - build perl\n"
+    printf "cpanm               - install cpanm\n"
+    printf "get_base_perl       - download and unzip an earlier release\n"
+    printf "modules             - install all the modules listed in the cpanfile\n"
+    printf "test_perl           - test if perl has the expected version number t/00-perl.t\n"
+    printf "test_cpanfile       - test if modules listed in the cpanfile can be loaded\n"
+    printf "test_all            - test if we can load modules\n"
+    printf "outdate             - list the modules that have newer versions on CPAN\n"
+    printf "zip                 - create the final zip file\n"
     exit 1
   ;;
 esac
+
+function run {
+    echo $1
+    $1 > $LOG_DIR/$2 2>&1 
+}
 
