@@ -1,19 +1,19 @@
 This is DWIM Perl for Linux - http://dwimperl.com/
 
 
-After unzipping the .tar.gz file some configuration might be usefule:
+After unzipping the .tar.gz file some configuration might be useful:
 
 Run the following commands:
 
     source /path/to/dwim.sh
     reloc_perl
 
-To make the settins persisten, add the following line to the ~/.bashrc file:
+To make the settings persistent, add the following line to the ~/.bashrc file:
 
     source /path/to/dwim.sh
 
 
-For the list of installed CPAN modules, check the 'cpanfile' that comes with thid distribution.
+For the list of installed CPAN modules, check the 'cpanfile' that comes with this distribution.
 
 
 CPAN
@@ -38,7 +38,7 @@ For more information visit http://dwimperl.com/
 COPYRIGHT
 ----------
 Copyright: DWIM Perl is Copyright Gabor Szabo
-perl and the other content included in this distribution are
+Perl and the other content included in this distribution are
 copyright their respective authors and copyright holders.
 
 LICENSE
