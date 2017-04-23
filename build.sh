@@ -3,6 +3,11 @@
 # TODO: The output of some commands have been redirected to /dev/null because they
 # created too much output for Travis-CI. This needs to be improved.
 
+function run {
+    echo "$1   >   $LOG_DIR/$2"
+    $1 > $LOG_DIR/$2 2>&1 
+}
+
 printf "\nSet up environmet variables\n\n"
 ###################################################
 ## Perl 5
@@ -83,6 +88,7 @@ fi
 
 PERL_SOURCE_VERSION=perl-$PERL_VERSION
 PERL_SOURCE_ZIP_FILE=$PERL_SOURCE_VERSION.tar.gz
+OPENSSL_SOURCE_ZIP_FILE=$OPENSSL.tar.gz
 
 DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_VERSION-$ARCHITECTURE
 BASE_DWIMPERL_VERSION=dwimperl-$PLATFORM_NAME-$PERL_VERSION-$DWIM_BASE_VERSION-$ARCHITECTURE
@@ -130,27 +136,30 @@ case $1 in
       $0 dwim
       $0 external
   ;;
+
   download)
+      echo "Downloading"
+      cd $SOURCE_HOME/src
       if [ ! -e $SOURCE_HOME/src/$PERL_SOURCE_ZIP_FILE ]; then
-         echo "Downloading $PERL_SOURCE_ZIP_FILE"
-         cd $SOURCE_HOME/src
-         wget -q http://www.cpan.org/src/5.0/$PERL_SOURCE_ZIP_FILE
+         run "wget -q http://www.cpan.org/src/5.0/$PERL_SOURCE_ZIP_FILE"
+      fi
+      if [ ! -e $SOURCE_HOME/src/$OPENSSL_SOURCE_ZIP_FILE ]; then
+         run "wget http://www.openssl.org/source/$OPENSSL_SOURCE_ZIP_FILE"
       fi
   ;;
+
   perl)
       echo "Building Perl"
       cd $BUILD_TMP
       [ -e $PERL_SOURCE_VERSION ] && echo "Directory $PERL_SOURCE_VERSION already exists" && exit
-      tar -xzf $SOURCE_HOME/src/$PERL_SOURCE_ZIP_FILE
+      run "tar -xzf $SOURCE_HOME/src/$PERL_SOURCE_ZIP_FILE" perl_unzip.log
       cd $PERL_SOURCE_VERSION
-      echo "    Configure"
-      ./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL > $LOG_DIR/perl_config.log 2>&1 
+      run "./Configure -des -Duserelocatableinc -Dprefix=$PREFIX_PERL" perl_config.log
 	  # -Dusethreads
-      echo "    make"
-      make > $LOG_DIR/perl_make.log 2>&1
-      echo "    test"
-      `TEST_JOBS=3 make test` > $LOGDIR/perl_test.log 2>&1
-      make install > $LOG_DIR/perl_install.log 2>&2
+      run make perl_make.log
+      TEST_JOBS=3 
+      run "make test" perl_test.log
+      run "make install" perl_install.log
 
       $PREFIX_PERL/bin/perl -v
       #cp $SOURCE_HOME/src/reloc_perl $PREFIX_PERL/bin/
@@ -180,7 +189,7 @@ case $1 in
 
   openssl)
       cd $BUILD_TMP
-      tar xzf $SOURCE_HOME/src/$OPENSSL.tar.gz
+      tar xzf $SOURCE_HOME/src/$OPENSSL_SOURCE_ZIP_FILE
       cd $OPENSSL
 
       # instead of patching broken PODs that cause "make install" to fail we just remove them:
@@ -390,8 +399,4 @@ case $1 in
   ;;
 esac
 
-function run {
-    echo $1
-    $1 > $LOG_DIR/$2 2>&1 
-}
 

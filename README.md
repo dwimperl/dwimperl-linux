@@ -53,12 +53,6 @@ Upgrade Perl
 -------------
 
 Look at http://www.cpan.org/src/README.html for the latest stable release of Perl
-
-```
-cd src/
-wget http://www.cpan.org/src/5.0/perl-5.20.2.tar.gz
-```
-
 Update the PERL_VERSION in build.sh
 
 OpenSSL
@@ -73,10 +67,6 @@ Look at http://www.openssl.org/  and at http://www.openssl.org/news/
 
 22-Jan-2015:    openssl-1.0.2.tar.gz
 
-```
-cd src/
-wget http://www.openssl.org/source/openssl-1.0.2.tar.gz
-```
 
 Update the OPENSSL entry in build.sh
 
