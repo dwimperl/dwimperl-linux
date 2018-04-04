@@ -39,7 +39,8 @@ ZLIB=zlib-1.2.11
 # Visit http://sourceforge.net/projects/expat/
 # and http://sourceforge.net/projects/expat/files/expat/ to see what is the latest
 # 2012.03.24 expat-2.1.0
-EXPAT=expat-2.1.0
+# 2018.04.04 expat-2.2.5
+EXPAT=expat-2.2.5
 
 ## Geo::IP
 # Needed by Geo::IP
