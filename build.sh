@@ -27,7 +27,8 @@ OPENSSL=openssl-1.0.2o
 ## libxml2 and zlib are needed for XML::LibXML
 # See http://xmlsoft.org/ and ftp://xmlsoft.org/libxml2/
 # 2014.10.16: libxml2-2.9.2
-LIBXML2=libxml2-2.9.2
+# 2018.04.04: libxml2-2.9.8
+LIBXML2=libxml2-2.9.8
 
 ## zlib
 # See http://www.zlib.net/
