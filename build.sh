@@ -21,7 +21,8 @@ PERL_VERSION=5.26.1
 # 2014.08.06:  openssl-1.0.1i.tar.gz
 # 2015.01.22:  openssl-1.0.2.tar.gz
 # 2015.10.16:  openssl-1.0.2d.tar.gz
-OPENSSL=openssl-1.0.2d
+# 2018.04.04:  openssl-1.0.2o.tar.gz
+OPENSSL=openssl-1.0.2o
 
 ## libxml2 and zlib are needed for XML::LibXML
 # See http://xmlsoft.org/ and ftp://xmlsoft.org/libxml2/
@@ -189,7 +190,8 @@ case $1 in
 
   openssl)
       cd $BUILD_TMP
-      tar xzf $SOURCE_HOME/src/$OPENSSL_SOURCE_ZIP_FILE
+      mkdir -p $OPENSSL
+      tar xzf $SOURCE_HOME/src/$OPENSSL_SOURCE_ZIP_FILE -C $OPENSSL --strip-components=1
       cd $OPENSSL
 
       # instead of patching broken PODs that cause "make install" to fail we just remove them:
