@@ -174,13 +174,15 @@ case $1 in
   ;;
 
   cpanm)
-      $PREFIX_PERL/bin/perl $SOURCE_HOME/src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ --mirror-only App::cpanminus
+      $PREFIX_PERL/bin/perl $SOURCE_HOME/src/cpanm --local-lib=$PREFIX_PERL App::cpanminus
+#      $PREFIX_PERL/bin/perl $SOURCE_HOME/src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ --mirror-only App::cpanminus
 #      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ local::lib
   ;;
 
   dwim)
       cd $SOURCE_HOME/src/DWIM
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose .
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --verbose .
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose .
   ;;
 
   external)
@@ -297,7 +299,8 @@ case $1 in
       gunzip GeoIP.dat.gz
       mkdir -p $PREFIX_C/share/GeoIP/
       mv GeoIP.dat $PREFIX_C/share/GeoIP/
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Geo::IP
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --verbose Geo::IP
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Geo::IP
       rm -f $PREFIX_C/share/GeoIP/GeoIP.dat
   ;;
 
@@ -305,11 +308,13 @@ case $1 in
   xml-libxml)
       #export XMLPREFIX=$PREFIX_C
       #echo $XMLPREFIX
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
   ;;
 
   xml-parser)
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
   ;;
 
 
@@ -317,14 +322,16 @@ case $1 in
       source $ROOT/dwim.sh
       CPAN_MODULE=$2
       echo MODULE=$CPAN_MODULE
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose $CPAN_MODULE
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --verbose $CPAN_MODULE
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose $CPAN_MODULE
   ;;
 
   notest)
       source $ROOT/dwim.sh
       CPAN_MODULE=$2
       echo MODULE=$CPAN_MODULE
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose --notest $CPAN_MODULE
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --verbose --notest $CPAN_MODULE
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose --notest $CPAN_MODULE
   ;;
 
   try)
@@ -350,7 +357,8 @@ case $1 in
 
       cd $SOURCE_HOME
       HARNESS_OPTIONS=j3
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$SOURCE_HOME/local/cache/ --mirror-only .
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps .
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$SOURCE_HOME/local/cache/ --mirror-only .
   ;;
 
   test_perl)
