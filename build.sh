@@ -32,7 +32,7 @@ LIBXML2=libxml2-2.9.8
 
 ## zlib
 # See http://www.zlib.net/
-ZLIB=zlib-1.2.8
+ZLIB=zlib-1.2.11
 
 ## expat
 # XML::Parser needs expat.
