@@ -12,7 +12,7 @@ printf "\nSet up environmet variables\n\n"
 ###################################################
 ## Perl 5
 # Look at http://www.cpan.org/src/README.html for the latest stable release of Perl
-PERL_VERSION=5.22.0
+PERL_VERSION=5.26.1
 
 ## OpenSSL is needed by Net::SSLEay which is needed by LWP::Protocol::https
 # and Business::PayPal and more.
