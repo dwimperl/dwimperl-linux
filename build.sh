@@ -48,7 +48,8 @@ EXPAT=expat-2.2.5
 # that links to https://github.com/maxmind/geoip-api-c/releases
 # 2015.02.26 1.6.5
 # 2015.07.28 1.6.6
-GEOIP=GeoIP-1.6.6
+# 2018.04.04 1.6.12
+GEOIP=GeoIP-1.6.12
 ###################################################
 
 
