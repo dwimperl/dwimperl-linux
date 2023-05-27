@@ -12,7 +12,7 @@ printf "\nSet up environmet variables\n\n"
 ###################################################
 ## Perl 5
 # Look at http://www.cpan.org/src/README.html for the latest stable release of Perl
-PERL_VERSION=5.22.0
+PERL_VERSION=5.26.1
 
 ## OpenSSL is needed by Net::SSLEay which is needed by LWP::Protocol::https
 # and Business::PayPal and more.
@@ -21,23 +21,26 @@ PERL_VERSION=5.22.0
 # 2014.08.06:  openssl-1.0.1i.tar.gz
 # 2015.01.22:  openssl-1.0.2.tar.gz
 # 2015.10.16:  openssl-1.0.2d.tar.gz
-OPENSSL=openssl-1.0.2d
+# 2018.04.04:  openssl-1.0.2o.tar.gz
+OPENSSL=openssl-1.0.2o
 
 ## libxml2 and zlib are needed for XML::LibXML
 # See http://xmlsoft.org/ and ftp://xmlsoft.org/libxml2/
 # 2014.10.16: libxml2-2.9.2
-LIBXML2=libxml2-2.9.2
+# 2018.04.04: libxml2-2.9.8
+LIBXML2=libxml2-2.9.8
 
 ## zlib
 # See http://www.zlib.net/
-ZLIB=zlib-1.2.8
+ZLIB=zlib-1.2.11
 
 ## expat
 # XML::Parser needs expat.
 # Visit http://sourceforge.net/projects/expat/
 # and http://sourceforge.net/projects/expat/files/expat/ to see what is the latest
 # 2012.03.24 expat-2.1.0
-EXPAT=expat-2.1.0
+# 2018.04.04 expat-2.2.5
+EXPAT=expat-2.2.5
 
 ## Geo::IP
 # Needed by Geo::IP
@@ -45,7 +48,8 @@ EXPAT=expat-2.1.0
 # that links to https://github.com/maxmind/geoip-api-c/releases
 # 2015.02.26 1.6.5
 # 2015.07.28 1.6.6
-GEOIP=GeoIP-1.6.6
+# 2018.04.04 1.6.12
+GEOIP=GeoIP-1.6.12
 ###################################################
 
 
@@ -170,13 +174,15 @@ case $1 in
   ;;
 
   cpanm)
-      $PREFIX_PERL/bin/perl $SOURCE_HOME/src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ --mirror-only App::cpanminus
+      $PREFIX_PERL/bin/perl $SOURCE_HOME/src/cpanm --local-lib=$PREFIX_PERL App::cpanminus
+#      $PREFIX_PERL/bin/perl $SOURCE_HOME/src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ --mirror-only App::cpanminus
 #      $PREFIX_PERL/bin/perl src/cpanm --local-lib=$PREFIX_PERL --mirror file://$SOURCE_HOME/local/cache/ local::lib
   ;;
 
   dwim)
       cd $SOURCE_HOME/src/DWIM
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose .
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --verbose .
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose .
   ;;
 
   external)
@@ -189,7 +195,8 @@ case $1 in
 
   openssl)
       cd $BUILD_TMP
-      tar xzf $SOURCE_HOME/src/$OPENSSL_SOURCE_ZIP_FILE
+      mkdir -p $OPENSSL
+      tar xzf $SOURCE_HOME/src/$OPENSSL_SOURCE_ZIP_FILE -C $OPENSSL --strip-components=1
       cd $OPENSSL
 
       # instead of patching broken PODs that cause "make install" to fail we just remove them:
@@ -292,7 +299,8 @@ case $1 in
       gunzip GeoIP.dat.gz
       mkdir -p $PREFIX_C/share/GeoIP/
       mv GeoIP.dat $PREFIX_C/share/GeoIP/
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Geo::IP
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --verbose Geo::IP
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose Geo::IP
       rm -f $PREFIX_C/share/GeoIP/GeoIP.dat
   ;;
 
@@ -300,11 +308,13 @@ case $1 in
   xml-libxml)
       #export XMLPREFIX=$PREFIX_C
       #echo $XMLPREFIX
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "LIBS='-L$PREFIX_C/lib/' INC='-I$PREFIX_C/include/ -I/$PREFIX_C/include/libxml2'" XML::LibXML
   ;;
 
   xml-parser)
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --configure-args "EXPATLIBPATH=$PREFIX_C/lib EXPATINCPATH=$PREFIX_C/include" XML::Parser
   ;;
 
 
@@ -312,14 +322,16 @@ case $1 in
       source $ROOT/dwim.sh
       CPAN_MODULE=$2
       echo MODULE=$CPAN_MODULE
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose $CPAN_MODULE
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --verbose $CPAN_MODULE
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose $CPAN_MODULE
   ;;
 
   notest)
       source $ROOT/dwim.sh
       CPAN_MODULE=$2
       echo MODULE=$CPAN_MODULE
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose --notest $CPAN_MODULE
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --verbose --notest $CPAN_MODULE
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --mirror file://$SOURCE_HOME/local/cache/ --mirror-only --verbose --notest $CPAN_MODULE
   ;;
 
   try)
@@ -345,7 +357,8 @@ case $1 in
 
       cd $SOURCE_HOME
       HARNESS_OPTIONS=j3
-      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$SOURCE_HOME/local/cache/ --mirror-only .
+      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps .
+#      $PREFIX_PERL/bin/perl $PREFIX_PERL/bin/cpanm --installdeps --mirror file://$SOURCE_HOME/local/cache/ --mirror-only .
   ;;
 
   test_perl)
